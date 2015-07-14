@@ -19,29 +19,16 @@ C 48200 41300 1 0 0 crystal-1.sym
 T 48400 41800 5 10 0 0 0 0 1
 device=CRYSTAL
 T 48400 41100 5 10 1 1 0 0 1
-refdes=X?
+refdes=X1
 T 48400 42000 5 10 0 0 0 0 1
 symversion=0.1
-}
-C 44700 41800 1 0 0 ATXmegaA3.sym
-{
-T 45100 51500 5 8 0 0 0 0 1
-symversion=1.0
-T 46900 48000 5 26 1 1 270 0 1
-description=ATXmegaA3U
-T 48100 50300 5 8 1 1 0 0 1
-footprint=TQFP64-08
-T 48100 50500 5 10 1 1 0 0 1
-value=ATXmegaA3
-T 48100 50700 5 10 1 1 0 0 1
-refdes=U?
 }
 C 48400 40500 1 90 0 capacitor-1.sym
 {
 T 47700 40700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 48100 41300 5 10 1 1 180 0 1
-refdes=C?
+refdes=C1
 T 47500 40700 5 10 0 0 90 0 1
 symversion=0.1
 }
@@ -50,7 +37,7 @@ C 49100 40500 1 90 0 capacitor-1.sym
 T 48400 40700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 49200 41300 5 10 1 1 180 0 1
-refdes=C?
+refdes=C2
 T 48200 40700 5 10 0 0 90 0 1
 symversion=0.1
 }
@@ -64,7 +51,7 @@ C 46800 50500 1 0 0 3.3V-plus-1.sym
 C 42200 40400 1 0 0 pdi.sym
 {
 T 42900 42300 5 10 1 1 0 0 1
-refdes=J?
+refdes=J1
 }
 N 45500 41900 45500 41700 4
 N 45500 41700 44800 41700 4
@@ -104,18 +91,18 @@ device=INPUT
 T 44000 44200 5 10 1 1 180 0 1
 netname=serial_rx
 }
-C 44900 42700 1 180 0 output-1.sym
-{
-T 44800 42400 5 10 0 0 180 0 1
-device=OUTPUT
-T 44000 42700 5 10 1 1 180 0 1
-netname=spi_clk
-}
 C 44900 43300 1 180 0 output-1.sym
 {
 T 44800 43000 5 10 0 0 180 0 1
 device=OUTPUT
 T 44000 43300 5 10 1 1 180 0 1
+netname=spi_clk
+}
+C 44900 42700 1 180 0 output-1.sym
+{
+T 44800 42400 5 10 0 0 180 0 1
+device=OUTPUT
+T 44000 42700 5 10 1 1 180 0 1
 netname=spi_mosi
 }
 C 44100 42800 1 0 0 input-1.sym
@@ -211,3 +198,241 @@ netname=spin_enable
 }
 T 50000 40700 9 10 1 0 0 0 1
 Microprocessor
+T 53900 40100 9 10 1 0 0 0 1
+Joseph Coffland
+T 53800 40400 9 10 1 0 0 0 1
+1.0
+T 50000 40100 9 10 1 0 0 0 1
+1
+T 51500 40100 9 10 1 0 0 0 1
+4
+C 44900 50000 1 180 0 output-1.sym
+{
+T 44800 49700 5 10 0 0 180 0 1
+device=OUTPUT
+T 44000 50000 5 10 1 1 180 0 1
+netname=step_x
+}
+C 44900 49400 1 180 0 output-1.sym
+{
+T 44800 49100 5 10 0 0 180 0 1
+device=OUTPUT
+T 44000 49400 5 10 1 1 180 0 1
+netname=enable_x
+}
+C 44900 49700 1 180 0 output-1.sym
+{
+T 44800 49400 5 10 0 0 180 0 1
+device=OUTPUT
+T 44000 49700 5 10 1 1 180 0 1
+netname=dir_x
+}
+C 49200 44800 1 180 1 output-1.sym
+{
+T 49300 44500 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 44800 5 10 1 1 180 6 1
+netname=step_y
+}
+C 49200 44200 1 180 1 output-1.sym
+{
+T 49300 43900 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 44200 5 10 1 1 180 6 1
+netname=enable_y
+}
+C 49200 44500 1 180 1 output-1.sym
+{
+T 49300 44200 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 44500 5 10 1 1 180 6 1
+netname=dir_y
+}
+C 49200 47400 1 180 1 output-1.sym
+{
+T 49300 47100 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 47400 5 10 1 1 180 6 1
+netname=step_z
+}
+C 49200 46800 1 180 1 output-1.sym
+{
+T 49300 46500 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 46800 5 10 1 1 180 6 1
+netname=enable_z
+}
+C 49200 47100 1 180 1 output-1.sym
+{
+T 49300 46800 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 47100 5 10 1 1 180 6 1
+netname=dir_z
+}
+C 49200 50000 1 180 1 output-1.sym
+{
+T 49300 49700 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 50000 5 10 1 1 180 6 1
+netname=step_a
+}
+C 49200 49400 1 180 1 output-1.sym
+{
+T 49300 49100 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 49400 5 10 1 1 180 6 1
+netname=enable_a
+}
+C 49200 49700 1 180 1 output-1.sym
+{
+T 49300 49400 5 10 0 0 180 6 1
+device=OUTPUT
+T 50100 49700 5 10 1 1 180 6 1
+netname=dir_a
+}
+C 44400 48600 1 0 0 nc-left-1.sym
+{
+T 44400 49000 5 10 0 0 0 0 1
+value=NoConnection
+T 44400 49400 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 49200 48600 1 0 0 nc-right-1.sym
+{
+T 49300 49100 5 10 0 0 0 0 1
+value=NoConnection
+T 49300 49300 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 49200 46000 1 0 0 nc-right-1.sym
+{
+T 49300 46500 5 10 0 0 0 0 1
+value=NoConnection
+T 49300 46700 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 49200 43400 1 0 0 nc-right-1.sym
+{
+T 49300 43900 5 10 0 0 0 0 1
+value=NoConnection
+T 49300 44100 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 44100 44300 1 0 0 input-1.sym
+{
+T 44100 44600 5 10 0 0 0 0 1
+device=INPUT
+T 44000 44500 5 10 1 1 180 0 1
+netname=serial_rts
+}
+C 44900 44800 1 180 0 output-1.sym
+{
+T 44800 44500 5 10 0 0 180 0 1
+device=OUTPUT
+T 44000 44800 5 10 1 1 180 0 1
+netname=serial_cts
+}
+C 44700 41800 1 0 0 ATXmegaA3.sym
+{
+T 45100 51500 5 8 0 0 0 0 1
+symversion=1.0
+T 46900 48000 5 26 1 1 270 0 1
+description=ATXmegaA3U
+T 48100 50300 5 8 1 1 0 0 1
+footprint=TQFP64-08
+T 48100 50500 5 10 1 1 0 0 1
+value=ATXmegaA3
+T 48100 50700 5 10 1 1 0 0 1
+refdes=U1
+}
+C 49200 48900 1 0 0 output-1.sym
+{
+T 49300 49200 5 10 0 0 0 0 1
+device=OUTPUT
+T 50100 48900 5 10 1 1 0 0 1
+netname=spi_cs_a
+}
+C 49200 46300 1 0 0 output-1.sym
+{
+T 49300 46600 5 10 0 0 0 0 1
+device=OUTPUT
+T 50100 46300 5 10 1 1 0 0 1
+netname=spi_cs_z
+}
+C 49200 43700 1 0 0 output-1.sym
+{
+T 49300 44000 5 10 0 0 0 0 1
+device=OUTPUT
+T 50100 43700 5 10 1 1 0 0 1
+netname=spi_cs_y
+}
+C 44900 49100 1 180 0 output-1.sym
+{
+T 44800 48800 5 10 0 0 180 0 1
+device=OUTPUT
+T 44000 49100 5 10 1 1 180 0 1
+netname=spi_cs_x
+}
+C 44400 43400 1 0 0 nc-left-1.sym
+{
+T 44400 43800 5 10 0 0 0 0 1
+value=NoConnection
+T 44400 44200 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 44900 47400 1 180 0 io-1.sym
+{
+T 44700 46800 5 10 0 0 180 0 1
+device=none
+T 44000 47300 5 10 1 1 180 1 1
+value=PB0
+}
+C 44900 47100 1 180 0 io-1.sym
+{
+T 44700 46500 5 10 0 0 180 0 1
+device=none
+T 44000 47000 5 10 1 1 180 1 1
+value=PB1
+}
+C 44900 46800 1 180 0 io-1.sym
+{
+T 44700 46200 5 10 0 0 180 0 1
+device=none
+T 44000 46700 5 10 1 1 180 1 1
+value=PB2
+}
+C 44900 46500 1 180 0 io-1.sym
+{
+T 44700 45900 5 10 0 0 180 0 1
+device=none
+T 44000 46400 5 10 1 1 180 1 1
+value=PB3
+}
+C 44900 46200 1 180 0 io-1.sym
+{
+T 44700 45600 5 10 0 0 180 0 1
+device=none
+T 44000 46100 5 10 1 1 180 1 1
+value=PB4
+}
+C 44900 45900 1 180 0 io-1.sym
+{
+T 44700 45300 5 10 0 0 180 0 1
+device=none
+T 44000 45800 5 10 1 1 180 1 1
+value=PB5
+}
+C 44900 45600 1 180 0 io-1.sym
+{
+T 44700 45000 5 10 0 0 180 0 1
+device=none
+T 44000 45500 5 10 1 1 180 1 1
+value=PB6
+}
+C 44900 45300 1 180 0 io-1.sym
+{
+T 44700 44700 5 10 0 0 180 0 1
+device=none
+T 44000 45200 5 10 1 1 180 1 1
+value=PB7
+}
