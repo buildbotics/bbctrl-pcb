@@ -4,8 +4,10 @@ C 44700 46400 1 0 0 header20-1.sym
 {
 T 44900 46150 5 10 0 1 0 0 1
 device=HEADER20
-T 45500 50700 5 10 1 1 180 0 1
-refdes=J1
+T 45800 50700 5 10 1 1 180 0 1
+refdes=motor_x
+T 44700 46400 5 10 0 0 0 0 1
+footprint=HEADER20_1
 }
 C 52100 44700 1 0 0 output-1.sym
 {
@@ -103,25 +105,29 @@ C 50700 46400 1 0 0 header20-1.sym
 {
 T 50900 46150 5 10 0 1 0 0 1
 device=HEADER20
-T 51500 50700 5 10 1 1 180 0 1
-refdes=J1
+T 51700 50700 5 10 1 1 180 0 1
+refdes=motor_y
+T 50700 46400 5 10 0 0 0 0 1
+footprint=HEADER20_1
 }
 C 44700 41800 1 0 0 header20-1.sym
 {
 T 44900 41550 5 10 0 1 0 0 1
 device=HEADER20
-T 45500 46100 5 10 1 1 180 0 1
-refdes=J1
+T 45800 46100 5 10 1 1 180 0 1
+refdes=motor_z
+T 44700 41800 5 10 0 0 0 0 1
+footprint=HEADER20_1
 }
 C 50700 41800 1 0 0 header20-1.sym
 {
 T 50900 41550 5 10 0 1 0 0 1
 device=HEADER20
-T 51500 46100 5 10 1 1 180 0 1
-refdes=J1
+T 51700 46100 5 10 1 1 180 0 1
+refdes=motor_a
+T 50700 41800 5 10 0 0 0 0 1
+footprint=HEADER20_1
 }
-T 51100 46900 5 10 1 1 180 0 1
-refdes=J1
 C 50700 49500 1 180 0 output-1.sym
 {
 T 50600 49200 5 10 0 0 180 0 1

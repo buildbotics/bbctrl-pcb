@@ -5,7 +5,9 @@ C 50900 42400 1 0 0 header40-2.sym
 T 51150 50900 5 10 0 1 0 0 1
 device=HEADER40
 T 51500 50500 5 10 1 1 0 0 1
-refdes=J?
+refdes=J200
+T 50900 42400 5 10 0 0 0 0 1
+footprint=HEADER40_1
 }
 C 52600 49300 1 90 0 gnd-1.sym
 C 52600 47700 1 90 0 gnd-1.sym
@@ -24,7 +26,9 @@ C 56000 50500 1 180 0 header26-1.sym
 T 54400 45800 5 10 0 0 180 0 1
 device=HEADER26
 T 55500 50700 5 10 1 1 180 0 1
-refdes=J?
+refdes=J201
+T 56000 50500 5 10 0 0 0 0 1
+footprint=HEADER26_1
 }
 C 54600 50000 1 90 0 3.3V-plus-1.sym
 C 54600 46800 1 90 0 3.3V-plus-1.sym
