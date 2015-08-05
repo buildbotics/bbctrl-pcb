@@ -10,302 +10,363 @@ T 50000 40100 9 10 1 0 0 0 1
 1
 T 51500 40100 9 10 1 0 0 0 1
 1
-C 56000 43700 1 0 1 DB15-1.sym
+C 53500 43600 1 0 1 DB15-1.sym
 {
-T 54900 48350 5 10 0 0 0 6 1
+T 52400 48250 5 10 0 0 0 6 1
 device=DB15
-T 55700 48700 5 10 1 1 0 6 1
+T 53200 48500 5 10 1 1 0 6 1
 refdes=J2
 }
-C 54800 48400 1 90 1 3.3V-plus-1.sym
-C 54500 44200 1 270 1 gnd-1.sym
-C 54800 47500 1 0 1 output-1.sym
+C 52300 48400 1 90 1 3.3V-plus.sym
+C 52000 44100 1 270 1 gnd.sym
+C 52300 47400 1 0 1 output.sym
 {
-T 54700 47800 5 10 0 0 0 6 1
+T 52200 47700 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 47500 5 10 1 1 0 6 1
+T 51700 47400 5 10 1 1 0 6 1
 netname=x_min
 }
-C 54800 46900 1 0 1 output-1.sym
+C 52300 46800 1 0 1 output.sym
 {
-T 54700 47200 5 10 0 0 0 6 1
+T 52200 47100 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 46900 5 10 1 1 0 6 1
+T 51700 46800 5 10 1 1 0 6 1
 netname=x_max
 }
-C 54800 46300 1 0 1 output-1.sym
+C 52300 46200 1 0 1 output.sym
 {
-T 54700 46600 5 10 0 0 0 6 1
+T 52200 46500 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 46300 5 10 1 1 0 6 1
+T 51700 46200 5 10 1 1 0 6 1
 netname=y_min
 }
-C 54800 45700 1 0 1 output-1.sym
+C 52300 45600 1 0 1 output.sym
 {
-T 54700 46000 5 10 0 0 0 6 1
+T 52200 45900 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 45700 5 10 1 1 0 6 1
+T 51700 45600 5 10 1 1 0 6 1
 netname=y_max
 }
-C 54800 45100 1 0 1 output-1.sym
+C 52300 45000 1 0 1 output.sym
 {
-T 54700 45400 5 10 0 0 0 6 1
+T 52200 45300 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 45100 5 10 1 1 0 6 1
+T 51700 45000 5 10 1 1 0 6 1
 netname=z_min
 }
-C 54800 44500 1 0 1 output-1.sym
+C 52300 44400 1 0 1 output.sym
 {
-T 54700 44800 5 10 0 0 0 6 1
+T 52200 44700 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 44500 5 10 1 1 0 6 1
+T 51700 44400 5 10 1 1 0 6 1
 netname=z_max
 }
-C 54800 43900 1 0 1 output-1.sym
+C 52300 43800 1 0 1 output.sym
 {
-T 54700 44200 5 10 0 0 0 6 1
+T 52200 44100 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 43900 5 10 1 1 0 6 1
+T 51700 43800 5 10 1 1 0 6 1
 netname=a_min
 }
-C 54800 47800 1 0 1 output-1.sym
+C 52300 47700 1 0 1 output.sym
 {
-T 54700 48100 5 10 0 0 0 6 1
+T 52200 48000 5 10 0 0 0 6 1
 device=OUTPUT
-T 53900 47800 5 10 1 1 0 6 1
+T 51700 47700 5 10 1 1 0 6 1
 netname=a_max
 }
-C 54000 47400 1 180 1 input-1.sym
+C 51500 47300 1 180 1 input.sym
 {
-T 54000 47100 5 10 0 0 180 6 1
+T 51500 47000 5 10 0 0 180 6 1
 device=INPUT
-T 53900 47200 5 10 1 1 0 6 1
+T 51700 47100 5 10 1 1 0 6 1
 netname=spin_enable
 }
-C 54000 46800 1 180 1 input-1.sym
+C 51500 46700 1 180 1 input.sym
 {
-T 54000 46500 5 10 0 0 180 6 1
+T 51500 46400 5 10 0 0 180 6 1
 device=INPUT
-T 53900 46600 5 10 1 1 0 6 1
+T 51700 46500 5 10 1 1 0 6 1
 netname=spin_dir
 }
-C 54000 46200 1 180 1 input-1.sym
+C 51500 46100 1 180 1 input.sym
 {
-T 54000 45900 5 10 0 0 180 6 1
+T 51500 45800 5 10 0 0 180 6 1
 device=INPUT
-T 53900 46000 5 10 1 1 0 6 1
+T 51700 45900 5 10 1 1 0 6 1
 netname=spin_pwm
 }
-C 54000 45600 1 180 1 input-1.sym
+C 51500 45500 1 180 1 input.sym
 {
-T 54000 45300 5 10 0 0 180 6 1
+T 51500 45200 5 10 0 0 180 6 1
 device=INPUT
-T 53900 45400 5 10 1 1 0 6 1
+T 51700 45300 5 10 1 1 0 6 1
 netname=coolant
 }
-C 42700 42000 1 0 0 header40-2.sym
+C 45600 49400 1 90 0 3.3V-plus.sym
+C 47300 49500 1 90 0 gnd.sym
+C 47300 49100 1 90 0 gnd.sym
+C 45300 45700 1 270 0 gnd.sym
+C 47300 45500 1 90 0 gnd.sym
+C 45600 41800 1 0 0 header40-2.sym
 {
-T 42950 50500 5 10 0 1 0 0 1
+T 45850 50300 5 10 0 1 0 0 1
 device=HEADER40
-T 42700 42000 5 10 0 0 0 0 1
+T 45600 41800 5 10 0 0 0 0 1
 footprint=HEADER40_1
-T 43200 50100 5 10 1 1 0 0 1
+T 46200 49900 5 10 1 1 0 0 1
 refdes=J1
 }
-C 42700 49600 1 90 0 3.3V-plus-1.sym
-C 42700 49200 1 90 0 5V-plus-1.sym
-C 44400 49700 1 90 0 gnd-1.sym
-C 44400 49300 1 90 0 gnd-1.sym
-C 44400 42100 1 90 0 gnd-1.sym
-C 42700 42000 1 90 0 12V-plus-1.sym
-C 42700 49100 1 180 0 io-1.sym
+C 47800 48900 1 180 0 input.sym
 {
-T 42500 48500 5 10 0 0 180 0 1
-device=none
-T 41800 49000 5 10 1 1 180 1 1
-value=PB0
+T 47800 48600 5 10 0 0 180 0 1
+device=INPUT
+T 47600 48700 5 10 1 1 0 0 1
+netname=x_max
 }
-C 44100 48900 1 0 0 io-1.sym
+C 47800 48500 1 180 0 input.sym
 {
-T 44300 49500 5 10 0 0 0 0 1
-device=none
-T 45000 49000 5 10 1 1 0 1 1
-value=PB1
+T 47800 48200 5 10 0 0 180 0 1
+device=INPUT
+T 47600 48300 5 10 1 1 0 0 1
+netname=y_max
 }
-C 42700 48700 1 180 0 io-1.sym
+C 47800 48100 1 180 0 input.sym
 {
-T 42500 48100 5 10 0 0 180 0 1
-device=none
-T 41800 48600 5 10 1 1 180 1 1
-value=PB2
+T 47800 47800 5 10 0 0 180 0 1
+device=INPUT
+T 47600 47900 5 10 1 1 0 0 1
+netname=z_max
 }
-C 44100 48500 1 0 0 io-1.sym
+C 47800 47700 1 180 0 input.sym
 {
-T 44300 49100 5 10 0 0 0 0 1
-device=none
-T 45000 48600 5 10 1 1 0 1 1
-value=PB3
+T 47800 47400 5 10 0 0 180 0 1
+device=INPUT
+T 47600 47500 5 10 1 1 0 0 1
+netname=a_max
 }
-C 42700 48300 1 180 0 io-1.sym
+C 44800 48900 1 180 1 input.sym
 {
-T 42500 47700 5 10 0 0 180 0 1
-device=none
-T 41800 48200 5 10 1 1 180 1 1
-value=PB4
+T 44800 48600 5 10 0 0 180 6 1
+device=INPUT
+T 45000 48700 5 10 1 1 0 6 1
+netname=x_min
 }
-C 44100 48100 1 0 0 io-1.sym
+C 44800 48500 1 180 1 input.sym
 {
-T 44300 48700 5 10 0 0 0 0 1
-device=none
-T 45000 48200 5 10 1 1 0 1 1
-value=PB5
+T 44800 48200 5 10 0 0 180 6 1
+device=INPUT
+T 45000 48300 5 10 1 1 0 6 1
+netname=y_min
 }
-C 42700 47900 1 180 0 io-1.sym
+C 44800 48100 1 180 1 input.sym
 {
-T 42500 47300 5 10 0 0 180 0 1
-device=none
-T 41800 47800 5 10 1 1 180 1 1
-value=PB6
+T 44800 47800 5 10 0 0 180 6 1
+device=INPUT
+T 45000 47900 5 10 1 1 0 6 1
+netname=z_min
 }
-C 44100 47700 1 0 0 io-1.sym
+C 44800 47700 1 180 1 input.sym
 {
-T 44300 48300 5 10 0 0 0 0 1
-device=none
-T 45000 47800 5 10 1 1 0 1 1
-value=PB7
+T 44800 47400 5 10 0 0 180 6 1
+device=INPUT
+T 45000 47500 5 10 1 1 0 6 1
+netname=a_min
 }
-C 42400 45900 1 270 0 gnd-1.sym
-C 42700 44700 1 180 0 output-1.sym
+C 45600 44900 1 180 0 output.sym
 {
-T 42600 44400 5 10 0 0 180 0 1
+T 45500 44600 5 10 0 0 180 0 1
 device=OUTPUT
-T 41800 44700 5 10 1 1 180 0 1
-netname=spi_miso
+T 45000 44900 5 10 1 1 180 0 1
+netname=spin_pwm
 }
-C 41900 45300 1 0 0 input-1.sym
+C 45600 45300 1 180 0 output.sym
 {
-T 41900 45600 5 10 0 0 0 0 1
+T 45500 45000 5 10 0 0 180 0 1
+device=OUTPUT
+T 45000 45300 5 10 1 1 180 0 1
+netname=spin_enable
+}
+C 47000 45300 1 180 1 output.sym
+{
+T 47100 45000 5 10 0 0 180 6 1
+device=OUTPUT
+T 47600 45300 5 10 1 1 180 6 1
+netname=spin_dir
+}
+C 47000 44900 1 180 1 output.sym
+{
+T 47100 44600 5 10 0 0 180 6 1
+device=OUTPUT
+T 47600 44900 5 10 1 1 180 6 1
+netname=coolant
+}
+N 52300 48200 52300 48100 4
+C 52300 44700 1 0 1 output.sym
+{
+T 52200 45000 5 10 0 0 0 6 1
+device=OUTPUT
+T 51700 44700 5 10 1 1 0 6 1
+netname=z_probe
+}
+C 44800 47300 1 180 1 input.sym
+{
+T 44800 47000 5 10 0 0 180 6 1
 device=INPUT
-T 41800 45500 5 10 1 1 180 0 1
-netname=spi_clk
+T 45000 47100 5 10 1 1 0 6 1
+netname=z_probe
 }
-C 41900 44900 1 0 0 input-1.sym
+C 45300 46700 1 0 0 nc.sym
 {
-T 41900 45200 5 10 0 0 0 0 1
-device=INPUT
-T 41800 45100 5 10 1 1 180 0 1
-netname=spi_mosi
+T 45300 47100 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 47500 5 10 0 0 0 0 1
+device=DRC_Directive
 }
-C 42700 47100 1 180 0 io-1.sym
+C 45300 46300 1 0 0 nc.sym
 {
-T 42500 46500 5 10 0 0 180 0 1
-device=none
-T 41800 47000 5 10 1 1 180 1 1
-value=BCM2
+T 45300 46700 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 47100 5 10 0 0 0 0 1
+device=DRC_Directive
 }
-C 44100 47100 1 180 1 io-1.sym
+C 45300 45900 1 0 0 nc.sym
 {
-T 44300 46500 5 10 0 0 180 6 1
-device=none
-T 45000 47000 5 10 1 1 180 7 1
-value=BCM3
+T 45300 46300 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 46700 5 10 0 0 0 0 1
+device=DRC_Directive
 }
-C 42700 46700 1 180 0 io-1.sym
+C 47300 47300 1 180 0 nc.sym
 {
-T 42500 46100 5 10 0 0 180 0 1
-device=none
-T 41800 46600 5 10 1 1 180 1 1
-value=BCM4
+T 47200 46800 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 46600 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 44100 43500 1 180 1 io-1.sym
+C 47300 46900 1 180 0 nc.sym
 {
-T 44300 42900 5 10 0 0 180 6 1
-device=none
-T 45000 43400 5 10 1 1 180 7 1
-value=BCM17
+T 47200 46400 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 46200 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 44100 42700 1 180 1 io-1.sym
+C 47300 46500 1 180 0 nc.sym
 {
-T 44300 42100 5 10 0 0 180 6 1
-device=none
-T 45000 42600 5 10 1 1 180 7 1
-value=BCM27
+T 47200 46000 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 45800 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 42700 43100 1 180 0 io-1.sym
+C 47300 46100 1 180 0 nc.sym
 {
-T 42500 42500 5 10 0 0 180 0 1
-device=none
-T 41800 43000 5 10 1 1 180 1 1
-value=BCM22
+T 47200 45600 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 45400 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 42700 47500 1 180 0 io-1.sym
+C 47300 44100 1 180 0 nc.sym
 {
-T 42500 46900 5 10 0 0 180 0 1
-device=none
-T 41800 47400 5 10 1 1 180 1 1
-value=BCM0
+T 47200 43600 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 43400 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 44100 46700 1 180 1 io-1.sym
+C 47300 43700 1 180 0 nc.sym
 {
-T 44300 46100 5 10 0 0 180 6 1
-device=none
-T 45000 46600 5 10 1 1 180 7 1
-value=BCM5
+T 47200 43200 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 43000 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 42700 46300 1 180 0 io-1.sym
+C 47300 43300 1 180 0 nc.sym
 {
-T 42500 45700 5 10 0 0 180 0 1
-device=none
-T 41800 46200 5 10 1 1 180 1 1
-value=BCM6
+T 47200 42800 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 42600 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 44100 43900 1 180 1 io-1.sym
+C 47300 42900 1 180 0 nc.sym
 {
-T 44300 43300 5 10 0 0 180 6 1
-device=none
-T 45000 43800 5 10 1 1 180 7 1
-value=BCM13
+T 47200 42400 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 42200 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 42700 42700 1 180 0 io-1.sym
+C 45300 43500 1 0 0 nc.sym
 {
-T 42500 42100 5 10 0 0 180 0 1
-device=none
-T 41800 42600 5 10 1 1 180 1 1
-value=BCM26
+T 45300 43900 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 44300 5 10 0 0 0 0 1
+device=DRC_Directive
 }
-C 42700 43300 1 0 1 io-1.sym
+C 45300 43100 1 0 0 nc.sym
 {
-T 42500 43900 5 10 0 0 0 6 1
-device=none
-T 41800 43400 5 10 1 1 0 7 1
-value=BCM18
+T 45300 43500 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 43900 5 10 0 0 0 0 1
+device=DRC_Directive
 }
-C 44100 42900 1 0 0 io-1.sym
+C 45300 42700 1 0 0 nc.sym
 {
-T 44300 43500 5 10 0 0 0 0 1
-device=none
-T 45000 43000 5 10 1 1 0 1 1
-value=BCM23
+T 45300 43100 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 43500 5 10 0 0 0 0 1
+device=DRC_Directive
 }
-C 44100 47300 1 0 0 io-1.sym
+C 45300 49100 1 0 0 nc.sym
 {
-T 44300 47900 5 10 0 0 0 0 1
-device=none
-T 45000 47400 5 10 1 1 0 1 1
-value=BCM1
+T 45300 49500 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 49900 5 10 0 0 0 0 1
+device=DRC_Directive
 }
-C 42700 44100 1 0 1 io-1.sym
+C 47300 42500 1 180 0 nc.sym
 {
-T 42500 44700 5 10 0 0 0 6 1
-device=none
-T 41800 44200 5 10 1 1 0 7 1
-value=BCM12
+T 47200 42000 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 41800 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 42700 43700 1 0 1 io-1.sym
+C 47300 42100 1 180 0 nc.sym
 {
-T 42500 44300 5 10 0 0 0 6 1
-device=none
-T 41800 43800 5 10 1 1 0 7 1
-value=BCM16
+T 47200 41600 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 41400 5 10 0 0 180 0 1
+device=DRC_Directive
 }
-C 44400 45700 1 90 0 gnd-1.sym
+C 45300 42300 1 0 0 nc.sym
+{
+T 45300 42700 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 43100 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 45300 41900 1 0 0 nc.sym
+{
+T 45300 42300 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 42700 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 47300 44500 1 180 0 nc.sym
+{
+T 47200 44000 5 10 0 0 180 0 1
+value=NoConnection
+T 47200 43800 5 10 0 0 180 0 1
+device=DRC_Directive
+}
+C 45300 43900 1 0 0 nc.sym
+{
+T 45300 44300 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 44700 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 45300 44300 1 0 0 nc.sym
+{
+T 45300 44700 5 10 0 0 0 0 1
+value=NoConnection
+T 45300 45100 5 10 0 0 0 0 1
+device=DRC_Directive
+}
