@@ -1,0 +1,10 @@
+Element (0x00 "Molex Element 26-01-3114" "" "" 0 0 0 0 0 100 0x00)
+(
+  Pin(0 0 100 0 140 70 "Pin 1" "1" 0x0121)
+  Pin(-217 0 100 0 140 70 "Pin 2" "2" 0x0121)
+  Pin(287 0 118 0 150 118 "Mounting Hole" "1" 0x8)
+  ElementLine(-220 -100 150 -100 10)
+  ElementLine(150 -100 150 100 10)
+  ElementLine(150 100 -220 100 10)
+  ElementLine(-220 100 -220 -100 10)
+)
