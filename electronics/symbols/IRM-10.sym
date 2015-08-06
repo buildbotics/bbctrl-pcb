@@ -1,0 +1,58 @@
+v 20130925 2
+P 1700 400 1400 400 1 0 0
+{
+T 1900 400 5 10 0 0 180 0 1
+pintype=pwr
+T 1345 395 5 10 1 1 0 6 1
+pinlabel=Vcc
+T 1495 445 5 10 1 1 0 0 1
+pinnumber=3
+T 1900 400 5 10 0 0 180 0 1
+pinseq=3
+}
+P 0 100 300 100 1 0 0
+{
+T -200 100 5 10 0 0 0 0 1
+pintype=pwr
+T 355 95 5 10 1 1 0 0 1
+pinlabel=AC/N
+T 205 145 5 10 1 1 0 6 1
+pinnumber=2
+T -200 100 5 10 0 0 0 0 1
+pinseq=2
+}
+P 0 400 300 400 1 0 0
+{
+T -200 400 5 10 0 0 180 0 1
+pintype=pwr
+T 355 395 5 10 1 1 0 0 1
+pinlabel=AC/L
+T 205 445 5 10 1 1 0 6 1
+pinnumber=1
+T -200 400 5 10 0 0 180 0 1
+pinseq=1
+}
+P 1700 100 1400 100 1 0 0
+{
+T 1900 100 5 10 0 0 0 0 1
+pintype=pwr
+T 1345 95 5 10 1 1 0 6 1
+pinlabel=Gnd
+T 1495 145 5 10 1 1 0 0 1
+pinnumber=4
+T 1900 100 5 10 0 0 0 0 1
+pinseq=4
+}
+T 905 755 8 10 1 1 180 0 1
+device=IRM-10
+T 1355 1105 8 10 0 0 180 0 1
+footprint=IRM-10
+B 300 0 1100 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1195 620 8 10 1 1 0 0 1
+refdes=U?
+T -5 1593 8 10 0 0 0 0 1
+author=Joseph Coffland
+T -5 1393 8 10 0 0 0 0 1
+dist-license=GPLv2+
+T -5 1193 8 10 0 0 0 0 1
+documentation=http://www.mouser.com/ds/2/260/IRM-10-spec-267994.pdf
