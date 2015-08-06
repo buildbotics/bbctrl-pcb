@@ -1,0 +1,17 @@
+v 20061020 1
+T 0 0 9 10 0 0 0 0 1
+author=DJ Delorie
+T 0 0 9 10 0 0 0 0 1
+copyright=2006 DJ Delorie
+T 0 0 9 10 0 0 0 0 1
+dist-license=GPL
+T 0 0 9 10 0 0 0 0 1
+use-license=unlimited
+T 0 0 9 10 0 0 0 0 1
+description=Off-page reference flag
+T 500 300 8 10 0 1 0 0 1
+graphical=1
+L -25 0 25 200 3 0 0 0 -1 -1
+L 25 200 1225 200 3 0 0 0 -1 -1
+L 1225 200 1175 0 3 0 0 0 -1 -1
+L 1175 0 -25 0 3 0 0 0 -1 -1
