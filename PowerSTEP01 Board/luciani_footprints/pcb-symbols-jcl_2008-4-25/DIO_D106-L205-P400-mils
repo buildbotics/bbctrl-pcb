@@ -1,0 +1,12 @@
+Element(0x0 "diode--D106-L205-P400-mils" "" "" 0 -95 0 100 0x0)
+(
+   Pin(0 0 75 52 "" "1" 0x01)
+   Pin(400 0 75 52 "" "2" 0x01)
+   ElementLine(154 0 53 0 10)
+   ElementLine(154 -53 154 53 10)
+   ElementLine(245 -53 154 0 10)
+   ElementLine(245 0 346 0 10)
+   ElementLine(245 -53 245 53 10)
+   ElementLine(245 53 154 0 10)
+   Mark(0 0)
+)

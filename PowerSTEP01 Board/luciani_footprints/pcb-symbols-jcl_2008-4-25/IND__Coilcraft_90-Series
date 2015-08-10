@@ -1,0 +1,12 @@
+Element(0x0 "inductor-Coilcraft-90" "" "" 0 -129 0 100 0x0)
+(
+   Pin(0 0 70 46 "" "1" 0x01)
+   Pin(500 0 70 46 "" "2" 0x01)
+   ElementLine(89 0 43 0 10)
+   ElementLine(411 0 457 0 10)
+   ElementLine(89 -59 89 59 10)
+   ElementLine(411 -59 411 59 10)
+   ElementLine(89 -59 411 -59 10)
+   ElementLine(89 59 411 59 10)
+   Mark(0 0)
+)

@@ -1,0 +1,12 @@
+Element(0x0 "cap-elec-Panasonic-FK--D10.00-H10.20-mm" "" "" -138 -237 0 100 0x0)
+(
+   Pad(-47 0 47 0 43 "" "1" 0x0100)
+   Pad(271 0 366 0 43 "" "2" 0x0100)
+   ElementLine(-78 -106 34 -212 10)
+   ElementLine(34 -212 397 -212 10)
+   ElementLine(397 -212 397 212 10)
+   ElementLine(397 212 34 212 10)
+   ElementLine(34 212 -78 106 10)
+   ElementLine(-78 106 -78 -106 10)
+   Mark(0 0)
+)

@@ -1,0 +1,13 @@
+Element(0x0 "hard-hex-standoff-8" "" "" -169 -210 0 100 0x0)
+(
+   ElementLine(-144 0 -72 125 10)
+   ElementLine(-72 125 72 125 10)
+   ElementLine(72 125 144 0 10)
+   ElementLine(144 0 72 -125 10)
+   ElementLine(72 -125 -72 -125 10)
+   ElementLine(-72 -125 -144 0 10)
+   ElementLine(-20 0 20 0 10)
+   ElementLine(0 -20 0 20 10)
+   ElementArc(0 0 88 88 0 360 10)
+   Mark(0 0)
+)

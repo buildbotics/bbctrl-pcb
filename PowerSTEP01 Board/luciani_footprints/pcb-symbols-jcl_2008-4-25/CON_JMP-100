@@ -1,0 +1,10 @@
+Element(0x0 "con-jumper--100-mil" "" "" -125 -135 0 100 0x0)
+(
+   Pin(-50 0 65 46 "" "1" 0x0101)
+   Pin(50 0 65 46 "" "2" 0x01)
+   ElementLine(-100 50 100 50 10)
+   ElementLine(100 50 100 -50 10)
+   ElementLine(100 -50 -100 -50 10)
+   ElementLine(-100 -50 -100 50 10)
+   Mark(0 0)
+)

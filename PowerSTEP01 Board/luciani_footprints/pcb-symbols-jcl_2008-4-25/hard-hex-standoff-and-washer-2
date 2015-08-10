@@ -1,0 +1,13 @@
+Element(0x0 "hard-hex-standoff-and-washer-2" "" "" -133 -179 0 100 0x0)
+(
+   Pin(0 0 125 93 "" "1" 0x09)
+   ElementLine(-108 0 -54 94 10)
+   ElementLine(-54 94 54 94 10)
+   ElementLine(54 94 108 0 10)
+   ElementLine(108 0 54 -94 10)
+   ElementLine(54 -94 -54 -94 10)
+   ElementLine(-54 -94 -108 0 10)
+   ElementArc(0 0 52 52 0 360 10)
+   ElementArc(0 0 125 125 0 360 10)
+   Mark(0 0)
+)
