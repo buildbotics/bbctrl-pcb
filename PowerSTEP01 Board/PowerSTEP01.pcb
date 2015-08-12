@@ -1330,7 +1330,7 @@ Element["" "A1921-ND JUMPER.fp" "JP2" "unknown" 65.9179mm 4.9628mm 96.00mil -50.
 
 	)
 
-Element["hidename" "0402.fp" "R9" "unknown" 46.9966mm 284.00mil -31.50mil -31.50mil 0 100 ""]
+Element["hidename" "0402.fp" "R9" "470" 46.9966mm 284.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1656,7 +1656,7 @@ Element["hidename" "0402.fp" "C20" "470nF" 3170.00mil 32.5054mm -31.50mil 31.50m
 
 	)
 
-Element["hidename" "Model 22A trimpot.fp" "R12" "0-100k" 3072.00mil 1437.00mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "Model 22A trimpot.fp" "R12" "0-50k" 3072.00mil 1437.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "VARIABLE_RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1680,7 +1680,7 @@ Element["hidename" "PowerSTEP01.fp" "U1" "unknown" 56.9005mm 19.0344mm 0.0000 0.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-228.00mil -248.00mil -204.00mil -248.00mil 7.00mil 0.0000 10.00mil "VS" "1" "square"]
+	Pad[-228.00mil -248.00mil -204.00mil -248.00mil 7.00mil 0.0000 10.00mil "VS" "1" "square,warn"]
 	Pad[-228.00mil -233.00mil -204.00mil -233.00mil 7.00mil 0.0000 10.00mil "VS" "2" "square"]
 	Pad[-228.00mil -217.00mil -204.00mil -217.00mil 7.00mil 0.0000 10.00mil "VS" "3" "square"]
 	Pad[-228.00mil -201.00mil -204.00mil -201.00mil 7.00mil 0.0000 10.00mil "VS" "4" "square"]
@@ -2786,7 +2786,7 @@ Layer(7 "silk")
 )
 Layer(8 "silk")
 (
-	Text[73.00mil 1420.00mil 0 100 "Buildbotics LLC Copyright 2015" "clearline,selected"]
+	Text[73.00mil 1420.00mil 0 100 "Buildbotics LLC Copyright 2015" "clearline"]
 )
 NetList()
 (

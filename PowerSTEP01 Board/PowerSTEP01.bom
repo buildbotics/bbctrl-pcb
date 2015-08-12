@@ -1,5 +1,5 @@
 # PcbBOM Version 1.0
-# Date: Mon 10 Aug 2015 11:54:45 PM GMT UTC
+# Date: Wed 12 Aug 2015 04:25:20 AM GMT UTC
 # Author: Doug Coffland
 # Title: (unknown) - PCB BOM
 # Quantity, Description, Value, RefDes
@@ -7,25 +7,18 @@
 1,"4-pos x .375 pitch barrier strip.fp","unknown",J2 
 2,"16 mm radial polarized cap.fpt","220",C3 C4 
 6,"2512",".1 ohm",R4 R5 R6 R3 R2 R1 
-1,"3M 951220-7622-AR.fp","unknown",J3 
 6,"0402.fp","75",R14 R16 R18 R15 R19 R17 
-2,"SOIC-127P-600L1-16N","unknown",U3 U2
-4,"0402.fp","100nF",C17 C16 C18 C19
+2,"SOIC-127P-600L1-16N","unknown",U3 U2 
+4,"0402.fp","100nF",C17 C16 C18 C19 
 4,"0402.fp","1uF",C13 C12 C14 C15 
-2,"A1921-ND JUMPER.fp","unknown",JP1 JP2
+2,"A1921-ND JUMPER.fp","unknown",JP1 JP2 
 3,"0402.fp","39k",R7 R13 R8 
-1,"0402.fp","unknown",R9 
-2,"0402.fp","470",R10 R23 
-3,"0603","unknown",LED2 LED1 LED3
-2,"Phoenix Contact 1814841.fp","unknown",J5 J4 
-1,"Molex 39-03-0040.fp","unknown",J1 
+3,"0402.fp","470",R9 R10 R23 
+3,"0603","unknown",LED2 LED1 LED3 
 4,"0805.fp",".22",C5 C6 C7 C8 
 1,"0402.fp","10k",R20 
 1,"0201.fp","10nf",C11 
-1,"0805.fp","470nf",C1
- 
-3,"SOT23-95P-240L1-3N__On-Semi_318-08-Package","unknown",D1 D2 D3 
-2,"0603.fp","0",R21 R22 
+1,"0805.fp","470nf",C1 
 1,"SOD323.fp","3.6V",Z1 
 1,"0805.fp","100k",R11 
 1,"0201.fp","3.3nf",C10 
@@ -33,7 +26,12 @@
 1,"0402.fp","100nf",C9 
 1,"0402.fp","220nF",C22 
 1,"0805.fp","22",C23 
+2,"0603.fp","0",R22 R21 
 1,"0603.fp","100nF",C21 
 1,"0402.fp","470nF",C20 
-1,"Model 22A trimpot.fp","0-100k",R12 
+1,"Model 22A trimpot.fp","0-50k",R12 
 1,"PowerSTEP01.fp","unknown",U1 
+4,"0603.fp","unknown",D4 D1 D3 D2 
+1,"Molex 39-03-0040.fp","unknown",J1 
+2,"Phoenix Contact 1814841.fp","unknown",J5 J4 
+1,"3M 951220-7622-AR.fp","unknown",J3 

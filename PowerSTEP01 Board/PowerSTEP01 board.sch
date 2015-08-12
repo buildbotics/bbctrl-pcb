@@ -264,9 +264,9 @@ device=VARIABLE_RESISTOR
 T 40900 48500 5 10 1 1 90 0 1
 refdes=R12
 T 41300 47900 5 10 0 0 0 0 1
-model=22AR100KLFTR
+model=22AR50KLFTR
 T 40800 48900 5 10 1 1 0 0 1
-value=0-100k
+value=0-50k
 T 41300 47900 5 10 0 0 0 0 1
 footprint=Model 22A trimpot.fp
 }
