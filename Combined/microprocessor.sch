@@ -87,33 +87,12 @@ device=DRC_Directive
 C 42400 41900 1 270 0 3.3V-plus.sym
 N 42400 41700 42200 41700 4
 N 45000 50200 45000 50400 4
-C 44000 43800 1 180 0 output.sym
-{
-T 43900 43500 5 10 0 0 180 0 1
-device=OUTPUT
-T 42600 43700 5 10 1 1 0 0 1
-refdes=serial_tx
-}
 C 43200 43900 1 0 0 input.sym
 {
 T 43200 44200 5 10 0 0 0 0 1
 device=INPUT
 T 42600 44000 5 10 1 1 0 0 1
 refdes=serial_rx
-}
-C 44000 43200 1 180 0 output.sym
-{
-T 43900 42900 5 10 0 0 180 0 1
-device=OUTPUT
-T 42800 43100 5 10 1 1 0 0 1
-refdes=spi_clk
-}
-C 44000 42600 1 180 0 output.sym
-{
-T 43900 42300 5 10 0 0 180 0 1
-device=OUTPUT
-T 42700 42500 5 10 1 1 0 0 1
-refdes=spi_mosi
 }
 C 43200 42700 1 0 0 input.sym
 {
@@ -178,34 +157,6 @@ device=INPUT
 T 42900 47700 5 10 1 1 0 0 1
 refdes=x_max
 }
-C 48300 45600 1 0 0 output.sym
-{
-T 48400 45900 5 10 0 0 0 0 1
-device=OUTPUT
-T 48900 45700 5 10 1 1 0 0 1
-refdes=coolant
-}
-C 48300 48200 1 0 0 output.sym
-{
-T 48400 48500 5 10 0 0 0 0 1
-device=OUTPUT
-T 48800 48300 5 10 1 1 0 0 1
-refdes=spin_pwm
-}
-C 48300 43000 1 0 0 output.sym
-{
-T 48400 43300 5 10 0 0 0 0 1
-device=OUTPUT
-T 48900 43100 5 10 1 1 0 0 1
-refdes=spin_dir
-}
-C 44000 48400 1 180 0 output.sym
-{
-T 43900 48100 5 10 0 0 180 0 1
-device=OUTPUT
-T 42500 48300 5 10 1 1 0 0 1
-refdes=spin_enable
-}
 T 50000 40700 9 10 1 0 0 0 1
 Microprocessor
 T 53900 40100 9 10 1 0 0 0 1
@@ -216,82 +167,12 @@ T 50000 40100 9 10 1 0 0 0 1
 1
 T 51500 40100 9 10 1 0 0 0 1
 5
-C 48300 44700 1 180 1 output.sym
-{
-T 48400 44400 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 44600 5 10 1 1 0 0 1
-refdes=step_y
-}
-C 48300 44100 1 180 1 output.sym
-{
-T 48400 43800 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 44000 5 10 1 1 0 0 1
-refdes=enable_y
-}
-C 48300 44400 1 180 1 output.sym
-{
-T 48400 44100 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 44300 5 10 1 1 0 0 1
-refdes=dir_y
-}
-C 48300 47300 1 180 1 output.sym
-{
-T 48400 47000 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 47200 5 10 1 1 0 0 1
-refdes=step_z
-}
-C 48300 46700 1 180 1 output.sym
-{
-T 48400 46400 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 46600 5 10 1 1 0 0 1
-refdes=enable_z
-}
-C 48300 47000 1 180 1 output.sym
-{
-T 48400 46700 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 46900 5 10 1 1 0 0 1
-refdes=dir_z
-}
-C 48300 49900 1 180 1 output.sym
-{
-T 48400 49600 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 49800 5 10 1 1 0 0 1
-refdes=step_a
-}
-C 48300 49300 1 180 1 output.sym
-{
-T 48400 49000 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 49200 5 10 1 1 0 0 1
-refdes=enable_a
-}
-C 48300 49600 1 180 1 output.sym
-{
-T 48400 49300 5 10 0 0 180 6 1
-device=OUTPUT
-T 48900 49500 5 10 1 1 0 0 1
-refdes=dir_a
-}
 C 43200 44200 1 0 0 input.sym
 {
 T 43200 44500 5 10 0 0 0 0 1
 device=INPUT
 T 42600 44300 5 10 1 1 0 0 1
 refdes=serial_rts
-}
-C 44000 44700 1 180 0 output.sym
-{
-T 43900 44400 5 10 0 0 180 0 1
-device=OUTPUT
-T 42600 44600 5 10 1 1 0 0 1
-refdes=serial_cts
 }
 C 43800 41700 1 0 0 ATXmegaA3.sym
 {
@@ -303,27 +184,6 @@ T 47200 50200 5 8 0 0 0 0 1
 footprint=TQFP64_14
 T 47800 50200 5 10 1 1 0 0 1
 refdes=U1
-}
-C 48300 48800 1 0 0 output.sym
-{
-T 48400 49100 5 10 0 0 0 0 1
-device=OUTPUT
-T 48900 48900 5 10 1 1 0 0 1
-refdes=spi_cs_a
-}
-C 48300 46200 1 0 0 output.sym
-{
-T 48400 46500 5 10 0 0 0 0 1
-device=OUTPUT
-T 48900 46300 5 10 1 1 0 0 1
-refdes=spi_cs_z
-}
-C 48300 43600 1 0 0 output.sym
-{
-T 48400 43900 5 10 0 0 0 0 1
-device=OUTPUT
-T 48900 43700 5 10 1 1 0 0 1
-refdes=spi_cs_y
 }
 C 44000 47300 1 180 0 io.sym
 {
@@ -401,34 +261,6 @@ N 47300 41200 47450 41200 4
 N 48000 40500 47300 40500 4
 N 47300 40500 47300 40600 4
 N 48000 40500 48000 40600 4
-C 44000 49900 1 180 0 output.sym
-{
-T 43900 49600 5 10 0 0 180 0 1
-device=OUTPUT
-T 42900 49800 5 10 1 1 0 0 1
-refdes=step_x
-}
-C 44000 49600 1 180 0 output.sym
-{
-T 43900 49300 5 10 0 0 180 0 1
-device=OUTPUT
-T 43000 49500 5 10 1 1 0 0 1
-refdes=dir_x
-}
-C 44000 49300 1 180 0 output.sym
-{
-T 43900 49000 5 10 0 0 180 0 1
-device=OUTPUT
-T 42700 49200 5 10 1 1 0 0 1
-refdes=enable_x
-}
-C 44000 49000 1 180 0 output.sym
-{
-T 43900 48700 5 10 0 0 180 0 1
-device=OUTPUT
-T 42700 48900 5 10 1 1 0 0 1
-refdes=spi_cs_x
-}
 C 49100 48700 1 180 0 input.sym
 {
 T 49100 48400 5 10 0 0 180 0 1
@@ -456,4 +288,172 @@ T 49100 43200 5 10 0 0 180 0 1
 device=INPUT
 T 48900 43400 5 10 1 1 0 0 1
 refdes=fault_y
+}
+C 44000 44500 1 0 1 output-1.sym
+{
+T 43900 44800 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 44600 5 10 1 1 0 0 1
+refdes=serial_cts
+}
+C 44000 43600 1 0 1 output-1.sym
+{
+T 43900 43900 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 43700 5 10 1 1 0 0 1
+refdes=serial_tx
+}
+C 44000 43000 1 0 1 output-1.sym
+{
+T 43900 43300 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 43100 5 10 1 1 0 0 1
+refdes=spi_clk
+}
+C 44000 42400 1 0 1 output-1.sym
+{
+T 43900 42700 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 42500 5 10 1 1 0 0 1
+refdes=spi_mosi
+}
+C 44000 48200 1 0 1 output-1.sym
+{
+T 43900 48500 5 10 0 0 0 6 1
+device=OUTPUT
+T 42200 48200 5 10 1 1 0 0 1
+refdes=spin_enable
+}
+C 44000 48800 1 0 1 output-1.sym
+{
+T 43900 49100 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 48900 5 10 1 1 0 0 1
+refdes=spi_cs_x
+}
+C 44000 49100 1 0 1 output-1.sym
+{
+T 43900 49400 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 49200 5 10 1 1 0 0 1
+refdes=enable_x
+}
+C 44000 49400 1 0 1 output-1.sym
+{
+T 43900 49700 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 49500 5 10 1 1 0 0 1
+refdes=dir_x
+}
+C 44000 49700 1 0 1 output-1.sym
+{
+T 43900 50000 5 10 0 0 0 6 1
+device=OUTPUT
+T 42500 49800 5 10 1 1 0 0 1
+refdes=step_x
+}
+C 48300 49700 1 0 0 output-1.sym
+{
+T 48400 50000 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 49800 5 10 1 1 0 6 1
+refdes=step_a
+}
+C 48300 49400 1 0 0 output-1.sym
+{
+T 48400 49700 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 49500 5 10 1 1 0 6 1
+refdes=dir_a
+}
+C 48300 49100 1 0 0 output-1.sym
+{
+T 48400 49400 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 49200 5 10 1 1 0 6 1
+refdes=enable_a
+}
+C 48300 48800 1 0 0 output-1.sym
+{
+T 48400 49100 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 48900 5 10 1 1 0 6 1
+refdes=spi_cs_a
+}
+C 48300 48200 1 0 0 output-1.sym
+{
+T 48400 48500 5 10 0 0 0 0 1
+device=OUTPUT
+T 50000 48300 5 10 1 1 0 6 1
+refdes=spin_pwm
+}
+C 48300 47100 1 0 0 output-1.sym
+{
+T 48400 47400 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 47200 5 10 1 1 0 6 1
+refdes=step_z
+}
+C 48300 46800 1 0 0 output-1.sym
+{
+T 48400 47100 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 46900 5 10 1 1 0 6 1
+refdes=dir_z
+}
+C 48300 46500 1 0 0 output-1.sym
+{
+T 48400 46800 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 46600 5 10 1 1 0 6 1
+refdes=enable_z
+}
+C 48300 46200 1 0 0 output-1.sym
+{
+T 48400 46500 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 46300 5 10 1 1 0 6 1
+refdes=spi_cs_z
+}
+C 48300 45600 1 0 0 output-1.sym
+{
+T 48400 45900 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 45700 5 10 1 1 0 6 1
+refdes=coolant
+}
+C 48300 44500 1 0 0 output-1.sym
+{
+T 48400 44800 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 44600 5 10 1 1 0 6 1
+refdes=step_y
+}
+C 48300 44200 1 0 0 output-1.sym
+{
+T 48400 44500 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 44300 5 10 1 1 0 6 1
+refdes=dir_y
+}
+C 48300 43900 1 0 0 output-1.sym
+{
+T 48400 44200 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 44000 5 10 1 1 0 6 1
+refdes=enable_y
+}
+C 48300 43600 1 0 0 output-1.sym
+{
+T 48400 43900 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 43700 5 10 1 1 0 6 1
+refdes=spi_cs_y
+}
+C 48300 43000 1 0 0 output-1.sym
+{
+T 48400 43300 5 10 0 0 0 0 1
+device=OUTPUT
+T 49800 43100 5 10 1 1 0 6 1
+refdes=spin_dir
 }
