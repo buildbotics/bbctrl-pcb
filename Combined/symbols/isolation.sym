@@ -1,0 +1,680 @@
+v 20130925 2
+P 900 0 900 200 1 0 0
+{
+T 900 0 5 8 0 0 0 0 1
+pintype=input
+T 900 255 5 8 1 1 90 0 1
+pinlabel=spi_clk
+T 850 105 5 8 0 1 90 6 1
+pinnumber=1
+T 900 0 5 8 0 0 0 0 1
+pinseq=1
+}
+P 1100 0 1100 200 1 0 0
+{
+T 1100 0 5 8 0 0 0 0 1
+pintype=output
+T 1100 255 5 8 1 1 90 0 1
+pinlabel=spi_miso
+T 1050 105 5 8 0 1 90 6 1
+pinnumber=2
+T 1100 0 5 8 0 0 0 0 1
+pinseq=2
+}
+P 1300 0 1300 200 1 0 0
+{
+T 1300 0 5 8 0 0 0 0 1
+pintype=input
+T 1300 255 5 8 1 1 90 0 1
+pinlabel=spi_mosi
+T 1250 105 5 8 0 1 90 6 1
+pinnumber=3
+T 1300 0 5 8 0 0 0 0 1
+pinseq=3
+}
+P 1600 0 1600 200 1 0 0
+{
+T 1600 0 5 8 0 0 0 0 1
+pintype=input
+T 1600 255 5 8 1 1 90 0 1
+pinlabel=step_x
+T 1550 105 5 8 0 1 90 6 1
+pinnumber=4
+T 1600 0 5 8 0 0 0 0 1
+pinseq=4
+}
+P 1800 0 1800 200 1 0 0
+{
+T 1800 0 5 8 0 0 0 0 1
+pintype=input
+T 1800 255 5 8 1 1 90 0 1
+pinlabel=dir_x
+T 1750 105 5 8 0 1 90 6 1
+pinnumber=5
+T 1800 0 5 8 0 0 0 0 1
+pinseq=5
+}
+P 2000 0 2000 200 1 0 0
+{
+T 2000 0 5 8 0 0 0 0 1
+pintype=input
+T 2000 255 5 8 1 1 90 0 1
+pinlabel=enable_x
+T 1950 105 5 8 0 1 90 6 1
+pinnumber=6
+T 2000 0 5 8 0 0 0 0 1
+pinseq=6
+}
+P 2200 0 2200 200 1 0 0
+{
+T 2200 0 5 8 0 0 0 0 1
+pintype=input
+T 2200 255 5 8 1 1 90 0 1
+pinlabel=spi_cs_x
+T 2150 105 5 8 0 1 90 6 1
+pinnumber=7
+T 2200 0 5 8 0 0 0 0 1
+pinseq=7
+}
+P 2400 0 2400 200 1 0 0
+{
+T 2400 0 5 8 0 0 0 0 1
+pintype=output
+T 2400 255 5 8 1 1 90 0 1
+pinlabel=fault_x
+T 2350 105 5 8 0 1 90 6 1
+pinnumber=8
+T 2400 0 5 8 0 0 0 0 1
+pinseq=8
+}
+P 2700 0 2700 200 1 0 0
+{
+T 2700 0 5 8 0 0 0 0 1
+pintype=input
+T 2650 105 5 8 0 1 90 6 1
+pinnumber=9
+T 2700 0 5 8 0 0 0 0 1
+pinseq=9
+T 2700 255 5 8 1 1 90 0 1
+pinlabel=step_y
+}
+P 2900 0 2900 200 1 0 0
+{
+T 2900 0 5 8 0 0 0 0 1
+pintype=input
+T 2850 105 5 8 0 1 90 6 1
+pinnumber=10
+T 2900 0 5 8 0 0 0 0 1
+pinseq=10
+T 2900 255 5 8 1 1 90 0 1
+pinlabel=dir_y
+}
+P 3100 0 3100 200 1 0 0
+{
+T 3100 0 5 8 0 0 0 0 1
+pintype=input
+T 3050 105 5 8 0 1 90 6 1
+pinnumber=11
+T 3100 0 5 8 0 0 0 0 1
+pinseq=11
+T 3100 255 5 8 1 1 90 0 1
+pinlabel=enable_y
+}
+P 3300 0 3300 200 1 0 0
+{
+T 3300 0 5 8 0 0 0 0 1
+pintype=input
+T 3250 105 5 8 0 1 90 6 1
+pinnumber=12
+T 3300 0 5 8 0 0 0 0 1
+pinseq=12
+T 3300 255 5 8 1 1 90 0 1
+pinlabel=spi_cs_y
+}
+P 3500 0 3500 200 1 0 0
+{
+T 3500 0 5 8 0 0 0 0 1
+pintype=output
+T 3450 105 5 8 0 1 90 6 1
+pinnumber=13
+T 3500 0 5 8 0 0 0 0 1
+pinseq=13
+T 3500 255 5 8 1 1 90 0 1
+pinlabel=fault_y
+}
+P 3800 0 3800 200 1 0 0
+{
+T 3800 0 5 8 0 0 0 0 1
+pintype=input
+T 3750 105 5 8 0 1 90 6 1
+pinnumber=14
+T 3800 0 5 8 0 0 0 0 1
+pinseq=14
+T 3800 255 5 8 1 1 90 0 1
+pinlabel=step_z
+}
+P 4000 0 4000 200 1 0 0
+{
+T 4000 0 5 8 0 0 0 0 1
+pintype=input
+T 3950 105 5 8 0 1 90 6 1
+pinnumber=15
+T 4000 0 5 8 0 0 0 0 1
+pinseq=15
+T 4000 255 5 8 1 1 90 0 1
+pinlabel=dir_z
+}
+P 4200 0 4200 200 1 0 0
+{
+T 4200 0 5 8 0 0 0 0 1
+pintype=input
+T 4150 105 5 8 0 1 90 6 1
+pinnumber=16
+T 4200 0 5 8 0 0 0 0 1
+pinseq=16
+T 4200 255 5 8 1 1 90 0 1
+pinlabel=enable_z
+}
+P 4400 0 4400 200 1 0 0
+{
+T 4400 0 5 8 0 0 0 0 1
+pintype=input
+T 4350 105 5 8 0 1 90 6 1
+pinnumber=17
+T 4400 0 5 8 0 0 0 0 1
+pinseq=17
+T 4400 255 5 8 1 1 90 0 1
+pinlabel=spi_cs_z
+}
+P 4600 0 4600 200 1 0 0
+{
+T 4600 0 5 8 0 0 0 0 1
+pintype=output
+T 4550 105 5 8 0 1 90 6 1
+pinnumber=18
+T 4600 0 5 8 0 0 0 0 1
+pinseq=18
+T 4600 255 5 8 1 1 90 0 1
+pinlabel=fault_z
+}
+P 4900 0 4900 200 1 0 0
+{
+T 4900 0 5 8 0 0 0 0 1
+pintype=input
+T 4850 105 5 8 0 1 90 6 1
+pinnumber=19
+T 4900 0 5 8 0 0 0 0 1
+pinseq=19
+T 4900 255 5 8 1 1 90 0 1
+pinlabel=step_a
+}
+P 5100 0 5100 200 1 0 0
+{
+T 5100 0 5 8 0 0 0 0 1
+pintype=input
+T 5050 105 5 8 0 1 90 6 1
+pinnumber=20
+T 5100 0 5 8 0 0 0 0 1
+pinseq=20
+T 5100 255 5 8 1 1 90 0 1
+pinlabel=dir_a
+}
+P 5300 0 5300 200 1 0 0
+{
+T 5300 0 5 8 0 0 0 0 1
+pintype=input
+T 5250 105 5 8 0 1 90 6 1
+pinnumber=21
+T 5300 0 5 8 0 0 0 0 1
+pinseq=21
+T 5300 255 5 8 1 1 90 0 1
+pinlabel=enable_a
+}
+P 5500 0 5500 200 1 0 0
+{
+T 5500 0 5 8 0 0 0 0 1
+pintype=input
+T 5450 105 5 8 0 1 90 6 1
+pinnumber=22
+T 5500 0 5 8 0 0 0 0 1
+pinseq=22
+T 5500 255 5 8 1 1 90 0 1
+pinlabel=spi_cs_a
+}
+P 5700 0 5700 200 1 0 0
+{
+T 5700 0 5 8 0 0 0 0 1
+pintype=output
+T 5650 105 5 8 0 1 90 6 1
+pinnumber=23
+T 5700 0 5 8 0 0 0 0 1
+pinseq=23
+T 5700 255 5 8 1 1 90 0 1
+pinlabel=fault_a
+}
+P 6000 0 6000 200 1 0 0
+{
+T 6000 0 5 8 0 0 0 0 1
+pintype=input
+T 5950 105 5 8 0 1 90 6 1
+pinnumber=24
+T 6000 0 5 8 0 0 0 0 1
+pinseq=24
+T 6000 255 5 8 1 1 90 0 1
+pinlabel=step_b
+}
+P 6200 0 6200 200 1 0 0
+{
+T 6200 0 5 8 0 0 0 0 1
+pintype=input
+T 6150 105 5 8 0 1 90 6 1
+pinnumber=25
+T 6200 0 5 8 0 0 0 0 1
+pinseq=25
+T 6200 255 5 8 1 1 90 0 1
+pinlabel=dir_b
+}
+P 6400 0 6400 200 1 0 0
+{
+T 6400 0 5 8 0 0 0 0 1
+pintype=input
+T 6350 105 5 8 0 1 90 6 1
+pinnumber=26
+T 6400 0 5 8 0 0 0 0 1
+pinseq=26
+T 6400 255 5 8 1 1 90 0 1
+pinlabel=enable_b
+}
+P 6600 0 6600 200 1 0 0
+{
+T 6600 0 5 8 0 0 0 0 1
+pintype=input
+T 6550 105 5 8 0 1 90 6 1
+pinnumber=27
+T 6600 0 5 8 0 0 0 0 1
+pinseq=27
+T 6600 255 5 8 1 1 90 0 1
+pinlabel=spi_cs_b
+}
+P 6800 0 6800 200 1 0 0
+{
+T 6800 0 5 8 0 0 0 0 1
+pintype=output
+T 6750 105 5 8 0 1 90 6 1
+pinnumber=28
+T 6800 0 5 8 0 0 0 0 1
+pinseq=28
+T 6800 255 5 8 1 1 90 0 1
+pinlabel=fault_b
+}
+P 1100 2500 1100 2200 1 0 0
+{
+T 1100 2500 5 8 0 0 0 0 1
+pintype=output
+T 1100 2145 5 8 1 1 90 6 1
+pinlabel=step_1
+T 1050 2295 5 8 0 1 90 0 1
+pinnumber=29
+T 1100 2500 5 8 0 0 0 0 1
+pinseq=29
+}
+P 1300 2500 1300 2200 1 0 0
+{
+T 1300 2500 5 8 0 0 0 0 1
+pintype=output
+T 1300 2145 5 8 1 1 90 6 1
+pinlabel=dir_1
+T 1250 2295 5 8 0 1 90 0 1
+pinnumber=30
+T 1300 2500 5 8 0 0 0 0 1
+pinseq=30
+}
+P 1500 2500 1500 2200 1 0 0
+{
+T 1500 2500 5 8 0 0 0 0 1
+pintype=output
+T 1500 2145 5 8 1 1 90 6 1
+pinlabel=enable_1
+T 1450 2295 5 8 0 1 90 0 1
+pinnumber=31
+T 1500 2500 5 8 0 0 0 0 1
+pinseq=31
+}
+P 1700 2500 1700 2200 1 0 0
+{
+T 1700 2500 5 8 0 0 0 0 1
+pintype=output
+T 1700 2145 5 8 1 1 90 6 1
+pinlabel=spi_cs_1
+T 1650 2295 5 8 0 1 90 0 1
+pinnumber=32
+T 1700 2500 5 8 0 0 0 0 1
+pinseq=32
+}
+P 1900 2500 1900 2200 1 0 0
+{
+T 1900 2500 5 8 0 0 0 0 1
+pintype=input
+T 1900 2145 5 8 1 1 90 6 1
+pinlabel=fault_1
+T 1850 2295 5 8 0 1 90 0 1
+pinnumber=33
+T 1900 2500 5 8 0 0 0 0 1
+pinseq=33
+}
+P 2100 2500 2100 2200 1 0 0
+{
+T 2100 2500 5 8 0 0 0 0 1
+pintype=output
+T 2100 2145 5 8 1 1 90 6 1
+pinlabel=clk_1
+T 2050 2295 5 8 0 1 90 0 1
+pinnumber=34
+T 2100 2500 5 8 0 0 0 0 1
+pinseq=34
+}
+P 300 2500 300 2200 1 0 0
+{
+T 300 2500 5 8 0 0 0 0 1
+pintype=output
+T 300 2145 5 8 1 1 90 6 1
+pinlabel=mosi
+T 250 2295 5 8 0 1 90 0 1
+pinnumber=35
+T 300 2500 5 8 0 0 0 0 1
+pinseq=35
+}
+P 500 2500 500 2200 1 0 0
+{
+T 500 2500 5 8 0 0 0 0 1
+pintype=input
+T 500 2145 5 8 1 1 90 6 1
+pinlabel=miso
+T 450 2295 5 8 0 1 90 0 1
+pinnumber=36
+T 500 2500 5 8 0 0 0 0 1
+pinseq=36
+}
+P 700 2500 700 2200 1 0 0
+{
+T 700 2500 5 8 0 0 0 0 1
+pintype=output
+T 700 2145 5 8 1 1 90 6 1
+pinlabel=spi_ck
+T 650 2295 5 8 0 1 90 0 1
+pinnumber=37
+T 700 2500 5 8 0 0 0 0 1
+pinseq=37
+}
+P 2400 2500 2400 2200 1 0 0
+{
+T 2400 2500 5 8 0 0 0 0 1
+pintype=output
+T 2350 2295 5 8 0 1 90 0 1
+pinnumber=38
+T 2400 2500 5 8 0 0 0 0 1
+pinseq=38
+T 2400 2145 5 8 1 1 90 6 1
+pinlabel=step_2
+}
+P 2600 2500 2600 2200 1 0 0
+{
+T 2600 2500 5 8 0 0 0 0 1
+pintype=output
+T 2550 2295 5 8 0 1 90 0 1
+pinnumber=39
+T 2600 2500 5 8 0 0 0 0 1
+pinseq=39
+T 2600 2145 5 8 1 1 90 6 1
+pinlabel=dir_2
+}
+P 2800 2500 2800 2200 1 0 0
+{
+T 2800 2500 5 8 0 0 0 0 1
+pintype=output
+T 2750 2295 5 8 0 1 90 0 1
+pinnumber=40
+T 2800 2500 5 8 0 0 0 0 1
+pinseq=40
+T 2800 2145 5 8 1 1 90 6 1
+pinlabel=enable_2
+}
+P 3000 2500 3000 2200 1 0 0
+{
+T 3000 2500 5 8 0 0 0 0 1
+pintype=output
+T 2950 2295 5 8 0 1 90 0 1
+pinnumber=41
+T 3000 2500 5 8 0 0 0 0 1
+pinseq=41
+T 3000 2145 5 8 1 1 90 6 1
+pinlabel=spi_cs_2
+}
+P 3200 2500 3200 2200 1 0 0
+{
+T 3200 2500 5 8 0 0 0 0 1
+pintype=input
+T 3150 2295 5 8 0 1 90 0 1
+pinnumber=42
+T 3200 2500 5 8 0 0 0 0 1
+pinseq=42
+T 3200 2145 5 8 1 1 90 6 1
+pinlabel=fault_2
+}
+P 3400 2500 3400 2200 1 0 0
+{
+T 3400 2500 5 8 0 0 0 0 1
+pintype=output
+T 3350 2295 5 8 0 1 90 0 1
+pinnumber=43
+T 3400 2500 5 8 0 0 0 0 1
+pinseq=43
+T 3400 2145 5 8 1 1 90 6 1
+pinlabel=clk_2
+}
+P 3700 2500 3700 2200 1 0 0
+{
+T 3700 2500 5 8 0 0 0 0 1
+pintype=output
+T 3650 2295 5 8 0 1 90 0 1
+pinnumber=44
+T 3700 2500 5 8 0 0 0 0 1
+pinseq=44
+T 3700 2145 5 8 1 1 90 6 1
+pinlabel=step_3
+}
+P 3900 2500 3900 2200 1 0 0
+{
+T 3900 2500 5 8 0 0 0 0 1
+pintype=output
+T 3850 2295 5 8 0 1 90 0 1
+pinnumber=45
+T 3900 2500 5 8 0 0 0 0 1
+pinseq=45
+T 3900 2145 5 8 1 1 90 6 1
+pinlabel=dir_3
+}
+P 4100 2500 4100 2200 1 0 0
+{
+T 4100 2500 5 8 0 0 0 0 1
+pintype=output
+T 4050 2295 5 8 0 1 90 0 1
+pinnumber=46
+T 4100 2500 5 8 0 0 0 0 1
+pinseq=46
+T 4100 2145 5 8 1 1 90 6 1
+pinlabel=enable_3
+}
+P 4300 2500 4300 2200 1 0 0
+{
+T 4300 2500 5 8 0 0 0 0 1
+pintype=output
+T 4250 2295 5 8 0 1 90 0 1
+pinnumber=47
+T 4300 2500 5 8 0 0 0 0 1
+pinseq=47
+T 4300 2145 5 8 1 1 90 6 1
+pinlabel=spi_cs_3
+}
+P 4500 2500 4500 2200 1 0 0
+{
+T 4500 2500 5 8 0 0 0 0 1
+pintype=input
+T 4450 2295 5 8 0 1 90 0 1
+pinnumber=48
+T 4500 2500 5 8 0 0 0 0 1
+pinseq=48
+T 4500 2145 5 8 1 1 90 6 1
+pinlabel=fault_3
+}
+P 4700 2500 4700 2200 1 0 0
+{
+T 4700 2500 5 8 0 0 0 0 1
+pintype=output
+T 4650 2295 5 8 0 1 90 0 1
+pinnumber=49
+T 4700 2500 5 8 0 0 0 0 1
+pinseq=49
+T 4700 2145 5 8 1 1 90 6 1
+pinlabel=clk_3
+}
+P 5000 2500 5000 2200 1 0 0
+{
+T 5000 2500 5 8 0 0 0 0 1
+pintype=output
+T 4950 2295 5 8 0 1 90 0 1
+pinnumber=50
+T 5000 2500 5 8 0 0 0 0 1
+pinseq=50
+T 5000 2145 5 8 1 1 90 6 1
+pinlabel=step_4
+}
+P 5200 2500 5200 2200 1 0 0
+{
+T 5200 2500 5 8 0 0 0 0 1
+pintype=output
+T 5150 2295 5 8 0 1 90 0 1
+pinnumber=51
+T 5200 2500 5 8 0 0 0 0 1
+pinseq=51
+T 5200 2145 5 8 1 1 90 6 1
+pinlabel=dir_4
+}
+P 5400 2500 5400 2200 1 0 0
+{
+T 5400 2500 5 8 0 0 0 0 1
+pintype=output
+T 5350 2295 5 8 0 1 90 0 1
+pinnumber=52
+T 5400 2500 5 8 0 0 0 0 1
+pinseq=52
+T 5400 2145 5 8 1 1 90 6 1
+pinlabel=enable_4
+}
+P 5600 2500 5600 2200 1 0 0
+{
+T 5600 2500 5 8 0 0 0 0 1
+pintype=output
+T 5550 2295 5 8 0 1 90 0 1
+pinnumber=53
+T 5600 2500 5 8 0 0 0 0 1
+pinseq=53
+T 5600 2145 5 8 1 1 90 6 1
+pinlabel=spi_cs_4
+}
+P 5800 2500 5800 2200 1 0 0
+{
+T 5800 2500 5 8 0 0 0 0 1
+pintype=input
+T 5750 2295 5 8 0 1 90 0 1
+pinnumber=54
+T 5800 2500 5 8 0 0 0 0 1
+pinseq=54
+T 5800 2145 5 8 1 1 90 6 1
+pinlabel=fault_4
+}
+P 6000 2500 6000 2200 1 0 0
+{
+T 6000 2500 5 8 0 0 0 0 1
+pintype=output
+T 5950 2295 5 8 0 1 90 0 1
+pinnumber=55
+T 6000 2500 5 8 0 0 0 0 1
+pinseq=55
+T 6000 2145 5 8 1 1 90 6 1
+pinlabel=clk_4
+}
+P 6300 2500 6300 2200 1 0 0
+{
+T 6300 2500 5 8 0 0 0 0 1
+pintype=output
+T 6250 2295 5 8 0 1 90 0 1
+pinnumber=56
+T 6300 2500 5 8 0 0 0 0 1
+pinseq=56
+T 6300 2145 5 8 1 1 90 6 1
+pinlabel=step_5
+}
+P 6500 2500 6500 2200 1 0 0
+{
+T 6500 2500 5 8 0 0 0 0 1
+pintype=output
+T 6450 2295 5 8 0 1 90 0 1
+pinnumber=57
+T 6500 2500 5 8 0 0 0 0 1
+pinseq=57
+T 6500 2145 5 8 1 1 90 6 1
+pinlabel=dir_5
+}
+P 6700 2500 6700 2200 1 0 0
+{
+T 6700 2500 5 8 0 0 0 0 1
+pintype=output
+T 6650 2295 5 8 0 1 90 0 1
+pinnumber=58
+T 6700 2500 5 8 0 0 0 0 1
+pinseq=58
+T 6700 2145 5 8 1 1 90 6 1
+pinlabel=enable_5
+}
+P 6900 2500 6900 2200 1 0 0
+{
+T 6900 2500 5 8 0 0 0 0 1
+pintype=output
+T 6850 2295 5 8 0 1 90 0 1
+pinnumber=59
+T 6900 2500 5 8 0 0 0 0 1
+pinseq=59
+T 6900 2145 5 8 1 1 90 6 1
+pinlabel=spi_cs_5
+}
+P 7100 2500 7100 2200 1 0 0
+{
+T 7100 2500 5 8 0 0 0 0 1
+pintype=input
+T 7050 2295 5 8 0 1 90 0 1
+pinnumber=60
+T 7100 2500 5 8 0 0 0 0 1
+pinseq=60
+T 7100 2145 5 8 1 1 90 6 1
+pinlabel=fault_5
+}
+P 7300 2500 7300 2200 1 0 0
+{
+T 7300 2500 5 8 0 0 0 0 1
+pintype=output
+T 7250 2295 5 8 0 1 90 0 1
+pinnumber=61
+T 7300 2500 5 8 0 0 0 0 1
+pinseq=61
+T 7300 2145 5 8 1 1 90 6 1
+pinlabel=clk_5
+}
+B 0 200 7500 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2200 1295 8 8 1 1 0 0 1
+refdes=IO?
+T 3100 1200 9 8 1 0 0 0 2
+Isolation Interface
+isolation.sch
+T 3300 995 8 8 0 1 0 0 1
+source=isolation.sch

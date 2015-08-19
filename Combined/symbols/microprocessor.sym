@@ -1,0 +1,339 @@
+v 20130925 2
+P 1100 2200 1100 2000 1 0 0
+{
+T 1100 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1100 1945 5 6 1 1 90 6 1
+pinlabel=spi_clk
+}
+P 1200 2200 1200 2000 1 0 0
+{
+T 1200 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1200 1945 5 6 1 1 90 6 1
+pinlabel=spi_miso
+}
+P 1300 2200 1300 2000 1 0 0
+{
+T 1300 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1300 1945 5 6 1 1 90 6 1
+pinlabel=spi_mosi
+}
+P 1500 2200 1500 2000 1 0 0
+{
+T 1500 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1500 1945 5 6 1 1 90 6 1
+pinlabel=step_x
+}
+P 1600 2200 1600 2000 1 0 0
+{
+T 1600 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1600 1945 5 6 1 1 90 6 1
+pinlabel=dir_x
+}
+P 1700 2200 1700 2000 1 0 0
+{
+T 1700 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1700 1945 5 6 1 1 90 6 1
+pinlabel=enable_x
+}
+P 1800 2200 1800 2000 1 0 0
+{
+T 1800 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1800 1945 5 6 1 1 90 6 1
+pinlabel=spi_cs_x
+}
+P 1900 2200 1900 2000 1 0 0
+{
+T 1900 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 1900 1945 5 6 1 1 90 6 1
+pinlabel=fault_x
+}
+P 2100 2200 2100 2000 1 0 0
+{
+T 2100 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2100 1945 5 6 1 1 90 6 1
+pinlabel=step_y
+}
+P 2200 2200 2200 2000 1 0 0
+{
+T 2200 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2200 1945 5 6 1 1 90 6 1
+pinlabel=dir_y
+}
+P 2300 2200 2300 2000 1 0 0
+{
+T 2300 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2300 1945 5 6 1 1 90 6 1
+pinlabel=enable_y
+}
+P 2400 2200 2400 2000 1 0 0
+{
+T 2400 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2400 1945 5 6 1 1 90 6 1
+pinlabel=spi_cs_y
+}
+P 2500 2200 2500 2000 1 0 0
+{
+T 2500 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2500 1945 5 6 1 1 90 6 1
+pinlabel=fault_y
+}
+P 2700 2200 2700 2000 1 0 0
+{
+T 2700 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2700 1945 5 6 1 1 90 6 1
+pinlabel=step_z
+}
+P 2800 2200 2800 2000 1 0 0
+{
+T 2800 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2800 1945 5 6 1 1 90 6 1
+pinlabel=dir_z
+}
+P 2900 2200 2900 2000 1 0 0
+{
+T 2900 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 2900 1945 5 6 1 1 90 6 1
+pinlabel=enable_z
+}
+P 3000 2200 3000 2000 1 0 0
+{
+T 3000 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3000 1945 5 6 1 1 90 6 1
+pinlabel=spi_cs_z
+}
+P 3100 2200 3100 2000 1 0 0
+{
+T 3100 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3100 1945 5 6 1 1 90 6 1
+pinlabel=fault_z
+}
+P 3300 2200 3300 2000 1 0 0
+{
+T 3300 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3300 1945 5 6 1 1 90 6 1
+pinlabel=step_a
+}
+P 3400 2200 3400 2000 1 0 0
+{
+T 3400 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3400 1945 5 6 1 1 90 6 1
+pinlabel=dir_a
+}
+P 3500 2200 3500 2000 1 0 0
+{
+T 3500 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3500 1945 5 6 1 1 90 6 1
+pinlabel=enable_a
+}
+P 3600 2200 3600 2000 1 0 0
+{
+T 3600 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3600 1945 5 6 1 1 90 6 1
+pinlabel=spi_cs_a
+}
+P 3700 2200 3700 2000 1 0 0
+{
+T 3700 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3700 1945 5 6 1 1 90 6 1
+pinlabel=fault_a
+}
+P 0 1500 200 1500 1 0 0
+{
+T 0 1500 5 6 0 0 0 0 1
+pintype=unknown
+T 255 1495 5 6 1 1 0 0 1
+pinlabel=spi_cs_avr
+}
+P 0 1400 200 1400 1 0 0
+{
+T 0 1400 5 6 0 0 0 0 1
+pintype=unknown
+T 255 1395 5 6 1 1 0 0 1
+pinlabel=serial_cts
+}
+P 0 1300 200 1300 1 0 0
+{
+T 0 1300 5 6 0 0 0 0 1
+pintype=unknown
+T 255 1295 5 6 1 1 0 0 1
+pinlabel=serial_rts
+}
+P 0 1200 200 1200 1 0 0
+{
+T 0 1200 5 6 0 0 0 0 1
+pintype=unknown
+T 255 1195 5 6 1 1 0 0 1
+pinlabel=serial_rx
+}
+P 0 1100 200 1100 1 0 0
+{
+T 0 1100 5 6 0 0 0 0 1
+pintype=unknown
+T 255 1095 5 6 1 1 0 0 1
+pinlabel=serial_tx
+}
+P 3900 2200 3900 2000 1 0 0
+{
+T 3900 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 3900 1945 5 6 1 1 90 6 1
+pinlabel=step_b/PB0
+}
+P 4000 2200 4000 2000 1 0 0
+{
+T 4000 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4000 1945 5 6 1 1 90 6 1
+pinlabel=dir_b/PB1
+}
+P 4100 2200 4100 2000 1 0 0
+{
+T 4100 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4100 1945 5 6 1 1 90 6 1
+pinlabel=enable_b/PB2
+}
+P 4200 2200 4200 2000 1 0 0
+{
+T 4200 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4200 1945 5 6 1 1 90 6 1
+pinlabel=spi_cs_b/PB3
+}
+P 4300 2200 4300 2000 1 0 0
+{
+T 4300 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4300 1945 5 6 1 1 90 6 1
+pinlabel=fault_b/PB4
+}
+P 4500 2200 4500 2000 1 0 0
+{
+T 4500 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4500 1945 5 6 1 1 90 6 1
+pinlabel=spin_dir
+}
+P 4600 2200 4600 2000 1 0 0
+{
+T 4600 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4600 1945 5 6 1 1 90 6 1
+pinlabel=spin_enable
+}
+P 4700 2200 4700 2000 1 0 0
+{
+T 4700 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4700 1945 5 6 1 1 90 6 1
+pinlabel=spin_pwm
+}
+P 4800 2200 4800 2000 1 0 0
+{
+T 4800 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4800 1945 5 6 1 1 90 6 1
+pinlabel=coolant
+}
+P 4900 2200 4900 2000 1 0 0
+{
+T 4900 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 4900 1945 5 6 1 1 90 6 1
+pinlabel=x_min
+}
+P 5000 2200 5000 2000 1 0 0
+{
+T 5000 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5000 1945 5 6 1 1 90 6 1
+pinlabel=x_max
+}
+P 5100 2200 5100 2000 1 0 0
+{
+T 5100 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5100 1945 5 6 1 1 90 6 1
+pinlabel=y_min
+}
+P 5200 2200 5200 2000 1 0 0
+{
+T 5200 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5200 1945 5 6 1 1 90 6 1
+pinlabel=y_max
+}
+P 5300 2200 5300 2000 1 0 0
+{
+T 5300 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5300 1945 5 6 1 1 90 6 1
+pinlabel=z_min
+}
+P 5400 2200 5400 2000 1 0 0
+{
+T 5400 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5400 1945 5 6 1 1 90 6 1
+pinlabel=z_max
+}
+P 5500 2200 5500 2000 1 0 0
+{
+T 5500 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5500 1945 5 6 1 1 90 6 1
+pinlabel=a_min
+}
+P 5600 2200 5600 2000 1 0 0
+{
+T 5600 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5600 1945 5 6 1 1 90 6 1
+pinlabel=a_max
+}
+P 5700 2200 5700 2000 1 0 0
+{
+T 5700 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5700 1945 5 6 1 1 90 6 1
+pinlabel=b_min/PB6
+}
+P 5800 2200 5800 2000 1 0 0
+{
+T 5800 2200 5 6 0 0 0 0 1
+pintype=unknown
+T 5800 1945 5 6 1 1 90 6 1
+pinlabel=b_max/PB7
+}
+B 200 0 6000 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2895 900 8 10 1 1 0 0 1
+value=Microprocessor
+T 3395 500 8 10 1 1 0 0 1
+refdes=MP?
+T -5 0 8 10 0 1 0 0 1
+source=microprocessor.sch
+T -5 0 8 10 0 1 0 0 1
+footprint=TQFP64_14.fp

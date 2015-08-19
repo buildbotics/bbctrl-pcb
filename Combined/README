@@ -1,0 +1,11 @@
+Configuration notes:
+* copy the system-gnetlistrc file to ~/.gEDA/gnetlistrc, comment (insert semi;colon) out the line that reads:
+  (hierarchy-netattrib-mangle "enabled")
+and uncomment remove semi-colon the line that reads
+  ;(hierarchy-netattrib-mangle "disabled")
+The resulting lines should look like this:
+  ;(hierarchy-netattrib-mangle "enabled")
+  (hierarchy-netattrib-mangle "disabled")
+This allows power and ground rails to be routed between schematics without mangling the names.
+
+* set the Library path in PCB to point to the local footprints folder.  Use File->Preferences->Library in PCB to do this.
