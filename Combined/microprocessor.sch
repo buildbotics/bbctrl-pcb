@@ -24,6 +24,12 @@ T 47650 41800 5 10 0 0 0 0 1
 symversion=0.1
 T 47350 40950 5 10 1 1 0 0 1
 value=16MHz
+T 47450 41100 5 10 0 0 0 0 1
+model=ABLS-16.000MHZ-B4-T
+T 47450 41100 5 10 0 0 0 0 1
+description=Crystal 16.0000MHz 30ppm 18pF 40 Ohm -20°C - 70°C Surface Mount HC49/US 
+T 47450 41100 5 10 0 0 0 0 1
+footprint=Crystal_HC49.fp
 }
 C 47400 40500 1 90 0 cap.sym
 {
