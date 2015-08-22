@@ -68,13 +68,17 @@ T 41300 42300 5 10 1 1 0 0 1
 refdes=ISP
 T 41000 40400 5 10 0 0 0 0 1
 footprint=HEADER6_1
+T 41000 40400 5 10 0 0 0 0 1
+model=M20-9950345
+T 41000 40400 5 10 0 0 0 0 1
+description=Harwin M20-9950345, 2-row, 6-pin, right angle, .1" pitch, male connector
 }
-N 44600 41800 44600 41500 4
+N 44600 41200 44600 41800 4
 N 44600 41500 42800 41500 4
 N 42800 41500 42800 42000 4
 N 42800 42000 42200 42000 4
 N 42200 40800 44900 40800 4
-N 44900 40800 44900 41800 4
+N 44900 40400 44900 41800 4
 C 42500 40400 1 90 0 gnd.sym
 C 42500 41500 1 180 0 nc.sym
 {
@@ -191,55 +195,6 @@ footprint=TQFP64_14
 T 47800 50200 5 10 1 1 0 0 1
 refdes=U1
 }
-C 44000 47300 1 180 0 io.sym
-{
-T 43800 46700 5 10 0 0 180 0 1
-device=none
-T 42500 47200 5 10 1 1 0 0 1
-refdes=step_b/PB0
-}
-C 44000 47000 1 180 0 io.sym
-{
-T 43800 46400 5 10 0 0 180 0 1
-device=none
-T 42600 46900 5 10 1 1 0 0 1
-refdes=dir_b/PB1
-}
-C 44000 46700 1 180 0 io.sym
-{
-T 43800 46100 5 10 0 0 180 0 1
-device=none
-T 42300 46600 5 10 1 1 0 0 1
-refdes=enable_b/PB2
-}
-C 44000 46400 1 180 0 io.sym
-{
-T 43800 45800 5 10 0 0 180 0 1
-device=none
-T 42500 46300 5 10 1 1 0 0 1
-refdes=spi_cs_b/PB3
-}
-C 44000 46100 1 180 0 io.sym
-{
-T 43800 45500 5 10 0 0 180 0 1
-device=none
-T 42500 46000 5 10 1 1 0 0 1
-refdes=fault_b/PB4
-}
-C 44000 45500 1 180 0 io.sym
-{
-T 43800 44900 5 10 0 0 180 0 1
-device=none
-T 42500 45400 5 10 1 1 0 0 1
-refdes=b_min/PB6
-}
-C 44000 45200 1 180 0 io.sym
-{
-T 43800 44600 5 10 0 0 180 0 1
-device=none
-T 42500 45100 5 10 1 1 0 0 1
-refdes=b_max/PB7
-}
 C 47550 40200 1 0 0 gnd.sym
 C 44500 50300 1 0 0 cap.sym
 {
@@ -253,6 +208,10 @@ T 44500 50150 5 10 1 1 0 0 1
 value=0.1uF
 T 44500 50300 5 10 0 0 0 0 1
 footprint=0603
+T 44500 50300 5 10 0 0 0 0 1
+model=C0603C104M5RACTU
+T 44500 50300 5 10 0 0 0 0 1
+description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
 }
 C 44300 50500 1 270 0 gnd.sym
 C 43200 43300 1 0 0 input.sym
@@ -267,13 +226,6 @@ N 47300 41200 47450 41200 4
 N 48000 40500 47300 40500 4
 N 47300 40500 47300 40600 4
 N 48000 40500 48000 40600 4
-C 49100 48700 1 180 0 input.sym
-{
-T 49100 48400 5 10 0 0 180 0 1
-device=INPUT
-T 48900 48600 5 10 1 1 0 0 1
-refdes=fault_a
-}
 C 43200 48500 1 0 0 input.sym
 {
 T 43200 48800 5 10 0 0 0 0 1
@@ -462,4 +414,76 @@ T 48400 43300 5 10 0 0 0 0 1
 device=OUTPUT
 T 49800 43100 5 10 1 1 0 6 1
 refdes=spin_dir
+}
+C 43100 41100 1 0 0 input-1.sym
+{
+T 43100 41400 5 10 0 0 0 0 1
+device=INPUT
+T 43100 41100 5 10 1 1 0 0 1
+refdes=PDI
+}
+C 43100 40300 1 0 0 input-1.sym
+{
+T 43100 40600 5 10 0 0 0 0 1
+device=INPUT
+T 43100 40300 5 10 1 1 0 0 1
+refdes=RESET
+}
+N 43900 41200 44600 41200 4
+N 43900 40400 44900 40400 4
+C 44000 47100 1 0 1 output-1.sym
+{
+T 43900 47400 5 10 0 0 0 6 1
+device=OUTPUT
+T 42200 47100 5 10 1 1 0 0 1
+refdes=step_b/PB0
+}
+C 44000 46800 1 0 1 output-1.sym
+{
+T 43900 47100 5 10 0 0 0 6 1
+device=OUTPUT
+T 42200 46800 5 10 1 1 0 0 1
+refdes=dir_b/PB1
+}
+C 44000 46500 1 0 1 output-1.sym
+{
+T 43900 46800 5 10 0 0 0 6 1
+device=OUTPUT
+T 42000 46500 5 10 1 1 0 0 1
+refdes=enable_b/PB2
+}
+C 44000 46200 1 0 1 output-1.sym
+{
+T 43900 46500 5 10 0 0 0 6 1
+device=OUTPUT
+T 42000 46200 5 10 1 1 0 0 1
+refdes=spi_cs_b/PB3
+}
+C 44000 45900 1 0 1 output-1.sym
+{
+T 43900 46200 5 10 0 0 0 6 1
+device=OUTPUT
+T 42200 45900 5 10 1 1 0 0 1
+refdes=fault_b/PB4
+}
+C 44000 45300 1 0 1 output-1.sym
+{
+T 43900 45600 5 10 0 0 0 6 1
+device=OUTPUT
+T 42200 45300 5 10 1 1 0 0 1
+refdes=b_min/PB6
+}
+C 44000 45600 1 0 1 output-1.sym
+{
+T 43900 45900 5 10 0 0 0 6 1
+device=OUTPUT
+T 42000 45600 5 10 1 1 0 0 1
+refdes=spi_cs_io/PB5
+}
+C 44000 45000 1 0 1 output-1.sym
+{
+T 43900 45300 5 10 0 0 0 6 1
+device=OUTPUT
+T 42200 45000 5 10 1 1 0 0 1
+refdes=b_max/PB7
 }

@@ -1,0 +1,170 @@
+v 20130925 2
+P 0 2500 200 2500 1 0 0
+{
+T 0 2500 5 8 0 0 0 0 1
+pintype=input
+T 255 2495 5 8 1 1 0 0 1
+pinlabel=spi_clk
+}
+P 0 2400 200 2400 1 0 0
+{
+T 0 2400 5 8 0 0 0 0 1
+pintype=output
+T 255 2395 5 8 1 1 0 0 1
+pinlabel=miso
+}
+P 0 2300 200 2300 1 0 0
+{
+T 0 2300 5 8 0 0 0 0 1
+pintype=unknowninput
+T 255 2295 5 8 1 1 0 0 1
+pinlabel=mosi
+}
+P 0 2200 200 2200 1 0 0
+{
+T 0 2200 5 8 0 0 0 0 1
+pintype=input
+T 255 2195 5 8 1 1 0 0 1
+pinlabel=spin_dir
+}
+P 0 2100 200 2100 1 0 0
+{
+T 0 2100 5 8 0 0 0 0 1
+pintype=input
+T 255 2095 5 8 1 1 0 0 1
+pinlabel=spin_enable
+}
+P 0 2000 200 2000 1 0 0
+{
+T 0 2000 5 8 0 0 0 0 1
+pintype=input
+T 255 1995 5 8 1 1 0 0 1
+pinlabel=spin_pwm
+}
+P 0 1900 200 1900 1 0 0
+{
+T 0 1900 5 8 0 0 0 0 1
+pintype=input
+T 255 1895 5 8 1 1 0 0 1
+pinlabel=coolant
+}
+P 0 1800 200 1800 1 0 0
+{
+T 0 1800 5 8 0 0 0 0 1
+pintype=output
+T 255 1795 5 8 1 1 0 0 1
+pinlabel=x_min
+}
+P 0 1700 200 1700 1 0 0
+{
+T 0 1700 5 8 0 0 0 0 1
+pintype=output
+T 255 1695 5 8 1 1 0 0 1
+pinlabel=x_max
+}
+P 0 1600 200 1600 1 0 0
+{
+T 0 1600 5 8 0 0 0 0 1
+pintype=outut
+T 255 1595 5 8 1 1 0 0 1
+pinlabel=y_min
+}
+P 0 1500 200 1500 1 0 0
+{
+T 0 1500 5 8 0 0 0 0 1
+pintype=output
+T 255 1495 5 8 1 1 0 0 1
+pinlabel=y_max
+}
+P 0 1400 200 1400 1 0 0
+{
+T 0 1400 5 8 0 0 0 0 1
+pintype=output
+T 255 1395 5 8 1 1 0 0 1
+pinlabel=z_min
+}
+P 0 1300 200 1300 1 0 0
+{
+T 0 1300 5 8 0 0 0 0 1
+pintype=output
+T 255 1295 5 8 1 1 0 0 1
+pinlabel=z_max
+}
+P 0 1200 200 1200 1 0 0
+{
+T 0 1200 5 8 0 0 0 0 1
+pintype=output
+T 255 1195 5 8 1 1 0 0 1
+pinlabel=a_min
+}
+P 0 1100 200 1100 1 0 0
+{
+T 0 1100 5 8 0 0 0 0 1
+pintype=output
+T 255 1095 5 8 1 1 0 0 1
+pinlabel=a_max
+}
+P 0 1000 200 1000 1 0 0
+{
+T 0 1000 5 8 0 0 0 0 1
+pintype=io
+T 255 995 5 8 1 1 0 0 1
+pinlabel=pb0
+}
+P 0 900 200 900 1 0 0
+{
+T 0 900 5 8 0 0 0 0 1
+pintype=io
+T 255 895 5 8 1 1 0 0 1
+pinlabel=pb1
+}
+P 0 800 200 800 1 0 0
+{
+T 0 800 5 8 0 0 0 0 1
+pintype=io
+T 255 795 5 8 1 1 0 0 1
+pinlabel=pb2
+}
+P 0 700 200 700 1 0 0
+{
+T 0 700 5 8 0 0 0 0 1
+pintype=io
+T 255 695 5 8 1 1 0 0 1
+pinlabel=pb3
+}
+P 0 600 200 600 1 0 0
+{
+T 0 600 5 8 0 0 0 0 1
+pintype=io
+T 255 595 5 8 1 1 0 0 1
+pinlabel=pb4
+}
+P 0 500 200 500 1 0 0
+{
+T 0 500 5 8 0 0 0 0 1
+pintype=io
+T 255 495 5 8 1 1 0 0 1
+pinlabel=spi_cs_io/pb5
+}
+P 0 400 200 400 1 0 0
+{
+T 0 400 5 8 0 0 0 0 1
+pintype=io
+T 255 395 5 8 1 1 0 0 1
+pinlabel=b_min/pb6
+}
+P 0 300 200 300 1 0 0
+{
+T 0 300 5 8 0 0 0 0 1
+pintype=io
+T 255 295 5 8 1 1 0 0 1
+pinlabel=b_max/pb7
+}
+B 200 0 1800 2800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 900 1400 9 8 1 0 0 0 2
+IO Connectors
+io.sch
+T 1095 1100 8 8 1 1 0 0 1
+refdes=IO?
+T -5 0 8 8 0 1 0 0 1
+source=io.sch

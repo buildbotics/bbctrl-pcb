@@ -1,0 +1,205 @@
+v 20130925 2
+P 0 4600 200 4600 1 0 0
+{
+T 0 4600 5 8 0 0 0 0 1
+pintype=input
+T 255 4595 5 8 1 1 0 0 1
+pinlabel=step_y
+}
+P 0 4400 200 4400 1 0 0
+{
+T 0 4400 5 8 0 0 0 0 1
+pintype=input
+T 255 4395 5 8 1 1 0 0 1
+pinlabel=dir_y
+}
+P 0 4200 200 4200 1 0 0
+{
+T 0 4200 5 8 0 0 0 0 1
+pintype=input
+T 255 4195 5 8 1 1 0 0 1
+pinlabel=enable_y
+}
+P 0 4000 200 4000 1 0 0
+{
+T 0 4000 5 8 0 0 0 0 1
+pintype=input
+T 255 3995 5 8 1 1 0 0 1
+pinlabel=spi_cs_y
+}
+P 0 3800 200 3800 1 0 0
+{
+T 0 3800 5 8 0 0 0 0 1
+pintype=output
+T 255 3795 5 8 1 1 0 0 1
+pinlabel=fault_y
+}
+P 0 3400 200 3400 1 0 0
+{
+T 0 3400 5 8 0 0 0 0 1
+pintype=input
+T 255 3395 5 8 1 1 0 0 1
+pinlabel=step_z
+}
+P 0 3200 200 3200 1 0 0
+{
+T 0 3200 5 8 0 0 0 0 1
+pintype=input
+T 255 3195 5 8 1 1 0 0 1
+pinlabel=dir_z
+}
+P 0 3000 200 3000 1 0 0
+{
+T 0 3000 5 8 0 0 0 0 1
+pintype=input
+T 255 2995 5 8 1 1 0 0 1
+pinlabel=enable_z
+}
+P 0 6400 200 6400 1 0 0
+{
+T 0 6400 5 8 0 0 0 0 1
+pintype=input
+T 255 6395 5 8 1 1 0 0 1
+pinlabel=spi_clk
+}
+P 0 6200 200 6200 1 0 0
+{
+T 0 6200 5 8 0 0 0 0 1
+pintype=output
+T 255 6195 5 8 1 1 0 0 1
+pinlabel=spi_miso
+}
+P 0 6000 200 6000 1 0 0
+{
+T 0 6000 5 8 0 0 0 0 1
+pintype=input
+T 255 5995 5 8 1 1 0 0 1
+pinlabel=spi_mosi
+}
+P 0 5700 200 5700 1 0 0
+{
+T 0 5700 5 8 0 0 0 0 1
+pintype=input
+T 255 5695 5 8 1 1 0 0 1
+pinlabel=step_x
+}
+P 0 5500 200 5500 1 0 0
+{
+T 0 5500 5 8 0 0 0 0 1
+pintype=input
+T 255 5495 5 8 1 1 0 0 1
+pinlabel=dir_x
+}
+P 0 5300 200 5300 1 0 0
+{
+T 0 5300 5 8 0 0 0 0 1
+pintype=input
+T 255 5295 5 8 1 1 0 0 1
+pinlabel=enable_x
+}
+P 0 5100 200 5100 1 0 0
+{
+T 0 5100 5 8 0 0 0 0 1
+pintype=input
+T 255 5095 5 8 1 1 0 0 1
+pinlabel=spi_cs_x
+}
+P 0 4900 200 4900 1 0 0
+{
+T 0 4900 5 8 0 0 0 0 1
+pintype=output
+T 255 4895 5 8 1 1 0 0 1
+pinlabel=fault_x
+}
+P 0 1800 200 1800 1 0 0
+{
+T 0 1800 5 8 0 0 0 0 1
+pintype=input
+T 255 1795 5 8 1 1 0 0 1
+pinlabel=enable_a
+}
+P 0 1600 200 1600 1 0 0
+{
+T 0 1600 5 8 0 0 0 0 1
+pintype=input
+T 255 1595 5 8 1 1 0 0 1
+pinlabel=spi_cs_a
+}
+P 0 1400 200 1400 1 0 0
+{
+T 0 1400 5 8 0 0 0 0 1
+pintype=output
+T 255 1395 5 8 1 1 0 0 1
+pinlabel=fault_a
+}
+P 0 1000 200 1000 1 0 0
+{
+T 0 1000 5 8 0 0 0 0 1
+pintype=input
+T 255 995 5 8 1 1 0 0 1
+pinlabel=step_b
+}
+P 0 800 200 800 1 0 0
+{
+T 0 800 5 8 0 0 0 0 1
+pintype=input
+T 255 795 5 8 1 1 0 0 1
+pinlabel=dir_b
+}
+P 0 600 200 600 1 0 0
+{
+T 0 600 5 8 0 0 0 0 1
+pintype=input
+T 255 595 5 8 1 1 0 0 1
+pinlabel=enable_b
+}
+P 0 400 200 400 1 0 0
+{
+T 0 400 5 8 0 0 0 0 1
+pintype=input
+T 255 395 5 8 1 1 0 0 1
+pinlabel=spi_cs_b
+}
+P 0 200 200 200 1 0 0
+{
+T 0 200 5 8 0 0 0 0 1
+pintype=output
+T 255 195 5 8 1 1 0 0 1
+pinlabel=fault_b
+}
+P 0 2800 200 2800 1 0 0
+{
+T 0 2800 5 8 0 0 0 0 1
+pintype=input
+T 255 2795 5 8 1 1 0 0 1
+pinlabel=spi_cs_z
+}
+P 0 2600 200 2600 1 0 0
+{
+T 0 2600 5 8 0 0 0 0 1
+pintype=output
+T 255 2595 5 8 1 1 0 0 1
+pinlabel=fault_z
+}
+P 0 2200 200 2200 1 0 0
+{
+T 0 2200 5 8 0 0 0 0 1
+pintype=input
+T 255 2195 5 8 1 1 0 0 1
+pinlabel=step_a
+}
+P 0 2000 200 2000 1 0 0
+{
+T 0 2000 5 8 0 0 0 0 1
+pintype=input
+T 255 1995 5 8 1 1 0 0 1
+pinlabel=dir_a
+}
+B 200 0 2600 6800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1400 3600 9 8 1 0 270 0 2
+Stepper Motor Drivers
+motor_module.sch
+T 1500 4705 8 8 1 1 270 0 1
+refdes=MM?
+T -5 0 8 8 0 1 0 0 1
+source=motor_module.sch

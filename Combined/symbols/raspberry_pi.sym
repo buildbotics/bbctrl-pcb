@@ -1,0 +1,114 @@
+v 20130925 2
+P 2300 1700 2100 1700 1 0 0
+{
+T 2300 1700 5 8 0 0 0 0 1
+pintype=output
+T 2045 1695 5 8 1 1 0 6 1
+pinlabel=serial_rts
+}
+P 2300 1600 2100 1600 1 0 0
+{
+T 2300 1600 5 8 0 0 0 0 1
+pintype=output
+T 2045 1595 5 8 1 1 0 6 1
+pinlabel=serial_cts
+}
+P 2300 1500 2100 1500 1 0 0
+{
+T 2300 1500 5 8 0 0 0 0 1
+pintype=output
+T 2045 1495 5 8 1 1 0 6 1
+pinlabel=serial_tx
+}
+P 2300 1400 2100 1400 1 0 0
+{
+T 2300 1400 5 8 0 0 0 0 1
+pintype=input
+T 2045 1395 5 8 1 1 0 6 1
+pinlabel=serial_rx
+}
+P 2300 1200 2100 1200 1 0 0
+{
+T 2300 1200 5 8 0 0 0 0 1
+pintype=output
+T 2045 1195 5 8 1 1 0 6 1
+pinlabel=spi_cs_x
+}
+P 2300 1100 2100 1100 1 0 0
+{
+T 2300 1100 5 8 0 0 0 0 1
+pintype=output
+T 2045 1095 5 8 1 1 0 6 1
+pinlabel=spi_cs_y
+}
+P 2300 1000 2100 1000 1 0 0
+{
+T 2300 1000 5 8 0 0 0 0 1
+pintype=output
+T 2045 995 5 8 1 1 0 6 1
+pinlabel=spi_cs_z
+}
+P 2300 900 2100 900 1 0 0
+{
+T 2300 900 5 8 0 0 0 0 1
+pintype=output
+T 2045 895 5 8 1 1 0 6 1
+pinlabel=spi_cs_a
+}
+P 2300 800 2100 800 1 0 0
+{
+T 2300 800 5 8 0 0 0 0 1
+pintype=output
+T 2045 795 5 8 1 1 0 6 1
+pinlabel=spi_cs_b
+}
+P 2300 700 2100 700 1 0 0
+{
+T 2300 700 5 8 0 0 0 0 1
+pintype=output
+T 2045 695 5 8 1 1 0 6 1
+pinlabel=spi_cs_avr
+}
+P 2300 600 2100 600 1 0 0
+{
+T 2300 600 5 8 0 0 0 0 1
+pintype=output
+T 2045 595 5 8 1 1 0 6 1
+pinlabel=spi_clk
+}
+P 2300 500 2100 500 1 0 0
+{
+T 2300 500 5 8 0 0 0 0 1
+pintype=output
+T 2045 495 5 8 1 1 0 6 1
+pinlabel=spi_mosi
+}
+P 2300 400 2100 400 1 0 0
+{
+T 2300 400 5 8 0 0 0 0 1
+pintype=input
+T 2045 395 5 8 1 1 0 6 1
+pinlabel=spi_miso
+}
+B 0 0 2100 1900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 400 800 9 8 1 0 0 0 2
+Raspberry PI
+rpi_bus.sch
+T 0 0 8 8 0 1 0 0 1
+source=rpi_bus.sch
+T 700 500 8 10 1 1 0 0 1
+refdes=RP?
+P 2300 200 2100 200 1 0 0
+{
+T 2300 200 5 8 0 0 0 0 1
+pintype=output
+T 2045 195 5 8 1 1 0 6 1
+pinlabel=PDI
+}
+P 2300 100 2100 100 1 0 0
+{
+T 2300 100 5 8 0 0 0 0 1
+pintype=output
+T 2045 95 5 8 1 1 0 6 1
+pinlabel=RESET
+}

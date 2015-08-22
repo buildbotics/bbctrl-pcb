@@ -1,14 +1,5 @@
 v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
-C 45700 42000 1 0 0 header40-2.sym
-{
-T 45950 50500 5 10 0 1 0 0 1
-device=HEADER40
-T 45900 50100 5 10 1 1 0 0 1
-refdes=raspberry_pi
-T 45700 42000 5 10 0 0 0 0 1
-footprint=HEADER40_1
-}
 C 47400 48900 1 90 0 gnd.sym
 C 47400 47300 1 90 0 gnd.sym
 C 47400 46100 1 90 0 gnd.sym
@@ -19,15 +10,6 @@ C 45400 45100 1 270 0 gnd.sym
 C 45400 48300 1 270 0 gnd.sym
 C 47100 50000 1 270 0 5V-plus.sym
 C 47100 49600 1 270 0 5V-plus.sym
-C 52300 50100 1 180 0 header26-1.sym
-{
-T 50700 45400 5 10 0 0 180 0 1
-device=HEADER26
-T 52000 50300 5 10 1 1 180 0 1
-refdes=lcd_touch
-T 52300 50100 5 10 0 0 0 0 1
-footprint=HEADER26_1
-}
 C 52300 50000 1 270 0 5V-plus.sym
 C 52300 49600 1 270 0 5V-plus.sym
 C 52600 48900 1 90 0 gnd.sym
@@ -133,13 +115,6 @@ device=INPUT
 T 47700 48100 5 10 1 1 0 0 1
 netname=serial_tx
 }
-C 47100 48500 1 0 0 output.sym
-{
-T 47200 48800 5 10 0 0 0 0 1
-device=OUTPUT
-T 47700 48500 5 10 1 1 0 0 1
-netname=serial_rx
-}
 T 50000 40700 9 10 1 0 0 0 1
 RPI Bus
 T 53900 40100 9 10 1 0 0 0 1
@@ -156,97 +131,6 @@ N 50900 46500 50900 46600 4
 N 45700 49800 45700 49600 4
 N 45700 49600 50900 49600 4
 N 50900 49600 50900 49800 4
-C 45700 49500 1 180 0 io.sym
-{
-T 45500 48900 5 10 0 0 180 0 1
-device=none
-T 45100 49400 5 10 1 1 180 1 1
-value=BCM2
-}
-C 45700 49100 1 180 0 io.sym
-{
-T 45500 48500 5 10 0 0 180 0 1
-device=none
-T 45100 49000 5 10 1 1 180 1 1
-value=BCM3
-}
-C 45700 48700 1 180 0 io.sym
-{
-T 45500 48100 5 10 0 0 180 0 1
-device=none
-T 45100 48600 5 10 1 1 180 1 1
-value=BCM4
-}
-C 45700 44700 1 180 0 io.sym
-{
-T 45500 44100 5 10 0 0 180 0 1
-device=none
-T 45100 44600 5 10 1 1 180 1 1
-value=BCM0
-}
-C 45700 44300 1 180 0 io.sym
-{
-T 45500 43700 5 10 0 0 180 0 1
-device=none
-T 45100 44200 5 10 1 1 180 1 1
-value=BCM5
-}
-C 45700 43900 1 180 0 io.sym
-{
-T 45500 43300 5 10 0 0 180 0 1
-device=none
-T 45100 43800 5 10 1 1 180 1 1
-value=BCM6
-}
-C 45700 43500 1 180 0 io.sym
-{
-T 45500 42900 5 10 0 0 180 0 1
-device=none
-T 45100 43400 5 10 1 1 180 1 1
-value=BCM13
-}
-C 45700 43100 1 180 0 io.sym
-{
-T 45500 42500 5 10 0 0 180 0 1
-device=none
-T 45100 43000 5 10 1 1 180 1 1
-value=spi_miso
-}
-C 45700 42700 1 180 0 io.sym
-{
-T 45500 42100 5 10 0 0 180 0 1
-device=none
-T 45100 42600 5 10 1 1 180 1 1
-value=BCM26
-}
-C 47100 44500 1 0 0 io.sym
-{
-T 47300 45100 5 10 0 0 0 0 1
-device=none
-T 47700 44600 5 10 1 1 0 1 1
-value=BCM1
-}
-C 47100 42500 1 0 0 io.sym
-{
-T 47300 43100 5 10 0 0 0 0 1
-device=none
-T 47700 42600 5 10 1 1 0 1 1
-value=spi_mosi
-}
-C 47100 42100 1 0 0 io.sym
-{
-T 47300 42700 5 10 0 0 0 0 1
-device=none
-T 47700 42200 5 10 1 1 0 1 1
-value=spi_clk
-}
-C 45700 47900 1 180 0 output.sym
-{
-T 45600 47600 5 10 0 0 180 0 1
-device=OUTPUT
-T 45100 47900 5 10 1 1 180 0 1
-netname=serial_rts
-}
 C 47900 43100 1 180 0 input.sym
 {
 T 47900 42800 5 10 0 0 180 0 1
@@ -254,38 +138,154 @@ device=INPUT
 T 47700 42900 5 10 1 1 0 0 1
 netname=serial_cts
 }
-C 47100 47700 1 0 0 output.sym
+C 45700 47700 1 0 1 output-1.sym
 {
-T 47200 48000 5 10 0 0 0 0 1
+T 45600 48000 5 10 0 0 0 6 1
 device=OUTPUT
-T 47700 47700 5 10 1 1 0 0 1
-netname=spi_cs_x
+T 44100 47700 5 10 1 1 0 0 1
+refdes=serial_rts
 }
-C 45700 47500 1 180 0 output.sym
-{
-T 45600 47200 5 10 0 0 180 0 1
-device=OUTPUT
-T 45100 47500 5 10 1 1 180 0 1
-netname=spi_cs_y
-}
-C 45700 47100 1 180 0 output.sym
-{
-T 45600 46800 5 10 0 0 180 0 1
-device=OUTPUT
-T 45100 47100 5 10 1 1 180 0 1
-netname=spi_cs_z
-}
-C 47100 46900 1 0 0 output.sym
-{
-T 47200 47200 5 10 0 0 0 0 1
-device=OUTPUT
-T 47700 46900 5 10 1 1 0 0 1
-netname=spi_cs_a
-}
-C 47100 43700 1 0 0 output.sym
+C 47100 43700 1 0 0 output-1.sym
 {
 T 47200 44000 5 10 0 0 0 0 1
 device=OUTPUT
-T 47700 43700 5 10 1 1 0 0 1
-netname=spi_cs_avr
+T 47900 43700 5 10 1 1 0 0 1
+refdes=spi_cs_avr
+}
+C 47100 46900 1 0 0 output-1.sym
+{
+T 47200 47200 5 10 0 0 0 0 1
+device=OUTPUT
+T 47900 46900 5 10 1 1 0 0 1
+refdes=spi_cs_a
+}
+C 47100 47700 1 0 0 output-1.sym
+{
+T 47200 48000 5 10 0 0 0 0 1
+device=OUTPUT
+T 47900 47700 5 10 1 1 0 0 1
+refdes=spi_cs_x
+}
+C 47100 48500 1 0 0 output-1.sym
+{
+T 47200 48800 5 10 0 0 0 0 1
+device=OUTPUT
+T 47900 48500 5 10 1 1 0 0 1
+refdes=serial_rx
+}
+C 45700 47300 1 0 1 output-1.sym
+{
+T 45600 47600 5 10 0 0 0 6 1
+device=OUTPUT
+T 44200 47300 5 10 1 1 0 0 1
+refdes=spi_cs_y
+}
+C 45700 46900 1 0 1 output-1.sym
+{
+T 45600 47200 5 10 0 0 0 6 1
+device=OUTPUT
+T 44200 46900 5 10 1 1 0 0 1
+refdes=spi_cs_z
+}
+C 45400 49300 1 0 0 nc.sym
+{
+T 45400 49700 5 10 0 0 0 0 1
+value=NoConnection
+T 45400 50100 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 45400 48900 1 0 0 nc.sym
+{
+T 45400 49300 5 10 0 0 0 0 1
+value=NoConnection
+T 45400 49700 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 45400 48500 1 0 0 nc.sym
+{
+T 45400 48900 5 10 0 0 0 0 1
+value=NoConnection
+T 45400 49300 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 45400 44500 1 0 0 nc.sym
+{
+T 45400 44900 5 10 0 0 0 0 1
+value=NoConnection
+T 45400 45300 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 45400 42500 1 0 0 nc.sym
+{
+T 45400 42900 5 10 0 0 0 0 1
+value=NoConnection
+T 45400 43300 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 47400 44500 1 0 1 nc.sym
+{
+T 47400 44900 5 10 0 0 0 6 1
+value=NoConnection
+T 47400 45300 5 10 0 0 0 6 1
+device=DRC_Directive
+}
+C 45700 43300 1 0 1 output-1.sym
+{
+T 45600 43600 5 10 0 0 0 6 1
+device=OUTPUT
+T 44200 43300 5 10 1 1 0 0 1
+refdes=spi_cs_b
+}
+C 45700 42000 1 0 0 header40-2.sym
+{
+T 45950 50500 5 10 0 1 0 0 1
+device=RaspberryPi
+T 46300 50100 5 10 1 1 0 0 1
+refdes=J1
+T 45700 42000 5 10 0 0 0 0 1
+footprint=raspberry_pi.fp
+}
+C 50900 44700 1 0 0 header26-1.sym
+{
+T 51500 50100 5 10 1 1 0 0 1
+refdes=J2
+T 52500 49400 5 10 0 0 0 0 1
+device=HEADER26
+T 50900 44700 5 10 0 0 0 0 1
+footprint=HEADER26_1
+}
+C 45700 43700 1 0 1 output-1.sym
+{
+T 45600 44000 5 10 0 0 0 6 1
+device=OUTPUT
+T 44200 43700 5 10 1 1 0 0 1
+refdes=RESET
+}
+C 45700 44100 1 0 1 output-1.sym
+{
+T 45600 44400 5 10 0 0 0 6 1
+device=OUTPUT
+T 44200 44100 5 10 1 1 0 0 1
+refdes=PDI
+}
+C 44900 42900 1 0 0 input-1.sym
+{
+T 44900 43200 5 10 0 0 0 0 1
+device=INPUT
+T 44100 42900 5 10 1 1 0 0 1
+refdes=spi_miso
+}
+C 47100 42500 1 0 0 output-1.sym
+{
+T 47200 42800 5 10 0 0 0 0 1
+device=OUTPUT
+T 48000 42500 5 10 1 1 0 0 1
+refdes=spi_mosi
+}
+C 47100 42100 1 0 0 output-1.sym
+{
+T 47200 42400 5 10 0 0 0 0 1
+device=OUTPUT
+T 48000 42100 5 10 1 1 0 0 1
+refdes=spi_clk
 }

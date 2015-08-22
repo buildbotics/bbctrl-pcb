@@ -163,7 +163,7 @@ pinlabel=fault_a
 P 0 1500 200 1500 1 0 0
 {
 T 0 1500 5 6 0 0 0 0 1
-pintype=unknown
+pintype=input
 T 255 1495 5 6 1 1 0 0 1
 pinlabel=spi_cs_avr
 }
@@ -337,3 +337,24 @@ T -5 0 8 10 0 1 0 0 1
 source=microprocessor.sch
 T -5 0 8 10 0 1 0 0 1
 footprint=TQFP64_14.fp
+P 5900 2200 5900 2000 1 0 0
+{
+T 5900 2200 5 6 0 0 0 0 1
+pintype=output
+T 5900 1945 5 6 1 1 90 6 1
+pinlabel=spi_cs_io/PB5
+}
+P 0 300 200 300 1 0 0
+{
+T 0 300 5 6 0 0 0 0 1
+pintype=input
+T 255 295 5 6 1 1 0 0 1
+pinlabel=PDI
+}
+P 0 200 200 200 1 0 0
+{
+T 0 200 5 6 0 0 0 0 1
+pintype=input
+T 255 195 5 6 1 1 0 0 1
+pinlabel=RESET
+}
