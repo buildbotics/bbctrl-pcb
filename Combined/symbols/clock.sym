@@ -1,0 +1,45 @@
+v 20130925 2
+P 1900 1100 1700 1100 1 0 0
+{
+T 1900 1100 5 8 0 0 0 0 1
+pintype=output
+T 1645 1095 5 8 1 1 0 6 1
+pinlabel=clk_1
+}
+P 1900 900 1700 900 1 0 0
+{
+T 1900 900 5 8 0 0 0 0 1
+pintype=output
+T 1645 895 5 8 1 1 0 6 1
+pinlabel=clk_2
+}
+P 1900 700 1700 700 1 0 0
+{
+T 1900 700 5 8 0 0 0 0 1
+pintype=output
+T 1645 695 5 8 1 1 0 6 1
+pinlabel=clk_3
+}
+P 1900 500 1700 500 1 0 0
+{
+T 1900 500 5 8 0 0 0 0 1
+pintype=output
+T 1645 495 5 8 1 1 0 6 1
+pinlabel=clk_4
+}
+P 1900 300 1700 300 1 0 0
+{
+T 1900 300 5 8 0 0 0 0 1
+pintype=output
+T 1645 295 5 8 1 1 0 6 1
+pinlabel=clk_5
+}
+T 300 500 9 8 1 0 0 0 3
+16MHz Clock
+Generater
+clock.sch
+B 0 0 1700 1400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 0 0 8 8 0 1 0 0 1
+source=clock.sch
+T 400 200 8 8 1 1 0 0 1
+refdes=CLOCK?
