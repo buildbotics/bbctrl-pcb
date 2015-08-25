@@ -5,6 +5,10 @@ T 2300 1700 5 8 0 0 0 0 1
 pintype=output
 T 2045 1695 5 8 1 1 0 6 1
 pinlabel=serial_rts
+T 2300 1700 5 10 0 0 0 0 1
+pinseq=1
+T 2300 1700 5 10 0 1 0 0 1
+pinnumber=1
 }
 P 2300 1600 2100 1600 1 0 0
 {
@@ -12,6 +16,10 @@ T 2300 1600 5 8 0 0 0 0 1
 pintype=output
 T 2045 1595 5 8 1 1 0 6 1
 pinlabel=serial_cts
+T 2300 1600 5 10 0 0 0 0 1
+pinseq=2
+T 2300 1600 5 10 0 1 0 0 1
+pinnumber=2
 }
 P 2300 1500 2100 1500 1 0 0
 {
@@ -19,6 +27,10 @@ T 2300 1500 5 8 0 0 0 0 1
 pintype=output
 T 2045 1495 5 8 1 1 0 6 1
 pinlabel=serial_tx
+T 2300 1500 5 10 0 1 0 0 1
+pinseq=3
+T 2300 1500 5 10 0 1 0 0 1
+pinnumber=3
 }
 P 2300 1400 2100 1400 1 0 0
 {
@@ -26,6 +38,10 @@ T 2300 1400 5 8 0 0 0 0 1
 pintype=input
 T 2045 1395 5 8 1 1 0 6 1
 pinlabel=serial_rx
+T 2300 1400 5 10 0 1 0 0 1
+pinseq=4
+T 2300 1400 5 10 0 1 0 0 1
+pinnumber=4
 }
 P 2300 1200 2100 1200 1 0 0
 {
@@ -33,6 +49,10 @@ T 2300 1200 5 8 0 0 0 0 1
 pintype=output
 T 2045 1195 5 8 1 1 0 6 1
 pinlabel=spi_cs_x
+T 2300 1200 5 10 0 1 0 0 1
+pinseq=5
+T 2300 1200 5 10 0 1 0 0 1
+pinnumber=5
 }
 P 2300 1100 2100 1100 1 0 0
 {
@@ -40,6 +60,10 @@ T 2300 1100 5 8 0 0 0 0 1
 pintype=output
 T 2045 1095 5 8 1 1 0 6 1
 pinlabel=spi_cs_y
+T 2300 1100 5 10 0 1 0 0 1
+pinseq=6
+T 2300 1100 5 10 0 1 0 0 1
+pinnumber=6
 }
 P 2300 1000 2100 1000 1 0 0
 {
@@ -47,6 +71,10 @@ T 2300 1000 5 8 0 0 0 0 1
 pintype=output
 T 2045 995 5 8 1 1 0 6 1
 pinlabel=spi_cs_z
+T 2300 1000 5 10 0 1 0 0 1
+pinseq=7
+T 2300 1000 5 10 0 1 0 0 1
+pinnumber=7
 }
 P 2300 900 2100 900 1 0 0
 {
@@ -54,6 +82,10 @@ T 2300 900 5 8 0 0 0 0 1
 pintype=output
 T 2045 895 5 8 1 1 0 6 1
 pinlabel=spi_cs_a
+T 2300 900 5 10 0 1 0 0 1
+pinseq=8
+T 2300 900 5 10 0 1 0 0 1
+pinnumber=8
 }
 P 2300 800 2100 800 1 0 0
 {
@@ -61,6 +93,10 @@ T 2300 800 5 8 0 0 0 0 1
 pintype=output
 T 2045 795 5 8 1 1 0 6 1
 pinlabel=spi_cs_b
+T 2300 800 5 10 0 1 0 0 1
+pinseq=9
+T 2300 800 5 10 0 1 0 0 1
+pinnumber=9
 }
 P 2300 700 2100 700 1 0 0
 {
@@ -68,6 +104,10 @@ T 2300 700 5 8 0 0 0 0 1
 pintype=output
 T 2045 695 5 8 1 1 0 6 1
 pinlabel=spi_cs_avr
+T 2300 700 5 10 0 1 0 0 1
+pinseq=10
+T 2300 700 5 10 0 1 0 0 1
+pinnumber=10
 }
 P 2300 600 2100 600 1 0 0
 {
@@ -75,6 +115,10 @@ T 2300 600 5 8 0 0 0 0 1
 pintype=output
 T 2045 595 5 8 1 1 0 6 1
 pinlabel=spi_clk
+T 2300 600 5 10 0 1 0 0 1
+pinseq=11
+T 2300 600 5 10 0 1 0 0 1
+pinnumber=11
 }
 P 2300 500 2100 500 1 0 0
 {
@@ -82,6 +126,10 @@ T 2300 500 5 8 0 0 0 0 1
 pintype=output
 T 2045 495 5 8 1 1 0 6 1
 pinlabel=spi_mosi
+T 2300 500 5 10 0 1 0 0 1
+pinseq=12
+T 2300 500 5 10 0 1 0 0 1
+pinnumber=12
 }
 P 2300 400 2100 400 1 0 0
 {
@@ -89,6 +137,10 @@ T 2300 400 5 8 0 0 0 0 1
 pintype=input
 T 2045 395 5 8 1 1 0 6 1
 pinlabel=spi_miso
+T 2300 400 5 10 0 1 0 0 1
+pinseq=13
+T 2300 400 5 10 0 1 0 0 1
+pinnumber=13
 }
 B 0 0 2100 1900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 400 800 9 8 1 0 0 0 2
@@ -104,6 +156,10 @@ T 2300 200 5 8 0 0 0 0 1
 pintype=output
 T 2045 195 5 8 1 1 0 6 1
 pinlabel=PDI
+T 2300 200 5 10 0 1 0 0 1
+pinseq=14
+T 2300 200 5 10 0 1 0 0 1
+pinnumber=14
 }
 P 2300 100 2100 100 1 0 0
 {
@@ -111,4 +167,8 @@ T 2300 100 5 8 0 0 0 0 1
 pintype=output
 T 2045 95 5 8 1 1 0 6 1
 pinlabel=RESET
+T 2300 100 5 10 0 1 0 0 1
+pinseq=15
+T 2300 100 5 10 0 0 0 0 1
+pinnumber=15
 }
