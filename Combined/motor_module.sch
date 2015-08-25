@@ -472,7 +472,7 @@ device=none
 N 54600 44700 54200 44700 4
 {
 T 54200 44700 5 10 1 1 0 0 1
-netname=sp_ck
+netname=spi_ck
 }
 C 54200 44700 1 90 0 busripper-1.sym
 {

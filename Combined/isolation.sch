@@ -564,7 +564,7 @@ T 44600 46700 5 10 0 0 90 0 1
 footprint=0603.fp
 T 44600 46700 5 10 0 0 90 0 1
 description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
-T 46000 47000 5 10 1 1 0 0 1
+T 44300 46700 5 10 1 1 0 0 1
 refdes=C11
 T 44700 46500 5 10 1 1 180 0 1
 value=0.1uF
@@ -771,7 +771,7 @@ footprint=0603.fp
 T 55300 46700 5 10 0 0 90 0 1
 description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
 T 54900 46700 5 10 1 1 0 0 1
-refdes=C11
+refdes=C15
 T 55400 46500 5 10 1 1 180 0 1
 value=0.1uF
 }
@@ -786,7 +786,7 @@ footprint=0603.fp
 T 52500 46500 5 10 0 0 90 0 1
 description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
 T 52200 46500 5 10 1 1 0 0 1
-refdes=C10
+refdes=C14
 T 52600 46300 5 10 1 1 180 0 1
 value=0.1uF
 }

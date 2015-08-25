@@ -156,7 +156,7 @@ pinlabel=spi_cs_a
 P 3700 2200 3700 2000 1 0 0
 {
 T 3700 2200 5 6 0 0 0 0 1
-pintype=unknown
+pintype=input
 T 3700 1945 5 6 1 1 90 6 1
 pinlabel=fault_a
 }
