@@ -244,6 +244,10 @@ T 46300 50100 5 10 1 1 0 0 1
 refdes=J1
 T 45700 42000 5 10 0 0 0 0 1
 footprint=raspberry_pi.fp
+T 45700 42000 5 10 0 0 0 0 1
+description=Connector Header 40 Position 0.100" (2.54mm) Gold Through Hole
+T 45700 42000 5 10 0 0 0 0 1
+model=SFH11-PBPC-D20-ST-BK
 }
 C 50900 44700 1 0 0 header26-1.sym
 {
@@ -253,6 +257,10 @@ T 52500 49400 5 10 0 0 0 0 1
 device=HEADER26
 T 50900 44700 5 10 0 0 0 0 1
 footprint=HEADER26_1
+T 50900 44700 5 10 0 0 0 0 1
+model=SFH11-PBPC-D13-ST-BK
+T 50900 44700 5 10 0 0 0 0 1
+description=Connector Header 26 Position 0.100" (2.54mm) Gold Through Hole
 }
 C 45700 43700 1 0 1 output-1.sym
 {
