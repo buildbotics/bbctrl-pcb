@@ -87,17 +87,6 @@ pinseq=8
 T 2300 900 5 10 0 1 0 0 1
 pinnumber=8
 }
-P 2300 800 2100 800 1 0 0
-{
-T 2300 800 5 8 0 0 0 0 1
-pintype=output
-T 2045 795 5 8 1 1 0 6 1
-pinlabel=spi_cs_b
-T 2300 800 5 10 0 1 0 0 1
-pinseq=9
-T 2300 800 5 10 0 1 0 0 1
-pinnumber=9
-}
 P 2300 700 2100 700 1 0 0
 {
 T 2300 700 5 8 0 0 0 0 1
@@ -142,7 +131,7 @@ pinseq=13
 T 2300 400 5 10 0 1 0 0 1
 pinnumber=13
 }
-B 0 0 2100 1900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 0 0 2100 2900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 400 800 9 8 1 0 0 0 2
 Raspberry PI
 rpi_bus.sch
@@ -171,4 +160,136 @@ T 2300 100 5 10 0 1 0 0 1
 pinseq=15
 T 2300 100 5 10 0 0 0 0 1
 pinnumber=15
+}
+P 400 3100 400 2900 1 0 0
+{
+T 400 3100 5 8 0 0 0 0 1
+pintype=input
+T 400 2845 5 8 1 1 90 6 1
+pinlabel=spin_dir
+T 350 2995 5 8 0 1 90 0 1
+pinnumber=16
+T 400 3100 5 8 0 0 0 0 1
+pinseq=16
+}
+P 500 3100 500 2900 1 0 0
+{
+T 500 3100 5 8 0 0 0 0 1
+pintype=input
+T 500 2845 5 8 1 1 90 6 1
+pinlabel=spin_pwm
+T 450 2995 5 8 0 1 90 0 1
+pinnumber=17
+T 500 3100 5 8 0 0 0 0 1
+pinseq=17
+}
+P 600 3100 600 2900 1 0 0
+{
+T 600 3100 5 8 0 0 0 0 1
+pintype=injput
+T 600 2845 5 8 1 1 90 6 1
+pinlabel=spin_enable
+T 550 2995 5 8 0 1 90 0 1
+pinnumber=18
+T 600 3100 5 8 0 0 0 0 1
+pinseq=18
+}
+P 700 3100 700 2900 1 0 0
+{
+T 700 3100 5 8 0 0 0 0 1
+pintype=input
+T 700 2845 5 8 1 1 90 6 1
+pinlabel=coolant
+T 650 2995 5 8 0 1 90 0 1
+pinnumber=19
+T 700 3100 5 8 0 0 0 0 1
+pinseq=19
+}
+P 900 3100 900 2900 1 0 0
+{
+T 900 3100 5 8 0 0 0 0 1
+pintype=output
+T 900 2845 5 8 1 1 90 6 1
+pinlabel=x_min
+T 850 2995 5 8 0 1 90 0 1
+pinnumber=20
+T 900 3100 5 8 0 0 0 0 1
+pinseq=20
+}
+P 1000 3100 1000 2900 1 0 0
+{
+T 1000 3100 5 8 0 0 0 0 1
+pintype=output
+T 1000 2845 5 8 1 1 90 6 1
+pinlabel=x_max
+T 950 2995 5 8 0 1 90 0 1
+pinnumber=21
+T 1000 3100 5 8 0 0 0 0 1
+pinseq=21
+}
+P 1100 3100 1100 2900 1 0 0
+{
+T 1100 3100 5 8 0 0 0 0 1
+pintype=output
+T 1100 2845 5 8 1 1 90 6 1
+pinlabel=y_min
+T 1050 2995 5 8 0 1 90 0 1
+pinnumber=22
+T 1100 3100 5 8 0 0 0 0 1
+pinseq=22
+}
+P 1200 3100 1200 2900 1 0 0
+{
+T 1200 3100 5 8 0 0 0 0 1
+pintype=output
+T 1200 2845 5 8 1 1 90 6 1
+pinlabel=y_max
+T 1150 2995 5 8 0 1 90 0 1
+pinnumber=23
+T 1200 3100 5 8 0 0 0 0 1
+pinseq=23
+}
+P 1300 3100 1300 2900 1 0 0
+{
+T 1300 3100 5 8 0 0 0 0 1
+pintype=output
+T 1300 2845 5 8 1 1 90 6 1
+pinlabel=z_min
+T 1250 2995 5 8 0 1 90 0 1
+pinnumber=24
+T 1300 3100 5 8 0 0 0 0 1
+pinseq=24
+}
+P 1400 3100 1400 2900 1 0 0
+{
+T 1400 3100 5 8 0 0 0 0 1
+pintype=output
+T 1400 2845 5 8 1 1 90 6 1
+pinlabel=z_max
+T 1350 2995 5 8 0 1 90 0 1
+pinnumber=25
+T 1400 3100 5 8 0 0 0 0 1
+pinseq=25
+}
+P 1500 3100 1500 2900 1 0 0
+{
+T 1500 3100 5 8 0 0 0 0 1
+pintype=output
+T 1500 2845 5 8 1 1 90 6 1
+pinlabel=a_min
+T 1450 2995 5 8 0 1 90 0 1
+pinnumber=26
+T 1500 3100 5 8 0 0 0 0 1
+pinseq=26
+}
+P 1600 3100 1600 2900 1 0 0
+{
+T 1600 3100 5 8 0 0 0 0 1
+pintype=output
+T 1600 2845 5 8 1 1 90 6 1
+pinlabel=a_max
+T 1550 2995 5 8 0 1 90 0 1
+pinnumber=26
+T 1600 3100 5 8 0 0 0 0 1
+pinseq=26
 }

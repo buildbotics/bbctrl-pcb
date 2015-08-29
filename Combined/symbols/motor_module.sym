@@ -208,61 +208,6 @@ pinseq=23
 T 0 1400 5 10 0 0 0 0 1
 pinnumber=23
 }
-P 0 1000 200 1000 1 0 0
-{
-T 0 1000 5 8 0 0 0 0 1
-pintype=input
-T 255 995 5 8 1 1 0 0 1
-pinlabel=step_b
-T 0 1000 5 10 0 0 0 0 1
-pinseq=24
-T 0 1000 5 10 0 0 0 0 1
-pinnumber=24
-}
-P 0 800 200 800 1 0 0
-{
-T 0 800 5 8 0 0 0 0 1
-pintype=input
-T 255 795 5 8 1 1 0 0 1
-pinlabel=dir_b
-T 0 800 5 10 0 0 0 0 1
-pinseq=25
-T 0 800 5 10 0 0 0 0 1
-pinnumber=25
-}
-P 0 600 200 600 1 0 0
-{
-T 0 600 5 8 0 0 0 0 1
-pintype=input
-T 255 595 5 8 1 1 0 0 1
-pinlabel=enable_b
-T 0 600 5 10 0 0 0 0 1
-pinseq=26
-T 0 600 5 10 0 0 0 0 1
-pinnumber=26
-}
-P 0 400 200 400 1 0 0
-{
-T 0 400 5 8 0 0 0 0 1
-pintype=input
-T 255 395 5 8 1 1 0 0 1
-pinlabel=spi_cs_b
-T 0 400 5 10 0 0 0 0 1
-pinseq=27
-T 0 400 5 10 0 0 0 0 1
-pinnumber=27
-}
-P 0 200 200 200 1 0 0
-{
-T 0 200 5 8 0 0 0 0 1
-pintype=output
-T 255 195 5 8 1 1 0 0 1
-pinlabel=fault_b
-T 0 200 5 10 0 0 0 0 1
-pinseq=28
-T 0 200 5 10 0 0 0 0 1
-pinnumber=28
-}
 P 0 2800 200 2800 1 0 0
 {
 T 0 2800 5 8 0 0 0 0 1

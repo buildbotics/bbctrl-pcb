@@ -252,61 +252,6 @@ pinseq=23
 T 5700 255 5 8 1 1 90 0 1
 pinlabel=fault_a
 }
-P 6000 0 6000 200 1 0 0
-{
-T 6000 0 5 8 0 0 0 0 1
-pintype=input
-T 5950 105 5 8 0 1 90 6 1
-pinnumber=24
-T 6000 0 5 8 0 0 0 0 1
-pinseq=24
-T 6000 255 5 8 1 1 90 0 1
-pinlabel=step_b
-}
-P 6200 0 6200 200 1 0 0
-{
-T 6200 0 5 8 0 0 0 0 1
-pintype=input
-T 6150 105 5 8 0 1 90 6 1
-pinnumber=25
-T 6200 0 5 8 0 0 0 0 1
-pinseq=25
-T 6200 255 5 8 1 1 90 0 1
-pinlabel=dir_b
-}
-P 6400 0 6400 200 1 0 0
-{
-T 6400 0 5 8 0 0 0 0 1
-pintype=input
-T 6350 105 5 8 0 1 90 6 1
-pinnumber=26
-T 6400 0 5 8 0 0 0 0 1
-pinseq=26
-T 6400 255 5 8 1 1 90 0 1
-pinlabel=enable_b
-}
-P 6600 0 6600 200 1 0 0
-{
-T 6600 0 5 8 0 0 0 0 1
-pintype=input
-T 6550 105 5 8 0 1 90 6 1
-pinnumber=27
-T 6600 0 5 8 0 0 0 0 1
-pinseq=27
-T 6600 255 5 8 1 1 90 0 1
-pinlabel=spi_cs_b
-}
-P 6800 0 6800 200 1 0 0
-{
-T 6800 0 5 8 0 0 0 0 1
-pintype=output
-T 6750 105 5 8 0 1 90 6 1
-pinnumber=28
-T 6800 0 5 8 0 0 0 0 1
-pinseq=28
-T 6800 255 5 8 1 1 90 0 1
-pinlabel=fault_b
-}
 P 1100 2500 1100 2200 1 0 0
 {
 T 1100 2500 5 8 0 0 0 0 1
@@ -603,72 +548,6 @@ T 6000 2500 5 8 0 0 0 0 1
 pinseq=55
 T 6000 2145 5 8 1 1 90 6 1
 pinlabel=clk_4
-}
-P 6300 2500 6300 2200 1 0 0
-{
-T 6300 2500 5 8 0 0 0 0 1
-pintype=output
-T 6250 2295 5 8 0 1 90 0 1
-pinnumber=56
-T 6300 2500 5 8 0 0 0 0 1
-pinseq=56
-T 6300 2145 5 8 1 1 90 6 1
-pinlabel=step_5
-}
-P 6500 2500 6500 2200 1 0 0
-{
-T 6500 2500 5 8 0 0 0 0 1
-pintype=output
-T 6450 2295 5 8 0 1 90 0 1
-pinnumber=57
-T 6500 2500 5 8 0 0 0 0 1
-pinseq=57
-T 6500 2145 5 8 1 1 90 6 1
-pinlabel=dir_5
-}
-P 6700 2500 6700 2200 1 0 0
-{
-T 6700 2500 5 8 0 0 0 0 1
-pintype=output
-T 6650 2295 5 8 0 1 90 0 1
-pinnumber=58
-T 6700 2500 5 8 0 0 0 0 1
-pinseq=58
-T 6700 2145 5 8 1 1 90 6 1
-pinlabel=enable_5
-}
-P 6900 2500 6900 2200 1 0 0
-{
-T 6900 2500 5 8 0 0 0 0 1
-pintype=output
-T 6850 2295 5 8 0 1 90 0 1
-pinnumber=59
-T 6900 2500 5 8 0 0 0 0 1
-pinseq=59
-T 6900 2145 5 8 1 1 90 6 1
-pinlabel=spi_cs_5
-}
-P 7100 2500 7100 2200 1 0 0
-{
-T 7100 2500 5 8 0 0 0 0 1
-pintype=input
-T 7050 2295 5 8 0 1 90 0 1
-pinnumber=60
-T 7100 2500 5 8 0 0 0 0 1
-pinseq=60
-T 7100 2145 5 8 1 1 90 6 1
-pinlabel=fault_5
-}
-P 7300 2500 7300 2200 1 0 0
-{
-T 7300 2500 5 8 0 0 0 0 1
-pintype=output
-T 7250 2295 5 8 0 1 90 0 1
-pinnumber=61
-T 7300 2500 5 8 0 0 0 0 1
-pinseq=61
-T 7300 2145 5 8 1 1 90 6 1
-pinlabel=clk_5
 }
 B 0 200 7500 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 2200 1295 8 8 1 1 0 0 1

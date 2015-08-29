@@ -61,26 +61,6 @@ C 47900 46900 1 0 0 5V_motor.sym
 T 48000 47600 5 10 0 0 0 0 1
 device=none
 }
-C 51900 45900 1 0 0 clock_driver.sym
-{
-T 51895 45895 5 8 0 1 0 0 1
-model-name=551MLFT
-T 51900 45900 5 10 0 0 0 0 1
-footprint=ICS551.fp
-T 51900 45900 5 10 0 0 0 0 1
-description=Integrated Device Tech 551MLFT IC CLK BUFFER 1:4 160MHZ 8SOIC
-T 52200 46200 5 8 1 1 0 0 1
-refdes=CD2
-}
-N 53000 48200 53000 48500 4
-C 52900 45600 1 0 0 gnd-2.sym
-C 51700 48600 1 270 0 gnd-2.sym
-N 52100 48500 52000 48500 4
-C 52800 48500 1 0 0 5V_motor.sym
-{
-T 52900 49200 5 10 0 0 0 0 1
-device=none
-}
 C 49600 45700 1 0 0 output-1.sym
 {
 T 49700 46000 5 10 0 0 0 0 1
@@ -113,10 +93,7 @@ N 49200 45800 49600 45800 4
 N 49200 45600 49600 45600 4
 N 49200 45400 49600 45400 4
 N 49200 45200 49600 45200 4
-N 51900 46700 49200 46700 4
-N 49200 46700 49200 47500 4
-N 49200 47500 46000 47500 4
-N 46000 47500 46000 45300 4
+N 46000 46300 46000 45300 4
 C 47200 46700 1 0 0 capacitor-1.sym
 {
 T 47400 47400 5 10 0 0 0 0 1
@@ -132,23 +109,6 @@ footprint=0402.fp
 T 47300 47000 5 10 1 1 0 0 1
 refdes=C2
 T 47700 46700 5 10 1 1 0 0 1
-value=10nF
-}
-C 52100 48300 1 0 0 capacitor-1.sym
-{
-T 52300 49000 5 10 0 0 0 0 1
-device=CAPACITOR
-T 52300 49200 5 10 0 0 0 0 1
-symversion=0.1
-T 52100 48300 5 10 0 0 0 0 1
-model=GRM155R71H103KA88D
-T 52100 48300 5 10 0 0 0 0 1
-description=Murata 10nF 0402 ceramic capacitor
-T 52100 48300 5 10 0 0 0 0 1
-footprint=0402.fp
-T 52200 48600 5 10 1 1 0 0 1
-refdes=C3
-T 52600 48300 5 10 1 1 0 0 1
 value=10nF
 }
 C 42700 45600 1 90 0 resistor-1.sym
@@ -171,14 +131,3 @@ N 42600 45100 42600 45600 4
 T 45500 44100 9 10 1 0 0 0 2
 Note 1 - 551MLFT OE input
                is pulled up internally.
-C 54800 47300 1 0 0 output-1.sym
-{
-T 54900 47600 5 10 0 0 0 0 1
-device=OUTPUT
-T 55000 47300 5 10 1 1 0 0 1
-refdes=clk_5
-}
-N 54800 47400 54100 47400 4
-T 51800 45100 9 10 1 0 0 0 2
-Note 2 - CD2 and C3 are only provided if
-               all five motor drivers are equipped.
