@@ -2894,7 +2894,7 @@ Element["hidename,onsolder" "0603.fp" "MM1/IO1/C11" "0.1uF" 75.1330mm 101.0078mm
 
 	)
 
-Element["lock" "26_PinDSub.fp" "RP1/J3" "unknown" 115.5048mm 183.5115mm 0.0000 0.0000 1 100 "selected"]
+Element["hidename,lock" "26_PinDSub.fp" "RP1/J3" "unknown" 115.5048mm 183.5115mm 0.0000 0.0000 1 100 "selected"]
 (
 	Attribute("device" "HEADER26")
 	Attribute("manufacturer" "unknown")
@@ -5877,6 +5877,7 @@ Layer(7 "silk")
 )
 Layer(8 "silk")
 (
+	Text[15.5000mm 196.4000mm 0 300 "Buildbotics LLC - Copyright 2015" "clearline"]
 )
 NetList()
 (
