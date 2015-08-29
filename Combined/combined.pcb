@@ -1212,7 +1212,7 @@ Via[59.3000mm 113.4000mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2.2000mm 24.8000mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2.1000mm 26.4000mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 
-Element["" "IRM-10-5.fp" "PS1/U100" "unknown" 4.0011mm 98.3085mm 500.00mil 700.00mil 3 100 ""]
+Element["hidename" "IRM-10-5.fp" "PS1/U100" "unknown" 4.0011mm 98.3085mm 500.00mil 700.00mil 3 100 ""]
 (
 	Attribute("device" "IRM-10-5")
 	Attribute("manufacturer" "unknown")
@@ -1231,7 +1231,7 @@ Element["" "IRM-10-5.fp" "PS1/U100" "unknown" 4.0011mm 98.3085mm 500.00mil 700.0
 
 	)
 
-Element["" "Molex_39-29-1027.fp" "PS1/J2" "unknown" 19.5642mm 7.7608mm -382.00mil 0.0000 3 100 ""]
+Element["hidename" "Molex_39-29-1027.fp" "PS1/J2" "unknown" 19.5642mm 7.7608mm -382.00mil 0.0000 3 100 ""]
 (
 	Attribute("device" "PWRJACK")
 	Attribute("manufacturer" "unknown")
@@ -1254,7 +1254,7 @@ Element["" "Molex_39-29-1027.fp" "PS1/J2" "unknown" 19.5642mm 7.7608mm -382.00mi
 
 	)
 
-Element["" "NICHICON_WT_CAP_8_10.fp" "PS1/C1" "220uF" 1086.90mil 8.1521mm 0.0000 0.0000 0 100 ""]
+Element["hidename" "NICHICON_WT_CAP_8_10.fp" "PS1/C1" "220uF" 1086.90mil 8.1521mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1274,7 +1274,7 @@ Element["" "NICHICON_WT_CAP_8_10.fp" "PS1/C1" "220uF" 1086.90mil 8.1521mm 0.0000
 
 	)
 
-Element["lock" "Molex 39-03-0040.fp" "MM1/MD3/J1" "unknown" 4610.00mil 2470.00mil -350.00mil 100.00mil 0 100 "selected"]
+Element["hidename,lock" "Molex 39-03-0040.fp" "MM1/MD3/J1" "unknown" 4610.00mil 2470.00mil -350.00mil 100.00mil 0 100 "selected"]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1293,7 +1293,7 @@ Element["lock" "Molex 39-03-0040.fp" "MM1/MD3/J1" "unknown" 4610.00mil 2470.00mi
 
 	)
 
-Element["" "IRM-10-5.fp" "PS1/U101" "unknown" 26.1658mm 72.2432mm -500.00mil -700.00mil 1 100 ""]
+Element["hidename" "IRM-10-5.fp" "PS1/U101" "unknown" 26.1658mm 72.2432mm -500.00mil -700.00mil 1 100 ""]
 (
 	Attribute("device" "IRM-10-5")
 	Attribute("manufacturer" "unknown")
@@ -1312,7 +1312,7 @@ Element["" "IRM-10-5.fp" "PS1/U101" "unknown" 26.1658mm 72.2432mm -500.00mil -70
 
 	)
 
-Element["" "Molex_39-30-3036.fp" "PS1/J1" "unknown" 559.90mil 84.9334mm -100.00mil 0.0000 3 100 ""]
+Element["hidename" "Molex_39-30-3036.fp" "PS1/J1" "unknown" 559.90mil 84.9334mm -100.00mil 0.0000 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_3")
 	Attribute("manufacturer" "unknown")
@@ -1334,7 +1334,7 @@ Element["" "Molex_39-30-3036.fp" "PS1/J1" "unknown" 559.90mil 84.9334mm -100.00m
 
 	)
 
-Element["lock" "Molex 39-03-0040.fp" "MM1/MD2/J1" "unknown" 4610.00mil 1680.00mil -350.00mil 100.00mil 0 100 "selected"]
+Element["hidename,lock" "Molex 39-03-0040.fp" "MM1/MD2/J1" "unknown" 4610.00mil 1680.00mil -350.00mil 100.00mil 0 100 "selected"]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1353,7 +1353,7 @@ Element["lock" "Molex 39-03-0040.fp" "MM1/MD2/J1" "unknown" 4610.00mil 1680.00mi
 
 	)
 
-Element["lock" "Molex 39-03-0040.fp" "MM1/MD1/J1" "unknown" 117.0822mm 880.00mil -350.00mil 100.00mil 0 100 "selected"]
+Element["hidename,lock" "Molex 39-03-0040.fp" "MM1/MD1/J1" "unknown" 117.0822mm 880.00mil -350.00mil 100.00mil 0 100 "selected"]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1372,7 +1372,7 @@ Element["lock" "Molex 39-03-0040.fp" "MM1/MD1/J1" "unknown" 117.0822mm 880.00mil
 
 	)
 
-Element["" "LQFP44_10" "MM1/MD1/U3" "unknown" 3507.00mil 959.00mil -60.00mil 20.00mil 1 100 ""]
+Element["hidename" "LQFP44_10" "MM1/MD1/U3" "unknown" 3507.00mil 959.00mil -60.00mil 20.00mil 1 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1432,7 +1432,7 @@ Element["" "LQFP44_10" "MM1/MD1/U3" "unknown" 3507.00mil 959.00mil -60.00mil 20.
 
 	)
 
-Element["" "1206.fp" "MM1/MD1/R5" ".075" 96.4181mm 33.2571mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "1206.fp" "MM1/MD1/R5" ".075" 96.4181mm 33.2571mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1446,7 +1446,7 @@ Element["" "1206.fp" "MM1/MD1/R5" ".075" 96.4181mm 33.2571mm 31.50mil 31.50mil 2
 
 	)
 
-Element["" "0402.fp" "MM1/MD1/C16" "10nF" 97.5296mm 31.1994mm 0.7938mm -0.7956mm 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD1/C16" "10nF" 97.5296mm 31.1994mm 0.7938mm -0.7956mm 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1458,7 +1458,7 @@ Element["" "0402.fp" "MM1/MD1/C16" "10nF" 97.5296mm 31.1994mm 0.7938mm -0.7956mm
 
 	)
 
-Element["" "0402.fp" "MM1/MD1/R3" "22" 96.2060mm 31.0977mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD1/R3" "22" 96.2060mm 31.0977mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1470,7 +1470,7 @@ Element["" "0402.fp" "MM1/MD1/R3" "22" 96.2060mm 31.0977mm 31.50mil -31.50mil 3 
 
 	)
 
-Element["" "1206.fp" "MM1/MD1/R4" ".075" 96.6371mm 15.8310mm -31.50mil -31.50mil 0 100 ""]
+Element["hidename" "1206.fp" "MM1/MD1/R4" ".075" 96.6371mm 15.8310mm -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1484,7 +1484,7 @@ Element["" "1206.fp" "MM1/MD1/R4" ".075" 96.6371mm 15.8310mm -31.50mil -31.50mil
 
 	)
 
-Element["" "0402.fp" "MM1/MD1/R2" "22" 96.4296mm 18.5103mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD1/R2" "22" 96.4296mm 18.5103mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1496,7 +1496,7 @@ Element["" "0402.fp" "MM1/MD1/R2" "22" 96.4296mm 18.5103mm -31.50mil 31.50mil 1 
 
 	)
 
-Element["" "0402.fp" "MM1/MD1/C15" "10nF" 3867.80mil 18.4161mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD1/C15" "10nF" 3867.80mil 18.4161mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1508,7 +1508,7 @@ Element["" "0402.fp" "MM1/MD1/C15" "10nF" 3867.80mil 18.4161mm 31.50mil -31.50mi
 
 	)
 
-Element["" "0402.fp" "MM1/MD1/C7" "470nF" 97.4494mm 27.9472mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD1/C7" "470nF" 97.4494mm 27.9472mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1520,7 +1520,7 @@ Element["" "0402.fp" "MM1/MD1/C7" "470nF" 97.4494mm 27.9472mm -31.50mil 31.50mil
 
 	)
 
-Element["" "0603.fp" "MM1/MD1/C11" "100nF" 78.2487mm 21.5383mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "0603.fp" "MM1/MD1/C11" "100nF" 78.2487mm 21.5383mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1532,7 +1532,7 @@ Element["" "0603.fp" "MM1/MD1/C11" "100nF" 78.2487mm 21.5383mm 31.50mil 31.50mil
 
 	)
 
-Element["" "0603.fp" "MM1/MD1/C18" "470nF" 76.9498mm 25.7689mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0603.fp" "MM1/MD1/C18" "470nF" 76.9498mm 25.7689mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1544,7 +1544,7 @@ Element["" "0603.fp" "MM1/MD1/C18" "470nF" 76.9498mm 25.7689mm -31.50mil 31.50mi
 
 	)
 
-Element["" "0603.fp" "MM1/MD1/C12" "100nF" 3186.00mil 18.0672mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD1/C12" "100nF" 3186.00mil 18.0672mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1556,7 +1556,7 @@ Element["" "0603.fp" "MM1/MD1/C12" "100nF" 3186.00mil 18.0672mm 31.50mil -31.50m
 
 	)
 
-Element["" "0603.fp" "MM1/MD1/C9" "100nF" 3089.00mil 976.59mil 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD1/C9" "100nF" 3089.00mil 976.59mil 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1568,7 +1568,7 @@ Element["" "0603.fp" "MM1/MD1/C9" "100nF" 3089.00mil 976.59mil 31.50mil -31.50mi
 
 	)
 
-Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD1/C17" "47uF" 2859.00mil 909.00mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD1/C17" "47uF" 2859.00mil 909.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1586,7 +1586,7 @@ Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD1/C17" "47uF" 2859.00mil 909.0
 
 	)
 
-Element["" "LQFP44_10" "MM1/MD2/U3" "unknown" 3512.00mil 1748.00mil -60.00mil 20.00mil 1 100 ""]
+Element["hidename" "LQFP44_10" "MM1/MD2/U3" "unknown" 3512.00mil 1748.00mil -60.00mil 20.00mil 1 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1646,7 +1646,7 @@ Element["" "LQFP44_10" "MM1/MD2/U3" "unknown" 3512.00mil 1748.00mil -60.00mil 20
 
 	)
 
-Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD2/C17" "47uF" 72.6099mm 1693.30mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD2/C17" "47uF" 72.6099mm 1693.30mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1664,7 +1664,7 @@ Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD2/C17" "47uF" 72.6099mm 1693.3
 
 	)
 
-Element["" "1206.fp" "MM1/MD2/R4" ".075" 96.8309mm 36.0237mm -31.50mil -31.50mil 0 100 ""]
+Element["hidename" "1206.fp" "MM1/MD2/R4" ".075" 96.8309mm 36.0237mm -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1678,7 +1678,7 @@ Element["" "1206.fp" "MM1/MD2/R4" ".075" 96.8309mm 36.0237mm -31.50mil -31.50mil
 
 	)
 
-Element["" "0402.fp" "MM1/MD2/R2" "22" 96.4782mm 38.5641mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD2/R2" "22" 96.4782mm 38.5641mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1690,7 +1690,7 @@ Element["" "0402.fp" "MM1/MD2/R2" "22" 96.4782mm 38.5641mm -31.50mil 31.50mil 1 
 
 	)
 
-Element["" "0402.fp" "MM1/MD2/C15" "10nF" 98.1384mm 38.5515mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD2/C15" "10nF" 98.1384mm 38.5515mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1702,7 +1702,7 @@ Element["" "0402.fp" "MM1/MD2/C15" "10nF" 98.1384mm 38.5515mm 31.50mil -31.50mil
 
 	)
 
-Element["" "1206.fp" "MM1/MD2/R5" ".075" 96.5131mm 53.4134mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "1206.fp" "MM1/MD2/R5" ".075" 96.5131mm 53.4134mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1716,7 +1716,7 @@ Element["" "1206.fp" "MM1/MD2/R5" ".075" 96.5131mm 53.4134mm 31.50mil 31.50mil 2
 
 	)
 
-Element["" "0402.fp" "MM1/MD2/C16" "10nF" 97.7023mm 51.2155mm 0.7989mm -0.7965mm 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD2/C16" "10nF" 97.7023mm 51.2155mm 0.7989mm -0.7965mm 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1728,7 +1728,7 @@ Element["" "0402.fp" "MM1/MD2/C16" "10nF" 97.7023mm 51.2155mm 0.7989mm -0.7965mm
 
 	)
 
-Element["" "0402.fp" "MM1/MD2/R3" "22" 96.3072mm 51.1384mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD2/R3" "22" 96.3072mm 51.1384mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1740,7 +1740,7 @@ Element["" "0402.fp" "MM1/MD2/R3" "22" 96.3072mm 51.1384mm 31.50mil -31.50mil 3 
 
 	)
 
-Element["" "0603.fp" "MM1/MD2/C12" "100nF" 81.0137mm 38.1098mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD2/C12" "100nF" 81.0137mm 38.1098mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1752,7 +1752,7 @@ Element["" "0603.fp" "MM1/MD2/C12" "100nF" 81.0137mm 38.1098mm 31.50mil -31.50mi
 
 	)
 
-Element["" "0603.fp" "MM1/MD2/C9" "100nF" 78.5364mm 45.0193mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD2/C9" "100nF" 78.5364mm 45.0193mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1764,7 +1764,7 @@ Element["" "0603.fp" "MM1/MD2/C9" "100nF" 78.5364mm 45.0193mm 31.50mil -31.50mil
 
 	)
 
-Element["" "0603.fp" "MM1/MD2/C18" "470nF" 76.6550mm 45.2223mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0603.fp" "MM1/MD2/C18" "470nF" 76.6550mm 45.2223mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1776,7 +1776,7 @@ Element["" "0603.fp" "MM1/MD2/C18" "470nF" 76.6550mm 45.2223mm -31.50mil 31.50mi
 
 	)
 
-Element["" "0603.fp" "MM1/MD2/C11" "100nF" 78.6301mm 41.3191mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "0603.fp" "MM1/MD2/C11" "100nF" 78.6301mm 41.3191mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1788,7 +1788,7 @@ Element["" "0603.fp" "MM1/MD2/C11" "100nF" 78.6301mm 41.3191mm 31.50mil 31.50mil
 
 	)
 
-Element["" "0402.fp" "MM1/MD2/C7" "470nF" 97.3997mm 1890.00mil -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD2/C7" "470nF" 97.3997mm 1890.00mil -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1800,7 +1800,7 @@ Element["" "0402.fp" "MM1/MD2/C7" "470nF" 97.3997mm 1890.00mil -31.50mil 31.50mi
 
 	)
 
-Element["" "LQFP44_10" "MM1/MD3/U3" "unknown" 3505.00mil 2544.00mil -60.00mil 20.00mil 1 100 ""]
+Element["hidename" "LQFP44_10" "MM1/MD3/U3" "unknown" 3505.00mil 2544.00mil -60.00mil 20.00mil 1 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1860,7 +1860,7 @@ Element["" "LQFP44_10" "MM1/MD3/U3" "unknown" 3505.00mil 2544.00mil -60.00mil 20
 
 	)
 
-Element["" "1206.fp" "MM1/MD3/R5" ".075" 96.6137mm 73.5576mm 0.7953mm 0.7882mm 2 100 ""]
+Element["hidename" "1206.fp" "MM1/MD3/R5" ".075" 96.6137mm 73.5576mm 0.7953mm 0.7882mm 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1874,7 +1874,7 @@ Element["" "1206.fp" "MM1/MD3/R5" ".075" 96.6137mm 73.5576mm 0.7953mm 0.7882mm 2
 
 	)
 
-Element["" "0402.fp" "MM1/MD3/R3" "22" 96.4727mm 71.3758mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD3/R3" "22" 96.4727mm 71.3758mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1886,7 +1886,7 @@ Element["" "0402.fp" "MM1/MD3/R3" "22" 96.4727mm 71.3758mm 31.50mil -31.50mil 3 
 
 	)
 
-Element["" "0402.fp" "MM1/MD3/C16" "10nF" 97.5680mm 71.3605mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD3/C16" "10nF" 97.5680mm 71.3605mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1898,7 +1898,7 @@ Element["" "0402.fp" "MM1/MD3/C16" "10nF" 97.5680mm 71.3605mm 31.50mil -31.50mil
 
 	)
 
-Element["" "0402.fp" "MM1/MD3/C7" "470nF" 97.4631mm 68.2350mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD3/C7" "470nF" 97.4631mm 68.2350mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1910,7 +1910,7 @@ Element["" "0402.fp" "MM1/MD3/C7" "470nF" 97.4631mm 68.2350mm -31.50mil 31.50mil
 
 	)
 
-Element["" "0402.fp" "MM1/MD3/C15" "10nF" 98.2433mm 58.7059mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD3/C15" "10nF" 98.2433mm 58.7059mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1922,7 +1922,7 @@ Element["" "0402.fp" "MM1/MD3/C15" "10nF" 98.2433mm 58.7059mm 31.50mil -31.50mil
 
 	)
 
-Element["" "1206.fp" "MM1/MD3/R4" ".075" 96.6669mm 56.1292mm -31.50mil -31.50mil 0 100 ""]
+Element["hidename" "1206.fp" "MM1/MD3/R4" ".075" 96.6669mm 56.1292mm -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1936,7 +1936,7 @@ Element["" "1206.fp" "MM1/MD3/R4" ".075" 96.6669mm 56.1292mm -31.50mil -31.50mil
 
 	)
 
-Element["" "0402.fp" "MM1/MD3/R2" "22" 96.5131mm 58.7788mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD3/R2" "22" 96.5131mm 58.7788mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1948,7 +1948,7 @@ Element["" "0402.fp" "MM1/MD3/R2" "22" 96.5131mm 58.7788mm -31.50mil 31.50mil 1 
 
 	)
 
-Element["" "0603.fp" "MM1/MD3/C12" "100nF" 80.7146mm 58.3025mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD3/C12" "100nF" 80.7146mm 58.3025mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1960,7 +1960,7 @@ Element["" "0603.fp" "MM1/MD3/C12" "100nF" 80.7146mm 58.3025mm 31.50mil -31.50mi
 
 	)
 
-Element["" "0603.fp" "MM1/MD3/C9" "100nF" 78.5147mm 64.9361mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD3/C9" "100nF" 78.5147mm 64.9361mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1972,7 +1972,7 @@ Element["" "0603.fp" "MM1/MD3/C9" "100nF" 78.5147mm 64.9361mm 31.50mil -31.50mil
 
 	)
 
-Element["" "0603.fp" "MM1/MD3/C11" "100nF" 78.5945mm 61.4598mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "0603.fp" "MM1/MD3/C11" "100nF" 78.5945mm 61.4598mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1984,7 +1984,7 @@ Element["" "0603.fp" "MM1/MD3/C11" "100nF" 78.5945mm 61.4598mm 31.50mil 31.50mil
 
 	)
 
-Element["" "0603.fp" "MM1/MD3/C18" "470nF" 76.8143mm 65.3636mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0603.fp" "MM1/MD3/C18" "470nF" 76.8143mm 65.3636mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1996,7 +1996,7 @@ Element["" "0603.fp" "MM1/MD3/C18" "470nF" 76.8143mm 65.3636mm -31.50mil 31.50mi
 
 	)
 
-Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD3/C17" "47uF" 2853.00mil 2490.00mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD3/C17" "47uF" 2853.00mil 2490.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2014,7 +2014,7 @@ Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD3/C17" "47uF" 2853.00mil 2490.
 
 	)
 
-Element["" "LQFP44_10" "MM1/MD4/U3" "unknown" 3507.00mil 3341.00mil -60.00mil 20.00mil 1 100 ""]
+Element["hidename" "LQFP44_10" "MM1/MD4/U3" "unknown" 3507.00mil 3341.00mil -60.00mil 20.00mil 1 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2074,7 +2074,7 @@ Element["" "LQFP44_10" "MM1/MD4/U3" "unknown" 3507.00mil 3341.00mil -60.00mil 20
 
 	)
 
-Element["" "1206.fp" "MM1/MD4/R5" ".075" 96.6048mm 94.0302mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "1206.fp" "MM1/MD4/R5" ".075" 96.6048mm 94.0302mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2088,7 +2088,7 @@ Element["" "1206.fp" "MM1/MD4/R5" ".075" 96.6048mm 94.0302mm 31.50mil 31.50mil 2
 
 	)
 
-Element["" "0402.fp" "MM1/MD4/R3" "22" 96.3970mm 91.7454mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD4/R3" "22" 96.3970mm 91.7454mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2100,7 +2100,7 @@ Element["" "0402.fp" "MM1/MD4/R3" "22" 96.3970mm 91.7454mm 31.50mil -31.50mil 3 
 
 	)
 
-Element["" "0402.fp" "MM1/MD4/C16" "10nF" 97.6493mm 91.7054mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD4/C16" "10nF" 97.6493mm 91.7054mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2112,7 +2112,7 @@ Element["" "0402.fp" "MM1/MD4/C16" "10nF" 97.6493mm 91.7054mm 31.50mil -31.50mil
 
 	)
 
-Element["" "1206.fp" "MM1/MD4/R4" ".075" 96.5715mm 76.5312mm -31.50mil -31.50mil 0 100 ""]
+Element["hidename" "1206.fp" "MM1/MD4/R4" ".075" 96.5715mm 76.5312mm -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2126,7 +2126,7 @@ Element["" "1206.fp" "MM1/MD4/R4" ".075" 96.5715mm 76.5312mm -31.50mil -31.50mil
 
 	)
 
-Element["" "0402.fp" "MM1/MD4/C15" "10nF" 98.2355mm 3110.80mil 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0402.fp" "MM1/MD4/C15" "10nF" 98.2355mm 3110.80mil 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2138,7 +2138,7 @@ Element["" "0402.fp" "MM1/MD4/C15" "10nF" 98.2355mm 3110.80mil 31.50mil -31.50mi
 
 	)
 
-Element["" "0402.fp" "MM1/MD4/R2" "22" 3799.10mil 79.0465mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD4/R2" "22" 3799.10mil 79.0465mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2150,7 +2150,7 @@ Element["" "0402.fp" "MM1/MD4/R2" "22" 3799.10mil 79.0465mm -31.50mil 31.50mil 1
 
 	)
 
-Element["" "0603.fp" "MM1/MD4/C12" "100nF" 80.7563mm 78.5831mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD4/C12" "100nF" 80.7563mm 78.5831mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2162,7 +2162,7 @@ Element["" "0603.fp" "MM1/MD4/C12" "100nF" 80.7563mm 78.5831mm 31.50mil -31.50mi
 
 	)
 
-Element["" "0603.fp" "MM1/MD4/C11" "100nF" 78.6873mm 81.7399mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "0603.fp" "MM1/MD4/C11" "100nF" 78.6873mm 81.7399mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2174,7 +2174,7 @@ Element["" "0603.fp" "MM1/MD4/C11" "100nF" 78.6873mm 81.7399mm 31.50mil 31.50mil
 
 	)
 
-Element["" "0603.fp" "MM1/MD4/C9" "100nF" 78.5034mm 85.3319mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "0603.fp" "MM1/MD4/C9" "100nF" 78.5034mm 85.3319mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2186,7 +2186,7 @@ Element["" "0603.fp" "MM1/MD4/C9" "100nF" 78.5034mm 85.3319mm 31.50mil -31.50mil
 
 	)
 
-Element["" "0603.fp" "MM1/MD4/C18" "470nF" 76.7151mm 85.7440mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0603.fp" "MM1/MD4/C18" "470nF" 76.7151mm 85.7440mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2198,7 +2198,7 @@ Element["" "0603.fp" "MM1/MD4/C18" "470nF" 76.7151mm 85.7440mm -31.50mil 31.50mi
 
 	)
 
-Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD4/C17" "47uF" 2859.00mil 3287.00mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD4/C17" "47uF" 2859.00mil 3287.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2216,7 +2216,7 @@ Element["" "NICHICON_WT_CAP_260_mil_sq.fp" "MM1/MD4/C17" "47uF" 2859.00mil 3287.
 
 	)
 
-Element["" "0402.fp" "MM1/MD4/C7" "470nF" 97.4656mm 88.5276mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/MD4/C7" "470nF" 97.4656mm 88.5276mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2292,7 +2292,7 @@ Element["" "HEADER26_1" "RP1/J2" "unknown" 55.00mil 5831.00mil 210.00mil -50.00m
 
 	)
 
-Element["" "RESC3225M.fp" "PS1/R1" "0?" 2.3423mm 21.4222mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "RESC3225M.fp" "PS1/R1" "0?" 2.3423mm 21.4222mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2306,7 +2306,7 @@ Element["" "RESC3225M.fp" "PS1/R1" "0?" 2.3423mm 21.4222mm -31.50mil 31.50mil 1 
 
 	)
 
-Element["" "NICHICON_WT_CAP_4_5p4.fp" "PS1/C5" "10uF" 829.00mil 996.00mil 0.0000 0.0000 1 100 ""]
+Element["hidename" "NICHICON_WT_CAP_4_5p4.fp" "PS1/C5" "10uF" 829.00mil 996.00mil 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2326,7 +2326,7 @@ Element["" "NICHICON_WT_CAP_4_5p4.fp" "PS1/C5" "10uF" 829.00mil 996.00mil 0.0000
 
 	)
 
-Element["" "RESC3225M.fp" "PS1/R2" "0?" 32.5097mm 105.3835mm 31.50mil -31.50mil 3 100 ""]
+Element["hidename" "RESC3225M.fp" "PS1/R2" "0?" 32.5097mm 105.3835mm 31.50mil -31.50mil 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2340,7 +2340,7 @@ Element["" "RESC3225M.fp" "PS1/R2" "0?" 32.5097mm 105.3835mm 31.50mil -31.50mil 
 
 	)
 
-Element["" "NICHICON_WT_CAP_4_5p4.fp" "PS1/C4" "10uF" 469.00mil 5661.00mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "NICHICON_WT_CAP_4_5p4.fp" "PS1/C4" "10uF" 469.00mil 5661.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2360,7 +2360,7 @@ Element["" "NICHICON_WT_CAP_4_5p4.fp" "PS1/C4" "10uF" 469.00mil 5661.00mil 0.000
 
 	)
 
-Element["" "SOT223" "PS1/U102" "unknown" 28.5540mm 5823.80mil -329.00mil -253.00mil 0 100 ""]
+Element["hidename" "SOT223" "PS1/U102" "unknown" 28.5540mm 5823.80mil -329.00mil -253.00mil 0 100 ""]
 (
 	Attribute("device" "UA78M33CDCYR")
 	Attribute("manufacturer" "unknown")
@@ -2378,7 +2378,7 @@ Element["" "SOT223" "PS1/U102" "unknown" 28.5540mm 5823.80mil -329.00mil -253.00
 
 	)
 
-Element["" "0402.fp" "PS1/C100" "0.33uF" 16.2262mm 143.8125mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "PS1/C100" "0.33uF" 16.2262mm 143.8125mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2390,7 +2390,7 @@ Element["" "0402.fp" "PS1/C100" "0.33uF" 16.2262mm 143.8125mm -31.50mil 31.50mil
 
 	)
 
-Element["" "0603.fp" "PS1/C101" "0.1uF" 1289.50mil 144.2703mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0603.fp" "PS1/C101" "0.1uF" 1289.50mil 144.2703mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2402,7 +2402,7 @@ Element["" "0603.fp" "PS1/C101" "0.1uF" 1289.50mil 144.2703mm -31.50mil 31.50mil
 
 	)
 
-Element["onsolder" "QSOP16.fp" "MM1/IO1/U6" "unknown" 121.9118mm 108.7601mm -38.00mil -122.00mil 2 100 "auto"]
+Element["hidename,onsolder" "QSOP16.fp" "MM1/IO1/U6" "unknown" 121.9118mm 108.7601mm -38.00mil -122.00mil 2 100 "auto"]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2434,7 +2434,7 @@ Element["onsolder" "QSOP16.fp" "MM1/IO1/U6" "unknown" 121.9118mm 108.7601mm -38.
 
 	)
 
-Element["onsolder" "TQFP64_14" "MP1/U1" "ATXmegaA3" 90.1283mm 129.1258mm -60.00mil -20.00mil 1 100 "auto"]
+Element["hidename,onsolder" "TQFP64_14" "MP1/U1" "ATXmegaA3" 90.1283mm 129.1258mm -60.00mil -20.00mil 1 100 "auto"]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2514,7 +2514,7 @@ Element["onsolder" "TQFP64_14" "MP1/U1" "ATXmegaA3" 90.1283mm 129.1258mm -60.00m
 
 	)
 
-Element["onsolder" "Crystal_HC49.fp" "MP1/X1" "16MHz" 2682.10mil 5000.00mil 0.0000 200.00mil 0 100 "auto"]
+Element["hidename,onsolder" "Crystal_HC49.fp" "MP1/X1" "16MHz" 2682.10mil 5000.00mil 0.0000 200.00mil 0 100 "auto"]
 (
 	Attribute("device" "CRYSTAL")
 	Attribute("manufacturer" "unknown")
@@ -2532,7 +2532,7 @@ Element["onsolder" "Crystal_HC49.fp" "MP1/X1" "16MHz" 2682.10mil 5000.00mil 0.00
 
 	)
 
-Element["onsolder" "0603" "MP1/C3" "22pF" 72.1568mm 123.3426mm -31.50mil 31.50mil 0 100 "auto"]
+Element["hidename,onsolder" "0603" "MP1/C3" "22pF" 72.1568mm 123.3426mm -31.50mil 31.50mil 0 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2544,7 +2544,7 @@ Element["onsolder" "0603" "MP1/C3" "22pF" 72.1568mm 123.3426mm -31.50mil 31.50mi
 
 	)
 
-Element["onsolder" "0603" "MP1/C2" "22pF" 2461.90mil 123.0625mm -31.50mil 31.50mil 0 100 "auto"]
+Element["hidename,onsolder" "0603" "MP1/C2" "22pF" 2461.90mil 123.0625mm -31.50mil 31.50mil 0 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2556,7 +2556,7 @@ Element["onsolder" "0603" "MP1/C2" "22pF" 2461.90mil 123.0625mm -31.50mil 31.50m
 
 	)
 
-Element["onsolder" "0603" "MP1/C1" "0.1uF" 79.7360mm 119.8191mm -31.50mil 31.50mil 0 100 "auto"]
+Element["hidename,onsolder" "0603" "MP1/C1" "0.1uF" 79.7360mm 119.8191mm -31.50mil 31.50mil 0 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2568,7 +2568,7 @@ Element["onsolder" "0603" "MP1/C1" "0.1uF" 79.7360mm 119.8191mm -31.50mil 31.50m
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C15" "0.1uF" 114.9952mm 100.8382mm -31.50mil -31.50mil 1 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C15" "0.1uF" 114.9952mm 100.8382mm -31.50mil -31.50mil 1 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2580,7 +2580,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C15" "0.1uF" 114.9952mm 100.8382mm -31.50m
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C14" "0.1uF" 4908.00mil 109.6876mm -31.50mil -31.50mil 1 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C14" "0.1uF" 4908.00mil 109.6876mm -31.50mil -31.50mil 1 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2592,7 +2592,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C14" "0.1uF" 4908.00mil 109.6876mm -31.50m
 
 	)
 
-Element["onsolder" "QSOP16.fp" "MM1/IO1/U1" "unknown" 41.9554mm 108.7531mm -38.00mil -122.00mil 2 100 "auto"]
+Element["hidename,onsolder" "QSOP16.fp" "MM1/IO1/U1" "unknown" 41.9554mm 108.7531mm -38.00mil -122.00mil 2 100 "auto"]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2624,7 +2624,7 @@ Element["onsolder" "QSOP16.fp" "MM1/IO1/U1" "unknown" 41.9554mm 108.7531mm -38.0
 
 	)
 
-Element["" "CB3_OSC.fp" "MM1/IO1/CLOCK/OSC1" "16MHz" 1378.00mil 1135.00mil 0.0000 0.0000 1 100 ""]
+Element["hidename" "CB3_OSC.fp" "MM1/IO1/CLOCK/OSC1" "16MHz" 1378.00mil 1135.00mil 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2643,7 +2643,7 @@ Element["" "CB3_OSC.fp" "MM1/IO1/CLOCK/OSC1" "16MHz" 1378.00mil 1135.00mil 0.000
 
 	)
 
-Element["" "0402.fp" "MM1/IO1/CLOCK/C1" "10nF" 34.4923mm 34.4481mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "0402.fp" "MM1/IO1/CLOCK/C1" "10nF" 34.4923mm 34.4481mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2655,7 +2655,7 @@ Element["" "0402.fp" "MM1/IO1/CLOCK/C1" "10nF" 34.4923mm 34.4481mm 31.50mil 31.5
 
 	)
 
-Element["" "0402.fp" "MM1/IO1/CLOCK/R1" "10K" 37.2527mm 34.2099mm 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "0402.fp" "MM1/IO1/CLOCK/R1" "10K" 37.2527mm 34.2099mm 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -2667,7 +2667,7 @@ Element["" "0402.fp" "MM1/IO1/CLOCK/R1" "10K" 37.2527mm 34.2099mm 31.50mil 31.50
 
 	)
 
-Element["" "ICS551.fp" "MM1/IO1/CLOCK/CD1" "unknown" 1710.00mil 1150.00mil 0.0000 0.0000 2 100 ""]
+Element["hidename" "ICS551.fp" "MM1/IO1/CLOCK/CD1" "unknown" 1710.00mil 1150.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2690,7 +2690,7 @@ Element["" "ICS551.fp" "MM1/IO1/CLOCK/CD1" "unknown" 1710.00mil 1150.00mil 0.000
 
 	)
 
-Element["" "0402.fp" "MM1/IO1/CLOCK/C2" "10nF" 40.4304mm 33.3489mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402.fp" "MM1/IO1/CLOCK/C2" "10nF" 40.4304mm 33.3489mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2702,7 +2702,7 @@ Element["" "0402.fp" "MM1/IO1/CLOCK/C2" "10nF" 40.4304mm 33.3489mm -31.50mil 31.
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C5" "0.1uF" 1402.00mil 106.1062mm -31.50mil -31.50mil 1 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C5" "0.1uF" 1402.00mil 106.1062mm -31.50mil -31.50mil 1 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2714,7 +2714,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C5" "0.1uF" 1402.00mil 106.1062mm -31.50mi
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C4" "0.1uF" 1725.00mil 101.3864mm 31.50mil 31.50mil 3 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C4" "0.1uF" 1725.00mil 101.3864mm 31.50mil 31.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2726,7 +2726,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C4" "0.1uF" 1725.00mil 101.3864mm 31.50mil
 
 	)
 
-Element["onsolder" "QSOP16.fp" "MM1/IO1/U2" "unknown" 51.4606mm 4290.70mil -38.00mil -122.00mil 2 100 "auto"]
+Element["hidename,onsolder" "QSOP16.fp" "MM1/IO1/U2" "unknown" 51.4606mm 4290.70mil -38.00mil -122.00mil 2 100 "auto"]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2758,7 +2758,7 @@ Element["onsolder" "QSOP16.fp" "MM1/IO1/U2" "unknown" 51.4606mm 4290.70mil -38.0
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C6" "0.1uF" 44.7835mm 106.9271mm -31.50mil -31.50mil 1 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C6" "0.1uF" 44.7835mm 106.9271mm -31.50mil -31.50mil 1 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2770,7 +2770,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C6" "0.1uF" 44.7835mm 106.9271mm -31.50mil
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C7" "0.1uF" 2118.00mil 101.1070mm 31.50mil 31.50mil 3 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C7" "0.1uF" 2118.00mil 101.1070mm 31.50mil 31.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2782,7 +2782,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C7" "0.1uF" 2118.00mil 101.1070mm 31.50mil
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C8" "0.1uF" 2133.00mil 107.6302mm -31.50mil -31.50mil 1 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C8" "0.1uF" 2133.00mil 107.6302mm -31.50mil -31.50mil 1 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2794,7 +2794,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C8" "0.1uF" 2133.00mil 107.6302mm -31.50mi
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C9" "0.1uF" 64.2764mm 3986.20mil 31.50mil 31.50mil 3 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C9" "0.1uF" 64.2764mm 3986.20mil 31.50mil 31.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2806,7 +2806,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C9" "0.1uF" 64.2764mm 3986.20mil 31.50mil 
 
 	)
 
-Element["onsolder" "QSOP16.fp" "MM1/IO1/U3" "unknown" 61.2112mm 4304.60mil -47.00mil -125.00mil 2 100 "auto"]
+Element["hidename,onsolder" "QSOP16.fp" "MM1/IO1/U3" "unknown" 61.2112mm 4304.60mil -47.00mil -125.00mil 2 100 "auto"]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2838,7 +2838,7 @@ Element["onsolder" "QSOP16.fp" "MM1/IO1/U3" "unknown" 61.2112mm 4304.60mil -47.0
 
 	)
 
-Element["onsolder" "QSOP16.fp" "MM1/IO1/U4" "unknown" 73.0159mm 109.2532mm -38.00mil -122.00mil 2 100 "auto"]
+Element["hidename,onsolder" "QSOP16.fp" "MM1/IO1/U4" "unknown" 73.0159mm 109.2532mm -38.00mil -122.00mil 2 100 "auto"]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2870,7 +2870,7 @@ Element["onsolder" "QSOP16.fp" "MM1/IO1/U4" "unknown" 73.0159mm 109.2532mm -38.0
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C10" "0.1uF" 2543.00mil 107.8842mm -31.50mil -31.50mil 1 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C10" "0.1uF" 2543.00mil 107.8842mm -31.50mil -31.50mil 1 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2882,7 +2882,7 @@ Element["onsolder" "0603.fp" "MM1/IO1/C10" "0.1uF" 2543.00mil 107.8842mm -31.50m
 
 	)
 
-Element["onsolder" "0603.fp" "MM1/IO1/C11" "0.1uF" 75.1330mm 101.0078mm 21.50mil 11.50mil 3 100 "auto"]
+Element["hidename,onsolder" "0603.fp" "MM1/IO1/C11" "0.1uF" 75.1330mm 101.0078mm 21.50mil 11.50mil 3 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2940,7 +2940,7 @@ Element["lock" "26_PinDSub.fp" "RP1/J3" "unknown" 115.5048mm 183.5115mm 0.0000 0
 
 	)
 
-Element["lock" "Molex 39-03-0040.fp" "MM1/MD4/J1" "unknown" 4610.00mil 3265.00mil -350.00mil 100.00mil 0 100 "selected"]
+Element["hidename,lock" "Molex 39-03-0040.fp" "MM1/MD4/J1" "unknown" 4610.00mil 3265.00mil -350.00mil 100.00mil 0 100 "selected"]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -4953,7 +4953,7 @@ Layer(3 "inner2")
 	Line[490.00mil 3173.00mil 640.00mil 3173.00mil 60.00mil 20.00mil ""]
 	Line[494.00mil 3219.00mil 625.00mil 3219.00mil 60.00mil 20.00mil ""]
 	Line[623.00mil 3232.00mil 493.00mil 3232.00mil 60.00mil 20.00mil ""]
-	Line[88.00mil 2627.00mil 88.00mil 915.00mil 60.00mil 20.00mil "selected"]
+	Line[88.00mil 2627.00mil 88.00mil 915.00mil 60.00mil 20.00mil ""]
 	Line[55.00mil 682.00mil 152.00mil 682.00mil 1.6240mm 20.00mil ""]
 	Line[1148.00mil 3766.00mil 1148.00mil 3999.00mil 60.00mil 20.00mil ""]
 	Line[1215.00mil 4289.00mil 1327.00mil 4289.00mil 60.00mil 20.00mil ""]
