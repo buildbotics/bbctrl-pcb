@@ -191,7 +191,7 @@ symversion=1.0
 T 46000 47900 5 26 1 1 270 0 1
 description=ATXMEGA64A3U-AUR
 T 47200 50200 5 8 0 0 0 0 1
-footprint=TQFP64_14
+footprint=TQFP64_14_ATXMEGA.fp
 T 47800 50200 5 10 1 1 0 0 1
 refdes=U1
 }
