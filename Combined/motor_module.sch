@@ -580,7 +580,7 @@ device=none
 N 50600 48000 50100 48000 4
 {
 T 50200 48000 5 10 1 1 0 0 1
-netname=dir_4
+netname=step_4
 }
 C 50100 48000 1 90 0 busripper-1.sym
 {
@@ -590,7 +590,7 @@ device=none
 N 50600 48200 50100 48200 4
 {
 T 50100 48200 5 10 1 1 0 0 1
-netname=step_4
+netname=dir_4
 }
 C 50100 48200 1 90 0 busripper-1.sym
 {
