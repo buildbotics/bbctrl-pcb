@@ -214,17 +214,17 @@ description=Connector Header 40 Position 0.100" (2.54mm) Gold Through Hole
 T 49300 42200 5 10 0 0 0 0 1
 model=SFH11-PBPC-D20-ST-BK
 }
-C 54500 44900 1 0 0 header26-1.sym
+C 55900 50300 1 180 0 header26-1.sym
 {
-T 55100 50300 5 10 1 1 0 0 1
+T 55300 44900 5 10 1 1 180 0 1
 refdes=J2
-T 56100 49600 5 10 0 0 0 0 1
+T 54300 45600 5 10 0 0 180 0 1
 device=HEADER26
-T 54500 44900 5 10 0 0 0 0 1
-footprint=HEADER26_1
-T 54500 44900 5 10 0 0 0 0 1
+T 55900 50300 5 10 0 0 180 0 1
+footprint=HEADER26_2
+T 55900 50300 5 10 0 0 180 0 1
 model=SFH11-PBPC-D13-ST-BK
-T 54500 44900 5 10 0 0 0 0 1
+T 55900 50300 5 10 0 0 180 0 1
 description=Connector Header 26 Position 0.100" (2.54mm) Gold Through Hole
 }
 C 49300 43900 1 0 1 output-1.sym
@@ -262,17 +262,17 @@ device=OUTPUT
 T 52400 42300 5 10 1 1 0 0 1
 refdes=spi_clk
 }
-C 42000 43700 1 0 0 header26-1.sym
+C 43400 49100 1 180 0 header26-1.sym
 {
-T 42600 49100 5 10 1 1 0 0 1
+T 42800 43700 5 10 1 1 180 0 1
 refdes=J3
-T 43600 48400 5 10 0 0 0 0 1
+T 41800 44400 5 10 0 0 180 0 1
 device=HEADER26
-T 42000 43700 5 10 0 0 0 0 1
+T 43400 49100 5 10 0 0 180 0 1
 model=ICD26S13E4GX00LF
-T 42000 43700 5 10 0 0 0 0 1
+T 43400 49100 5 10 0 0 180 0 1
 description=D-Sub Connector Receptacle, Female Sockets 26 Position Through Hole, Right Angle Solder
-T 42000 43700 5 10 0 0 0 0 1
+T 43400 49100 5 10 0 0 180 0 1
 footprint=26_PinDSub.fp
 }
 C 41400 49200 1 0 0 3.3V-plus-1.sym
