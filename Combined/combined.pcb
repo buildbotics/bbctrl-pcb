@@ -3652,10 +3652,10 @@ Element["lock" "Raspberry PI, facing down" "" "" 3322.00mil 4739.00mil 0.0000 -2
 	ElementLine [-42.5000mm -1102.50mil 42.5000mm -1102.50mil 10.00mil]
 	ElementLine [42.5000mm -1102.50mil 42.5000mm 1102.50mil 10.00mil]
 	ElementLine [-42.5000mm 1102.50mil 42.5000mm 1102.50mil 10.00mil]
-	ElementArc [-38.9999mm 964.71mil 122.00mil 122.00mil 90 360 1.00mil]
-	ElementArc [-38.9999mm -964.71mil 122.00mil 122.00mil 90 360 1.00mil]
-	ElementArc [19.0000mm 964.71mil 122.00mil 122.00mil 90 360 1.00mil]
-	ElementArc [19.0000mm -964.71mil 122.00mil 122.00mil 90 360 1.00mil]
+	ElementArc [-38.9999mm 964.71mil 122.00mil 122.00mil 90 360 10.00mil]
+	ElementArc [-38.9999mm -964.71mil 122.00mil 122.00mil 90 360 10.00mil]
+	ElementArc [19.0000mm 964.71mil 122.00mil 122.00mil 90 360 10.00mil]
+	ElementArc [19.0000mm -964.71mil 122.00mil 122.00mil 90 360 10.00mil]
 
 	)
 Layer(1 "top")
