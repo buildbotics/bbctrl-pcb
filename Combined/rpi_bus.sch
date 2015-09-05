@@ -208,7 +208,7 @@ device=RaspberryPi
 T 49900 50300 5 10 1 1 0 0 1
 refdes=J1
 T 49300 42200 5 10 0 0 0 0 1
-footprint=raspberry_pi.fp
+footprint=raspberry_pi_connector.fp
 T 49300 42200 5 10 0 0 0 0 1
 description=Connector Header 40 Position 0.100" (2.54mm) Gold Through Hole
 T 49300 42200 5 10 0 0 0 0 1
