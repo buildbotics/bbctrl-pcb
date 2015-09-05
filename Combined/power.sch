@@ -78,7 +78,7 @@ refdes=C1
 T 51700 46200 5 10 0 0 270 0 1
 symversion=0.1
 T 50800 46400 5 10 0 0 0 0 1
-footprint=NICHICON_WT_CAP_8_10.fp
+footprint=NICHICON_WT_CAP_10_10_20_mil_clearance.fp
 T 50400 45700 5 10 1 1 0 0 1
 value=220uF
 T 50800 46400 5 10 0 0 0 0 1
