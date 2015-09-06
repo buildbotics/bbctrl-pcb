@@ -4,7 +4,7 @@ SCHEMATICS = $(wildcard *.sch)
 all:
 
 schematics:
-	gschem -q -- $(SCHEMATICS)&
+	gschem -q -- $(NAME).sch&
 
 pcb:
 	pcb $(NAME).pcb&
