@@ -108,7 +108,7 @@ value=10uF
 T 47600 50000 5 10 0 1 0 0 1
 description=Nichicon UWP1A100MCL1GB 10uF 10Volt Aluminum Electrolytic SMD cap
 T 47600 50000 5 10 0 0 0 0 1
-footprint=NICHICON_WT_CAP_4_5p4.fp
+footprint=NICHICON_WT_CAP_4mm.fp
 }
 N 46100 49100 47800 49100 4
 N 46100 49400 46400 49400 4
