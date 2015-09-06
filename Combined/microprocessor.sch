@@ -251,335 +251,336 @@ C 49100 42600 1 180 0 input.sym
 {
 T 49100 42300 5 10 0 0 180 0 1
 device=INPUT
-T 48900 42400 5 10 1 1 0 0 1
-netname=a_max
+T 48850 42450 5 10 1 1 0 0 1
+refdes=a_max
 }
 C 49100 42900 1 180 0 input.sym
 {
 T 49100 42600 5 10 0 0 180 0 1
 device=INPUT
-T 48900 42700 5 10 1 1 0 0 1
-netname=a_min
+T 48850 42750 5 10 1 1 0 0 1
+refdes=a_min
 }
 C 49100 45200 1 180 0 input.sym
 {
 T 49100 44900 5 10 0 0 180 0 1
 device=INPUT
-T 48900 45000 5 10 1 1 0 0 1
-netname=z_max
+T 48800 45050 5 10 1 1 0 0 1
+refdes=z_max
 }
 C 49100 45500 1 180 0 input.sym
 {
 T 49100 45200 5 10 0 0 180 0 1
 device=INPUT
-T 48900 45300 5 10 1 1 0 0 1
-netname=z_min
+T 48800 45350 5 10 1 1 0 0 1
+refdes=z_min
 }
 C 49100 47800 1 180 0 input.sym
 {
 T 49100 47500 5 10 0 0 180 0 1
 device=INPUT
-T 48900 47600 5 10 1 1 0 0 1
-netname=y_max
+T 48850 47650 5 10 1 1 0 0 1
+refdes=y_max
 }
 C 49100 48100 1 180 0 input.sym
 {
 T 49100 47800 5 10 0 0 180 0 1
 device=INPUT
-T 48900 47900 5 10 1 1 0 0 1
-netname=y_min
+T 48850 47950 5 10 1 1 0 0 1
+refdes=y_min
 }
 C 48300 45600 1 0 0 output.sym
 {
 T 48400 45900 5 10 0 0 0 0 1
 device=OUTPUT
-T 48900 45600 5 10 1 1 0 0 1
-netname=coolant
+T 48800 45650 5 10 1 1 0 0 1
+refdes=coolant
 }
 C 48300 48200 1 0 0 output.sym
 {
 T 48400 48500 5 10 0 0 0 0 1
 device=OUTPUT
-T 48900 48200 5 10 1 1 0 0 1
-netname=spin_pwm
+T 48800 48250 5 10 1 1 0 0 1
+refdes=spin_pwm
 }
 C 48300 43000 1 0 0 output.sym
 {
 T 48400 43300 5 10 0 0 0 0 1
 device=OUTPUT
-T 48900 43000 5 10 1 1 0 0 1
-netname=spin_dir
+T 48850 43050 5 10 1 1 0 0 1
+refdes=spin_dir
 }
 C 48300 44700 1 180 1 output.sym
 {
 T 48400 44400 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 44700 5 10 1 1 180 6 1
-netname=step_y
+T 48800 44550 5 10 1 1 0 0 1
+refdes=step_y
 }
 C 48300 44100 1 180 1 output.sym
 {
 T 48400 43800 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 44100 5 10 1 1 180 6 1
-netname=enable_y
+T 48800 43950 5 10 1 1 0 0 1
+refdes=enable_y
 }
 C 48300 44400 1 180 1 output.sym
 {
 T 48400 44100 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 44400 5 10 1 1 180 6 1
-netname=dir_y
+T 48800 44250 5 10 1 1 0 0 1
+refdes=dir_y
 }
 C 48300 47300 1 180 1 output.sym
 {
 T 48400 47000 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 47300 5 10 1 1 180 6 1
-netname=step_z
+T 48800 47150 5 10 1 1 0 0 1
+refdes=step_z
 }
 C 48300 46700 1 180 1 output.sym
 {
 T 48400 46400 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 46700 5 10 1 1 180 6 1
-netname=enable_z
+T 48800 46550 5 10 1 1 0 0 1
+refdes=enable_z
 }
 C 48300 47000 1 180 1 output.sym
 {
 T 48400 46700 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 47000 5 10 1 1 180 6 1
-netname=dir_z
+T 48800 46850 5 10 1 1 0 0 1
+refdes=dir_z
 }
 C 48300 49900 1 180 1 output.sym
 {
 T 48400 49600 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 49900 5 10 1 1 180 6 1
-netname=step_a
+T 48800 49750 5 10 1 1 0 0 1
+refdes=step_a
 }
 C 48300 49300 1 180 1 output.sym
 {
 T 48400 49000 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 49300 5 10 1 1 180 6 1
-netname=enable_a
+T 48800 49150 5 10 1 1 0 0 1
+refdes=enable_a
 }
 C 48300 49600 1 180 1 output.sym
 {
 T 48400 49300 5 10 0 0 180 6 1
 device=OUTPUT
-T 48900 49600 5 10 1 1 180 6 1
-netname=dir_a
+T 48850 49450 5 10 1 1 0 0 1
+refdes=dir_a
 }
 C 48300 48800 1 0 0 output.sym
 {
 T 48400 49100 5 10 0 0 0 0 1
 device=OUTPUT
-T 48900 48800 5 10 1 1 0 0 1
-netname=spi_cs_a
+T 48800 48850 5 10 1 1 0 0 1
+refdes=spi_cs_a
 }
 C 48300 46200 1 0 0 output.sym
 {
 T 48400 46500 5 10 0 0 0 0 1
 device=OUTPUT
-T 48900 46200 5 10 1 1 0 0 1
-netname=spi_cs_z
+T 48800 46250 5 10 1 1 0 0 1
+refdes=spi_cs_z
 }
-C 48300 43600 1 0 0 output.sym
+C 48350 43600 1 0 0 output.sym
 {
-T 48400 43900 5 10 0 0 0 0 1
+T 48450 43900 5 10 0 0 0 0 1
 device=OUTPUT
-T 48900 43600 5 10 1 1 0 0 1
-netname=spi_cs_y
+T 48850 43650 5 10 1 1 0 0 1
+refdes=spi_cs_y
 }
 C 49100 46100 1 180 0 input.sym
 {
 T 49100 45800 5 10 0 0 180 0 1
 device=INPUT
-T 48900 45900 5 10 1 1 0 0 1
-netname=fault_z
+T 48800 45950 5 10 1 1 0 0 1
+refdes=fault_z
 }
 C 49100 48700 1 180 0 input.sym
 {
 T 49100 48400 5 10 0 0 180 0 1
 device=INPUT
-T 48900 48500 5 10 1 1 0 0 1
-netname=fault_a
+T 48850 48550 5 10 1 1 0 0 1
+refdes=fault_a
 }
 C 49100 43500 1 180 0 input.sym
 {
 T 49100 43200 5 10 0 0 180 0 1
 device=INPUT
-T 48900 43300 5 10 1 1 0 0 1
-netname=fault_y
+T 48850 43350 5 10 1 1 0 0 1
+refdes=fault_y
 }
 C 44000 43800 1 180 0 output.sym
 {
 T 43900 43500 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 43800 5 10 1 1 180 0 1
-netname=serial_tx
+T 42800 43650 5 10 1 1 0 0 1
+refdes=serial_tx
 }
 C 43200 43900 1 0 0 input.sym
 {
 T 43200 44200 5 10 0 0 0 0 1
 device=INPUT
-T 43400 44100 5 10 1 1 180 0 1
-netname=serial_rx
+T 42800 43950 5 10 1 1 0 0 1
+refdes=serial_rx
 }
 C 44000 43200 1 180 0 output.sym
 {
 T 43900 42900 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 43200 5 10 1 1 180 0 1
-netname=spi_clk
+T 42900 43050 5 10 1 1 0 0 1
+refdes=spi_clk
 }
 C 44000 42600 1 180 0 output.sym
 {
 T 43900 42300 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 42600 5 10 1 1 180 0 1
-netname=spi_mosi
+T 42750 42450 5 10 1 1 0 0 1
+refdes=spi_mosi
 }
 C 43200 42700 1 0 0 input.sym
 {
 T 43200 43000 5 10 0 0 0 0 1
 device=INPUT
-T 43400 42900 5 10 1 1 180 0 1
-netname=spi_miso
+T 42750 42750 5 10 1 1 0 0 1
+refdes=spi_miso
 }
 C 43200 47900 1 0 0 input.sym
 {
 T 43200 48200 5 10 0 0 0 0 1
 device=INPUT
-T 43400 48100 5 10 1 1 180 0 1
-netname=x_min
+T 43000 47950 5 10 1 1 0 0 1
+refdes=x_min
 }
 C 43200 47600 1 0 0 input.sym
 {
 T 43200 47900 5 10 0 0 0 0 1
 device=INPUT
-T 43400 47800 5 10 1 1 180 0 1
-netname=x_max
+T 42950 47650 5 10 1 1 0 0 1
+refdes=x_max
 }
 C 44000 48400 1 180 0 output.sym
 {
 T 43900 48100 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 48400 5 10 1 1 180 0 1
-netname=spin_enable
+T 42500 48250 5 10 1 1 0 0 1
+refdes=spin_enable
 }
 C 44000 49900 1 180 0 output.sym
 {
 T 43900 49600 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 49900 5 10 1 1 180 0 1
-netname=step_x
+T 42950 49750 5 10 1 1 0 0 1
+refdes=step_x
 }
 C 44000 49300 1 180 0 output.sym
 {
 T 43900 49000 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 49300 5 10 1 1 180 0 1
-netname=enable_x
+T 42750 49150 5 10 1 1 0 0 1
+refdes=enable_x
 }
 C 44000 49600 1 180 0 output.sym
 {
 T 43900 49300 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 49600 5 10 1 1 180 0 1
-netname=dir_x
+T 43100 49450 5 10 1 1 0 0 1
+refdes=dir_x
 }
 C 43200 44200 1 0 0 input.sym
 {
 T 43200 44500 5 10 0 0 0 0 1
 device=INPUT
-T 43400 44400 5 10 1 1 180 0 1
-netname=serial_rts
+T 42700 44250 5 10 1 1 0 0 1
+refdes=serial_rts
 }
 C 44000 44700 1 180 0 output.sym
 {
 T 43900 44400 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 44700 5 10 1 1 180 0 1
-netname=serial_cts
+T 42700 44550 5 10 1 1 0 0 1
+refdes=serial_cts
 }
 C 44000 49000 1 180 0 output.sym
 {
 T 43900 48700 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 49000 5 10 1 1 180 0 1
-netname=spi_cs_x
+T 42800 48850 5 10 1 1 0 0 1
+refdes=spi_cs_x
 }
 C 43200 43300 1 0 0 input.sym
 {
 T 43200 43600 5 10 0 0 0 0 1
 device=INPUT
-T 43400 43500 5 10 1 1 180 0 1
-netname=spi_cs_avr
+T 42600 43350 5 10 1 1 0 0 1
+refdes=spi_cs_avr
 }
 C 43200 48500 1 0 0 input.sym
 {
 T 43200 48800 5 10 0 0 0 0 1
 device=INPUT
-T 43400 48700 5 10 1 1 180 0 1
-netname=fault_x
+T 42950 48550 5 10 1 1 0 0 1
+refdes=fault_x
 }
 C 43200 45300 1 0 0 input.sym
 {
 T 43200 45600 5 10 0 0 0 0 1
 device=INPUT
-T 43400 45500 5 10 1 1 180 0 1
-netname=b_min
+T 42600 45350 5 10 1 1 0 0 1
+refdes=b_min/PB6
 }
 C 43200 45000 1 0 0 input.sym
 {
 T 43200 45300 5 10 0 0 0 0 1
 device=INPUT
-T 43400 45200 5 10 1 1 180 0 1
-netname=b_max
+T 42550 45050 5 10 1 1 0 0 1
+refdes=b_max/PB7
 }
 C 44000 45800 1 180 0 output.sym
 {
 T 43900 45500 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 45800 5 10 1 1 180 0 1
-netname=spi_cs_io
+T 42350 45650 5 10 1 1 0 0 1
+refdes=spi_cs_io/PB5
 }
 C 44000 47300 1 180 0 output.sym
 {
 T 43900 47000 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 47300 5 10 1 1 180 0 1
-netname=step_b
+T 42550 47150 5 10 1 1 0 0 1
+refdes=step_b/PB0
 }
 C 44000 46700 1 180 0 output.sym
 {
 T 43900 46400 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 46700 5 10 1 1 180 0 1
-netname=enable_b
+T 42400 46550 5 10 1 1 0 0 1
+refdes=enable_b/PB2
 }
 C 44000 47000 1 180 0 output.sym
 {
 T 43900 46700 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 47000 5 10 1 1 180 0 1
-netname=dir_b
+T 42700 46850 5 10 1 1 0 0 1
+refdes=dir_b/PB1
 }
 C 44000 46400 1 180 0 output.sym
 {
 T 43900 46100 5 10 0 0 180 0 1
 device=OUTPUT
-T 43400 46400 5 10 1 1 180 0 1
-netname=spi_cs_b
+T 42400 46250 5 10 1 1 0 0 1
+refdes=spi_cs_b/PB3
 }
 C 43200 45900 1 0 0 input.sym
 {
 T 43200 46200 5 10 0 0 0 0 1
 device=INPUT
-T 43400 46100 5 10 1 1 180 0 1
-netname=fault_b
+T 42550 45950 5 10 1 1 0 0 1
+refdes=fault_b/PB4
 }
+N 48350 43700 48300 43700 4
