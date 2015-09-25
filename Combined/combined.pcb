@@ -3476,19 +3476,19 @@ Element["" "testpt.fp" "PS1/TP3" "unknown" 78.4951mm 3.3159mm -6.9433mm -0.6743m
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" ""]
+	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" "thermal(0X)"]
 	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 10.00mil]
 
 	)
 
-Element["" "testpt.fp" "PS1/TP4" "unknown" 28.6628mm 193.9603mm -6.8950mm -0.5393mm 0 77 ""]
+Element["" "testpt.fp" "PS1/TP4" "unknown" 938.00mil 7645.00mil 88.00mil -27.00mil 0 77 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" ""]
+	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" "thermal(2X)"]
 	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 10.00mil]
 
 	)
@@ -3524,7 +3524,7 @@ Element["" "testpt.fp" "PS1/TP6" "unknown" 3.7856mm 84.7176mm 2.2342mm -0.7960mm
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" ""]
+	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" "thermal(0X,1X,2X)"]
 	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 10.00mil]
 
 	)
@@ -4807,7 +4807,6 @@ Layer(1 "top")
 	Line[2805.00mil 1541.00mil 2827.00mil 1541.00mil 15.00mil 20.00mil ""]
 	Line[2815.00mil 875.00mil 2829.00mil 875.00mil 15.00mil 20.00mil ""]
 	Line[2077.80mil 143.6607mm 2077.80mil 5657.20mil 15.00mil 20.00mil "clearline"]
-	Line[78.4951mm 3.3159mm 75.2971mm 3.3159mm 70.00mil 20.00mil ""]
 	Line[1887.00mil 6526.00mil 48.9244mm 6526.00mil 15.00mil 20.00mil "clearline"]
 	Line[48.9244mm 6526.00mil 2008.50mil 163.6689mm 15.00mil 20.00mil "clearline"]
 	Line[1887.00mil 167.0604mm 50.5212mm 167.0604mm 15.00mil 20.00mil "clearline"]
@@ -5668,8 +5667,8 @@ Layer(1 "top")
 	Line[3978.00mil 2548.00mil 4001.00mil 2571.00mil 10.00mil 30.00mil "clearline"]
 	Line[94.6940mm 66.1980mm 95.9861mm 66.1980mm 10.00mil 30.00mil "clearline"]
 	Line[95.9861mm 66.1980mm 3811.80mil 2573.40mil 10.00mil 30.00mil "clearline"]
-	Line[3811.80mil 2573.40mil 3948.80mil 2573.40mil 10.00mil 30.00mil "clearline"]
-	Line[3948.80mil 2573.40mil 3986.40mil 2611.00mil 10.00mil 30.00mil "clearline"]
+	Line[3811.80mil 2573.40mil 100.2995mm 2573.40mil 10.00mil 30.00mil "clearline"]
+	Line[100.2995mm 2573.40mil 3986.40mil 2611.00mil 10.00mil 30.00mil "clearline"]
 	Line[3986.40mil 2611.00mil 4079.00mil 2611.00mil 10.00mil 30.00mil "clearline"]
 	Line[4079.00mil 2611.00mil 4087.00mil 2603.00mil 10.00mil 30.00mil "clearline"]
 	Line[94.6940mm 66.9978mm 96.1438mm 66.9978mm 10.00mil 30.00mil "clearline"]
@@ -5731,13 +5730,11 @@ Layer(1 "top")
 	Line[386.00mil 4571.00mil 389.00mil 4574.00mil 10.00mil 30.00mil "clearline"]
 	Line[7.3726mm 116.0968mm 7.3726mm 117.2398mm 10.00mil 30.00mil "clearline"]
 	Line[7.3726mm 117.2398mm 290.00mil 4616.00mil 10.00mil 30.00mil "clearline"]
-
-    Polygon("clearpoly")
-    (
-      [0.00mil 0.00mil] [3690.00mil 0.00mil]
-      [3690.00mil 3745.00mil] [2400.00mil 3745.00mil]
-      [2400.00mil 485.00mil] [0.00mil 485.00mil]
-    )
+	Polygon("clearpoly")
+	(
+		[660.00mil 25.00mil] [3690.00mil 25.00mil] [3690.00mil 3745.00mil] [2400.00mil 3745.00mil] [2400.00mil 485.00mil] 
+		[660.00mil 485.00mil] 
+	)
 )
 Layer(2 "inner1")
 (
@@ -6451,7 +6448,6 @@ Layer(3 "inner2")
 	Line[3356.00mil 3323.00mil 3412.00mil 3323.00mil 60.00mil 20.00mil ""]
 	Line[3930.00mil 3665.00mil 3930.00mil 3725.00mil 60.00mil 20.00mil ""]
 	Line[1268.00mil 7410.00mil 928.00mil 7410.00mil 70.00mil 20.00mil ""]
-	Line[28.6628mm 193.9603mm 24.4407mm 193.9603mm 70.00mil 20.00mil ""]
 	Line[2105.00mil 6295.00mil 2176.00mil 6224.00mil 25.00mil 20.00mil "clearline"]
 	Line[2176.00mil 6224.00mil 2176.00mil 5749.00mil 25.00mil 20.00mil ""]
 	Line[98.4988mm 143.5915mm 101.5013mm 5535.00mil 25.00mil 20.00mil ""]
@@ -6486,34 +6482,23 @@ Layer(3 "inner2")
 	Line[4504.00mil 7539.00mil 4650.00mil 7539.00mil 10.00mil 30.00mil "clearline"]
 	Line[4270.00mil 7427.00mil 4270.00mil 7251.00mil 10.00mil 30.00mil "clearline"]
 	Line[4270.00mil 7251.00mil 3628.00mil 6609.00mil 10.00mil 30.00mil "clearline"]
-	Line[3.7856mm 84.7176mm 4.8854mm 84.7176mm 25.00mil 20.00mil "clearline"]
-	Line[4.8854mm 84.7176mm 384.00mil 3527.00mil 25.00mil 20.00mil ""]
 	Line[609.00mil 224.00mil 609.00mil 405.00mil 100.00mil 20.00mil ""]
 	Line[536.00mil 218.00mil 536.00mil 413.00mil 100.00mil 20.00mil ""]
 	Line[497.00mil 250.00mil 497.00mil 370.00mil 100.00mil 20.00mil ""]
-
-
-    Polygon("clearpoly")
-    (
-      [0.00mil 0.00mil] [5000.00mil 0.00mil] [5000.00mil 4100mil]
-      [2725.00mil 4100mil] [2725.00mil 3600.00mil] [1775.00mil 3600.00mil]
-      [1775.00mil 810.00mil] [0.00mil 810.00mil]
-    )
-
-    Polygon("clearpoly")
-    (
-      [0.00mil 6500.00mil] [1000.00mil 6500.00mil]
-      [1000.00mil 8000.00mil] [0.00mil 8000.00mil]
-    )
-
-    Polygon("clearpoly")
-    (
-      [0.00mil 860.00mil] [1725.00mil 860.00mil]
-      [1725.00mil 3650.00mil] [2675.00mil 3650.00mil]
-      [2675.00mil 4150.00mil] [5000.00mil 4150.00mil]
-      [5000.00mil 8000.00mil] [1100.00mil 8000.00mil]
-      [1100.00mil 6400.00mil] [0.00mil 6400.00mil]
-    )
+	Polygon("clearpoly")
+	(
+		[25.00mil 25.00mil] [4975.00mil 25.00mil] [4975.00mil 4100.00mil] [2725.00mil 4100.00mil] [2725.00mil 3600.00mil] 
+		[1775.00mil 3600.00mil] [1775.00mil 810.00mil] [25.00mil 810.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[25.00mil 6500.00mil] [1000.00mil 6500.00mil] [1000.00mil 7975.00mil] [25.00mil 7975.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[25.00mil 860.00mil] [1725.00mil 860.00mil] [1725.00mil 3650.00mil] [2675.00mil 3650.00mil] [2675.00mil 4150.00mil] 
+		[4975.00mil 4150.00mil] [4975.00mil 7975.00mil] [1100.00mil 7975.00mil] [1100.00mil 6400.00mil] [25.00mil 6400.00mil] 
+	)
 )
 Layer(4 "bottom")
 (
@@ -6895,74 +6880,72 @@ Layer(4 "bottom")
 	Line[578.00mil 6321.00mil 1708.00mil 6321.00mil 10.00mil 30.00mil "clearline"]
 	Polygon("clearpoly")
 	(
-      [350.00mil 3500.00mil] [1445.00mil 3500.00mil]
-      [1445.00mil 2320.00mil] [1725.00mil 2320.00mil]
-      [1725.00mil 5100.00mil] [350.00mil 5100.00mil]
-    )
-
-    Polygon("clearpoly")
-	(
-        [3300.00mil 580.00mil] [3700.00mil 580.00mil] [3700.00mil 750.00mil] [3300.00mil 750.00mil]
+		[350.00mil 3500.00mil] [1445.00mil 3500.00mil] [1445.00mil 2320.00mil] [1725.00mil 2320.00mil] [1725.00mil 5100.00mil] 
+		[350.00mil 5100.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 775.00mil] [3700.00mil 775.00mil] [3700.00mil 950.00mil] [3300.00mil 950.00mil]
+		[3300.00mil 580.00mil] [3700.00mil 580.00mil] [3700.00mil 750.00mil] [3300.00mil 750.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 975.00mil] [3700.00mil 975.00mil] [3700.00mil 1140.00mil] [3300.00mil 1140.00mil]
+		[3300.00mil 775.00mil] [3700.00mil 775.00mil] [3700.00mil 950.00mil] [3300.00mil 950.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 1165.00mil] [3700.00mil 1165.00mil] [3700.00mil 1350.00mil] [3300.00mil 1350.00mil]
+		[3300.00mil 975.00mil] [3700.00mil 975.00mil] [3700.00mil 1140.00mil] [3300.00mil 1140.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 1375.00mil] [3700.00mil 1375.00mil] [3700.00mil 1545.00mil] [3300.00mil 1545.00mil]
+		[3300.00mil 1165.00mil] [3700.00mil 1165.00mil] [3700.00mil 1350.00mil] [3300.00mil 1350.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 1570.00mil] [3700.00mil 1570.00mil] [3700.00mil 1725.00mil] [3300.00mil 1725.00mil]
+		[3300.00mil 1375.00mil] [3700.00mil 1375.00mil] [3700.00mil 1545.00mil] [3300.00mil 1545.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 1750.00mil] [3700.00mil 1750.00mil] [3700.00mil 1930.00mil] [3300.00mil 1930.00mil]
+		[3300.00mil 1570.00mil] [3700.00mil 1570.00mil] [3700.00mil 1725.00mil] [3300.00mil 1725.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 1950.00mil] [3700.00mil 1950.00mil] [3700.00mil 2140.00mil] [3300.00mil 2140.00mil]
-    )
-	Polygon("clearpoly")
-	(
-        [3300.00mil 2175.00mil] [3700.00mil 2175.00mil] [3700.00mil 2340.00mil] [3300.00mil 2340.00mil]
-    )
-	Polygon("clearpoly")
-	(
-        [3300.00mil 2365.00mil] [3700.00mil 2365.00mil] [3700.00mil 2525.00mil] [3300.00mil 2525.00mil]
+		[3300.00mil 1750.00mil] [3700.00mil 1750.00mil] [3700.00mil 1930.00mil] [3300.00mil 1930.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 2550.00mil] [3700.00mil 2550.00mil] [3700.00mil 2720.00mil] [3300.00mil 2720.00mil]
-    )
-	Polygon("clearpoly")
-	(
-        [3300.00mil 2745.00mil] [3700.00mil 2745.00mil] [3700.00mil 2940.00mil] [3300.00mil 2940.00mil]
-    )
-	Polygon("clearpoly")
-	(
-        [3300.00mil 2965.00mil] [3700.00mil 2965.00mil] [3700.00mil 3140.00mil] [3300.00mil 3140.00mil]
+		[3300.00mil 1950.00mil] [3700.00mil 1950.00mil] [3700.00mil 2140.00mil] [3300.00mil 2140.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 3165.00mil] [3700.00mil 3165.00mil] [3700.00mil 3325.00mil] [3300.00mil 3325.00mil]
+		[3300.00mil 2175.00mil] [3700.00mil 2175.00mil] [3700.00mil 2340.00mil] [3300.00mil 2340.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 3350.00mil] [3700.00mil 3350.00mil] [3700.00mil 3525.00mil] [3300.00mil 3525.00mil]
-    )
+		[3300.00mil 2365.00mil] [3700.00mil 2365.00mil] [3700.00mil 2525.00mil] [3300.00mil 2525.00mil] 
+	)
 	Polygon("clearpoly")
 	(
-        [3300.00mil 3550.00mil] [3700.00mil 3550.00mil] [3700.00mil 3740.00mil] [3300.00mil 3740.00mil]
+		[3300.00mil 2550.00mil] [3700.00mil 2550.00mil] [3700.00mil 2720.00mil] [3300.00mil 2720.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3300.00mil 2745.00mil] [3700.00mil 2745.00mil] [3700.00mil 2940.00mil] [3300.00mil 2940.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3300.00mil 2965.00mil] [3700.00mil 2965.00mil] [3700.00mil 3140.00mil] [3300.00mil 3140.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3300.00mil 3165.00mil] [3700.00mil 3165.00mil] [3700.00mil 3325.00mil] [3300.00mil 3325.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3300.00mil 3350.00mil] [3700.00mil 3350.00mil] [3700.00mil 3525.00mil] [3300.00mil 3525.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3300.00mil 3550.00mil] [3700.00mil 3550.00mil] [3700.00mil 3740.00mil] [3300.00mil 3740.00mil] 
 	)
 )
 Layer(5 "outline")
@@ -6980,9 +6963,9 @@ Layer(7 "silk")
 )
 Layer(8 "silk")
 (
-    Text[1800.00mil 7350.00mil 0 250 "Controller Version 1.0" "clearline"]
-    Text[1800.00mil 7550.00mil 0 250 "Copyright 2015" "clearline"]
-    Text[1800.00mil 7750.00mil 0 250 "Buildbotics LLC" "clearline"]
+	Text[1800.00mil 7350.00mil 0 250 "Controller Version 1.0" "clearline"]
+	Text[1800.00mil 7550.00mil 0 250 "Copyright 2015" "clearline"]
+	Text[1800.00mil 7750.00mil 0 250 "Buildbotics LLC" "clearline"]
 )
 NetList()
 (
