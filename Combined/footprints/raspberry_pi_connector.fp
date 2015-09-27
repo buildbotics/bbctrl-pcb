@@ -50,6 +50,9 @@ Element(0x00 "Raspberry PI with 40-pin GPIO, facing down" "" "" 0 0 260 0 0 100 
 	ElementLine[-10000 100000 -10000 -100000 1000]
 	ElementLine[0 -100000 0 -90000 1000]
 	ElementLine[0 -90000 10000 -90000 1000]
+	ElementLine[10000 -7300 13900 -7300 1000]
+	ElementLine[13900 -7300 13900 7300 1000]
+	ElementLine[13900 7300 10000 7300 1000]
 	
 )
 
