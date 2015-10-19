@@ -170,3 +170,70 @@ refdes=MP1
 T 46395 41600 5 10 0 1 0 0 1
 footprint=TQFP64_14.fp
 }
+T 50000 40700 9 10 1 0 0 0 2
+Buildbotics Controller
+Copyright (c) 2015, Buildbotics LLC
+T 53900 40100 9 10 1 0 0 0 1
+Doug Coffland
+T 53800 40400 9 10 1 0 0 0 1
+1.0
+T 50000 40100 9 10 1 0 0 0 1
+1
+T 51500 40100 9 10 1 0 0 0 1
+7
+C 50200 44100 1 270 0 nc.sym
+{
+T 50600 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 51000 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 50300 44100 1 270 0 nc.sym
+{
+T 50700 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 51100 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 50400 44100 1 270 0 nc.sym
+{
+T 50800 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 51200 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 50500 44100 1 270 0 nc.sym
+{
+T 50900 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 51300 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 50600 44100 1 270 0 nc.sym
+{
+T 51000 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 51400 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 52000 44100 1 270 0 nc.sym
+{
+T 52400 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 52800 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 52100 44100 1 270 0 nc.sym
+{
+T 52500 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 52900 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 52200 44100 1 270 0 nc.sym
+{
+T 52600 44100 5 10 0 0 270 0 1
+value=NoConnection
+T 53000 44100 5 10 0 0 270 0 1
+device=DRC_Directive
+}

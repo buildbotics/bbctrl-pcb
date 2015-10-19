@@ -1295,3 +1295,56 @@ N 50100 48050 48900 48050 4
 N 48900 48350 49050 48350 4
 N 48900 49350 49050 49350 4
 N 48900 48850 49050 48850 4
+T 50000 40700 9 10 1 0 0 0 2
+Isolation
+Copyright (c) 2015, Buildbotics LLC
+T 53900 40100 9 10 1 0 0 0 1
+Doug Coffland
+T 53800 40400 9 10 1 0 0 0 1
+1.0
+T 50000 40100 9 10 1 0 0 0 1
+6
+T 51500 40100 9 10 1 0 0 0 1
+7
+C 41500 47850 1 0 0 nc.sym
+{
+T 41500 48250 5 10 0 0 0 0 1
+value=NoConnection
+T 41500 48650 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 41500 48050 1 0 0 nc.sym
+{
+T 41500 48450 5 10 0 0 0 0 1
+value=NoConnection
+T 41500 48850 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 41500 48250 1 0 0 nc.sym
+{
+T 41500 48650 5 10 0 0 0 0 1
+value=NoConnection
+T 41500 49050 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 44700 48050 1 180 0 nc.sym
+{
+T 44700 47650 5 10 0 0 180 0 1
+value=NoConnection
+T 44700 47250 5 10 0 0 180 0 1
+device=DRC_Directive
+}
+C 44700 48250 1 180 0 nc.sym
+{
+T 44700 47850 5 10 0 0 180 0 1
+value=NoConnection
+T 44700 47450 5 10 0 0 180 0 1
+device=DRC_Directive
+}
+C 44500 48450 1 180 0 nc.sym
+{
+T 44500 48050 5 10 0 0 180 0 1
+value=NoConnection
+T 44500 47650 5 10 0 0 180 0 1
+device=DRC_Directive
+}

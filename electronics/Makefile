@@ -1,10 +1,10 @@
-NAME = buildbotics-controller
+NAME = buildbotics_controller
 SCHEMATICS = $(wildcard *.sch)
 
 all:
 
 schematics:
-	gschem -q -- $(SCHEMATICS)&
+	gschem -q -- $(NAME).sch&
 
 pcb:
 	pcb $(NAME).pcb&
@@ -21,9 +21,8 @@ layout:
 zip:
 	zip $(NAME).zip *.gbr *.cnc
 
-
 clean-layout:
-	rm -f $(NAME).pcb $(NAME).new.pcb $(NAME).net $(NAME).cmd
+	rm -f $(NAME).pcb $(NAME).new.pcb $(NAME).net $(NAME).cmd $(NAME).bom
 
 tidy:
 	rm -f $(shell find . -name \*~) \#* *- *.bak *.log *.backup

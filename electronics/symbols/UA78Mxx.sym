@@ -14,8 +14,8 @@ P 900 0 900 300 1 0 0
 {
 T 900 -200 5 10 0 0 90 0 1
 pintype=pwr
-T 1245 500 5 10 1 1 180 0 1
-pinlabel=common
+T 1145 500 5 10 1 1 180 0 1
+pinlabel=G
 T 850 205 5 10 1 1 90 6 1
 pinnumber=2
 T 900 -200 5 10 0 0 90 0 1
@@ -45,3 +45,14 @@ T -5 1493 8 10 0 0 0 0 1
 dist-license=GPLv2+
 T -5 1293 8 10 0 0 0 0 1
 documentation=http://www.mouser.com/ds/2/405/ua78m33-555740.pdf
+P 1100 0 1100 300 1 0 0
+{
+T 1100 0 5 10 0 0 0 0 1
+pintype=power
+T 945 500 5 10 1 1 180 0 1
+pinlabel=G
+T 1050 205 5 10 1 1 90 6 1
+pinnumber=4
+T 1100 0 5 10 0 0 0 0 1
+pinseq=4
+}
