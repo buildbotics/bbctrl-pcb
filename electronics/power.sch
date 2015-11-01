@@ -20,7 +20,7 @@ refdes=J2
 T 47600 45900 5 10 0 0 0 6 1
 footprint=Molex_39-29-1027.fp
 T 48500 45600 5 10 1 1 0 6 1
-description=12V-36V DC
+description=12V-30V DC
 T 47600 45900 5 10 0 0 0 0 1
 description=Molex 39-29-1027 two -pin right angle header with pin 1 above pin 2
 }
