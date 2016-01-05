@@ -81,10 +81,10 @@ T 750 1895 5 10 1 1 90 0 1
 pinnumber=8
 T 750 2100 5 10 0 0 90 0 1
 pinseq=5
-T 1000 1750 5 10 1 1 180 0 1
-netname=+5v
+T 900 1750 5 10 1 1 180 0 1
+netname=Vcc
 }
 T -405 2495 8 10 0 0 0 0 1
 footprint=SO-8
 T 805 696 8 10 1 1 90 0 1
-device=ISL81487
+device=ISL83485

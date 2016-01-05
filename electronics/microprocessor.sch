@@ -102,7 +102,7 @@ device=DRC_Directive
 N 42400 41700 42200 41700 4
 T 50000 40700 9 10 1 0 0 0 2
 Microprocessor
-Copyright (c) 2015, Buildbotics LLC
+Copyright (c) 2016, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Joseph Coffland
 T 53800 40400 9 10 1 0 0 0 1
@@ -735,7 +735,7 @@ C 54100 50200 1 0 0 cap.sym
 T 54300 50900 5 10 0 0 0 0 1
 device=CAPACITOR
 T 54300 50550 5 10 1 1 180 0 1
-refdes=C?
+refdes=C9
 T 54300 51100 5 10 0 0 0 0 1
 symversion=0.1
 T 54500 50400 5 10 1 1 0 0 1
@@ -764,15 +764,6 @@ C 42400 42000 1 270 0 3.3V_motor.sym
 {
 T 43100 41900 5 10 0 0 270 0 1
 device=none
-}
-C 53000 48100 1 0 0 isl83490.sym
-{
-T 54000 50000 5 10 1 1 0 0 1
-refdes=U2
-T 52595 50595 5 10 0 0 0 0 1
-footprint=SO-8
-T 53805 48796 5 10 1 1 90 0 1
-device=ISL83490
 }
 C 53500 50400 1 0 0 3.3V_motor.sym
 {
@@ -846,4 +837,13 @@ T 43200 45600 5 10 0 0 0 0 1
 device=INPUT
 T 42700 45350 5 10 1 1 0 0 1
 refdes=serial_rts
+}
+C 53000 48100 1 0 0 isl83485.sym
+{
+T 54000 50000 5 10 1 1 0 0 1
+refdes=U?
+T 52595 50595 5 10 0 0 0 0 1
+footprint=SO-8
+T 53805 48796 5 10 1 1 90 0 1
+device=ISL83485
 }
