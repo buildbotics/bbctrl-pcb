@@ -2,28 +2,28 @@ v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
 C 42800 46600 1 0 0 motor_driver.sym
 {
-T 43695 48900 5 10 1 1 0 0 1
+T 43795 49200 5 10 1 1 0 0 1
 refdes=MDX
 T 43295 46700 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 42800 43300 1 0 0 motor_driver.sym
 {
-T 43695 45600 5 10 1 1 0 0 1
+T 43795 45900 5 10 1 1 0 0 1
 refdes=MDY
 T 43295 43400 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 53300 46600 1 0 0 motor_driver.sym
 {
-T 54295 48900 5 10 1 1 0 0 1
+T 54395 49200 5 10 1 1 0 0 1
 refdes=MDZ
 T 53795 46700 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 53300 43300 1 0 0 motor_driver.sym
 {
-T 54295 45600 5 10 1 1 0 0 1
+T 54395 45900 5 10 1 1 0 0 1
 refdes=MDA
 T 53795 43400 5 10 1 1 0 0 1
 source=motor_driver.sch
@@ -311,7 +311,7 @@ T 47200 44700 5 10 0 0 0 0 1
 footprint=CB3_OSC.fp
 T 47200 44700 5 10 0 0 0 0 1
 model=CB3LV-3I-16M0000
-T 47495 45795 5 10 1 1 0 0 1
+T 48395 46595 5 10 1 1 0 0 1
 refdes=OSC1
 T 48195 45295 5 10 1 1 0 0 1
 value=16MHz
@@ -328,7 +328,7 @@ C 46500 46000 1 90 0 cap.sym
 T 45800 46200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 46200 46000 5 10 1 1 90 0 1
-refdes=C1
+refdes=C16
 T 46200 46400 5 10 1 1 90 0 1
 value=10nF
 T 46500 46000 5 10 0 0 0 0 1
@@ -342,7 +342,7 @@ C 47100 45400 1 90 0 resistor.sym
 T 46700 45700 5 10 0 0 90 0 1
 device=RESISTOR
 T 46925 45500 5 10 1 1 90 0 1
-refdes=R33
+refdes=R8
 T 46925 45900 5 10 1 1 90 0 1
 value=20kΩ
 T 47100 45400 5 10 0 0 0 0 1

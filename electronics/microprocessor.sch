@@ -35,7 +35,7 @@ C 47400 40500 1 90 0 cap.sym
 T 46700 40700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 46900 40800 5 10 1 1 0 0 1
-refdes=C2
+refdes=C33
 T 47150 40700 5 10 1 1 180 0 1
 value=22pF
 T 47400 40500 5 10 0 0 90 0 1
@@ -46,7 +46,7 @@ C 48100 40500 1 90 0 cap.sym
 T 47400 40700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 48150 40800 5 10 1 1 0 0 1
-refdes=C3
+refdes=C34
 T 48600 40700 5 10 1 1 180 0 1
 value=22pF
 T 48100 40500 5 10 0 0 270 0 1
@@ -107,14 +107,14 @@ description=ATXMEGA64A3U-AUR
 T 47200 50200 5 8 0 0 0 0 1
 footprint=TQFP64_14_ATXMEGA.fp
 T 47800 50200 5 10 1 1 0 0 1
-refdes=U1
+refdes=U5
 }
 C 41300 50300 1 0 0 cap.sym
 {
 T 41500 51000 5 10 0 0 0 0 1
 device=CAPACITOR
 T 41700 50650 5 10 1 1 180 0 1
-refdes=C1
+refdes=C27
 T 41500 51200 5 10 0 0 0 0 1
 symversion=0.1
 T 41300 50150 5 10 1 1 0 0 1
@@ -138,7 +138,7 @@ C 41300 49700 1 0 0 cap.sym
 T 41500 50400 5 10 0 0 0 0 1
 device=CAPACITOR
 T 41700 50050 5 10 1 1 180 0 1
-refdes=C4
+refdes=C28
 T 41500 50600 5 10 0 0 0 0 1
 symversion=0.1
 T 41300 49550 5 10 1 1 0 0 1
@@ -155,7 +155,7 @@ C 41300 49100 1 0 0 cap.sym
 T 41500 49800 5 10 0 0 0 0 1
 device=CAPACITOR
 T 41700 49450 5 10 1 1 180 0 1
-refdes=C5
+refdes=C29
 T 41500 50000 5 10 0 0 0 0 1
 symversion=0.1
 T 41300 48950 5 10 1 1 0 0 1
@@ -172,7 +172,7 @@ C 41300 48400 1 0 0 cap.sym
 T 41500 49100 5 10 0 0 0 0 1
 device=CAPACITOR
 T 41700 48750 5 10 1 1 180 0 1
-refdes=C6
+refdes=C30
 T 41500 49300 5 10 0 0 0 0 1
 symversion=0.1
 T 41300 48250 5 10 1 1 0 0 1
@@ -189,7 +189,7 @@ C 41300 47700 1 0 0 cap.sym
 T 41500 48400 5 10 0 0 0 0 1
 device=CAPACITOR
 T 41700 48050 5 10 1 1 180 0 1
-refdes=C7
+refdes=C31
 T 41500 48600 5 10 0 0 0 0 1
 symversion=0.1
 T 41300 47550 5 10 1 1 0 0 1
@@ -208,7 +208,7 @@ C 41300 47100 1 0 0 cap.sym
 T 41500 47800 5 10 0 0 0 0 1
 device=CAPACITOR
 T 41700 47450 5 10 1 1 180 0 1
-refdes=C8
+refdes=C32
 T 41500 48000 5 10 0 0 0 0 1
 symversion=0.1
 T 41300 46950 5 10 1 1 0 0 1
@@ -582,7 +582,7 @@ device=CONNECTOR_4
 T 54200 48550 5 10 0 0 0 0 1
 footprint=JUMPER4
 T 53900 46300 5 10 0 0 0 0 1
-description=Unpopulated
+description=Unpopulated test point
 T 53900 46300 5 10 0 0 0 0 1
 documentation=Label each pin on PCB.
 }

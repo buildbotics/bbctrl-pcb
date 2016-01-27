@@ -15,6 +15,9 @@ bom:
 allegro:
 	gnetlist -g allegro -o $(NAME).brd $(SCHEMATICS)
 
+attrib:
+	gattrib $(SCHEMATICS)
+
 layout: 
 	gsch2pcb --elements-dir footprints/ $(SCHEMATICS) -o $(NAME)
 

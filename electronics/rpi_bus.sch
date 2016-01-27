@@ -115,7 +115,7 @@ footprint=QSOP16.fp
 T 50700 43200 5 10 0 0 0 0 1
 model=MAX14850
 T 51695 43300 5 8 1 1 0 0 1
-refdes=U2
+refdes=U4
 }
 N 50600 45100 50600 44700 4
 N 50600 44700 50700 44700 4
@@ -130,7 +130,7 @@ footprint=0603.fp
 T 54000 45200 5 10 0 0 90 0 1
 description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
 T 53850 45400 5 10 1 1 180 0 1
-refdes=C15
+refdes=C26
 T 53550 44850 5 10 1 1 0 0 1
 value=0.1uF
 }
@@ -145,7 +145,7 @@ footprint=0603.fp
 T 50500 45200 5 10 0 0 90 0 1
 description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
 T 50000 45200 5 10 1 1 0 0 1
-refdes=C14
+refdes=C25
 T 50500 45000 5 10 1 1 180 0 1
 value=0.1uF
 }
@@ -402,7 +402,7 @@ C 54900 43700 1 90 0 resistor.sym
 T 54500 44000 5 10 0 0 90 0 1
 device=RESISTOR
 T 55200 44325 5 10 1 1 180 0 1
-refdes=R3
+refdes=R17
 T 55200 44125 5 10 1 1 180 0 1
 value=10k
 }
@@ -411,7 +411,7 @@ C 54900 42700 1 90 0 resistor.sym
 T 54500 43000 5 10 0 0 90 0 1
 device=RESISTOR
 T 55200 43325 5 10 1 1 180 0 1
-refdes=R4
+refdes=R18
 T 55200 43125 5 10 1 1 180 0 1
 value=10k
 }
@@ -432,7 +432,7 @@ C 48600 43700 1 270 1 resistor.sym
 T 49000 44000 5 10 0 0 90 2 1
 device=RESISTOR
 T 48300 44325 5 10 1 1 180 6 1
-refdes=R1
+refdes=R15
 T 48300 44125 5 10 1 1 180 6 1
 value=10k
 }
@@ -442,7 +442,7 @@ C 48600 42700 1 270 1 resistor.sym
 T 49000 43000 5 10 0 0 90 2 1
 device=RESISTOR
 T 48300 43325 5 10 1 1 180 6 1
-refdes=R2
+refdes=R16
 T 48300 43125 5 10 1 1 180 6 1
 value=10k
 }
@@ -458,7 +458,7 @@ footprint=JUMPER6
 T 52100 47100 5 10 0 0 0 0 1
 documentation=Label each pin on PCB.
 T 52100 47100 5 10 0 0 0 0 1
-description=Unpopulated
+description=Unpopulated test point
 }
 C 48500 44300 1 0 0 3.3V-plus-1.sym
 C 48900 42900 1 180 0 3.3V-plus-1.sym
