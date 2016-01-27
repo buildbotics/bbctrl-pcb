@@ -1,0 +1,302 @@
+v 20130925 2
+C 40000 40000 0 0 0 title-B.sym
+C 42100 48700 1 180 0 output.sym
+{
+T 42000 48400 5 10 0 0 180 0 1
+device=OUTPUT
+T 40800 48550 5 10 1 1 0 0 1
+refdes=rs485_ro
+}
+C 41300 48200 1 0 0 input.sym
+{
+T 41300 48500 5 10 0 0 0 0 1
+device=INPUT
+T 40800 48250 5 10 1 1 0 0 1
+refdes=rs485_re
+}
+C 41300 47900 1 0 0 input.sym
+{
+T 41300 48200 5 10 0 0 0 0 1
+device=INPUT
+T 40750 47950 5 10 1 1 0 0 1
+refdes=rs485_de
+}
+C 41300 47600 1 0 0 input.sym
+{
+T 41300 47900 5 10 0 0 0 0 1
+device=INPUT
+T 40800 47650 5 10 1 1 0 0 1
+refdes=rs485_di
+}
+C 43200 49300 1 0 0 cap.sym
+{
+T 43400 50000 5 10 0 0 0 0 1
+device=CAPACITOR
+T 43400 50200 5 10 0 0 0 0 1
+symversion=0.1
+T 43200 49300 5 10 0 0 0 0 1
+footprint=0603
+T 43200 49300 5 10 0 0 0 0 1
+model=C0603C104M5RACTU
+T 43200 49300 5 10 0 0 0 0 1
+description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
+T 43400 49650 5 10 1 1 180 0 1
+refdes=C9
+T 43600 49500 5 10 1 1 0 0 1
+value=0.1uF
+}
+N 43900 49400 43700 49400 4
+N 42900 49500 42900 49300 4
+N 43300 49400 42900 49400 4
+C 42600 49500 1 0 0 3.3V_motor.sym
+{
+T 42700 50200 5 10 0 0 0 0 1
+device=none
+}
+C 42100 47200 1 0 0 isl83485.sym
+{
+T 41695 49695 5 10 0 0 0 0 1
+footprint=SO-8
+T 43100 49100 5 10 1 1 0 0 1
+refdes=U?
+T 42905 47896 5 10 1 1 90 0 1
+device=ISL83485
+}
+C 44100 47700 1 90 0 resistor.sym
+{
+T 43700 48000 5 10 0 0 90 0 1
+device=RESISTOR
+T 43900 48225 5 10 1 1 180 0 1
+refdes=R1
+T 44500 48225 5 10 1 1 180 0 1
+value=120Ω
+}
+N 43600 48300 44400 48300 4
+N 43600 47900 44400 47900 4
+N 44400 47900 44400 48000 4
+N 43600 47900 43600 48000 4
+T 50000 40700 9 10 1 0 0 0 2
+Peripherals
+Copyright (c) 2016, Buildbotics LLC
+T 53900 40100 9 10 1 0 0 0 1
+Joseph Coffland
+T 53800 40400 9 10 1 0 0 0 1
+2.0
+T 50000 40100 9 10 1 0 0 0 1
+7
+T 51500 40100 9 10 1 0 0 0 1
+7
+T 42300 50200 9 10 1 0 0 0 1
+RS485 interface
+C 56400 48500 1 0 1 connector4-1.sym
+{
+T 54600 49400 5 10 0 0 0 6 1
+device=CONNECTOR_4
+T 56400 49900 5 10 1 1 0 6 1
+refdes=limit_x
+}
+C 54700 49300 1 90 0 3.3V_motor.sym
+{
+T 54000 49400 5 10 0 0 90 0 1
+device=none
+}
+C 56400 46600 1 0 1 connector4-1.sym
+{
+T 54600 47500 5 10 0 0 0 6 1
+device=CONNECTOR_4
+T 56400 48000 5 10 1 1 0 6 1
+refdes=limit_y
+}
+C 54700 47400 1 90 0 3.3V_motor.sym
+{
+T 54000 47500 5 10 0 0 90 0 1
+device=none
+}
+C 56400 44700 1 0 1 connector4-1.sym
+{
+T 54600 45600 5 10 0 0 0 6 1
+device=CONNECTOR_4
+T 56400 46100 5 10 1 1 0 6 1
+refdes=limit_z
+}
+C 54700 45500 1 90 0 3.3V_motor.sym
+{
+T 54000 45600 5 10 0 0 90 0 1
+device=none
+}
+C 56400 42800 1 0 1 connector4-1.sym
+{
+T 54600 43700 5 10 0 0 0 6 1
+device=CONNECTOR_4
+T 56400 44200 5 10 1 1 0 6 1
+refdes=limit_a
+}
+C 54700 43600 1 90 0 3.3V_motor.sym
+{
+T 54000 43700 5 10 0 0 90 0 1
+device=none
+}
+C 46100 47800 1 0 1 connector2-1.sym
+{
+T 45900 48800 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 46100 48600 5 10 1 1 0 6 1
+refdes=RS485
+}
+C 45800 43400 1 90 0 3.3V_motor.sym
+{
+T 45100 43500 5 10 0 0 90 0 1
+device=none
+}
+C 47700 48800 1 0 0 dual-led.sym
+{
+T 47900 49700 5 10 0 0 0 0 1
+device=LED
+T 47900 49600 5 10 1 1 0 0 1
+refdes=INDICATOR
+}
+C 47700 48800 1 90 0 3.3V_motor.sym
+{
+T 47000 48900 5 10 0 0 90 0 1
+device=none
+}
+C 49900 49100 1 180 0 input.sym
+{
+T 49900 48800 5 10 0 0 180 0 1
+device=INPUT
+T 49650 48950 5 10 1 1 0 0 1
+refdes=indicator
+}
+C 54400 43100 1 270 0 gnd.sym
+C 54400 45000 1 270 0 gnd.sym
+C 54400 46900 1 270 0 gnd.sym
+C 54400 48800 1 270 0 gnd.sym
+C 46500 43600 1 90 0 gnd.sym
+C 42800 46900 1 0 0 gnd.sym
+C 43800 49100 1 0 0 gnd.sym
+C 54700 49400 1 180 0 output.sym
+{
+T 54600 49100 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 49250 5 10 1 1 0 0 1
+refdes=x_min
+}
+C 54700 49100 1 180 0 output.sym
+{
+T 54600 48800 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 48950 5 10 1 1 0 0 1
+refdes=x_max
+}
+C 54700 47500 1 180 0 output.sym
+{
+T 54600 47200 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 47350 5 10 1 1 0 0 1
+refdes=y_min
+}
+C 54700 47200 1 180 0 output.sym
+{
+T 54600 46900 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 47050 5 10 1 1 0 0 1
+refdes=y_max
+}
+C 54700 45600 1 180 0 output.sym
+{
+T 54600 45300 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 45450 5 10 1 1 0 0 1
+refdes=z_min
+}
+C 54700 45300 1 180 0 output.sym
+{
+T 54600 45000 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 45150 5 10 1 1 0 0 1
+refdes=z_max
+}
+C 54700 43700 1 180 0 output.sym
+{
+T 54600 43400 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 43550 5 10 1 1 0 0 1
+refdes=a_min
+}
+C 54700 43400 1 180 0 output.sym
+{
+T 54600 43100 5 10 0 0 180 0 1
+device=OUTPUT
+T 53600 43250 5 10 1 1 0 0 1
+refdes=a_max
+}
+C 46900 44900 1 0 0 input.sym
+{
+T 46900 45200 5 10 0 0 0 0 1
+device=INPUT
+T 46800 44950 5 10 1 1 0 0 1
+refdes=mist
+}
+C 46900 45200 1 0 0 input.sym
+{
+T 46900 45500 5 10 0 0 0 0 1
+device=INPUT
+T 46550 45250 5 10 1 1 0 0 1
+refdes=coolant
+}
+C 45000 43000 1 0 0 input.sym
+{
+T 45000 43300 5 10 0 0 0 0 1
+device=INPUT
+T 44900 43050 5 10 1 1 0 0 1
+refdes=fault
+}
+C 45000 43300 1 0 0 input.sym
+{
+T 45000 43600 5 10 0 0 0 0 1
+device=INPUT
+T 44650 43350 5 10 1 1 0 0 1
+refdes=spi_clk
+}
+C 45800 42900 1 180 0 output.sym
+{
+T 45700 42600 5 10 0 0 180 0 1
+device=OUTPUT
+T 44800 42750 5 10 1 1 0 0 1
+refdes=estop
+}
+C 47000 43200 1 180 0 input.sym
+{
+T 47000 42900 5 10 0 0 180 0 1
+device=INPUT
+T 47500 43150 5 10 1 1 180 0 1
+refdes=spi_mosi
+}
+C 46200 43300 1 0 0 output.sym
+{
+T 46300 43600 5 10 0 0 0 0 1
+device=OUTPUT
+T 47500 43450 5 10 1 1 180 0 1
+refdes=spi_miso
+}
+C 45100 45000 1 0 0 input.sym
+{
+T 45100 45300 5 10 0 0 0 0 1
+device=INPUT
+T 44500 45050 5 10 1 1 0 0 1
+refdes=spin_pwm
+}
+C 45100 45300 1 0 0 input.sym
+{
+T 45100 45600 5 10 0 0 0 0 1
+device=INPUT
+T 44700 45350 5 10 1 1 0 0 1
+refdes=spin_dir
+}
+C 45100 44700 1 0 0 input.sym
+{
+T 45100 45000 5 10 0 0 0 0 1
+device=INPUT
+T 44350 44750 5 10 1 1 0 0 1
+refdes=spin_enable
+}
