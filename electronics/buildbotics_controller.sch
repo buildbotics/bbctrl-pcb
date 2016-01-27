@@ -19,8 +19,6 @@ C 47500 45000 1 0 0 microprocessor.sym
 {
 T 48095 45500 5 10 1 1 0 0 1
 refdes=MP1
-T 47495 45000 5 10 0 1 0 0 1
-footprint=TQFP64_14.fp
 }
 T 50000 40700 9 10 1 0 0 0 2
 Buildbotics Controller

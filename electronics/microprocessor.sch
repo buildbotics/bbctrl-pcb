@@ -28,7 +28,7 @@ model=ABLS-16.000MHZ-B4-T
 T 47450 41100 5 10 0 0 0 0 1
 description=Crystal 16.0000MHz 30ppm 18pF 40 Ohm -20°C - 70°C Surface Mount HC49/US 
 T 47450 41100 5 10 0 0 0 0 1
-footprint=Crystal_HC49.fp
+footprint=Crystal_HC49
 }
 C 47400 40500 1 90 0 cap.sym
 {
@@ -63,9 +63,11 @@ refdes=ISP
 T 41000 40400 5 10 0 0 0 0 1
 footprint=HEADER6_2
 T 41000 40400 5 10 0 0 0 0 1
-model=M20-9950345
-T 41000 40400 5 10 0 0 0 0 1
 description=Harwin M20-9950345, 2-row, 6-pin, right angle, .1" pitch, male connector
+T 41000 40400 5 10 0 1 0 0 1
+device=HEADER_6
+T 41000 40400 5 10 0 0 0 0 1
+model=M20-9950345
 }
 N 44600 41500 44600 41800 4
 N 44600 41500 43100 41500 4
@@ -102,12 +104,12 @@ C 43800 41700 1 0 0 ATXmegaA3.sym
 {
 T 44200 51400 5 8 0 0 0 0 1
 symversion=1.0
-T 46000 47900 5 26 1 1 270 0 1
-description=ATXMEGA64A3U-AUR
 T 47200 50200 5 8 0 0 0 0 1
-footprint=TQFP64_14_ATXMEGA.fp
+footprint=TQFP64_14_ATXMEGA
 T 47800 50200 5 10 1 1 0 0 1
 refdes=U5
+T 43800 41700 5 10 1 1 0 0 1
+device=ATXMEGA64A3U-AUR
 }
 C 41300 50300 1 0 0 cap.sym
 {
@@ -363,35 +365,35 @@ refdes=fault_y
 C 44000 43800 1 180 0 output.sym
 {
 T 43900 43500 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42800 43650 5 10 1 1 0 0 1
 refdes=serial_tx
 }
 C 43200 43900 1 0 0 input.sym
 {
 T 43200 44200 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 42800 43950 5 10 1 1 0 0 1
 refdes=serial_rx
 }
 C 44000 43200 1 180 0 output.sym
 {
 T 43900 42900 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42900 43050 5 10 1 1 0 0 1
 refdes=spi_clk
 }
 C 44000 42600 1 180 0 output.sym
 {
 T 43900 42300 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42750 42450 5 10 1 1 0 0 1
 refdes=spi_mosi
 }
 C 43200 42700 1 0 0 input.sym
 {
 T 43200 43000 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 42750 42750 5 10 1 1 0 0 1
 refdes=spi_miso
 }
@@ -454,7 +456,7 @@ refdes=fault_x
 C 45700 40900 1 180 0 input.sym
 {
 T 45700 40600 5 10 0 0 180 0 1
-device=INPUT
+device=OUTPUT
 T 45900 40850 5 10 1 1 180 0 1
 refdes=reset
 }
@@ -475,7 +477,7 @@ refdes=serial_cts
 C 44000 47300 1 180 0 output.sym
 {
 T 43900 47000 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42650 47150 5 10 1 1 0 0 1
 refdes=spin_pwm
 }
@@ -489,21 +491,21 @@ refdes=switch_2
 C 44000 46400 1 180 0 output.sym
 {
 T 43900 46100 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42700 46250 5 10 1 1 0 0 1
 refdes=rs485_di
 }
 C 43200 46500 1 0 0 input.sym
 {
 T 43200 46800 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 42700 46550 5 10 1 1 0 0 1
 refdes=rs485_ro
 }
 C 44000 44700 1 180 0 output.sym
 {
 T 43900 44400 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 43000 44550 5 10 1 1 0 0 1
 refdes=ready
 }
@@ -517,21 +519,21 @@ refdes=switch_1
 C 44000 47000 1 180 0 output.sym
 {
 T 43900 46700 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42800 46850 5 10 1 1 0 0 1
 refdes=spin_dir
 }
 C 44000 45200 1 180 0 output.sym
 {
 T 43900 44900 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42500 45050 5 10 1 1 0 0 1
 refdes=spin_enable
 }
 C 44000 46100 1 180 0 output.sym
 {
 T 43900 45800 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 42700 45950 5 10 1 1 0 0 1
 refdes=rs485_de
 }
@@ -555,14 +557,14 @@ device=none
 C 44000 48400 1 180 0 output.sym
 {
 T 43900 48100 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 43100 48250 5 10 1 1 0 0 1
 refdes=fault
 }
 C 49100 48400 1 180 0 input.sym
 {
 T 49100 48100 5 10 0 0 180 0 1
-device=INPUT
+device=OUTPUT
 T 48850 48250 5 10 1 1 0 0 1
 refdes=estop
 }

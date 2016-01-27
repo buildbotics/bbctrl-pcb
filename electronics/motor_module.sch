@@ -42,7 +42,7 @@ T 51500 40100 9 10 1 0 0 0 1
 C 52500 45200 1 0 0 input.sym
 {
 T 52500 45500 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52000 45200 5 10 1 1 0 0 1
 refdes=spi_cs_a
 }
@@ -70,35 +70,35 @@ refdes=spi_miso
 C 52500 44000 1 0 0 input.sym
 {
 T 52500 44300 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52300 44000 5 10 1 1 0 0 1
 refdes=dir_a
 }
 C 52500 44200 1 0 0 input.sym
 {
 T 52500 44500 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52000 44200 5 10 1 1 0 0 1
 refdes=enable_a
 }
 C 52500 43800 1 0 0 input.sym
 {
 T 52500 44100 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52200 43800 5 10 1 1 0 0 1
 refdes=step_a
 }
 C 53300 43800 1 180 0 output.sym
 {
 T 53200 43500 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 52200 43600 5 10 1 1 0 0 1
 refdes=fault_a
 }
 C 42000 48500 1 0 0 input.sym
 {
 T 42000 48800 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41500 48500 5 10 1 1 0 0 1
 refdes=spi_cs_x
 }
@@ -126,35 +126,35 @@ refdes=spi_miso
 C 42000 47300 1 0 0 input.sym
 {
 T 42000 47600 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41800 47300 5 10 1 1 0 0 1
 refdes=dir_x
 }
 C 42000 47500 1 0 0 input.sym
 {
 T 42000 47800 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41500 47500 5 10 1 1 0 0 1
 refdes=enable_x
 }
 C 42000 47100 1 0 0 input.sym
 {
 T 42000 47400 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41700 47100 5 10 1 1 0 0 1
 refdes=step_x
 }
 C 42800 47100 1 180 0 output.sym
 {
 T 42700 46800 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 41700 46900 5 10 1 1 0 0 1
 refdes=fault_x
 }
 C 42000 45200 1 0 0 input.sym
 {
 T 42000 45500 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41500 45200 5 10 1 1 0 0 1
 refdes=spi_cs_y
 }
@@ -182,35 +182,35 @@ refdes=spi_miso
 C 42000 44000 1 0 0 input.sym
 {
 T 42000 44300 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41800 44000 5 10 1 1 0 0 1
 refdes=dir_y
 }
 C 42000 44200 1 0 0 input.sym
 {
 T 42000 44500 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41500 44200 5 10 1 1 0 0 1
 refdes=enable_y
 }
 C 42000 43800 1 0 0 input.sym
 {
 T 42000 44100 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41700 43800 5 10 1 1 0 0 1
 refdes=step_y
 }
 C 42800 43800 1 180 0 output.sym
 {
 T 42700 43500 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 41700 43600 5 10 1 1 0 0 1
 refdes=fault_y
 }
 C 52500 48500 1 0 0 input.sym
 {
 T 52500 48800 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52000 48500 5 10 1 1 0 0 1
 refdes=spi_cs_z
 }
@@ -238,56 +238,56 @@ refdes=spi_miso
 C 52500 47300 1 0 0 input.sym
 {
 T 52500 47600 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52300 47300 5 10 1 1 0 0 1
 refdes=dir_z
 }
 C 52500 47500 1 0 0 input.sym
 {
 T 52500 47800 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52000 47500 5 10 1 1 0 0 1
 refdes=enable_z
 }
 C 52500 47100 1 0 0 input.sym
 {
 T 52500 47400 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 52200 47100 5 10 1 1 0 0 1
 refdes=step_z
 }
 C 53300 47100 1 180 0 output.sym
 {
 T 53200 46800 5 10 0 0 180 0 1
-device=OUTPUT
+device=INPUT
 T 52200 46900 5 10 1 1 0 0 1
 refdes=fault_z
 }
 C 42000 47700 1 0 0 input.sym
 {
 T 42000 48000 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41400 47700 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
 C 52500 47700 1 0 0 input.sym
 {
 T 52500 48000 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 51900 47700 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
 C 42000 44400 1 0 0 input.sym
 {
 T 42000 44700 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 41400 44400 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
 C 52500 44400 1 0 0 input.sym
 {
 T 52500 44700 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 51900 44400 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
@@ -308,7 +308,7 @@ C 47200 44700 1 0 0 crystal_oscillator.sym
 T 47200 44700 5 10 0 0 0 0 1
 description=Crystal Technologies CB3LV-3I-16M0000 16MHz, HCMOS TTL ,surface mount crystal clock oscill
 T 47200 44700 5 10 0 0 0 0 1
-footprint=CB3_OSC.fp
+footprint=CB3_OSC
 T 47200 44700 5 10 0 0 0 0 1
 model=CB3LV-3I-16M0000
 T 48395 46595 5 10 1 1 0 0 1

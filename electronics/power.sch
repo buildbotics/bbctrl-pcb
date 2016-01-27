@@ -18,9 +18,9 @@ device=PWRJACK
 T 41100 45000 5 10 1 1 0 0 1
 refdes=J1
 T 41100 44500 5 10 0 0 0 6 1
-footprint=Molex_39-29-1027.fp
-T 41800 44200 5 10 1 1 0 6 1
-description=11V-30V DC
+footprint=Molex_39-29-1027
+T 41800 44200 5 10 0 0 0 6 1
+description=Molex 39-29-1027 two -pin right angle header with pin 1 above pin 2
 T 41100 44500 5 10 0 0 0 0 1
 description=Molex 39-29-1027 two -pin right angle header with pin 1 above pin 2
 }
@@ -371,7 +371,7 @@ C 50400 46000 1 0 0 testpt.sym
 T 50368 46458 5 8 1 1 0 0 1
 refdes=TP1
 T 50400 45959 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 }
 C 53400 47400 1 90 0 cap.sym
 {
@@ -458,22 +458,26 @@ device=none
 }
 C 52100 47000 1 0 0 schottky.sym
 {
-T 52100 47500 5 10 0 0 0 0 1
-device=SCHOTTKY
 T 52200 47300 5 10 1 1 0 0 1
 refdes=D1
-T 52100 46800 5 10 1 1 0 0 1
-device=DFLS1100-7
+T 52100 46800 5 10 0 1 0 0 1
+device=DIODE
+T 52100 47000 5 10 0 1 0 0 1
+footprint=POWERDI123
+T 52100 47000 5 10 1 1 0 0 1
+model=DFLS1100-7
 }
 N 51800 47100 52100 47100 4
 C 50900 44300 1 180 0 schottky.sym
 {
-T 50900 43800 5 10 0 0 180 0 1
-device=SCHOTTKY
+T 51300 44000 5 10 0 1 180 0 1
+device=DIODE
 T 50900 44450 5 10 1 1 180 0 1
 refdes=D2
-T 50300 43900 5 10 1 1 0 0 1
-device=B0530W-7-F
+T 50900 44300 5 10 0 1 0 0 1
+footprint=SOD123
+T 50900 44300 5 10 1 1 0 0 1
+model=B0530W-7-F
 }
 C 51100 44400 1 270 0 5V_motor.sym
 {

@@ -16,7 +16,7 @@ T 51500 40100 9 10 1 0 0 0 1
 C 44000 48400 1 0 0 output.sym
 {
 T 44100 48700 5 10 0 0 0 0 1
-device=OUTPUT
+device=INPUT
 T 44600 48400 5 10 1 1 0 0 1
 refdes=rpi_serial_tx
 }
@@ -37,13 +37,11 @@ device=DRC_Directive
 C 42600 41900 1 0 0 header40-2.sym
 {
 T 42850 50400 5 10 0 1 0 0 1
-device=RaspberryPi
+device=SFH11-PBPC-D20-ST-BK
 T 42600 41900 5 10 0 0 0 0 1
-footprint=raspberry_pi_connector.fp
+footprint=raspberry_pi_connector
 T 42600 41900 5 10 0 0 0 0 1
 description=Connector Header 40 Position 0.100" (2.54mm) Gold Through Hole
-T 42600 41900 5 10 0 0 0 0 1
-model=SFH11-PBPC-D20-ST-BK
 }
 C 44300 44800 1 0 1 nc.sym
 {
@@ -83,14 +81,14 @@ device=DRC_Directive
 C 44800 48200 1 180 0 input.sym
 {
 T 44800 47900 5 10 0 0 180 0 1
-device=INPUT
+device=OUTPUT
 T 45600 48200 5 10 1 1 180 0 1
 refdes=rpi_serial_rx
 }
 C 44800 43000 1 180 0 input.sym
 {
 T 44800 42700 5 10 0 0 180 0 1
-device=INPUT
+device=OUTPUT
 T 45700 43000 5 10 1 1 180 0 1
 refdes=rpi_serial_cts
 }
@@ -111,11 +109,11 @@ device=DRC_Directive
 C 50700 43200 1 0 0 MAX18450.sym
 {
 T 50700 43200 5 10 0 0 0 0 1
-footprint=QSOP16.fp
-T 50700 43200 5 10 0 0 0 0 1
-model=MAX14850
+footprint=QSOP16
 T 51695 43300 5 8 1 1 0 0 1
 refdes=U4
+T 50700 43200 5 10 1 1 0 0 1
+device=MAX14850
 }
 N 50600 45100 50600 44700 4
 N 50600 44700 50700 44700 4
@@ -126,7 +124,7 @@ device=CAPACITOR
 T 53800 44300 5 10 0 0 180 0 1
 symversion=0.1
 T 54000 45200 5 10 0 0 90 0 1
-footprint=0603.fp
+footprint=0603
 T 54000 45200 5 10 0 0 90 0 1
 description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
 T 53850 45400 5 10 1 1 180 0 1
@@ -141,7 +139,7 @@ device=CAPACITOR
 T 50300 44300 5 10 0 0 180 0 1
 symversion=0.1
 T 50500 45200 5 10 0 0 90 0 1
-footprint=0603.fp
+footprint=0603
 T 50500 45200 5 10 0 0 90 0 1
 description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
 T 50000 45200 5 10 1 1 0 0 1
@@ -219,7 +217,7 @@ refdes=serial_rts
 C 47800 43400 1 0 0 input.sym
 {
 T 47800 43700 5 10 0 0 0 0 1
-device=INPUT
+device=OUTPUT
 T 47300 43400 5 10 1 1 0 0 1
 refdes=rpi_reset
 }
@@ -235,7 +233,7 @@ C 42600 49500 1 90 0 3.3V-plus-1.sym
 C 42600 47600 1 0 1 output.sym
 {
 T 42500 47900 5 10 0 0 0 6 1
-device=OUTPUT
+device=INPUT
 T 41000 47600 5 10 1 1 0 0 1
 refdes=rpi_serial_rts
 }
@@ -405,6 +403,8 @@ T 55200 44325 5 10 1 1 180 0 1
 refdes=R17
 T 55200 44125 5 10 1 1 180 0 1
 value=10k
+T 54900 43700 5 10 0 1 0 0 1
+footprint=0603
 }
 C 54900 42700 1 90 0 resistor.sym
 {
@@ -414,6 +414,8 @@ T 55200 43325 5 10 1 1 180 0 1
 refdes=R18
 T 55200 43125 5 10 1 1 180 0 1
 value=10k
+T 54900 42700 5 10 0 1 0 0 1
+footprint=0603
 }
 C 54500 44300 1 0 0 3.3V_motor.sym
 {
@@ -435,6 +437,8 @@ T 48300 44325 5 10 1 1 180 6 1
 refdes=R15
 T 48300 44125 5 10 1 1 180 6 1
 value=10k
+T 48600 43700 5 10 0 1 0 0 1
+footprint=0603
 }
 N 48700 43900 48700 43700 4
 C 48600 42700 1 270 1 resistor.sym
@@ -445,6 +449,8 @@ T 48300 43325 5 10 1 1 180 6 1
 refdes=R16
 T 48300 43125 5 10 1 1 180 6 1
 value=10k
+T 48600 42700 5 10 0 1 0 0 1
+footprint=0603
 }
 N 48700 43300 48700 43500 4
 C 52100 47100 1 0 0 connector6-2.sym

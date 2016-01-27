@@ -56,7 +56,7 @@ device=none
 C 42800 47200 1 0 0 isl83485.sym
 {
 T 42395 49695 5 10 0 0 0 0 1
-footprint=SO-8
+footprint=SO8
 T 43800 49100 5 10 1 1 0 0 1
 refdes=U6
 T 43605 47896 5 10 1 1 90 0 1
