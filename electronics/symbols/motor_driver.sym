@@ -87,8 +87,8 @@ pinseq=9
 T 0 400 5 10 0 0 0 0 1
 pinnumber=9
 }
-B 200 0 1900 2500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 995 2300 8 10 1 1 0 0 1
+B 200 0 1900 2900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 995 2700 8 10 1 1 0 0 1
 refdes=MD?
 T 495 100 8 10 1 1 0 0 1
 source=motor_driver.sch
@@ -101,5 +101,27 @@ pinlabel=CSN
 T 0 2000 5 10 0 0 0 0 1
 pinseq=1
 T 0 2000 5 10 0 0 0 0 1
+pinnumber=1
+}
+P 0 2200 200 2200 1 0 0
+{
+T 0 2200 5 10 0 0 0 0 1
+pintype=unknown
+T 255 2195 5 10 1 1 0 0 1
+pinlabel=MAX
+T 0 2200 5 10 0 0 0 0 1
+pinseq=1
+T 0 2200 5 10 0 0 0 0 1
+pinnumber=1
+}
+P 0 2400 200 2400 1 0 0
+{
+T 0 2400 5 10 0 0 0 0 1
+pintype=unknown
+T 255 2395 5 10 1 1 0 0 1
+pinlabel=MIN
+T 0 2400 5 10 0 0 0 0 1
+pinseq=1
+T 0 2400 5 10 0 0 0 0 1
 pinnumber=1
 }

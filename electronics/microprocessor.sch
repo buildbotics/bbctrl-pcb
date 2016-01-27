@@ -238,14 +238,14 @@ C 49100 45200 1 180 0 input.sym
 {
 T 49100 44900 5 10 0 0 180 0 1
 device=INPUT
-T 48800 45050 5 10 1 1 0 0 1
+T 48850 45050 5 10 1 1 0 0 1
 refdes=z_max
 }
 C 49100 45500 1 180 0 input.sym
 {
 T 49100 45200 5 10 0 0 180 0 1
 device=INPUT
-T 48800 45350 5 10 1 1 0 0 1
+T 48850 45350 5 10 1 1 0 0 1
 refdes=z_min
 }
 C 49100 47800 1 180 0 input.sym
@@ -266,56 +266,56 @@ C 48300 44700 1 180 1 output.sym
 {
 T 48400 44400 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 44550 5 10 1 1 0 0 1
+T 48850 44550 5 10 1 1 0 0 1
 refdes=step_y
 }
 C 48300 44100 1 180 1 output.sym
 {
 T 48400 43800 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 43950 5 10 1 1 0 0 1
+T 48850 43950 5 10 1 1 0 0 1
 refdes=enable_y
 }
 C 48300 44400 1 180 1 output.sym
 {
 T 48400 44100 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 44250 5 10 1 1 0 0 1
+T 48850 44250 5 10 1 1 0 0 1
 refdes=dir_y
 }
 C 48300 47300 1 180 1 output.sym
 {
 T 48400 47000 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 47150 5 10 1 1 0 0 1
+T 48850 47150 5 10 1 1 0 0 1
 refdes=step_z
 }
 C 48300 46700 1 180 1 output.sym
 {
 T 48400 46400 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 46550 5 10 1 1 0 0 1
+T 48850 46550 5 10 1 1 0 0 1
 refdes=enable_z
 }
 C 48300 47000 1 180 1 output.sym
 {
 T 48400 46700 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 46850 5 10 1 1 0 0 1
+T 48850 46850 5 10 1 1 0 0 1
 refdes=dir_z
 }
 C 48300 49900 1 180 1 output.sym
 {
 T 48400 49600 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 49750 5 10 1 1 0 0 1
+T 48850 49750 5 10 1 1 0 0 1
 refdes=step_a
 }
 C 48300 49300 1 180 1 output.sym
 {
 T 48400 49000 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 49150 5 10 1 1 0 0 1
+T 48850 49150 5 10 1 1 0 0 1
 refdes=enable_a
 }
 C 48300 49600 1 180 1 output.sym
@@ -329,21 +329,21 @@ C 48300 48800 1 0 0 output.sym
 {
 T 48400 49100 5 10 0 0 0 0 1
 device=OUTPUT
-T 48800 48850 5 10 1 1 0 0 1
+T 48850 48850 5 10 1 1 0 0 1
 refdes=spi_cs_a
 }
 C 48300 46200 1 0 0 output.sym
 {
 T 48400 46500 5 10 0 0 0 0 1
 device=OUTPUT
-T 48800 46250 5 10 1 1 0 0 1
+T 48850 46250 5 10 1 1 0 0 1
 refdes=spi_cs_z
 }
 C 49100 46100 1 180 0 input.sym
 {
 T 49100 45800 5 10 0 0 180 0 1
 device=INPUT
-T 48800 45950 5 10 1 1 0 0 1
+T 48850 45950 5 10 1 1 0 0 1
 refdes=fault_z
 }
 C 49100 48700 1 180 0 input.sym
@@ -462,7 +462,7 @@ C 48300 43800 1 180 1 output.sym
 {
 T 48400 43500 5 10 0 0 180 6 1
 device=OUTPUT
-T 48800 43650 5 10 1 1 0 0 1
+T 48850 43650 5 10 1 1 0 0 1
 refdes=spi_cs_y
 }
 C 44000 43500 1 180 0 output.sym
@@ -483,8 +483,8 @@ C 48300 43000 1 0 0 output.sym
 {
 T 48400 43300 5 10 0 0 0 0 1
 device=OUTPUT
-T 49400 43150 5 10 1 1 180 0 1
-refdes=coolant
+T 49550 43200 5 10 1 1 180 0 1
+refdes=switch_2
 }
 C 44000 46400 1 180 0 output.sym
 {
@@ -504,15 +504,15 @@ C 44000 44700 1 180 0 output.sym
 {
 T 43900 44400 5 10 0 0 180 0 1
 device=OUTPUT
-T 42800 44550 5 10 1 1 0 0 1
-refdes=indicator
+T 43000 44550 5 10 1 1 0 0 1
+refdes=ready
 }
 C 48300 45600 1 0 0 output.sym
 {
 T 48400 45900 5 10 0 0 0 0 1
 device=OUTPUT
-T 49200 45750 5 10 1 1 180 0 1
-refdes=mist
+T 49550 45800 5 10 1 1 180 0 1
+refdes=switch_1
 }
 C 44000 47000 1 180 0 output.sym
 {
@@ -586,25 +586,25 @@ description=Unpopulated
 T 53900 46300 5 10 0 0 0 0 1
 documentation=Label each pin on PCB.
 }
-C 53100 47800 1 0 0 input-1.sym
+C 53100 47800 1 0 0 input.sym
 {
 T 53100 48100 5 10 0 0 0 0 1
 device=INPUT
-T 52400 47800 5 10 1 1 0 0 1
+T 52700 47800 5 10 1 1 0 0 1
 refdes=spi_clk
 }
-C 53900 47600 1 180 0 output-1.sym
+C 53900 47600 1 180 0 output.sym
 {
 T 53800 47300 5 10 0 0 180 0 1
 device=OUTPUT
-T 52300 47400 5 10 1 1 0 0 1
+T 52600 47400 5 10 1 1 0 0 1
 refdes=spi_miso
 }
-C 53100 47000 1 0 0 input-1.sym
+C 53100 47000 1 0 0 input.sym
 {
 T 53100 47300 5 10 0 0 0 0 1
 device=INPUT
-T 52300 47000 5 10 1 1 0 0 1
+T 52600 47000 5 10 1 1 0 0 1
 refdes=spi_mosi
 }
 C 47600 40200 1 0 0 gnd.sym

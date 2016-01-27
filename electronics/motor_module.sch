@@ -39,256 +39,256 @@ T 50000 40100 9 10 1 0 0 0 1
 3
 T 51500 40100 9 10 1 0 0 0 1
 7
-C 52500 45200 1 0 0 input-1.sym
+C 52500 45200 1 0 0 input.sym
 {
 T 52500 45500 5 10 0 0 0 0 1
 device=INPUT
-T 51700 45200 5 10 1 1 0 0 1
+T 52000 45200 5 10 1 1 0 0 1
 refdes=spi_cs_a
 }
-C 52500 45000 1 0 0 input-1.sym
+C 52500 45000 1 0 0 input.sym
 {
 T 52500 45300 5 10 0 0 0 0 1
 device=INPUT
-T 51800 45000 5 10 1 1 0 0 1
+T 52100 45000 5 10 1 1 0 0 1
 refdes=spi_clk
 }
-C 52500 44800 1 0 0 input-1.sym
+C 52500 44800 1 0 0 input.sym
 {
 T 52500 45100 5 10 0 0 0 0 1
 device=INPUT
-T 51700 44800 5 10 1 1 0 0 1
+T 52000 44800 5 10 1 1 0 0 1
 refdes=spi_mosi
 }
-C 53300 44800 1 180 0 output-1.sym
+C 53300 44800 1 180 0 output.sym
 {
 T 53200 44500 5 10 0 0 180 0 1
 device=OUTPUT
-T 51700 44600 5 10 1 1 0 0 1
+T 52000 44600 5 10 1 1 0 0 1
 refdes=spi_miso
 }
-C 52500 44000 1 0 0 input-1.sym
+C 52500 44000 1 0 0 input.sym
 {
 T 52500 44300 5 10 0 0 0 0 1
 device=INPUT
-T 52000 44000 5 10 1 1 0 0 1
+T 52300 44000 5 10 1 1 0 0 1
 refdes=dir_a
 }
-C 52500 44200 1 0 0 input-1.sym
+C 52500 44200 1 0 0 input.sym
 {
 T 52500 44500 5 10 0 0 0 0 1
 device=INPUT
-T 51700 44200 5 10 1 1 0 0 1
+T 52000 44200 5 10 1 1 0 0 1
 refdes=enable_a
 }
-C 52500 43800 1 0 0 input-1.sym
+C 52500 43800 1 0 0 input.sym
 {
 T 52500 44100 5 10 0 0 0 0 1
 device=INPUT
-T 51900 43800 5 10 1 1 0 0 1
+T 52200 43800 5 10 1 1 0 0 1
 refdes=step_a
 }
-C 53300 43800 1 180 0 output-1.sym
+C 53300 43800 1 180 0 output.sym
 {
 T 53200 43500 5 10 0 0 180 0 1
 device=OUTPUT
-T 51900 43600 5 10 1 1 0 0 1
+T 52200 43600 5 10 1 1 0 0 1
 refdes=fault_a
 }
-C 42000 48500 1 0 0 input-1.sym
+C 42000 48500 1 0 0 input.sym
 {
 T 42000 48800 5 10 0 0 0 0 1
 device=INPUT
-T 41200 48500 5 10 1 1 0 0 1
+T 41500 48500 5 10 1 1 0 0 1
 refdes=spi_cs_x
 }
-C 42000 48300 1 0 0 input-1.sym
+C 42000 48300 1 0 0 input.sym
 {
 T 42000 48600 5 10 0 0 0 0 1
 device=INPUT
-T 41300 48300 5 10 1 1 0 0 1
+T 41600 48300 5 10 1 1 0 0 1
 refdes=spi_clk
 }
-C 42000 48100 1 0 0 input-1.sym
+C 42000 48100 1 0 0 input.sym
 {
 T 42000 48400 5 10 0 0 0 0 1
 device=INPUT
-T 41200 48100 5 10 1 1 0 0 1
+T 41500 48100 5 10 1 1 0 0 1
 refdes=spi_mosi
 }
-C 42800 48100 1 180 0 output-1.sym
+C 42800 48100 1 180 0 output.sym
 {
 T 42700 47800 5 10 0 0 180 0 1
 device=OUTPUT
-T 41200 47900 5 10 1 1 0 0 1
+T 41500 47900 5 10 1 1 0 0 1
 refdes=spi_miso
 }
-C 42000 47300 1 0 0 input-1.sym
+C 42000 47300 1 0 0 input.sym
 {
 T 42000 47600 5 10 0 0 0 0 1
 device=INPUT
-T 41500 47300 5 10 1 1 0 0 1
+T 41800 47300 5 10 1 1 0 0 1
 refdes=dir_x
 }
-C 42000 47500 1 0 0 input-1.sym
+C 42000 47500 1 0 0 input.sym
 {
 T 42000 47800 5 10 0 0 0 0 1
 device=INPUT
-T 41200 47500 5 10 1 1 0 0 1
+T 41500 47500 5 10 1 1 0 0 1
 refdes=enable_x
 }
-C 42000 47100 1 0 0 input-1.sym
+C 42000 47100 1 0 0 input.sym
 {
 T 42000 47400 5 10 0 0 0 0 1
 device=INPUT
-T 41400 47100 5 10 1 1 0 0 1
+T 41700 47100 5 10 1 1 0 0 1
 refdes=step_x
 }
-C 42800 47100 1 180 0 output-1.sym
+C 42800 47100 1 180 0 output.sym
 {
 T 42700 46800 5 10 0 0 180 0 1
 device=OUTPUT
-T 41400 46900 5 10 1 1 0 0 1
+T 41700 46900 5 10 1 1 0 0 1
 refdes=fault_x
 }
-C 42000 45200 1 0 0 input-1.sym
+C 42000 45200 1 0 0 input.sym
 {
 T 42000 45500 5 10 0 0 0 0 1
 device=INPUT
-T 41200 45200 5 10 1 1 0 0 1
+T 41500 45200 5 10 1 1 0 0 1
 refdes=spi_cs_y
 }
-C 42000 45000 1 0 0 input-1.sym
+C 42000 45000 1 0 0 input.sym
 {
 T 42000 45300 5 10 0 0 0 0 1
 device=INPUT
-T 41300 45000 5 10 1 1 0 0 1
+T 41600 45000 5 10 1 1 0 0 1
 refdes=spi_clk
 }
-C 42000 44800 1 0 0 input-1.sym
+C 42000 44800 1 0 0 input.sym
 {
 T 42000 45100 5 10 0 0 0 0 1
 device=INPUT
-T 41200 44800 5 10 1 1 0 0 1
+T 41500 44800 5 10 1 1 0 0 1
 refdes=spi_mosi
 }
-C 42800 44800 1 180 0 output-1.sym
+C 42800 44800 1 180 0 output.sym
 {
 T 42700 44500 5 10 0 0 180 0 1
 device=OUTPUT
-T 41200 44600 5 10 1 1 0 0 1
+T 41500 44600 5 10 1 1 0 0 1
 refdes=spi_miso
 }
-C 42000 44000 1 0 0 input-1.sym
+C 42000 44000 1 0 0 input.sym
 {
 T 42000 44300 5 10 0 0 0 0 1
 device=INPUT
-T 41500 44000 5 10 1 1 0 0 1
+T 41800 44000 5 10 1 1 0 0 1
 refdes=dir_y
 }
-C 42000 44200 1 0 0 input-1.sym
+C 42000 44200 1 0 0 input.sym
 {
 T 42000 44500 5 10 0 0 0 0 1
 device=INPUT
-T 41200 44200 5 10 1 1 0 0 1
+T 41500 44200 5 10 1 1 0 0 1
 refdes=enable_y
 }
-C 42000 43800 1 0 0 input-1.sym
+C 42000 43800 1 0 0 input.sym
 {
 T 42000 44100 5 10 0 0 0 0 1
 device=INPUT
-T 41400 43800 5 10 1 1 0 0 1
+T 41700 43800 5 10 1 1 0 0 1
 refdes=step_y
 }
-C 42800 43800 1 180 0 output-1.sym
+C 42800 43800 1 180 0 output.sym
 {
 T 42700 43500 5 10 0 0 180 0 1
 device=OUTPUT
-T 41400 43600 5 10 1 1 0 0 1
+T 41700 43600 5 10 1 1 0 0 1
 refdes=fault_y
 }
-C 52500 48500 1 0 0 input-1.sym
+C 52500 48500 1 0 0 input.sym
 {
 T 52500 48800 5 10 0 0 0 0 1
 device=INPUT
-T 51700 48500 5 10 1 1 0 0 1
+T 52000 48500 5 10 1 1 0 0 1
 refdes=spi_cs_z
 }
-C 52500 48300 1 0 0 input-1.sym
+C 52500 48300 1 0 0 input.sym
 {
 T 52500 48600 5 10 0 0 0 0 1
 device=INPUT
-T 51800 48300 5 10 1 1 0 0 1
+T 52100 48300 5 10 1 1 0 0 1
 refdes=spi_clk
 }
-C 52500 48100 1 0 0 input-1.sym
+C 52500 48100 1 0 0 input.sym
 {
 T 52500 48400 5 10 0 0 0 0 1
 device=INPUT
-T 51700 48100 5 10 1 1 0 0 1
+T 52000 48100 5 10 1 1 0 0 1
 refdes=spi_mosi
 }
-C 53300 48100 1 180 0 output-1.sym
+C 53300 48100 1 180 0 output.sym
 {
 T 53200 47800 5 10 0 0 180 0 1
 device=OUTPUT
-T 51700 47900 5 10 1 1 0 0 1
+T 52000 47900 5 10 1 1 0 0 1
 refdes=spi_miso
 }
-C 52500 47300 1 0 0 input-1.sym
+C 52500 47300 1 0 0 input.sym
 {
 T 52500 47600 5 10 0 0 0 0 1
 device=INPUT
-T 52000 47300 5 10 1 1 0 0 1
+T 52300 47300 5 10 1 1 0 0 1
 refdes=dir_z
 }
-C 52500 47500 1 0 0 input-1.sym
+C 52500 47500 1 0 0 input.sym
 {
 T 52500 47800 5 10 0 0 0 0 1
 device=INPUT
-T 51700 47500 5 10 1 1 0 0 1
+T 52000 47500 5 10 1 1 0 0 1
 refdes=enable_z
 }
-C 52500 47100 1 0 0 input-1.sym
+C 52500 47100 1 0 0 input.sym
 {
 T 52500 47400 5 10 0 0 0 0 1
 device=INPUT
-T 51900 47100 5 10 1 1 0 0 1
+T 52200 47100 5 10 1 1 0 0 1
 refdes=step_z
 }
-C 53300 47100 1 180 0 output-1.sym
+C 53300 47100 1 180 0 output.sym
 {
 T 53200 46800 5 10 0 0 180 0 1
 device=OUTPUT
-T 51900 46900 5 10 1 1 0 0 1
+T 52200 46900 5 10 1 1 0 0 1
 refdes=fault_z
 }
-C 42000 47700 1 0 0 input-1.sym
+C 42000 47700 1 0 0 input.sym
 {
 T 42000 48000 5 10 0 0 0 0 1
 device=INPUT
-T 41100 47700 5 10 1 1 0 0 1
+T 41400 47700 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
-C 52500 47700 1 0 0 input-1.sym
+C 52500 47700 1 0 0 input.sym
 {
 T 52500 48000 5 10 0 0 0 0 1
 device=INPUT
-T 51600 47700 5 10 1 1 0 0 1
+T 51900 47700 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
-C 42000 44400 1 0 0 input-1.sym
+C 42000 44400 1 0 0 input.sym
 {
 T 42000 44700 5 10 0 0 0 0 1
 device=INPUT
-T 41100 44400 5 10 1 1 0 0 1
+T 41400 44400 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
-C 52500 44400 1 0 0 input-1.sym
+C 52500 44400 1 0 0 input.sym
 {
 T 52500 44700 5 10 0 0 0 0 1
 device=INPUT
-T 51600 44400 5 10 1 1 0 0 1
+T 51900 44400 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
 N 47700 46700 47700 46900 4
@@ -296,11 +296,11 @@ N 47200 45100 47000 45100 4
 N 46400 46900 47700 46900 4
 N 47000 46000 47000 46900 4
 N 47000 45100 47000 45600 4
-C 49800 46200 1 0 0 output-1.sym
+C 49800 46200 1 0 0 output.sym
 {
 T 49900 46500 5 10 0 0 0 0 1
 device=OUTPUT
-T 50700 46200 5 10 1 1 0 0 1
+T 50400 46200 5 10 1 1 0 0 1
 refdes=mdvr_clk
 }
 C 47200 44700 1 0 0 crystal_oscillator.sym
@@ -349,3 +349,59 @@ T 47100 45400 5 10 0 0 0 0 1
 footprint=0603
 }
 C 49300 44400 1 0 0 gnd.sym
+C 42800 48900 1 180 0 output.sym
+{
+T 42700 48600 5 10 0 0 180 0 1
+device=OUTPUT
+T 41700 48700 5 10 1 1 0 0 1
+refdes=max_x
+}
+C 42800 49100 1 180 0 output.sym
+{
+T 42700 48800 5 10 0 0 180 0 1
+device=OUTPUT
+T 41700 48900 5 10 1 1 0 0 1
+refdes=min_x
+}
+C 53300 48900 1 180 0 output.sym
+{
+T 53200 48600 5 10 0 0 180 0 1
+device=OUTPUT
+T 52200 48700 5 10 1 1 0 0 1
+refdes=max_z
+}
+C 53300 49100 1 180 0 output.sym
+{
+T 53200 48800 5 10 0 0 180 0 1
+device=OUTPUT
+T 52200 48900 5 10 1 1 0 0 1
+refdes=min_z
+}
+C 42800 45600 1 180 0 output.sym
+{
+T 42700 45300 5 10 0 0 180 0 1
+device=OUTPUT
+T 41700 45400 5 10 1 1 0 0 1
+refdes=max_y
+}
+C 42800 45800 1 180 0 output.sym
+{
+T 42700 45500 5 10 0 0 180 0 1
+device=OUTPUT
+T 41700 45600 5 10 1 1 0 0 1
+refdes=min_y
+}
+C 53300 45600 1 180 0 output.sym
+{
+T 53200 45300 5 10 0 0 180 0 1
+device=OUTPUT
+T 52200 45400 5 10 1 1 0 0 1
+refdes=max_a
+}
+C 53300 45800 1 180 0 output.sym
+{
+T 53200 45500 5 10 0 0 180 0 1
+device=OUTPUT
+T 52200 45600 5 10 1 1 0 0 1
+refdes=min_a
+}
