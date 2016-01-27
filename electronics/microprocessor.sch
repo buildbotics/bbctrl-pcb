@@ -36,16 +36,10 @@ T 46700 40700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 46900 40800 5 10 1 1 0 0 1
 refdes=C2
-T 46500 40700 5 10 0 0 90 0 1
-symversion=0.1
 T 47150 40700 5 10 1 1 180 0 1
 value=22pF
 T 47400 40500 5 10 0 0 90 0 1
-footprint=0402
-T 47400 40500 5 10 0 0 0 0 1
-model=C0402C220J4GACTU
-T 47400 40500 5 10 0 0 0 0 1
-description=CAP CER 22PF 16V 5% NP0 0402
+footprint=0603
 }
 C 48100 40500 1 90 0 cap.sym
 {
@@ -53,16 +47,10 @@ T 47400 40700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 48150 40800 5 10 1 1 0 0 1
 refdes=C3
-T 47200 40700 5 10 0 0 90 0 1
-symversion=0.1
 T 48600 40700 5 10 1 1 180 0 1
 value=22pF
 T 48100 40500 5 10 0 0 270 0 1
-footprint=0402
-T 48100 40500 5 10 0 0 0 0 1
-description=CAP CER 22PF 16V 5% NP0 0402
-T 48100 40500 5 10 0 0 0 0 1
-model=C0402C220J4GACTU
+footprint=0603
 }
 N 48000 41000 48000 41800 4
 N 48000 41800 47800 41800 4
@@ -79,7 +67,7 @@ model=M20-9950345
 T 41000 40400 5 10 0 0 0 0 1
 description=Harwin M20-9950345, 2-row, 6-pin, right angle, .1" pitch, male connector
 }
-N 44600 41200 44600 41800 4
+N 44600 41500 44600 41800 4
 N 44600 41500 43100 41500 4
 N 43100 41500 43100 42000 4
 N 43100 42000 42200 42000 4
@@ -106,7 +94,7 @@ Copyright (c) 2016, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Joseph Coffland
 T 53800 40400 9 10 1 0 0 0 1
-1.0
+2.0
 T 50000 40100 9 10 1 0 0 0 1
 3
 T 51500 40100 9 10 1 0 0 0 1
@@ -465,93 +453,12 @@ device=INPUT
 T 42950 48550 5 10 1 1 0 0 1
 refdes=fault_x
 }
-C 43800 41100 1 0 0 input.sym
-{
-T 43800 41400 5 10 0 0 0 0 1
-device=INPUT
-T 43800 41150 5 10 1 1 0 0 1
-refdes=pdi
-}
 C 45700 40900 1 180 0 input.sym
 {
 T 45700 40600 5 10 0 0 180 0 1
 device=INPUT
 T 45900 40850 5 10 1 1 180 0 1
 refdes=reset
-}
-C 54700 47400 1 180 0 header26-1.sym
-{
-T 53100 42700 5 10 0 0 180 0 1
-device=HEADER26
-T 54700 47400 5 10 0 0 180 0 1
-model=ICD26S13E4GX00LF
-T 54700 47400 5 10 0 0 180 0 1
-description=D-Sub Connector Receptacle, Female Sockets 26 Position Through Hole, Right Angle Solder
-T 54700 47400 5 10 0 0 180 0 1
-footprint=26_PinDSub.fp
-T 54100 42000 5 10 1 1 180 0 1
-refdes=J3
-}
-C 52500 42600 1 0 0 input-1.sym
-{
-T 52500 42900 5 10 0 0 0 0 1
-device=INPUT
-T 51800 42600 5 10 1 1 0 0 1
-refdes=coolant
-}
-C 52500 43000 1 0 0 input-1.sym
-{
-T 52500 43300 5 10 0 0 0 0 1
-device=INPUT
-T 51400 43000 5 10 1 1 0 0 1
-refdes=spin_enable
-}
-C 52500 43400 1 0 0 input-1.sym
-{
-T 52500 43700 5 10 0 0 0 0 1
-device=INPUT
-T 51600 43400 5 10 1 1 0 0 1
-refdes=spin_pwm
-}
-C 55500 43200 1 180 0 input-1.sym
-{
-T 55500 42900 5 10 0 0 180 0 1
-device=INPUT
-T 56200 43200 5 10 1 1 180 0 1
-refdes=spin_dir
-}
-C 53300 46800 1 180 0 output-1.sym
-{
-T 53200 46500 5 10 0 0 180 0 1
-device=OUTPUT
-T 52400 46800 5 10 1 1 180 0 1
-refdes=x_min
-}
-C 54700 46600 1 0 0 output-1.sym
-{
-T 54800 46900 5 10 0 0 0 0 1
-device=OUTPUT
-T 55600 46600 5 10 1 1 0 0 1
-refdes=x_max
-}
-C 53300 46400 1 180 0 output-1.sym
-{
-T 53200 46100 5 10 0 0 180 0 1
-device=OUTPUT
-T 52400 46400 5 10 1 1 180 0 1
-refdes=y_min
-}
-C 53300 46000 1 180 0 output-1.sym
-{
-T 53200 45700 5 10 0 0 180 0 1
-device=OUTPUT
-T 52400 46000 5 10 1 1 180 0 1
-refdes=z_min
-}
-C 53300 44800 1 90 0 3.3V_motor.sym
-{
-T 52600 44900 5 10 0 0 90 0 1
-device=none
 }
 C 48300 43800 1 180 1 output.sym
 {
@@ -567,35 +474,6 @@ device=OUTPUT
 T 42700 43350 5 10 1 1 0 0 1
 refdes=serial_cts
 }
-C 55500 42800 1 180 0 input-1.sym
-{
-T 55500 42500 5 10 0 0 180 0 1
-device=INPUT
-T 55900 42800 5 10 1 1 180 0 1
-refdes=mist
-}
-C 54700 46200 1 0 0 output-1.sym
-{
-T 54800 46500 5 10 0 0 0 0 1
-device=OUTPUT
-T 55600 46200 5 10 1 1 0 0 1
-refdes=y_max
-}
-C 54700 45800 1 0 0 output-1.sym
-{
-T 54800 46100 5 10 0 0 0 0 1
-device=OUTPUT
-T 55600 45800 5 10 1 1 0 0 1
-refdes=z_max
-}
-C 54700 45400 1 0 0 output-1.sym
-{
-T 54800 45700 5 10 0 0 0 0 1
-device=OUTPUT
-T 55600 45400 5 10 1 1 0 0 1
-refdes=a_max
-}
-C 55100 46900 1 90 0 motor_gnd.sym
 C 44000 47300 1 180 0 output.sym
 {
 T 43900 47000 5 10 0 0 180 0 1
@@ -628,8 +506,8 @@ C 44000 44700 1 180 0 output.sym
 {
 T 43900 44400 5 10 0 0 180 0 1
 device=OUTPUT
-T 43100 44550 5 10 1 1 0 0 1
-refdes=mist
+T 42800 44550 5 10 1 1 0 0 1
+refdes=indicator
 }
 C 48300 45600 1 0 0 output.sym
 {
@@ -666,95 +544,6 @@ device=OUTPUT
 T 43100 45650 5 10 1 1 0 0 1
 refdes=boot
 }
-C 53300 45600 1 180 0 output-1.sym
-{
-T 53200 45300 5 10 0 0 180 0 1
-device=OUTPUT
-T 52400 45600 5 10 1 1 180 0 1
-refdes=a_min
-}
-C 54700 43800 1 0 0 io-1.sym
-{
-T 54900 44400 5 10 0 0 0 0 1
-device=none
-T 55600 43900 5 10 1 1 0 1 1
-value=spin_rs485_ay
-}
-C 53300 44000 1 180 0 io-1.sym
-{
-T 53100 43400 5 10 0 0 180 0 1
-device=none
-T 52400 43900 5 10 1 1 180 1 1
-value=spin_rs485_bz
-}
-C 52600 47700 1 0 0 motor_gnd.sym
-C 54300 48800 1 0 0 io-1.sym
-{
-T 54500 49400 5 10 0 0 0 0 1
-device=none
-T 55200 48900 5 10 1 1 0 1 1
-value=spin_rs485_ay
-}
-C 54300 49100 1 0 0 io-1.sym
-{
-T 54500 49700 5 10 0 0 0 0 1
-device=none
-T 55200 49200 5 10 1 1 0 1 1
-value=spin_rs485_bz
-}
-C 52000 49600 1 180 0 output.sym
-{
-T 51900 49300 5 10 0 0 180 0 1
-device=OUTPUT
-T 50700 49450 5 10 1 1 0 0 1
-refdes=rs485_ro
-}
-C 51200 49100 1 0 0 input.sym
-{
-T 51200 49400 5 10 0 0 0 0 1
-device=INPUT
-T 50700 49150 5 10 1 1 0 0 1
-refdes=rs485_re
-}
-C 51200 48800 1 0 0 input.sym
-{
-T 51200 49100 5 10 0 0 0 0 1
-device=INPUT
-T 50650 48850 5 10 1 1 0 0 1
-refdes=rs485_de
-}
-C 51200 48500 1 0 0 input.sym
-{
-T 51200 48800 5 10 0 0 0 0 1
-device=INPUT
-T 50700 48550 5 10 1 1 0 0 1
-refdes=rs485_di
-}
-C 53100 50200 1 0 0 cap.sym
-{
-T 53300 50900 5 10 0 0 0 0 1
-device=CAPACITOR
-T 53300 50550 5 10 1 1 180 0 1
-refdes=C9
-T 53300 51100 5 10 0 0 0 0 1
-symversion=0.1
-T 53500 50400 5 10 1 1 0 0 1
-value=0.1uF
-T 53100 50200 5 10 0 0 0 0 1
-footprint=0603
-T 53100 50200 5 10 0 0 0 0 1
-model=C0603C104M5RACTU
-T 53100 50200 5 10 0 0 0 0 1
-description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
-}
-C 53600 49900 1 0 0 motor_gnd.sym
-N 53800 50300 53600 50300 4
-N 52800 50400 52800 50200 4
-N 53200 50300 52800 50300 4
-C 47500 40100 1 0 0 motor_gnd.sym
-C 45900 41100 1 0 0 motor_gnd.sym
-C 42800 40300 1 90 0 motor_gnd.sym
-C 40600 50000 1 0 0 motor_gnd.sym
 C 46400 50400 1 0 0 3.3V_motor.sym
 {
 T 46500 51100 5 10 0 0 0 0 1
@@ -764,25 +553,6 @@ C 42400 42000 1 270 0 3.3V_motor.sym
 {
 T 43100 41900 5 10 0 0 270 0 1
 device=none
-}
-C 52500 50400 1 0 0 3.3V_motor.sym
-{
-T 52600 51100 5 10 0 0 0 0 1
-device=none
-}
-C 54700 44600 1 0 0 output-1.sym
-{
-T 54800 44900 5 10 0 0 0 0 1
-device=OUTPUT
-T 55600 44600 5 10 1 1 0 0 1
-refdes=spi_miso
-}
-C 55500 44400 1 180 0 input-1.sym
-{
-T 55500 44100 5 10 0 0 180 0 1
-device=INPUT
-T 56300 44400 5 10 1 1 180 0 1
-refdes=spi_mosi
 }
 C 44000 48400 1 180 0 output.sym
 {
@@ -798,39 +568,6 @@ device=INPUT
 T 48850 48250 5 10 1 1 0 0 1
 refdes=estop
 }
-C 54700 43400 1 0 0 output-1.sym
-{
-T 54800 43700 5 10 0 0 0 0 1
-device=OUTPUT
-T 55600 43400 5 10 1 1 0 0 1
-refdes=estop
-}
-C 55100 44900 1 90 0 motor_gnd.sym
-C 53300 46800 1 90 0 3.3V_motor.sym
-{
-T 52600 46900 5 10 0 0 90 0 1
-device=none
-}
-C 55100 42100 1 90 0 motor_gnd.sym
-C 53300 42000 1 90 0 3.3V_motor.sym
-{
-T 52600 42100 5 10 0 0 90 0 1
-device=none
-}
-C 52500 44200 1 0 0 input-1.sym
-{
-T 52500 44500 5 10 0 0 0 0 1
-device=INPUT
-T 52100 44200 5 10 1 1 0 0 1
-refdes=fault
-}
-C 52500 44600 1 0 0 input-1.sym
-{
-T 52500 44900 5 10 0 0 0 0 1
-device=INPUT
-T 51800 44600 5 10 1 1 0 0 1
-refdes=spi_clk
-}
 C 43200 45300 1 0 0 input.sym
 {
 T 43200 45600 5 10 0 0 0 0 1
@@ -838,25 +575,42 @@ device=INPUT
 T 42700 45350 5 10 1 1 0 0 1
 refdes=serial_rts
 }
-C 52000 48100 1 0 0 isl83485.sym
+C 53900 46300 1 0 0 connector4-2.sym
 {
-T 53000 50000 5 10 1 1 0 0 1
-refdes=U?
-T 51595 50595 5 10 0 0 0 0 1
-footprint=SO-8
-T 52805 48796 5 10 1 1 90 0 1
-device=ISL83485
+T 54600 48400 5 10 1 1 0 6 1
+refdes=SPI
+T 54200 48350 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 54200 48550 5 10 0 0 0 0 1
+footprint=JUMPER4
+T 53900 46300 5 10 0 0 0 0 1
+description=Unpopulated
+T 53900 46300 5 10 0 0 0 0 1
+documentation=Label each pin on PCB.
 }
-C 54000 48600 1 90 0 resistor.sym
+C 53100 47800 1 0 0 input-1.sym
 {
-T 53600 48900 5 10 0 0 90 0 1
-device=RESISTOR
-T 53800 49125 5 10 1 1 180 0 1
-refdes=R1
-T 54400 49125 5 10 1 1 180 0 1
-value=120Ω
+T 53100 48100 5 10 0 0 0 0 1
+device=INPUT
+T 52400 47800 5 10 1 1 0 0 1
+refdes=spi_clk
 }
-N 53500 49200 54300 49200 4
-N 53500 48800 54300 48800 4
-N 54300 48800 54300 48900 4
-N 53500 48800 53500 48900 4
+C 53900 47600 1 180 0 output-1.sym
+{
+T 53800 47300 5 10 0 0 180 0 1
+device=OUTPUT
+T 52300 47400 5 10 1 1 0 0 1
+refdes=spi_miso
+}
+C 53100 47000 1 0 0 input-1.sym
+{
+T 53100 47300 5 10 0 0 0 0 1
+device=INPUT
+T 52300 47000 5 10 1 1 0 0 1
+refdes=spi_mosi
+}
+C 47600 40200 1 0 0 gnd.sym
+C 46000 41200 1 0 0 gnd.sym
+C 42700 40400 1 90 0 gnd.sym
+C 40700 50100 1 0 0 gnd.sym
+C 53600 46800 1 270 0 gnd.sym

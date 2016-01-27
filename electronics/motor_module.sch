@@ -39,118 +39,6 @@ T 50000 40100 9 10 1 0 0 0 1
 5
 T 51500 40100 9 10 1 0 0 0 1
 7
-C 46700 43500 1 0 0 testpt.sym
-{
-T 46932 44067 5 8 1 1 180 0 1
-refdes=TP7
-T 46700 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 46900 42700 1 90 0 input-1.sym
-{
-T 46600 42700 5 10 0 0 90 0 1
-device=INPUT
-T 46900 42000 5 10 1 1 90 0 1
-refdes=spi_clk
-}
-C 47200 43500 1 0 0 testpt.sym
-{
-T 47168 43958 5 8 1 1 0 0 1
-refdes=TP8
-T 47200 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 47200 43500 1 270 0 output-1.sym
-{
-T 47500 43400 5 10 0 0 270 0 1
-device=OUTPUT
-T 47400 41900 5 10 1 1 90 0 1
-refdes=spi_miso
-}
-C 47700 43500 1 0 0 testpt.sym
-{
-T 47668 43958 5 8 1 1 0 0 1
-refdes=TP9
-T 47700 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 47900 42700 1 90 0 input-1.sym
-{
-T 47600 42700 5 10 0 0 90 0 1
-device=INPUT
-T 47900 41900 5 10 1 1 90 0 1
-refdes=spi_mosi
-}
-C 48200 43500 1 0 0 testpt.sym
-{
-T 48168 43958 5 8 1 1 0 0 1
-refdes=TP10
-T 48200 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 48700 43500 1 0 0 testpt.sym
-{
-T 48668 43958 5 8 1 1 0 0 1
-refdes=TP11
-T 48700 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 49200 43500 1 0 0 testpt.sym
-{
-T 49168 43958 5 8 1 1 0 0 1
-refdes=TP12
-T 49200 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 49700 43500 1 0 0 testpt.sym
-{
-T 49668 43958 5 8 1 1 0 0 1
-refdes=TP13
-T 49700 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 50200 43500 1 0 0 testpt.sym
-{
-T 50168 43958 5 8 1 1 0 0 1
-refdes=TP14
-T 50200 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-}
-C 48400 42700 1 90 0 input-1.sym
-{
-T 48100 42700 5 10 0 0 90 0 1
-device=INPUT
-T 48400 42100 5 10 1 1 90 0 1
-refdes=step_x
-}
-C 48900 42700 1 90 0 input-1.sym
-{
-T 48600 42700 5 10 0 0 90 0 1
-device=INPUT
-T 48900 42200 5 10 1 1 90 0 1
-refdes=dir_x
-}
-C 49400 42700 1 90 0 input-1.sym
-{
-T 49100 42700 5 10 0 0 90 0 1
-device=INPUT
-T 49400 41900 5 10 1 1 90 0 1
-refdes=enable_x
-}
-C 49900 42700 1 90 0 input-1.sym
-{
-T 49600 42700 5 10 0 0 90 0 1
-device=INPUT
-T 49900 41900 5 10 1 1 90 0 1
-refdes=spi_cs_x
-}
-C 50200 43500 1 270 0 output-1.sym
-{
-T 50500 43400 5 10 0 0 270 0 1
-device=OUTPUT
-T 50400 42100 5 10 1 1 90 0 1
-refdes=fault_x
-}
 C 52600 46100 1 0 0 input-1.sym
 {
 T 52600 46400 5 10 0 0 0 0 1
@@ -406,22 +294,7 @@ refdes=mdvr_clk
 N 47800 47600 47800 47800 4
 N 47300 46000 47100 46000 4
 N 46500 47800 47800 47800 4
-C 47200 46500 1 90 0 resistor-1.sym
-{
-T 46800 46800 5 10 0 0 90 0 1
-device=RESISTOR
-T 47200 46500 5 10 0 0 0 0 1
-footprint=0402.fp
-T 47200 46500 5 10 0 0 0 0 1
-model=RC0402JR-0710KL
-T 47200 46500 5 10 0 0 0 0 1
-description=RES SMD 10K OHM 5% 1/16W 0402
-T 47000 46600 5 10 1 1 90 0 1
-refdes=R33
-T 47000 47000 5 10 1 1 90 0 1
-value=10K
-}
-N 47100 47400 47100 47800 4
+N 47100 46900 47100 47800 4
 N 47100 46000 47100 46500 4
 C 49900 47100 1 0 0 output-1.sym
 {
@@ -443,42 +316,36 @@ refdes=OSC1
 T 48295 46195 5 10 1 1 0 0 1
 value=16MHz
 }
-C 46700 46500 1 90 0 capacitor-1.sym
-{
-T 46000 46700 5 10 0 0 90 0 1
-device=CAPACITOR
-T 45800 46700 5 10 0 0 90 0 1
-symversion=0.1
-T 46700 46500 5 10 0 0 90 0 1
-model=GRM155R71H103KA88D
-T 46700 46500 5 10 0 0 90 0 1
-description=Murata 10nF 0402 ceramic capacitor
-T 46700 46500 5 10 0 1 90 0 1
-footprint=0402.fp
-T 46300 46600 5 10 1 1 90 0 1
-refdes=C1
-T 46300 47100 5 10 1 1 90 0 1
-value=10nF
-}
-C 50700 43500 1 0 0 testpt.sym
-{
-T 50700 43459 5 8 0 1 0 0 1
-footprint=testpt.fp
-T 50668 43958 5 8 1 1 0 0 1
-refdes=TP15
-}
-C 50700 43500 1 270 0 output-1.sym
-{
-T 51000 43400 5 10 0 0 270 0 1
-device=OUTPUT
-T 50900 41800 5 10 1 1 90 0 1
-refdes=mdvr_clk
-}
-C 49300 45200 1 0 0 motor_gnd.sym
-C 46300 46100 1 0 0 motor_gnd.sym
 N 46500 47400 46500 47800 4
 C 47500 47800 1 0 0 3.3V_motor.sym
 {
 T 47600 48500 5 10 0 0 0 0 1
 device=none
 }
+C 46400 46500 1 0 0 gnd.sym
+C 46600 46900 1 90 0 cap.sym
+{
+T 45900 47100 5 10 0 0 90 0 1
+device=CAPACITOR
+T 46300 46900 5 10 1 1 90 0 1
+refdes=C1
+T 46300 47300 5 10 1 1 90 0 1
+value=10nF
+T 46600 46900 5 10 0 0 0 0 1
+footprint=0603
+T 46600 46900 5 10 0 0 0 0 1
+description=16v
+}
+N 46500 46800 46500 47000 4
+C 47200 46300 1 90 0 resistor.sym
+{
+T 46800 46600 5 10 0 0 90 0 1
+device=RESISTOR
+T 47025 46400 5 10 1 1 90 0 1
+refdes=R33
+T 47025 46800 5 10 1 1 90 0 1
+value=20kΩ
+T 47200 46300 5 10 0 0 0 0 1
+footprint=0603
+}
+C 49400 45300 1 0 0 gnd.sym
