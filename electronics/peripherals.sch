@@ -4,29 +4,29 @@ C 42800 48700 1 180 0 output.sym
 {
 T 42700 48400 5 10 0 0 180 0 1
 device=OUTPUT
-T 41500 48550 5 10 1 1 0 0 1
-refdes=rs485_ro
+T 41400 48550 5 10 1 1 0 0 1
+net=rs485_ro:1
 }
 C 42000 48200 1 0 0 input.sym
 {
 T 42000 48500 5 10 0 0 0 0 1
 device=INPUT
-T 41500 48250 5 10 1 1 0 0 1
-refdes=rs485_re
+T 41400 48250 5 10 1 1 0 0 1
+net=rs485_re:1
 }
 C 42000 47900 1 0 0 input.sym
 {
 T 42000 48200 5 10 0 0 0 0 1
 device=INPUT
-T 41450 47950 5 10 1 1 0 0 1
-refdes=rs485_de
+T 41350 47950 5 10 1 1 0 0 1
+net=rs485_de:1
 }
 C 42000 47600 1 0 0 input.sym
 {
 T 42000 47900 5 10 0 0 0 0 1
 device=INPUT
-T 41500 47650 5 10 1 1 0 0 1
-refdes=rs485_di
+T 41400 47650 5 10 1 1 0 0 1
+net=rs485_di:1
 }
 C 43900 49300 1 0 0 cap.sym
 {
@@ -107,7 +107,7 @@ C 45500 41500 1 180 0 input.sym
 T 45500 41200 5 10 0 0 180 0 1
 device=INPUT
 T 45250 41350 5 10 1 1 0 0 1
-refdes=ready
+net=ready:1
 }
 C 43500 46900 1 0 0 gnd.sym
 C 44500 49100 1 0 0 gnd.sym
@@ -129,7 +129,7 @@ C 45500 41900 1 180 0 input.sym
 T 45500 41600 5 10 0 0 180 0 1
 device=INPUT
 T 45250 41750 5 10 1 1 0 0 1
-refdes=fault
+net=fault:1
 }
 C 44700 41900 1 180 0 resistor.sym
 {
@@ -149,39 +149,35 @@ C 43200 44900 1 0 1 relay-2.sym
 T 41850 45800 5 10 1 1 90 6 1
 refdes=RELAY1
 T 43100 46300 5 10 0 0 0 6 1
-device=8-1419125-0
+device=WRZ03-1A4-D005
 }
 C 42400 46400 1 180 0 io.sym
 {
 T 41800 46350 5 10 1 1 180 0 1
-net=load_1a
-T 42200 45800 5 10 0 0 180 0 1
-device=none
+net=load_1a:1
 T 41500 46300 5 10 0 1 180 1 1
-value=IO
+device=IO
 }
 C 42500 44800 1 180 0 io.sym
 {
-T 41300 44650 5 10 1 1 0 0 1
-net=load_1b
-T 42300 44200 5 10 0 0 180 0 1
-device=none
+T 41200 44650 5 10 1 1 0 0 1
+net=load_1b:1
 T 41600 44700 5 10 0 1 180 1 1
-value=IO
+device=IO
 }
 C 41700 43800 1 180 1 input.sym
 {
 T 41400 43550 5 10 0 0 180 6 1
 device=INPUT
 T 41900 43600 5 10 1 1 0 6 1
-netname=switch_1
+net=switch_1:1
 }
 N 42500 44700 42500 44900 4
 N 42400 46300 42400 46100 4
 C 46800 44900 1 0 1 relay-2.sym
 {
 T 46700 46300 5 10 0 0 0 6 1
-device=8-1419125-0
+device=WRZ03-1A4-D005
 T 45450 45800 5 10 1 1 90 6 1
 refdes=RELAY2
 }
@@ -194,28 +190,24 @@ device=none
 }
 C 46000 46400 1 180 0 io.sym
 {
-T 45800 45800 5 10 0 0 180 0 1
-device=none
 T 45100 46300 5 10 0 1 180 1 1
-value=IO
+device=IO
 T 45400 46350 5 10 1 1 180 0 1
-net=load_2a
+net=load_2a:1
 }
 C 46100 44800 1 180 0 io.sym
 {
-T 45900 44200 5 10 0 0 180 0 1
-device=none
 T 45200 44700 5 10 0 1 180 1 1
-value=IO
-T 44900 44650 5 10 1 1 0 0 1
-net=load_2b
+device=IO
+T 44800 44650 5 10 1 1 0 0 1
+net=load_2b:1
 }
 C 45300 43800 1 180 1 input.sym
 {
 T 45000 43550 5 10 0 0 180 6 1
 device=INPUT
 T 45500 43600 5 10 1 1 0 6 1
-netname=switch_2
+net=switch_2:1
 }
 N 46100 44700 46100 44900 4
 N 46000 46300 46000 46100 4
@@ -223,58 +215,50 @@ C 51900 46500 1 0 0 input.sym
 {
 T 51900 46800 5 10 0 0 0 0 1
 device=INPUT
-T 51425 46550 5 10 1 1 0 0 1
-refdes=switch_2
+T 51325 46550 5 10 1 1 0 0 1
+net=switch_2:1
 }
 C 51900 46900 1 0 0 input.sym
 {
 T 51900 47200 5 10 0 0 0 0 1
 device=INPUT
-T 51425 46950 5 10 1 1 0 0 1
-refdes=switch_1
+T 51325 46950 5 10 1 1 0 0 1
+net=switch_1:1
 }
 C 51900 47300 1 0 0 input.sym
 {
 T 51900 47600 5 10 0 0 0 0 1
 device=INPUT
-T 51800 47350 5 10 1 1 0 0 1
-refdes=fault
+T 51700 47350 5 10 1 1 0 0 1
+net=fault:1
 }
 C 54000 43500 1 0 1 io.sym
 {
-T 53800 44100 5 10 0 0 0 6 1
-device=none
 T 53100 43600 5 10 0 1 0 7 1
-value=IO
-T 52750 43675 5 10 1 1 180 6 1
-net=load_2b
+device=IO
+T 52700 43675 5 10 1 1 180 6 1
+net=load_2b:1
 }
 C 54000 43900 1 0 1 io.sym
 {
-T 53800 44500 5 10 0 0 0 6 1
-device=none
 T 53100 44000 5 10 0 1 0 7 1
-value=IO
-T 53400 43950 5 10 1 1 0 6 1
-net=load_2a
+device=IO
+T 53500 43950 5 10 1 1 0 6 1
+net=load_2a:1
 }
 C 51500 43500 1 0 1 io.sym
 {
-T 51300 44100 5 10 0 0 0 6 1
-device=none
 T 50600 43600 5 10 0 1 0 7 1
-value=IO
-T 50250 43675 5 10 1 1 180 6 1
-net=load_1b
+device=IO
+T 50200 43675 5 10 1 1 180 6 1
+net=load_1b:1
 }
 C 51500 43900 1 0 1 io.sym
 {
-T 51300 44500 5 10 0 0 0 6 1
-device=none
 T 50600 44000 5 10 0 1 0 7 1
-value=IO
-T 50900 43950 5 10 1 1 0 6 1
-net=load_1a
+device=IO
+T 51000 43950 5 10 1 1 0 6 1
+net=load_1a:1
 }
 C 52700 49700 1 90 1 3.3V_motor.sym
 {
@@ -285,22 +269,22 @@ C 52700 49100 1 180 0 output.sym
 {
 T 52600 48800 5 10 0 0 180 0 1
 device=OUTPUT
-T 51700 48950 5 10 1 1 0 0 1
-refdes=estop
+T 51600 48950 5 10 1 1 0 0 1
+net=estop:1
 }
 C 51900 48100 1 0 0 input.sym
 {
 T 51900 48400 5 10 0 0 0 0 1
 device=INPUT
-T 51300 48150 5 10 1 1 0 0 1
-refdes=spin_pwm
+T 51200 48150 5 10 1 1 0 0 1
+net=spin_pwm:1
 }
 C 51900 48500 1 0 0 input.sym
 {
 T 51900 48800 5 10 0 0 0 0 1
 device=INPUT
-T 51500 48550 5 10 1 1 0 0 1
-refdes=spin_dir
+T 51400 48550 5 10 1 1 0 0 1
+net=spin_dir:1
 }
 C 52400 49700 1 270 1 gnd.sym
 C 54000 44600 1 90 1 Vs.sym
@@ -319,8 +303,8 @@ C 51900 47700 1 0 0 input.sym
 {
 T 51900 48000 5 10 0 0 0 0 1
 device=INPUT
-T 51150 47750 5 10 1 1 0 0 1
-refdes=spin_enable
+T 51050 47750 5 10 1 1 0 0 1
+net=spin_enable:1
 }
 C 52700 45800 1 0 0 connector10-2.sym
 {
@@ -336,7 +320,7 @@ C 51900 46100 1 0 0 input.sym
 T 51900 46400 5 10 0 0 0 0 1
 device=INPUT
 T 52150 46250 5 10 1 1 180 0 1
-refdes=ready
+net=ready:1
 }
 C 51500 42800 1 0 0 connector4-2.sym
 {

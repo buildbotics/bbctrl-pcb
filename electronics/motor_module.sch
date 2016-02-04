@@ -43,253 +43,253 @@ C 52500 45200 1 0 0 input.sym
 {
 T 52500 45500 5 10 0 0 0 0 1
 device=OUTPUT
-T 52000 45200 5 10 1 1 0 0 1
-refdes=spi_cs_a
+T 51900 45200 5 10 1 1 0 0 1
+net=spi_cs_a:1
 }
 C 52500 45000 1 0 0 input.sym
 {
 T 52500 45300 5 10 0 0 0 0 1
 device=INPUT
-T 52100 45000 5 10 1 1 0 0 1
-refdes=spi_clk
+T 52050 45000 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 52500 44800 1 0 0 input.sym
 {
 T 52500 45100 5 10 0 0 0 0 1
 device=INPUT
-T 52000 44800 5 10 1 1 0 0 1
-refdes=spi_mosi
+T 51900 44800 5 10 1 1 0 0 1
+net=spi_mosi:1
 }
 C 53300 44800 1 180 0 output.sym
 {
 T 53200 44500 5 10 0 0 180 0 1
 device=OUTPUT
-T 52000 44600 5 10 1 1 0 0 1
-refdes=spi_miso
+T 51900 44600 5 10 1 1 0 0 1
+net=spi_miso:1
 }
 C 52500 44000 1 0 0 input.sym
 {
 T 52500 44300 5 10 0 0 0 0 1
 device=OUTPUT
-T 52300 44000 5 10 1 1 0 0 1
-refdes=dir_a
+T 52200 44000 5 10 1 1 0 0 1
+net=dir_a:1
 }
 C 52500 44200 1 0 0 input.sym
 {
 T 52500 44500 5 10 0 0 0 0 1
 device=OUTPUT
-T 52000 44200 5 10 1 1 0 0 1
-refdes=enable_a
+T 51875 44200 5 10 1 1 0 0 1
+net=enable_a:1
 }
 C 52500 43800 1 0 0 input.sym
 {
 T 52500 44100 5 10 0 0 0 0 1
 device=OUTPUT
-T 52200 43800 5 10 1 1 0 0 1
-refdes=step_a
+T 52075 43800 5 10 1 1 0 0 1
+net=step_a:1
 }
 C 53300 43800 1 180 0 output.sym
 {
 T 53200 43500 5 10 0 0 180 0 1
 device=INPUT
-T 52200 43600 5 10 1 1 0 0 1
-refdes=fault_a
+T 52075 43600 5 10 1 1 0 0 1
+net=fault_a:1
 }
 C 42000 48500 1 0 0 input.sym
 {
 T 42000 48800 5 10 0 0 0 0 1
 device=OUTPUT
-T 41500 48500 5 10 1 1 0 0 1
-refdes=spi_cs_x
+T 41400 48500 5 10 1 1 0 0 1
+net=spi_cs_x:1
 }
 C 42000 48300 1 0 0 input.sym
 {
 T 42000 48600 5 10 0 0 0 0 1
 device=INPUT
-T 41600 48300 5 10 1 1 0 0 1
-refdes=spi_clk
+T 41550 48300 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 42000 48100 1 0 0 input.sym
 {
 T 42000 48400 5 10 0 0 0 0 1
 device=INPUT
-T 41500 48100 5 10 1 1 0 0 1
-refdes=spi_mosi
+T 41400 48100 5 10 1 1 0 0 1
+net=spi_mosi:1
 }
 C 42800 48100 1 180 0 output.sym
 {
 T 42700 47800 5 10 0 0 180 0 1
 device=OUTPUT
-T 41500 47900 5 10 1 1 0 0 1
-refdes=spi_miso
+T 41400 47900 5 10 1 1 0 0 1
+net=spi_miso:1
 }
 C 42000 47300 1 0 0 input.sym
 {
 T 42000 47600 5 10 0 0 0 0 1
 device=OUTPUT
-T 41800 47300 5 10 1 1 0 0 1
-refdes=dir_x
+T 41725 47300 5 10 1 1 0 0 1
+net=dir_x:1
 }
 C 42000 47500 1 0 0 input.sym
 {
 T 42000 47800 5 10 0 0 0 0 1
 device=OUTPUT
-T 41500 47500 5 10 1 1 0 0 1
-refdes=enable_x
+T 41400 47500 5 10 1 1 0 0 1
+net=enable_x:1
 }
 C 42000 47100 1 0 0 input.sym
 {
 T 42000 47400 5 10 0 0 0 0 1
 device=OUTPUT
-T 41700 47100 5 10 1 1 0 0 1
-refdes=step_x
+T 41600 47100 5 10 1 1 0 0 1
+net=step_x:1
 }
 C 42800 47100 1 180 0 output.sym
 {
 T 42700 46800 5 10 0 0 180 0 1
 device=INPUT
-T 41700 46900 5 10 1 1 0 0 1
-refdes=fault_x
+T 41600 46900 5 10 1 1 0 0 1
+net=fault_x:1
 }
 C 42000 45200 1 0 0 input.sym
 {
 T 42000 45500 5 10 0 0 0 0 1
 device=OUTPUT
-T 41500 45200 5 10 1 1 0 0 1
-refdes=spi_cs_y
+T 41400 45200 5 10 1 1 0 0 1
+net=spi_cs_y:1
 }
 C 42000 45000 1 0 0 input.sym
 {
 T 42000 45300 5 10 0 0 0 0 1
 device=INPUT
-T 41600 45000 5 10 1 1 0 0 1
-refdes=spi_clk
+T 41550 45000 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 42000 44800 1 0 0 input.sym
 {
 T 42000 45100 5 10 0 0 0 0 1
 device=INPUT
-T 41500 44800 5 10 1 1 0 0 1
-refdes=spi_mosi
+T 41400 44800 5 10 1 1 0 0 1
+net=spi_mosi:1
 }
 C 42800 44800 1 180 0 output.sym
 {
 T 42700 44500 5 10 0 0 180 0 1
 device=OUTPUT
-T 41500 44600 5 10 1 1 0 0 1
-refdes=spi_miso
+T 41400 44600 5 10 1 1 0 0 1
+net=spi_miso:1
 }
 C 42000 44000 1 0 0 input.sym
 {
 T 42000 44300 5 10 0 0 0 0 1
 device=OUTPUT
-T 41800 44000 5 10 1 1 0 0 1
-refdes=dir_y
+T 41725 44000 5 10 1 1 0 0 1
+net=dir_y:1
 }
 C 42000 44200 1 0 0 input.sym
 {
 T 42000 44500 5 10 0 0 0 0 1
 device=OUTPUT
-T 41500 44200 5 10 1 1 0 0 1
-refdes=enable_y
+T 41375 44200 5 10 1 1 0 0 1
+net=enable_y:1
 }
 C 42000 43800 1 0 0 input.sym
 {
 T 42000 44100 5 10 0 0 0 0 1
 device=OUTPUT
-T 41700 43800 5 10 1 1 0 0 1
-refdes=step_y
+T 41600 43800 5 10 1 1 0 0 1
+net=step_y:1
 }
 C 42800 43800 1 180 0 output.sym
 {
 T 42700 43500 5 10 0 0 180 0 1
 device=INPUT
-T 41700 43600 5 10 1 1 0 0 1
-refdes=fault_y
+T 41600 43600 5 10 1 1 0 0 1
+net=fault_y:1
 }
 C 52500 48500 1 0 0 input.sym
 {
 T 52500 48800 5 10 0 0 0 0 1
 device=OUTPUT
-T 52000 48500 5 10 1 1 0 0 1
-refdes=spi_cs_z
+T 51925 48500 5 10 1 1 0 0 1
+net=spi_cs_z:1
 }
 C 52500 48300 1 0 0 input.sym
 {
 T 52500 48600 5 10 0 0 0 0 1
 device=INPUT
-T 52100 48300 5 10 1 1 0 0 1
-refdes=spi_clk
+T 52075 48300 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 52500 48100 1 0 0 input.sym
 {
 T 52500 48400 5 10 0 0 0 0 1
 device=INPUT
-T 52000 48100 5 10 1 1 0 0 1
-refdes=spi_mosi
+T 51900 48100 5 10 1 1 0 0 1
+net=spi_mosi:1
 }
 C 53300 48100 1 180 0 output.sym
 {
 T 53200 47800 5 10 0 0 180 0 1
 device=OUTPUT
-T 52000 47900 5 10 1 1 0 0 1
-refdes=spi_miso
+T 51900 47900 5 10 1 1 0 0 1
+net=spi_miso:1
 }
 C 52500 47300 1 0 0 input.sym
 {
 T 52500 47600 5 10 0 0 0 0 1
 device=OUTPUT
-T 52300 47300 5 10 1 1 0 0 1
-refdes=dir_z
+T 52200 47300 5 10 1 1 0 0 1
+net=dir_z:1
 }
 C 52500 47500 1 0 0 input.sym
 {
 T 52500 47800 5 10 0 0 0 0 1
 device=OUTPUT
-T 52000 47500 5 10 1 1 0 0 1
-refdes=enable_z
+T 51875 47500 5 10 1 1 0 0 1
+net=enable_z:1
 }
 C 52500 47100 1 0 0 input.sym
 {
 T 52500 47400 5 10 0 0 0 0 1
 device=OUTPUT
-T 52200 47100 5 10 1 1 0 0 1
-refdes=step_z
+T 52075 47100 5 10 1 1 0 0 1
+net=step_z:1
 }
 C 53300 47100 1 180 0 output.sym
 {
 T 53200 46800 5 10 0 0 180 0 1
 device=INPUT
-T 52200 46900 5 10 1 1 0 0 1
-refdes=fault_z
+T 52075 46900 5 10 1 1 0 0 1
+net=fault_z:1
 }
 C 42000 47700 1 0 0 input.sym
 {
 T 42000 48000 5 10 0 0 0 0 1
 device=OUTPUT
 T 41400 47700 5 10 1 1 0 0 1
-refdes=mdvr_clk
+net=mdvr_clk:1
 }
 C 52500 47700 1 0 0 input.sym
 {
 T 52500 48000 5 10 0 0 0 0 1
 device=OUTPUT
 T 51900 47700 5 10 1 1 0 0 1
-refdes=mdvr_clk
+net=mdvr_clk:1
 }
 C 42000 44400 1 0 0 input.sym
 {
 T 42000 44700 5 10 0 0 0 0 1
 device=OUTPUT
-T 41400 44400 5 10 1 1 0 0 1
-refdes=mdvr_clk
+T 41375 44400 5 10 1 1 0 0 1
+net=mdvr_clk:1
 }
 C 52500 44400 1 0 0 input.sym
 {
 T 52500 44700 5 10 0 0 0 0 1
 device=OUTPUT
-T 51900 44400 5 10 1 1 0 0 1
-refdes=mdvr_clk
+T 51875 44400 5 10 1 1 0 0 1
+net=mdvr_clk:1
 }
 N 47700 46700 47700 46900 4
 N 47200 45100 47000 45100 4
@@ -300,8 +300,8 @@ C 49800 46200 1 0 0 output.sym
 {
 T 49900 46500 5 10 0 0 0 0 1
 device=OUTPUT
-T 50400 46200 5 10 1 1 0 0 1
-refdes=mdvr_clk
+T 50325 46250 5 10 1 1 0 0 1
+net=mdvr_clk:1
 }
 C 47200 44700 1 0 0 crystal_oscillator.sym
 {
@@ -353,55 +353,55 @@ C 42800 48900 1 180 0 output.sym
 {
 T 42700 48600 5 10 0 0 180 0 1
 device=OUTPUT
-T 41700 48700 5 10 1 1 0 0 1
-refdes=max_x
+T 41575 48700 5 10 1 1 0 0 1
+net=max_x:1
 }
 C 42800 49100 1 180 0 output.sym
 {
 T 42700 48800 5 10 0 0 180 0 1
 device=OUTPUT
-T 41700 48900 5 10 1 1 0 0 1
-refdes=min_x
+T 41625 48900 5 10 1 1 0 0 1
+net=min_x:1
 }
 C 53300 48900 1 180 0 output.sym
 {
 T 53200 48600 5 10 0 0 180 0 1
 device=OUTPUT
-T 52200 48700 5 10 1 1 0 0 1
-refdes=max_z
+T 52100 48700 5 10 1 1 0 0 1
+net=max_z:1
 }
 C 53300 49100 1 180 0 output.sym
 {
 T 53200 48800 5 10 0 0 180 0 1
 device=OUTPUT
-T 52200 48900 5 10 1 1 0 0 1
-refdes=min_z
+T 52150 48900 5 10 1 1 0 0 1
+net=min_z:1
 }
 C 42800 45600 1 180 0 output.sym
 {
 T 42700 45300 5 10 0 0 180 0 1
 device=OUTPUT
-T 41700 45400 5 10 1 1 0 0 1
-refdes=max_y
+T 41600 45400 5 10 1 1 0 0 1
+net=max_y:1
 }
 C 42800 45800 1 180 0 output.sym
 {
 T 42700 45500 5 10 0 0 180 0 1
 device=OUTPUT
-T 41700 45600 5 10 1 1 0 0 1
-refdes=min_y
+T 41650 45600 5 10 1 1 0 0 1
+net=min_y:1
 }
 C 53300 45600 1 180 0 output.sym
 {
 T 53200 45300 5 10 0 0 180 0 1
 device=OUTPUT
-T 52200 45400 5 10 1 1 0 0 1
-refdes=max_a
+T 52100 45400 5 10 1 1 0 0 1
+net=max_a:1
 }
 C 53300 45800 1 180 0 output.sym
 {
 T 53200 45500 5 10 0 0 180 0 1
 device=OUTPUT
-T 52200 45600 5 10 1 1 0 0 1
-refdes=min_a
+T 52125 45600 5 10 1 1 0 0 1
+net=min_a:1
 }

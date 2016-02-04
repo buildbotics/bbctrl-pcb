@@ -17,8 +17,8 @@ C 44000 48400 1 0 0 output.sym
 {
 T 44100 48700 5 10 0 0 0 0 1
 device=INPUT
-T 44600 48400 5 10 1 1 0 0 1
-refdes=rpi_serial_tx
+T 44550 48450 5 10 1 1 0 0 1
+net=rpi_serial_tx:1
 }
 C 42300 44400 1 0 0 nc.sym
 {
@@ -82,15 +82,15 @@ C 44800 48200 1 180 0 input.sym
 {
 T 44800 47900 5 10 0 0 180 0 1
 device=OUTPUT
-T 45600 48200 5 10 1 1 180 0 1
-refdes=rpi_serial_rx
+T 45700 48200 5 10 1 1 180 0 1
+net=rpi_serial_rx:1
 }
 C 44800 43000 1 180 0 input.sym
 {
 T 44800 42700 5 10 0 0 180 0 1
 device=OUTPUT
-T 45700 43000 5 10 1 1 180 0 1
-refdes=rpi_serial_cts
+T 45800 43000 5 10 1 1 180 0 1
+net=rpi_serial_cts:1
 }
 C 42300 46800 1 0 0 nc.sym
 {
@@ -112,7 +112,7 @@ T 50700 43200 5 10 0 0 0 0 1
 footprint=QSOP16
 T 51695 43300 5 8 1 1 0 0 1
 refdes=U4
-T 50700 43200 5 10 1 1 0 0 1
+T 51400 43000 5 10 0 1 0 0 1
 device=MAX14850
 }
 N 50600 45100 50600 44700 4
@@ -153,43 +153,43 @@ C 49900 44400 1 0 0 input.sym
 {
 T 49900 44700 5 10 0 0 0 0 1
 device=INPUT
-T 49150 44400 5 10 1 1 0 0 1
-refdes=rpi_serial_tx
+T 49000 44400 5 10 1 1 0 0 1
+net=rpi_serial_tx:1
 }
 C 53900 44000 1 0 1 input.sym
 {
 T 53900 44300 5 10 0 0 0 6 1
 device=INPUT
-T 54325 44000 5 10 1 1 0 6 1
-refdes=serial_tx
+T 54475 44000 5 10 1 1 0 6 1
+net=serial_tx:1
 }
 C 49900 44200 1 0 0 input.sym
 {
 T 49900 44500 5 10 0 0 0 0 1
 device=INPUT
-T 49050 44200 5 10 1 1 0 0 1
-refdes=rpi_serial_rts
+T 48950 44200 5 10 1 1 0 0 1
+net=rpi_serial_rts:1
 }
 C 53100 44400 1 0 0 output.sym
 {
 T 53200 44700 5 10 0 0 0 0 1
 device=OUTPUT
 T 53650 44400 5 10 1 1 0 0 1
-refdes=serial_rx
+net=serial_rx:1
 }
 C 53100 44200 1 0 0 output.sym
 {
 T 53200 44500 5 10 0 0 0 0 1
 device=OUTPUT
 T 53650 44200 5 10 1 1 0 0 1
-refdes=serial_cts
+net=serial_cts:1
 }
 C 50700 44000 1 0 1 output.sym
 {
 T 50600 44300 5 10 0 0 0 6 1
 device=OUTPUT
 T 50150 44000 5 10 1 1 0 6 1
-refdes=rpi_serial_rx
+net=rpi_serial_rx:1
 }
 C 50400 45100 1 0 0 3.3V-plus-1.sym
 C 50700 43800 1 0 1 output.sym
@@ -197,7 +197,7 @@ C 50700 43800 1 0 1 output.sym
 T 50600 44100 5 10 0 0 0 6 1
 device=OUTPUT
 T 50150 43800 5 10 1 1 0 6 1
-refdes=rpi_serial_cts
+net=rpi_serial_cts:1
 }
 C 52900 45100 1 0 0 3.3V_motor.sym
 {
@@ -211,22 +211,22 @@ C 53900 43800 1 0 1 input.sym
 {
 T 53900 44100 5 10 0 0 0 6 1
 device=INPUT
-T 54400 43800 5 10 1 1 0 6 1
-refdes=serial_rts
+T 54550 43800 5 10 1 1 0 6 1
+net=serial_rts:1
 }
 C 47800 43400 1 0 0 input.sym
 {
 T 47800 43700 5 10 0 0 0 0 1
 device=OUTPUT
-T 47300 43400 5 10 1 1 0 0 1
-refdes=rpi_reset
+T 47200 43450 5 10 1 1 0 0 1
+net=rpi_reset:1
 }
 C 54900 43400 1 0 0 output.sym
 {
 T 55000 43700 5 10 0 0 0 0 1
 device=OUTPUT
 T 55450 43425 5 10 1 1 0 0 1
-refdes=reset
+net=reset:1
 }
 C 42600 46300 1 90 0 3.3V-plus-1.sym
 C 42600 49500 1 90 0 3.3V-plus-1.sym
@@ -234,22 +234,15 @@ C 42600 47600 1 0 1 output.sym
 {
 T 42500 47900 5 10 0 0 0 6 1
 device=INPUT
-T 41000 47600 5 10 1 1 0 0 1
-refdes=rpi_serial_rts
-}
-C 42600 49400 1 180 0 io.sym
-{
-T 42400 48800 5 10 0 0 180 0 1
-device=none
-T 42000 49300 5 10 1 1 180 1 1
-value=rpi_boot
+T 40900 47600 5 10 1 1 0 0 1
+net=rpi_serial_rts:1
 }
 C 42600 48800 1 0 1 output.sym
 {
 T 42500 49100 5 10 0 0 0 6 1
 device=OUTPUT
-T 41300 48800 5 10 1 1 0 0 1
-refdes=rpi_reset
+T 41200 48850 5 10 1 1 0 0 1
+net=rpi_reset:1
 }
 C 44300 43600 1 0 1 nc.sym
 {
@@ -353,29 +346,29 @@ C 51300 48600 1 0 0 input.sym
 {
 T 51300 48900 5 10 0 0 0 0 1
 device=INPUT
-T 50550 48650 5 10 1 1 0 0 1
-refdes=rpi_serial_tx
+T 50450 48650 5 10 1 1 0 0 1
+net=rpi_serial_tx:1
 }
 C 52100 47800 1 0 1 output.sym
 {
 T 52000 48100 5 10 0 0 0 6 1
 device=OUTPUT
-T 51500 47800 5 10 1 1 0 6 1
-refdes=rpi_serial_rx
+T 51600 47800 5 10 1 1 0 6 1
+net=rpi_serial_rx:1
 }
 C 51300 47400 1 0 0 input.sym
 {
 T 51300 47700 5 10 0 0 0 0 1
 device=INPUT
-T 50450 47400 5 10 1 1 0 0 1
-refdes=rpi_serial_rts
+T 50350 47400 5 10 1 1 0 0 1
+net=rpi_serial_rts:1
 }
 C 52100 49400 1 0 1 output.sym
 {
 T 52000 49700 5 10 0 0 0 6 1
 device=OUTPUT
-T 51500 49400 5 10 1 1 0 6 1
-refdes=rpi_serial_cts
+T 51600 49400 5 10 1 1 0 6 1
+net=rpi_serial_cts:1
 }
 N 54900 43500 53100 43500 4
 N 54900 43700 53100 43700 4
@@ -383,15 +376,15 @@ C 47800 43600 1 0 0 input.sym
 {
 T 47800 43900 5 10 0 0 0 0 1
 device=INPUT
-T 47300 43600 5 10 1 1 0 0 1
-refdes=rpi_boot
+T 47250 43650 5 10 1 1 0 0 1
+net=rpi_boot:1
 }
 C 54900 43600 1 0 0 output.sym
 {
 T 55000 43900 5 10 0 0 0 0 1
 device=OUTPUT
 T 55450 43625 5 10 1 1 0 0 1
-refdes=boot
+net=boot:1
 }
 N 48600 43500 50700 43500 4
 N 48600 43700 50700 43700 4
@@ -480,3 +473,10 @@ C 53000 43000 1 0 0 gnd.sym
 C 54200 45000 1 90 0 gnd.sym
 C 42300 45000 1 270 0 iso_gnd.sym
 C 42300 48200 1 270 0 iso_gnd.sym
+C 42600 49200 1 0 1 output.sym
+{
+T 42500 49500 5 10 0 0 0 6 1
+device=OUTPUT
+T 41250 49250 5 10 1 1 0 0 1
+net=rpi_boot:1
+}
