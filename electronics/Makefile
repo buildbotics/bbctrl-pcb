@@ -15,6 +15,9 @@ net:
 bom:
 	gnetlist -g partslist3 -o $(NAME).bom $(NAME).sch
 
+drc:
+	gnetlist -g drc2 -o - $(NAME).sch
+
 attrib:
 	gattrib $(SCHEMATICS)
 
@@ -28,7 +31,8 @@ clean-layout:
 	rm -f $(NAME).pcb $(NAME).new.pcb $(NAME).net $(NAME).cmd $(NAME).bom
 
 tidy:
-	rm -f $(shell find . -name \*~) \#* *- *.bak *.log *.backup
+	rm -f $(shell find . -name \*~ -o -name \#* -o -name \*-) \
+	  *.bak *.log *.backup
 
 clean: tidy
 	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net

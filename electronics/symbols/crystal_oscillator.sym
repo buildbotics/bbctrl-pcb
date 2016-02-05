@@ -2,7 +2,7 @@ v 20130925 2
 P 500 2000 500 1800 1 0 0
 {
 T 500 2000 5 10 0 0 0 0 1
-pintype=power
+pintype=pwr
 T 500 1745 5 10 1 1 90 6 1
 pinlabel=Vin
 T 450 1895 5 10 1 1 90 0 1
@@ -13,7 +13,7 @@ pinseq=4
 P 2200 0 2200 200 1 0 0
 {
 T 2200 0 5 10 0 0 0 0 1
-pintype=ground
+pintype=pwr
 T 2200 255 5 10 1 1 90 0 1
 pinlabel=GND
 T 2150 105 5 10 1 1 90 6 1
@@ -24,7 +24,7 @@ pinseq=2
 P 0 400 200 400 1 0 0
 {
 T 0 400 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 255 395 5 10 1 1 0 0 1
 pinlabel=EOH
 T 105 445 5 10 1 1 0 6 1
@@ -35,7 +35,7 @@ pinseq=1
 P 2600 1600 2400 1600 1 0 0
 {
 T 2600 1600 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 2345 1495 5 10 1 1 0 6 1
 pinlabel=OUTPUT
 T 2495 1645 5 10 1 1 0 0 1

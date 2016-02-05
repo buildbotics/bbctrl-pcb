@@ -48,7 +48,7 @@ documentation=http://www.mouser.com/ds/2/405/ua78m33-555740.pdf
 P 1100 0 1100 300 1 0 0
 {
 T 1100 0 5 10 0 0 0 0 1
-pintype=power
+pintype=pwr
 T 945 500 5 10 1 1 180 0 1
 pinlabel=G
 T 1050 205 5 10 1 1 90 6 1

@@ -254,7 +254,7 @@ pinnumber=9
 P 0 2800 300 2800 1 0 0
 {
 T 0 2800 5 10 0 0 0 0 1
-pintype=out
+pintype=io
 T 355 2795 5 10 1 1 0 0 1
 pinlabel=SDO
 T 205 2845 5 10 1 1 0 6 1

@@ -335,13 +335,6 @@ device=OUTPUT
 T 51600 47800 5 10 1 1 0 6 1
 net=rpi_serial_rx:1
 }
-C 51300 47400 1 0 0 input.sym
-{
-T 51300 47700 5 10 0 0 0 0 1
-device=INPUT
-T 50350 47400 5 10 1 1 0 0 1
-net=rpi_serial_rts:1
-}
 C 52100 49400 1 0 1 output.sym
 {
 T 52000 49700 5 10 0 0 0 6 1
@@ -425,19 +418,6 @@ T 48600 42700 5 10 0 1 0 0 1
 footprint=0603
 }
 N 48700 43300 48700 43500 4
-C 52100 47100 1 0 0 connector6-2.sym
-{
-T 52900 50000 5 10 1 1 0 6 1
-refdes=SERIAL
-T 52400 49950 5 10 0 0 0 0 1
-device=CONNECTOR_6
-T 52400 50150 5 10 0 0 0 0 1
-footprint=JUMPER6
-T 52100 47100 5 10 0 0 0 0 1
-documentation=Label each pin on PCB.
-T 52100 47100 5 10 0 0 0 0 1
-description=Unpopulated test point
-}
 C 48500 44300 1 0 0 3.3V-plus-1.sym
 C 48900 42900 1 180 0 3.3V-plus-1.sym
 C 52100 48100 1 90 0 3.3V-plus-1.sym
@@ -479,4 +459,17 @@ T 53400 44600 5 10 0 0 0 6 1
 value=NoConnection
 T 53400 45000 5 10 0 0 0 6 1
 device=DRC_Directive
+}
+C 52100 47500 1 0 0 connector5-2.sym
+{
+T 52900 50000 5 10 1 1 0 6 1
+refdes=SERIAL
+T 52400 50350 5 10 0 0 0 0 1
+device=CONNECTOR_5
+T 52400 50550 5 10 0 0 0 0 1
+footprint=JUMPER5
+T 52100 47500 5 10 0 0 0 0 1
+documentation=Label each pin on PCB.
+T 52100 47500 5 10 0 0 0 0 1
+description=Unpopulated test point
 }

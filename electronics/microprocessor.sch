@@ -227,42 +227,42 @@ C 49100 42600 1 180 0 input.sym
 T 49100 42300 5 10 0 0 180 0 1
 device=INPUT
 T 48850 42450 5 10 1 1 0 0 1
-net=a_max:1
+net=max_a:1
 }
 C 49100 42900 1 180 0 input.sym
 {
 T 49100 42600 5 10 0 0 180 0 1
 device=INPUT
 T 48850 42750 5 10 1 1 0 0 1
-net=a_min:1
+net=min_a:1
 }
 C 49100 45200 1 180 0 input.sym
 {
 T 49100 44900 5 10 0 0 180 0 1
 device=INPUT
 T 48850 45050 5 10 1 1 0 0 1
-net=z_max:1
+net=max_z:1
 }
 C 49100 45500 1 180 0 input.sym
 {
 T 49100 45200 5 10 0 0 180 0 1
 device=INPUT
 T 48850 45350 5 10 1 1 0 0 1
-net=z_min:1
+net=min_z:1
 }
 C 49100 47800 1 180 0 input.sym
 {
 T 49100 47500 5 10 0 0 180 0 1
 device=INPUT
 T 48850 47650 5 10 1 1 0 0 1
-net=y_max:1
+net=max_y:1
 }
 C 49100 48100 1 180 0 input.sym
 {
 T 49100 47800 5 10 0 0 180 0 1
 device=INPUT
 T 48850 47950 5 10 1 1 0 0 1
-net=y_min:1
+net=min_y:1
 }
 C 48300 44700 1 180 1 output.sym
 {
@@ -402,14 +402,14 @@ C 43200 47900 1 0 0 input.sym
 T 43200 48200 5 10 0 0 0 0 1
 device=INPUT
 T 42800 47950 5 10 1 1 0 0 1
-net=x_min:1
+net=min_x:1
 }
 C 43200 47600 1 0 0 input.sym
 {
 T 43200 47900 5 10 0 0 0 0 1
 device=INPUT
 T 42750 47650 5 10 1 1 0 0 1
-net=x_max:1
+net=max_x:1
 }
 C 44000 49900 1 180 0 output.sym
 {
@@ -478,7 +478,7 @@ C 44000 47300 1 180 0 output.sym
 {
 T 43900 47000 5 10 0 0 180 0 1
 device=INPUT
-T 42450 47150 5 10 1 1 0 0 1
+T 42400 47150 5 10 1 1 0 0 1
 net=spin_pwm:1
 }
 C 48300 43000 1 0 0 output.sym
@@ -488,18 +488,11 @@ device=OUTPUT
 T 49700 43200 5 10 1 1 180 0 1
 net=switch_2:1
 }
-C 44000 46400 1 180 0 output.sym
-{
-T 43900 46100 5 10 0 0 180 0 1
-device=INPUT
-T 42500 46250 5 10 1 1 0 0 1
-net=rs485_di:1
-}
 C 43200 46500 1 0 0 input.sym
 {
 T 43200 46800 5 10 0 0 0 0 1
 device=OUTPUT
-T 42500 46550 5 10 1 1 0 0 1
+T 42525 46550 5 10 1 1 0 0 1
 net=rs485_ro:1
 }
 C 44000 44700 1 180 0 output.sym
@@ -522,20 +515,6 @@ T 43900 46700 5 10 0 0 180 0 1
 device=INPUT
 T 42600 46850 5 10 1 1 0 0 1
 net=spin_dir:1
-}
-C 44000 45200 1 180 0 output.sym
-{
-T 43900 44900 5 10 0 0 180 0 1
-device=INPUT
-T 42300 45050 5 10 1 1 0 0 1
-net=spin_enable:1
-}
-C 44000 46100 1 180 0 output.sym
-{
-T 43900 45800 5 10 0 0 180 0 1
-device=INPUT
-T 42500 45950 5 10 1 1 0 0 1
-net=rs485_de:1
 }
 C 46400 50400 1 0 0 3.3V_motor.sym
 {
@@ -560,13 +539,6 @@ T 49100 48100 5 10 0 0 180 0 1
 device=OUTPUT
 T 48850 48250 5 10 1 1 0 0 1
 net=estop:1
-}
-C 43200 45300 1 0 0 input.sym
-{
-T 43200 45600 5 10 0 0 0 0 1
-device=INPUT
-T 42500 45350 5 10 1 1 0 0 1
-net=serial_rts:1
 }
 C 53900 46300 1 0 0 connector4-2.sym
 {
@@ -607,10 +579,38 @@ C 46000 41200 1 0 0 gnd.sym
 C 42500 40400 1 90 0 gnd.sym
 C 40700 50100 1 0 0 gnd.sym
 C 53600 46800 1 270 0 gnd.sym
-C 43200 45600 1 0 0 input.sym
+C 44000 46100 1 180 0 output.sym
 {
-T 43200 45900 5 10 0 0 0 0 1
+T 43900 45800 5 10 0 0 180 0 1
+device=INPUT
+T 42525 45950 5 10 1 1 0 0 1
+net=rs485_re:1
+}
+C 44000 45800 1 180 0 output.sym
+{
+T 43900 45500 5 10 0 0 180 0 1
+device=INPUT
+T 42475 45650 5 10 1 1 0 0 1
+net=rs485_de:1
+}
+C 44000 46400 1 180 0 output.sym
+{
+T 43900 46100 5 10 0 0 180 0 1
+device=INPUT
+T 42550 46250 5 10 1 1 0 0 1
+net=rs485_di:1
+}
+C 44000 45500 1 180 0 output.sym
+{
+T 43900 45200 5 10 0 0 180 0 1
+device=INPUT
+T 42275 45350 5 10 1 1 0 0 1
+net=spin_enable:1
+}
+C 43200 45000 1 0 0 input.sym
+{
+T 43200 45300 5 10 0 0 0 0 1
 device=OUTPUT
-T 42900 45650 5 10 1 1 0 0 1
+T 42900 45050 5 10 1 1 0 0 1
 net=boot:1
 }

@@ -1,5 +1,2 @@
- (component-library "./symbols") 
- (source-library ".")
-
- 
- 
+(component-library "./symbols")
+(source-library ".")
