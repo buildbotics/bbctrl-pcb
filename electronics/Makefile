@@ -35,4 +35,4 @@ tidy:
 	  *.bak *.log *.backup
 
 clean: tidy
-	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net
+	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net $(NAME).bom
