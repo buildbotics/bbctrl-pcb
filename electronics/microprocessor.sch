@@ -436,8 +436,8 @@ C 43200 44200 1 0 0 input.sym
 {
 T 43200 44500 5 10 0 0 0 0 1
 device=INPUT
-T 42500 44250 5 10 1 1 0 0 1
-net=serial_rts:1
+T 42800 44250 5 10 1 1 0 0 1
+net=probe:1
 }
 C 44000 49000 1 180 0 output.sym
 {

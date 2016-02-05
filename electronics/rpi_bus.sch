@@ -163,26 +163,12 @@ device=INPUT
 T 54475 44000 5 10 1 1 0 6 1
 net=serial_tx:1
 }
-C 49900 44200 1 0 0 input.sym
-{
-T 49900 44500 5 10 0 0 0 0 1
-device=INPUT
-T 48950 44200 5 10 1 1 0 0 1
-net=rpi_serial_rts:1
-}
 C 53100 44400 1 0 0 output.sym
 {
 T 53200 44700 5 10 0 0 0 0 1
 device=OUTPUT
 T 53650 44400 5 10 1 1 0 0 1
 net=serial_rx:1
-}
-C 53100 44200 1 0 0 output.sym
-{
-T 53200 44500 5 10 0 0 0 0 1
-device=OUTPUT
-T 53650 44200 5 10 1 1 0 0 1
-net=serial_cts:1
 }
 C 50700 44000 1 0 1 output.sym
 {
@@ -212,7 +198,7 @@ C 53900 43800 1 0 1 input.sym
 T 53900 44100 5 10 0 0 0 6 1
 device=INPUT
 T 54550 43800 5 10 1 1 0 6 1
-net=serial_rts:1
+net=serial_cts:1
 }
 C 47800 43400 1 0 0 input.sym
 {
@@ -230,13 +216,6 @@ net=reset:1
 }
 C 42600 46300 1 90 0 3.3V-plus-1.sym
 C 42600 49500 1 90 0 3.3V-plus-1.sym
-C 42600 47600 1 0 1 output.sym
-{
-T 42500 47900 5 10 0 0 0 6 1
-device=INPUT
-T 40900 47600 5 10 1 1 0 0 1
-net=rpi_serial_rts:1
-}
 C 42600 48800 1 0 1 output.sym
 {
 T 42500 49100 5 10 0 0 0 6 1
@@ -479,4 +458,25 @@ T 42500 49500 5 10 0 0 0 6 1
 device=OUTPUT
 T 41250 49250 5 10 1 1 0 0 1
 net=rpi_boot:1
+}
+C 42300 47600 1 0 0 nc.sym
+{
+T 42300 48000 5 10 0 0 0 0 1
+value=NoConnection
+T 42300 48400 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 50400 44200 1 0 0 nc.sym
+{
+T 50400 44600 5 10 0 0 0 0 1
+value=NoConnection
+T 50400 45000 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 53400 44200 1 0 1 nc.sym
+{
+T 53400 44600 5 10 0 0 0 6 1
+value=NoConnection
+T 53400 45000 5 10 0 0 0 6 1
+device=DRC_Directive
 }

@@ -315,13 +315,6 @@ device=CONNECTOR_10
 T 52700 45800 5 10 0 0 0 0 1
 description=Screw terminal block
 }
-C 51900 46100 1 0 0 input.sym
-{
-T 51900 46400 5 10 0 0 0 0 1
-device=INPUT
-T 52150 46250 5 10 1 1 180 0 1
-net=ready:1
-}
 C 51500 42800 1 0 0 connector4-2.sym
 {
 T 52300 44900 5 10 1 1 0 6 1
@@ -401,4 +394,11 @@ C 43200 45600 1 270 1 5V_motor.sym
 {
 T 43900 45700 5 10 0 0 270 6 1
 device=none
+}
+C 52700 46300 1 180 0 output.sym
+{
+T 52600 46000 5 10 0 0 180 0 1
+device=OUTPUT
+T 51550 46150 5 10 1 1 0 0 1
+net=probe:1
 }
