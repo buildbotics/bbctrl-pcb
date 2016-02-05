@@ -1,7 +1,9 @@
 NAME = buildbotics_controller
 SCHEMATICS = $(wildcard *.sch)
+SYMBOLS = $(wildcard symbols/*.sym)
+FOOTPRINTS = $(wildcard footprints/*.fp)
 
-all:
+all: drc
 
 schematics:
 	gschem -q -- $(NAME).sch&
@@ -9,10 +11,10 @@ schematics:
 pcb:
 	pcb $(NAME).pcb&
 
-net:
+net: $(SCHEMATICS)
 	gnetlist -g geda -o $(NAME).net $(NAME).sch
 
-bom:
+bom: $(SCHEMATICS)
 	gnetlist -g partslist3 -o $(NAME).bom $(NAME).sch
 
 drc:
@@ -21,7 +23,7 @@ drc:
 attrib:
 	gattrib $(SCHEMATICS)
 
-layout: 
+layout: $(SCHEMATICS) $(FOOTPRINTS) $(SYMBOLS)
 	gsch2pcb --elements-dir footprints/ $(NAME).sch -o $(NAME)
 
 zip:

@@ -3,28 +3,28 @@ C 40000 40000 0 0 0 title-B.sym
 C 42800 46600 1 0 0 motor_driver.sym
 {
 T 43795 49200 5 10 1 1 0 0 1
-refdes=MDX
+refdes=X
 T 43295 46700 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 42800 43300 1 0 0 motor_driver.sym
 {
 T 43795 45900 5 10 1 1 0 0 1
-refdes=MDY
+refdes=Y
 T 43295 43400 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 53300 46600 1 0 0 motor_driver.sym
 {
 T 54395 49200 5 10 1 1 0 0 1
-refdes=MDZ
+refdes=Z
 T 53795 46700 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 53300 43300 1 0 0 motor_driver.sym
 {
 T 54395 45900 5 10 1 1 0 0 1
-refdes=MDA
+refdes=A
 T 53795 43400 5 10 1 1 0 0 1
 source=motor_driver.sch
 }

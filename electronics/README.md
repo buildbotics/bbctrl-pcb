@@ -38,8 +38,8 @@ The resulting lines should look like this:
 
 This allows power and ground rails to be routed between schematics without
 mangling the names.  Note, that as a consequence of this setting you cannot
-use ``net`` or ``netname`` attributes in any schematic modules that are used
-more than once with out having them all connected together.
+use ``net`` attributes in any schematic modules that are used more than once
+with out having them all connected together.
 
 Set the library path in PCB to point to the local footprints folder.  Use
 ``File->Preferences->Library`` in PCB to do this.
