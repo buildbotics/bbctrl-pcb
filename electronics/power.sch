@@ -476,9 +476,7 @@ refdes=J1
 T 41700 43150 5 10 0 0 180 0 1
 device=CONNECTOR_4
 T 42000 45200 5 10 0 0 0 0 1
-model=39-30-0040
+model=1-350944-0
 T 42000 45200 5 10 0 0 0 0 1
-footprint=Molex_39-03-0040
-T 42000 45200 5 10 0 0 0 0 1
-description=Molex connector
+description=TE Connectivity 1-350944-0
 }
