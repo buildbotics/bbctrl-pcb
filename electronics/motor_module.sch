@@ -2,28 +2,28 @@ v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
 C 42800 46600 1 0 0 motor_driver.sym
 {
-T 43795 49200 5 10 1 1 0 0 1
+T 43795 48500 5 10 1 1 0 0 1
 refdes=X
 T 43295 46700 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 42800 43300 1 0 0 motor_driver.sym
 {
-T 43795 45900 5 10 1 1 0 0 1
+T 43795 45200 5 10 1 1 0 0 1
 refdes=Y
 T 43295 43400 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 53300 46600 1 0 0 motor_driver.sym
 {
-T 54395 49200 5 10 1 1 0 0 1
+T 54395 48500 5 10 1 1 0 0 1
 refdes=Z
 T 53795 46700 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
 C 53300 43300 1 0 0 motor_driver.sym
 {
-T 54395 45900 5 10 1 1 0 0 1
+T 54395 45200 5 10 1 1 0 0 1
 refdes=A
 T 53795 43400 5 10 1 1 0 0 1
 source=motor_driver.sch
@@ -38,7 +38,7 @@ T 53800 40400 9 10 1 0 0 0 1
 T 50000 40100 9 10 1 0 0 0 1
 3
 T 51500 40100 9 10 1 0 0 0 1
-7
+8
 C 52500 45200 1 0 0 input.sym
 {
 T 52500 45500 5 10 0 0 0 0 1
@@ -315,6 +315,8 @@ T 48395 46595 5 10 1 1 0 0 1
 refdes=OSC1
 T 48195 45295 5 10 1 1 0 0 1
 value=16MHz
+T 47200 44700 5 10 0 1 0 0 1
+device=CRYSTAL
 }
 N 46400 46500 46400 46900 4
 C 47400 46900 1 0 0 3.3V_motor.sym
@@ -349,59 +351,3 @@ T 47100 45400 5 10 0 0 0 0 1
 footprint=0603
 }
 C 49300 44400 1 0 0 gnd.sym
-C 42800 48900 1 180 0 output.sym
-{
-T 42700 48600 5 10 0 0 180 0 1
-device=OUTPUT
-T 41575 48700 5 10 1 1 0 0 1
-net=max_x:1
-}
-C 42800 49100 1 180 0 output.sym
-{
-T 42700 48800 5 10 0 0 180 0 1
-device=OUTPUT
-T 41625 48900 5 10 1 1 0 0 1
-net=min_x:1
-}
-C 53300 48900 1 180 0 output.sym
-{
-T 53200 48600 5 10 0 0 180 0 1
-device=OUTPUT
-T 52100 48700 5 10 1 1 0 0 1
-net=max_z:1
-}
-C 53300 49100 1 180 0 output.sym
-{
-T 53200 48800 5 10 0 0 180 0 1
-device=OUTPUT
-T 52150 48900 5 10 1 1 0 0 1
-net=min_z:1
-}
-C 42800 45600 1 180 0 output.sym
-{
-T 42700 45300 5 10 0 0 180 0 1
-device=OUTPUT
-T 41600 45400 5 10 1 1 0 0 1
-net=max_y:1
-}
-C 42800 45800 1 180 0 output.sym
-{
-T 42700 45500 5 10 0 0 180 0 1
-device=OUTPUT
-T 41650 45600 5 10 1 1 0 0 1
-net=min_y:1
-}
-C 53300 45600 1 180 0 output.sym
-{
-T 53200 45300 5 10 0 0 180 0 1
-device=OUTPUT
-T 52100 45400 5 10 1 1 0 0 1
-net=max_a:1
-}
-C 53300 45800 1 180 0 output.sym
-{
-T 53200 45500 5 10 0 0 180 0 1
-device=OUTPUT
-T 52125 45600 5 10 1 1 0 0 1
-net=min_a:1
-}

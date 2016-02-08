@@ -33,7 +33,7 @@ clean-layout:
 	rm -f $(NAME).pcb $(NAME).new.pcb $(NAME).net $(NAME).cmd $(NAME).bom
 
 tidy:
-	rm -f $(shell find . -name \*~ -o -name \#* -o -name \*-) \
+	rm -f $(shell find . -name \*~ -o -name \#\* -o -name \*-) \
 	  *.bak *.log *.backup
 
 clean: tidy
