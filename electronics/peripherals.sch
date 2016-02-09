@@ -98,6 +98,8 @@ T 51100 50200 5 10 1 1 0 0 1
 refdes=LED1
 T 50600 49400 5 10 0 0 0 0 1
 documentation=To be mounted facing out the front.
+T 50600 49400 5 10 0 0 0 0 1
+footprint=Kingbright_WP59BL.fp
 }
 C 53300 49600 1 180 0 input.sym
 {
