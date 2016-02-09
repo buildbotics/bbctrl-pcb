@@ -467,6 +467,8 @@ T 41900 45200 5 10 0 0 0 0 1
 model=643230-1
 T 41900 45200 5 10 0 0 0 0 1
 description=TE Connectivity 643230-1
+T 41900 45200 5 10 0 0 0 0 1
+footprint=TEC643230_1.fp
 }
 C 45500 42400 1 0 0 switch-spst-1.sym
 {
