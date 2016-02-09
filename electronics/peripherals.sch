@@ -99,11 +99,6 @@ refdes=LED1
 T 50600 49400 5 10 0 0 0 0 1
 documentation=To be mounted facing out the front.
 }
-C 50600 49400 1 90 0 3.3V_motor.sym
-{
-T 49900 49500 5 10 0 0 90 0 1
-device=none
-}
 C 53300 49600 1 180 0 input.sym
 {
 T 53300 49300 5 10 0 0 180 0 1
@@ -362,3 +357,4 @@ C 51500 47300 1 270 1 gnd.sym
 N 50900 44800 51800 44800 4
 N 50900 47200 51800 47200 4
 C 51500 42300 1 270 1 gnd.sym
+C 50300 49800 1 270 0 gnd.sym
