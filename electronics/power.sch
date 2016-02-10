@@ -464,9 +464,11 @@ refdes=J1
 T 41700 43150 5 10 0 0 180 0 1
 device=CONNECTOR_4
 T 42000 45200 5 10 0 0 0 0 1
-model=1-350944-0
+model=643230-1
 T 42000 45200 5 10 0 0 0 0 1
-description=TE Connectivity 1-350944-0
+description=TE Connectivity 643230-1
+T 41900 45200 5 10 0 0 0 0 1
+footprint=TEC643230_1.fp
 }
 C 45500 42400 1 0 0 switch-spst-1.sym
 {
