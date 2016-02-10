@@ -42,6 +42,8 @@ T 42600 41900 5 10 0 0 0 0 1
 footprint=raspberry_pi_connector
 T 42600 41900 5 10 0 0 0 0 1
 description=Connector Header 40 Position 0.100" (2.54mm) Gold Through Hole
+T 43100 50000 5 10 1 1 0 0 1
+refdes=RPI
 }
 C 44300 44800 1 0 1 nc.sym
 {
