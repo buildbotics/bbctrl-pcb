@@ -43,7 +43,7 @@ refdes=C19
 T 50900 49050 5 10 1 1 90 0 1
 value=100nF
 T 50800 48700 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 50800 48700 5 10 0 0 0 0 1
 description=50v
 }
@@ -56,9 +56,11 @@ refdes=C22
 T 55300 48150 5 10 1 1 180 0 1
 value=100nF
 T 54600 48600 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 T 54600 48600 5 10 0 0 90 0 1
-description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
+T 54600 48600 5 10 0 0 0 0 1
+model=C0805C104M5RACTU
 }
 C 49100 48900 1 0 0 cap.sym
 {
@@ -67,7 +69,7 @@ device=CAPACITOR
 T 49700 48850 5 10 1 1 180 0 1
 value=100nF
 T 49100 48900 5 10 0 0 180 0 1
-footprint=0603
+footprint=0805
 T 49100 48900 5 10 0 0 180 0 1
 description=50v
 T 49300 49150 5 10 1 1 0 0 1
@@ -82,7 +84,7 @@ refdes=R11
 T 51450 43725 5 10 1 1 180 0 1
 value=22
 T 51750 43900 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 51750 43900 5 10 0 0 0 0 1
 description=Yageo RC0402JR-0722RL 22 Ohm 0402 SMD resistor
 }
@@ -96,7 +98,7 @@ refdes=C23
 T 51850 43450 5 10 1 1 90 0 1
 value=10nF
 T 51700 43100 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 }
 N 49500 42400 49500 44200 4
 N 48600 44200 48600 44000 4
@@ -152,7 +154,7 @@ refdes=C18
 T 50400 49000 5 10 1 1 90 0 1
 value=470nF
 T 50300 48600 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 T 50300 48600 5 10 0 0 90 0 1
 description=10
 }
@@ -172,7 +174,7 @@ refdes=R13
 T 52850 43575 5 10 1 1 0 0 1
 value=22
 T 52550 43700 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 }
 C 52600 43700 1 270 0 cap.sym
 {
@@ -183,13 +185,13 @@ refdes=C24
 T 52600 43450 5 10 1 1 90 0 1
 value=10nF
 T 52600 43700 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 }
 C 53300 43100 1 90 0 resistor.sym
 {
 T 52900 43400 5 10 0 0 90 0 1
 device=RESISTOR
-T 53400 43200 5 10 1 1 90 0 1
+T 53400 43100 5 10 1 1 90 0 1
 refdes=R14
 T 53400 43525 5 10 1 1 90 0 1
 value=.075
@@ -269,7 +271,7 @@ refdes=R9
 T 45250 48125 5 10 1 1 0 0 1
 value=10k
 T 45100 48700 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 }
 N 45200 48100 45200 47900 4
 C 45100 47100 1 270 0 resistor.sym
@@ -277,7 +279,7 @@ C 45100 47100 1 270 0 resistor.sym
 T 45500 46800 5 10 0 0 270 0 1
 device=RESISTOR
 T 45100 47100 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 T 45650 46850 5 10 1 1 180 0 1
 refdes=R10
 T 45250 46525 5 10 1 1 0 0 1
@@ -334,7 +336,7 @@ value=470nF
 T 54250 48100 5 10 0 1 180 0 1
 description=50v
 T 53700 48600 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 }
 N 53800 47800 53800 48100 4
 N 53800 48500 53800 48700 4

@@ -37,7 +37,7 @@ refdes=C33
 T 47250 40700 5 10 1 1 180 0 1
 value=22pF
 T 47400 40500 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 }
 C 48100 40500 1 90 0 cap.sym
 {
@@ -48,7 +48,7 @@ refdes=C34
 T 48600 40700 5 10 1 1 180 0 1
 value=22pF
 T 48100 40500 5 10 0 0 270 0 1
-footprint=0603
+footprint=0805
 }
 N 48000 41000 48000 41800 4
 N 48000 41800 47800 41800 4
@@ -120,11 +120,11 @@ symversion=0.1
 T 41300 50150 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 50300 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 41300 50300 5 10 0 0 0 0 1
-model=C0603C104M5RACTU
+model=C0805C104M5RACTU
 T 41300 50300 5 10 0 0 0 0 1
-description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 }
 N 48000 41200 47850 41200 4
 N 47300 41200 47450 41200 4
@@ -144,11 +144,11 @@ symversion=0.1
 T 41300 49550 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 49700 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 41300 49700 5 10 0 0 0 0 1
-model=C0603C104M5RACTU
+model=C0805C104M5RACTU
 T 41300 49700 5 10 0 0 0 0 1
-description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 }
 C 41300 49100 1 0 0 cap.sym
 {
@@ -161,11 +161,11 @@ symversion=0.1
 T 41300 48950 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 49100 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 41300 49100 5 10 0 0 0 0 1
-model=C0603C104M5RACTU
+model=C0805C104M5RACTU
 T 41300 49100 5 10 0 0 0 0 1
-description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 }
 C 41300 48400 1 0 0 cap.sym
 {
@@ -178,11 +178,11 @@ symversion=0.1
 T 41300 48250 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 48400 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 41300 48400 5 10 0 0 0 0 1
-model=C0603C104M5RACTU
+model=C0805C104M5RACTU
 T 41300 48400 5 10 0 0 0 0 1
-description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 }
 C 41300 47700 1 0 0 cap.sym
 {
@@ -195,11 +195,11 @@ symversion=0.1
 T 41300 47550 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 47700 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 41300 47700 5 10 0 0 0 0 1
-model=C0603C104M5RACTU
+model=C0805C104M5RACTU
 T 41300 47700 5 10 0 0 0 0 1
-description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 }
 N 41800 47200 41800 50400 4
 N 41400 47200 41400 50400 4
@@ -214,11 +214,11 @@ symversion=0.1
 T 41300 46950 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 47100 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 41300 47100 5 10 0 0 0 0 1
-model=C0603C104M5RACTU
+model=C0805C104M5RACTU
 T 41300 47100 5 10 0 0 0 0 1
-description=Kemet C0603C104M5RACTU 0603 .1uF ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 }
 C 49100 42600 1 180 0 input.sym
 {

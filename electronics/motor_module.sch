@@ -334,7 +334,7 @@ refdes=C16
 T 46200 46400 5 10 1 1 90 0 1
 value=10nF
 T 46500 46000 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 T 46500 46000 5 10 0 0 0 0 1
 description=16v
 }
@@ -348,6 +348,6 @@ refdes=R8
 T 46925 45900 5 10 1 1 90 0 1
 value=20kΩ
 T 47100 45400 5 10 0 0 0 0 1
-footprint=0603
+footprint=0805
 }
 C 49300 44400 1 0 0 gnd.sym

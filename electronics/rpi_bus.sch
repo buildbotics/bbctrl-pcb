@@ -125,31 +125,31 @@ C 54000 45200 1 180 0 cap.sym
 {
 T 53800 44500 5 10 0 0 180 0 1
 device=CAPACITOR
-T 53800 44300 5 10 0 0 180 0 1
-symversion=0.1
 T 54000 45200 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 T 54000 45200 5 10 0 0 90 0 1
-description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 T 53850 45400 5 10 1 1 180 0 1
 refdes=C26
 T 53550 44850 5 10 1 1 0 0 1
 value=0.1uF
+T 54000 45200 5 10 0 0 0 0 1
+model=C0805C104M5RACTU
 }
 C 50500 45200 1 180 0 cap.sym
 {
 T 50300 44500 5 10 0 0 180 0 1
 device=CAPACITOR
-T 50300 44300 5 10 0 0 180 0 1
-symversion=0.1
 T 50500 45200 5 10 0 0 90 0 1
-footprint=0603
+footprint=0805
 T 50500 45200 5 10 0 0 90 0 1
-description=Kemet C0603C104M5RACTU 0603 ceramic 50 volt cap
+description=Kemet ceramic 50 volt cap
 T 50000 45200 5 10 1 1 0 0 1
 refdes=C25
 T 50500 45000 5 10 1 1 180 0 1
 value=0.1uF
+T 50500 45200 5 10 0 0 0 0 1
+model=C0805C104M5RACTU
 }
 C 49700 45200 1 270 0 gnd-1.sym
 N 50400 45100 50600 45100 4
@@ -373,7 +373,7 @@ refdes=R17
 T 55200 44125 5 10 1 1 180 0 1
 value=10k
 T 54900 43700 5 10 0 1 0 0 1
-footprint=0603
+footprint=0805
 }
 C 54900 42700 1 90 0 resistor.sym
 {
@@ -384,7 +384,7 @@ refdes=R18
 T 55200 43125 5 10 1 1 180 0 1
 value=10k
 T 54900 42700 5 10 0 1 0 0 1
-footprint=0603
+footprint=0805
 }
 C 54500 44300 1 0 0 3.3V_motor.sym
 {
@@ -407,7 +407,7 @@ refdes=R15
 T 48300 44125 5 10 1 1 180 6 1
 value=10k
 T 48600 43700 5 10 0 1 0 0 1
-footprint=0603
+footprint=0805
 }
 N 48700 43900 48700 43700 4
 C 48600 42700 1 270 1 resistor.sym
@@ -419,7 +419,7 @@ refdes=R16
 T 48300 43125 5 10 1 1 180 6 1
 value=10k
 T 48600 42700 5 10 0 1 0 0 1
-footprint=0603
+footprint=0805
 }
 N 48700 43300 48700 43500 4
 C 48500 44300 1 0 0 3.3V-plus-1.sym
