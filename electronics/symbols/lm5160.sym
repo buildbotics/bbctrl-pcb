@@ -151,9 +151,9 @@ pintype=pas
 P 1600 300 1600 0 1 0 1
 {
 T 1550 205 5 10 0 1 90 6 1
-pinnumber=15
+pinnumber=13
 T 1650 0 5 10 0 0 270 0 1
-pinseq=15
+pinseq=13
 T 1650 350 5 10 1 1 90 0 1
 netname=PAD
 T 1600 300 5 10 0 0 0 0 1
