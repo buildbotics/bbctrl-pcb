@@ -591,3 +591,5 @@ footprint=1210
 T 44600 43900 5 10 0 0 0 0 1
 model=HMK325B7225KN-T
 }
+C 55800 47100 1 0 0 5V-plus-1.sym
+C 42900 43000 1 0 0 gnd.sym
