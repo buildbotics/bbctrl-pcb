@@ -151,7 +151,6 @@ value=0.1uF
 T 50500 45200 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 }
-C 49700 45200 1 270 0 gnd-1.sym
 N 50400 45100 50600 45100 4
 C 49900 44400 1 0 0 input.sym
 {
@@ -477,3 +476,5 @@ documentation=Label each pin on PCB.
 T 52100 47500 5 10 0 0 0 0 1
 description=Unpopulated test point
 }
+C 49600 44800 1 0 0 iso_gnd.sym
+N 49700 45100 50000 45100 4
