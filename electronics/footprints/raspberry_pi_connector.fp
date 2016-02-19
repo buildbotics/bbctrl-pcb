@@ -54,10 +54,10 @@ Element(0x00 "Raspberry PI with 40-pin GPIO, facing down" "" "" 0 0 -400 0 0 100
 	ElementLine[-13900 -7300 -13900 7300 1000]
 	ElementLine[-13900 7300 -10000 7300 1000]
 	
-	Pin[0 -29mm 6.2mm 1mm 7.2mm 2.75mm "MH" "" "hole"]
-	Pin[0 29mm 6.2mm 1mm 7.2mm 2.75mm "MH" "" "hole"]
-	Pin[-49mm -29mm 6.2mm 1mm 7.2mm 2.75mm "MH" "" "hole"]
-	Pin[-49mm 29mm 6.2mm 1mm 7.2mm 2.75mm "MH" "" "hole"]
+	Pin[0 -29mm 6.2mm 1mm 6.4mm 2.75mm "MH" "" ""]
+	Pin[0 29mm 6.2mm 1mm 6.4mm 2.75mm "MH" "" ""]
+	Pin[-49mm -29mm 6.2mm 1mm 6.4mm 2.75mm "MH" "" ""]
+	Pin[-49mm 29mm 6.2mm 1mm 6.4mm 2.75mm "MH" "" ""]
 	
 	ElementLine[0 -32.5mm -49mm -32.5mm .25mm]
 	ElementArc[-49mm -29mm 3.5mm 3.5mm 0 -90 .25mm]
