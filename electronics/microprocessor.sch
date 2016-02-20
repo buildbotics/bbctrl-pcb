@@ -67,9 +67,11 @@ footprint=HEADER6_2
 T 41000 40400 5 10 0 0 0 0 1
 description=Harwin M20-9950345, 2-row, 6-pin, right angle, .1" pitch, male connector
 T 41000 40400 5 10 0 1 0 0 1
-device=HEADER_6 M20-9950345
+device=HEADER_6 M20-9980346
 T 41000 40400 5 10 0 0 0 0 1
-model=M20-9950345
+model=M20-9980346
+T 41000 40400 5 10 0 0 0 0 1
+value=6-Pin Header
 }
 N 44600 41500 44600 41800 4
 N 44600 41500 43900 41500 4
