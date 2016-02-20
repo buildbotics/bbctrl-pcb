@@ -350,7 +350,7 @@ device=RESISTOR
 T 54725 47200 5 10 1 1 90 0 1
 refdes=R5
 T 54725 47800 5 10 1 1 90 0 1
-value=2kΩ
+value=2k
 T 54900 47300 5 10 0 0 0 0 1
 footprint=0805
 T 54900 47300 5 10 0 0 0 0 1

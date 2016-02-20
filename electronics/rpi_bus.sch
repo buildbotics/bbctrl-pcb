@@ -37,17 +37,19 @@ device=DRC_Directive
 C 42600 41900 1 0 0 header40-2.sym
 {
 T 42850 50400 5 10 0 1 0 0 1
-device=SFH11-PBPC-D20-ST-BK
+device=SBH11-PBPC-D20-ST-BK 
 T 42600 41900 5 10 0 0 0 0 1
 footprint=raspberry_pi_connector
 T 42600 41900 5 10 0 0 0 0 1
-description=Connector Header 40 Position 0.100" (2.54mm) Gold Through Hole
+description=CONN HEADER 2.54MM 40POS GOLD
 T 43100 50000 5 10 1 1 0 0 1
 refdes=RPI
 T 42600 41900 5 10 0 0 0 0 1
-model=SFH11-PBPC-D20-ST-BK
+model=SBH11-PBPC-D20-ST-BK
 T 42600 41900 5 10 0 0 0 0 1
 value=40-pin Connector
+T 42600 41900 5 10 0 0 0 0 1
+documentation=Mates with SFH210-PPPC-D20-ID-BK for connection to 40 conductor flat cable
 }
 C 44300 44800 1 0 1 nc.sym
 {
@@ -115,13 +117,13 @@ device=DRC_Directive
 C 50700 43200 1 0 0 MAX18450.sym
 {
 T 50700 43200 5 10 0 0 0 0 1
-footprint=QSOP16
+footprint=QSOP16_EXT
 T 51695 43300 5 8 1 1 0 0 1
 refdes=U4
 T 51400 43000 5 10 0 1 0 0 1
 device=MAX14850
 T 50700 43200 5 10 0 1 0 0 1
-model=MAX14850
+model=MAX14850AAE+
 T 50700 43200 5 10 0 0 0 0 1
 value=6-Channel Digital Isolator
 }
