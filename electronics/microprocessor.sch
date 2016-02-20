@@ -556,6 +556,10 @@ T 53900 46300 5 10 0 0 0 0 1
 description=Unpopulated test point
 T 53900 46300 5 10 0 0 0 0 1
 documentation=Label each pin on PCB.
+T 53900 46300 5 10 0 0 0 0 1
+value=N/A
+T 53900 46300 5 10 0 0 0 0 1
+model=N/A
 }
 C 53100 47800 1 0 0 input.sym
 {

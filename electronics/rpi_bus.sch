@@ -44,6 +44,10 @@ T 42600 41900 5 10 0 0 0 0 1
 description=Connector Header 40 Position 0.100" (2.54mm) Gold Through Hole
 T 43100 50000 5 10 1 1 0 0 1
 refdes=RPI
+T 42600 41900 5 10 0 0 0 0 1
+model=SFH11-PBPC-D20-ST-BK
+T 42600 41900 5 10 0 0 0 0 1
+value=40-pin Connector
 }
 C 44300 44800 1 0 1 nc.sym
 {
@@ -118,6 +122,8 @@ T 51400 43000 5 10 0 1 0 0 1
 device=MAX14850
 T 50700 43200 5 10 0 1 0 0 1
 model=MAX14850
+T 50700 43200 5 10 0 0 0 0 1
+value=6-Channel Digital Isolator
 }
 N 50600 45100 50600 44700 4
 N 50600 44700 50700 44700 4
@@ -373,6 +379,8 @@ T 55200 44125 5 10 1 1 180 0 1
 value=10k
 T 54900 43700 5 10 0 1 0 0 1
 footprint=0805
+T 54900 43700 5 10 0 0 0 0 1
+model=RMCF0805JT10K0
 }
 C 54900 42700 1 90 0 resistor.sym
 {
@@ -384,6 +392,8 @@ T 55200 43125 5 10 1 1 180 0 1
 value=10k
 T 54900 42700 5 10 0 1 0 0 1
 footprint=0805
+T 54900 42700 5 10 0 0 0 0 1
+model=RMCF0805JT10K0
 }
 C 54500 44300 1 0 0 3.3V_motor.sym
 {
@@ -407,6 +417,8 @@ T 48300 44125 5 10 1 1 180 6 1
 value=10k
 T 48600 43700 5 10 0 1 0 0 1
 footprint=0805
+T 48600 43700 5 10 0 0 0 0 1
+model=RMCF0805JT10K0
 }
 N 48700 43900 48700 43700 4
 C 48600 42700 1 270 1 resistor.sym
@@ -419,6 +431,8 @@ T 48300 43125 5 10 1 1 180 6 1
 value=10k
 T 48600 42700 5 10 0 1 0 0 1
 footprint=0805
+T 48600 42700 5 10 0 0 0 0 1
+model=RMCF0805JT10K0
 }
 N 48700 43300 48700 43500 4
 C 48500 44300 1 0 0 3.3V-plus-1.sym
@@ -475,6 +489,10 @@ T 52100 47500 5 10 0 0 0 0 1
 documentation=Label each pin on PCB.
 T 52100 47500 5 10 0 0 0 0 1
 description=Unpopulated test point
+T 52100 47500 5 10 0 0 0 0 1
+value=N/A
+T 52100 47500 5 10 0 0 0 0 1
+model=N/A
 }
 C 49600 44800 1 0 0 iso_gnd.sym
 N 49700 45100 50000 45100 4
