@@ -1,7 +1,7 @@
 v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
-C 44000 49900 1 270 0 5V-plus.sym
-C 44000 49500 1 270 0 5V-plus.sym
+C 43000 49900 1 270 0 5V-plus.sym
+C 43000 49500 1 270 0 5V-plus.sym
 T 50000 40700 9 10 1 0 0 0 2
 RPI Bus
 Copyright (c) 2016, Buildbotics LLC
@@ -13,106 +13,78 @@ T 50000 40100 9 10 1 0 0 0 1
 2
 T 51500 40100 9 10 1 0 0 0 1
 8
-C 44000 48400 1 0 0 output.sym
+C 43000 48400 1 0 0 output.sym
 {
-T 44100 48700 5 10 0 0 0 0 1
+T 43100 48700 5 10 0 0 0 0 1
 device=INPUT
-T 44550 48450 5 10 1 1 0 0 1
+T 43550 48450 5 10 1 1 0 0 1
 net=rpi_serial_tx:1
 }
-C 42300 44400 1 0 0 nc.sym
+C 41300 44400 1 0 0 nc.sym
 {
-T 42300 44800 5 10 0 0 0 0 1
+T 41300 44800 5 10 0 0 0 0 1
 value=NoConnection
-T 42300 45200 5 10 0 0 0 0 1
+T 41300 45200 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 44300 44400 1 0 1 nc.sym
+C 43300 44400 1 0 1 nc.sym
 {
-T 44300 44800 5 10 0 0 0 6 1
+T 43300 44800 5 10 0 0 0 6 1
 value=NoConnection
-T 44300 45200 5 10 0 0 0 6 1
+T 43300 45200 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 42600 41900 1 0 0 header40-2.sym
+C 41600 41900 1 0 0 header40-2.sym
 {
-T 42850 50400 5 10 0 1 0 0 1
+T 41850 50400 5 10 0 1 0 0 1
 device=SBH11-PBPC-D20-ST-BK 
-T 42600 41900 5 10 0 0 0 0 1
+T 41600 41900 5 10 0 0 0 0 1
 footprint=raspberry_pi_connector
-T 42600 41900 5 10 0 0 0 0 1
+T 41600 41900 5 10 0 0 0 0 1
 description=CONN HEADER 2.54MM 40POS GOLD
-T 43100 50000 5 10 1 1 0 0 1
+T 42100 50000 5 10 1 1 0 0 1
 refdes=RPI
-T 42600 41900 5 10 0 0 0 0 1
+T 41600 41900 5 10 0 0 0 0 1
 model=SBH11-PBPC-D20-ST-BK
-T 42600 41900 5 10 0 0 0 0 1
+T 41600 41900 5 10 0 0 0 0 1
 value=40-pin Connector
-T 42600 41900 5 10 0 0 0 0 1
+T 41600 41900 5 10 0 0 0 0 1
 documentation=Mates with SFH210-PPPC-D20-ID-BK for connection to 40 conductor flat cable
 }
-C 44300 44800 1 0 1 nc.sym
+C 43300 45600 1 0 1 nc.sym
 {
-T 44300 45200 5 10 0 0 0 6 1
+T 43300 46000 5 10 0 0 0 6 1
 value=NoConnection
-T 44300 45600 5 10 0 0 0 6 1
+T 43300 46400 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 44300 45200 1 0 1 nc.sym
+C 43300 46000 1 0 1 nc.sym
 {
-T 44300 45600 5 10 0 0 0 6 1
+T 43300 46400 5 10 0 0 0 6 1
 value=NoConnection
-T 44300 46000 5 10 0 0 0 6 1
+T 43300 46800 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 44300 45600 1 0 1 nc.sym
+C 43300 46400 1 0 1 nc.sym
 {
-T 44300 46000 5 10 0 0 0 6 1
+T 43300 46800 5 10 0 0 0 6 1
 value=NoConnection
-T 44300 46400 5 10 0 0 0 6 1
+T 43300 47200 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 44300 46000 1 0 1 nc.sym
+C 43800 48200 1 180 0 input.sym
 {
-T 44300 46400 5 10 0 0 0 6 1
-value=NoConnection
-T 44300 46800 5 10 0 0 0 6 1
-device=DRC_Directive
-}
-C 44300 46400 1 0 1 nc.sym
-{
-T 44300 46800 5 10 0 0 0 6 1
-value=NoConnection
-T 44300 47200 5 10 0 0 0 6 1
-device=DRC_Directive
-}
-C 44800 48200 1 180 0 input.sym
-{
-T 44800 47900 5 10 0 0 180 0 1
+T 43800 47900 5 10 0 0 180 0 1
 device=OUTPUT
-T 45700 48200 5 10 1 1 180 0 1
+T 44700 48200 5 10 1 1 180 0 1
 net=rpi_serial_rx:1
 }
-C 44800 43000 1 180 0 input.sym
+C 43800 43000 1 180 0 input.sym
 {
-T 44800 42700 5 10 0 0 180 0 1
+T 43800 42700 5 10 0 0 180 0 1
 device=OUTPUT
-T 45800 43000 5 10 1 1 180 0 1
+T 44800 43000 5 10 1 1 180 0 1
 net=rpi_serial_cts:1
-}
-C 42300 46800 1 0 0 nc.sym
-{
-T 42300 47200 5 10 0 0 0 0 1
-value=NoConnection
-T 42300 47600 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 42300 47200 1 0 0 nc.sym
-{
-T 42300 47600 5 10 0 0 0 0 1
-value=NoConnection
-T 42300 48000 5 10 0 0 0 0 1
-device=DRC_Directive
 }
 C 50700 43200 1 0 0 MAX18450.sym
 {
@@ -225,132 +197,97 @@ device=OUTPUT
 T 55450 43425 5 10 1 1 0 0 1
 net=reset:1
 }
-C 42600 46300 1 90 0 3.3V-plus-1.sym
-C 42600 49500 1 90 0 3.3V-plus-1.sym
-C 42600 48800 1 0 1 output.sym
+C 41600 46300 1 90 0 3.3V-plus-1.sym
+C 41600 49500 1 90 0 3.3V-plus-1.sym
+C 41600 47200 1 0 1 output.sym
 {
-T 42500 49100 5 10 0 0 0 6 1
+T 41500 47500 5 10 0 0 0 6 1
 device=OUTPUT
-T 41200 48850 5 10 1 1 0 0 1
+T 40200 47250 5 10 1 1 0 0 1
 net=rpi_reset:1
 }
-C 44300 43600 1 0 1 nc.sym
+C 43300 43600 1 0 1 nc.sym
 {
-T 44300 44000 5 10 0 0 0 6 1
+T 43300 44000 5 10 0 0 0 6 1
 value=NoConnection
-T 44300 44400 5 10 0 0 0 6 1
+T 43300 44400 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 44300 42400 1 0 1 nc.sym
+C 43300 42400 1 0 1 nc.sym
 {
-T 44300 42800 5 10 0 0 0 6 1
+T 43300 42800 5 10 0 0 0 6 1
 value=NoConnection
-T 44300 43200 5 10 0 0 0 6 1
+T 43300 43200 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 44300 42000 1 0 1 nc.sym
+C 43300 42000 1 0 1 nc.sym
 {
-T 44300 42400 5 10 0 0 0 6 1
+T 43300 42400 5 10 0 0 0 6 1
 value=NoConnection
-T 44300 42800 5 10 0 0 0 6 1
+T 43300 42800 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 42300 44000 1 0 0 nc.sym
+C 41300 44000 1 0 0 nc.sym
 {
-T 42300 44400 5 10 0 0 0 0 1
+T 41300 44400 5 10 0 0 0 0 1
 value=NoConnection
-T 42300 44800 5 10 0 0 0 0 1
+T 41300 44800 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 42300 43600 1 0 0 nc.sym
+C 41300 43600 1 0 0 nc.sym
 {
-T 42300 44000 5 10 0 0 0 0 1
+T 41300 44000 5 10 0 0 0 0 1
 value=NoConnection
-T 42300 44400 5 10 0 0 0 0 1
+T 41300 44400 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 42300 43200 1 0 0 nc.sym
+C 41300 43200 1 0 0 nc.sym
 {
-T 42300 43600 5 10 0 0 0 0 1
+T 41300 43600 5 10 0 0 0 0 1
 value=NoConnection
-T 42300 44000 5 10 0 0 0 0 1
+T 41300 44000 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 42300 42800 1 0 0 nc.sym
+C 41300 42800 1 0 0 nc.sym
 {
-T 42300 43200 5 10 0 0 0 0 1
+T 41300 43200 5 10 0 0 0 0 1
 value=NoConnection
-T 42300 43600 5 10 0 0 0 0 1
+T 41300 43600 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 42300 42400 1 0 0 nc.sym
+C 41300 42400 1 0 0 nc.sym
 {
-T 42300 42800 5 10 0 0 0 0 1
+T 41300 42800 5 10 0 0 0 0 1
 value=NoConnection
-T 42300 43200 5 10 0 0 0 0 1
+T 41300 43200 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 44300 46800 1 0 1 nc.sym
+C 41300 48400 1 0 0 nc.sym
 {
-T 44300 47200 5 10 0 0 0 6 1
+T 41300 48800 5 10 0 0 0 0 1
 value=NoConnection
-T 44300 47600 5 10 0 0 0 6 1
+T 41300 49200 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 44300 47600 1 0 1 nc.sym
+C 55300 48600 1 0 0 input.sym
 {
-T 44300 48000 5 10 0 0 0 6 1
-value=NoConnection
-T 44300 48400 5 10 0 0 0 6 1
-device=DRC_Directive
-}
-C 42300 48400 1 0 0 nc.sym
-{
-T 42300 48800 5 10 0 0 0 0 1
-value=NoConnection
-T 42300 49200 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 42300 46000 1 0 0 nc.sym
-{
-T 42300 46400 5 10 0 0 0 0 1
-value=NoConnection
-T 42300 46800 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 42300 45600 1 0 0 nc.sym
-{
-T 42300 46000 5 10 0 0 0 0 1
-value=NoConnection
-T 42300 46400 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 42300 45200 1 0 0 nc.sym
-{
-T 42300 45600 5 10 0 0 0 0 1
-value=NoConnection
-T 42300 46000 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 51300 48600 1 0 0 input.sym
-{
-T 51300 48900 5 10 0 0 0 0 1
+T 55300 48900 5 10 0 0 0 0 1
 device=INPUT
-T 50450 48650 5 10 1 1 0 0 1
+T 54450 48650 5 10 1 1 0 0 1
 net=rpi_serial_tx:1
 }
-C 52100 47800 1 0 1 output.sym
+C 56100 47800 1 0 1 output.sym
 {
-T 52000 48100 5 10 0 0 0 6 1
+T 56000 48100 5 10 0 0 0 6 1
 device=OUTPUT
-T 51600 47800 5 10 1 1 0 6 1
+T 55600 47800 5 10 1 1 0 6 1
 net=rpi_serial_rx:1
 }
-C 52100 49400 1 0 1 output.sym
+C 56100 49400 1 0 1 output.sym
 {
-T 52000 49700 5 10 0 0 0 6 1
+T 56000 49700 5 10 0 0 0 6 1
 device=OUTPUT
-T 51600 49400 5 10 1 1 0 6 1
+T 55600 49400 5 10 1 1 0 6 1
 net=rpi_serial_cts:1
 }
 N 54900 43500 53100 43500 4
@@ -439,31 +376,24 @@ model=RMCF0805JT10K0
 N 48700 43300 48700 43500 4
 C 48500 44300 1 0 0 3.3V-plus-1.sym
 C 48900 42900 1 180 0 3.3V-plus-1.sym
-C 52100 48100 1 90 0 3.3V-plus-1.sym
-C 44300 47200 1 90 0 iso_gnd.sym
-C 44300 48800 1 90 0 iso_gnd.sym
-C 44300 44000 1 90 0 iso_gnd.sym
-C 44300 43200 1 90 0 iso_gnd.sym
-C 42300 42200 1 270 0 iso_gnd.sym
-C 51800 49200 1 270 0 iso_gnd.sym
+C 56100 48100 1 90 0 3.3V-plus-1.sym
+C 43300 47200 1 90 0 iso_gnd.sym
+C 43300 48800 1 90 0 iso_gnd.sym
+C 43300 44000 1 90 0 iso_gnd.sym
+C 43300 43200 1 90 0 iso_gnd.sym
+C 41300 42200 1 270 0 iso_gnd.sym
+C 55800 49200 1 270 0 iso_gnd.sym
 C 50600 43000 1 0 0 iso_gnd.sym
 C 53000 43000 1 0 0 gnd.sym
 C 54200 45000 1 90 0 gnd.sym
-C 42300 45000 1 270 0 iso_gnd.sym
-C 42300 48200 1 270 0 iso_gnd.sym
-C 42600 49200 1 0 1 output.sym
+C 41300 45000 1 270 0 iso_gnd.sym
+C 41300 48200 1 270 0 iso_gnd.sym
+C 41600 47600 1 0 1 output.sym
 {
-T 42500 49500 5 10 0 0 0 6 1
+T 41500 47900 5 10 0 0 0 6 1
 device=OUTPUT
-T 41250 49250 5 10 1 1 0 0 1
+T 40250 47650 5 10 1 1 0 0 1
 net=rpi_boot:1
-}
-C 42300 47600 1 0 0 nc.sym
-{
-T 42300 48000 5 10 0 0 0 0 1
-value=NoConnection
-T 42300 48400 5 10 0 0 0 0 1
-device=DRC_Directive
 }
 C 50400 44200 1 0 0 nc.sym
 {
@@ -479,22 +409,227 @@ value=NoConnection
 T 53400 45000 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 52100 47500 1 0 0 connector5-2.sym
+C 56100 47500 1 0 0 connector5-2.sym
 {
-T 52900 50000 5 10 1 1 0 6 1
+T 56900 50000 5 10 1 1 0 6 1
 refdes=SERIAL
-T 52400 50350 5 10 0 0 0 0 1
+T 56400 50350 5 10 0 0 0 0 1
 device=CONNECTOR_5
-T 52400 50550 5 10 0 0 0 0 1
+T 56400 50550 5 10 0 0 0 0 1
 footprint=JUMPER5
-T 52100 47500 5 10 0 0 0 0 1
+T 56100 47500 5 10 0 0 0 0 1
 documentation=Label each pin on PCB.
-T 52100 47500 5 10 0 0 0 0 1
+T 56100 47500 5 10 0 0 0 0 1
 description=Unpopulated test point
-T 52100 47500 5 10 0 0 0 0 1
+T 56100 47500 5 10 0 0 0 0 1
 value=N/A
-T 52100 47500 5 10 0 0 0 0 1
+T 56100 47500 5 10 0 0 0 0 1
 model=N/A
 }
 C 49600 44800 1 0 0 iso_gnd.sym
 N 49700 45100 50000 45100 4
+C 53200 47100 1 0 0 connector6-2.sym
+{
+T 53900 50000 5 10 1 1 0 6 1
+refdes=SPI0
+T 53500 49950 5 10 0 0 0 0 1
+device=CONNECTOR_6
+T 53500 50150 5 10 0 0 0 0 1
+footprint=JUMPER6
+}
+C 52900 49600 1 270 0 iso_gnd.sym
+C 53200 48900 1 90 0 3.3V-plus-1.sym
+C 52400 48600 1 0 0 input.sym
+{
+T 52400 48900 5 10 0 0 0 0 1
+device=OUTPUT
+T 51800 48600 5 10 1 1 0 0 1
+net=rpi_mosi:1
+}
+C 53200 48400 1 180 0 output.sym
+{
+T 53100 48100 5 10 0 0 180 0 1
+device=INPUT
+T 52650 48350 5 10 1 1 180 0 1
+net=rpi_miso:1
+}
+C 52400 47800 1 0 0 input.sym
+{
+T 52400 48100 5 10 0 0 0 0 1
+device=OUTPUT
+T 51900 47800 5 10 1 1 0 0 1
+net=rpi_sck:1
+}
+C 52400 47400 1 0 0 input.sym
+{
+T 52400 47700 5 10 0 0 0 0 1
+device=OUTPUT
+T 51900 47400 5 10 1 1 0 0 1
+net=rpi_cs0:1
+}
+C 43000 44800 1 0 0 output.sym
+{
+T 43100 45100 5 10 0 0 0 0 1
+device=INPUT
+T 43550 44850 5 10 1 1 0 0 1
+net=rpi_cs1:1
+}
+C 43000 45200 1 0 0 output.sym
+{
+T 43100 45500 5 10 0 0 0 0 1
+device=INPUT
+T 43550 45250 5 10 1 1 0 0 1
+net=rpi_cs0:1
+}
+C 41600 45400 1 180 0 output.sym
+{
+T 41500 45100 5 10 0 0 180 0 1
+device=INPUT
+T 41050 45350 5 10 1 1 180 0 1
+net=rpi_sck:1
+}
+C 41600 46200 1 180 0 output.sym
+{
+T 41500 45900 5 10 0 0 180 0 1
+device=INPUT
+T 41050 46150 5 10 1 1 180 0 1
+net=rpi_mosi:1
+}
+C 40800 45600 1 0 0 input.sym
+{
+T 40800 45900 5 10 0 0 0 0 1
+device=OUTPUT
+T 40200 45600 5 10 1 1 0 0 1
+net=rpi_miso:1
+}
+C 46200 49000 1 0 0 level_converter.sym
+{
+T 46795 49600 5 10 1 1 0 0 1
+refdes=LV0
+}
+C 47100 49700 1 0 0 5V-plus.sym
+C 46400 49700 1 0 0 3.3V-plus-1.sym
+C 41600 49400 1 180 0 io.sym
+{
+T 41400 48800 5 10 0 0 180 0 1
+device=IO
+T 40300 49200 5 10 1 1 0 0 1
+netname=rpi_sda:1
+}
+C 41600 48800 1 0 1 output.sym
+{
+T 41500 49100 5 10 0 0 0 6 1
+device=OUTPUT
+T 40350 48850 5 10 1 1 0 0 1
+net=rpi_scl:1
+}
+C 46200 49200 1 180 0 io.sym
+{
+T 46000 48600 5 10 0 0 180 0 1
+device=IO
+T 44900 49000 5 10 1 1 0 0 1
+netname=rpi_sda:1
+}
+C 46200 47800 1 0 0 level_converter.sym
+{
+T 46795 48400 5 10 1 1 0 0 1
+refdes=LV1
+}
+C 47100 48500 1 0 0 5V-plus.sym
+C 46400 48500 1 0 0 3.3V-plus-1.sym
+C 45400 47800 1 0 0 input.sym
+{
+T 45400 48100 5 10 0 0 0 0 1
+device=OUTPUT
+T 45000 47800 5 10 1 1 0 0 1
+net=rpi_scl:1
+}
+C 48100 47900 1 0 0 connector4-2.sym
+{
+T 48800 50000 5 10 1 1 0 6 1
+refdes=I2C
+T 48400 49950 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 48400 50150 5 10 0 0 0 0 1
+footprint=JUMPER4
+}
+C 47800 49600 1 270 0 iso_gnd.sym
+C 48100 48900 1 90 0 5V-plus.sym
+N 47700 49100 47700 48700 4
+N 47700 48700 48100 48700 4
+N 48100 48300 47700 48300 4
+N 47700 48300 47700 47900 4
+C 50700 46300 1 0 0 connector8-2.sym
+{
+T 51400 50000 5 10 1 1 0 6 1
+refdes=LCD
+T 51000 49950 5 10 0 0 0 0 1
+device=CONNECTOR_8
+T 51000 50150 5 10 0 0 0 0 1
+footprint=JUMPER8
+}
+C 50400 46800 1 270 0 iso_gnd.sym
+C 50700 47300 1 90 0 3.3V-plus-1.sym
+C 49900 49000 1 0 0 input.sym
+{
+T 49900 49300 5 10 0 0 0 0 1
+device=OUTPUT
+T 49400 49000 5 10 1 1 0 0 1
+net=rpi_cs1:1
+}
+C 49900 48200 1 0 0 input.sym
+{
+T 49900 48500 5 10 0 0 0 0 1
+device=OUTPUT
+T 49300 48200 5 10 1 1 0 0 1
+net=rpi_mosi:1
+}
+C 49900 47800 1 0 0 input.sym
+{
+T 49900 48100 5 10 0 0 0 0 1
+device=OUTPUT
+T 49400 47800 5 10 1 1 0 0 1
+net=rpi_sck:1
+}
+C 49900 49400 1 0 0 input.sym
+{
+T 49900 49700 5 10 0 0 0 0 1
+device=OUTPUT
+T 49400 49400 5 10 1 1 0 0 1
+net=lcd_rst:1
+}
+C 49900 48600 1 0 0 input.sym
+{
+T 49900 48900 5 10 0 0 0 0 1
+device=OUTPUT
+T 49400 48600 5 10 1 1 0 0 1
+net=lcd_d/c:1
+}
+C 49900 47000 1 0 0 input.sym
+{
+T 49900 47300 5 10 0 0 0 0 1
+device=OUTPUT
+T 49400 47000 5 10 1 1 0 0 1
+net=lcd_bl:1
+}
+C 43000 47600 1 0 0 output.sym
+{
+T 43100 47900 5 10 0 0 0 0 1
+device=INPUT
+T 43550 47650 5 10 1 1 0 0 1
+net=lcd_bl:1
+}
+C 43000 46800 1 0 0 output.sym
+{
+T 43100 47100 5 10 0 0 0 0 1
+device=INPUT
+T 43550 46850 5 10 1 1 0 0 1
+net=lcd_rst:1
+}
+C 41600 46800 1 0 1 output.sym
+{
+T 41500 47100 5 10 0 0 0 6 1
+device=OUTPUT
+T 40300 46850 5 10 1 1 0 0 1
+net=lcd_d/c:1
+}
