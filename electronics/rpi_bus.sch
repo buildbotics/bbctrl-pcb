@@ -514,7 +514,7 @@ C 41600 49400 1 180 0 io.sym
 T 41400 48800 5 10 0 0 180 0 1
 device=IO
 T 40300 49200 5 10 1 1 0 0 1
-netname=rpi_sda:1
+net=rpi_sda:1
 }
 C 41600 48800 1 0 1 output.sym
 {
@@ -528,7 +528,7 @@ C 46200 49200 1 180 0 io.sym
 T 46000 48600 5 10 0 0 180 0 1
 device=IO
 T 44900 49000 5 10 1 1 0 0 1
-netname=rpi_sda:1
+net=rpi_sda:1
 }
 C 46200 47800 1 0 0 level_converter.sym
 {
