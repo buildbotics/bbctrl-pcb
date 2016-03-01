@@ -15,5 +15,11 @@ Element["" "LM5160_WSON.fp" "U?" "" 0mm 0mm -2.5mm -4.5mm 0 100 ""]
   Pad[-0.75mm 2.475mm -0.75mm 1.725mm .25mm .1mm .41mm "11" "11" "square"]
   Pad[-1.25mm 2.475mm -1.25mm 1.725mm .25mm .1mm .41mm "12" "12" "square"]
 
-  ElementArc[-1.9mm -2.2mm .1mm .1mm 0 360 .2mm]
+  ElementLine[-1.8mm -2mm -2mm -2mm 0.25mm]
+  ElementLine[-2mm -2mm -2mm 2mm 0.25mm]
+  ElementLine[-2mm 2mm -1.8mm 2mm 0.25mm]
+  ElementLine[1.8mm -2mm 2mm -2mm 0.25mm]
+  ElementLine[2mm -2mm 2mm 2mm 0.25mm]
+  ElementLine[2mm 2mm 1.8mm 2mm 0.25mm]
+  ElementArc[-1.9mm -2.4mm .1mm .1mm 0 360 .2mm]
 )

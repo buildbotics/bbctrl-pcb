@@ -8,5 +8,14 @@ Element(0x00 "TOSHIBA_SOP_ADVANCE_8.fp" "" "" 0 0 0 0 0 100 0x00)
   Pad[0mm -1.395mm 0mm -1.205mm 4.56mm 0.5mm 4.76mm "6" "6" "square"]
   Pad[0mm -1.395mm 0mm -1.205mm 4.56mm 0.5mm 4.76mm "7" "7" "square"]
   Pad[0mm -1.395mm 0mm -1.205mm 4.56mm 0.5mm 4.76mm "8" "8" "square"]
+  
+  ElementLine[-2.4mm -2.5mm -2.6mm -2.5mm 0.25mm]
+  ElementLine[-2.6mm -2.5mm -2.6mm 2.5mm 0.25mm]
+  ElementLine[-2.4mm 2.5mm -2.6mm 2.5mm 0.25mm]
+  ElementLine[2.4mm -2.5mm 2.6mm -2.5mm 0.25mm]
+  ElementLine[2.6mm -2.5mm 2.6mm 2.5mm 0.25mm]
+  ElementLine[2.4mm 2.5mm 2.6mm 2.5mm 0.25mm]
+  ElementArc[-2.6mm 3mm .1mm .1mm 0 360 .25mm]
+  
  
 )
