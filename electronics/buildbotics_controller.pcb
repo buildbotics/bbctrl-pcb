@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 142.3000mm 152.3000mm]
+PCB["" 142.3000mm 154.0000mm]
 
 Grid[39.370079 0.0000 0.0000 0]
 PolyArea[3100.006200]
@@ -5531,8 +5531,8 @@ Layer(1 "top")
 	Line[30.5700mm 126.6800mm 30.5700mm 120.4248mm 10.00mil 20.00mil "clearline"]
 	Line[28.6800mm 122.8800mm 25.9100mm 122.8800mm 10.00mil 20.00mil "clearline"]
 	Line[25.9100mm 122.8800mm 25.3100mm 123.4800mm 10.00mil 20.00mil "clearline"]
-	Line[25.3100mm 123.4800mm 21.8854mm 123.4800mm 10.00mil 20.00mil "clearline"]
-	Line[21.8854mm 123.4800mm 21.8840mm 123.4787mm 10.00mil 20.00mil "clearline"]
+	Line[25.3100mm 123.4800mm 861.63mil 123.4800mm 10.00mil 20.00mil "clearline"]
+	Line[861.63mil 123.4800mm 21.8840mm 123.4787mm 10.00mil 20.00mil "clearline"]
 	Line[28.1540mm 136.9488mm 28.1540mm 134.6460mm 10.00mil 20.00mil "clearline"]
 	Line[7.7602mm 135.2363mm 7.7602mm 135.0598mm 10.00mil 20.00mil "clearline"]
 	Line[7.7602mm 135.0598mm 8.9500mm 133.8700mm 10.00mil 20.00mil "clearline"]
@@ -7428,7 +7428,7 @@ Layer(3 "signal")
 	Line[111.5000mm 60.3000mm 111.5000mm 60.0769mm 80.00mil 20.00mil "clearline"]
 	Line[111.5000mm 60.0769mm 114.0455mm 57.5314mm 80.00mil 20.00mil "clearline"]
 	Line[114.0455mm 57.5314mm 124.0314mm 57.5314mm 80.00mil 20.00mil "clearline"]
-	Line[124.0314mm 57.5314mm 127.0305mm 60.5306mm 80.00mil 20.00mil "clearline"]
+	Line[124.0314mm 57.5314mm 5001.20mil 60.5306mm 80.00mil 20.00mil "clearline"]
 	Line[133.2893mm 71.8893mm 121.8669mm 71.8893mm 80.00mil 20.00mil "clearline"]
 	Line[121.8669mm 71.8893mm 119.2906mm 74.4656mm 80.00mil 20.00mil "clearline"]
 	Line[54.7816mm 55.9801mm 55.0051mm 55.9801mm 10.00mil 20.00mil "clearline"]
@@ -8360,9 +8360,9 @@ Layer(4 "bottom")
 )
 Layer(5 "outline")
 (
-	Polygon("clearpoly,lock")
+	Polygon("clearpoly")
 	(
-		[0.0000 0.0000] [142.3000mm 0.0000] [142.3000mm 152.3000mm] [0.0000 152.3000mm] 
+		[0.0000 0.0000] [142.3000mm 0.0000] [142.3000mm 154.0000mm] [0.0000 154.0000mm] 
 	)
 )
 Layer(6 "silk")
