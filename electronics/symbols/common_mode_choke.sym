@@ -1,6 +1,6 @@
 v 20130925 2
 T 100 800 8 10 1 1 0 0 1
-refdes=T?
+refdes=L?
 A 300 600 100 270 180 3 0 0 0 -1 -1
 A 300 400 98 270 180 3 0 0 0 -1 -1
 A 300 200 98 270 180 3 0 0 0 -1 -1
@@ -27,37 +27,37 @@ pintype=pas
 P 200 100 0 100 1 0 1
 {
 T 100 200 5 10 1 1 0 0 1
-pinnumber=3
+pinnumber=2
 T 200 0 5 10 0 0 0 0 1
-pinseq=3
+pinseq=2
 T 200 200 5 10 0 1 0 0 1
-pinlabel=3
+pinlabel=2
 T 200 200 5 10 0 1 0 0 1
 pintype=pas
 }
 P 900 100 1100 100 1 0 1
 {
 T 900 200 5 10 1 1 0 0 1
-pinnumber=4
+pinnumber=3
 T 900 200 5 10 0 0 0 0 1
-pinseq=4
+pinseq=3
 T 900 -100 5 10 0 1 0 0 1
-pinlabel=4
+pinlabel=3
 T 900 -100 5 10 0 1 0 0 1
 pintype=pas
 }
 P 900 700 1100 700 1 0 1
 {
 T 900 500 5 10 1 1 0 0 1
-pinnumber=2
+pinnumber=4
 T 1000 600 5 10 0 0 0 0 1
-pinseq=2
+pinseq=4
 T 900 800 5 10 0 1 0 0 1
-pinlabel=2
+pinlabel=4
 T 900 800 5 10 0 1 0 0 1
 pintype=pas
 }
-T -200 1600 8 10 0 0 0 0 1
-device=COUPLED_INDUCTOR
+T 0 1200 8 10 0 0 0 0 1
+device=COMMON_MODE_CHOKE
 V 300 600 25 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 V 800 600 25 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
