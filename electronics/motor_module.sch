@@ -334,7 +334,7 @@ refdes=C16
 T 46200 46400 5 10 1 1 90 0 1
 value=10nF
 T 46500 46000 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 46500 46000 5 10 0 0 0 0 1
 description=16v
 T 46500 46000 5 10 0 0 0 0 1
@@ -352,7 +352,7 @@ refdes=R8
 T 46925 45900 5 10 1 1 90 0 1
 value=10k
 T 47100 45400 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 47100 45400 5 10 0 0 0 0 1
 model=RMCF0805JT10K0
 }

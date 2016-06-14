@@ -28,7 +28,7 @@ device=CAPACITOR
 T 44100 50200 5 10 0 0 0 0 1
 symversion=0.1
 T 43900 49300 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 43900 49300 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 T 43900 49300 5 10 0 0 0 0 1
@@ -68,7 +68,7 @@ refdes=R19
 T 45100 48175 5 10 1 1 180 0 1
 value=130
 T 44800 47700 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 44800 47700 5 10 0 0 0 0 1
 model=RMCF0805JT120R
 T 44800 47700 5 10 0 0 0 0 1
@@ -320,7 +320,7 @@ refdes=R?
 T 41050 48075 5 10 1 1 0 0 1
 value=10k
 T 41550 48100 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 }
 N 41350 48000 42800 48000 4
 C 40500 48100 1 270 0 gnd.sym
@@ -334,7 +334,7 @@ refdes=R?
 T 45100 47775 5 10 1 1 180 0 1
 value=750
 T 44800 47300 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 }
 C 44600 47200 1 0 0 gnd.sym
 C 44800 48100 1 90 0 resistor.sym
@@ -346,7 +346,7 @@ refdes=R?
 T 45100 48575 5 10 1 1 180 0 1
 value=750
 T 44800 48100 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 }
 C 44400 48700 1 0 0 3.3V_motor.sym
 {
@@ -362,7 +362,7 @@ refdes=R?
 T 47900 48425 5 10 1 1 0 0 1
 value=10
 T 48300 48400 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 }
 C 48300 48000 1 180 0 resistor.sym
 {
@@ -373,7 +373,7 @@ refdes=R?
 T 47900 48025 5 10 1 1 0 0 1
 value=10
 T 48300 48000 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 }
 N 48200 48300 48100 48300 4
 N 48200 47900 48100 47900 4
@@ -382,7 +382,7 @@ C 45900 47800 1 90 0 cap.sym
 T 45200 48000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 45900 47800 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 45900 47800 5 10 0 0 90 0 1
 model=C0805C104M5RACTU
 T 45900 47800 5 10 0 0 90 0 1
@@ -397,7 +397,7 @@ C 45900 47400 1 90 0 cap.sym
 T 45200 47600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 45900 47400 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 45900 47400 5 10 0 0 90 0 1
 model=C0805C104M5RACTU
 T 45900 47400 5 10 0 0 90 0 1
@@ -412,7 +412,7 @@ C 45900 48200 1 90 0 cap.sym
 T 45200 48400 5 10 0 0 90 0 1
 device=CAPACITOR
 T 45900 48200 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 45900 48200 5 10 0 0 90 0 1
 model=C0805C104M5RACTU
 T 45900 48200 5 10 0 0 90 0 1

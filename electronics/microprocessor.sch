@@ -37,7 +37,7 @@ refdes=C33
 T 47250 40700 5 10 1 1 180 0 1
 value=22pF
 T 47400 40500 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 47400 40500 5 10 0 0 0 0 1
 model=C0805C220J5GACTU
 }
@@ -50,7 +50,7 @@ refdes=C34
 T 48600 40700 5 10 1 1 180 0 1
 value=22pF
 T 48100 40500 5 10 0 0 270 0 1
-footprint=0805
+footprint=0805_ext
 T 48100 40500 5 10 0 0 0 0 1
 model=C0805C220J5GACTU
 }
@@ -128,7 +128,7 @@ symversion=0.1
 T 41300 50150 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 50300 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 41300 50300 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 T 41300 50300 5 10 0 0 0 0 1
@@ -152,7 +152,7 @@ symversion=0.1
 T 41300 49550 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 49700 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 41300 49700 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 T 41300 49700 5 10 0 0 0 0 1
@@ -169,7 +169,7 @@ symversion=0.1
 T 41300 48950 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 49100 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 41300 49100 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 T 41300 49100 5 10 0 0 0 0 1
@@ -186,7 +186,7 @@ symversion=0.1
 T 41300 48250 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 48400 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 41300 48400 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 T 41300 48400 5 10 0 0 0 0 1
@@ -203,7 +203,7 @@ symversion=0.1
 T 41300 47550 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 47700 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 41300 47700 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 T 41300 47700 5 10 0 0 0 0 1
@@ -222,7 +222,7 @@ symversion=0.1
 T 41300 46950 5 10 1 1 0 0 1
 value=0.1uF
 T 41300 47100 5 10 0 0 0 0 1
-footprint=0805
+footprint=0805_ext
 T 41300 47100 5 10 0 0 0 0 1
 model=C0805C104M5RACTU
 T 41300 47100 5 10 0 0 0 0 1

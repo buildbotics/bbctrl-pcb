@@ -106,7 +106,7 @@ C 54000 45200 1 180 0 cap.sym
 T 53800 44500 5 10 0 0 180 0 1
 device=CAPACITOR
 T 54000 45200 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 54000 45200 5 10 0 0 90 0 1
 description=Kemet ceramic 50 volt cap
 T 53850 45400 5 10 1 1 180 0 1
@@ -121,7 +121,7 @@ C 50500 45200 1 180 0 cap.sym
 T 50300 44500 5 10 0 0 180 0 1
 device=CAPACITOR
 T 50500 45200 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 50500 45200 5 10 0 0 90 0 1
 description=Kemet ceramic 50 volt cap
 T 50000 45200 5 10 1 1 0 0 1
@@ -317,7 +317,7 @@ refdes=R17
 T 55200 44125 5 10 1 1 180 0 1
 value=10k
 T 54900 43700 5 10 0 1 0 0 1
-footprint=0805
+footprint=0805_ext
 T 54900 43700 5 10 0 0 0 0 1
 model=RMCF0805JT10K0
 }
@@ -330,7 +330,7 @@ refdes=R18
 T 55200 43125 5 10 1 1 180 0 1
 value=10k
 T 54900 42700 5 10 0 1 0 0 1
-footprint=0805
+footprint=0805_ext
 T 54900 42700 5 10 0 0 0 0 1
 model=RMCF0805JT10K0
 }
@@ -355,7 +355,7 @@ refdes=R15
 T 48300 44125 5 10 1 1 180 6 1
 value=1k
 T 48600 43700 5 10 0 1 0 0 1
-footprint=0805
+footprint=0805_ext
 }
 N 48700 43900 48700 43700 4
 C 48600 42700 1 270 1 resistor.sym
@@ -367,7 +367,7 @@ refdes=R16
 T 48300 43125 5 10 1 1 180 6 1
 value=1k
 T 48600 42700 5 10 0 1 0 0 1
-footprint=0805
+footprint=0805_ext
 }
 N 48700 43300 48700 43500 4
 C 48500 44300 1 0 0 3.3V-plus-1.sym
