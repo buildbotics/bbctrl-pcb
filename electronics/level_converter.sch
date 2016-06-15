@@ -29,7 +29,7 @@ C 49100 46200 1 270 0 resistor.sym
 T 49500 45900 5 10 0 0 270 0 1
 device=RESISTOR
 T 49100 46200 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 49125 45650 5 10 1 1 90 0 1
 refdes=R2
 T 49425 45600 5 10 1 1 90 0 1
@@ -44,7 +44,7 @@ C 47700 46200 1 270 0 resistor.sym
 T 48100 45900 5 10 0 0 270 0 1
 device=RESISTOR
 T 47700 46200 5 10 0 0 90 0 1
-footprint=0805
+footprint=0805_ext
 T 47725 45650 5 10 1 1 90 0 1
 refdes=R1
 T 48025 45600 5 10 1 1 90 0 1
