@@ -1,7 +1,8 @@
 Element["" "NORCOMP_182-025-113R161_DB25M.fp" "J?" "" 0 0 -25mm -5mm 0 100 ""]
 (
-  Pin[-23.52mm 0 3.05mm 1mm 3.05mm 3.05mm "" "" "hole"]
-  Pin[23.52mm  0 3.05mm 1mm 3.05mm 3.05mm "" "" "hole"]
+  Pin[-23.52mm 0 3.5mm 1mm 3.7mm 3.05mm "26" "26" ""]
+  Pin[23.52mm 0 3.5mm 1mm 3.7mm 3.05mm "26" "26" ""]
+
   Pin[-16.62mm -1.42mm 2mm .5mm 2.16mm 1.09mm "1" "1" ""]
   Pin[-13.85mm -1.42mm 2mm .5mm 2.16mm 1.09mm "2" "2" ""]
   Pin[-11.08mm -1.42mm 2mm .5mm 2.16mm 1.09mm "3" "3" ""]
