@@ -37,15 +37,15 @@ device=DRC_Directive
 C 41600 41900 1 0 0 header40-2.sym
 {
 T 41850 50400 5 10 0 1 0 0 1
-device=SBH11-PBPC-D20-ST-BK 
+device=68602-440HLF
 T 41600 41900 5 10 0 0 0 0 1
 footprint=raspberry_pi_connector
 T 41600 41900 5 10 0 0 0 0 1
-description=CONN HEADER 2.54MM 40POS GOLD
+description=Amphenol FCI unshrouded CONN HEADER 2.54MM 40POS GOLD
 T 42100 50000 5 10 1 1 0 0 1
 refdes=RPI
 T 41600 41900 5 10 0 0 0 0 1
-model=SBH11-PBPC-D20-ST-BK
+model=68602-440HLF
 T 41600 41900 5 10 0 0 0 0 1
 value=40-pin Connector
 T 41600 41900 5 10 0 0 0 0 1
@@ -335,6 +335,10 @@ T 48300 44725 5 10 1 1 180 6 1
 value=1k
 T 48600 44300 5 10 0 1 0 0 1
 footprint=0805_ext
+T 48600 44300 5 10 0 0 0 0 1
+model=RC0805JR-071KL
+T 48600 44300 5 10 0 0 0 0 1
+description=Yageo RES SMD 1K OHM 5% 1/8W 0805
 }
 C 50300 42700 1 270 1 resistor.sym
 {
@@ -346,6 +350,10 @@ T 50000 43125 5 10 1 1 180 6 1
 value=1k
 T 50300 42700 5 10 0 1 0 0 1
 footprint=0805_ext
+T 50300 42700 5 10 0 0 0 0 1
+description=Yageo RES SMD 1K OHM 5% 1/8W 0805
+T 50300 42700 5 10 0 0 0 0 1
+model=RC0805JR-071KL
 }
 C 48500 44900 1 0 0 3.3V-plus-1.sym
 C 50600 42900 1 180 0 3.3V-plus-1.sym
