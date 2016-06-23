@@ -12,22 +12,22 @@ refdes=Z?
 P 100 550 100 450 1 0 0
 {
 T 55 625 5 8 0 1 180 0 1
-pinnumber=2
+pinnumber=1
 T 50 350 5 8 0 0 90 0 1
-pinseq=2
+pinseq=1
 T 100 395 5 8 0 1 90 6 1
-pinlabel=2
+pinlabel=1
 T 50 350 5 8 0 1 90 0 1
 pintype=pas
 }
 P 100 50 100 150 1 0 0
 {
 T -30 125 5 8 0 1 180 6 1
-pinnumber=1
+pinnumber=2
 T 150 250 5 8 0 0 270 0 1
-pinseq=1
+pinseq=2
 T 100 205 5 8 0 0 90 0 1
-pinlabel=1
+pinlabel=2
 T 150 250 5 8 0 1 270 0 1
 pintype=pas
 }
