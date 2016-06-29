@@ -13,7 +13,7 @@ pinseq=2
 P 400 0 400 200 1 0 0
 {
 T 400 -300 5 10 0 0 90 0 1
-pintype=gnd
+pintype=pwr
 T 545 400 5 10 1 1 180 0 1
 pinlabel=Gnd
 T 350 105 5 10 0 1 90 6 1

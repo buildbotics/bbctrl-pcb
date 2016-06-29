@@ -34,5 +34,5 @@ T 51500 40100 9 10 1 0 0 0 1
 C 51500 45000 1 0 0 peripherals.sym
 {
 T 52100 45500 5 10 1 1 0 0 1
-refdes=R
+refdes=H
 }

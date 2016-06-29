@@ -2,7 +2,7 @@ v 20130925 2
 P 100 0 100 200 1 0 0
 {
 T 100 0 5 8 0 0 0 0 1
-pintype=out
+pintype=pas
 T 0 155 5 8 0 1 90 0 1
 pinlabel=TP
 T 50 105 5 8 0 1 90 6 1

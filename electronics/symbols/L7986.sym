@@ -19,7 +19,7 @@ pinseq=7
 T 750 1100 5 10 1 1 0 6 1
 netname=GND
 T 300 1100 5 10 0 0 0 6 1
-pintype=gnd
+pintype=pwr
 }
 P 2700 1100 2400 1100 1 0 0
 {
@@ -91,7 +91,7 @@ pinseq=9
 T 1275 500 5 10 1 1 180 6 1
 netname=Pad
 T 1400 0 5 10 0 0 90 0 1
-pintype=gnd
+pintype=pwr
 }
 P 300 500 0 500 1 0 1
 {
