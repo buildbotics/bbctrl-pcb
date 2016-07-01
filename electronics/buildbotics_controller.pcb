@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("import::src0" "/home/doug/Buildbotics/Controller Hardware Design/machine-controller/electronics/buildbotics_controller.sch")
-Attribute("PCB::grid::unit" "mm")
+Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "0.0100mm")
 Via[75.8400mm 95.3300mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
 Via[91.5300mm 82.8400mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
@@ -798,7 +798,6 @@ Via[94.5200mm 89.6000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[92.2900mm 87.4900mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[73.9000mm 91.8400mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(0,1S)"]
 Via[71.2600mm 89.9200mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[64.0300mm 91.4100mm 60.00mil 66.00mil 66.00mil 35.00mil "" ""]
 Via[91.9900mm 96.1000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[75.9300mm 122.9600mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
 Via[91.5800mm 110.5100mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
@@ -810,7 +809,6 @@ Via[94.4000mm 118.3300mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[92.3800mm 115.1200mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[73.9900mm 119.4700mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(0,1S)"]
 Via[71.3500mm 117.5500mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[64.1200mm 119.0400mm 60.00mil 66.00mil 66.00mil 35.00mil "" ""]
 Via[92.0800mm 123.7300mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[75.8400mm 67.6500mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
 Via[91.4900mm 54.7100mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
@@ -822,7 +820,6 @@ Via[94.6000mm 61.7200mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[92.2900mm 59.8100mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[73.9000mm 64.1600mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(0,1S)"]
 Via[71.8500mm 62.8500mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[65.7100mm 63.4900mm 60.00mil 66.00mil 66.00mil 35.00mil "" ""]
 Via[91.9900mm 68.4200mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[75.8200mm 41.0100mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
 Via[91.5100mm 28.5200mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
@@ -833,7 +830,6 @@ Via[92.3800mm 35.7200mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[92.2700mm 33.1700mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[73.8600mm 37.5500mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(0,1S)"]
 Via[71.2400mm 35.6000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[64.0100mm 37.0900mm 60.00mil 66.00mil 66.00mil 35.00mil "" ""]
 Via[91.9700mm 41.7800mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[81.0900mm 107.3800mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
 Via[78.4200mm 82.1200mm 32.00mil 20.00mil 42.00mil 15.00mil "" ""]
@@ -1091,7 +1087,6 @@ Via[136.8600mm 148.6000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[26.3200mm 150.0500mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[134.7700mm 148.1200mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[32.8700mm 84.1300mm 60.00mil 66.00mil 66.00mil 35.00mil "" ""]
-Via[59.5600mm 81.1900mm 60.00mil 66.00mil 66.00mil 35.00mil "" ""]
 Via[17.1100mm 148.5800mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[2.3800mm 147.4000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[4.3600mm 12.0900mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
@@ -1305,20 +1300,25 @@ Via[87.6200mm 119.2600mm 60.00mil 20.00mil 66.00mil 35.00mil "" "thermal(1X)"]
 Via[80.1700mm 119.2900mm 60.00mil 20.00mil 66.00mil 35.00mil "" "thermal(1X)"]
 Via[80.0900mm 130.9400mm 60.00mil 20.00mil 66.00mil 35.00mil "" "thermal(1X)"]
 Via[29.0300mm 68.7600mm 60.00mil 66.00mil 66.00mil 35.00mil "" ""]
-Via[124.8400mm 120.6400mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(1X)"]
-Via[113.2800mm 117.0000mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[114.6700mm 125.2700mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[116.0700mm 128.0400mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[118.4500mm 130.9100mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[118.4900mm 133.5700mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[82.9500mm 106.6900mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[106.7800mm 113.3400mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[112.4300mm 100.7000mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[126.9500mm 92.6700mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[127.0900mm 96.3700mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[105.5500mm 68.0100mm 60.00mil 20.00mil 0.0000 35.00mil "" ""]
-Via[109.5800mm 87.3300mm 60.00mil 20.00mil 0.0000 35.00mil "" ""]
-Via[121.1600mm 115.5600mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[124.8400mm 120.6400mm 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1X)"]
+Via[113.2800mm 117.0000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[114.6700mm 125.2700mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[116.0700mm 128.0400mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[118.4500mm 130.9100mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[118.4900mm 133.5700mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[82.9500mm 106.6900mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[106.7800mm 113.3400mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[112.4300mm 100.7000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[126.9500mm 92.6700mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[127.0900mm 96.3700mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[105.5500mm 68.0100mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
+Via[109.5800mm 87.3300mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
+Via[121.1600mm 115.5600mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[64.1200mm 37.2300mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
+Via[65.4000mm 63.5900mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
+Via[59.4400mm 81.3500mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
+Via[64.0000mm 91.6400mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
+Via[64.1900mm 119.2100mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
 
 Element["" "JUMPER8" "D/A/J2" "unknown" 52.5900mm 29.9000mm 110.00mil -50.00mil 3 100 ""]
 (
@@ -1380,7 +1380,7 @@ Element["" "testpt" "P/TP3" "N/A" 25.1900mm 47.8700mm 1.0700mm -2.6400mm 0 100 "
 
 	)
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -175.00mil 150.00mil 1 100 ""]
+Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -8.4300mm 2.8950mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1402,7 +1402,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Z/J1" "4-Pin Male Connector" 133.1800mm 66.3000mm -175.00mil 150.00mil 1 100 ""]
+Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Z/J1" "4-Pin Male Connector" 133.1800mm 66.3000mm -8.5600mm 2.8550mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1424,7 +1424,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Z/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Y/J1" "4-Pin Male Connector" 133.1800mm 76.3000mm -175.00mil 150.00mil 1 100 ""]
+Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Y/J1" "4-Pin Male Connector" 133.1800mm 76.3000mm -8.6000mm 2.9950mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1446,7 +1446,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Y/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/X/J1" "4-Pin Male Connector" 133.1800mm 86.3000mm -175.00mil 150.00mil 1 100 ""]
+Element["lock" "AMPHENOL_10127720-041LF.fp" "D/X/J1" "4-Pin Male Connector" 133.1800mm 86.3000mm -7.9800mm 3.0950mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -2376,7 +2376,7 @@ Element["" "0805_ext" "D/X/C19" "100nF" 73.9220mm 115.8600mm -2.7441mm -2.0501mm
 
 	)
 
-Element["lock" "Molex_39-30-0060" "P/J1" "6-Pin" 130.7118mm 13.3000mm -350.00mil 100.00mil 0 100 ""]
+Element["lock" "Molex_39-30-0060" "P/J1" "6-Pin" 130.7118mm 13.3000mm -11.5200mm 8.2300mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_6")
 	Attribute("manufacturer" "unknown")
@@ -2890,7 +2890,7 @@ Element["" "0805_ext" "D/A/C17" "100nF" 70.9220mm 37.8600mm -4.1941mm 0.7999mm 0
 
 	)
 
-Element["" "TOSHIBA_SOP_ADVANCE_8.fp" "P/Q1" "unknown" 126.7650mm 7.7550mm -2.0600mm -4.3500mm 0 100 ""]
+Element["" "TOSHIBA_SOP_ADVANCE_8.fp" "P/Q1" "unknown" 126.7650mm 7.7550mm -1.8700mm -3.9300mm 0 77 ""]
 (
 	Attribute("device" "MOSFET")
 	Attribute("manufacturer" "unknown")
@@ -2915,7 +2915,7 @@ Element["" "TOSHIBA_SOP_ADVANCE_8.fp" "P/Q1" "unknown" 126.7650mm 7.7550mm -2.06
 
 	)
 
-Element["" "SOD323" "P/Z1" "12v" 136.2300mm 7.8202mm -1.4296mm -4.0322mm 0 100 ""]
+Element["" "SOD323" "P/Z1" "12v" 136.2300mm 7.8202mm -0.6020mm -2.8006mm 1 77 ""]
 (
 	Attribute("device" "ZENER")
 	Attribute("manufacturer" "unknown")
@@ -2947,7 +2947,7 @@ Element["" "0805_ext" "P/R2" "10k" 43.8100mm 99.1580mm -1.8621mm 1.9919mm 0 100 
 
 	)
 
-Element["" "KEYSTONE_1212.fp" "P/ST2" "unknown" 39.9200mm 63.6800mm 6.8600mm -2.8400mm 3 100 ""]
+Element["" "KEYSTONE_1212.fp" "P/ST2" "unknown" 39.9200mm 63.6800mm 5.3500mm 0.5400mm 0 77 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2963,7 +2963,7 @@ Element["" "KEYSTONE_1212.fp" "P/ST2" "unknown" 39.9200mm 63.6800mm 6.8600mm -2.
 
 	)
 
-Element["" "KEYSTONE_1212.fp" "P/ST1" "unknown" 39.8300mm 58.4800mm 6.7100mm -2.3500mm 3 100 ""]
+Element["" "KEYSTONE_1212.fp" "P/ST1" "unknown" 39.8300mm 58.4800mm 5.0900mm -1.3500mm 0 77 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2979,7 +2979,7 @@ Element["" "KEYSTONE_1212.fp" "P/ST1" "unknown" 39.8300mm 58.4800mm 6.7100mm -2.
 
 	)
 
-Element["" "KEYSTONE_1212.fp" "P/ST3" "unknown" 39.8200mm 68.6300mm 7.0800mm -1.4200mm 3 100 ""]
+Element["" "KEYSTONE_1212.fp" "P/ST3" "unknown" 39.8200mm 68.6300mm 5.3300mm -1.2600mm 0 77 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -3082,7 +3082,7 @@ Element["" "testpt" "P/TP1" "N/A" 20.1800mm 43.2300mm -1.7600mm -3.4300mm 0 100 
 
 	)
 
-Element["" "1210_ext" "P/C8" "100uF 6.3v" 40.1650mm 24.3900mm -0.7901mm 0.5599mm 0 100 ""]
+Element["" "1210_ext" "P/C8" "100uF 6.3v" 40.1650mm 24.3900mm 3.2999mm -0.8401mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3096,7 +3096,7 @@ Element["" "1210_ext" "P/C8" "100uF 6.3v" 40.1650mm 24.3900mm -0.7901mm 0.5599mm
 
 	)
 
-Element["" "0805_ext" "R/R18" "10k" 18.8020mm 96.4700mm -62.14mil -2.5051mm 0 100 ""]
+Element["" "0805_ext" "R/R18" "10k" 18.8020mm 96.4700mm -62.14mil -2.5051mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3110,7 +3110,7 @@ Element["" "0805_ext" "R/R18" "10k" 18.8020mm 96.4700mm -62.14mil -2.5051mm 0 10
 
 	)
 
-Element["" "SOD123" "P/Z3" "unknown" 40.0030mm 14.2100mm -120.00mil 0.0000 1 100 ""]
+Element["" "SOD123" "P/Z3" "unknown" 40.0030mm 14.2100mm -2.4730mm -3.2650mm 0 100 ""]
 (
 	Attribute("device" "ZENER")
 	Attribute("manufacturer" "unknown")
@@ -3128,7 +3128,7 @@ Element["" "SOD123" "P/Z3" "unknown" 40.0030mm 14.2100mm -120.00mil 0.0000 1 100
 
 	)
 
-Element["" "1210_ext" "P/C16" "100uF 6.3v" 39.9750mm 17.4700mm -0.2401mm -31.50mil 0 100 ""]
+Element["" "1210_ext" "P/C16" "100uF 6.3v" 39.9750mm 17.4700mm 3.2099mm -31.50mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3142,7 +3142,7 @@ Element["" "1210_ext" "P/C16" "100uF 6.3v" 39.9750mm 17.4700mm -0.2401mm -31.50m
 
 	)
 
-Element["" "1210_ext" "P/C15" "100uF 6.3v" 40.0350mm 20.9500mm -1.4301mm -0.7301mm 0 100 ""]
+Element["" "1210_ext" "P/C15" "100uF 6.3v" 40.0350mm 20.9500mm 118.50mil -1.1901mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3259,7 +3259,7 @@ Element["" "DO214AC" "P/Z2" "unknown" 6.4917mm 46.9406mm -51.07mil -3.4787mm 0 1
 
 	)
 
-Element["" "0805_ext" "P/R9" "10k 1%" 11.8720mm 49.9900mm -1.4487mm 0.9141mm 0 100 ""]
+Element["" "0805_ext" "P/R9" "10k 1%" 11.8720mm 49.9900mm 2.2313mm -1.1359mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3273,7 +3273,7 @@ Element["" "0805_ext" "P/R9" "10k 1%" 11.8720mm 49.9900mm -1.4487mm 0.9141mm 0 1
 
 	)
 
-Element["" "0805_ext" "P/R14" "113k 1%" 7.3080mm 49.9664mm -6.7366mm -26.53mil 0 100 ""]
+Element["" "0805_ext" "P/R14" "113k 1%" 7.3080mm 49.9664mm -1.1766mm 0.8461mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3413,7 +3413,7 @@ Element["" "1210_ext" "P/C6" "470nF 50v" 41.7661mm 49.6502mm -0.0109mm 5.8345mm 
 
 	)
 
-Element["" "0805_ext" "P/R8" "1.5k" 34.7080mm 53.7300mm -1.1501mm 0.8499mm 0 100 ""]
+Element["" "0805_ext" "P/R8" "1.5k" 34.7080mm 53.7300mm -2.4901mm 0.8199mm 0 76 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3455,7 +3455,7 @@ Element["" "0805_ext" "P/R10" "10k 1%" 32.3520mm 57.3000mm -1.6161mm 0.7999mm 0 
 
 	)
 
-Element["" "0805_ext" "P/C9" "33nF" 29.3020mm 53.7900mm -4.0541mm -2.4001mm 0 100 ""]
+Element["" "0805_ext" "P/C9" "33nF" 29.3020mm 53.7900mm -4.0541mm -2.4001mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3469,7 +3469,7 @@ Element["" "0805_ext" "P/C9" "33nF" 29.3020mm 53.7900mm -4.0541mm -2.4001mm 0 10
 
 	)
 
-Element["" "0805_ext" "P/C7" "100pF" 29.2680mm 55.8500mm -5.4401mm -1.9301mm 0 100 ""]
+Element["" "0805_ext" "P/C7" "100pF" 29.2680mm 55.8500mm -5.4401mm -1.9301mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3483,7 +3483,7 @@ Element["" "0805_ext" "P/C7" "100pF" 29.2680mm 55.8500mm -5.4401mm -1.9301mm 0 1
 
 	)
 
-Element["" "0805_ext" "P/R13" "10k" 25.7980mm 50.6600mm -6.0901mm 0.7899mm 0 100 ""]
+Element["" "0805_ext" "P/R13" "10k" 25.7980mm 50.6600mm -4.6001mm 0.7499mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -3553,7 +3553,7 @@ Element["" "0805_ext" "P/R12" "1.24k 1%" 32.2380mm 60.0700mm -1.6561mm 0.8299mm 
 
 	)
 
-Element["" "1210_ext" "P/C12" "22uF 16V" 32.1600mm 71.6650mm 1.5799mm 1.3801mm 1 77 ""]
+Element["" "1210_ext" "P/C12" "22uF 16V" 32.1600mm 71.6650mm 1.9149mm 0.5049mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3712,7 +3712,7 @@ Element["" "Crystal_HC49" "M/X1" "16MHz" 22.1597mm 110.0703mm -1.2794mm -4.5605m
 
 	)
 
-Element["" "0805_ext" "M/C31" "0.1uF" 7.1520mm 134.9500mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0805_ext" "M/C31" "0.1uF" 7.1520mm 134.9500mm -2.3001mm 0.9699mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
 	Attribute("manufacturer" "unknown")
@@ -3726,7 +3726,7 @@ Element["" "0805_ext" "M/C31" "0.1uF" 7.1520mm 134.9500mm -31.50mil -31.50mil 0 
 
 	)
 
-Element["" "0805_ext" "M/C30" "0.1uF" 22.1900mm 143.5980mm 0.9099mm 4.7401mm 1 100 ""]
+Element["" "0805_ext" "M/C30" "0.1uF" 22.1900mm 143.5980mm 0.9099mm 4.7401mm 1 77 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
 	Attribute("manufacturer" "unknown")
@@ -3740,7 +3740,7 @@ Element["" "0805_ext" "M/C30" "0.1uF" 22.1900mm 143.5980mm 0.9099mm 4.7401mm 1 1
 
 	)
 
-Element["" "0805_ext" "M/C34" "22pF" 15.0700mm 105.2680mm -2.4301mm 0.8481mm 1 100 ""]
+Element["" "0805_ext" "M/C34" "22pF" 15.0700mm 105.2680mm -2.4301mm 0.8481mm 1 77 ""]
 (
 	Attribute("device" "CAPACITOR  C0805C220J5GACTU")
 	Attribute("manufacturer" "unknown")
@@ -3754,7 +3754,7 @@ Element["" "0805_ext" "M/C34" "22pF" 15.0700mm 105.2680mm -2.4301mm 0.8481mm 1 1
 
 	)
 
-Element["" "0805_ext" "M/C33" "22pF" 29.4200mm 105.2380mm 0.9499mm 1.2841mm 1 100 ""]
+Element["" "0805_ext" "M/C33" "22pF" 29.4200mm 105.2380mm 0.9499mm 1.2841mm 1 77 ""]
 (
 	Attribute("device" "CAPACITOR  C0805C220J5GACTU")
 	Attribute("manufacturer" "unknown")
@@ -3768,7 +3768,7 @@ Element["" "0805_ext" "M/C33" "22pF" 29.4200mm 105.2380mm 0.9499mm 1.2841mm 1 10
 
 	)
 
-Element["" "0805_ext" "M/C29" "0.1uF" 17.3100mm 4526.30mil -0.5370mm -1.3908mm 3 100 ""]
+Element["" "0805_ext" "M/C29" "0.1uF" 17.3100mm 4526.30mil -0.5370mm -1.3908mm 3 77 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
 	Attribute("manufacturer" "unknown")
@@ -3782,7 +3782,7 @@ Element["" "0805_ext" "M/C29" "0.1uF" 17.3100mm 4526.30mil -0.5370mm -1.3908mm 3
 
 	)
 
-Element["" "0805_ext" "M/C32" "0.1uF" 38.6980mm 134.1600mm -1.4341mm -2.4701mm 0 100 ""]
+Element["" "0805_ext" "M/C32" "0.1uF" 38.6980mm 134.1600mm -1.4341mm -2.4701mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
 	Attribute("manufacturer" "unknown")
@@ -3796,7 +3796,7 @@ Element["" "0805_ext" "M/C32" "0.1uF" 38.6980mm 134.1600mm -1.4341mm -2.4701mm 0
 
 	)
 
-Element["" "0805_ext" "M/C28" "0.1uF" 39.2580mm 126.1700mm 2.4559mm -1.9401mm 0 100 ""]
+Element["" "0805_ext" "M/C28" "0.1uF" 39.2580mm 126.1700mm 2.4559mm -1.9401mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
 	Attribute("manufacturer" "unknown")
@@ -3810,7 +3810,7 @@ Element["" "0805_ext" "M/C28" "0.1uF" 39.2580mm 126.1700mm 2.4559mm -1.9401mm 0 
 
 	)
 
-Element["" "0805_ext" "M/C27" "0.1uF" 24.6300mm 115.0020mm -0.6099mm -1.6201mm 3 100 ""]
+Element["" "0805_ext" "M/C27" "0.1uF" 24.6300mm 115.0020mm -0.6099mm -1.6201mm 3 77 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
 	Attribute("manufacturer" "unknown")
@@ -3824,7 +3824,7 @@ Element["" "0805_ext" "M/C27" "0.1uF" 24.6300mm 115.0020mm -0.6099mm -1.6201mm 3
 
 	)
 
-Element["" "QSOP16_EXT" "R/U4" "6-Channel Digital Isolator" 13.1749mm 14.6421mm -122.00mil -38.00mil 1 100 ""]
+Element["" "QSOP16_EXT" "R/U4" "6-Channel Digital Isolator" 13.1749mm 14.6421mm -9.0688mm -3.2452mm 1 100 ""]
 (
 	Attribute("device" "MAX14850")
 	Attribute("manufacturer" "unknown")
@@ -3877,7 +3877,7 @@ Element["" "JUMPER5" "P/POWER" "N/A" 7.2700mm 6.7600mm 3.8233mm -4.0261mm 0 100 
 
 	)
 
-Element["" "JUMPER5" "R/SERIAL" "N/A" 51.1400mm 5.1500mm -1.0900mm -2.6140mm 0 100 ""]
+Element["" "JUMPER5" "R/SERIAL" "N/A" 51.1400mm 5.1500mm -1.0900mm -3.0240mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_5")
 	Attribute("manufacturer" "unknown")
@@ -3940,7 +3940,7 @@ Element["" "JUMPER4" "R/I2C" "unknown" 3.7700mm 74.4400mm 110.00mil -50.00mil 3 
 
 	)
 
-Element["" "0805_ext" "P/R1" "3k" 109.4500mm 10.4720mm 0.1175mm -3.6281mm 0 100 ""]
+Element["" "0805_ext" "P/R1" "3k" 109.4500mm 10.4720mm -2.1125mm -2.9981mm 0 76 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4117,7 +4117,7 @@ Element["" "0805_ext" "R/LV0/R1" "10k" 11.9100mm 77.1180mm 0.6099mm -1.1299mm 1 
 
 	)
 
-Element["" "0805_ext" "R/C26" "0.1uF" 3.0400mm 12.7020mm 0.7901mm 0.3199mm 3 100 ""]
+Element["" "0805_ext" "R/C26" "0.1uF" 3.0400mm 12.7020mm 1.0201mm 2.5999mm 3 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4188,7 +4188,7 @@ Element["" "EPCOS_CAP_6800_B41231B7688M000" "P/C1" "6800uF" 43.5888mm 83.8343mm 
 
 	)
 
-Element["" "SRF2012A" "H/L1" "120uH" 54.5100mm 138.0000mm -0.9900mm -4.1100mm 0 100 ""]
+Element["" "SRF2012A" "H/L1" "120uH" 54.5100mm 138.0000mm -0.9900mm -4.1100mm 0 77 ""]
 (
 	Attribute("device" "COMMON_MODE_CHOKE")
 	Attribute("manufacturer" "unknown")
@@ -4245,7 +4245,7 @@ Element["" "0805_ext" "H/LD1/R3" "100k" 103.2200mm 33.0100mm -5.7700mm 0.9600mm 
 
 	)
 
-Element["" "0805_ext" "P/R18" "1k" 115.7820mm 6.1900mm -0.6601mm -1.2101mm 0 100 ""]
+Element["" "0805_ext" "P/R18" "1k" 115.7820mm 6.1900mm -1.7401mm -2.7501mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4306,7 +4306,7 @@ Element["lock" "NORCOMP_182-025-113R161_DB25M.fp" "H/J4" "25-Pin DSUB" 132.3100m
 
 	)
 
-Element["" "SO8" "H/U6" "RS-485 Transceiver" 41.7100mm 137.8200mm -7.8000mm -2.7500mm 0 100 ""]
+Element["" "SO8" "H/U6" "RS-485 Transceiver" 41.7100mm 137.8200mm -7.8000mm -2.7500mm 0 77 ""]
 (
 	Attribute("device" "ISL83485")
 	Attribute("manufacturer" "unknown")
@@ -4354,7 +4354,7 @@ Element["lock" "AMPHENOL_10127720-061LF" "H/LD2/J1" "6-Pin Male Connector" 133.1
 
 	)
 
-Element["lock" "AMPHENOL_10127720-061LF" "H/LD1/J1" "6-Pin Male Connector" 133.1900mm 44.4000mm -175.00mil 350.00mil 1 100 ""]
+Element["lock" "AMPHENOL_10127720-061LF" "H/LD1/J1" "6-Pin Male Connector" 133.1900mm 44.4000mm -9.9400mm 3.8150mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_6")
 	Attribute("manufacturer" "unknown")
@@ -4502,7 +4502,7 @@ Element["" "0805_ext" "H/LD1/R1" "220" 107.0600mm 29.1300mm 2.8800mm -0.5600mm 0
 
 	)
 
-Element["" "0805_ext" "H/C35" "0.1uF" 44.1200mm 130.8900mm -5.2300mm -2.2800mm 0 100 ""]
+Element["" "0805_ext" "H/C35" "0.1uF" 44.1200mm 130.8900mm -5.2300mm -2.2800mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4516,7 +4516,7 @@ Element["" "0805_ext" "H/C35" "0.1uF" 44.1200mm 130.8900mm -5.2300mm -2.2800mm 0
 
 	)
 
-Element["" "0805_ext" "H/R2" "750" 48.5100mm 133.9400mm -5.7800mm -0.6700mm 0 100 ""]
+Element["" "0805_ext" "H/R2" "750" 48.5100mm 133.9400mm -5.7800mm -0.6700mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4530,7 +4530,7 @@ Element["" "0805_ext" "H/R2" "750" 48.5100mm 133.9400mm -5.7800mm -0.6700mm 0 10
 
 	)
 
-Element["" "0805_ext" "H/R19" "130" 48.5100mm 138.6500mm -2.2300mm 1.7600mm 1 100 ""]
+Element["" "0805_ext" "H/R19" "130" 48.5100mm 138.6500mm -2.2300mm 1.7600mm 1 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4544,7 +4544,7 @@ Element["" "0805_ext" "H/R19" "130" 48.5100mm 138.6500mm -2.2300mm 1.7600mm 1 10
 
 	)
 
-Element["" "0805_ext" "H/R3" "750" 48.5100mm 143.3700mm -1.7500mm 2.2800mm 0 100 ""]
+Element["" "0805_ext" "H/R3" "750" 48.5100mm 143.3700mm -1.7500mm 2.2800mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4558,7 +4558,7 @@ Element["" "0805_ext" "H/R3" "750" 48.5100mm 143.3700mm -1.7500mm 2.2800mm 0 100
 
 	)
 
-Element["" "0805_ext" "H/C1" "0.1uF" 50.9100mm 134.0100mm 1.2100mm -2.0400mm 0 100 ""]
+Element["" "0805_ext" "H/C1" "0.1uF" 50.9100mm 134.0100mm 1.2100mm -2.0400mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4572,7 +4572,7 @@ Element["" "0805_ext" "H/C1" "0.1uF" 50.9100mm 134.0100mm 1.2100mm -2.0400mm 0 1
 
 	)
 
-Element["" "0805_ext" "H/C2" "0.1uF" 50.7300mm 138.9100mm 1.3500mm 0.9900mm 0 100 ""]
+Element["" "0805_ext" "H/C2" "0.1uF" 50.7300mm 138.9100mm 1.3500mm 0.9900mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4586,7 +4586,7 @@ Element["" "0805_ext" "H/C2" "0.1uF" 50.7300mm 138.9100mm 1.3500mm 0.9900mm 0 10
 
 	)
 
-Element["" "0805_ext" "H/C3" "0.1uF" 50.8600mm 143.5600mm 0.3500mm 2.0400mm 0 100 ""]
+Element["" "0805_ext" "H/C3" "0.1uF" 50.8600mm 143.5600mm 0.3500mm 2.0400mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4600,7 +4600,7 @@ Element["" "0805_ext" "H/C3" "0.1uF" 50.8600mm 143.5600mm 0.3500mm 2.0400mm 0 10
 
 	)
 
-Element["" "0805_ext" "H/R4" "10" 58.7400mm 138.0100mm 1.5000mm -2.6600mm 0 100 ""]
+Element["" "0805_ext" "H/R4" "10" 58.7400mm 138.0100mm 1.5000mm -2.6600mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4628,7 +4628,7 @@ Element["" "0805_ext" "H/R5" "10" 58.7400mm 140.1800mm -3.1000mm 1.1300mm 0 100 
 
 	)
 
-Element["" "0805_ext" "H/R1" "10k" 33.3300mm 142.8300mm -1.6000mm 0.7700mm 0 100 ""]
+Element["" "0805_ext" "H/R1" "10k" 33.3300mm 142.8300mm -1.6000mm 0.7700mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4670,7 +4670,7 @@ Element["" "0805_ext" "P/R21" "10k" 101.2780mm 9.3800mm -7.3001mm -0.9801mm 0 10
 
 	)
 
-Element["" "2512" "P/R20" "100" 103.8800mm 5.8000mm -2.2100mm -3.4300mm 0 100 ""]
+Element["" "2512" "P/R20" "100" 103.8800mm 5.8000mm -2.2100mm -3.4300mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4715,7 +4715,7 @@ Element["" "SOT23" "P/Q2" "unknown" 105.1000mm 9.5400mm -2.5642mm 2.8640mm 1 100
 
 	)
 
-Element["" "0805_ext" "P/R17" "1k" 111.8100mm 10.5180mm 1.2201mm -1.4141mm 3 100 ""]
+Element["" "0805_ext" "P/R17" "1k" 111.8100mm 10.5180mm 0.7139mm 1.0519mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4729,7 +4729,7 @@ Element["" "0805_ext" "P/R17" "1k" 111.8100mm 10.5180mm 1.2201mm -1.4141mm 3 100
 
 	)
 
-Element["" "0805_ext" "P/C20" "1uF" 138.7600mm 7.6720mm -0.7601mm -2.5299mm 1 100 ""]
+Element["" "0805_ext" "P/C20" "1uF" 138.7600mm 7.6720mm -0.7321mm -3.4321mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4743,7 +4743,7 @@ Element["" "0805_ext" "P/C20" "1uF" 138.7600mm 7.6720mm -0.7601mm -2.5299mm 1 10
 
 	)
 
-Element["" "SOD323" "P/D4" "unknown" 110.8957mm 5.6830mm 93.00mil 0.0000 3 100 ""]
+Element["" "SOD323" "P/D4" "unknown" 110.8957mm 5.6830mm -1.4127mm -2.7109mm 0 77 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -4761,7 +4761,7 @@ Element["" "SOD323" "P/D4" "unknown" 110.8957mm 5.6830mm 93.00mil 0.0000 3 100 "
 
 	)
 
-Element["" "0805_ext" "P/R22" "820k" 120.9100mm 8.4520mm 2.5601mm -2.7461mm 3 100 ""]
+Element["" "0805_ext" "P/R22" "820k" 120.9100mm 8.4520mm -2.0241mm -4.0921mm 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4775,7 +4775,7 @@ Element["" "0805_ext" "P/R22" "820k" 120.9100mm 8.4520mm 2.5601mm -2.7461mm 3 10
 
 	)
 
-Element["" "SOT25" "P/U5" "unknown" 114.8800mm 8.1600mm 2.7900mm 3.5100mm 2 100 ""]
+Element["" "SOT25" "P/U5" "unknown" 114.8800mm 8.1600mm 1.2600mm 2.6100mm 0 77 ""]
 (
 	Attribute("device" "COMPARATOR")
 	Attribute("manufacturer" "unknown")
