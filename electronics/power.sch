@@ -101,7 +101,7 @@ C 55400 45000 1 90 0 cap.sym
 T 54700 45200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 55550 45000 5 10 1 1 90 0 1
-value=100nF
+value=.1uF
 T 55400 45000 5 10 0 0 270 0 1
 footprint=0805_ext
 T 55400 45000 5 10 0 0 270 0 1
@@ -109,9 +109,7 @@ description=CAP CER 0.1UF 50V X7R 0805
 T 55150 45100 5 10 1 1 90 0 1
 refdes=C14
 T 55400 45000 5 10 0 0 90 0 1
-model=GRM21BR71H104KA01L 
-T 55400 45000 5 10 0 0 0 0 1
-footprint=0805_ext
+model=C0805C104M5RACTU
 T 55400 45000 5 10 0 0 0 0 1
 description=Murata 0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0805
 }
@@ -130,11 +128,11 @@ description=16v
 T 53350 45100 5 10 1 1 90 0 1
 refdes=C13
 T 53750 45000 5 10 1 1 90 0 1
-value=100nF
+value=.1uF
 T 53600 45000 5 10 0 0 0 0 1
 footprint=0805_ext
 T 53600 45000 5 10 0 0 0 0 1
-model=GRM21BR71H104KA01L 
+model=C0805C104M5RACTU
 T 53600 45000 5 10 0 0 0 0 1
 description=Murata 0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0805
 }
@@ -246,7 +244,7 @@ value=10k 1%
 T 46300 42200 5 10 0 0 90 0 1
 footprint=0805_ext
 T 46300 42200 5 10 0 0 0 0 1
-model=RC0805FR-0710K
+model=RC0805FR-0710KL
 T 46300 42200 5 10 0 0 0 0 1
 description=RES SMD 10K OHM 1% 1/8W 0805
 }
@@ -381,9 +379,9 @@ refdes=C4
 T 49800 49000 5 10 1 1 90 0 1
 value=10uF 50v
 T 50000 48600 5 10 0 0 0 0 1
-model=GRM32ER61H106KA12L
+model=UMK325BJ106KM-T
 T 50000 48600 5 10 0 0 0 0 1
-description=Murata 10µF ±10% 50V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 1210
+description=10µF ±10% 50V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 1210
 T 50000 48600 5 10 0 0 0 0 1
 footprint=1210_ext
 }
@@ -773,7 +771,7 @@ value=10k 1%
 T 54500 43300 5 10 0 0 180 0 1
 footprint=0805_ext
 T 54500 43300 5 10 0 0 0 0 1
-model=RC0805FR-0710K
+model=RC0805FR-0710KL
 }
 C 53500 43300 1 0 0 resistor.sym
 {
@@ -947,15 +945,15 @@ C 46700 47900 1 90 0 cap.sym
 T 46000 48100 5 10 0 0 90 0 1
 device=CAPACITOR
 T 46700 47900 5 10 0 0 0 0 1
-model=CL21B105KAFNNNE
+model=GRM216R61E105KA12D
 T 46700 47900 5 10 0 0 0 0 1
 footprint=0805_ext
 T 46700 47900 5 10 0 0 0 0 1
-description=Samsung  1µF ±10% 25V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0805 (2012 Metric)
+description=Murata 1µF ±10% 25V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0805
 T 46550 47775 5 10 1 1 90 0 1
 refdes=C20
-T 46550 48275 5 10 1 1 90 0 1
-value=1uF
+T 46850 47775 5 10 1 1 90 0 1
+value=1uF 25v
 }
 N 44700 48300 44700 49200 4
 C 44700 46400 1 0 0 resistor.sym
