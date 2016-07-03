@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 155.0000mm 155.0000mm]
+PCB["" 142.3000mm 155.0000mm]
 
 Grid[39.370079 0.0000 0.0000 0]
 PolyArea[3100.006200]
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("import::src0" "/home/doug/Buildbotics/Controller Hardware Design/machine-controller/electronics/buildbotics_controller.sch")
-Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::unit" "mm")
 Attribute("PCB::grid::size" "0.0100mm")
 Via[75.8400mm 95.3300mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
 Via[91.5300mm 82.8400mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
@@ -1314,11 +1314,11 @@ Via[127.0900mm 96.3700mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[105.5500mm 68.0100mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
 Via[109.5800mm 87.3300mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
 Via[121.1600mm 115.5600mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[64.1200mm 37.2300mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
-Via[65.4000mm 63.5900mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
-Via[59.4400mm 81.3500mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
-Via[64.0000mm 91.6400mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
-Via[64.1900mm 119.2100mm 60.00mil 20.00mil 66.00mil 35.00mil "" "selected"]
+Via[64.1200mm 37.2300mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
+Via[65.4000mm 63.5900mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
+Via[59.4400mm 81.3500mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
+Via[64.0000mm 91.6400mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
+Via[64.1900mm 119.2100mm 60.00mil 20.00mil 66.00mil 35.00mil "" ""]
 
 Element["" "JUMPER8" "D/A/J2" "unknown" 52.5900mm 29.9000mm 110.00mil -50.00mil 3 100 ""]
 (
@@ -1832,7 +1832,7 @@ Element["" "NICHICON_WT_CAP_260_mil_sq" "D/Y/C27" "100uF" 71.1500mm 82.8200mm -1
 
 	)
 
-Element["" "0805_ext" "D/Y/C19" "100nF" 73.7400mm 88.3000mm -3.0700mm -1.8900mm 0 100 ""]
+Element["" "0805_ext" "D/Y/C19" ".1uF" 73.7400mm 88.3000mm -3.0700mm -1.8900mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1874,7 +1874,7 @@ Element["" "0805_ext" "D/Y/R9" "10k" 67.6980mm 89.0600mm -1.9281mm 6.3481mm 1 10
 
 	)
 
-Element["" "0805_ext" "D/Y/C17" "100nF" 70.9700mm 92.1600mm -2.4801mm 0.7599mm 0 100 ""]
+Element["" "0805_ext" "D/Y/C17" ".1uF" 70.9700mm 92.1600mm -2.4801mm 0.7599mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2348,7 +2348,7 @@ Element["" "NICHICON_WT_CAP_260_mil_sq" "D/X/C27" "100uF" 71.6800mm 110.4200mm -
 
 	)
 
-Element["" "0805_ext" "D/X/C17" "100nF" 70.7900mm 119.7700mm -2.7501mm 0.7699mm 0 100 ""]
+Element["" "0805_ext" "D/X/C17" ".1uF" 70.7900mm 119.7700mm -2.7501mm 0.7699mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2362,7 +2362,7 @@ Element["" "0805_ext" "D/X/C17" "100nF" 70.7900mm 119.7700mm -2.7501mm 0.7699mm 
 
 	)
 
-Element["" "0805_ext" "D/X/C19" "100nF" 73.9220mm 115.8600mm -2.7441mm -2.0501mm 0 100 ""]
+Element["" "0805_ext" "D/X/C19" ".1uF" 73.9220mm 115.8600mm -2.7441mm -2.0501mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2500,7 +2500,7 @@ Element["" "0805_ext" "D/Z/C23" "10nF" 95.3400mm 57.0180mm 1.5979mm -1.3181mm 0 
 
 	)
 
-Element["" "0805_ext" "D/Z/C17" "100nF" 70.9420mm 64.4700mm -2.9041mm 0.8499mm 0 100 ""]
+Element["" "0805_ext" "D/Z/C17" ".1uF" 70.9420mm 64.4700mm -2.9041mm 0.8499mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2514,7 +2514,7 @@ Element["" "0805_ext" "D/Z/C17" "100nF" 70.9420mm 64.4700mm -2.9041mm 0.8499mm 0
 
 	)
 
-Element["" "0805_ext" "D/Z/C19" "100nF" 73.7780mm 60.4900mm -1.2361mm -1.6701mm 0 63 ""]
+Element["" "0805_ext" "D/Z/C19" ".1uF" 73.7780mm 60.4900mm -1.2361mm -1.6701mm 0 63 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2876,7 +2876,7 @@ Element["" "0805_ext" "D/A/R11" "22" 90.9720mm 31.2000mm 2.1259mm 1.2999mm 0 100
 
 	)
 
-Element["" "0805_ext" "D/A/C17" "100nF" 70.9220mm 37.8600mm -4.1941mm 0.7999mm 0 100 ""]
+Element["" "0805_ext" "D/A/C17" ".1uF" 70.9220mm 37.8600mm -4.1941mm 0.7999mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3585,7 +3585,7 @@ Element["" "SOT223" "P/U3" "unknown" 27.4660mm 79.7624mm -7.9362mm 8.0166mm 1 10
 
 	)
 
-Element["" "0805_ext" "P/C14" "100nF" 17.2580mm 80.2000mm -0.3901mm 0.7199mm 0 100 ""]
+Element["" "0805_ext" "P/C14" ".1uF" 17.2580mm 80.2000mm -0.3901mm 0.7199mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3599,7 +3599,7 @@ Element["" "0805_ext" "P/C14" "100nF" 17.2580mm 80.2000mm -0.3901mm 0.7199mm 0 1
 
 	)
 
-Element["" "0805_ext" "P/C13" "100nF" 17.2300mm 78.3500mm -0.3201mm -2.4301mm 0 100 ""]
+Element["" "0805_ext" "P/C13" ".1uF" 17.2300mm 78.3500mm -0.3201mm -2.4301mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3613,7 +3613,7 @@ Element["" "0805_ext" "P/C13" "100nF" 17.2300mm 78.3500mm -0.3201mm -2.4301mm 0 
 
 	)
 
-Element["" "0805_ext" "D/A/C19" "100nF" 73.7520mm 33.9300mm -2.7561mm -2.0801mm 0 100 ""]
+Element["" "0805_ext" "D/A/C19" ".1uF" 73.7520mm 33.9300mm -2.7561mm -2.0801mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4729,7 +4729,7 @@ Element["" "0805_ext" "P/R17" "1k" 111.8100mm 10.5180mm 0.7139mm 1.0519mm 0 77 "
 
 	)
 
-Element["" "0805_ext" "P/C20" "1uF" 138.7600mm 7.6720mm -0.7321mm -3.4321mm 0 77 ""]
+Element["" "0805_ext" "P/C20" "1uF 25v" 138.7600mm 7.6720mm -0.7321mm -3.4321mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -7016,10 +7016,6 @@ Layer(3 "signal")
 	Line[52.6800mm 54.8300mm 58.4600mm 54.8300mm 10.00mil 20.00mil "clearline"]
 	Line[58.4600mm 54.8300mm 62.4600mm 58.8300mm 10.00mil 20.00mil "clearline"]
 	Line[52.6800mm 59.9100mm 60.7000mm 59.9100mm 10.00mil 20.00mil "clearline"]
-	Line[60.7000mm 59.9100mm 64.3400mm 63.5500mm 10.00mil 20.00mil "clearline"]
-	Line[64.3400mm 63.5500mm 64.3400mm 64.1700mm 10.00mil 20.00mil "clearline"]
-	Line[64.3400mm 64.1700mm 65.4600mm 65.2900mm 10.00mil 20.00mil "clearline"]
-	Line[65.4600mm 65.2900mm 67.1500mm 65.2900mm 10.00mil 20.00mil "clearline"]
 	Line[67.1500mm 65.2900mm 67.1700mm 65.3100mm 10.00mil 20.00mil "clearline"]
 	Line[71.8500mm 62.8500mm 71.8500mm 63.0500mm 10.00mil 20.00mil "clearline"]
 	Line[71.8500mm 63.0500mm 67.3000mm 67.6000mm 10.00mil 20.00mil "clearline"]
@@ -7787,6 +7783,12 @@ Layer(3 "signal")
 	Line[125.4000mm 87.3700mm 128.4400mm 90.4100mm 25.00mil 20.00mil "clearline"]
 	Line[128.4400mm 90.4100mm 128.4400mm 108.2800mm 25.00mil 20.00mil "clearline"]
 	Line[128.4400mm 108.2800mm 121.1600mm 115.5600mm 25.00mil 20.00mil "clearline"]
+	Line[67.2250mm 65.3650mm 67.2250mm 63.1750mm 10.00mil 20.00mil "clearline"]
+	Line[67.2250mm 63.1750mm 66.4500mm 62.4000mm 10.00mil 20.00mil "clearline"]
+	Line[66.4500mm 62.4000mm 64.7100mm 62.4000mm 10.00mil 20.00mil "clearline"]
+	Line[64.7100mm 62.4000mm 2450.00mil 59.9200mm 10.00mil 20.00mil "clearline"]
+	Line[2450.00mil 59.9200mm 60.4200mm 59.9200mm 10.00mil 20.00mil "clearline"]
+	Line[60.4200mm 59.9200mm 60.4100mm 59.9100mm 10.00mil 20.00mil "clearline"]
 )
 Layer(4 "bottom")
 (
