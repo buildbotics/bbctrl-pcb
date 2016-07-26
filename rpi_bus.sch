@@ -20,20 +20,6 @@ device=INPUT
 T 43550 48450 5 10 1 1 0 0 1
 net=rpi_serial_tx:1
 }
-C 41300 44400 1 0 0 nc.sym
-{
-T 41300 44800 5 10 0 0 0 0 1
-value=NoConnection
-T 41300 45200 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 43300 44400 1 0 1 nc.sym
-{
-T 43300 44800 5 10 0 0 0 6 1
-value=NoConnection
-T 43300 45200 5 10 0 0 0 6 1
-device=DRC_Directive
-}
 C 41600 41900 1 0 0 header40-2.sym
 {
 T 41850 50400 5 10 0 1 0 0 1
@@ -90,7 +76,7 @@ C 50700 43200 1 0 0 MAX18450.sym
 {
 T 50700 43200 5 10 0 0 0 0 1
 footprint=QSOP16_EXT
-T 51695 43100 5 8 1 1 0 0 1
+T 52695 45000 5 8 1 1 0 0 1
 refdes=U4
 T 51400 43000 5 10 0 1 0 0 1
 device=MAX14850
@@ -136,28 +122,28 @@ C 49900 44400 1 0 0 input.sym
 {
 T 49900 44700 5 10 0 0 0 0 1
 device=INPUT
-T 49000 44400 5 10 1 1 0 0 1
+T 49025 44450 5 10 1 1 0 0 1
 net=rpi_serial_tx:1
 }
 C 53900 44000 1 0 1 input.sym
 {
 T 53900 44300 5 10 0 0 0 6 1
 device=INPUT
-T 54475 44000 5 10 1 1 0 6 1
+T 54475 44050 5 10 1 1 0 6 1
 net=serial_tx:1
 }
 C 53100 44400 1 0 0 output.sym
 {
 T 53200 44700 5 10 0 0 0 0 1
 device=OUTPUT
-T 53650 44400 5 10 1 1 0 0 1
+T 53625 44450 5 10 1 1 0 0 1
 net=serial_rx:1
 }
 C 50700 44000 1 0 1 output.sym
 {
 T 50600 44300 5 10 0 0 0 6 1
 device=OUTPUT
-T 50150 44000 5 10 1 1 0 6 1
+T 50175 44050 5 10 1 1 0 6 1
 net=rpi_serial_rx:1
 }
 C 50400 45100 1 0 0 3.3V-plus-1.sym
@@ -165,7 +151,7 @@ C 50700 43800 1 0 1 output.sym
 {
 T 50600 44100 5 10 0 0 0 6 1
 device=OUTPUT
-T 50150 43800 5 10 1 1 0 6 1
+T 50175 43825 5 10 1 1 0 6 1
 net=rpi_serial_cts:1
 }
 C 52900 45100 1 0 0 3.3V_motor.sym
@@ -180,7 +166,7 @@ C 53900 43800 1 0 1 input.sym
 {
 T 53900 44100 5 10 0 0 0 6 1
 device=INPUT
-T 54550 43800 5 10 1 1 0 6 1
+T 54575 43850 5 10 1 1 0 6 1
 net=serial_cts:1
 }
 C 47800 44200 1 0 0 input.sym
@@ -295,15 +281,15 @@ C 49500 43400 1 0 0 input.sym
 {
 T 49500 43700 5 10 0 0 0 0 1
 device=INPUT
-T 48950 43450 5 10 1 1 0 0 1
-net=rpi_boot:1
+T 48875 43450 5 10 1 1 0 0 1
+net=rpi_scl_0:1
 }
 C 53500 43400 1 0 0 output.sym
 {
 T 53600 43700 5 10 0 0 0 0 1
 device=OUTPUT
 T 54050 43425 5 10 1 1 0 0 1
-net=boot:1
+net=scl:1
 }
 N 48600 44300 50700 44300 4
 N 50300 43500 50700 43500 4
@@ -314,11 +300,11 @@ device=RESISTOR
 T 53800 43325 5 10 1 1 180 0 1
 refdes=R18
 T 53800 43125 5 10 1 1 180 0 1
-value=10k
+value=1k
 T 53500 42700 5 10 0 1 0 0 1
 footprint=0805_ext
 T 53500 42700 5 10 0 0 0 0 1
-model=RMCF0805JT10K0
+model=RC0805JR-071KL
 }
 C 53700 42900 1 180 0 3.3V_motor.sym
 {
@@ -337,8 +323,6 @@ T 48600 44300 5 10 0 1 0 0 1
 footprint=0805_ext
 T 48600 44300 5 10 0 0 0 0 1
 model=RC0805JR-071KL
-T 48600 44300 5 10 0 0 0 0 1
-description=Yageo RES SMD 1K OHM 5% 1/8W 0805
 }
 C 50300 42700 1 270 1 resistor.sym
 {
@@ -350,8 +334,6 @@ T 50000 43125 5 10 1 1 180 6 1
 value=1k
 T 50300 42700 5 10 0 1 0 0 1
 footprint=0805_ext
-T 50300 42700 5 10 0 0 0 0 1
-description=Yageo RES SMD 1K OHM 5% 1/8W 0805
 T 50300 42700 5 10 0 0 0 0 1
 model=RC0805JR-071KL
 }
@@ -369,27 +351,6 @@ C 53000 43000 1 0 0 gnd.sym
 C 54200 45000 1 90 0 gnd.sym
 C 41300 45000 1 270 0 iso_gnd.sym
 C 41300 48200 1 270 0 iso_gnd.sym
-C 41600 47600 1 0 1 output.sym
-{
-T 41500 47900 5 10 0 0 0 6 1
-device=OUTPUT
-T 40250 47650 5 10 1 1 0 0 1
-net=rpi_boot:1
-}
-C 50400 43600 1 0 0 nc.sym
-{
-T 50400 44000 5 10 0 0 0 0 1
-value=NoConnection
-T 50400 44400 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 53400 43600 1 0 1 nc.sym
-{
-T 53400 44000 5 10 0 0 0 6 1
-value=NoConnection
-T 53400 44400 5 10 0 0 0 6 1
-device=DRC_Directive
-}
 C 56100 47500 1 0 0 connector5-2.sym
 {
 T 56900 50000 5 10 1 1 0 6 1
@@ -500,22 +461,22 @@ C 41600 49400 1 180 0 io.sym
 {
 T 41400 48800 5 10 0 0 180 0 1
 device=IO
-T 40300 49200 5 10 1 1 0 0 1
-net=rpi_sda:1
+T 40100 49200 5 10 1 1 0 0 1
+net=rpi_sda_1:1
 }
 C 41600 48800 1 0 1 output.sym
 {
 T 41500 49100 5 10 0 0 0 6 1
 device=OUTPUT
-T 40350 48850 5 10 1 1 0 0 1
-net=rpi_scl:1
+T 40150 48850 5 10 1 1 0 0 1
+net=rpi_scl_1:1
 }
 C 46200 49200 1 180 0 io.sym
 {
 T 46000 48600 5 10 0 0 180 0 1
 device=IO
-T 44900 49000 5 10 1 1 0 0 1
-net=rpi_sda:1
+T 44700 49000 5 10 1 1 0 0 1
+net=rpi_sda_1:1
 }
 C 46200 47800 1 0 0 level_converter.sym
 {
@@ -528,8 +489,8 @@ C 45400 47800 1 0 0 input.sym
 {
 T 45400 48100 5 10 0 0 0 0 1
 device=OUTPUT
-T 45000 47800 5 10 1 1 0 0 1
-net=rpi_scl:1
+T 44800 47800 5 10 1 1 0 0 1
+net=rpi_scl_1:1
 }
 C 48100 47900 1 0 0 connector4-2.sym
 {
@@ -643,8 +604,77 @@ T 55300 44200 5 10 0 1 90 0 1
 footprint=0805_ext
 T 55300 44200 5 10 0 0 90 0 1
 model=RC0805JR-071KL
-T 55300 44200 5 10 0 0 90 0 1
-description=Yageo RES SMD 1K OHM 5% 1/8W 0805
 }
 N 55300 44300 55100 44300 4
 N 54700 44300 53100 44300 4
+C 41600 44600 1 180 0 io.sym
+{
+T 41400 44000 5 10 0 0 180 0 1
+device=IO
+T 40100 44400 5 10 1 1 0 0 1
+net=rpi_sda_0:1
+}
+C 43000 44600 1 180 1 output.sym
+{
+T 43100 44300 5 10 0 0 180 6 1
+device=OUTPUT
+T 44450 44550 5 10 1 1 180 0 1
+net=rpi_scl_0:1
+}
+C 41300 47600 1 0 0 nc.sym
+{
+T 41300 48000 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 48400 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 48600 43800 1 180 0 io.sym
+{
+T 48400 43200 5 10 0 0 180 0 1
+device=IO
+T 47100 43625 5 10 1 1 0 0 1
+net=rpi_sda_0:1
+}
+N 48600 43700 50700 43700 4
+C 55300 43600 1 0 0 io.sym
+{
+T 55500 44200 5 10 0 0 0 0 1
+device=IO
+T 56300 43775 5 10 1 1 180 0 1
+net=sda:1
+}
+N 55300 43700 53100 43700 4
+C 48600 42900 1 270 1 resistor.sym
+{
+T 49000 43200 5 10 0 0 90 2 1
+device=RESISTOR
+T 48600 42900 5 10 0 1 0 0 1
+footprint=0805_ext
+T 48600 42900 5 10 0 0 0 0 1
+model=RC0805JR-071KL
+T 48300 43525 5 10 1 1 180 6 1
+refdes=R1
+T 48300 43325 5 10 1 1 180 6 1
+value=1k
+}
+C 48900 43100 1 180 0 3.3V-plus-1.sym
+N 48700 43500 48700 43700 4
+C 55100 42900 1 270 1 resistor.sym
+{
+T 55500 43200 5 10 0 0 90 2 1
+device=RESISTOR
+T 55100 42900 5 10 0 1 0 0 1
+footprint=0805_ext
+T 55100 42900 5 10 0 0 0 0 1
+model=RC0805JR-071KL
+T 54800 43525 5 10 1 1 180 6 1
+refdes=R2
+T 54800 43325 5 10 1 1 180 6 1
+value=1k
+}
+N 55200 43500 55200 43700 4
+C 55500 43100 1 180 0 3.3V_motor.sym
+{
+T 55400 42400 5 10 0 0 180 0 1
+device=none
+}
