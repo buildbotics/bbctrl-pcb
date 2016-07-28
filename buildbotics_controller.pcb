@@ -785,7 +785,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("import::src0" "/home/doug/Buildbotics/Controller Hardware Design/machine-controller/electronics/buildbotics_controller.sch")
+Attribute("import::src0" "./buildbotics_controller.sch")
 Attribute("PCB::grid::unit" "mm")
 Attribute("PCB::grid::size" "0.0100mm")
 Via[75.8400mm 95.3300mm 60.00mil 66.00mil 66.00mil 35.00mil "" "thermal(1S)"]
