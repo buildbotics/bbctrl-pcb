@@ -23,15 +23,15 @@ net=rpi_serial_tx:1
 C 41600 41900 1 0 0 header40-2.sym
 {
 T 41850 50400 5 10 0 1 0 0 1
-device=68602-440HLF
+device=SBH11-PBPC-D20-ST-BK
 T 41600 41900 5 10 0 0 0 0 1
 footprint=raspberry_pi_connector
 T 41600 41900 5 10 0 0 0 0 1
-description=Amphenol FCI unshrouded CONN HEADER 2.54MM 40POS GOLD
+description=40 Positions Header, Shrouded Connector 0.100" (2.54mm) Through Hole Gold 
 T 42100 50000 5 10 1 1 0 0 1
 refdes=RPI
 T 41600 41900 5 10 0 0 0 0 1
-model=68602-440HLF
+model=SBH11-PBPC-D20-ST-BK
 T 41600 41900 5 10 0 0 0 0 1
 value=40-pin Connector
 T 41600 41900 5 10 0 0 0 0 1
