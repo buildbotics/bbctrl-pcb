@@ -23,15 +23,15 @@ net=rpi_serial_tx:1
 C 41600 41900 1 0 0 header40-2.sym
 {
 T 41850 50400 5 10 0 1 0 0 1
-device=SBH11-PBPC-D20-ST-BK
+device=68602-440HLF
 T 41600 41900 5 10 0 0 0 0 1
 footprint=raspberry_pi_connector
 T 41600 41900 5 10 0 0 0 0 1
-description=40 Positions Header, Shrouded Connector 0.100" (2.54mm) Through Hole Gold 
+description=Amphenol FCI unshrouded CONN HEADER 2.54MM 40POS GOLD
 T 42100 50000 5 10 1 1 0 0 1
 refdes=RPI
 T 41600 41900 5 10 0 0 0 0 1
-model=SBH11-PBPC-D20-ST-BK
+model=68602-440HLF
 T 41600 41900 5 10 0 0 0 0 1
 value=40-pin Connector
 T 41600 41900 5 10 0 0 0 0 1
@@ -511,84 +511,6 @@ N 47700 49100 47700 48700 4
 N 47700 48700 48100 48700 4
 N 48100 48300 47700 48300 4
 N 47700 48300 47700 47900 4
-C 50700 46300 1 0 0 connector8-2.sym
-{
-T 51400 50000 5 10 1 1 0 6 1
-refdes=LCD
-T 51000 49950 5 10 0 0 0 0 1
-device=CONNECTOR_8
-T 51000 50150 5 10 0 0 0 0 1
-footprint=JUMPER8
-T 50700 46300 5 10 0 0 0 0 1
-model=M20-9990846
-T 50700 46300 5 10 0 0 0 0 1
-description=HARWIN 8-PIN SIL VERTICAL PC TAIL PIN HEADER
-}
-C 50400 46800 1 270 0 iso_gnd.sym
-C 50700 47300 1 90 0 3.3V-plus-1.sym
-C 49900 49000 1 0 0 input.sym
-{
-T 49900 49300 5 10 0 0 0 0 1
-device=OUTPUT
-T 49400 49000 5 10 1 1 0 0 1
-net=rpi_cs1:1
-}
-C 49900 48200 1 0 0 input.sym
-{
-T 49900 48500 5 10 0 0 0 0 1
-device=OUTPUT
-T 49300 48200 5 10 1 1 0 0 1
-net=rpi_mosi:1
-}
-C 49900 47800 1 0 0 input.sym
-{
-T 49900 48100 5 10 0 0 0 0 1
-device=OUTPUT
-T 49400 47800 5 10 1 1 0 0 1
-net=rpi_sck:1
-}
-C 49900 49400 1 0 0 input.sym
-{
-T 49900 49700 5 10 0 0 0 0 1
-device=OUTPUT
-T 49400 49400 5 10 1 1 0 0 1
-net=lcd_rst:1
-}
-C 49900 48600 1 0 0 input.sym
-{
-T 49900 48900 5 10 0 0 0 0 1
-device=OUTPUT
-T 49400 48600 5 10 1 1 0 0 1
-net=lcd_d/c:1
-}
-C 49900 47000 1 0 0 input.sym
-{
-T 49900 47300 5 10 0 0 0 0 1
-device=OUTPUT
-T 49400 47000 5 10 1 1 0 0 1
-net=lcd_bl:1
-}
-C 43000 47600 1 0 0 output.sym
-{
-T 43100 47900 5 10 0 0 0 0 1
-device=INPUT
-T 43550 47650 5 10 1 1 0 0 1
-net=lcd_bl:1
-}
-C 43000 46800 1 0 0 output.sym
-{
-T 43100 47100 5 10 0 0 0 0 1
-device=INPUT
-T 43550 46850 5 10 1 1 0 0 1
-net=lcd_rst:1
-}
-C 41600 46800 1 0 1 output.sym
-{
-T 41500 47100 5 10 0 0 0 6 1
-device=OUTPUT
-T 40300 46850 5 10 1 1 0 0 1
-net=lcd_d/c:1
-}
 N 48700 44500 48700 44300 4
 N 53400 43300 53400 43500 4
 N 50400 43300 50400 43500 4
@@ -677,4 +599,25 @@ C 55500 43100 1 180 0 3.3V_motor.sym
 {
 T 55400 42400 5 10 0 0 180 0 1
 device=none
+}
+C 41300 46800 1 0 0 nc.sym
+{
+T 41300 47200 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 47600 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43300 46800 1 0 1 nc.sym
+{
+T 43300 47200 5 10 0 0 0 6 1
+value=NoConnection
+T 43300 47600 5 10 0 0 0 6 1
+device=DRC_Directive
+}
+C 43300 47600 1 0 1 nc.sym
+{
+T 43300 48000 5 10 0 0 0 6 1
+value=NoConnection
+T 43300 48400 5 10 0 0 0 6 1
+device=DRC_Directive
 }
