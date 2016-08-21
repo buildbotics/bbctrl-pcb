@@ -6794,7 +6794,7 @@ Layer(6 "silk")
 	Text[57.6200mm 86.0000mm 0 100 "CS" "clearline"]
 	Text[73.0000mm 144.7500mm 0 154 "Buildbotics LLC" "clearline"]
 	Text[72.9800mm 147.6600mm 0 153 "Copyright 2016" "clearline"]
-	Text[75.2500mm 142.0000mm 0 166 "Revision 3" "clearline"]
+    Text[75.2500mm 142.0000mm 0 166 "Revision 4" "clearline"]
 	Text[70.7500mm 139.5000mm 0 166 "Machine Controller" "clearline"]
 	Text[111.8400mm 137.7700mm 1 100 "CLK" "clearline"]
 	Text[109.4600mm 138.7000mm 1 100 "MISO" "clearline"]
