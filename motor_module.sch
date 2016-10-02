@@ -39,32 +39,32 @@ T 50000 40100 9 10 1 0 0 0 1
 3
 T 51500 40100 9 10 1 0 0 0 1
 8
+C 52500 44400 1 0 0 input.sym
+{
+T 52500 44700 5 10 0 0 0 0 1
+device=OUTPUT
+T 51900 44400 5 10 1 1 0 0 1
+net=spi_cs_a:1
+}
 C 52500 45200 1 0 0 input.sym
 {
 T 52500 45500 5 10 0 0 0 0 1
-device=OUTPUT
-T 51900 45200 5 10 1 1 0 0 1
-net=spi_cs_a:1
+device=INPUT
+T 52050 45200 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 52500 45000 1 0 0 input.sym
 {
 T 52500 45300 5 10 0 0 0 0 1
 device=INPUT
-T 52050 45000 5 10 1 1 0 0 1
-net=spi_clk:1
-}
-C 52500 44800 1 0 0 input.sym
-{
-T 52500 45100 5 10 0 0 0 0 1
-device=INPUT
-T 51900 44800 5 10 1 1 0 0 1
+T 51900 45000 5 10 1 1 0 0 1
 net=spi_mosi:1
 }
-C 53300 44800 1 180 0 output.sym
+C 53300 45000 1 180 0 output.sym
 {
-T 53200 44500 5 10 0 0 180 0 1
+T 53200 44700 5 10 0 0 180 0 1
 device=OUTPUT
-T 51900 44600 5 10 1 1 0 0 1
+T 51900 44800 5 10 1 1 0 0 1
 net=spi_miso:1
 }
 C 52500 44000 1 0 0 input.sym
@@ -95,32 +95,32 @@ device=INPUT
 T 52075 43600 5 10 1 1 0 0 1
 net=fault_a:1
 }
+C 42000 47700 1 0 0 input.sym
+{
+T 42000 48000 5 10 0 0 0 0 1
+device=OUTPUT
+T 41400 47700 5 10 1 1 0 0 1
+net=spi_cs_x:1
+}
 C 42000 48500 1 0 0 input.sym
 {
 T 42000 48800 5 10 0 0 0 0 1
-device=OUTPUT
-T 41400 48500 5 10 1 1 0 0 1
-net=spi_cs_x:1
+device=INPUT
+T 41550 48500 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 42000 48300 1 0 0 input.sym
 {
 T 42000 48600 5 10 0 0 0 0 1
 device=INPUT
-T 41550 48300 5 10 1 1 0 0 1
-net=spi_clk:1
-}
-C 42000 48100 1 0 0 input.sym
-{
-T 42000 48400 5 10 0 0 0 0 1
-device=INPUT
-T 41400 48100 5 10 1 1 0 0 1
+T 41400 48300 5 10 1 1 0 0 1
 net=spi_mosi:1
 }
-C 42800 48100 1 180 0 output.sym
+C 42800 48300 1 180 0 output.sym
 {
-T 42700 47800 5 10 0 0 180 0 1
+T 42700 48000 5 10 0 0 180 0 1
 device=OUTPUT
-T 41400 47900 5 10 1 1 0 0 1
+T 41400 48100 5 10 1 1 0 0 1
 net=spi_miso:1
 }
 C 42000 47300 1 0 0 input.sym
@@ -151,32 +151,32 @@ device=INPUT
 T 41600 46900 5 10 1 1 0 0 1
 net=fault_x:1
 }
+C 42000 44400 1 0 0 input.sym
+{
+T 42000 44700 5 10 0 0 0 0 1
+device=OUTPUT
+T 41400 44400 5 10 1 1 0 0 1
+net=spi_cs_y:1
+}
 C 42000 45200 1 0 0 input.sym
 {
 T 42000 45500 5 10 0 0 0 0 1
-device=OUTPUT
-T 41400 45200 5 10 1 1 0 0 1
-net=spi_cs_y:1
+device=INPUT
+T 41550 45200 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 42000 45000 1 0 0 input.sym
 {
 T 42000 45300 5 10 0 0 0 0 1
 device=INPUT
-T 41550 45000 5 10 1 1 0 0 1
-net=spi_clk:1
-}
-C 42000 44800 1 0 0 input.sym
-{
-T 42000 45100 5 10 0 0 0 0 1
-device=INPUT
-T 41400 44800 5 10 1 1 0 0 1
+T 41400 45000 5 10 1 1 0 0 1
 net=spi_mosi:1
 }
-C 42800 44800 1 180 0 output.sym
+C 42800 45000 1 180 0 output.sym
 {
-T 42700 44500 5 10 0 0 180 0 1
+T 42700 44700 5 10 0 0 180 0 1
 device=OUTPUT
-T 41400 44600 5 10 1 1 0 0 1
+T 41400 44800 5 10 1 1 0 0 1
 net=spi_miso:1
 }
 C 42000 44000 1 0 0 input.sym
@@ -207,32 +207,32 @@ device=INPUT
 T 41600 43600 5 10 1 1 0 0 1
 net=fault_y:1
 }
+C 52500 47700 1 0 0 input.sym
+{
+T 52500 48000 5 10 0 0 0 0 1
+device=OUTPUT
+T 51925 47700 5 10 1 1 0 0 1
+net=spi_cs_z:1
+}
 C 52500 48500 1 0 0 input.sym
 {
 T 52500 48800 5 10 0 0 0 0 1
-device=OUTPUT
-T 51925 48500 5 10 1 1 0 0 1
-net=spi_cs_z:1
+device=INPUT
+T 52075 48500 5 10 1 1 0 0 1
+net=spi_clk:1
 }
 C 52500 48300 1 0 0 input.sym
 {
 T 52500 48600 5 10 0 0 0 0 1
 device=INPUT
-T 52075 48300 5 10 1 1 0 0 1
-net=spi_clk:1
-}
-C 52500 48100 1 0 0 input.sym
-{
-T 52500 48400 5 10 0 0 0 0 1
-device=INPUT
-T 51900 48100 5 10 1 1 0 0 1
+T 51900 48300 5 10 1 1 0 0 1
 net=spi_mosi:1
 }
-C 53300 48100 1 180 0 output.sym
+C 53300 48300 1 180 0 output.sym
 {
-T 53200 47800 5 10 0 0 180 0 1
+T 53200 48000 5 10 0 0 180 0 1
 device=OUTPUT
-T 51900 47900 5 10 1 1 0 0 1
+T 51900 48100 5 10 1 1 0 0 1
 net=spi_miso:1
 }
 C 52500 47300 1 0 0 input.sym
@@ -263,97 +263,3 @@ device=INPUT
 T 52075 46900 5 10 1 1 0 0 1
 net=fault_z:1
 }
-C 42000 47700 1 0 0 input.sym
-{
-T 42000 48000 5 10 0 0 0 0 1
-device=OUTPUT
-T 41400 47700 5 10 1 1 0 0 1
-net=mdvr_clk:1
-}
-C 52500 47700 1 0 0 input.sym
-{
-T 52500 48000 5 10 0 0 0 0 1
-device=OUTPUT
-T 51900 47700 5 10 1 1 0 0 1
-net=mdvr_clk:1
-}
-C 42000 44400 1 0 0 input.sym
-{
-T 42000 44700 5 10 0 0 0 0 1
-device=OUTPUT
-T 41375 44400 5 10 1 1 0 0 1
-net=mdvr_clk:1
-}
-C 52500 44400 1 0 0 input.sym
-{
-T 52500 44700 5 10 0 0 0 0 1
-device=OUTPUT
-T 51875 44400 5 10 1 1 0 0 1
-net=mdvr_clk:1
-}
-N 47700 46700 47700 46900 4
-N 47200 45100 47000 45100 4
-N 46400 46900 47700 46900 4
-N 47000 46000 47000 46900 4
-N 47000 45100 47000 45600 4
-C 49800 46200 1 0 0 output.sym
-{
-T 49900 46500 5 10 0 0 0 0 1
-device=OUTPUT
-T 50325 46250 5 10 1 1 0 0 1
-net=mdvr_clk:1
-}
-C 47200 44700 1 0 0 crystal_oscillator.sym
-{
-T 47200 44700 5 10 0 0 0 0 1
-description=Crystal Technologies CB3LV-3I-16M0000 16MHz, HCMOS TTL ,surface mount crystal clock oscill
-T 47200 44700 5 10 0 0 0 0 1
-footprint=CB3_OSC
-T 47200 44700 5 10 0 0 0 0 1
-model=CB3LV-3I-16M0000
-T 48395 46595 5 10 1 1 0 0 1
-refdes=OSC1
-T 48195 45295 5 10 1 1 0 0 1
-value=16MHz
-T 47200 44700 5 10 0 1 0 0 1
-device=CRYSTAL
-}
-N 46400 46500 46400 46900 4
-C 47400 46900 1 0 0 3.3V_motor.sym
-{
-T 47500 47600 5 10 0 0 0 0 1
-device=none
-}
-C 46300 45600 1 0 0 gnd.sym
-C 46500 46000 1 90 0 cap.sym
-{
-T 45800 46200 5 10 0 0 90 0 1
-device=CAPACITOR
-T 46200 46000 5 10 1 1 90 0 1
-refdes=C16
-T 46200 46400 5 10 1 1 90 0 1
-value=10nF
-T 46500 46000 5 10 0 0 0 0 1
-footprint=0805_ext
-T 46500 46000 5 10 0 0 0 0 1
-description=16v
-T 46500 46000 5 10 0 0 0 0 1
-model=CC0805KRX7R9BB103
-T 46500 46000 5 10 0 0 0 0 1
-description=CAP CER 10000PF 50V X7R 0805
-}
-N 46400 45900 46400 46100 4
-C 47100 45400 1 90 0 resistor.sym
-{
-T 46700 45700 5 10 0 0 90 0 1
-device=RESISTOR
-T 46925 45500 5 10 1 1 90 0 1
-refdes=R8
-T 46925 45900 5 10 1 1 90 0 1
-value=10k
-T 47100 45400 5 10 0 0 0 0 1
-footprint=0805_ext
-T 47100 45400 5 10 0 0 0 0 1
-model=RMCF0805JT10K0
-}
-C 49300 44400 1 0 0 gnd.sym
