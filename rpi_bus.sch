@@ -370,86 +370,6 @@ model=N/A
 }
 C 48400 44800 1 0 0 iso_gnd.sym
 N 48500 45100 48800 45100 4
-C 53200 47100 1 0 0 connector6-2.sym
-{
-T 53900 50000 5 10 1 1 0 6 1
-refdes=SPI0
-T 53500 49950 5 10 0 0 0 0 1
-device=CONNECTOR_6
-T 53500 50150 5 10 0 0 0 0 1
-footprint=JUMPER6
-T 53200 47100 5 10 0 0 0 0 1
-model=M20-9990646
-T 53200 47100 5 10 0 0 0 0 1
-description=HARWIN 6-PIN SIL VERTICAL PC TAIL PIN HEADER 
-T 53200 47100 5 10 0 0 0 0 1
-documentation=LABEL EACH PIN ON PCB
-}
-C 52900 49600 1 270 0 iso_gnd.sym
-C 53200 48900 1 90 0 3.3V-plus-1.sym
-C 52400 48600 1 0 0 input.sym
-{
-T 52400 48900 5 10 0 0 0 0 1
-device=OUTPUT
-T 51800 48600 5 10 1 1 0 0 1
-net=rpi_mosi:1
-}
-C 53200 48400 1 180 0 output.sym
-{
-T 53100 48100 5 10 0 0 180 0 1
-device=INPUT
-T 52650 48350 5 10 1 1 180 0 1
-net=rpi_miso:1
-}
-C 52400 47800 1 0 0 input.sym
-{
-T 52400 48100 5 10 0 0 0 0 1
-device=OUTPUT
-T 51900 47800 5 10 1 1 0 0 1
-net=rpi_sck:1
-}
-C 52400 47400 1 0 0 input.sym
-{
-T 52400 47700 5 10 0 0 0 0 1
-device=OUTPUT
-T 51900 47400 5 10 1 1 0 0 1
-net=rpi_cs0:1
-}
-C 43000 44800 1 0 0 output.sym
-{
-T 43100 45100 5 10 0 0 0 0 1
-device=INPUT
-T 43550 44850 5 10 1 1 0 0 1
-net=rpi_cs1:1
-}
-C 43000 45200 1 0 0 output.sym
-{
-T 43100 45500 5 10 0 0 0 0 1
-device=INPUT
-T 43550 45250 5 10 1 1 0 0 1
-net=rpi_cs0:1
-}
-C 41600 45400 1 180 0 output.sym
-{
-T 41500 45100 5 10 0 0 180 0 1
-device=INPUT
-T 41050 45350 5 10 1 1 180 0 1
-net=rpi_sck:1
-}
-C 41600 46200 1 180 0 output.sym
-{
-T 41500 45900 5 10 0 0 180 0 1
-device=INPUT
-T 41050 46150 5 10 1 1 180 0 1
-net=rpi_mosi:1
-}
-C 40800 45600 1 0 0 input.sym
-{
-T 40800 45900 5 10 0 0 0 0 1
-device=OUTPUT
-T 40200 45600 5 10 1 1 0 0 1
-net=rpi_miso:1
-}
 C 46200 49000 1 0 0 level_converter.sym
 {
 T 46795 49600 5 10 1 1 0 0 1
@@ -651,3 +571,38 @@ C 55000 42800 1 0 0 gnd.sym
 N 55100 43100 55100 43300 4
 C 55200 45200 1 180 0 gnd.sym
 N 55100 44900 55100 44700 4
+C 43300 45200 1 0 1 nc.sym
+{
+T 43300 45600 5 10 0 0 0 6 1
+value=NoConnection
+T 43300 46000 5 10 0 0 0 6 1
+device=DRC_Directive
+}
+C 43300 44800 1 0 1 nc.sym
+{
+T 43300 45200 5 10 0 0 0 6 1
+value=NoConnection
+T 43300 45600 5 10 0 0 0 6 1
+device=DRC_Directive
+}
+C 41300 46000 1 0 0 nc.sym
+{
+T 41300 46400 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 46800 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 41300 45600 1 0 0 nc.sym
+{
+T 41300 46000 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 46400 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 41300 45200 1 0 0 nc.sym
+{
+T 41300 45600 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 46000 5 10 0 0 0 0 1
+device=DRC_Directive
+}

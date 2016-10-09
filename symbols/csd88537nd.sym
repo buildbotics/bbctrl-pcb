@@ -14,7 +14,7 @@ pinseq=2
 P 0 800 200 800 1 0 0
 {
 T 0 800 5 10 0 0 180 0 1
-pintype=oe
+pintype=pas
 T 255 820 5 10 1 1 0 0 1
 pinlabel=S1
 T 180 820 5 10 1 1 0 6 1
@@ -25,7 +25,7 @@ pinseq=1
 P 0 400 200 400 1 0 0
 {
 T 0 400 5 10 0 0 180 0 1
-pintype=oe
+pintype=pas
 T 255 420 5 10 1 1 0 0 1
 pinlabel=S2
 T 180 420 5 10 1 1 0 6 1
@@ -47,7 +47,7 @@ pinseq=4
 P 1600 800 1400 800 1 0 0
 {
 T 1600 800 5 10 0 0 0 0 1
-pintype=oc
+pintype=pas
 T 1345 820 5 10 1 1 0 6 1
 pinlabel=D1
 T 1420 820 5 10 1 1 0 0 1
@@ -58,7 +58,7 @@ pinseq=8
 P 1600 600 1400 600 1 0 0
 {
 T 1600 600 5 10 0 0 0 0 1
-pintype=oc
+pintype=pas
 T 1345 620 5 10 1 1 0 6 1
 pinlabel=D1
 T 1420 620 5 10 1 1 0 0 1
@@ -69,7 +69,7 @@ pinseq=7
 P 1600 400 1400 400 1 0 0
 {
 T 1600 400 5 10 0 0 0 0 1
-pintype=oc
+pintype=pas
 T 1345 420 5 10 1 1 0 6 1
 pinlabel=D2
 T 1420 420 5 10 1 1 0 0 1
@@ -80,7 +80,7 @@ pinseq=6
 P 1600 200 1400 200 1 0 0
 {
 T 1600 200 5 10 0 0 0 0 1
-pintype=oc
+pintype=pas
 T 1345 220 5 10 1 1 0 6 1
 pinlabel=D2
 T 1420 220 5 10 1 1 0 0 1
