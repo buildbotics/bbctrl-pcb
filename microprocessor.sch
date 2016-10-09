@@ -99,7 +99,7 @@ Copyright (c) 2016, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Joseph Coffland
 T 53800 40400 9 10 1 0 0 0 1
-2.0
+4.0
 T 50000 40100 9 10 1 0 0 0 1
 5
 T 51500 40100 9 10 1 0 0 0 1
@@ -277,13 +277,6 @@ device=OUTPUT
 T 48850 47150 5 10 1 1 0 0 1
 net=step_y:1
 }
-C 44000 49600 1 180 0 output.sym
-{
-T 43900 49300 5 10 0 0 180 0 1
-device=OUTPUT
-T 43450 49450 5 10 1 1 0 6 1
-net=enable_y:1
-}
 C 48300 46400 1 180 1 output.sym
 {
 T 48400 46100 5 10 0 0 180 6 1
@@ -298,13 +291,6 @@ device=OUTPUT
 T 48850 44550 5 10 1 1 0 0 1
 net=step_z:1
 }
-C 44000 49300 1 180 0 output.sym
-{
-T 43900 49000 5 10 0 0 180 0 1
-device=OUTPUT
-T 43450 49150 5 10 1 1 0 6 1
-net=enable_z:1
-}
 C 48300 45500 1 180 1 output.sym
 {
 T 48400 45200 5 10 0 0 180 6 1
@@ -318,13 +304,6 @@ T 48400 45800 5 10 0 0 180 6 1
 device=OUTPUT
 T 48850 45950 5 10 1 1 0 0 1
 net=step_a:1
-}
-C 44000 49000 1 180 0 output.sym
-{
-T 43900 48700 5 10 0 0 180 0 1
-device=OUTPUT
-T 43450 48850 5 10 1 1 0 6 1
-net=enable_a:1
 }
 C 48300 45200 1 180 1 output.sym
 {
@@ -347,19 +326,12 @@ device=OUTPUT
 T 48850 48850 5 10 1 1 0 0 1
 net=spi_cs_z:1
 }
-C 49100 42900 1 180 0 input.sym
-{
-T 49100 42600 5 10 0 0 180 0 1
-device=INPUT
-T 48850 42750 5 10 1 1 0 0 1
-net=fault_z:1
-}
 C 49100 43200 1 180 0 input.sym
 {
 T 49100 42900 5 10 0 0 180 0 1
 device=INPUT
 T 48850 43050 5 10 1 1 0 0 1
-net=fault_y:1
+net=drv_stall:1
 }
 C 44000 43800 1 180 0 output.sym
 {
@@ -410,12 +382,12 @@ device=INPUT
 T 42750 46850 5 10 1 1 0 0 1
 net=max_x:1
 }
-C 44000 49900 1 180 0 output.sym
+C 48300 42700 1 0 0 output.sym
 {
-T 43900 49600 5 10 0 0 180 0 1
+T 48400 43000 5 10 0 0 0 0 1
 device=OUTPUT
-T 42550 49750 5 10 1 1 0 0 1
-net=enable_x:1
+T 49925 42875 5 10 1 1 180 0 1
+net=drv_enable:1
 }
 C 48300 46700 1 180 1 output.sym
 {
@@ -442,8 +414,8 @@ C 49100 43300 1 0 1 input.sym
 {
 T 49100 43600 5 10 0 0 0 6 1
 device=INPUT
-T 49550 43350 5 10 1 1 0 6 1
-net=fault_x:1
+T 49700 43350 5 10 1 1 0 6 1
+net=drv_fault:1
 }
 C 45700 40900 1 180 0 input.sym
 {
@@ -504,49 +476,10 @@ device=INPUT
 T 49350 44075 5 10 1 1 180 0 1
 net=fault:1
 }
-C 53900 46300 1 0 0 connector4-2.sym
-{
-T 54600 48400 5 10 1 1 0 6 1
-refdes=SPI
-T 54200 48350 5 10 0 0 0 0 1
-device=CONNECTOR_4
-T 54200 48550 5 10 0 0 0 0 1
-footprint=JUMPER4
-T 53900 46300 5 10 0 0 0 0 1
-description=Unpopulated test point
-T 53900 46300 5 10 0 0 0 0 1
-documentation=Label each pin on PCB.
-T 53900 46300 5 10 0 0 0 0 1
-value=N/A
-T 53900 46300 5 10 0 0 0 0 1
-model=N/A
-}
-C 53100 47800 1 0 0 input.sym
-{
-T 53100 48100 5 10 0 0 0 0 1
-device=INPUT
-T 52650 47800 5 10 1 1 0 0 1
-net=spi_clk:1
-}
-C 53900 47200 1 180 0 output.sym
-{
-T 53800 46900 5 10 0 0 180 0 1
-device=OUTPUT
-T 52500 47000 5 10 1 1 0 0 1
-net=spi_miso:1
-}
-C 53100 47400 1 0 0 input.sym
-{
-T 53100 47700 5 10 0 0 0 0 1
-device=INPUT
-T 52500 47400 5 10 1 1 0 0 1
-net=spi_mosi:1
-}
 C 47600 40200 1 0 0 gnd.sym
 C 46000 41200 1 0 0 gnd.sym
 C 42500 40400 1 90 0 gnd.sym
 C 40700 50100 1 0 0 gnd.sym
-C 53600 46800 1 270 0 gnd.sym
 C 48300 47800 1 180 1 output.sym
 {
 T 48400 47500 5 10 0 0 180 6 1
@@ -589,13 +522,6 @@ device=INPUT
 T 42650 48550 5 10 1 1 0 0 1
 net=spin_dir:1
 }
-C 49100 42600 1 180 0 input.sym
-{
-T 49100 42300 5 10 0 0 180 0 1
-device=INPUT
-T 48850 42450 5 10 1 1 0 0 1
-net=fault_a:1
-}
 C 48300 44400 1 180 1 output.sym
 {
 T 48400 44100 5 10 0 0 180 6 1
@@ -623,4 +549,39 @@ T 44000 44100 5 10 0 0 180 0 1
 device=IO
 T 43000 44525 5 10 1 1 0 0 1
 net=sda:1
+}
+C 48600 42600 1 180 0 nc.sym
+{
+T 48600 42200 5 10 0 0 180 0 1
+value=NoConnection
+T 48600 41800 5 10 0 0 180 0 1
+device=DRC_Directive
+}
+C 43200 49700 1 0 0 input.sym
+{
+T 43200 50000 5 10 0 0 0 0 1
+device=INPUT
+T 42700 49750 5 10 1 1 0 0 1
+net=bemf_x:1
+}
+C 43200 49400 1 0 0 input.sym
+{
+T 43200 49700 5 10 0 0 0 0 1
+device=INPUT
+T 42700 49450 5 10 1 1 0 0 1
+net=bemf_y:1
+}
+C 43200 49100 1 0 0 input.sym
+{
+T 43200 49400 5 10 0 0 0 0 1
+device=INPUT
+T 42700 49150 5 10 1 1 0 0 1
+net=bemf_z:1
+}
+C 43200 48800 1 0 0 input.sym
+{
+T 43200 49100 5 10 0 0 0 0 1
+device=INPUT
+T 42700 48850 5 10 1 1 0 0 1
+net=bemf_a:1
 }
