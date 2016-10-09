@@ -291,9 +291,9 @@ device=INPUT
 T 51950 44000 5 10 1 1 0 0 1
 net=drv_stall:1
 }
-C 48200 49200 1 0 0 3.3V_motor.sym
+C 48200 49000 1 0 0 3.3V_motor.sym
 {
-T 48300 49900 5 10 0 0 0 0 1
+T 48300 49700 5 10 0 0 0 0 1
 device=none
 }
 C 48600 48200 1 90 0 resistor.sym
@@ -303,7 +303,7 @@ device=RESISTOR
 T 48600 48200 5 10 0 0 90 0 1
 footprint=0805_ext
 T 48400 48450 5 10 1 1 90 0 1
-refdes=R13
+refdes=R3
 T 48725 48500 5 10 1 1 90 0 1
 value=10k
 }
@@ -316,7 +316,7 @@ device=RESISTOR
 T 49200 48200 5 10 0 0 90 0 1
 footprint=0805_ext
 T 49000 48450 5 10 1 1 90 0 1
-refdes=R13
+refdes=R4
 T 49325 48500 5 10 1 1 90 0 1
 value=10k
 }
@@ -329,13 +329,12 @@ device=RESISTOR
 T 48000 48200 5 10 0 0 90 0 1
 footprint=0805_ext
 T 47800 48450 5 10 1 1 90 0 1
-refdes=R13
+refdes=R1
 T 48125 48500 5 10 1 1 90 0 1
 value=10k
 }
 N 47900 49000 47900 48800 4
 N 47900 49000 49100 49000 4
-N 48500 49000 48500 49200 4
 N 49100 48400 49100 48200 4
 C 48000 47400 1 90 0 input.sym
 {
