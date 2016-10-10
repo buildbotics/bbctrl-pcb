@@ -174,7 +174,7 @@ refdes=U1
 T 46795 47195 5 10 1 1 0 0 1
 device=DRV8711
 T 46200 48300 5 10 0 0 0 0 1
-footprint=HTSSOP38
+footprint=38HTSSOP
 T 46000 43500 5 10 0 0 0 0 1
 model=DRV8711DCPR
 T 46000 43500 5 10 0 0 0 0 1
@@ -307,7 +307,7 @@ C 50800 47700 1 0 0 csd88537nd.sym
 T 51020 47725 5 10 1 1 0 0 1
 device=CSD88537ND
 T 51020 49050 5 10 0 0 0 0 1
-footprint=SO-8
+footprint=SO8_extra_clearance
 T 51945 48850 5 10 1 1 0 0 1
 refdes=Q1
 T 50800 47700 5 10 0 0 0 0 1
@@ -329,7 +329,7 @@ N 52400 47900 53100 47900 4
 C 50800 46300 1 0 0 csd88537nd.sym
 {
 T 51020 47650 5 10 0 0 0 0 1
-footprint=SO-8
+footprint=SO8_extra_clearance
 T 51020 46325 5 10 1 1 0 0 1
 device=CSD88537ND
 T 52345 47350 5 10 1 1 0 0 1
@@ -394,7 +394,7 @@ C 48700 44600 1 0 0 gnd.sym
 C 50800 44200 1 0 0 csd88537nd.sym
 {
 T 51020 45550 5 10 0 0 0 0 1
-footprint=SO-8
+footprint=SO8_extra_clearance
 T 51020 44225 5 10 1 1 0 0 1
 device=CSD88537ND
 T 51945 45350 5 10 1 1 0 0 1
@@ -418,7 +418,7 @@ N 52400 44400 53000 44400 4
 C 50800 42800 1 0 0 csd88537nd.sym
 {
 T 51020 44150 5 10 0 0 0 0 1
-footprint=SO-8
+footprint=SO8_extra_clearance
 T 51020 42825 5 10 1 1 0 0 1
 device=CSD88537ND
 T 52345 43850 5 10 1 1 0 0 1
