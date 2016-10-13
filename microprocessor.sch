@@ -326,13 +326,6 @@ device=OUTPUT
 T 48850 48850 5 10 1 1 0 0 1
 net=spi_cs_z:1
 }
-C 49100 43200 1 180 0 input.sym
-{
-T 49100 42900 5 10 0 0 180 0 1
-device=INPUT
-T 48850 43050 5 10 1 1 0 0 1
-net=drv_stall:1
-}
 C 44000 43800 1 180 0 output.sym
 {
 T 43900 43500 5 10 0 0 180 0 1
@@ -382,11 +375,11 @@ device=INPUT
 T 42750 46850 5 10 1 1 0 0 1
 net=max_x:1
 }
-C 48300 42700 1 0 0 output.sym
+C 48300 43000 1 0 0 output.sym
 {
-T 48400 43000 5 10 0 0 0 0 1
+T 48400 43300 5 10 0 0 0 0 1
 device=OUTPUT
-T 49925 42875 5 10 1 1 180 0 1
+T 49925 43175 5 10 1 1 180 0 1
 net=drv_enable:1
 }
 C 48300 46700 1 180 1 output.sym
@@ -561,27 +554,34 @@ C 43200 49700 1 0 0 input.sym
 {
 T 43200 50000 5 10 0 0 0 0 1
 device=INPUT
-T 42700 49750 5 10 1 1 0 0 1
-net=bemf_x:1
+T 42750 49725 5 10 1 1 0 0 1
+net=stall_x:1
 }
 C 43200 49400 1 0 0 input.sym
 {
 T 43200 49700 5 10 0 0 0 0 1
 device=INPUT
-T 42700 49450 5 10 1 1 0 0 1
-net=bemf_y:1
+T 42750 49425 5 10 1 1 0 0 1
+net=stall_y:1
 }
 C 43200 49100 1 0 0 input.sym
 {
 T 43200 49400 5 10 0 0 0 0 1
 device=INPUT
-T 42700 49150 5 10 1 1 0 0 1
-net=bemf_z:1
+T 42750 49125 5 10 1 1 0 0 1
+net=stall_z:1
 }
 C 43200 48800 1 0 0 input.sym
 {
 T 43200 49100 5 10 0 0 0 0 1
 device=INPUT
-T 42700 48850 5 10 1 1 0 0 1
-net=bemf_a:1
+T 42750 48825 5 10 1 1 0 0 1
+net=stall_a:1
+}
+C 48600 42900 1 180 0 nc.sym
+{
+T 48600 42500 5 10 0 0 180 0 1
+value=NoConnection
+T 48600 42100 5 10 0 0 180 0 1
+device=DRC_Directive
 }

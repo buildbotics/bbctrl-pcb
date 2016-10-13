@@ -103,14 +103,3 @@ pinseq=1
 T 0 2200 5 10 0 0 0 0 1
 pinnumber=1
 }
-P 0 400 200 400 1 0 0
-{
-T 0 400 5 10 0 0 0 0 1
-pintype=unknown
-T 255 345 5 10 1 1 0 0 1
-pinlabel=BEMF
-T 0 400 5 10 0 0 0 0 1
-pinseq=10
-T 0 400 5 10 0 0 0 0 1
-pinnumber=10
-}
