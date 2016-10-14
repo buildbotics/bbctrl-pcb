@@ -1,17 +1,20 @@
-Element["" "TO252" "TO252" "TO252" 45.9999mm 393.0002mm -118.11mil -275.59mil 0 100 ""]
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+Element[0x00000000 "P-MOSFET" "" "TO252" 0 0 -3150 -3150 0 100 ""]
 (
-	Pad[0.0000 -2.0000mm 0.0000 0.0000 236.22mil 39.37mil 240.16mil "2" "2" "square"]
-	Pad[90.55mil 181.11mil 90.55mil 255.92mil 62.99mil 39.37mil 66.93mil "3" "3" "square,edge2"]
-	Pad[-90.55mil 181.11mil -90.55mil 255.92mil 62.99mil 39.37mil 66.93mil "1" "1" "square,edge2"]
-	ElementLine [-127.95mil 127.96mil 127.95mil 127.96mil 10.00mil]
-	ElementLine [49.22mil 127.96mil 49.22mil 295.28mil 10.00mil]
-	ElementLine [49.22mil 295.28mil 127.96mil 295.28mil 10.00mil]
-	ElementLine [127.96mil 127.97mil 127.95mil 127.96mil 10.00mil]
-	ElementLine [-127.95mil 295.28mil -49.21mil 295.28mil 10.00mil]
-	ElementLine [-49.21mil 295.28mil -49.21mil 127.96mil 10.00mil]
-	ElementLine [-127.95mil 295.28mil -127.95mil -206.69mil 10.00mil]
-	ElementLine [127.96mil 295.28mil 127.96mil -206.68mil 10.00mil]
-	ElementLine [127.96mil -206.68mil 127.95mil -206.69mil 10.00mil]
-	ElementLine [-127.95mil -206.69mil 127.95mil -206.69mil 10.00mil]
+# 
+# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
+	Pad[-2.28mm 4.7mm -2.28mm 3.7mm 1.2mm .5mm 1.4mm "1" "1" "square"]
+ 	Pad[0mm -1.8mm 0mm -2.4mm 5.8mm .5mm 6mm "2" "2" "square"]
+ 	Pad[2.28mm 4.7mm 2.28mm 3.7mm 1.2mm .5mm 1.4mm "3" "3" "square"]
+ 	
+ 	ElementLine[-3.15mm -5.5mm 3.15mm -5.5mm .2mm]
+ 	ElementLine[3.15mm -5.5mm 3.15mm 5.5mm .2mm]
+ 	ElementLine[3.15mm 5.5mm 1.45mm 5.5mm .2mm]
+ 	ElementLine[1.45mm 5.5mm 1.45mm 1.3mm .2mm]
+ 	ElementLine[-1.45mm 1.3mm -1.45mm 5.5mm .2mm]
+ 	ElementLine[-1.5mm 5.5mm -3.15mm 5.5mm .2mm]
+ 	ElementLine[-3.15mm 5.5mm -3.15mm -5.5mm .2mm]
+ 	ElementLine[-3.15mm 1.3mm 3.15mm 1.3mm .2mm]
+)
 
-	)
