@@ -1010,7 +1010,7 @@ refdes=U4
 T 45950 48750 5 10 1 1 0 0 1
 model=LM293DT
 T 44420 48957 5 10 0 0 0 0 1
-footprint=SO-8
+footprint=SO8_extra_clearance
 }
 N 46400 49700 46400 50100 4
 N 46900 49200 47100 49200 4
