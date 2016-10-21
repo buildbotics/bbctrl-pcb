@@ -453,7 +453,7 @@ footprint=0805_ext
 T 55500 48650 5 10 1 1 0 0 1
 refdes=C4
 T 55925 48650 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 }
 C 56600 48500 1 90 0 gnd.sym
 N 56300 48600 56100 48600 4
@@ -466,7 +466,7 @@ device=CAPACITOR
 T 56200 48100 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 48050 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 48050 5 10 1 1 0 0 1
 refdes=C5
 }
@@ -481,7 +481,7 @@ device=CAPACITOR
 T 56200 47500 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 47450 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 47450 5 10 1 1 0 0 1
 refdes=C6
 }
@@ -496,7 +496,7 @@ device=CAPACITOR
 T 56200 45700 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 45650 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 45650 5 10 1 1 0 0 1
 refdes=C7
 }
@@ -511,7 +511,7 @@ device=CAPACITOR
 T 56200 45100 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 45050 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 45050 5 10 1 1 0 0 1
 refdes=C8
 }
@@ -526,7 +526,7 @@ device=CAPACITOR
 T 56200 44800 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 44750 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 44750 5 10 1 1 0 0 1
 refdes=C9
 }
@@ -541,7 +541,7 @@ device=CAPACITOR
 T 56200 44500 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 44450 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 44450 5 10 1 1 0 0 1
 refdes=C10
 }
@@ -556,7 +556,7 @@ device=CAPACITOR
 T 56200 44200 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 44150 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 44150 5 10 1 1 0 0 1
 refdes=C11
 }
@@ -571,7 +571,7 @@ device=CAPACITOR
 T 56200 43900 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 43850 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 43850 5 10 1 1 0 0 1
 refdes=C12
 }
@@ -586,7 +586,7 @@ device=CAPACITOR
 T 56200 43600 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 43550 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 43550 5 10 1 1 0 0 1
 refdes=C13
 }
@@ -601,7 +601,7 @@ device=CAPACITOR
 T 56200 43300 5 10 0 0 180 0 1
 footprint=0805_ext
 T 55925 43250 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 T 55500 43250 5 10 1 1 0 0 1
 refdes=C14
 }
@@ -698,7 +698,7 @@ footprint=0805_ext
 T 55500 48950 5 10 1 1 0 0 1
 refdes=C18
 T 55925 48950 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 }
 C 56600 48800 1 90 0 gnd.sym
 N 56300 48900 56100 48900 4
@@ -713,7 +713,7 @@ footprint=0805_ext
 T 55500 47750 5 10 1 1 0 0 1
 refdes=C20
 T 55925 47750 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 }
 C 56600 47600 1 90 0 gnd.sym
 N 56300 47700 56100 47700 4
@@ -728,7 +728,7 @@ footprint=0805_ext
 T 55500 45350 5 10 1 1 0 0 1
 refdes=C21
 T 55925 45350 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 }
 C 56600 45200 1 90 0 gnd.sym
 N 56300 45300 56100 45300 4
@@ -743,7 +743,7 @@ footprint=0805_ext
 T 55500 48350 5 10 1 1 0 0 1
 refdes=C19
 T 55925 48350 5 10 1 1 0 0 1
-value=120pF
+value=130pF
 }
 C 56600 48200 1 90 0 gnd.sym
 N 56300 48300 56100 48300 4
