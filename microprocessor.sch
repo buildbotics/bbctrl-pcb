@@ -317,14 +317,14 @@ C 48300 49100 1 0 0 output.sym
 T 48400 49400 5 10 0 0 0 0 1
 device=OUTPUT
 T 48850 49150 5 10 1 1 0 0 1
-net=spi_cs_a:1
+net=cs_a:1
 }
 C 48300 48800 1 0 0 output.sym
 {
 T 48400 49100 5 10 0 0 0 0 1
 device=OUTPUT
 T 48850 48850 5 10 1 1 0 0 1
-net=spi_cs_z:1
+net=cs_z:1
 }
 C 44000 43800 1 180 0 output.sym
 {
@@ -344,22 +344,22 @@ C 44000 43200 1 180 0 output.sym
 {
 T 43900 42900 5 10 0 0 180 0 1
 device=INPUT
-T 42700 43050 5 10 1 1 0 0 1
-net=spi_clk:1
+T 42500 43050 5 10 1 1 0 0 1
+net=motor_clk:1
 }
 C 44000 42600 1 180 0 output.sym
 {
 T 43900 42300 5 10 0 0 180 0 1
 device=INPUT
-T 42550 42450 5 10 1 1 0 0 1
-net=spi_mosi:1
+T 42350 42450 5 10 1 1 0 0 1
+net=motor_mosi:1
 }
 C 43200 42700 1 0 0 input.sym
 {
 T 43200 43000 5 10 0 0 0 0 1
 device=OUTPUT
-T 42550 42750 5 10 1 1 0 0 1
-net=spi_miso:1
+T 42350 42750 5 10 1 1 0 0 1
+net=motor_miso:1
 }
 C 43200 47100 1 0 0 input.sym
 {
@@ -379,8 +379,8 @@ C 48300 43000 1 0 0 output.sym
 {
 T 48400 43300 5 10 0 0 0 0 1
 device=OUTPUT
-T 49925 43175 5 10 1 1 180 0 1
-net=drv_enable:1
+T 50125 43175 5 10 1 1 180 0 1
+net=motor_enable:1
 }
 C 48300 46700 1 180 1 output.sym
 {
@@ -400,15 +400,15 @@ C 48300 49600 1 180 1 output.sym
 {
 T 48400 49300 5 10 0 0 180 6 1
 device=OUTPUT
-T 49700 49450 5 10 1 1 0 6 1
-net=spi_cs_x:1
+T 49350 49450 5 10 1 1 0 6 1
+net=cs_x:1
 }
 C 49100 43300 1 0 1 input.sym
 {
 T 49100 43600 5 10 0 0 0 6 1
 device=INPUT
-T 49700 43350 5 10 1 1 0 6 1
-net=drv_fault:1
+T 49900 43350 5 10 1 1 0 6 1
+net=motor_fault:1
 }
 C 45700 40900 1 180 0 input.sym
 {
@@ -422,7 +422,7 @@ C 48300 47000 1 180 1 output.sym
 T 48400 46700 5 10 0 0 180 6 1
 device=OUTPUT
 T 48850 46850 5 10 1 1 0 0 1
-net=spi_cs_y:1
+net=cs_y:1
 }
 C 44000 43500 1 180 0 output.sym
 {
