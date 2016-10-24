@@ -1326,7 +1326,7 @@ Via[3900.00mil 5600.00mil 27.00mil 34.00mil 34.00mil 9.00mil "" "thermal(0S,2S,3
 Via[3825.00mil 5600.00mil 27.00mil 34.00mil 34.00mil 9.00mil "" "thermal(0S,2S,3S)"]
 Via[1820.00mil 560.00mil 60.00mil 20.00mil 88.00mil 35.00mil "" ""]
 Via[4620.00mil 850.00mil 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
-Via[4450.00mil 80.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[4450.00mil 80.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[4040.00mil 940.00mil 36.00mil 20.00mil 46.00mil 20.00mil "" "thermal(1S)"]
 Via[3770.00mil 960.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1S)"]
 Via[1910.00mil 670.00mil 60.00mil 20.00mil 70.00mil 35.00mil "" ""]
@@ -1703,11 +1703,11 @@ Via[2080.00mil 3525.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1X)"]
 Via[2235.00mil 3195.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1X)"]
 Via[2505.00mil 2900.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[2495.00mil 2955.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[2015.00mil 1515.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1775.00mil 1150.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1705.00mil 1235.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1665.00mil 1320.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(1X)"]
-Via[1860.00mil 1010.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(1X)"]
+Via[2015.00mil 1515.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[1775.00mil 1150.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[1705.00mil 1235.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[1665.00mil 1320.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1X)"]
+Via[1860.00mil 1010.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1X)"]
 Via[1140.00mil 1320.00mil 2.0000mm 20.00mil 86.00mil 1.5000mm "" "thermal(0S)"]
 Via[610.00mil 410.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[65.6087mm 77.5848mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
@@ -1753,11 +1753,11 @@ Via[4910.00mil 5920.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[2980.00mil 4780.00mil 2.0000mm 20.00mil 86.00mil 1.5000mm "" "thermal(0S,2S)"]
 Via[2970.00mil 3650.00mil 2.0000mm 20.00mil 86.00mil 1.5000mm "" "thermal(0S,2S)"]
 Via[200.00mil 720.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[150.00mil 4140.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[150.00mil 4140.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[230.00mil 3500.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
-Via[1600.00mil 1040.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1440.00mil 2330.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[620.00mil 2070.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1600.00mil 1040.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[1440.00mil 2330.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
+Via[620.00mil 2070.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 
 Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -5.2257mm -4.3438mm 0 77 ""]
 (
@@ -5020,7 +5020,7 @@ Element["" "0805_ext" "D/A/R10" "180" 1940.00mil 37.4560mm -5.7441mm -1.5531mm 0
 
 	)
 
-Element["" "0805_ext" "D/A/C10" "130pF" 1890.00mil 1290.00mil -436.50mil -1.50mil 0 77 ""]
+Element["" "0805_ext" "D/A/C10" "130pF" 1890.00mil 1290.00mil -456.50mil -21.50mil 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5930,7 +5930,7 @@ Element["" "0805_ext" "D/Z/C11" "130pF" 56.5240mm 3555.00mil -266.50mil -21.50mi
 
 	)
 
-Element["" "0805_ext" "D/A/R8" "180" 1890.00mil 1145.00mil -251.50mil -21.50mil 0 77 ""]
+Element["" "0805_ext" "D/A/R8" "180" 1890.00mil 1145.00mil -341.50mil -21.50mil 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -5944,7 +5944,7 @@ Element["" "0805_ext" "D/A/R8" "180" 1890.00mil 1145.00mil -251.50mil -21.50mil 
 
 	)
 
-Element["" "0805_ext" "D/A/C11" "130pF" 48.0150mm 1355.00mil -266.50mil -21.50mil 0 77 ""]
+Element["" "0805_ext" "D/A/C11" "130pF" 48.0150mm 1355.00mil -276.50mil -6.50mil 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -6156,7 +6156,7 @@ Element["" "0805_ext" "D/Z/C9" "130pF" 56.5240mm 3265.00mil -266.50mil -21.50mil
 
 	)
 
-Element["" "JUMPER4" "D/A/J2" "unknown" 2040.00mil 1090.00mil -5.0730mm -2.9195mm 0 75 ""]
+Element["" "JUMPER4" "D/A/J2" "unknown" 2040.00mil 1090.00mil -4.9460mm -3.9355mm 0 75 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
