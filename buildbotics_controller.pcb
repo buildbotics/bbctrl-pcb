@@ -2545,21 +2545,6 @@ Element["" "0805_ext" "R/R1" "2.4k" 960.00mil 10.1690mm -1.0980mm -2.5950mm 1 77
 
 	)
 
-Element["" "EPCOS_CAP_6800_B41231B7688M000" "P/C1" "6800uF" 1730.00mil 2020.00mil 7.4080mm -448.95mil 0 77 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -5.0000mm 4.0000mm 1.4412mm 4.1600mm 2.0000mm "+" "1" "thermal(0S)"]
-	Pin[0.0000 5.0000mm 4.0000mm 1.2888mm 4.1600mm 2.0000mm "-" "2" "thermal(1S)"]
-	ElementLine [-5.0000mm -6.0000mm -5.0000mm -4.0000mm 0.2500mm]
-	ElementLine [-6.0000mm -5.0000mm -4.0000mm -5.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 12.2000mm 12.2000mm 0 360 0.2500mm]
-
-	)
-
 Element["" "0805_ext" "M/C31" "0.1uF" 30.5000mm 136.2500mm -3.5000mm 1.5000mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
@@ -8733,10 +8718,6 @@ Layer(1 "top")
 	(
 		[800.00mil 2380.00mil] [1950.00mil 2380.00mil] [1950.00mil 2935.00mil] [1655.00mil 2935.00mil] [1655.00mil 2855.00mil] 
 		[1550.00mil 2855.00mil] [1550.00mil 2620.00mil] [1460.00mil 2620.00mil] [1460.00mil 2505.00mil] [800.00mil 2505.00mil] 
-	)
-	Polygon("clearpoly")
-	(
-		[2035.00mil 1580.00mil] [1480.00mil 1580.00mil] [1480.00mil 2050.00mil] [2035.00mil 2050.00mil] 
 	)
 	Polygon("clearpoly")
 	(
