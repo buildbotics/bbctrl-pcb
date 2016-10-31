@@ -2343,7 +2343,7 @@ Element["" "0805_ext" "D/Z/C1" "1uF" 60.5596mm 73.7263mm -6.3113mm 0.6566mm 0 77
 
 	)
 
-Element["" "0805_ext" "D/Z/C2" ".1uF" 60.5868mm 72.1121mm -8.6728mm -0.4795mm 0 77 ""]
+Element["" "0805_ext" "D/Z/C2" ".1uF" 60.5868mm 72.1121mm -7.2468mm -2.2621mm 0 77 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5396,21 +5396,7 @@ Element["" "DualSuperSO8" "D/Y/Q4" "unknown" 3699.30mil 109.4123mm -1.6061mm 2.7
 
 	)
 
-Element["" "0805_ext" "D/A/C7" "10nF" 100.5930mm 2040.00mil -31.50mil -31.50mil 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-
-	)
-
-Element["" "0805_ext" "D/A/C6" "10nF" 100.7200mm 1765.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0805_ext" "D/A/C7" "10nF" 2900.00mil 1300.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5438,35 +5424,7 @@ Element["" "0805_ext" "D/Z/C7" "10nF" 102.7520mm 2805.00mil -31.50mil -31.50mil 
 
 	)
 
-Element["" "0805_ext" "D/Z/C6" "10nF" 100.3390mm 2695.00mil -31.50mil -31.50mil 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-
-	)
-
 Element["" "0805_ext" "D/X/C7" "10nF" 101.7360mm 4865.00mil 0.4532mm -51.67mil 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-
-	)
-
-Element["" "0805_ext" "D/X/C6" "10nF" 102.1454mm 137.2018mm -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5494,35 +5452,6 @@ Element["" "0805_ext" "D/Y/C7" "10nF" 101.1010mm 4275.00mil -31.50mil -31.50mil 
 
 	)
 
-Element["" "0805_ext" "D/Y/C6" "10nF" 100.3390mm 4395.00mil -31.50mil -31.50mil 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-
-	)
-
-Element["" "226CKS063M_22uF_CAP.fp" "D/X/C16" "22u" 114.7766mm 130.9006mm 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
-	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
-	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
-
-	)
-
 Element["" "226CKS063M_22uF_CAP.fp" "D/X/C15" "22u" 111.7405mm 135.4224mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
@@ -5530,8 +5459,8 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/X/C15" "22u" 111.7405mm 135.4224mm 0.0000
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
 	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
 	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
 	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
@@ -5553,66 +5482,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/X/C12" "22u" 4700.00mil 4800.00mil 50.00m
 
 	)
 
-Element["" "35ZLH470MEFC10X16_470uF_CAP.fp" "D/X/C13" "470uF" 110.5800mm 122.8277mm 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "+" "1" ""]
-	Pin[0.0000 2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "-" "2" ""]
-	ElementLine [-5.0000mm -6.0000mm -5.0000mm -4.0000mm 0.2500mm]
-	ElementLine [-6.0000mm -5.0000mm -4.0000mm -5.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 6.2500mm 6.2500mm 0 360 0.2500mm]
-
-	)
-
-Element["" "0805_ext" "D/A/C5" "100nF" 2650.00mil 1300.00mil 0.3659mm 0.0695mm 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-
-	)
-
-Element["" "226CKS063M_22uF_CAP.fp" "D/A/C16" "22u" 3143.30mil 1456.80mil 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
-	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
-	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
-
-	)
-
-Element["" "226CKS063M_22uF_CAP.fp" "D/A/C15" "22u" 2600.00mil 1000.00mil 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
-	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
-	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
-
-	)
-
-Element["" "226CKS063M_22uF_CAP.fp" "D/A/C12" "22u" 83.0404mm 25.6934mm 0.0000 0.0000 0 100 ""]
+Element["" "226CKS063M_22uF_CAP.fp" "D/A/C15" "22u" 2750.00mil 1150.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5627,30 +5497,15 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/A/C12" "22u" 83.0404mm 25.6934mm 0.0000 0
 
 	)
 
-Element["" "35ZLH470MEFC10X16_470uF_CAP.fp" "D/A/C13" "470uF" 73.6640mm 29.3658mm 0.0000 0.0000 0 100 ""]
+Element["" "226CKS063M_22uF_CAP.fp" "D/A/C12" "22u" 3050.00mil 1150.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "+" "1" ""]
-	Pin[0.0000 2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "-" "2" ""]
-	ElementLine [-5.0000mm -6.0000mm -5.0000mm -4.0000mm 0.2500mm]
-	ElementLine [-6.0000mm -5.0000mm -4.0000mm -5.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 6.2500mm 6.2500mm 0 360 0.2500mm]
-
-	)
-
-Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C16" "22u" 111.1670mm 76.7882mm 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
 	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
 	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
 	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
@@ -5664,8 +5519,8 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C15" "22u" 104.4096mm 80.4950mm 0.0000 
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
 	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
 	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
 	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
@@ -5687,52 +5542,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C12" "22u" 120.2407mm 67.6024mm 0.0000 
 
 	)
 
-Element["" "35ZLH470MEFC10X16_470uF_CAP.fp" "D/Z/C13" "470uF" 109.1809mm 66.7202mm 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "+" "1" ""]
-	Pin[0.0000 2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "-" "2" ""]
-	ElementLine [-5.0000mm -6.0000mm -5.0000mm -4.0000mm 0.2500mm]
-	ElementLine [-6.0000mm -5.0000mm -4.0000mm -5.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 6.2500mm 6.2500mm 0 360 0.2500mm]
-
-	)
-
-Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C16" "22u" 118.1197mm 91.2664mm 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
-	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
-	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
-
-	)
-
 Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C15" "22u" 101.3173mm 3947.50mil 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" ""]
-	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
-	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
-
-	)
-
-Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C12" "22u" 113.8888mm 102.8140mm 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5747,22 +5557,67 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C12" "22u" 113.8888mm 102.8140mm 0.0000
 
 	)
 
-Element["" "35ZLH470MEFC10X16_470uF_CAP.fp" "D/Y/C13" "470uF" 108.2913mm 94.8751mm 0.0000 0.0000 0 100 ""]
+Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C12" "22u" 113.8888mm 4047.80mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 -2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "+" "1" ""]
-	Pin[0.0000 2.5000mm 1.3000mm 0.5000mm 1.4600mm 0.8000mm "-" "2" ""]
-	ElementLine [-5.0000mm -6.0000mm -5.0000mm -4.0000mm 0.2500mm]
-	ElementLine [-6.0000mm -5.0000mm -4.0000mm -5.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 6.2500mm 6.2500mm 0 360 0.2500mm]
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
 
 	)
 
-Element["" "0805_ext" "D/X/C5" "100nF" 3979.90mil 119.2831mm -31.50mil -31.50mil 0 100 ""]
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/X/C6" "180u" 4500.00mil 5000.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/X/C16" "22u" 4400.00mil 4650.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/X/C13" "22u" 4050.00mil 4700.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "0805_ext" "D/X/C17" "10nF" 4500.00mil 4800.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5776,7 +5631,67 @@ Element["" "0805_ext" "D/X/C5" "100nF" 3979.90mil 119.2831mm -31.50mil -31.50mil
 
 	)
 
-Element["" "0805_ext" "D/Z/C5" "100nF" 101.3421mm 64.7324mm -31.50mil -31.50mil 0 100 ""]
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/X/C5" "180u" 4100.00mil 5100.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/A/C6" "180u" 1700.00mil 1650.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/A/C16" "22u" 2300.00mil 2100.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/A/C13" "22u" 2050.00mil 1650.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "0805_ext" "D/A/C17" "10nF" 2050.00mil 2150.00mil 0.2378mm 0.0083mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5790,7 +5705,67 @@ Element["" "0805_ext" "D/Z/C5" "100nF" 101.3421mm 64.7324mm -31.50mil -31.50mil 
 
 	)
 
-Element["" "0805_ext" "D/Y/C5" "100nF" 106.6034mm 105.0903mm -31.50mil -31.50mil 0 100 ""]
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/A/C5" "180u" 1950.00mil 1900.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Z/C6" "180u" 4950.00mil 2900.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C16" "22u" 4450.00mil 2750.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C13" "22u" 4400.00mil 3000.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "0805_ext" "D/Z/C17" "10nF" 4150.00mil 2950.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5801,6 +5776,95 @@ Element["" "0805_ext" "D/Y/C5" "100nF" 106.6034mm 105.0903mm -31.50mil -31.50mil
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Z/C5" "180u" 4150.00mil 2550.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Y/C6" "180u" 4600.00mil 3650.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C16" "22u" 4400.00mil 3850.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C13" "22u" 4250.00mil 4150.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
+	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+
+	)
+
+Element["" "0805_ext" "D/Y/C17" "10nF" 4050.00mil 4100.00mil -31.50mil -31.50mil 0 100 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
+	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Y/C5" "180u" 4150.00mil 3650.00mil 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 -1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "+" "1" ""]
+	Pin[0.0000 1.7500mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "-" "2" ""]
+	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
 
 	)
 Rat[19.1110mm 750.00mil 0 810.00mil 695.00mil 0  ""]
@@ -6184,17 +6248,18 @@ Rat[86.7314mm 84.2186mm 0 25.00mil 25.00mil 2  "via"]
 Rat[86.4048mm 57.8639mm 0 25.00mil 25.00mil 2  "via"]
 Rat[70.1512mm 82.1585mm 3 25.00mil 25.00mil 2  "via"]
 Rat[60.1485mm 91.6843mm 3 25.00mil 25.00mil 2  "via"]
-Rat[111.1670mm 77.7882mm 3 25.00mil 25.00mil 2  "via"]
+Rat[106.7320mm 2950.00mil 0 25.00mil 25.00mil 2  "via"]
+Rat[4450.00mil 70.8500mm 3 25.00mil 25.00mil 2  "via"]
 Rat[104.4096mm 81.4950mm 3 25.00mil 25.00mil 2  "via"]
-Rat[109.1809mm 69.2202mm 3 25.00mil 25.00mil 2  "via"]
+Rat[4400.00mil 77.2000mm 3 25.00mil 25.00mil 2  "via"]
 Rat[120.2407mm 68.6024mm 3 25.00mil 25.00mil 2  "via"]
 Rat[55.2020mm 3555.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[55.1930mm 3485.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[55.2020mm 3265.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[72.0542mm 80.1741mm 0 25.00mil 25.00mil 2  "via"]
 Rat[4097.40mil 2805.00mil 0 25.00mil 25.00mil 2  "via"]
-Rat[4002.40mil 2695.00mil 0 25.00mil 25.00mil 2  "via"]
-Rat[4041.90mil 64.7324mm 0 25.00mil 25.00mil 2  "via"]
+Rat[4950.00mil 75.4100mm 3 25.00mil 25.00mil 2  "via"]
+Rat[4150.00mil 66.5200mm 3 25.00mil 25.00mil 2  "via"]
 Rat[59.2648mm 72.1121mm 0 25.00mil 25.00mil 2  "via"]
 Rat[59.2376mm 73.7263mm 0 25.00mil 25.00mil 2  "via"]
 Rat[75.0125mm 98.4261mm 0 25.00mil 25.00mil 2  "via"]
@@ -6207,17 +6272,18 @@ Rat[86.6594mm 113.7799mm 0 25.00mil 25.00mil 2  "via"]
 Rat[86.7962mm 86.7439mm 0 25.00mil 25.00mil 2  "via"]
 Rat[69.9613mm 111.5576mm 3 25.00mil 25.00mil 2  "via"]
 Rat[58.1060mm 116.6619mm 3 25.00mil 25.00mil 2  "via"]
-Rat[118.1197mm 92.2664mm 3 25.00mil 25.00mil 2  "via"]
+Rat[104.1920mm 4100.00mil 0 25.00mil 25.00mil 2  "via"]
+Rat[4400.00mil 98.7900mm 3 25.00mil 25.00mil 2  "via"]
 Rat[101.3173mm 101.2665mm 3 25.00mil 25.00mil 2  "via"]
-Rat[108.2913mm 97.3751mm 3 25.00mil 25.00mil 2  "via"]
-Rat[113.8888mm 103.8140mm 3 25.00mil 25.00mil 2  "via"]
+Rat[4250.00mil 106.4100mm 3 25.00mil 25.00mil 2  "via"]
+Rat[113.8888mm 103.8141mm 3 25.00mil 25.00mil 2  "via"]
 Rat[52.6620mm 4525.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[52.6620mm 4450.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[52.5350mm 4245.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[72.0230mm 109.0455mm 0 25.00mil 25.00mil 2  "via"]
 Rat[4032.40mil 4275.00mil 0 25.00mil 25.00mil 2  "via"]
-Rat[4002.40mil 4395.00mil 0 25.00mil 25.00mil 2  "via"]
-Rat[107.9254mm 105.0903mm 0 25.00mil 25.00mil 2  "via"]
+Rat[4600.00mil 94.4600mm 3 25.00mil 25.00mil 2  "via"]
+Rat[4150.00mil 94.4600mm 3 25.00mil 25.00mil 2  "via"]
 Rat[58.8862mm 101.6970mm 0 25.00mil 25.00mil 2  "via"]
 Rat[58.9620mm 4065.30mil 0 25.00mil 25.00mil 2  "via"]
 Rat[2958.70mil 127.9199mm 0 25.00mil 25.00mil 2  "via"]
@@ -6230,17 +6296,18 @@ Rat[86.0819mm 142.5938mm 0 25.00mil 25.00mil 2  "via"]
 Rat[86.6510mm 116.2681mm 0 25.00mil 25.00mil 2  "via"]
 Rat[69.8028mm 141.3784mm 3 25.00mil 25.00mil 2  "via"]
 Rat[49.1402mm 136.8059mm 3 25.00mil 25.00mil 2  "via"]
-Rat[114.7766mm 131.9006mm 3 25.00mil 25.00mil 2  "via"]
+Rat[115.6220mm 4800.00mil 0 25.00mil 25.00mil 2  "via"]
+Rat[4400.00mil 119.1100mm 3 25.00mil 25.00mil 2  "via"]
 Rat[111.7405mm 136.4224mm 3 25.00mil 25.00mil 2  "via"]
-Rat[110.5800mm 125.3277mm 3 25.00mil 25.00mil 2  "via"]
+Rat[4050.00mil 120.3800mm 3 25.00mil 25.00mil 2  "via"]
 Rat[4700.00mil 122.9200mm 3 25.00mil 25.00mil 2  "via"]
 Rat[43.8990mm 5380.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[43.8810mm 5290.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[43.8990mm 5055.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[72.0290mm 138.4181mm 0 25.00mil 25.00mil 2  "via"]
 Rat[4057.40mil 4865.00mil 0 25.00mil 25.00mil 2  "via"]
-Rat[103.4674mm 137.2018mm 0 25.00mil 25.00mil 2  "via"]
-Rat[102.4113mm 119.2831mm 0 25.00mil 25.00mil 2  "via"]
+Rat[4500.00mil 128.7500mm 3 25.00mil 25.00mil 2  "via"]
+Rat[4100.00mil 131.2900mm 3 25.00mil 25.00mil 2  "via"]
 Rat[59.5066mm 131.1387mm 0 25.00mil 25.00mil 2  "via"]
 Rat[59.5446mm 132.8905mm 0 25.00mil 25.00mil 2  "via"]
 Rat[48.9284mm 101.8997mm 3 25.00mil 25.00mil 2  "via"]
@@ -6257,17 +6324,18 @@ Rat[86.6052mm 55.7909mm 0 25.00mil 25.00mil 2  "via"]
 Rat[86.4269mm 29.5340mm 0 25.00mil 25.00mil 2  "via"]
 Rat[70.2346mm 53.6224mm 3 25.00mil 25.00mil 2  "via"]
 Rat[2040.00mil 1390.00mil 3 25.00mil 25.00mil 2  "via"]
-Rat[3143.30mil 38.0027mm 3 25.00mil 25.00mil 2  "via"]
-Rat[2600.00mil 26.4000mm 3 25.00mil 25.00mil 2  "via"]
-Rat[73.6640mm 31.8658mm 3 25.00mil 25.00mil 2  "via"]
-Rat[83.0404mm 26.6934mm 3 25.00mil 25.00mil 2  "via"]
+Rat[53.3920mm 2150.00mil 0 25.00mil 25.00mil 2  "via"]
+Rat[2300.00mil 54.3400mm 3 25.00mil 25.00mil 2  "via"]
+Rat[2750.00mil 30.2100mm 3 25.00mil 25.00mil 2  "via"]
+Rat[2050.00mil 42.9100mm 3 25.00mil 25.00mil 2  "via"]
+Rat[3050.00mil 30.2100mm 3 25.00mil 25.00mil 2  "via"]
 Rat[46.6930mm 1355.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[46.6840mm 1290.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[46.6840mm 1075.00mil 0 25.00mil 25.00mil 2  "via"]
 Rat[72.0184mm 51.8732mm 0 25.00mil 25.00mil 2  "via"]
-Rat[4012.40mil 2040.00mil 0 25.00mil 25.00mil 2  "via"]
-Rat[4017.40mil 1765.00mil 0 25.00mil 25.00mil 2  "via"]
-Rat[68.6320mm 1300.00mil 0 25.00mil 25.00mil 2  "via"]
+Rat[74.9820mm 1300.00mil 0 25.00mil 25.00mil 2  "via"]
+Rat[1700.00mil 43.6600mm 3 25.00mil 25.00mil 2  "via"]
+Rat[1950.00mil 50.0100mm 3 25.00mil 25.00mil 2  "via"]
 Rat[59.1787mm 43.6105mm 0 25.00mil 25.00mil 2  "via"]
 Rat[125.3450mm 38.3210mm 0 121.7826mm 46.4784mm 0  ""]
 Rat[121.7826mm 46.4784mm 0 116.7008mm 44.8727mm 0  ""]
@@ -6479,7 +6547,7 @@ Rat[130.8900mm 136.3700mm 3 114.1032mm 48.6849mm 0  ""]
 Rat[130.8900mm 136.3700mm 3 31.6721mm 130.5684mm 0  ""]
 Rat[130.8900mm 133.6000mm 3 113.8244mm 36.6441mm 0  ""]
 Rat[130.8900mm 133.6000mm 3 26.9176mm 122.2670mm 0  ""]
-Rat[65.9880mm 1300.00mil 0 25.00mil 10.00mil 1  "via"]
+Rat[1950.00mil 46.5100mm 3 25.00mil 10.00mil 1  "via"]
 Rat[96.8225mm 82.4860mm 0 25.00mil 10.00mil 1  "via"]
 Rat[134.6900mm 47.4000mm 3 25.00mil 10.00mil 1  "via"]
 Rat[96.7227mm 72.9016mm 0 25.00mil 10.00mil 1  "via"]
@@ -6487,13 +6555,14 @@ Rat[131.6900mm 34.4000mm 3 25.00mil 10.00mil 1  "via"]
 Rat[96.6955mm 69.4050mm 0 25.00mil 10.00mil 1  "via"]
 Rat[134.6900mm 34.4000mm 3 25.00mil 10.00mil 1  "via"]
 Rat[96.6955mm 60.2633mm 0 25.00mil 10.00mil 1  "via"]
-Rat[111.1670mm 75.7882mm 3 25.00mil 10.00mil 1  "via"]
+Rat[104.0880mm 2950.00mil 0 25.00mil 10.00mil 1  "via"]
+Rat[4450.00mil 68.8500mm 3 25.00mil 10.00mil 1  "via"]
 Rat[104.4096mm 79.4950mm 3 25.00mil 10.00mil 1  "via"]
-Rat[109.1809mm 64.2202mm 3 25.00mil 10.00mil 1  "via"]
+Rat[4400.00mil 75.2000mm 3 25.00mil 10.00mil 1  "via"]
 Rat[120.2407mm 66.6024mm 3 25.00mil 10.00mil 1  "via"]
 Rat[101.4300mm 2805.00mil 0 25.00mil 10.00mil 1  "via"]
-Rat[99.0170mm 2695.00mil 0 25.00mil 10.00mil 1  "via"]
-Rat[100.0201mm 64.7324mm 0 25.00mil 10.00mil 1  "via"]
+Rat[4950.00mil 71.9100mm 3 25.00mil 10.00mil 1  "via"]
+Rat[4150.00mil 63.0200mm 3 25.00mil 10.00mil 1  "via"]
 Rat[18.3250mm 63.0930mm 0 25.00mil 10.00mil 1  "via"]
 Rat[96.8497mm 111.2533mm 0 25.00mil 10.00mil 1  "via"]
 Rat[44.2330mm 3005.00mil 0 25.00mil 10.00mil 1  "via"]
@@ -6502,13 +6571,14 @@ Rat[1180.00mil 59.2340mm 0 25.00mil 10.00mil 1  "via"]
 Rat[96.8225mm 97.9800mm 0 25.00mil 10.00mil 1  "via"]
 Rat[1675.00mil 75.6490mm 0 25.00mil 10.00mil 1  "via"]
 Rat[96.8225mm 89.0923mm 0 25.00mil 10.00mil 1  "via"]
-Rat[118.1197mm 3553.80mil 3 25.00mil 10.00mil 1  "via"]
+Rat[101.5480mm 4100.00mil 0 25.00mil 10.00mil 1  "via"]
+Rat[4400.00mil 96.7900mm 3 25.00mil 10.00mil 1  "via"]
 Rat[101.3173mm 99.2665mm 3 25.00mil 10.00mil 1  "via"]
-Rat[108.2913mm 92.3751mm 3 25.00mil 10.00mil 1  "via"]
-Rat[113.8888mm 101.8140mm 3 25.00mil 10.00mil 1  "via"]
+Rat[4250.00mil 104.4100mm 3 25.00mil 10.00mil 1  "via"]
+Rat[113.8888mm 101.8141mm 3 25.00mil 10.00mil 1  "via"]
 Rat[99.7790mm 4275.00mil 0 25.00mil 10.00mil 1  "via"]
-Rat[99.0170mm 4395.00mil 0 25.00mil 10.00mil 1  "via"]
-Rat[105.2814mm 105.0903mm 0 25.00mil 10.00mil 1  "via"]
+Rat[4600.00mil 90.9600mm 3 25.00mil 10.00mil 1  "via"]
+Rat[4150.00mil 90.9600mm 3 25.00mil 10.00mil 1  "via"]
 Rat[131.6900mm 47.4000mm 3 25.00mil 10.00mil 1  "via"]
 Rat[96.7227mm 140.7172mm 0 25.00mil 10.00mil 1  "via"]
 Rat[460.00mil 64.5680mm 0 25.00mil 10.00mil 1  "via"]
@@ -6517,13 +6587,14 @@ Rat[97.3480mm 1060.00mil 0 25.00mil 10.00mil 1  "via"]
 Rat[96.6955mm 127.5710mm 0 25.00mil 10.00mil 1  "via"]
 Rat[12.0580mm 51.1560mm 0 25.00mil 10.00mil 1  "via"]
 Rat[3808.60mil 118.5944mm 0 25.00mil 10.00mil 1  "via"]
-Rat[114.7766mm 5114.20mil 3 25.00mil 10.00mil 1  "via"]
+Rat[112.9780mm 4800.00mil 0 25.00mil 10.00mil 1  "via"]
+Rat[4400.00mil 117.1100mm 3 25.00mil 10.00mil 1  "via"]
 Rat[111.7405mm 134.4224mm 3 25.00mil 10.00mil 1  "via"]
-Rat[110.5800mm 120.3277mm 3 25.00mil 10.00mil 1  "via"]
+Rat[4050.00mil 118.3800mm 3 25.00mil 10.00mil 1  "via"]
 Rat[4700.00mil 120.9200mm 3 25.00mil 10.00mil 1  "via"]
 Rat[100.4140mm 4865.00mil 0 25.00mil 10.00mil 1  "via"]
-Rat[100.8234mm 137.2018mm 0 25.00mil 10.00mil 1  "via"]
-Rat[99.7673mm 119.2831mm 0 25.00mil 10.00mil 1  "via"]
+Rat[4500.00mil 125.2500mm 3 25.00mil 10.00mil 1  "via"]
+Rat[4100.00mil 127.7900mm 3 25.00mil 10.00mil 1  "via"]
 Rat[615.00mil 59.9430mm 0 25.00mil 10.00mil 1  "via"]
 Rat[96.7227mm 2130.00mil 0 25.00mil 10.00mil 1  "via"]
 Rat[34.2920mm 3135.00mil 0 25.00mil 10.00mil 1  "via"]
@@ -6532,12 +6603,13 @@ Rat[40.8920mm 3035.00mil 0 25.00mil 10.00mil 1  "via"]
 Rat[96.7227mm 40.7660mm 0 25.00mil 10.00mil 1  "via"]
 Rat[22.1340mm 2270.00mil 0 25.00mil 10.00mil 1  "via"]
 Rat[96.5957mm 31.8793mm 0 25.00mil 10.00mil 1  "via"]
-Rat[3143.30mil 36.0027mm 3 25.00mil 10.00mil 1  "via"]
-Rat[2600.00mil 24.4000mm 3 25.00mil 10.00mil 1  "via"]
-Rat[73.6640mm 26.8658mm 3 25.00mil 10.00mil 1  "via"]
-Rat[83.0404mm 24.6934mm 3 25.00mil 10.00mil 1  "via"]
-Rat[99.2710mm 2040.00mil 0 25.00mil 10.00mil 1  "via"]
-Rat[99.3980mm 1765.00mil 0 25.00mil 10.00mil 1  "via"]
+Rat[50.7480mm 2150.00mil 0 25.00mil 10.00mil 1  "via"]
+Rat[2300.00mil 52.3400mm 3 25.00mil 10.00mil 1  "via"]
+Rat[2750.00mil 28.2100mm 3 25.00mil 10.00mil 1  "via"]
+Rat[2050.00mil 40.9100mm 3 25.00mil 10.00mil 1  "via"]
+Rat[3050.00mil 28.2100mm 3 25.00mil 10.00mil 1  "via"]
+Rat[72.3380mm 1300.00mil 0 25.00mil 10.00mil 1  "via"]
+Rat[1700.00mil 40.1600mm 3 25.00mil 10.00mil 1  "via"]
 Layer(1 "top")
 (
 	Line[115.1120mm 2.2920mm 115.1120mm 3.8870mm 10.00mil 20.00mil "clearline"]
@@ -7527,6 +7599,7 @@ NetList()
 		Connect("D/A/C13-2")
 		Connect("D/A/C15-2")
 		Connect("D/A/C16-2")
+		Connect("D/A/C17-2")
 		Connect("D/A/J2-4")
 		Connect("D/A/J3-4")
 		Connect("D/A/R2-1")
@@ -7554,6 +7627,7 @@ NetList()
 		Connect("D/X/C13-2")
 		Connect("D/X/C15-2")
 		Connect("D/X/C16-2")
+		Connect("D/X/C17-2")
 		Connect("D/X/J2-4")
 		Connect("D/X/J3-4")
 		Connect("D/X/R2-1")
@@ -7577,6 +7651,7 @@ NetList()
 		Connect("D/Y/C13-2")
 		Connect("D/Y/C15-2")
 		Connect("D/Y/C16-2")
+		Connect("D/Y/C17-2")
 		Connect("D/Y/J2-4")
 		Connect("D/Y/J3-4")
 		Connect("D/Y/R2-1")
@@ -7600,6 +7675,7 @@ NetList()
 		Connect("D/Z/C13-2")
 		Connect("D/Z/C15-2")
 		Connect("D/Z/C16-2")
+		Connect("D/Z/C17-2")
 		Connect("D/Z/J2-4")
 		Connect("D/Z/J3-4")
 		Connect("D/Z/R2-1")
@@ -8519,6 +8595,7 @@ NetList()
 		Connect("D/A/C13-1")
 		Connect("D/A/C15-1")
 		Connect("D/A/C16-1")
+		Connect("D/A/C17-1")
 		Connect("D/A/Q1-7")
 		Connect("D/A/Q1-8")
 		Connect("D/A/Q2-5")
@@ -8534,6 +8611,7 @@ NetList()
 		Connect("D/X/C13-1")
 		Connect("D/X/C15-1")
 		Connect("D/X/C16-1")
+		Connect("D/X/C17-1")
 		Connect("D/X/Q1-7")
 		Connect("D/X/Q1-8")
 		Connect("D/X/Q2-5")
@@ -8549,6 +8627,7 @@ NetList()
 		Connect("D/Y/C13-1")
 		Connect("D/Y/C15-1")
 		Connect("D/Y/C16-1")
+		Connect("D/Y/C17-1")
 		Connect("D/Y/Q1-7")
 		Connect("D/Y/Q1-8")
 		Connect("D/Y/Q2-5")
@@ -8564,6 +8643,7 @@ NetList()
 		Connect("D/Z/C13-1")
 		Connect("D/Z/C15-1")
 		Connect("D/Z/C16-1")
+		Connect("D/Z/C17-1")
 		Connect("D/Z/Q1-7")
 		Connect("D/Z/Q1-8")
 		Connect("D/Z/Q2-5")
