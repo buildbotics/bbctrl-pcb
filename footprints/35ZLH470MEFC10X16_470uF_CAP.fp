@@ -3,7 +3,7 @@
 # dist-license: GPL
 # use-license: unlimited
 
-Element["" "Rubycon 35ZLH470MEFC10X16 470uF Cap" "C?" "1000uF" 0 0 0 0 0 100 ""]
+Element["" "Rubycon 35ZLH470MEFC10X16 470uF Cap" "C?" "470uF" 0 0 0 0 0 100 ""]
 (
 	Pin[0 -2.5mm 1.3mm .5mm 1.46mm .8mm "+" "1" ""]
 	Pin[0 2.5mm 1.3mm .5mm 1.46mm .8mm "-" "2" ""]
