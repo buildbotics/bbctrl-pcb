@@ -2028,7 +2028,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/X/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["" "Molex_39-30-0060" "P/J1" "6-Pin" 130.7500mm 12.7500mm -10.7500mm 3.7500mm 0 81 ""]
+Element["lock" "Molex_39-30-0060" "P/J1" "6-Pin" 130.7118mm 12.8000mm -10.7349mm 1.5076mm 0 81 ""]
 (
 	Attribute("device" "CONNECTOR_6")
 	Attribute("manufacturer" "unknown")
@@ -2072,7 +2072,7 @@ Element["" "HEADER6_2" "M/ISP" "6-Pin Header" 4.2500mm 103.2500mm 2.5520mm -3.17
 
 	)
 
-Element["" "NORCOMP_182-025-113R161_DB25M.fp" "H/J4" "25-Pin DSUB" 132.2500mm 119.7500mm -2.0000mm -28.0000mm 0 77 ""]
+Element["lock" "NORCOMP_182-025-113R161_DB25M.fp" "H/J4" "25-Pin DSUB" 132.3100mm 119.7500mm -2.9721mm -28.1119mm 0 77 ""]
 (
 	Attribute("device" "DB25")
 	Attribute("manufacturer" "unknown")
@@ -2468,7 +2468,7 @@ Element["" "SOT23_2" "H/LD1/Q2" "unknown" 121.0000mm 41.7500mm -5.4767mm -3.1102
 
 	)
 
-Element["" "Right-angle M3 Mounting Block" "" "" 130.7500mm 5.0000mm 2.7500mm -0.7500mm 3 100 ""]
+Element["lock" "Right-angle M3 Mounting Block" "" "" 130.7500mm 5.0000mm 2.7500mm -0.7500mm 3 100 ""]
 (
 	Pin[0.0000 0.0000 3.2500mm 16.00mil 3.2500mm 3.2500mm "1" "1" "hole,edge2"]
 	ElementLine [-4.5000mm -3.0000mm -4.5000mm 3.0000mm 10.00mil]
@@ -3817,7 +3817,7 @@ Element["" "0805_ext" "D/X/R11" "180" 8.2500mm 92.2500mm 21.50mil 223.50mil 1 77
 
 	)
 
-Element["" "Right-angle M3 Mounting Block" "" "" 130.7500mm 150.0000mm 1.2500mm -0.5000mm 3 100 ""]
+Element["lock" "Right-angle M3 Mounting Block" "" "" 130.7500mm 150.0000mm 1.2500mm -0.5000mm 3 100 ""]
 (
 	Pin[0.0000 0.0000 3.2500mm 16.00mil 3.2500mm 3.2500mm "1" "1" "hole,edge2"]
 	ElementLine [-4.5000mm -3.0000mm -4.5000mm 3.0000mm 10.00mil]
@@ -7765,9 +7765,9 @@ Layer(1 "top")
 	Line[26.7500mm 115.0000mm 17.2500mm 115.0000mm 10.00mil 20.00mil "clearline"]
 	Line[17.2500mm 115.0000mm 14.5000mm 112.2500mm 10.00mil 20.00mil "clearline"]
 	Line[14.5000mm 110.0000mm 18.7500mm 105.7500mm 10.00mil 20.00mil "clearline"]
-	Line[133.7500mm 106.7500mm 135.0000mm 105.7500mm 10.00mil 20.00mil "clearline"]
-	Line[135.0000mm 105.7500mm 135.0000mm 103.5000mm 10.00mil 20.00mil "clearline"]
-	Line[135.0000mm 103.5000mm 130.5000mm 99.0000mm 10.00mil 20.00mil "clearline"]
+	Line[133.7500mm 106.7500mm 135.2500mm 105.5000mm 10.00mil 20.00mil "clearline"]
+	Line[135.2500mm 105.5000mm 135.2500mm 103.7500mm 10.00mil 20.00mil "clearline"]
+	Line[135.2500mm 103.7500mm 130.5000mm 99.0000mm 10.00mil 20.00mil "clearline"]
 	Line[130.5000mm 99.0000mm 128.2500mm 99.0000mm 10.00mil 20.00mil "clearline"]
 	Line[127.7500mm 98.5000mm 127.7500mm 97.0000mm 10.00mil 20.00mil "clearline"]
 	Line[125.0000mm 98.2500mm 113.2500mm 110.0000mm 10.00mil 20.00mil "clearline"]
