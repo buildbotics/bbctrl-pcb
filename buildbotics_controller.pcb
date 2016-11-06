@@ -1958,7 +1958,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -1980,7 +1980,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Z/J1" "4-Pin Male Connector" 133.
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -2002,7 +2002,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Y/J1" "4-Pin Male Connector" 133.
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -2024,7 +2024,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/X/J1" "4-Pin Male Connector" 133.
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -2043,10 +2043,10 @@ Element["lock" "Molex_39-30-0060" "P/J1" "6-Pin" 130.7118mm 12.8000mm -10.7349mm
 	Pin[-217.00mil 330.00mil 100.00mil 60.00mil 140.00mil 70.00mil "6" "6" "square,edge2,thermal(2S)"]
 	Pin[287.00mil 0.0000 118.00mil 0.0000 150.00mil 118.00mil "1" "1" "hole,edge2"]
 	Pin[287.00mil 330.00mil 118.00mil 0.0000 150.00mil 118.00mil "1" "1" "hole,edge2"]
-	ElementLine [-300.00mil -107.00mil 510.00mil -107.00mil 10.00mil]
-	ElementLine [510.00mil -107.00mil 510.00mil 437.00mil 10.00mil]
-	ElementLine [510.00mil 437.00mil -300.00mil 437.00mil 10.00mil]
-	ElementLine [-300.00mil 437.00mil -300.00mil -107.00mil 10.00mil]
+	ElementLine [-300.00mil -107.00mil 510.00mil -107.00mil 0.2500mm]
+	ElementLine [510.00mil -107.00mil 510.00mil 437.00mil 0.2500mm]
+	ElementLine [510.00mil 437.00mil -300.00mil 437.00mil 0.2500mm]
+	ElementLine [-300.00mil 437.00mil -300.00mil -107.00mil 0.2500mm]
 
 	)
 
@@ -2063,12 +2063,12 @@ Element["" "HEADER6_2" "M/ISP" "6-Pin Header" 4.2500mm 103.2500mm 2.5520mm -3.17
 	Pin[100.00mil 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
 	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" ""]
 	Pin[100.00mil 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "thermal(2X)"]
-	ElementLine [-50.00mil -50.00mil -50.00mil 250.00mil 10.00mil]
-	ElementLine [-50.00mil 250.00mil 150.00mil 250.00mil 10.00mil]
-	ElementLine [150.00mil 250.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 250.00mil 0.2500mm]
+	ElementLine [-50.00mil 250.00mil 150.00mil 250.00mil 0.2500mm]
+	ElementLine [150.00mil 250.00mil 150.00mil -50.00mil 0.2500mm]
+	ElementLine [150.00mil -50.00mil -50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 0.2500mm]
 
 	)
 
@@ -2139,7 +2139,7 @@ Element["lock" "AMPHENOL_10127720-061LF" "H/LD2/J1" "6-Pin Male Connector" 133.1
 	ElementLine [9.9000mm -5.3000mm 9.9000mm 5.3000mm 0.2500mm]
 	ElementLine [9.9000mm 5.3000mm 8.9000mm 6.3000mm 0.2500mm]
 	ElementLine [0.0000 6.3000mm 8.9000mm 6.3000mm 0.2500mm]
-	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -2163,7 +2163,7 @@ Element["lock" "AMPHENOL_10127720-061LF" "H/LD1/J1" "6-Pin Male Connector" 133.1
 	ElementLine [9.9000mm -5.3000mm 9.9000mm 5.3000mm 0.2500mm]
 	ElementLine [9.9000mm 5.3000mm 8.9000mm 6.3000mm 0.2500mm]
 	ElementLine [0.0000 6.3000mm 8.9000mm 6.3000mm 0.2500mm]
-	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -2182,12 +2182,12 @@ Element["" "SO8_extra_clearance" "H/LD2/Q1" "POWER MOSFET" 127.2500mm 29.0000mm 
 	Pad[-25.00mil 70.00mil -25.00mil 135.00mil 20.00mil 0.0000 40.00mil "D" "6" "square,edge2"]
 	Pad[25.00mil 70.00mil 25.00mil 135.00mil 20.00mil 0.0000 40.00mil "D" "7" "square,edge2"]
 	Pad[75.00mil 70.00mil 75.00mil 135.00mil 20.00mil 0.0000 40.00mil "D" "8" "square,edge2"]
-	ElementLine [-95.00mil -155.00mil 95.00mil -155.00mil 10.00mil]
-	ElementLine [-95.00mil -155.00mil -95.00mil 155.00mil 10.00mil]
-	ElementLine [-95.00mil 155.00mil 95.00mil 155.00mil 10.00mil]
-	ElementLine [95.00mil -155.00mil 95.00mil -25.00mil 10.00mil]
-	ElementLine [95.00mil 25.00mil 95.00mil 155.00mil 10.00mil]
-	ElementArc [95.00mil 0.0000 25.00mil 25.00mil 270 180 10.00mil]
+	ElementLine [-95.00mil -155.00mil 95.00mil -155.00mil 0.2500mm]
+	ElementLine [-95.00mil -155.00mil -95.00mil 155.00mil 0.2500mm]
+	ElementLine [-95.00mil 155.00mil 95.00mil 155.00mil 0.2500mm]
+	ElementLine [95.00mil -155.00mil 95.00mil -25.00mil 0.2500mm]
+	ElementLine [95.00mil 25.00mil 95.00mil 155.00mil 0.2500mm]
+	ElementArc [95.00mil 0.0000 25.00mil 25.00mil 270 180 0.2500mm]
 
 	)
 
@@ -2206,12 +2206,12 @@ Element["" "SO8_extra_clearance" "H/LD1/Q1" "POWER MOSFET" 127.2500mm 41.7500mm 
 	Pad[-25.00mil 70.00mil -25.00mil 135.00mil 20.00mil 0.0000 40.00mil "D" "6" "square,edge2"]
 	Pad[25.00mil 70.00mil 25.00mil 135.00mil 20.00mil 0.0000 40.00mil "D" "7" "square,edge2"]
 	Pad[75.00mil 70.00mil 75.00mil 135.00mil 20.00mil 0.0000 40.00mil "D" "8" "square,edge2"]
-	ElementLine [-95.00mil -155.00mil 95.00mil -155.00mil 10.00mil]
-	ElementLine [-95.00mil -155.00mil -95.00mil 155.00mil 10.00mil]
-	ElementLine [-95.00mil 155.00mil 95.00mil 155.00mil 10.00mil]
-	ElementLine [95.00mil -155.00mil 95.00mil -25.00mil 10.00mil]
-	ElementLine [95.00mil 25.00mil 95.00mil 155.00mil 10.00mil]
-	ElementArc [95.00mil 0.0000 25.00mil 25.00mil 270 180 10.00mil]
+	ElementLine [-95.00mil -155.00mil 95.00mil -155.00mil 0.2500mm]
+	ElementLine [-95.00mil -155.00mil -95.00mil 155.00mil 0.2500mm]
+	ElementLine [-95.00mil 155.00mil 95.00mil 155.00mil 0.2500mm]
+	ElementLine [95.00mil -155.00mil 95.00mil -25.00mil 0.2500mm]
+	ElementLine [95.00mil 25.00mil 95.00mil 155.00mil 0.2500mm]
+	ElementArc [95.00mil 0.0000 25.00mil 25.00mil 270 180 0.2500mm]
 
 	)
 
@@ -2224,8 +2224,8 @@ Element["" "0805_ext" "H/C6" "130pF" 110.5000mm 144.7500mm -0.5523mm 4.7379mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2238,8 +2238,8 @@ Element["" "0805_ext" "H/C5" "130pF" 117.7500mm 144.7500mm -0.5215mm 4.9569mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2252,8 +2252,8 @@ Element["" "0805_ext" "H/C7" "130pF" 124.5000mm 133.5000mm -0.7401mm -2.4099mm 1
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2266,8 +2266,8 @@ Element["" "0805_ext" "H/C8" "130pF" 127.5000mm 121.5000mm -0.5000mm 5.0000mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2280,8 +2280,8 @@ Element["" "0805_ext" "H/C10" "130pF" 126.7500mm 111.5000mm -7.7500mm -0.7500mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2294,8 +2294,8 @@ Element["" "0805_ext" "H/C9" "130pF" 126.5000mm 116.0000mm 0.9039mm 1.3061mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2308,8 +2308,8 @@ Element["" "0805_ext" "H/C14" "130pF" 126.7500mm 101.5000mm -5.5000mm -0.7500mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2322,8 +2322,8 @@ Element["" "0805_ext" "H/C12" "130pF" 126.7500mm 104.7500mm -8.0000mm -0.5000mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2336,8 +2336,8 @@ Element["" "0805_ext" "H/C4" "130pF" 124.5000mm 144.7500mm -0.5000mm 6.5000mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5508mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2350,8 +2350,8 @@ Element["" "0805_ext" "H/C13" "130pF" 126.7500mm 97.0000mm -5.4201mm -0.5161mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2364,8 +2364,8 @@ Element["" "0805_ext" "H/C11" "130pF" 126.7500mm 108.0000mm -7.5000mm -0.7500mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2387,8 +2387,8 @@ Element["" "0805_ext" "H/LD1/R2" "2.4k" 119.5000mm 43.7500mm -6.5000mm -0.5000mm
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2401,8 +2401,8 @@ Element["" "0805_ext" "H/LD1/R3" "100k" 117.7500mm 42.0000mm -6.0000mm -0.2500mm
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2415,8 +2415,8 @@ Element["" "0805_ext" "H/LD2/R2" "2.4k" 116.2500mm 37.7500mm -4.6082mm 1.8580mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2429,8 +2429,8 @@ Element["" "0805_ext" "H/LD2/R1" "180" 118.2500mm 35.7500mm -6.2500mm -0.5000mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2444,10 +2444,10 @@ Element["" "SOT23_2" "H/LD2/Q2" "unknown" 121.7500mm 35.0000mm 1.2500mm -3.5000m
 	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 30.00mil 40.00mil "D" "3" "square"]
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 40.00mil "G" "1" "square,edge2"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 30.00mil 40.00mil "S" "2" "square,edge2"]
-	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 10.00mil]
+	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 0.2500mm]
 
 	)
 
@@ -2461,20 +2461,20 @@ Element["" "SOT23_2" "H/LD1/Q2" "unknown" 121.0000mm 41.7500mm -5.4767mm -3.1102
 	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 30.00mil 40.00mil "D" "3" "square"]
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 40.00mil "G" "1" "square,edge2"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 30.00mil 40.00mil "S" "2" "square,edge2"]
-	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 10.00mil]
+	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 0.2500mm]
 
 	)
 
 Element["lock" "Right-angle M3 Mounting Block" "" "" 130.7500mm 5.0000mm 2.7500mm -0.7500mm 3 100 ""]
 (
 	Pin[0.0000 0.0000 3.2500mm 16.00mil 3.2500mm 3.2500mm "1" "1" "hole,edge2"]
-	ElementLine [-4.5000mm -3.0000mm -4.5000mm 3.0000mm 10.00mil]
-	ElementLine [-4.5000mm 3.0000mm 11.5000mm 3.0000mm 10.00mil]
-	ElementLine [11.5000mm -3.0000mm 11.5000mm 3.0000mm 10.00mil]
-	ElementLine [-4.5000mm -3.0000mm 11.5000mm -3.0000mm 10.00mil]
+	ElementLine [-4.5000mm -3.0000mm -4.5000mm 3.0000mm 0.2500mm]
+	ElementLine [-4.5000mm 3.0000mm 11.5000mm 3.0000mm 0.2500mm]
+	ElementLine [11.5000mm -3.0000mm 11.5000mm 3.0000mm 0.2500mm]
+	ElementLine [-4.5000mm -3.0000mm 11.5000mm -3.0000mm 0.2500mm]
 
 	)
 
@@ -2491,12 +2491,12 @@ Element["" "JUMPER6" "D/J1" "N/A" 51.7500mm 124.2500mm -100.00mil -470.00mil 1 7
 	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
 	Pin[0.0000 -400.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" ""]
 	Pin[0.0000 -500.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "thermal(2X)"]
-	ElementLine [50.00mil -550.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -550.00mil 50.00mil -550.00mil 10.00mil]
-	ElementLine [-50.00mil -550.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -550.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -550.00mil 50.00mil -550.00mil 0.2500mm]
+	ElementLine [-50.00mil -550.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -2511,12 +2511,12 @@ Element["" "JUMPER4" "D/A/J3" "unknown" 76.7500mm 44.5000mm -3.2500mm 4.0000mm 0
 	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(2X)"]
-	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 10.00mil]
-	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 0.2500mm]
+	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -2543,8 +2543,8 @@ Element["" "0805_ext" "D/A/C8" "1nF" 72.7500mm 42.2500mm 2.2701mm -0.0333mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2557,8 +2557,8 @@ Element["" "0805_ext" "D/A/C1" "1uF" 59.5000mm 35.2500mm -2.0000mm 0.7500mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2571,8 +2571,8 @@ Element["" "0805_ext" "D/A/C2" ".1uF" 59.5000mm 33.5000mm 2.8025mm 0.1684mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2585,8 +2585,8 @@ Element["" "0805_ext" "D/A/C3" ".1uF" 68.2500mm 29.7500mm -2.7213mm -2.2443mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2601,12 +2601,12 @@ Element["" "JUMPER4" "D/Z/J3" "unknown" 76.5000mm 75.5000mm -2.7500mm 4.0000mm 0
 	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(2S)"]
-	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 10.00mil]
-	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 0.2500mm]
+	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -2621,12 +2621,12 @@ Element["" "JUMPER4" "D/Y/J3" "unknown" 76.7500mm 106.2500mm -3.0000mm 3.5000mm 
 	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(2S)"]
-	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 10.00mil]
-	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 0.2500mm]
+	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -2641,12 +2641,12 @@ Element["" "JUMPER4" "D/X/J3" "unknown" 77.0000mm 137.2500mm -2.5000mm 2.7500mm 
 	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(2S)"]
-	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 10.00mil]
-	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 0.2500mm]
+	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -2659,8 +2659,8 @@ Element["" "0805_ext" "D/X/C8" "1nF" 73.2500mm 134.7500mm -7.0837mm -0.3988mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2673,8 +2673,8 @@ Element["" "0805_ext" "D/X/C1" "1uF" 61.0000mm 5000.00mil 1.2661mm 1.5835mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2687,8 +2687,8 @@ Element["" "0805_ext" "D/X/C2" ".1uF" 61.0000mm 125.0000mm -1.7352mm -2.0140mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2701,8 +2701,8 @@ Element["" "0805_ext" "D/X/C4" "1uF" 64.5000mm 124.0000mm 0.9907mm 4.0181mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2715,8 +2715,8 @@ Element["" "0805_ext" "D/X/C3" ".1uF" 67.5000mm 122.7500mm 2.2500mm -1.0000mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2757,8 +2757,8 @@ Element["" "0805_ext" "D/Y/C8" "1nF" 72.7500mm 104.0000mm 2.5319mm -0.3335mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2771,8 +2771,8 @@ Element["" "0805_ext" "D/Y/C3" ".1uF" 66.7500mm 92.0000mm 2.2500mm -0.7500mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2785,8 +2785,8 @@ Element["" "0805_ext" "D/Y/C1" "1uF" 60.2500mm 96.7500mm -6.5549mm -29.34mil 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2799,8 +2799,8 @@ Element["" "0805_ext" "D/A/C4" "1uF" 65.0000mm 1250.00mil -45.35mil -2.5909mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2827,8 +2827,8 @@ Element["" "0805_ext" "D/Z/C8" "1nF" 72.2500mm 73.2500mm 2.6033mm -0.3672mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2841,8 +2841,8 @@ Element["" "0805_ext" "D/Z/C2" ".1uF" 59.5000mm 64.0000mm -2.9288mm -2.2621mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2855,8 +2855,8 @@ Element["" "0805_ext" "D/Z/C4" "1uF" 2500.00mil 62.5000mm -0.5753mm 2.1080mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2883,8 +2883,8 @@ Element["" "0805_ext" "H/LD2/R3" "100k" 114.2500mm 34.2500mm -3.5000mm 4.2500mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2897,8 +2897,8 @@ Element["" "0805_ext" "H/LD1/R1" "180" 123.7500mm 47.5000mm -2.2500mm 1.0000mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -2913,7 +2913,7 @@ Element["" "SRF2012A" "H/L1" "120uH" 73.2500mm 147.2500mm -0.2500mm -1.2500mm 1 
 	Pad[0.4250mm -0.4250mm 1.0750mm -0.4250mm 0.4500mm 0.4500mm 0.7000mm "2" "2" "square,edge2"]
 	Pad[0.4250mm 0.4250mm 1.0750mm 0.4250mm 0.4500mm 0.4500mm 0.7000mm "3" "3" "square,edge2"]
 	Pad[-1.0750mm 0.4250mm -0.4250mm 0.4250mm 0.4500mm 0.4500mm 0.7000mm "4" "4" "square"]
-	ElementArc [-0.9000mm -1.2000mm 0.1500mm 0.1500mm 0 360 0.3000mm]
+	ElementArc [-0.9000mm -1.2000mm 0.1500mm 0.1500mm 0 360 0.2500mm]
 
 	)
 
@@ -2926,8 +2926,8 @@ Element["" "0805_ext" "H/C35" "0.1uF" 62.7500mm 144.0000mm 0.9079mm -73.67mil 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 16.00mil 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -2940,8 +2940,8 @@ Element["" "0805_ext" "H/R2" "750" 66.0000mm 145.2500mm 1.2711mm -0.5324mm 1 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2954,8 +2954,8 @@ Element["" "0805_ext" "H/R19" "130" 67.5000mm 147.2500mm -0.5000mm 5.5000mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2968,8 +2968,8 @@ Element["" "0805_ext" "H/R3" "750" 66.0000mm 149.5000mm -0.5000mm 5.0000mm 1 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2982,8 +2982,8 @@ Element["" "0805_ext" "H/C1" "0.1uF" 69.2500mm 145.2500mm 0.0000 -3.2500mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -2996,8 +2996,8 @@ Element["" "0805_ext" "H/C2" "0.1uF" 71.0000mm 147.2500mm -0.5000mm 5.0000mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3010,8 +3010,8 @@ Element["" "0805_ext" "H/C3" "0.1uF" 69.2500mm 149.5000mm -0.5000mm 4.7500mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3024,8 +3024,8 @@ Element["" "0805_ext" "H/R4" "10" 76.7500mm 146.5000mm 2.2500mm -0.5000mm 0 77 "
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3038,8 +3038,8 @@ Element["" "0805_ext" "H/R5" "10" 76.7500mm 148.2500mm 2.2500mm -0.5000mm 0 77 "
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3052,8 +3052,8 @@ Element["" "0805_ext" "H/R1" "2.4k" 54.2500mm 146.7500mm -5.0000mm -0.5000mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3068,12 +3068,12 @@ Element["" "JUMPER4" "D/X/J2" "unknown" 57.0000mm 128.0000mm 3.5000mm 3.5000mm 0
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
 	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
 	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "thermal(2X)"]
-	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
-	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 10.00mil]
-	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 0.2500mm]
+	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 0.2500mm]
+	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 0.2500mm]
 
 	)
 
@@ -3086,8 +3086,8 @@ Element["" "0805_ext" "D/X/R7" "2.4k" 5.7500mm 94.0000mm -5.4890mm 0.8085mm 0 76
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 18.00mil 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 0.0998mm 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 0.0998mm -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 0.0998mm 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 0.0998mm -27.55mil 0.2500mm]
 
 	)
 
@@ -3350,8 +3350,8 @@ Element["" "0805_ext" "H/C20" "130pF" 114.2500mm 144.7500mm -22.10mil 5.6006mm 1
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3364,8 +3364,8 @@ Element["" "0805_ext" "H/LD2/C15" "130pF" 120.5000mm 37.5000mm 0.0000 -1.5000mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3378,8 +3378,8 @@ Element["" "0805_ext" "H/C19" "130pF" 121.2500mm 144.7500mm -0.5000mm 6.7500mm 1
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3392,8 +3392,8 @@ Element["" "0805_ext" "H/C21" "130pF" 121.2500mm 135.7500mm -26.92mil -109.72mil
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3406,8 +3406,8 @@ Element["" "0805_ext" "H/R9" "180" 126.2500mm 144.7500mm -0.7578mm -2.3476mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3420,8 +3420,8 @@ Element["" "0805_ext" "H/R10" "180" 123.0000mm 144.7500mm -0.5000mm 5.5000mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3434,8 +3434,8 @@ Element["" "0805_ext" "H/R11" "180" 119.7500mm 144.7500mm -20.50mil 216.50mil 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3448,8 +3448,8 @@ Element["" "0805_ext" "H/R12" "180" 116.0000mm 144.7500mm -0.5641mm 5.5605mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3462,8 +3462,8 @@ Element["" "0805_ext" "H/R13" "180" 112.5000mm 144.7500mm -24.25mil 5.3774mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3476,8 +3476,8 @@ Element["" "0805_ext" "H/R14" "180" 108.5000mm 144.7500mm -2.0000mm 4.7500mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3490,8 +3490,8 @@ Element["" "0805_ext" "H/R15" "180" 122.7500mm 133.5000mm -0.5052mm -2.4400mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3504,8 +3504,8 @@ Element["" "0805_ext" "H/R17" "180" 125.7500mm 121.5000mm -0.5000mm 5.5000mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3518,8 +3518,8 @@ Element["" "0805_ext" "H/R18" "180" 124.7500mm 116.0000mm -2.1782mm 1.8559mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3532,8 +3532,8 @@ Element["" "0805_ext" "H/R20" "180" 126.7500mm 113.2500mm -5.7500mm -0.7500mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3546,8 +3546,8 @@ Element["" "0805_ext" "H/R21" "180" 126.7500mm 109.7500mm -5.5000mm -0.5000mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3560,8 +3560,8 @@ Element["" "0805_ext" "H/R22" "180" 126.7500mm 106.5000mm -5.7500mm -0.7500mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3574,8 +3574,8 @@ Element["" "0805_ext" "H/R23" "180" 126.7500mm 98.7500mm -5.7500mm -0.5000mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3588,8 +3588,8 @@ Element["" "0805_ext" "H/R24" "180" 126.7500mm 103.0000mm -5.7500mm -0.7500mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3602,8 +3602,8 @@ Element["" "0805_ext" "H/R6" "180" 54.2500mm 140.5000mm -5.2361mm -26.50mil 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3616,8 +3616,8 @@ Element["" "0805_ext" "H/R7" "180" 54.2500mm 142.2500mm -5.1448mm -0.6353mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3630,8 +3630,8 @@ Element["" "0805_ext" "H/R8" "180" 54.2500mm 149.0000mm -5.1001mm -21.50mil 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3644,8 +3644,8 @@ Element["" "0805_ext" "H/C15" "130pF" 58.0000mm 142.5000mm -1.3171mm -3.4507mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3658,8 +3658,8 @@ Element["" "0805_ext" "H/C16" "130pF" 54.2500mm 145.0000mm -5.5000mm -0.5000mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3672,8 +3672,8 @@ Element["" "0805_ext" "H/C17" "130pF" 58.7500mm 151.0000mm -1.4254mm 0.9509mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3686,8 +3686,8 @@ Element["" "0805_ext" "H/LD1/C15" "130pF" 122.0000mm 45.2500mm -6.5000mm -0.5000
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -3700,8 +3700,8 @@ Element["" "0805_ext" "D/R1" "180" 69.2500mm 115.7500mm 2.2500mm -0.5000mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3714,8 +3714,8 @@ Element["" "0805_ext" "D/R7" "180" 55.5000mm 124.2500mm -1.2500mm 0.7500mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3728,8 +3728,8 @@ Element["" "0805_ext" "D/X/R8" "180" 53.2500mm 129.2500mm -6.5077mm -30.50mil 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3742,8 +3742,8 @@ Element["" "0805_ext" "D/X/C9" "130pF" 53.2500mm 127.5000mm -8.0063mm -21.50mil 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3756,8 +3756,8 @@ Element["" "0805_ext" "D/X/R9" "180" 53.2500mm 131.0000mm -7.1681mm -26.50mil 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3770,8 +3770,8 @@ Element["" "0805_ext" "D/X/C10" "130pF" 53.2500mm 132.7500mm -8.5946mm -25.58mil
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3784,8 +3784,8 @@ Element["" "0805_ext" "D/X/C11" "130pF" 53.2500mm 134.5000mm -8.2083mm -0.6500mm
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3798,8 +3798,8 @@ Element["" "0805_ext" "D/X/R10" "180" 53.2500mm 136.5000mm -7.7671mm -21.50mil 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -3812,18 +3812,18 @@ Element["" "0805_ext" "D/X/R11" "180" 8.2500mm 92.2500mm 21.50mil 223.50mil 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
 Element["lock" "Right-angle M3 Mounting Block" "" "" 130.7500mm 150.0000mm 1.2500mm -0.5000mm 3 100 ""]
 (
 	Pin[0.0000 0.0000 3.2500mm 16.00mil 3.2500mm 3.2500mm "1" "1" "hole,edge2"]
-	ElementLine [-4.5000mm -3.0000mm -4.5000mm 3.0000mm 10.00mil]
-	ElementLine [-4.5000mm 3.0000mm 11.5000mm 3.0000mm 10.00mil]
-	ElementLine [11.5000mm -3.0000mm 11.5000mm 3.0000mm 10.00mil]
-	ElementLine [-4.5000mm -3.0000mm 11.5000mm -3.0000mm 10.00mil]
+	ElementLine [-4.5000mm -3.0000mm -4.5000mm 3.0000mm 0.2500mm]
+	ElementLine [-4.5000mm 3.0000mm 11.5000mm 3.0000mm 0.2500mm]
+	ElementLine [11.5000mm -3.0000mm 11.5000mm 3.0000mm 0.2500mm]
+	ElementLine [-4.5000mm -3.0000mm 11.5000mm -3.0000mm 0.2500mm]
 
 	)
 
@@ -3836,8 +3836,8 @@ Element["" "0805_ext" "H/C18" "130pF" 128.2500mm 144.7500mm -0.5000mm -2.2500mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3856,12 +3856,12 @@ Element["" "SO8" "H/U6" "RS-485 Transceiver" 61.0000mm 147.2500mm -0.2500mm 1.50
 	Pad[70.00mil 25.00mil 135.00mil 25.00mil 20.00mil 16.00mil 30.00mil "6" "6" "square,edge2"]
 	Pad[70.00mil -25.00mil 135.00mil -25.00mil 20.00mil 16.00mil 30.00mil "7" "7" "square,edge2"]
 	Pad[70.00mil -75.00mil 135.00mil -75.00mil 20.00mil 0.0000 30.00mil "8" "8" "square,edge2"]
-	ElementLine [-155.00mil -95.00mil -155.00mil 95.00mil 10.00mil]
-	ElementLine [-155.00mil 95.00mil 155.00mil 95.00mil 10.00mil]
-	ElementLine [155.00mil 95.00mil 155.00mil -95.00mil 10.00mil]
-	ElementLine [-155.00mil -95.00mil -25.00mil -95.00mil 10.00mil]
-	ElementLine [155.00mil -95.00mil 25.00mil -95.00mil 10.00mil]
-	ElementArc [0.0000 -95.00mil 25.00mil 25.00mil 0 180 10.00mil]
+	ElementLine [-155.00mil -95.00mil -155.00mil 95.00mil 0.2500mm]
+	ElementLine [-155.00mil 95.00mil 155.00mil 95.00mil 0.2500mm]
+	ElementLine [155.00mil 95.00mil 155.00mil -95.00mil 0.2500mm]
+	ElementLine [-155.00mil -95.00mil -25.00mil -95.00mil 0.2500mm]
+	ElementLine [155.00mil -95.00mil 25.00mil -95.00mil 0.2500mm]
+	ElementArc [0.0000 -95.00mil 25.00mil 25.00mil 0 180 0.2500mm]
 
 	)
 
@@ -3874,8 +3874,8 @@ Element["" "0805_ext" "D/C5" "130pF" 55.5000mm 122.7500mm 2.2373mm -35.50mil 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -4208,8 +4208,8 @@ Element["" "0805_ext" "D/A/C7" "10nF" 94.0000mm 24.5000mm -5.1792mm -0.6758mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4222,8 +4222,8 @@ Element["" "0805_ext" "D/Z/C7" "10nF" 94.2500mm 55.2500mm -3.0000mm -3.2500mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4236,8 +4236,8 @@ Element["" "0805_ext" "D/X/C7" "10nF" 94.2500mm 116.7500mm -2.5000mm -3.2500mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4250,8 +4250,8 @@ Element["" "0805_ext" "D/Y/C7" "10nF" 94.5000mm 86.0000mm -1.5393mm -3.3128mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4414,8 +4414,8 @@ Element["" "0805_ext" "D/X/C17" "10nF" 94.0000mm 141.0000mm 1.0000mm 3.2500mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4488,8 +4488,8 @@ Element["" "0805_ext" "D/A/C17" "10nF" 94.0000mm 48.5000mm -3.0000mm 2.2500mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4562,8 +4562,8 @@ Element["" "0805_ext" "D/Z/C17" "10nF" 94.5000mm 79.2500mm -1.7330mm 2.3298mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4621,8 +4621,8 @@ Element["" "0805_ext" "D/Y/C17" "10nF" 94.5000mm 110.2500mm -2.7500mm 2.0000mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4690,12 +4690,12 @@ Element["" "JUMPER4" "D/Z/J2" "unknown" 51.7500mm 65.7500mm -2.0236mm -2.8026mm 
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
 	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
 	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "thermal(2S)"]
-	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
-	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 10.00mil]
-	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 0.2500mm]
+	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 0.2500mm]
+	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 0.2500mm]
 
 	)
 
@@ -4731,8 +4731,8 @@ Element["" "0805_ext" "M/C31" "0.1uF" 34.0000mm 108.5000mm -3.5000mm 1.5000mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.6944mm 0.6944mm 36.80mil 36.80mil 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-36.80mil -36.80mil -0.6944mm -0.6944mm 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-0.4242mm 0.5654mm -0.5654mm 0.4242mm 8.00mil]
-	ElementLine [0.5654mm -0.4242mm 0.4242mm -0.5654mm 8.00mil]
+	ElementLine [-0.4242mm 0.5654mm -0.5654mm 0.4242mm 0.2500mm]
+	ElementLine [0.5654mm -0.4242mm 0.4242mm -0.5654mm 0.2500mm]
 
 	)
 
@@ -4745,8 +4745,8 @@ Element["" "0805_ext" "M/C30" "0.1uF" 37.0000mm 93.5000mm 2.7030mm -1.2060mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.6944mm -0.6944mm 36.80mil -36.80mil 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[-36.80mil 36.80mil -0.6944mm 0.6944mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [0.4242mm 0.5654mm 0.5654mm 0.4242mm 8.00mil]
-	ElementLine [-0.5654mm -0.4242mm -0.4242mm -0.5654mm 8.00mil]
+	ElementLine [0.4242mm 0.5654mm 0.5654mm 0.4242mm 0.2500mm]
+	ElementLine [-0.5654mm -0.4242mm -0.4242mm -0.5654mm 0.2500mm]
 
 	)
 
@@ -4759,8 +4759,8 @@ Element["" "0805_ext" "M/C29" "0.1uF" 20.2500mm 111.5000mm -5.2500mm -0.7500mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-36.80mil 36.80mil -0.6944mm 0.6944mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.6944mm -0.6944mm 36.80mil -36.80mil 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-0.5654mm -0.4242mm -0.4242mm -0.5654mm 8.00mil]
-	ElementLine [0.4242mm 0.5654mm 0.5654mm 0.4242mm 8.00mil]
+	ElementLine [-0.5654mm -0.4242mm -0.4242mm -0.5654mm 0.2500mm]
+	ElementLine [0.4242mm 0.5654mm 0.5654mm 0.4242mm 0.2500mm]
 
 	)
 
@@ -4773,8 +4773,8 @@ Element["" "0805_ext" "M/C28" "0.1uF" 18.0000mm 88.5000mm 0.3930mm -2.2848mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-36.80mil -36.80mil -0.6944mm -0.6944mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.6944mm 0.6944mm 36.80mil 36.80mil 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [0.5654mm -0.4242mm 0.4242mm -0.5654mm 8.00mil]
-	ElementLine [-0.4242mm 0.5654mm -0.5654mm 0.4242mm 8.00mil]
+	ElementLine [0.5654mm -0.4242mm 0.4242mm -0.5654mm 0.2500mm]
+	ElementLine [-0.4242mm 0.5654mm -0.5654mm 0.4242mm 0.2500mm]
 
 	)
 
@@ -4787,8 +4787,8 @@ Element["" "0805_ext" "M/C27" "0.1uF" 13.2500mm 92.7500mm -0.9746mm -3.0722mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-36.80mil -36.80mil -0.6944mm -0.6944mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.6944mm 0.6944mm 0.9348mm 36.80mil 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [0.4242mm -0.5654mm 0.5654mm -0.4242mm 8.00mil]
-	ElementLine [-0.5654mm 0.4242mm -0.4242mm 0.5654mm 8.00mil]
+	ElementLine [0.4242mm -0.5654mm 0.5654mm -0.4242mm 0.2500mm]
+	ElementLine [-0.5654mm 0.4242mm -0.4242mm 0.5654mm 0.2500mm]
 
 	)
 
@@ -4801,8 +4801,8 @@ Element["" "0805_ext" "P/C13" ".1uF" 12.5000mm 128.0000mm 0.9227mm 1.3161mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4815,8 +4815,8 @@ Element["" "0805_ext" "P/C14" ".1uF" 12.5000mm 121.2500mm 0.9446mm 1.4402mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 28.00mil 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4831,10 +4831,10 @@ Element["" "SOT223" "P/U3" "unknown" 5.2500mm 128.0000mm -1.1316mm -9.9498mm 0 7
 	Pad[90.00mil -33.00mil 90.00mil 33.00mil 56.00mil 0.0000 62.00mil "Out" "2" "square,edge2"]
 	Pad[181.00mil -33.00mil 181.00mil 33.00mil 56.00mil 0.0000 62.00mil "In" "3" "square,edge2"]
 	Pad[45.00mil -244.00mil 135.00mil -244.00mil 122.00mil 0.0000 128.00mil "Out" "4" "square"]
-	ElementLine [-52.00mil -329.00mil -52.00mil 85.00mil 10.00mil]
-	ElementLine [-52.00mil 85.00mil 233.00mil 85.00mil 10.00mil]
-	ElementLine [233.00mil -329.00mil 233.00mil 85.00mil 10.00mil]
-	ElementLine [-52.00mil -329.00mil 233.00mil -329.00mil 10.00mil]
+	ElementLine [-52.00mil -329.00mil -52.00mil 85.00mil 0.2500mm]
+	ElementLine [-52.00mil 85.00mil 233.00mil 85.00mil 0.2500mm]
+	ElementLine [233.00mil -329.00mil 233.00mil 85.00mil 0.2500mm]
+	ElementLine [-52.00mil -329.00mil 233.00mil -329.00mil 0.2500mm]
 
 	)
 
@@ -4846,7 +4846,7 @@ Element["" "testpt" "P/TP3" "N/A" 20.5000mm 136.0000mm 0.2820mm -3.2580mm 0 99 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 40.00mil 100.00mil 40.00mil "TP" "1" "thermal(0S)"]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 10.00mil]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
 
 	)
 
@@ -4859,8 +4859,8 @@ Element["" "0805_ext" "P/R11" "330" 27.2500mm 151.2500mm -1.3946mm 1.3080mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -4873,8 +4873,8 @@ Element["" "1210_ext" "P/C4" "10uF 50v" 28.5000mm 142.5000mm -1.2751mm -3.7817mm
 	Attribute("vendor_part_number" "unknown")
 	Pad[-0.7250mm -1.6250mm 0.7250mm -1.6250mm 1.0500mm 0.0000 1.5000mm "1" "1" "square"]
 	Pad[-0.7250mm 1.6250mm 0.7250mm 1.6250mm 1.0500mm 0.0000 1.5000mm "2" "2" "square"]
-	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 8.00mil]
-	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 8.00mil]
+	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 0.2500mm]
+	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 0.2500mm]
 
 	)
 
@@ -4887,8 +4887,8 @@ Element["" "0805_ext" "P/R6" "180k" 27.5000mm 147.5000mm 2.2789mm -2.0267mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -4901,8 +4901,8 @@ Element["" "0805_ext" "P/R10" "10k 1%" 27.2500mm 149.5000mm 3.0415mm -2.3529mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -4929,8 +4929,8 @@ Element["" "0805_ext" "P/C11" "3.3nF" 30.2500mm 150.5000mm 1.4725mm 0.6837mm 0 8
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -4943,8 +4943,8 @@ Element["" "0805_ext" "P/R12" "1.24k 1%" 22.2500mm 150.2500mm -1.3690mm 1.0040mm
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -4957,8 +4957,8 @@ Element["" "1210_ext" "P/C12" "22uF 16V" 11.5000mm 132.2500mm 2.7190mm 0.4448mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[1.6250mm -0.7250mm 1.6250mm 0.7250mm 1.0500mm 0.0000 1.5000mm "1" "1" "square"]
 	Pad[-1.6250mm -0.7250mm -1.6250mm 0.7250mm 1.0500mm 0.0000 1.5000mm "2" "2" "square"]
-	ElementLine [-19.68mil 53.14mil 19.68mil 53.14mil 8.00mil]
-	ElementLine [-19.68mil -53.14mil 19.68mil -53.14mil 8.00mil]
+	ElementLine [-19.68mil 53.14mil 19.68mil 53.14mil 0.2500mm]
+	ElementLine [-19.68mil -53.14mil 19.68mil -53.14mil 0.2500mm]
 
 	)
 
@@ -4990,8 +4990,8 @@ Element["" "0805_ext" "P/C6" "470nF 50v" 26.0000mm 144.7500mm -0.6165mm -2.0895m
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5004,8 +5004,8 @@ Element["" "0805_ext" "P/R8" "1.5k" 18.0000mm 152.2500mm -1.1353mm 0.9117mm 0 76
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5018,8 +5018,8 @@ Element["" "0805_ext" "P/C9" "33nF" 14.7500mm 151.7500mm -2.0939mm 0.8089mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5032,8 +5032,8 @@ Element["" "0805_ext" "P/C7" "100pF" 18.0000mm 150.5000mm -3.5811mm -2.1051mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5047,7 +5047,7 @@ Element["" "TO_277A" "P/D3" "unknown" 21.0000mm 140.5000mm 1.2638mm -2.6451mm 1 
 	Pad[-1.0400mm -0.0400mm -1.0400mm 0.0400mm 4.7200mm 0.0000 5.0000mm "2" "2" "square,edge2"]
 	Pad[2.7865mm 0.9750mm 2.7865mm 1.1050mm 50.00mil 0.0000 1.5000mm "1" "1" "square,edge2"]
 	Pad[2.7865mm -1.1050mm 2.7865mm -0.9750mm 50.00mil 0.0000 1.5000mm "1" "1" "square"]
-	ElementArc [2.7865mm -3.0000mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [2.7865mm -3.0000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -5075,8 +5075,8 @@ Element["" "0805_ext" "D/Z/C1" "1uF" 59.5000mm 65.7500mm -2.0441mm 1.0884mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -5089,8 +5089,8 @@ Element["" "0805_ext" "D/Z/C9" "130pF" 48.0000mm 65.5000mm -316.50mil -21.50mil 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5103,8 +5103,8 @@ Element["" "0805_ext" "D/Z/C11" "130pF" 48.0000mm 72.7500mm -336.50mil -31.50mil
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5117,8 +5117,8 @@ Element["" "0805_ext" "D/Z/R10" "180" 48.0000mm 74.5000mm -297.50mil -30.50mil 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5131,8 +5131,8 @@ Element["" "0805_ext" "D/Z/C10" "130pF" 48.0000mm 70.7500mm -8.6921mm -31.50mil 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5145,8 +5145,8 @@ Element["" "0805_ext" "D/Z/R9" "180" 48.0000mm 69.0000mm -8.2430mm -0.7739mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5159,8 +5159,8 @@ Element["" "0805_ext" "D/Z/R8" "180" 48.0000mm 67.2500mm -8.3091mm -0.5801mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5173,8 +5173,8 @@ Element["" "0805_ext" "D/Y/C4" "1uF" 2500.00mil 93.5000mm 0.9913mm 3.8997mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5187,8 +5187,8 @@ Element["" "0805_ext" "D/Y/C2" ".1uF" 60.2500mm 95.0000mm -4.0000mm -2.2500mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -5203,12 +5203,12 @@ Element["" "JUMPER4" "D/A/J2" "unknown" 53.0000mm 35.5000mm -1.2540mm -2.5385mm 
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
 	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
 	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "thermal(2X)"]
-	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
-	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 10.00mil]
-	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 0.2500mm]
+	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 0.2500mm]
+	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 0.2500mm]
 
 	)
 
@@ -5221,8 +5221,8 @@ Element["" "0805_ext" "D/A/R10" "180" 49.0000mm 44.0000mm -7.0000mm -0.5000mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5235,8 +5235,8 @@ Element["" "0805_ext" "D/A/C10" "130pF" 49.0000mm 40.5000mm -14.2500mm 5.0000mm 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5249,8 +5249,8 @@ Element["" "0805_ext" "D/A/R9" "180" 49.0000mm 38.5000mm -13.7500mm 5.7500mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5263,8 +5263,8 @@ Element["" "0805_ext" "D/A/C9" "130pF" 49.0000mm 35.0000mm -4.5000mm -1.7500mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5277,8 +5277,8 @@ Element["" "0805_ext" "D/A/R8" "180" 49.0000mm 36.7500mm -13.7500mm 6.2500mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5291,8 +5291,8 @@ Element["" "0805_ext" "D/A/C11" "130pF" 49.0000mm 42.2500mm -6.7500mm 0.0000 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5305,8 +5305,8 @@ Element["" "0805_ext" "R/C26" "0.1uF" 38.7500mm 28.7500mm 0.7500mm 1.5000mm 1 76
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5319,8 +5319,8 @@ Element["" "0805_ext" "R/R15" "2.4k" 47.2500mm 21.0000mm -5.3260mm -0.5160mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5333,8 +5333,8 @@ Element["" "0805_ext" "R/C25" "0.1uF" 31.2500mm 25.2500mm -1.6741mm -3.3841mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5347,8 +5347,8 @@ Element["" "0805_ext" "R/R1" "2.4k" 47.2500mm 15.7500mm -5.1520mm -0.5900mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -5361,8 +5361,8 @@ Element["" "0805_ext" "R/R16" "2.4k" 47.2500mm 14.2500mm -5.5600mm -0.5200mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -5377,12 +5377,12 @@ Element["" "JUMPER4" "R/I2C" "unknown" 35.0000mm 6.0000mm 62.12mil 46.01mil 1 81
 	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2"]
-	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 10.00mil]
-	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-350.00mil -50.00mil -350.00mil 50.00mil 0.2500mm]
+	ElementLine [-350.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -5395,8 +5395,8 @@ Element["" "0805_ext" "R/LV1/R2" "10k" 51.2500mm 3.2500mm -2.0000mm 2.7500mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5409,8 +5409,8 @@ Element["" "0805_ext" "R/LV1/R1" "10k" 54.2500mm 6.2500mm 2.2500mm 0.5000mm 0 81
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5423,8 +5423,8 @@ Element["" "0805_ext" "R/R12" "180" 47.2500mm 12.2500mm -5.6441mm -21.50mil 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5437,8 +5437,8 @@ Element["" "0805_ext" "R/R6" "180" 55.5000mm 9.2500mm -2.2500mm 1.5000mm 1 77 ""
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5451,8 +5451,8 @@ Element["" "0805_ext" "R/R8" "180" 47.2500mm 19.2500mm -5.0091mm -0.4371mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5465,8 +5465,8 @@ Element["" "0805_ext" "R/R10" "180" 47.2500mm 31.2500mm -5.4856mm -0.5282mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5479,8 +5479,8 @@ Element["" "0805_ext" "R/R11" "180" 47.2500mm 17.5000mm -5.4520mm -0.6440mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5493,8 +5493,8 @@ Element["" "0805_ext" "R/C5" "130pF" 47.2500mm 26.2500mm -4.9821mm -21.50mil 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -5507,8 +5507,8 @@ Element["" "0805_ext" "R/C7" "130pF" 47.2500mm 29.7500mm -6.2394mm -24.00mil 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -5521,8 +5521,8 @@ Element["" "0805_ext" "R/R7" "180" 47.2500mm 28.0000mm -4.9731mm -21.50mil 0 76 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5535,8 +5535,8 @@ Element["" "0805_ext" "R/R9" "180" 47.2500mm 24.5000mm -265.50mil -15.50mil 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5549,8 +5549,8 @@ Element["" "0805_ext" "R/C6" "130pF" 47.2500mm 22.5000mm -200.00mil -15.00mil 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -5577,12 +5577,12 @@ Element["" "QSOP16_EXT" "R/U4" "6-Channel Digital Isolator" 37.2500mm 24.2500mm 
 	Pad[-51.00mil 197.00mil -51.00mil 239.00mil 16.00mil 30.00mil 22.00mil "OUTB2" "14" "square,edge2"]
 	Pad[-26.00mil 197.00mil -26.00mil 239.00mil 16.00mil 30.00mil 22.00mil "OUTB1" "15" "square,edge2"]
 	Pad[-1.00mil 197.00mil -1.00mil 239.00mil 16.00mil 30.00mil 22.00mil "VCCB" "16" "square,edge2"]
-	ElementLine [22.00mil -56.00mil 22.00mil 82.00mil 10.00mil]
-	ElementLine [22.00mil 122.00mil 22.00mil 265.00mil 10.00mil]
-	ElementLine [-198.00mil 265.00mil 22.00mil 265.00mil 10.00mil]
-	ElementLine [-198.00mil -56.00mil -198.00mil 265.00mil 10.00mil]
-	ElementLine [-198.00mil -56.00mil 22.00mil -56.00mil 10.00mil]
-	ElementArc [22.00mil 102.00mil 20.00mil 20.00mil 270 180 10.00mil]
+	ElementLine [22.00mil -56.00mil 22.00mil 82.00mil 0.2500mm]
+	ElementLine [22.00mil 122.00mil 22.00mil 265.00mil 0.2500mm]
+	ElementLine [-198.00mil 265.00mil 22.00mil 265.00mil 0.2500mm]
+	ElementLine [-198.00mil -56.00mil -198.00mil 265.00mil 0.2500mm]
+	ElementLine [-198.00mil -56.00mil 22.00mil -56.00mil 0.2500mm]
+	ElementArc [22.00mil 102.00mil 20.00mil 20.00mil 270 180 0.2500mm]
 
 	)
 
@@ -5598,12 +5598,12 @@ Element["" "JUMPER5" "R/SERIAL" "N/A" 53.0000mm 31.2500mm -50.00mil -510.00mil 0
 	Pin[0.0000 -200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
 	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
 	Pin[0.0000 -400.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" ""]
-	ElementLine [50.00mil -450.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -450.00mil 50.00mil -450.00mil 10.00mil]
-	ElementLine [-50.00mil -450.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -450.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -450.00mil 50.00mil -450.00mil 0.2500mm]
+	ElementLine [-50.00mil -450.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -5618,12 +5618,12 @@ Element["" "JUMPER4" "P/POWER" "unknown" 16.2500mm 128.5000mm -1.2500mm -10.7500
 	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
 	Pin[0.0000 -200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "thermal(0S)"]
 	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "thermal(1X)"]
-	ElementLine [50.00mil -350.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -350.00mil 50.00mil -350.00mil 10.00mil]
-	ElementLine [-50.00mil -350.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -350.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -350.00mil 50.00mil -350.00mil 0.2500mm]
+	ElementLine [-50.00mil -350.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -5637,12 +5637,12 @@ Element["" "JUMPER3" "R/ISOPOWER" "unknown" 30.0000mm 10.0000mm -2.7500mm 5.7500
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "thermal(0S)"]
 	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
-	ElementLine [-50.00mil -50.00mil -50.00mil 250.00mil 10.00mil]
-	ElementLine [-50.00mil 250.00mil 50.00mil 250.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 250.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 250.00mil 0.2500mm]
+	ElementLine [-50.00mil 250.00mil 50.00mil 250.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil 50.00mil 250.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -5657,12 +5657,12 @@ Element["" "JUMPER4" "D/Y/J2" "unknown" 55.2500mm 100.0000mm -2.2745mm -2.6322mm
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
 	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
 	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "thermal(2X)"]
-	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
-	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 10.00mil]
-	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 0.2500mm]
+	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 0.2500mm]
+	ElementLine [50.00mil 350.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 0.2500mm]
 
 	)
 
@@ -5675,8 +5675,8 @@ Element["" "0805_ext" "D/Y/R8" "180" 51.7500mm 101.2500mm -271.50mil -26.50mil 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5689,8 +5689,8 @@ Element["" "0805_ext" "D/Y/C9" "130pF" 51.7500mm 99.5000mm -7.9301mm -21.50mil 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5703,8 +5703,8 @@ Element["" "0805_ext" "D/Y/R9" "180" 51.7500mm 103.0000mm -312.50mil -26.50mil 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5717,8 +5717,8 @@ Element["" "0805_ext" "D/Y/C10" "130pF" 51.7500mm 105.0000mm -281.50mil -26.50mi
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5731,8 +5731,8 @@ Element["" "0805_ext" "D/Y/R10" "180" 51.7500mm 108.5000mm -7.0141mm -1.50mil 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5745,8 +5745,8 @@ Element["" "0805_ext" "D/Y/C11" "130pF" 51.7500mm 106.7500mm -6.9091mm -0.3589mm
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -5759,8 +5759,8 @@ Element["" "0805_ext" "M/C34" "22pF" 7.2500mm 87.0000mm 1.0000mm 1.7500mm 1 77 "
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5773,8 +5773,8 @@ Element["" "0805_ext" "M/C33" "22pF" 7.5000mm 82.0000mm 0.9499mm 1.2841mm 1 77 "
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5787,12 +5787,12 @@ Element["" "Crystal_HC49" "M/X1" "16MHz" 3.5000mm 84.2500mm -2.6094mm 9.2926mm 1
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -259.80mil 0.0000 -122.00mil 82.70mil 20.00mil 90.70mil "1" "1" "square"]
 	Pad[0.0000 122.00mil 0.0000 259.80mil 82.70mil 20.00mil 90.70mil "2" "2" "square,edge2"]
-	ElementLine [-98.40mil -230.30mil -98.40mil 230.30mil 15.00mil]
-	ElementLine [98.40mil -230.30mil 98.40mil 230.30mil 15.00mil]
-	ElementLine [-98.40mil 230.30mil -65.00mil 230.30mil 15.00mil]
-	ElementLine [65.00mil 230.30mil 98.40mil 230.30mil 15.00mil]
-	ElementLine [-98.40mil -230.30mil -65.00mil -230.30mil 15.00mil]
-	ElementLine [65.00mil -230.30mil 98.40mil -230.30mil 15.00mil]
+	ElementLine [-98.40mil -230.30mil -98.40mil 230.30mil 0.2500mm]
+	ElementLine [98.40mil -230.30mil 98.40mil 230.30mil 0.2500mm]
+	ElementLine [-98.40mil 230.30mil -65.00mil 230.30mil 0.2500mm]
+	ElementLine [65.00mil 230.30mil 98.40mil 230.30mil 0.2500mm]
+	ElementLine [-98.40mil -230.30mil -65.00mil -230.30mil 0.2500mm]
+	ElementLine [65.00mil -230.30mil 98.40mil -230.30mil 0.2500mm]
 
 	)
 
@@ -5805,8 +5805,8 @@ Element["" "0805_ext" "R/R2" "2.4k" 31.0000mm 37.2500mm -0.5686mm -2.5656mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5819,8 +5819,8 @@ Element["" "0805_ext" "R/R18" "2.4k" 27.5000mm 37.2500mm -0.6936mm -2.1612mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5833,8 +5833,8 @@ Element["" "0805_ext" "R/R19" "180" 29.2500mm 37.2500mm -19.50mil -97.50mil 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5847,8 +5847,8 @@ Element["" "0805_ext" "R/R23" "1k" 39.5000mm 37.2500mm -0.2500mm -2.0000mm 1 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5861,8 +5861,8 @@ Element["" "0805_ext" "R/R13" "180" 41.5000mm 37.2500mm -0.7500mm -2.2500mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5875,8 +5875,8 @@ Element["" "0805_ext" "R/C10" "130pF" 43.2500mm 37.2500mm -0.7500mm -2.2500mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5889,8 +5889,8 @@ Element["" "0805_ext" "R/C1" "130pF" 37.7500mm 37.2500mm -25.50mil -2.5093mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5903,8 +5903,8 @@ Element["" "0805_ext" "R/R14" "180" 36.2500mm 37.2500mm -28.50mil -2.3331mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5917,8 +5917,8 @@ Element["" "0805_ext" "R/R17" "180" 34.5000mm 37.2500mm -24.50mil -2.6871mm 1 76
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5931,8 +5931,8 @@ Element["" "0805_ext" "R/C2" "130pF" 32.7500mm 37.2500mm -21.50mil -2.2299mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5946,7 +5946,7 @@ Element["" "PDS1040L" "P/D2" "unknown" 3.2500mm 12.5000mm -0.5000mm -5.5000mm 1 
 	Pad[-0.9200mm 140.00mil -0.9200mm 140.00mil 1.4000mm 0.0000 2.2000mm "1" "1" "square"]
 	Pad[0.9200mm 140.00mil 0.9200mm 140.00mil 1.4000mm 0.0000 2.2000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.8760mm 0.0000 0.3760mm 3.3600mm 0.0000 4.2000mm "2" "2" "square"]
-	ElementLine [-1.8000mm -4.7000mm 1.8000mm -4.7000mm 0.5000mm]
+	ElementLine [-1.8000mm -4.7000mm 1.8000mm -4.7000mm 0.2500mm]
 	ElementLine [1.8000mm -4.7000mm 2.3000mm -3.5000mm 0.2500mm]
 	ElementLine [2.3000mm -3.5000mm 2.3000mm 4.6000mm 0.2500mm]
 	ElementLine [-2.3000mm 4.6000mm 2.3000mm 4.6000mm 0.2500mm]
@@ -5963,7 +5963,7 @@ Element["" "testpt" "P/TP2" "N/A" 23.5000mm 25.2500mm -2.0000mm -3.0000mm 0 82 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 40.00mil 74.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 10.00mil]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
 
 	)
 
@@ -5975,7 +5975,7 @@ Element["" "testpt" "P/TP1" "N/A" 23.5000mm 30.5000mm -1.3690mm -2.7460mm 0 76 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 40.00mil 72.00mil 40.00mil "TP" "1" "thermal(0S)"]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 10.00mil]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
 
 	)
 
@@ -5988,8 +5988,8 @@ Element["" "1210_ext" "P/C8" "100uF 6.3v" 14.5000mm 11.7500mm -0.8401mm -2.6141m
 	Attribute("vendor_part_number" "unknown")
 	Pad[-0.7250mm 1.6250mm 0.7250mm 1.6250mm 1.0500mm 0.0000 1.5000mm "1" "1" "square"]
 	Pad[-0.7250mm -1.6250mm 0.7250mm -1.6250mm 1.0500mm 0.0000 1.5000mm "2" "2" "square"]
-	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 8.00mil]
-	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 8.00mil]
+	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 0.2500mm]
+	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 0.2500mm]
 
 	)
 
@@ -6002,12 +6002,12 @@ Element["" "SOD123" "P/Z3" "unknown" 18.7500mm 11.5000mm -0.5000mm -3.5000mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-6.00mil -55.00mil 6.00mil -55.00mil 69.00mil 0.0000 75.00mil "1" "1" "square"]
 	Pad[-6.00mil 55.00mil 6.00mil 55.00mil 69.00mil 0.0000 75.00mil "2" "2" "square"]
-	ElementLine [-40.00mil -110.00mil 40.00mil -110.00mil 20.00mil]
-	ElementLine [-40.00mil -110.00mil -51.00mil -76.00mil 10.00mil]
-	ElementLine [-51.00mil -76.00mil -51.00mil 100.00mil 10.00mil]
-	ElementLine [-51.00mil 100.00mil 51.00mil 100.00mil 10.00mil]
-	ElementLine [51.00mil -76.00mil 51.00mil 100.00mil 10.00mil]
-	ElementLine [51.00mil -76.00mil 40.00mil -110.00mil 10.00mil]
+	ElementLine [-40.00mil -110.00mil 40.00mil -110.00mil 0.2500mm]
+	ElementLine [-40.00mil -110.00mil -51.00mil -76.00mil 0.2500mm]
+	ElementLine [-51.00mil -76.00mil -51.00mil 100.00mil 0.2500mm]
+	ElementLine [-51.00mil 100.00mil 51.00mil 100.00mil 0.2500mm]
+	ElementLine [51.00mil -76.00mil 51.00mil 100.00mil 0.2500mm]
+	ElementLine [51.00mil -76.00mil 40.00mil -110.00mil 0.2500mm]
 
 	)
 
@@ -6020,8 +6020,8 @@ Element["" "1210_ext" "P/C16" "100uF 6.3v" 11.2500mm 11.7500mm -38.50mil -2.5241
 	Attribute("vendor_part_number" "unknown")
 	Pad[-0.7250mm 1.6250mm 0.7250mm 1.6250mm 1.0500mm 0.0000 1.5000mm "1" "1" "square"]
 	Pad[-0.7250mm -1.6250mm 0.7250mm -1.6250mm 1.0500mm 0.0000 1.5000mm "2" "2" "square"]
-	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 8.00mil]
-	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 8.00mil]
+	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 0.2500mm]
+	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 0.2500mm]
 
 	)
 
@@ -6034,8 +6034,8 @@ Element["" "1210_ext" "P/C15" "100uF 6.3v" 7.7500mm 11.7500mm -0.4281mm -103.50m
 	Attribute("vendor_part_number" "unknown")
 	Pad[-0.7250mm 1.6250mm 0.7250mm 1.6250mm 1.0500mm 0.0000 1.5000mm "1" "1" "square"]
 	Pad[-0.7250mm -1.6250mm 0.7250mm -1.6250mm 1.0500mm 0.0000 1.5000mm "2" "2" "square"]
-	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 8.00mil]
-	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 8.00mil]
+	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 0.2500mm]
+	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 0.2500mm]
 
 	)
 
@@ -6048,8 +6048,8 @@ Element["" "1210_ext" "P/R5" "100" 21.5000mm 34.0000mm -3.0000mm -2.7500mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[1.6250mm -0.7250mm 1.6250mm 0.7250mm 1.0500mm 0.5000mm 1.5000mm "1" "1" "square"]
 	Pad[-1.6250mm -0.7250mm -1.6250mm 0.7250mm 1.0500mm 0.0000 1.5000mm "2" "2" "square"]
-	ElementLine [-19.68mil 53.14mil 19.68mil 53.14mil 8.00mil]
-	ElementLine [-19.68mil -53.14mil 19.68mil -53.14mil 8.00mil]
+	ElementLine [-19.68mil 53.14mil 19.68mil 53.14mil 0.2500mm]
+	ElementLine [-19.68mil -53.14mil 19.68mil -53.14mil 0.2500mm]
 
 	)
 
@@ -6062,8 +6062,8 @@ Element["" "0805_ext" "P/C5" "220pF" 24.7500mm 41.0000mm -0.2500mm 4.7500mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6076,8 +6076,8 @@ Element["" "0805_ext" "P/R14" "113k 1%" 4.5000mm 37.0000mm -0.7500mm -2.2500mm 1
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6090,8 +6090,8 @@ Element["" "0805_ext" "P/R7" "150k 1%" 11.2500mm 36.5000mm 2.5000mm -0.5000mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.0000 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6104,8 +6104,8 @@ Element["" "0805_ext" "P/C3" "1uF 25v" 8.7500mm 46.7500mm -0.7348mm 5.1892mm 1 8
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6118,8 +6118,8 @@ Element["" "0805_ext" "P/R4" "200k 1%" 5.0000mm 42.0000mm -2.0000mm 3.2500mm 1 8
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.0000 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6132,8 +6132,8 @@ Element["" "0805_ext" "P/R3" "1M 1%" 6.5000mm 46.7500mm -0.5000mm 5.2500mm 1 82 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6146,8 +6146,8 @@ Element["" "0805_ext" "P/R9" "10k 1%" 2.7500mm 39.2500mm -2.0000mm 1.5000mm 1 82
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6160,8 +6160,8 @@ Element["" "1210_ext" "P/C2" "10uF 50v" 14.0000mm 43.2500mm -1.2535mm 2.6669mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pad[-0.7250mm -1.6250mm 0.7250mm -1.6250mm 1.0500mm 0.0000 1.5000mm "1" "1" "square"]
 	Pad[-0.7250mm 1.6250mm 0.7250mm 1.6250mm 1.0500mm 0.0000 1.5000mm "2" "2" "square"]
-	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 8.00mil]
-	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 8.00mil]
+	ElementLine [53.14mil -19.68mil 53.14mil 19.68mil 0.2500mm]
+	ElementLine [-53.14mil -19.68mil -53.14mil 19.68mil 0.2500mm]
 
 	)
 
@@ -6174,8 +6174,8 @@ Element["" "1812" "P/C10" "4.7nF 1kv" 22.0000mm 15.0000mm 2.2500mm 1.5000mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[-0.7750mm 1.9300mm 0.7750mm 1.9300mm 1.6400mm 0.5000mm 2.5000mm "1" "1" "square"]
 	Pad[-0.7750mm -1.9300mm 0.7750mm -1.9300mm 1.6400mm 0.0000 2.5000mm "2" "2" "square"]
-	ElementLine [-70.00mil -19.68mil -70.00mil 19.68mil 8.00mil]
-	ElementLine [70.00mil -19.68mil 70.00mil 19.68mil 8.00mil]
+	ElementLine [-70.00mil -19.68mil -70.00mil 19.68mil 0.2500mm]
+	ElementLine [70.00mil -19.68mil 70.00mil 19.68mil 0.2500mm]
 
 	)
 
@@ -6188,12 +6188,12 @@ Element["" "SOD123" "P/D1" "unknown" 20.2500mm 37.2500mm 3.3497mm -13.62mil 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[55.00mil -6.00mil 55.00mil 6.00mil 69.00mil 20.00mil 75.00mil "1" "1" "square"]
 	Pad[-55.00mil -6.00mil -55.00mil 6.00mil 69.00mil 0.0000 75.00mil "2" "2" "square"]
-	ElementLine [110.00mil -40.00mil 110.00mil 40.00mil 20.00mil]
-	ElementLine [110.00mil -40.00mil 76.00mil -51.00mil 10.00mil]
-	ElementLine [-100.00mil -51.00mil 76.00mil -51.00mil 10.00mil]
-	ElementLine [-100.00mil -51.00mil -100.00mil 51.00mil 10.00mil]
-	ElementLine [-100.00mil 51.00mil 76.00mil 51.00mil 10.00mil]
-	ElementLine [76.00mil 51.00mil 110.00mil 40.00mil 10.00mil]
+	ElementLine [110.00mil -40.00mil 110.00mil 40.00mil 0.2500mm]
+	ElementLine [110.00mil -40.00mil 76.00mil -51.00mil 0.2500mm]
+	ElementLine [-100.00mil -51.00mil 76.00mil -51.00mil 0.2500mm]
+	ElementLine [-100.00mil -51.00mil -100.00mil 51.00mil 0.2500mm]
+	ElementLine [-100.00mil 51.00mil 76.00mil 51.00mil 0.2500mm]
+	ElementLine [76.00mil 51.00mil 110.00mil 40.00mil 0.2500mm]
 
 	)
 
@@ -6206,7 +6206,7 @@ Element["" "DO214AC" "P/Z2" "unknown" 19.5000mm 41.2500mm 58.93mil 2.1093mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[1.7900mm 0.0000 2.2500mm 0.0000 1.7000mm 0.2000mm 2.5000mm "1" "1" "square,edge2"]
 	Pad[-2.2500mm 0.0000 -1.7900mm 0.0000 1.7000mm 0.0000 2.5000mm "2" "2" "square"]
-	ElementLine [4.0000mm -1.2500mm 4.0000mm 1.2500mm 0.5000mm]
+	ElementLine [4.0000mm -1.2500mm 4.0000mm 1.2500mm 0.2500mm]
 	ElementLine [4.0000mm -1.2500mm 2.5000mm -1.7000mm 0.2500mm]
 	ElementLine [-3.8000mm -1.7000mm 2.5000mm -1.7000mm 0.2500mm]
 	ElementLine [-3.8000mm -1.7000mm -3.8000mm 1.7000mm 0.2500mm]
@@ -6232,7 +6232,7 @@ Element["" "750311564" "P/T1" "unknown" 11.7500mm 25.2500mm -10.1338mm -3.5556mm
 	Pad[0.0000 -9.5000mm 0.0000 -7.5100mm 0.8600mm 28.00mil 1.0000mm "8" "8" "square"]
 	Pad[-2.4800mm -9.5000mm -2.4800mm -7.5100mm 0.8600mm 0.0000 1.0000mm "7" "7" "square"]
 	Pad[-4.9600mm -9.5000mm -4.9600mm -7.5100mm 0.8600mm 0.0000 1.0000mm "6" "6" "square"]
-	ElementArc [6.5000mm 8.1600mm 0.2500mm 0.2500mm 90 360 0.5000mm]
+	ElementArc [6.5000mm 8.1600mm 0.2500mm 0.2500mm 90 360 0.2500mm]
 
 	)
 
@@ -6261,8 +6261,8 @@ Element["" "0805_ext" "D/A/R7" "2.4k" 9.7500mm 75.0000mm 31.98mil -2.2564mm 1 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6275,8 +6275,8 @@ Element["" "0805_ext" "D/Z/R7" "2.4k" 46.7500mm 82.0000mm 2.4858mm -22.98mil 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6289,12 +6289,12 @@ Element["" "JUMPER2" "P/J2" "unknown" 52.0000mm 51.5000mm -24.80mil 1.5809mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2X)"]
 	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
-	ElementLine [50.00mil -150.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -150.00mil 50.00mil -150.00mil 10.00mil]
-	ElementLine [-50.00mil -150.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -150.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -150.00mil 50.00mil -150.00mil 0.2500mm]
+	ElementLine [-50.00mil -150.00mil -50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
 
 	)
 
@@ -6323,8 +6323,8 @@ Element["" "0805_ext" "D/Z/R11" "180" 46.7500mm 83.7500mm 92.50mil -23.50mil 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6337,8 +6337,8 @@ Element["" "0805_ext" "D/A/R11" "180" 7.7500mm 75.0000mm -26.50mil -2.6871mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6351,8 +6351,8 @@ Element["" "0805_ext" "D/C4" "130pF" 55.5000mm 119.7500mm 2.2500mm -0.5000mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6365,8 +6365,8 @@ Element["" "0805_ext" "D/R3" "180" 55.5000mm 113.0000mm 2.2500mm -0.5000mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 20.00mil 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6379,8 +6379,8 @@ Element["" "0805_ext" "D/R6" "2.4k" 55.5000mm 111.2500mm 2.2500mm -0.5000mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6393,8 +6393,8 @@ Element["" "0805_ext" "D/R4" "180" 55.5000mm 114.7500mm 2.2500mm -1.0000mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6407,8 +6407,8 @@ Element["" "0805_ext" "D/C3" "130pF" 55.5000mm 116.5000mm 2.2500mm -0.5000mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6421,8 +6421,8 @@ Element["" "0805_ext" "D/R2" "2.4k" 69.2500mm 114.0000mm 2.2500mm -0.7500mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6435,8 +6435,8 @@ Element["" "0805_ext" "D/Y/R7" "2.4k" 46.7500mm 87.2500mm 2.4341mm -0.7563mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6449,8 +6449,8 @@ Element["" "0805_ext" "D/Y/R11" "180" 46.7500mm 85.5000mm 97.50mil -21.50mil 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6463,8 +6463,8 @@ Element["" "0805_ext" "D/R5" "180" 55.5000mm 118.2500mm 2.2500mm -0.7500mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6500,8 +6500,8 @@ Element["" "0805_ext" "D/Z/C3" ".1uF" 67.0000mm 61.0000mm 107.46mil -0.5153mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6521,7 +6521,7 @@ Element["" "LT8302" "P/U1" "unknown" 9.7500mm 40.7500mm 2.8260mm -2.7580mm 0 77 
 	Pad[25.00mil -2.7930mm 25.00mil -2.0300mm 0.7600mm 0.2000mm 0.9000mm "6" "6" "square"]
 	Pad[75.00mil -2.7930mm 75.00mil -2.0300mm 0.7600mm 0.0000 0.9000mm "5" "5" "square"]
 	Pad[-0.7300mm 0.0000 0.7300mm 0.0000 2.2600mm 0.0000 3.0000mm "9" "9" "square,edge2"]
-	ElementArc [-3.0000mm 2.5000mm 0.2500mm 0.2500mm 0 360 0.5000mm]
+	ElementArc [-3.0000mm 2.5000mm 0.2500mm 0.2500mm 0 360 0.2500mm]
 
 	)
 
@@ -6534,8 +6534,8 @@ Element["" "0805_ext" "H/R16" "180" 119.5000mm 135.7500mm -21.50mil -3.1549mm 1 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6548,8 +6548,8 @@ Element["" "0805_ext" "M/C32" "0.1uF" 31.5000mm 87.5000mm 3.2500mm -3.0000mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.6944mm -0.6944mm 36.80mil -36.80mil 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[-36.80mil 36.80mil -0.6944mm 0.6944mm 1.2000mm 0.0000 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [0.4242mm 0.5654mm 0.5654mm 0.4242mm 8.00mil]
-	ElementLine [-0.5654mm -0.4242mm -0.4242mm -0.5654mm 8.00mil]
+	ElementLine [0.4242mm 0.5654mm 0.5654mm 0.4242mm 0.2500mm]
+	ElementLine [-0.5654mm -0.4242mm -0.4242mm -0.5654mm 0.2500mm]
 
 	)
 
@@ -6624,12 +6624,12 @@ Element["" "TQFP64_14_ATXMEGA" "M/U5" "ATXMEGA192A3U-AUR" 24.7500mm 99.2500mm 11
 	Pad[-368.36mil -123.39mil -8.5614mm -2.3392mm 15.74mil 30.00mil 21.74mil "PA0" "62" "square,octagon"]
 	Pad[-9.9221mm -2.5684mm -9.1272mm -1.7734mm 15.74mil 30.00mil 21.74mil "PA1" "63" "square,octagon"]
 	Pad[-10.4879mm -2.0026mm -9.6929mm -1.2077mm 15.74mil 30.00mil 21.74mil "PA2" "64" "square,octagon"]
-	ElementLine [-363.58mil -0.5209mm 0.0000 -9.7558mm 8.00mil]
-	ElementLine [0.0000 -9.7558mm 9.7558mm 0.0000 8.00mil]
-	ElementLine [9.7558mm 0.0000 0.0000 9.7558mm 8.00mil]
-	ElementLine [0.0000 9.7558mm -363.58mil 0.5209mm 8.00mil]
-	ElementLine [-363.58mil -0.5209mm -363.58mil 0.5209mm 8.00mil]
-	ElementArc [-8.7141mm 0.0000 10.00mil 10.00mil 45 360 8.00mil]
+	ElementLine [-363.58mil -0.5209mm 0.0000 -9.7558mm 0.2500mm]
+	ElementLine [0.0000 -9.7558mm 9.7558mm 0.0000 0.2500mm]
+	ElementLine [9.7558mm 0.0000 0.0000 9.7558mm 0.2500mm]
+	ElementLine [0.0000 9.7558mm -363.58mil 0.5209mm 0.2500mm]
+	ElementLine [-363.58mil -0.5209mm -363.58mil 0.5209mm 0.2500mm]
+	ElementArc [-8.7141mm 0.0000 10.00mil 10.00mil 45 360 0.2500mm]
 
 	)
 
@@ -6680,15 +6680,15 @@ Element["" "raspberry_pi_connector" "R/RPI" "40-pin Connector" 89.5000mm 16.0000
 	Pin[850.00mil 50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "37" "37" "edge2"]
 	Pin[950.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "40" "40" "edge2"]
 	Pin[950.00mil 50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "39" "39" "edge2,thermal(3X)"]
-	ElementLine [-1000.00mil -100.00mil -1000.00mil 100.00mil 10.00mil]
-	ElementLine [-1000.00mil -100.00mil 1000.00mil -100.00mil 10.00mil]
-	ElementLine [1000.00mil -100.00mil 1000.00mil 100.00mil 10.00mil]
-	ElementLine [-1000.00mil 100.00mil 1000.00mil 100.00mil 10.00mil]
-	ElementLine [-1000.00mil 0.0000 -900.00mil 0.0000 10.00mil]
-	ElementLine [-900.00mil 0.0000 -900.00mil 100.00mil 10.00mil]
-	ElementLine [-73.00mil 100.00mil -73.00mil 139.00mil 10.00mil]
-	ElementLine [-73.00mil 139.00mil 73.00mil 139.00mil 10.00mil]
-	ElementLine [73.00mil 100.00mil 73.00mil 139.00mil 10.00mil]
+	ElementLine [-1000.00mil -100.00mil -1000.00mil 100.00mil 0.2500mm]
+	ElementLine [-1000.00mil -100.00mil 1000.00mil -100.00mil 0.2500mm]
+	ElementLine [1000.00mil -100.00mil 1000.00mil 100.00mil 0.2500mm]
+	ElementLine [-1000.00mil 100.00mil 1000.00mil 100.00mil 0.2500mm]
+	ElementLine [-1000.00mil 0.0000 -900.00mil 0.0000 0.2500mm]
+	ElementLine [-900.00mil 0.0000 -900.00mil 100.00mil 0.2500mm]
+	ElementLine [-73.00mil 100.00mil -73.00mil 139.00mil 0.2500mm]
+	ElementLine [-73.00mil 139.00mil 73.00mil 139.00mil 0.2500mm]
+	ElementLine [73.00mil 100.00mil 73.00mil 139.00mil 0.2500mm]
 
 	)
 
@@ -6722,8 +6722,8 @@ Element["" "0805_ext" "P/R20" "10K" 115.5000mm 1.2500mm 4.5000mm -0.5000mm 0 77 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6737,10 +6737,10 @@ Element["" "SOT23" "P/Z1" "12V" 112.0000mm 3.2500mm -5.7500mm -3.0000mm 0 77 ""]
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 40.00mil "1" "1" "square,edge2"]
 	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 34.00mil 30.00mil 40.00mil "2" "2" "square,edge2"]
 	Pad[-85.00mil -39.00mil -79.00mil -39.00mil 34.00mil 0.0000 40.00mil "3" "3" "square"]
-	ElementLine [-110.00mil 25.00mil 29.00mil 25.00mil 10.00mil]
-	ElementLine [29.00mil -103.00mil 29.00mil 25.00mil 10.00mil]
-	ElementLine [-110.00mil -103.00mil 29.00mil -103.00mil 10.00mil]
-	ElementLine [-110.00mil -103.00mil -110.00mil 25.00mil 10.00mil]
+	ElementLine [-110.00mil 25.00mil 29.00mil 25.00mil 0.2500mm]
+	ElementLine [29.00mil -103.00mil 29.00mil 25.00mil 0.2500mm]
+	ElementLine [-110.00mil -103.00mil 29.00mil -103.00mil 0.2500mm]
+	ElementLine [-110.00mil -103.00mil -110.00mil 25.00mil 0.2500mm]
 
 	)
 
@@ -6753,8 +6753,8 @@ Element["" "0805_ext" "P/R1" "1M" 100.0000mm 6.7500mm -4.7500mm -0.7500mm 0 77 "
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6767,8 +6767,8 @@ Element["" "0805_ext" "P/R16" "5.9k" 100.0000mm 5.0000mm -7.2500mm -0.5000mm 0 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6781,8 +6781,8 @@ Element["" "0805_ext" "P/R15" "20K" 95.0000mm 10.2500mm -5.5000mm -0.5000mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.0000 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6795,8 +6795,8 @@ Element["" "1210_ext" "P/C17" "1uF 100v" 100.0000mm 9.2500mm -6.0000mm -1.5000mm
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.6250mm -0.7250mm -1.6250mm 0.7250mm 1.0500mm 0.5000mm 1.5000mm "1" "1" "square"]
 	Pad[1.6250mm -0.7250mm 1.6250mm 0.7250mm 1.0500mm 0.5000mm 1.5000mm "2" "2" "square"]
-	ElementLine [-19.68mil -53.14mil 19.68mil -53.14mil 8.00mil]
-	ElementLine [-19.68mil 53.14mil 19.68mil 53.14mil 8.00mil]
+	ElementLine [-19.68mil -53.14mil 19.68mil -53.14mil 0.2500mm]
+	ElementLine [-19.68mil 53.14mil 19.68mil 53.14mil 0.2500mm]
 
 	)
 
@@ -6809,8 +6809,8 @@ Element["" "0805_ext" "P/R13" "49.9K" 100.0000mm 11.7500mm 2.5000mm -0.5000mm 0 
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6829,12 +6829,12 @@ Element["" "SO8_extra_clearance" "P/U4" "unknown" 105.2500mm 6.2500mm 2.7500mm 1
 	Pad[25.00mil -135.00mil 25.00mil -70.00mil 20.00mil 20.00mil 40.00mil "6" "6" "square"]
 	Pad[-25.00mil -135.00mil -25.00mil -70.00mil 20.00mil 20.00mil 40.00mil "7" "7" "square"]
 	Pad[-75.00mil -135.00mil -75.00mil -70.00mil 20.00mil 0.0000 40.00mil "Vcc+" "8" "square"]
-	ElementLine [-95.00mil 155.00mil 95.00mil 155.00mil 10.00mil]
-	ElementLine [95.00mil -155.00mil 95.00mil 155.00mil 10.00mil]
-	ElementLine [-95.00mil -155.00mil 95.00mil -155.00mil 10.00mil]
-	ElementLine [-95.00mil 25.00mil -95.00mil 155.00mil 10.00mil]
-	ElementLine [-95.00mil -155.00mil -95.00mil -25.00mil 10.00mil]
-	ElementArc [-95.00mil 0.0000 25.00mil 25.00mil 90 180 10.00mil]
+	ElementLine [-95.00mil 155.00mil 95.00mil 155.00mil 0.2500mm]
+	ElementLine [95.00mil -155.00mil 95.00mil 155.00mil 0.2500mm]
+	ElementLine [-95.00mil -155.00mil 95.00mil -155.00mil 0.2500mm]
+	ElementLine [-95.00mil 25.00mil -95.00mil 155.00mil 0.2500mm]
+	ElementLine [-95.00mil -155.00mil -95.00mil -25.00mil 0.2500mm]
+	ElementArc [-95.00mil 0.0000 25.00mil 25.00mil 90 180 0.2500mm]
 
 	)
 
@@ -6847,8 +6847,8 @@ Element["" "0805_ext" "P/R17" "20K" 100.0000mm 3.2500mm -2.0000mm -2.2500mm 0 77
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 16.00mil 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
 
@@ -6861,8 +6861,8 @@ Element["" "0805_ext" "R/R3" "180" 51.0000mm 9.2500mm -2.2500mm 1.5000mm 1 77 ""
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6875,8 +6875,8 @@ Element["" "0805_ext" "R/LV0/R2" "10k" 42.0000mm 3.0000mm -2.0000mm 2.7500mm 1 7
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -6890,10 +6890,10 @@ Element["" "SOT23_2" "R/LV0/Q1" "unknown" 44.0000mm 4.2500mm -1.0000mm -4.0000mm
 	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 30.00mil 40.00mil "D" "3" "square"]
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 40.00mil "G" "1" "square,edge2"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 30.00mil 40.00mil "S" "2" "square,edge2"]
-	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 10.00mil]
+	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 0.2500mm]
 
 	)
 
@@ -6906,8 +6906,8 @@ Element["" "0805_ext" "R/LV0/R1" "10k" 44.7500mm 6.2500mm -5.7500mm 0.7500mm 0 8
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
@@ -6921,10 +6921,10 @@ Element["" "SOT23_2" "R/LV1/Q1" "unknown" 53.5000mm 4.2500mm -1.5000mm -4.0000mm
 	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 30.00mil 40.00mil "D" "3" "square"]
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 40.00mil "G" "1" "square,edge2"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 30.00mil 40.00mil "S" "2" "square,edge2"]
-	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 10.00mil]
-	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 10.00mil]
+	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 0.2500mm]
+	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 0.2500mm]
 
 	)
 Layer(1 "top")
