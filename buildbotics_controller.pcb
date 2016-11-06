@@ -9,7 +9,7 @@ Grid[984.251969 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 8.00mil]
-Flags("showdrc,nameonpcb,alldirection,clearnew")
+Flags("showdrc,nameonpcb,alldirection,clearnew,thindrawpoly")
 Groups("1,c:2:3:4,s")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,80.00mil,2.0000mm,1.5000mm,10.00mil:Skinny,6.00mil,27.00mil,9.00mil,0.2000mm"]
 
@@ -6930,7 +6930,6 @@ Element["" "SOT23_2" "R/LV1/Q1" "unknown" 53.5000mm 4.2500mm -1.5000mm -4.0000mm
 Layer(1 "top")
 (
 	Line[74.7500mm 124.2500mm 73.2500mm 124.2500mm 10.00mil 20.00mil ""]
-	Line[73.2500mm 124.2500mm 72.7500mm 125.0000mm 10.00mil 20.00mil ""]
 	Line[74.7500mm 126.7500mm 73.0000mm 126.7500mm 10.00mil 20.00mil ""]
 	Line[74.7500mm 128.7500mm 72.0000mm 128.7500mm 10.00mil 20.00mil ""]
 	Line[74.7500mm 131.2500mm 73.0000mm 131.2500mm 10.00mil 20.00mil ""]
@@ -7037,9 +7036,7 @@ Layer(1 "top")
 	Line[79.2500mm 101.5000mm 81.2500mm 101.5000mm 10.00mil 20.00mil ""]
 	Line[81.2500mm 101.5000mm 81.7500mm 102.0000mm 10.00mil 20.00mil ""]
 	Line[74.2500mm 62.7500mm 73.0000mm 62.7500mm 10.00mil 20.00mil ""]
-	Line[73.0000mm 62.7500mm 72.2500mm 63.2500mm 10.00mil 20.00mil ""]
 	Line[74.2500mm 65.2500mm 72.5000mm 65.2500mm 10.00mil 20.00mil ""]
-	Line[72.5000mm 65.2500mm 72.2500mm 64.7500mm 10.00mil 20.00mil ""]
 	Line[74.2500mm 67.2500mm 71.5000mm 67.2500mm 10.00mil 20.00mil ""]
 	Line[74.2500mm 69.7500mm 72.5000mm 69.7500mm 10.00mil 20.00mil ""]
 	Line[68.7500mm 64.7500mm 70.2500mm 64.7500mm 10.00mil 20.00mil ""]
@@ -7089,7 +7086,6 @@ Layer(1 "top")
 	Line[74.2500mm 63.2500mm 75.2500mm 63.2500mm 10.00mil 20.00mil "clearline"]
 	Line[75.2500mm 63.2500mm 81.5000mm 57.0000mm 10.00mil 20.00mil ""]
 	Line[79.0000mm 70.5000mm 80.7500mm 70.5000mm 10.00mil 20.00mil ""]
-	Line[80.7500mm 70.5000mm 81.5000mm 71.0000mm 10.00mil 20.00mil ""]
 	Line[74.2500mm 1250.00mil 73.0000mm 1250.00mil 10.00mil 20.00mil ""]
 	Line[73.0000mm 1250.00mil 72.2500mm 32.5000mm 10.00mil 20.00mil ""]
 	Line[74.2500mm 34.2500mm 72.5000mm 34.2500mm 10.00mil 20.00mil ""]
@@ -7914,8 +7910,7 @@ Layer(1 "top")
 	Line[33.0000mm 49.2500mm 26.0000mm 49.2500mm 10.00mil 20.00mil "clearline"]
 	Line[17.0000mm 91.2500mm 17.0000mm 92.0000mm 10.00mil 20.00mil "clearline"]
 	Line[17.0000mm 92.0000mm 18.7500mm 93.7500mm 10.00mil 20.00mil "clearline"]
-	Line[14.5000mm 60.0000mm 37.7500mm 60.0000mm 10.00mil 20.00mil "clearline"]
-	Line[37.7500mm 60.0000mm 38.2500mm 59.7500mm 10.00mil 20.00mil "clearline"]
+	Line[14.5000mm 60.0000mm 38.2500mm 60.0000mm 10.00mil 20.00mil "clearline"]
 	Line[39.5000mm 42.2500mm 39.5000mm 38.5000mm 10.00mil 20.00mil "clearline"]
 	Line[26.2500mm 91.5000mm 27.5000mm 90.2500mm 10.00mil 20.00mil "clearline"]
 	Line[23.0000mm 67.2500mm 46.7500mm 67.2500mm 10.00mil 20.00mil "clearline"]
@@ -7946,7 +7941,7 @@ Layer(1 "top")
 	Line[119.5000mm 39.7500mm 119.0000mm 40.2500mm 25.00mil 20.00mil "clearline"]
 	Line[119.0000mm 40.2500mm 119.0000mm 41.7500mm 25.00mil 20.00mil "clearline"]
 	Line[137.0000mm 54.2500mm 135.7500mm 53.0000mm 25.00mil 20.00mil "clearline"]
-	Line[141.5000mm 150.2500mm 141.5000mm 55.2500mm 25.00mil 20.00mil "clearline"]
+	Line[141.5000mm 150.2500mm 141.5000mm 55.2500mm 25.00mil 20.00mil "clearline,selected"]
 	Line[141.5000mm 55.2500mm 139.5000mm 53.2500mm 25.00mil 20.00mil "clearline"]
 	Line[136.0000mm 53.2500mm 134.0000mm 51.2500mm 25.00mil 20.00mil "clearline"]
 	Line[134.0000mm 51.2500mm 118.5000mm 51.2500mm 25.00mil 20.00mil "clearline"]
@@ -8691,8 +8686,7 @@ Layer(4 "bottom")
 	Line[79.0000mm 62.0000mm 84.7500mm 62.0000mm 10.00mil 20.00mil "clearline"]
 	Line[84.7500mm 62.0000mm 85.5000mm 61.2500mm 10.00mil 20.00mil "clearline"]
 	Line[79.5000mm 48.0000mm 80.5000mm 49.0000mm 10.00mil 20.00mil "clearline"]
-	Line[80.5000mm 49.0000mm 85.7500mm 49.0000mm 10.00mil 20.00mil "clearline"]
-	Line[85.7500mm 49.0000mm 86.2500mm 48.7500mm 10.00mil 20.00mil "clearline"]
+	Line[80.5000mm 49.0000mm 86.2500mm 49.0000mm 10.00mil 20.00mil "clearline"]
 	Line[79.5000mm 48.0000mm 79.5000mm 43.0000mm 10.00mil 20.00mil "clearline"]
 	Line[79.5000mm 43.0000mm 76.2500mm 39.7500mm 10.00mil 20.00mil "clearline"]
 	Line[74.0000mm 44.2500mm 74.0000mm 43.0000mm 10.00mil 20.00mil "clearline"]
