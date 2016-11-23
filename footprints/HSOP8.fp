@@ -10,4 +10,5 @@ Element["" "HSOP8.fp" "U?" "" 0mm 0mm -2.5mm -4.5mm 0 100 ""]
   Pad[3.3mm 1.905mm 2.2mm 1.905mm .4mm .2mm .5mm "5" "5" "square"]
   
   Pad[0 -0.25mm 0 0.25mm 3mm .2mm 3.5mm "9" "9" "square"]
+  ElementArc[-3mm -2.7mm .3mm .3mm 0 360 .25mm]
 )

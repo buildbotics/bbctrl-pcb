@@ -1,17 +1,17 @@
 Element (0x00 "Molex Element 39-30-0060" "" "" 0 0 -350 100 0 100 0x00)
 (
-  Pin(0 0 100 60 140 70 "Pin 1" "1" 0x0101)
-  Pin(0 165 100 60 140 70 "Pin 2" "2" 0x0101)
-  Pin(0 330 100 60 140 70 "Pin 3" "3" 0x0101)
-  Pin(-217 0 100 60 140 70 "Pin 4" "4" 0x0101)
-  Pin(-217 165 100 60 140 70 "Pin 5" "5" 0x101)
-  Pin(-217 330 100 60 140 70 "Pin 6" "6" 0x101)
+  Pin[0 -4.2mm 2.4mm .5mm 2mm 1.8mm "Pin 1" "1" "square"]
+  Pin[0 0 2.4mm .5mm 2mm 1.8mm "Pin 2" "2" ""]
+  Pin[0 4.2mm 2.4mm .5mm 2mm 1.8mm "Pin 3" "3" ""]
+  Pin[-5.5mm -4.2mm 2.4mm .5mm 2mm 1.8mm "Pin 4" "4" ""]
+  Pin[-5.5mm 0 2.4mm .5mm 2mm 1.8mm "Pin 5" "5" ""]
+  Pin[-5.5mm 4.2mm 2.4mm .5mm 2mm 1.8mm "Pin 6" "6" ""]
 
-  Pin(287 0 118 0 150 118 "Mounting Hole" "1" 0x8)
-  Pin(287 330 118 0 150 118 "Mounting Hole" "1" 0x8)
+  Pin[7.3mm -4.2mm 0mm .5mm 3.2mm 3mm "Mounting Hole" "" "hole"]
+  Pin[7.3mm 4.2mm 0mm .5mm 3.2mm 3mm "Mounting Hole" "" "hole"]
 
-  ElementLine(-300 -107.5 510 -107.5 10)
-  ElementLine(510 -107.5 510 437.5 10)
-  ElementLine(510 437.5 -300 437.5 10)
-  ElementLine(-300 437.5 -300 -107.5 10)
+  ElementLine[1.5mm -6.9mm 13.9mm -6.9mm .25mm]
+  ElementLine[13.9mm -6.9mm 13.9mm 6.9mm .25mm]
+  ElementLine[13.9mm 6.9mm 1.5mm 6.9mm .25mm]
+  ElementLine[1.5mm 6.9mm 1.5mm -6.9mm .25mm]
 )

@@ -533,9 +533,9 @@ refdes=C6
 T 50250 49000 5 10 1 1 90 0 1
 value=470nF 50v
 T 50400 48600 5 10 0 0 0 0 1
-model=GRM21BR71H474KA88L
+model=C0805C474K5RACTU
 T 50400 48600 5 10 0 0 0 0 1
-description=Murata 0.47µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0805
+description=0.47µF ±10% 50V Ceramic Capacitor X7R 0805
 T 50400 48600 5 10 0 0 0 0 1
 footprint=0805_ext
 }
