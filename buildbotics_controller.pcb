@@ -1867,7 +1867,7 @@ Via[68.5000mm 6.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,1S,3S)"
 Via[71.0000mm 6.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,1S,3S)"]
 Via[33.2500mm 16.0000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[59.7500mm 143.7500mm 60.00mil 0.6000mm 1.7240mm 35.00mil "" "thermal(2S)"]
-Via[66.5000mm 33.2500mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(1S)"]
+Via[66.5000mm 33.2500mm 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1S)"]
 Via[70.8000mm 124.4000mm 21.00mil 12.00mil 28.00mil 9.00mil "" "thermal(0S,2S,3S)"]
 Via[73.1000mm 124.4000mm 21.00mil 12.00mil 28.00mil 9.00mil "" "thermal(0S,2S,3S)"]
 Via[71.9000mm 124.4000mm 21.00mil 12.00mil 28.00mil 9.00mil "" "thermal(0S,2S,3S)"]
@@ -6992,14 +6992,14 @@ Element["" "HSOP8" "P/U2" "unknown" 21.1000mm 145.6000mm -2.5000mm -4.5000mm 0 1
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3.3000mm -75.00mil -2.2000mm -75.00mil 0.4000mm 0.0000 0.5000mm "1" "1" "square"]
-	Pad[-3.3000mm -25.00mil -2.2000mm -25.00mil 0.4000mm 0.4572mm 0.5000mm "2" "2" "square"]
-	Pad[-3.3000mm 25.00mil -2.2000mm 25.00mil 0.4000mm 0.4064mm 0.5000mm "3" "3" "square"]
-	Pad[-3.3000mm 75.00mil -2.2000mm 75.00mil 0.4000mm 0.4572mm 0.5000mm "4" "4" "square"]
-	Pad[2.2000mm -75.00mil 3.3000mm -75.00mil 0.4000mm 0.0000 0.5000mm "8" "8" "square,edge2"]
-	Pad[2.2000mm -25.00mil 3.3000mm -25.00mil 0.4000mm 0.0000 0.5000mm "7" "7" "square,edge2"]
-	Pad[2.2000mm 25.00mil 3.3000mm 25.00mil 0.4000mm 0.4064mm 0.5000mm "6" "6" "square,edge2"]
-	Pad[2.2000mm 75.00mil 3.3000mm 75.00mil 0.4000mm 0.4064mm 0.5000mm "5" "5" "square,edge2"]
+	Pad[-3.3000mm -75.00mil -2.2000mm -75.00mil 0.4000mm 0.0000 0.6016mm "1" "1" "square"]
+	Pad[-3.3000mm -25.00mil -2.2000mm -25.00mil 0.4000mm 18.00mil 0.6016mm "2" "2" "square"]
+	Pad[-3.3000mm 25.00mil -2.2000mm 25.00mil 0.4000mm 16.00mil 0.6016mm "3" "3" "square"]
+	Pad[-3.3000mm 75.00mil -2.2000mm 75.00mil 0.4000mm 18.00mil 0.6016mm "4" "4" "square"]
+	Pad[2.2000mm -75.00mil 3.3000mm -75.00mil 0.4000mm 0.0000 0.6016mm "8" "8" "square,edge2"]
+	Pad[2.2000mm -25.00mil 3.3000mm -25.00mil 0.4000mm 0.0000 0.6016mm "7" "7" "square,edge2"]
+	Pad[2.2000mm 25.00mil 3.3000mm 25.00mil 0.4000mm 16.00mil 0.6016mm "6" "6" "square,edge2"]
+	Pad[2.2000mm 75.00mil 3.3000mm 75.00mil 0.4000mm 16.00mil 0.6016mm "5" "5" "square,edge2"]
 	Pad[0.0000 -0.2500mm 0.0000 0.2500mm 3.0000mm 0.0000 3.5000mm "9" "9" "square,edge2"]
 	ElementArc [-3.0000mm -2.7000mm 0.3000mm 0.3000mm 0 360 0.2500mm]
 
@@ -8148,6 +8148,7 @@ Layer(1 "top")
 	Line[50.5000mm 9.1000mm 51.0000mm 8.6000mm 10.00mil 20.00mil "clearline"]
 	Line[54.3000mm 12.6000mm 54.3000mm 14.3000mm 10.00mil 20.00mil "clearline"]
 	Line[54.3000mm 14.3000mm 58.0000mm 18.0000mm 10.00mil 20.00mil "clearline"]
+	Line[74.8000mm 133.3000mm 74.8000mm 134.3000mm 10.00mil 0.6000mm "clearline"]
 	Polygon("clearpoly")
 	(
 		[117.2500mm 0.2500mm] [142.0000mm 0.2500mm] [142.0000mm 24.5000mm] [117.2500mm 24.5000mm] 
