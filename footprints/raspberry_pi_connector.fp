@@ -1,4 +1,4 @@
-Element(0x00 "Raspberry PI with 40-pin GPIO, facing down" "" "" 0 0 -400 0 0 100 0x00)
+Element(0x00 "Raspberry PI with 40-pin GPIO, facing down" "" "" 0 0 -400 0 0 75 0x00)
 (
   Pin[5000 -95000 6000 3000 6600 3800 "2" "2" 0x01]
   Pin[-5000 -95000 6000 3000 6600 3800 "1" "1" 0x101]
@@ -41,13 +41,12 @@ Element(0x00 "Raspberry PI with 40-pin GPIO, facing down" "" "" 0 0 -400 0 0 100
   Pin[5000 95000 6000 3000 6600 3800 "40" "40" 0x01]
   Pin[-5000 95000 6000 3000 6600 3800 "39" "39" 0x01]
 
-  ElementLine[-10000 -100000 10000 -100000 1000]
-  ElementLine[10000 -100000 10000 100000 1000]
-  ElementLine[10000 100000 -10000 100000 1000]
-  ElementLine[-10000 100000 -10000 -100000 1000]
-  ElementLine[0 -100000 0 -90000 1000]
-  ElementLine[0 -90000 -10000 -90000 1000]
-  ElementLine[-10000 -7300 -13900 -7300 1000]
-  ElementLine[-13900 -7300 -13900 7300 1000]
-  ElementLine[-13900 7300 -10000 7300 1000]
+  ElementLine[-4.5mm -29.25mm 4.5mm -29.25mm 0.25mm]
+  ElementLine[4.5mm -29.25mm 4.5mm 29.25mm 0.25mm]
+  ElementLine[4.5mm 29.25mm -4.5mm 29.25mm 0.25mm]
+  ElementLine[-4.5mm 29.25mm -4.5mm -29.25mm 0.25mm]
+
+  ElementLine[-10000 -7300 -13900 -7300 0.25mm]
+  ElementLine[-13900 -7300 -13900 7300 0.25mm]
+  ElementLine[-13900 7300 -10000 7300 0.25mm]
 )
