@@ -6925,13 +6925,18 @@ Element["" "QSOP16_EXT" "R/U4" "6-Channel Digital Isolator" 37.2500mm 24.2500mm 
 
 	)
 
-Element["" "Raspberry PI with 40-pin GPIO, facing down" "R/RPI" "40-pin Connector" 89.5000mm 16.0000mm -21.7500mm -6.0000mm 0 75 ""]
+Element["" "raspberry_pi_connector" "R/RPI" "40-pin Connector" 89.5000mm 16.0000mm -21.7500mm -6.0000mm 0 75 ""]
 (
+	Attribute("device" "68602-440HLF")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[-950.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
 	Pin[-950.00mil 50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
 	Pin[-850.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2"]
 	Pin[-850.00mil 50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
-	Pin[-750.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(3X)"]
+	Pin[-750.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,connected,thermal(3X)"]
 	Pin[-750.00mil 50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2"]
 	Pin[-650.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2"]
 	Pin[-650.00mil 50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2"]
