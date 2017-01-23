@@ -394,7 +394,7 @@ C 43200 47600 1 0 0 input.sym
 T 43200 47900 5 10 0 0 0 0 1
 device=INPUT
 T 42800 47650 5 10 1 1 0 0 1
-net=probe:1
+net=temp:1
 }
 C 48300 49600 1 180 1 output.sym
 {
@@ -543,13 +543,6 @@ device=IO
 T 43000 44525 5 10 1 1 0 0 1
 net=sda:1
 }
-C 48600 42600 1 180 0 nc.sym
-{
-T 48600 42200 5 10 0 0 180 0 1
-value=NoConnection
-T 48600 41800 5 10 0 0 180 0 1
-device=DRC_Directive
-}
 C 43200 49700 1 0 0 input.sym
 {
 T 43200 50000 5 10 0 0 0 0 1
@@ -584,4 +577,11 @@ T 48600 42500 5 10 0 0 180 0 1
 value=NoConnection
 T 48600 42100 5 10 0 0 180 0 1
 device=DRC_Directive
+}
+C 49100 42600 1 180 0 input.sym
+{
+T 49100 42300 5 10 0 0 180 0 1
+device=INPUT
+T 49500 42550 5 10 1 1 180 0 1
+net=probe:1
 }

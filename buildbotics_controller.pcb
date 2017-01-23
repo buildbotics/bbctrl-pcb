@@ -9,7 +9,7 @@ Grid[984.251969 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
-Flags("showdrc,rubberband,nameonpcb,clearnew,showmask,thindrawpoly")
+Flags("showdrc,nameonpcb,clearnew,thindrawpoly")
 Groups("1,c:2:3:4,s")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,80.00mil,2.0000mm,1.5000mm,10.00mil:Skinny,6.00mil,21.00mil,9.00mil,6.00mil"]
 
@@ -1728,7 +1728,6 @@ Via[86.5000mm 135.0000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[77.2500mm 32.2500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[43.2500mm 151.7500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[39.5000mm 148.2500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
-Via[13.2500mm 106.5000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[86.2500mm 42.5000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[59.7500mm 143.7500mm 60.00mil 0.6000mm 1.7240mm 35.00mil "" "thermal(2S)"]
 Via[66.5000mm 33.2500mm 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(1S)"]
@@ -1984,6 +1983,8 @@ Via[17.0000mm 34.7500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" "thermal(0S)"]
 Via[23.2500mm 16.5000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[57.7500mm 16.5000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[21.0000mm 17.2500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
+Via[20.5000mm 100.7500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
+Via[2.2500mm 115.2500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" "thermal(2S)"]
 
 Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -4.9300mm -4.0500mm 0 75 ""]
 (
@@ -2073,7 +2074,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/X/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["" "HEADER6_2" "M/ISP" "6-Pin Header" 4.2500mm 103.2500mm 2.5520mm -3.1738mm 0 75 ""]
+Element["" "HEADER6_2" "M/ISP" "6-Pin Header" 4.2500mm 103.2500mm 3.5000mm -2.7500mm 0 75 ""]
 (
 	Attribute("device" "HEADER_6 M20-9980346")
 	Attribute("manufacturer" "unknown")
@@ -4536,7 +4537,7 @@ Element["" "0805_ext" "P/C14" ".1uF" 12.5000mm 121.2500mm 0.9446mm 1.4402mm 1 75
 
 	)
 
-Element["" "SOT223" "P/U3" "unknown" 5.2500mm 128.0000mm -1.1316mm -9.9498mm 0 75 ""]
+Element["" "SOT223" "P/U3" "unknown" 5.2500mm 128.0000mm 3.5000mm -10.0000mm 0 75 ""]
 (
 	Attribute("device" "AP2114")
 	Attribute("manufacturer" "unknown")
@@ -4596,7 +4597,7 @@ Element["" "0805_ext" "P/R6" "180k" 27.5000mm 147.5000mm -0.5000mm -2.0000mm 0 7
 
 	)
 
-Element["" "0805_ext" "P/R10" "10k 1%" 27.2500mm 149.5000mm 4.2500mm -3.2500mm 0 75 ""]
+Element["" "0805_ext" "P/R10" "4.99k 1%" 27.2500mm 149.5000mm 4.2500mm -3.2500mm 0 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -4624,7 +4625,7 @@ Element["" "0805_ext" "P/C11" "3.3nF" 30.5000mm 150.0000mm 1.2500mm 1.0000mm 0 7
 
 	)
 
-Element["" "0805_ext" "P/R12" "1.24k 1%" 22.7500mm 149.0000mm -1.3690mm 1.0040mm 0 75 ""]
+Element["" "0805_ext" "P/R12" "619 1%" 22.7500mm 149.0000mm -1.3690mm 1.0040mm 0 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -6011,7 +6012,7 @@ Element["lock" "Molex_39-30-0060" "P/J1" "6-Pin" 130.7500mm 17.0000mm -9.0000mm 
 
 	)
 
-Element["" "38HTSSOP" "D/X/U1" "unknown" 72.0000mm 128.7500mm 103.66mil -247.05mil 0 77 ""]
+Element["" "38HTSSOP" "D/X/U1" "unknown" 72.0000mm 128.7500mm 103.66mil -247.05mil 0 75 ""]
 (
 	Attribute("device" "DRV8711")
 	Attribute("manufacturer" "unknown")
@@ -6063,7 +6064,7 @@ Element["" "38HTSSOP" "D/X/U1" "unknown" 72.0000mm 128.7500mm 103.66mil -247.05m
 
 	)
 
-Element["" "38HTSSOP" "D/A/U1" "unknown" 71.5000mm 36.2500mm 4.1520mm -6.1717mm 0 77 ""]
+Element["" "38HTSSOP" "D/A/U1" "unknown" 71.5000mm 36.2500mm 4.1520mm -6.1717mm 0 75 ""]
 (
 	Attribute("device" "DRV8711")
 	Attribute("manufacturer" "unknown")
@@ -6115,7 +6116,7 @@ Element["" "38HTSSOP" "D/A/U1" "unknown" 71.5000mm 36.2500mm 4.1520mm -6.1717mm 
 
 	)
 
-Element["" "38HTSSOP" "D/Z/U1" "unknown" 71.5000mm 67.2500mm 128.54mil -240.49mil 0 77 ""]
+Element["" "38HTSSOP" "D/Z/U1" "unknown" 71.5000mm 67.2500mm 128.54mil -240.49mil 0 75 ""]
 (
 	Attribute("device" "DRV8711")
 	Attribute("manufacturer" "unknown")
@@ -6167,7 +6168,7 @@ Element["" "38HTSSOP" "D/Z/U1" "unknown" 71.5000mm 67.2500mm 128.54mil -240.49mi
 
 	)
 
-Element["" "38HTSSOP" "D/Y/U1" "unknown" 71.7500mm 98.0000mm 2.8641mm -6.2550mm 0 77 ""]
+Element["" "38HTSSOP" "D/Y/U1" "unknown" 71.7500mm 98.0000mm 2.8641mm -6.2550mm 0 75 ""]
 (
 	Attribute("device" "DRV8711")
 	Attribute("manufacturer" "unknown")
@@ -6245,7 +6246,7 @@ Element["" "TO_277A" "P/D3" "unknown" 21.0000mm 139.7500mm -4.7500mm 0.5000mm 1 
 
 	)
 
-Element["" "SRN1060" "P/L1" "22uH" 10.0000mm 141.0000mm -5.2660mm -7.3946mm 0 100 ""]
+Element["" "SRN1060" "P/L1" "10uH" 10.0000mm 141.0000mm -5.2660mm -7.3946mm 0 75 ""]
 (
 	Attribute("device" "INDUCTOR")
 	Attribute("manufacturer" "unknown")
@@ -6289,7 +6290,7 @@ Element["" "0805_ext" "P/R1" "1M" 97.7500mm 7.2500mm -4.7500mm -0.7500mm 0 75 ""
 
 	)
 
-Element["" "HSOP8" "P/U2" "unknown" 21.0000mm 145.5000mm -1.7500mm -3.2500mm 0 100 ""]
+Element["" "HSOP8" "P/U2" "unknown" 21.0000mm 145.5000mm -1.7500mm -3.2500mm 0 75 ""]
 (
 	Attribute("device" "L7986")
 	Attribute("manufacturer" "unknown")
@@ -6614,7 +6615,7 @@ Element["" "1210_ext" "P/R5" "100" 22.0000mm 54.5000mm -3.0000mm -2.7500mm 0 75 
 
 	)
 
-Element["" "0805_ext" "P/C5" "220pF" 25.2500mm 61.5000mm -0.2500mm 4.7500mm 1 75 ""]
+Element["" "0805_ext" "P/C5" "220pF" 25.2500mm 61.5000mm 1.0000mm 1.2500mm 1 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -6758,7 +6759,7 @@ Element["" "SOD123" "P/D1" "unknown" 20.7500mm 57.7500mm 3.3497mm -13.62mil 0 75
 
 	)
 
-Element["" "DO214AC" "P/Z2" "unknown" 20.0000mm 61.7500mm 58.93mil 2.1093mm 0 75 ""]
+Element["" "DO214AC" "P/Z2" "unknown" 20.0000mm 61.7500mm 0.2500mm 2.0000mm 0 75 ""]
 (
 	Attribute("device" "ZENER")
 	Attribute("manufacturer" "unknown")
@@ -6817,7 +6818,7 @@ Element["" "LT8302" "P/U1" "unknown" 10.2500mm 61.2500mm 2.8260mm -2.7580mm 0 75
 
 	)
 
-Element["" "JUMPER4" "R/I2C" "unknown" 3.7500mm 23.2500mm -0.5000mm -9.5000mm 1 75 ""]
+Element["" "JUMPER4" "R/I2C" "unknown" 3.7500mm 23.2500mm -2.7500mm -2.7500mm 1 75 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -6960,7 +6961,7 @@ Element["" "SOT23_2" "R/LV1/Q1" "unknown" 13.2500mm 17.2500mm -4.0000mm 1.5000mm
 
 	)
 
-Element["" "0805_ext" "R/LV1/R2" "10k" 12.5000mm 19.2500mm 2.2500mm -0.7500mm 0 77 ""]
+Element["" "0805_ext" "R/LV1/R2" "10k" 12.5000mm 19.2500mm 2.2500mm -0.7500mm 0 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -6971,6 +6972,51 @@ Element["" "0805_ext" "R/LV1/R2" "10k" 12.5000mm 19.2500mm 2.2500mm -0.7500mm 0 
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+
+	)
+
+Element["" "0805_ext" "H/R25" "180" 9.0000mm 116.2500mm -1.2500mm -2.0000mm 0 75 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.0000 1.4000mm "1" "1" "square,edge2"]
+	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+
+	)
+
+Element["" "0805_ext" "H/C22" "0.1uF" 4.5000mm 118.0000mm -3.5000mm 2.5000mm 1 75 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
+	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["" "SOT23" "H/U1" "unknown" 5.7500mm 116.2500mm -2.2500mm -4.0000mm 0 75 ""]
+(
+	Attribute("device" "MCP9700")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 40.00mil "Vcc" "1" "square,edge2"]
+	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 34.00mil 30.00mil 40.00mil "Out" "2" "square,edge2"]
+	Pad[-85.00mil -39.00mil -79.00mil -39.00mil 34.00mil 30.00mil 40.00mil "Gnd" "3" "square"]
+	ElementLine [-110.00mil 25.00mil 29.00mil 25.00mil 10.00mil]
+	ElementLine [29.00mil -103.00mil 29.00mil 25.00mil 10.00mil]
+	ElementLine [-110.00mil -103.00mil 29.00mil -103.00mil 10.00mil]
+	ElementLine [-110.00mil -103.00mil -110.00mil 25.00mil 10.00mil]
 
 	)
 Layer(1 "top")
@@ -7389,7 +7435,7 @@ Layer(1 "top")
 	Line[84.0000mm 19.0000mm 67.0000mm 19.0000mm 25.00mil 0.6000mm "clearline"]
 	Line[67.0000mm 19.0000mm 65.2500mm 17.2500mm 25.00mil 0.6000mm "clearline"]
 	Line[56.5000mm 24.7500mm 60.5000mm 20.7500mm 10.00mil 0.6000mm "clearline"]
-	Line[53.5000mm 30.7500mm 64.5000mm 19.7500mm 10.00mil 0.6000mm "clearline"]
+	Line[53.5000mm 30.7500mm 60.0000mm 24.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[48.5000mm 19.2500mm 54.7500mm 19.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[54.7500mm 19.2500mm 55.2500mm 19.7500mm 10.00mil 0.6000mm "clearline"]
 	Line[55.2500mm 19.7500mm 55.2500mm 22.7500mm 10.00mil 0.6000mm "clearline"]
@@ -7818,7 +7864,7 @@ Layer(1 "top")
 	Line[112.2500mm 141.5000mm 110.2500mm 143.5000mm 10.00mil 0.6000mm "clearline"]
 	Line[128.0000mm 111.7500mm 128.0000mm 113.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[71.0000mm 116.0000mm 72.2500mm 114.7500mm 10.00mil 0.6000mm "clearline"]
-	Line[13.5000mm 106.5000mm 16.7500mm 103.2500mm 10.00mil 0.6000mm "clearline"]
+	Line[6.0000mm 114.0000mm 16.7500mm 103.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[44.0000mm 78.2500mm 30.0000mm 92.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[14.5000mm 112.5000mm 14.5000mm 110.0000mm 10.00mil 0.6000mm "clearline"]
 	Line[74.5000mm 94.0000mm 75.5000mm 94.0000mm 10.00mil 0.6000mm "clearline"]
@@ -7885,7 +7931,7 @@ Layer(1 "top")
 	Line[46.7500mm 88.0000mm 46.7500mm 74.7500mm 10.00mil 20.00mil "clearline"]
 	Line[1250.00mil 101.0000mm 32.7500mm 102.0000mm 10.00mil 20.00mil "clearline"]
 	Line[48.7500mm 119.2500mm 51.5000mm 119.2500mm 10.00mil 20.00mil "clearline"]
-	Line[64.5000mm 19.7500mm 105.5000mm 19.7500mm 10.00mil 20.00mil "clearline"]
+	Line[78.2500mm 19.7500mm 105.5000mm 19.7500mm 10.00mil 20.00mil "clearline"]
 	Line[79.2500mm 20.7500mm 95.0000mm 20.7500mm 10.00mil 0.6000mm "clearline"]
 	Line[108.5000mm 14.7500mm 107.2500mm 16.0000mm 10.00mil 20.00mil "clearline"]
 	Line[107.2500mm 16.0000mm 107.2500mm 18.0000mm 10.00mil 20.00mil "clearline"]
@@ -7979,6 +8025,17 @@ Layer(1 "top")
 	Line[21.0000mm 17.2500mm 20.0000mm 16.2500mm 10.00mil 20.00mil "clearline"]
 	Line[20.0000mm 16.2500mm 20.0000mm 15.2500mm 10.00mil 20.00mil "clearline"]
 	Line[53.0000mm 23.5000mm 50.5000mm 21.0000mm 10.00mil 0.6000mm "clearline"]
+	Line[78.2500mm 19.7500mm 73.7500mm 24.2500mm 10.00mil 20.00mil "clearline"]
+	Line[73.7500mm 24.2500mm 60.0000mm 24.2500mm 10.00mil 20.00mil "clearline"]
+	Line[20.5000mm 100.7500mm 23.2500mm 98.0000mm 10.00mil 20.00mil "clearline"]
+	Line[23.2500mm 98.0000mm 23.2500mm 95.7500mm 10.00mil 20.00mil "clearline"]
+	Line[23.2500mm 95.7500mm 21.2500mm 93.7500mm 10.00mil 20.00mil "clearline"]
+	Line[21.2500mm 93.7500mm 21.0000mm 93.7500mm 10.00mil 20.00mil "clearline"]
+	Line[21.0000mm 93.7500mm 20.2500mm 93.0000mm 10.00mil 20.00mil "clearline"]
+	Line[2.2500mm 115.2500mm 3.7500mm 115.2500mm 10.00mil 20.00mil "clearline"]
+	Line[3.7500mm 117.7500mm 3.7500mm 115.5000mm 10.00mil 20.00mil "clearline"]
+	Line[5.7500mm 116.5000mm 5.7500mm 117.7500mm 10.00mil 20.00mil "clearline"]
+	Line[6.0000mm 116.2500mm 7.5000mm 116.2500mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[117.2500mm 0.2500mm] [142.0000mm 0.2500mm] [142.0000mm 24.5000mm] [117.2500mm 24.5000mm] 
@@ -8841,9 +8898,7 @@ Layer(4 "bottom")
 	Line[46.7500mm 144.7500mm 50.5000mm 148.5000mm 10.00mil 0.6000mm "clearline"]
 	Line[109.5000mm 148.5000mm 118.0000mm 140.0000mm 10.00mil 0.6000mm "clearline"]
 	Line[51.0000mm 148.0000mm 46.7500mm 143.7500mm 10.00mil 0.6000mm "clearline"]
-	Line[13.2500mm 106.5000mm 18.0000mm 106.5000mm 10.00mil 0.6000mm "clearline"]
-	Line[18.0000mm 106.5000mm 20.5000mm 109.0000mm 10.00mil 0.6000mm "clearline"]
-	Line[20.5000mm 109.0000mm 20.5000mm 112.7500mm 10.00mil 0.6000mm "clearline"]
+	Line[20.5000mm 100.7500mm 20.5000mm 112.7500mm 10.00mil 0.6000mm "clearline"]
 	Line[20.5000mm 112.7500mm 30.0000mm 122.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[30.0000mm 122.2500mm 30.0000mm 129.5000mm 10.00mil 0.6000mm "clearline"]
 	Line[30.0000mm 129.5000mm 38.5000mm 138.0000mm 10.00mil 0.6000mm "clearline"]
@@ -9287,7 +9342,7 @@ Layer(6 "silk")
 	Text[0.8918mm 100.4666mm 0 75 "PDI" "clearline"]
 	Text[8.6552mm 102.4304mm 0 75 "3.3Vm" "clearline"]
 	Text[86.9913mm 149.6189mm 0 154 "Buildbotics LLC" "clearline,lock"]
-    Text[84.2500mm 151.7500mm 0 153 "Copyright 2016-2017" "clearline,lock"]
+	Text[84.2500mm 151.7500mm 0 153 "Copyright 2016-2017" "clearline,lock"]
 	Text[58.8693mm 127.7932mm 0 75 "STEP" "clearline"]
 	Text[58.9064mm 132.5872mm 0 75 "CS" "clearline"]
 	Text[58.9242mm 135.1478mm 0 75 "GND" "clearline"]
@@ -9380,6 +9435,7 @@ NetList()
 		Connect("H/LD1/R2-1")
 		Connect("H/LD2/R2-1")
 		Connect("H/R2-2")
+		Connect("H/R25-1")
 		Connect("H/U6-8")
 		Connect("M/C27-2")
 		Connect("M/C28-2")
@@ -10283,6 +10339,7 @@ NetList()
 		Connect("H/C19-1")
 		Connect("H/C20-1")
 		Connect("H/C21-1")
+		Connect("H/C22-1")
 		Connect("H/C35-2")
 		Connect("H/J4-7")
 		Connect("H/J4-18")
@@ -10305,6 +10362,7 @@ NetList()
 		Connect("H/LD2/Q2-2")
 		Connect("H/R1-2")
 		Connect("H/R3-1")
+		Connect("H/U1-3")
 		Connect("H/U6-5")
 		Connect("M/C27-1")
 		Connect("M/C28-1")
@@ -10355,20 +10413,20 @@ NetList()
 		Connect("R/C26-1")
 		Connect("R/U4-9")
 	)
-	Net("H/LD1/unnamed_net226" "(unknown)")
+	Net("H/LD1/unnamed_net225" "(unknown)")
 	(
 		Connect("H/LD1/Q1-4")
 		Connect("H/LD1/Q2-3")
 		Connect("H/LD1/R3-2")
 	)
-	Net("H/LD1/unnamed_net227" "(unknown)")
+	Net("H/LD1/unnamed_net226" "(unknown)")
 	(
 		Connect("H/LD1/C15-2")
 		Connect("H/LD1/Q2-1")
 		Connect("H/LD1/R1-1")
 		Connect("H/LD1/R2-2")
 	)
-	Net("H/LD1/unnamed_net228" "(unknown)")
+	Net("H/LD1/unnamed_net227" "(unknown)")
 	(
 		Connect("H/LD1/J1-2")
 		Connect("H/LD1/J1-5")
@@ -10377,20 +10435,20 @@ NetList()
 		Connect("H/LD1/Q1-7")
 		Connect("H/LD1/Q1-8")
 	)
-	Net("H/LD2/unnamed_net230" "(unknown)")
+	Net("H/LD2/unnamed_net229" "(unknown)")
 	(
 		Connect("H/LD2/Q1-4")
 		Connect("H/LD2/Q2-3")
 		Connect("H/LD2/R3-2")
 	)
-	Net("H/LD2/unnamed_net231" "(unknown)")
+	Net("H/LD2/unnamed_net230" "(unknown)")
 	(
 		Connect("H/LD2/C15-2")
 		Connect("H/LD2/Q2-1")
 		Connect("H/LD2/R1-1")
 		Connect("H/LD2/R2-2")
 	)
-	Net("H/LD2/unnamed_net232" "(unknown)")
+	Net("H/LD2/unnamed_net231" "(unknown)")
 	(
 		Connect("H/LD2/J1-2")
 		Connect("H/LD2/J1-5")
@@ -10399,19 +10457,19 @@ NetList()
 		Connect("H/LD2/Q1-7")
 		Connect("H/LD2/Q1-8")
 	)
-	Net("H/unnamed_net221" "(unknown)")
+	Net("H/unnamed_net220" "(unknown)")
 	(
 		Connect("H/C17-2")
 		Connect("H/R8-1")
 		Connect("H/U6-4")
 	)
-	Net("H/unnamed_net222" "(unknown)")
+	Net("H/unnamed_net221" "(unknown)")
 	(
 		Connect("H/C15-2")
 		Connect("H/R6-1")
 		Connect("H/U6-1")
 	)
-	Net("H/unnamed_net223" "(unknown)")
+	Net("H/unnamed_net222" "(unknown)")
 	(
 		Connect("H/C1-1")
 		Connect("H/C2-2")
@@ -10420,7 +10478,7 @@ NetList()
 		Connect("H/R19-2")
 		Connect("H/U6-7")
 	)
-	Net("H/unnamed_net224" "(unknown)")
+	Net("H/unnamed_net223" "(unknown)")
 	(
 		Connect("H/C16-2")
 		Connect("H/R1-1")
@@ -10428,7 +10486,7 @@ NetList()
 		Connect("H/U6-2")
 		Connect("H/U6-3")
 	)
-	Net("H/unnamed_net225" "(unknown)")
+	Net("H/unnamed_net224" "(unknown)")
 	(
 		Connect("H/C2-1")
 		Connect("H/C3-2")
@@ -10437,105 +10495,111 @@ NetList()
 		Connect("H/R19-1")
 		Connect("H/U6-6")
 	)
-	Net("H/unnamed_net234" "(unknown)")
+	Net("H/unnamed_net233" "(unknown)")
 	(
 		Connect("H/L1-2")
 		Connect("H/R4-2")
 	)
-	Net("H/unnamed_net235" "(unknown)")
+	Net("H/unnamed_net234" "(unknown)")
 	(
 		Connect("H/L1-3")
 		Connect("H/R5-2")
 	)
-	Net("H/unnamed_net236" "(unknown)")
+	Net("H/unnamed_net235" "(unknown)")
 	(
 		Connect("H/C14-2")
 		Connect("H/J4-12")
 		Connect("H/R24-1")
 	)
-	Net("H/unnamed_net237" "(unknown)")
+	Net("H/unnamed_net236" "(unknown)")
 	(
 		Connect("H/C13-2")
 		Connect("H/J4-24")
 		Connect("H/R23-1")
 	)
-	Net("H/unnamed_net238" "(unknown)")
+	Net("H/unnamed_net237" "(unknown)")
 	(
 		Connect("H/C12-2")
 		Connect("H/J4-11")
 		Connect("H/R22-1")
 	)
-	Net("H/unnamed_net239" "(unknown)")
+	Net("H/unnamed_net238" "(unknown)")
 	(
 		Connect("H/C11-2")
 		Connect("H/J4-23")
 		Connect("H/R21-1")
 	)
-	Net("H/unnamed_net240" "(unknown)")
+	Net("H/unnamed_net239" "(unknown)")
 	(
 		Connect("H/C10-2")
 		Connect("H/J4-10")
 		Connect("H/R20-1")
 	)
-	Net("H/unnamed_net241" "(unknown)")
+	Net("H/unnamed_net240" "(unknown)")
 	(
 		Connect("H/C9-2")
 		Connect("H/J4-22")
 		Connect("H/R18-1")
 	)
-	Net("H/unnamed_net242" "(unknown)")
+	Net("H/unnamed_net241" "(unknown)")
 	(
 		Connect("H/C8-2")
 		Connect("H/J4-9")
 		Connect("H/R17-1")
 	)
-	Net("H/unnamed_net243" "(unknown)")
+	Net("H/unnamed_net242" "(unknown)")
 	(
 		Connect("H/C21-2")
 		Connect("H/J4-21")
 		Connect("H/R16-1")
 	)
-	Net("H/unnamed_net244" "(unknown)")
+	Net("H/unnamed_net243" "(unknown)")
 	(
 		Connect("H/C7-2")
 		Connect("H/J4-8")
 		Connect("H/R15-1")
 	)
-	Net("H/unnamed_net245" "(unknown)")
+	Net("H/unnamed_net244" "(unknown)")
 	(
 		Connect("H/C6-2")
 		Connect("H/J4-5")
 		Connect("H/R14-1")
 	)
-	Net("H/unnamed_net246" "(unknown)")
+	Net("H/unnamed_net245" "(unknown)")
 	(
 		Connect("H/C20-2")
 		Connect("H/J4-17")
 		Connect("H/R13-1")
 	)
-	Net("H/unnamed_net247" "(unknown)")
+	Net("H/unnamed_net246" "(unknown)")
 	(
 		Connect("H/C5-2")
 		Connect("H/J4-4")
 		Connect("H/R12-1")
 	)
-	Net("H/unnamed_net248" "(unknown)")
+	Net("H/unnamed_net247" "(unknown)")
 	(
 		Connect("H/C19-2")
 		Connect("H/J4-16")
 		Connect("H/R11-1")
 	)
-	Net("H/unnamed_net249" "(unknown)")
+	Net("H/unnamed_net248" "(unknown)")
 	(
 		Connect("H/C4-2")
 		Connect("H/J4-3")
 		Connect("H/R10-1")
 	)
-	Net("H/unnamed_net250" "(unknown)")
+	Net("H/unnamed_net249" "(unknown)")
 	(
 		Connect("H/C18-2")
 		Connect("H/J4-15")
 		Connect("H/R9-1")
+	)
+	Net("H/unnamed_net250" "(unknown)")
+	(
+		Connect("H/C22-2")
+		Connect("H/R25-2")
+		Connect("H/U1-1")
 	)
 	Net("ISOGND" "(unknown)")
 	(
@@ -10590,10 +10654,6 @@ NetList()
 	Net("M/unnamed_net219" "(unknown)")
 	(
 		Connect("M/U5-54")
-	)
-	Net("M/unnamed_net220" "(unknown)")
-	(
-		Connect("M/U5-55")
 	)
 	Net("max_a" "(unknown)")
 	(
@@ -10813,7 +10873,7 @@ NetList()
 	Net("probe" "(unknown)")
 	(
 		Connect("H/R18-2")
-		Connect("M/U5-5")
+		Connect("M/U5-55")
 	)
 	Net("pwr_en" "(unknown)")
 	(
@@ -11162,6 +11222,11 @@ NetList()
 		Connect("H/J4-2")
 		Connect("H/LD2/R1-2")
 		Connect("M/U5-41")
+	)
+	Net("temp" "(unknown)")
+	(
+		Connect("H/U1-2")
+		Connect("M/U5-5")
 	)
 	Net("Vs" "(unknown)")
 	(
