@@ -495,7 +495,7 @@ device=CONNECTOR_6
 T 48000 43200 5 10 1 1 0 0 1
 refdes=ISP
 T 47500 43900 5 10 0 0 0 0 1
-footprint=HEADER6
+footprint=HEADER6_2
 }
 C 52800 44200 1 0 0 gnd.sym
 C 49100 42000 1 90 0 gnd.sym
@@ -566,7 +566,7 @@ refdes=ENABLE
 T 43700 46350 5 10 0 0 0 6 1
 device=CONNECTOR_2
 T 43700 46550 5 10 0 0 0 6 1
-footprint=SIP2N
+footprint=JUMPER2
 }
 N 44000 45900 44000 46100 4
 C 40500 44600 1 0 0 vcc-1.sym
@@ -608,7 +608,7 @@ device=CONNECTOR_6
 T 53200 43200 5 10 1 1 0 0 1
 refdes=J3
 T 52700 43900 5 10 0 0 0 0 1
-footprint=HEADER6
+footprint=HEADER6_2
 }
 C 54400 43000 1 180 1 io.sym
 {
