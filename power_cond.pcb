@@ -980,7 +980,7 @@ Element["" "KEYSTONE_1212.fp" "J1" "unknown" 27.8000mm 4.7000mm 0.0000 6.0000mm 
 
 	)
 
-Element["" "DO214AB" "Z4" "36V/40V/58.1V" 3.1000mm 37.0000mm 0.0000 227.00mil 2 100 ""]
+Element["" "DO214AB" "Z4" "36V/40V/58.1V" 3.1000mm 37.0000mm 3.3760mm 0.7670mm 0 100 ""]
 (
 	Attribute("device" "ZENER")
 	Attribute("manufacturer" "unknown")
@@ -1052,7 +1052,7 @@ Element["" "HEADER6_2" "J3" "unknown" 40.1000mm 86.9600mm 2.3300mm 6.8460mm 0 10
 
 	)
 
-Element["" "PowerSSO24" "Q2" "unknown" 68.9000mm 49.0000mm 0.3000mm -3.7000mm 3 100 ""]
+Element["" "PowerSSO24" "Q2" "unknown" 68.9000mm 49.0000mm -1.1739mm -6.9762mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1258,7 +1258,7 @@ Element["" "0805_ext" "R17" "10K" 51.5000mm 41.1000mm 2.8960mm -0.4560mm 0 100 "
 
 	)
 
-Element["" "testpt.fp" "TP4" "unknown" 45.1000mm 30.3000mm 0.0000 0.0000 0 100 ""]
+Element["" "testpt.fp" "TP4" "unknown" 45.1000mm 30.3000mm -4.4897mm -0.9180mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1382,7 +1382,7 @@ Element["" "testpt.fp" "TP6" "unknown" 45.4000mm 57.8000mm -5.1000mm -0.1000mm 0
 
 	)
 
-Element["" "testpt.fp" "TP10" "unknown" 45.3000mm 51.7000mm -4.4000mm 0.0000 0 100 ""]
+Element["" "testpt.fp" "TP10" "unknown" 45.3000mm 51.7000mm -4.9615mm -0.8639mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1490,7 +1490,7 @@ Element["" "0805_ext" "R10" "560" 51.4000mm 56.4480mm -0.8520mm 2.2520mm 0 100 "
 
 	)
 
-Element["" "0805_ext" "R11" "10K" 49.1000mm 67.4480mm -0.1000mm -1.9040mm 3 100 ""]
+Element["" "0805_ext" "R11" "10K" 49.1000mm 67.4480mm 0.8448mm 2.4965mm 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1504,7 +1504,7 @@ Element["" "0805_ext" "R11" "10K" 49.1000mm 67.4480mm -0.1000mm -1.9040mm 3 100 
 
 	)
 
-Element["" "0805_ext" "R15" "560" 51.5000mm 67.3960mm 0.7000mm 3.1000mm 3 100 ""]
+Element["" "0805_ext" "R15" "560" 51.5000mm 67.3960mm 0.8080mm 2.5868mm 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1518,7 +1518,7 @@ Element["" "0805_ext" "R15" "560" 51.5000mm 67.3960mm 0.7000mm 3.1000mm 3 100 ""
 
 	)
 
-Element["" "0805_ext" "R12" "560" 53.9000mm 67.2000mm -0.9000mm 4.7000mm 1 100 ""]
+Element["" "0805_ext" "R12" "560" 53.9000mm 67.2000mm 0.8738mm 2.6030mm 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1532,7 +1532,7 @@ Element["" "0805_ext" "R12" "560" 53.9000mm 67.2000mm -0.9000mm 4.7000mm 1 100 "
 
 	)
 
-Element["" "testpt.fp" "TP8" "unknown" 45.3000mm 68.7000mm 0.0000 0.0000 0 100 ""]
+Element["" "testpt.fp" "TP8" "unknown" 45.3000mm 68.7000mm -4.6704mm -0.8640mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1614,7 +1614,7 @@ Element["" "0805_ext" "R16" "1K" 36.1520mm 87.1000mm -4.9040mm -0.8000mm 0 100 "
 
 	)
 
-Element["" "testpt.fp" "TP11" "unknown" 45.4000mm 61.8000mm 0.0000 0.0000 0 100 ""]
+Element["" "testpt.fp" "TP11" "unknown" 45.4000mm 61.8000mm -4.8596mm -0.7775mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1640,7 +1640,7 @@ Element["" "0805_ext" "R22" "10K" 51.7520mm 61.9000mm 3.1800mm -0.5560mm 0 100 "
 
 	)
 
-Element["" "0805_ext" "C6" "0.1uF" 28.6000mm 82.8000mm 2.9999mm -0.9001mm 0 100 ""]
+Element["" "0805_ext" "C6" "0.1uF" 28.6000mm 82.8000mm 2.7637mm -0.7313mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1654,7 +1654,7 @@ Element["" "0805_ext" "C6" "0.1uF" 28.6000mm 82.8000mm 2.9999mm -0.9001mm 0 100 
 
 	)
 
-Element["" "HEADER6_2" "ISP" "unknown" 40.0600mm 74.9600mm 4.0660mm 50.00mil 1 100 ""]
+Element["" "HEADER6_2" "ISP" "unknown" 40.0600mm 74.9600mm 0.0944mm -2.9226mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_6")
 	Attribute("manufacturer" "unknown")
@@ -1731,7 +1731,7 @@ Element["" "QFN21_4" "U1" "unknown" 27.1338mm 77.9973mm -110.00mil -109.08mil 0 
 	Pad[0.0000 -100.00mil 0.0000 -63.00mil 11.02mil 20.00mil 16.02mil "PB1" "18" "square,octagon"]
 	Pad[-19.68mil -100.00mil -19.68mil -63.00mil 11.02mil 20.00mil 16.02mil "PB0" "19" "square,octagon"]
 	Pad[-39.37mil -100.00mil -39.37mil -63.00mil 11.02mil 20.00mil 16.02mil "PA7" "20" "square,octagon"]
-	Pad[0.0000 0.0000 0.0000 0.0000 2.6000mm 0.3048mm 2.7500mm "GND" "21" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 0.0000 2.6000mm 12.00mil 2.7500mm "GND" "21" "square,edge2"]
 	ElementLine [120.00mil 120.00mil 120.00mil -120.00mil 10.00mil]
 	ElementLine [120.00mil -120.00mil -120.00mil -120.00mil 10.00mil]
 	ElementLine [-120.00mil -120.00mil -120.00mil 120.00mil 10.00mil]
@@ -2024,6 +2024,12 @@ Layer(7 "silk")
 )
 Layer(8 "silk")
 (
+	Text[35.8163mm 90.3074mm 0 100 "SW2" "clearline"]
+	Text[36.0213mm 84.6325mm 0 100 "SW1" "clearline"]
+	Text[44.3794mm 91.9325mm 0 100 "Gnd" "clearline"]
+	Text[36.9070mm 92.1268mm 0 100 "5v" "clearline"]
+	Text[1750.00mil 84.6920mm 0 100 "SDA" "clearline"]
+	Text[44.3850mm 90.3127mm 0 100 "SCL" "clearline"]
 )
 NetList()
 (
