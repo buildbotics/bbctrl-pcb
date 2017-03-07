@@ -91,34 +91,6 @@ T 44200 50200 9 10 1 0 0 0 1
 RS485 interface
 C 44700 46900 1 0 0 gnd.sym
 C 46100 49300 1 90 0 gnd.sym
-C 43600 43700 1 0 0 load.sym
-{
-T 44095 44500 5 10 1 1 0 0 1
-refdes=LD1
-T 43995 43800 5 10 1 1 0 0 1
-source=load.sch
-}
-C 43600 42300 1 0 0 load.sym
-{
-T 44095 43100 5 10 1 1 0 0 1
-refdes=LD2
-T 43995 42400 5 10 1 1 0 0 1
-source=load.sch
-}
-C 42800 44100 1 0 0 input.sym
-{
-T 42800 44400 5 10 0 0 0 0 1
-device=INPUT
-T 42225 44150 5 10 1 1 0 0 1
-net=switch_1:1
-}
-C 42800 42700 1 0 0 input.sym
-{
-T 42800 43000 5 10 0 0 0 0 1
-device=INPUT
-T 42225 42750 5 10 1 1 0 0 1
-net=switch_2:1
-}
 C 49400 48200 1 0 0 io.sym
 {
 T 49600 48800 5 10 0 0 0 0 1
