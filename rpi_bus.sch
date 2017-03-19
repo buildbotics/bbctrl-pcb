@@ -260,7 +260,7 @@ C 46100 43400 1 0 0 input.sym
 T 46100 43700 5 10 0 0 0 0 1
 device=INPUT
 T 45500 43425 5 10 1 1 0 0 1
-net=rpi_scl_0:1
+net=rpi_scl_1:1
 }
 C 55100 43400 1 0 0 output.sym
 {
@@ -423,20 +423,6 @@ model=RC0805JR-071KL
 }
 N 55100 44300 54900 44300 4
 N 54500 44300 52200 44300 4
-C 41600 44600 1 180 0 io.sym
-{
-T 41400 44000 5 10 0 0 180 0 1
-device=IO
-T 40125 44425 5 10 1 1 0 0 1
-net=rpi_sda_0:1
-}
-C 43000 44600 1 180 1 output.sym
-{
-T 43100 44300 5 10 0 0 180 6 1
-device=OUTPUT
-T 44425 44575 5 10 1 1 180 0 1
-net=rpi_scl_0:1
-}
 C 41300 47600 1 0 0 nc.sym
 {
 T 41300 48000 5 10 0 0 0 0 1
@@ -449,7 +435,7 @@ C 46900 43800 1 180 0 io.sym
 T 46700 43200 5 10 0 0 180 0 1
 device=IO
 T 45425 43625 5 10 1 1 0 0 1
-net=rpi_sda_0:1
+net=rpi_sda_1:1
 }
 N 47600 43700 49800 43700 4
 N 52200 43700 54500 43700 4
@@ -897,3 +883,42 @@ description=Unpopulated test points, label on board
 C 51600 49400 1 90 0 3.3V-plus.sym
 C 51600 49000 1 90 0 5V-plus.sym
 C 51300 48900 1 270 0 iso_gnd.sym
+C 43300 44400 1 0 1 nc.sym
+{
+T 43300 44800 5 10 0 0 0 6 1
+value=NoConnection
+T 43300 45200 5 10 0 0 0 6 1
+device=DRC_Directive
+}
+C 41300 44400 1 0 0 nc.sym
+{
+T 41300 44800 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 45200 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 54200 42800 1 270 0 testpt.sym
+{
+T 54932 42742 5 8 1 1 180 0 1
+refdes=TP1
+T 54159 42800 5 8 0 1 270 0 1
+footprint=testpt
+T 54200 42800 5 10 0 0 270 0 1
+model=N/A
+T 54200 42800 5 10 0 0 270 0 1
+value=N/A
+}
+C 53800 42400 1 270 0 testpt.sym
+{
+T 54532 42342 5 8 1 1 180 0 1
+refdes=TP2
+T 53759 42400 5 8 0 1 270 0 1
+footprint=testpt
+T 53800 42400 5 10 0 0 270 0 1
+model=N/A
+T 53800 42400 5 10 0 0 270 0 1
+value=N/A
+}
+N 53800 42300 53800 43700 4
+N 54200 42700 54100 42700 4
+N 54100 42700 54100 43500 4
