@@ -337,9 +337,9 @@ device=CONNECTOR_5
 T 56200 50650 5 10 0 0 0 0 1
 footprint=JUMPER5
 T 55900 47600 5 10 0 0 0 0 1
-documentation=Label each pin on PCB.
+documentation=Do not popluate
 T 55900 47600 5 10 0 0 0 0 1
-description=Unpopulated test point
+description=Unpopulated test point, label on board
 T 55900 47600 5 10 0 0 0 0 1
 value=N/A
 T 55900 47600 5 10 0 0 0 0 1
@@ -879,6 +879,8 @@ T 51300 50250 5 10 0 0 0 0 1
 footprint=JUMPER3
 T 51000 48400 5 10 0 0 0 0 1
 description=Unpopulated test points, label on board
+T 51000 48400 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 51000 49400 1 90 0 3.3V-plus.sym
 C 51000 49000 1 90 0 5V-plus.sym
@@ -907,6 +909,8 @@ T 53100 48400 5 10 0 0 0 0 1
 description=Unpopulated test points, label on board
 T 53800 50100 5 10 1 1 0 6 1
 refdes=I2C
+T 53100 48400 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 53100 49700 1 180 0 io.sym
 {

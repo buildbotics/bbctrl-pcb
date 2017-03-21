@@ -100,9 +100,9 @@ device=CONNECTOR_4
 T 43900 45200 5 10 0 0 0 0 1
 footprint=JUMPER4
 T 43900 45200 5 10 0 0 0 0 1
-description=UNPOPULATED TEST POINTS
+description=UNPOPULATED TEST POINTS, label on board
 T 43900 45200 5 10 0 0 0 0 1
-documentation=LABEL EACH PIN ON PCB
+documentation=Do not populate
 }
 C 43800 45100 1 0 0 gnd.sym
 C 46300 43600 1 0 0 drv8711.sym
@@ -344,9 +344,9 @@ device=CONNECTOR_4
 T 55000 45250 5 10 0 0 0 0 1
 footprint=JUMPER4
 T 54700 43000 5 10 0 0 0 0 1
-description=UNPOPULATED TEST POINTS
+description=UNPOPULATED TEST POINTS, label on board
 T 54700 43000 5 10 0 0 0 0 1
-documentation=LABEL EACH PIN ON PCB
+documentation=Do not populate
 }
 C 54600 42900 1 0 0 gnd.sym
 N 54700 43200 54700 43400 4
@@ -633,6 +633,8 @@ T 48800 50600 5 10 0 0 0 0 1
 model=226CKS063M
 T 48500 50100 5 10 1 1 0 0 1
 value=22u
+T 48800 50600 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 49600 50600 1 270 0 ecap.sym
 {
@@ -648,6 +650,8 @@ T 49600 50600 5 10 0 0 0 0 1
 model=226CKS063M
 T 49300 50100 5 10 1 1 0 0 1
 value=22u
+T 49600 50600 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 47900 50600 1 270 0 ecap.sym
 {
@@ -663,6 +667,8 @@ T 47900 50600 5 10 0 0 0 0 1
 model=EKZN500ELL181MH20D 
 T 47300 50100 5 10 1 1 0 0 1
 value=180u
+T 47900 50600 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 54400 50500 1 0 0 Vs.sym
 {

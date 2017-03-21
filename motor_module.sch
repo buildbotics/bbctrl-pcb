@@ -291,9 +291,9 @@ device=CONNECTOR_6
 T 46600 42650 5 10 0 0 0 0 1
 footprint=JUMPER6
 T 46300 40400 5 10 0 0 0 0 1
-description=Unpopulated test point
+description=Unpopulated test point, label on board
 T 46300 40400 5 10 0 0 0 0 1
-documentation=Label each pin on PCB.
+documentation=Do not popluate
 T 46300 40400 5 10 0 0 0 0 1
 value=N/A
 T 46300 40400 5 10 0 0 0 0 1
