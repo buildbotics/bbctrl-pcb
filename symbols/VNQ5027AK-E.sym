@@ -90,7 +90,7 @@ Vcc
 P 5800 4100 5500 4100 1 0 0
 {
 T 5800 4100 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 4095 5 10 1 1 0 6 1
 pinlabel=O1
 T 5595 4145 5 10 1 1 0 0 1
@@ -101,7 +101,7 @@ pinseq=22
 P 5800 3000 5500 3000 1 0 0
 {
 T 5800 3000 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 2995 5 10 1 1 0 6 1
 pinlabel=O2
 T 5595 3045 5 10 1 1 0 0 1
@@ -112,7 +112,7 @@ pinseq=19
 P 5800 1900 5500 1900 1 0 0
 {
 T 5800 1900 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 1895 5 10 1 1 0 6 1
 pinlabel=O3
 T 5595 1945 5 10 1 1 0 0 1
@@ -123,7 +123,7 @@ pinseq=16
 P 5800 800 5500 800 1 0 0
 {
 T 5800 800 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 795 5 10 1 1 0 6 1
 pinlabel=O4
 T 5595 845 5 10 1 1 0 0 1
@@ -134,7 +134,7 @@ pinseq=13
 P 5800 1000 5500 1000 1 0 0
 {
 T 5800 1000 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 995 5 10 1 1 0 6 1
 pinlabel=O4
 T 5595 1045 5 10 1 1 0 0 1
@@ -145,7 +145,7 @@ pinseq=14
 P 5800 1200 5500 1200 1 0 0
 {
 T 5800 1200 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 1195 5 10 1 1 0 6 1
 pinlabel=O4
 T 5595 1245 5 10 1 1 0 0 1
@@ -156,7 +156,7 @@ pinseq=15
 P 5800 2100 5500 2100 1 0 0
 {
 T 5800 2100 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 2095 5 10 1 1 0 6 1
 pinlabel=O3
 T 5595 2145 5 10 1 1 0 0 1
@@ -167,7 +167,7 @@ pinseq=17
 P 5800 2300 5500 2300 1 0 0
 {
 T 5800 2300 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 2295 5 10 1 1 0 6 1
 pinlabel=O3
 T 5595 2345 5 10 1 1 0 0 1
@@ -178,7 +178,7 @@ pinseq=18
 P 5800 3200 5500 3200 1 0 0
 {
 T 5800 3200 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 3195 5 10 1 1 0 6 1
 pinlabel=O2
 T 5595 3245 5 10 1 1 0 0 1
@@ -189,7 +189,7 @@ pinseq=20
 P 5800 3400 5500 3400 1 0 0
 {
 T 5800 3400 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 3395 5 10 1 1 0 6 1
 pinlabel=O2
 T 5595 3445 5 10 1 1 0 0 1
@@ -200,7 +200,7 @@ pinseq=21
 P 5800 4300 5500 4300 1 0 0
 {
 T 5800 4300 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 4295 5 10 1 1 0 6 1
 pinlabel=O1
 T 5595 4345 5 10 1 1 0 0 1
@@ -211,7 +211,7 @@ pinseq=23
 P 5800 4500 5500 4500 1 0 0
 {
 T 5800 4500 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 5445 4495 5 10 1 1 0 6 1
 pinlabel=O1
 T 5595 4545 5 10 1 1 0 0 1
@@ -239,7 +239,7 @@ B 300 300 5200 5200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 2300 5800 2300 5500 1 0 0
 {
 T 2300 5800 5 10 0 0 0 0 1
-pintype=power
+pintype=pwr
 T 2300 5445 5 10 1 1 90 6 1
 pinlabel=Vcc
 T 2250 5595 5 10 1 1 90 0 1
@@ -250,7 +250,7 @@ pinseq=1
 P 2600 5800 2600 5500 1 0 0
 {
 T 2600 5800 5 10 0 0 0 0 1
-pintype=power
+pintype=pwr
 T 2600 5445 5 10 1 1 90 6 1
 pinlabel=Vcc
 T 2550 5595 5 10 1 1 90 0 1
@@ -261,7 +261,7 @@ pinseq=12
 P 2900 5800 2900 5500 1 0 0
 {
 T 2900 5800 5 10 0 0 0 0 1
-pintype=power
+pintype=pwr
 T 2900 5445 5 10 1 1 90 6 1
 pinlabel=Vcc
 T 2850 5595 5 10 1 1 90 0 1
@@ -272,7 +272,7 @@ pinseq=25
 P 2800 0 2800 300 1 0 0
 {
 T 2800 0 5 10 0 0 0 0 1
-pintype=ground
+pintype=pwr
 T 2800 355 5 10 1 1 90 0 1
 pinlabel=GND
 T 2750 205 5 10 1 1 90 6 1
@@ -283,7 +283,7 @@ pinseq=2
 P 0 4600 300 4600 1 0 0
 {
 T 0 4600 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 355 4595 5 10 1 1 0 0 1
 pinlabel=IN1
 T 205 4645 5 10 1 1 0 6 1
@@ -294,7 +294,7 @@ pinseq=3
 P 0 4300 300 4300 1 0 0
 {
 T 0 4300 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 355 4295 5 10 1 1 0 0 1
 pinlabel=CS1
 T 205 4345 5 10 1 1 0 6 1
@@ -305,7 +305,7 @@ pinseq=4
 P 0 3700 300 3700 1 0 0
 {
 T 0 3700 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 0 3700 5 10 0 0 0 0 1
 pinseq=5
 T 355 3695 5 10 1 1 0 0 1
@@ -316,7 +316,7 @@ pinnumber=5
 P 0 3400 300 3400 1 0 0
 {
 T 0 3400 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 0 3400 5 10 0 0 0 0 1
 pinseq=6
 T 355 3395 5 10 1 1 0 0 1
@@ -327,7 +327,7 @@ pinnumber=6
 P 0 2800 300 2800 1 0 0
 {
 T 0 2800 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 0 2800 5 10 0 0 0 0 1
 pinseq=7
 T 355 2795 5 10 1 1 0 0 1
@@ -338,7 +338,7 @@ pinnumber=7
 P 0 2500 300 2500 1 0 0
 {
 T 0 2500 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 0 2500 5 10 0 0 0 0 1
 pinseq=8
 T 355 2495 5 10 1 1 0 0 1
@@ -349,7 +349,7 @@ pinnumber=8
 P 0 1900 300 1900 1 0 0
 {
 T 0 1900 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 0 1900 5 10 0 0 0 0 1
 pinseq=9
 T 355 1895 5 10 1 1 0 0 1
@@ -360,7 +360,7 @@ pinnumber=9
 P 0 1600 300 1600 1 0 0
 {
 T 0 1600 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 0 1600 5 10 0 0 0 0 1
 pinseq=10
 T 355 1595 5 10 1 1 0 0 1
@@ -371,7 +371,7 @@ pinnumber=10
 P 0 1100 300 1100 1 0 0
 {
 T 0 1100 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 355 1095 5 10 1 1 0 0 1
 pinlabel=CS_DIS
 T 205 1145 5 10 1 1 0 6 1

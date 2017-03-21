@@ -95,11 +95,11 @@ device=DRC_Directive
 }
 T 50000 40700 9 10 1 0 0 0 2
 Microprocessor
-Copyright (c) 2016, Buildbotics LLC
+Copyright (c) 2016-2017, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
-Joseph Coffland
+Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-4.0
+7.0
 T 50000 40100 9 10 1 0 0 0 1
 5
 T 51500 40100 9 10 1 0 0 0 1
@@ -578,27 +578,6 @@ device=INPUT
 T 49500 42550 5 10 1 1 180 0 1
 net=probe:1
 }
-C 43600 40800 1 90 0 resistor.sym
-{
-T 43200 41100 5 10 0 0 90 0 1
-device=RESISTOR
-T 43400 41400 5 10 1 1 180 0 1
-refdes=R1
-T 43400 41200 5 10 1 1 180 0 1
-value=10K
-T 43600 40800 5 10 0 0 0 0 1
-model=RC0805FR-0710KL
-T 43600 40800 5 10 0 0 0 0 1
-description=RES SMD 10K OHM 1% 1/8W 0805
-T 43600 40800 5 10 0 0 0 0 1
-footprint=0805_ext
-}
-C 43200 41400 1 0 0 3.3V_motor.sym
-{
-T 43300 42100 5 10 0 0 0 0 1
-device=none
-}
-N 43500 41000 43500 40800 4
 C 43700 47600 1 0 0 nc.sym
 {
 T 43700 48000 5 10 0 0 0 0 1

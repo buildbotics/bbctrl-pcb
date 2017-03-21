@@ -2,11 +2,11 @@ v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
 T 50000 40700 9 10 1 0 0 0 2
 Level Converter
-Copyright (c) 2016, Buildbotics LLC
+Copyright (c) 2016-2017, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
-Joseph Coffland
+Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-4.0
+7.0
 T 50000 40100 9 10 1 0 0 0 1
 9
 T 51500 40100 9 10 1 0 0 0 1

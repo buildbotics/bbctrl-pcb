@@ -63,7 +63,7 @@ pinlabel=Gnd
 T 1250 250 5 8 0 0 0 0 1
 pinseq=6
 T 1250 250 5 8 0 0 0 0 1
-pintype=gnd
+pintype=pwr
 }
 L 300 800 1100 800 3 0 0 0 -1 -1
 L 300 400 1100 400 3 0 0 0 -1 -1
