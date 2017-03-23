@@ -197,6 +197,8 @@ T 47400 43100 5 10 0 0 270 0 1
 model=N/A
 T 47400 43100 5 10 0 0 270 0 1
 value=N/A
+T 47400 43100 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 47000 42400 1 180 0 testpt.sym
 {
@@ -208,6 +210,8 @@ T 47000 42400 5 10 0 0 180 0 1
 model=N/A
 T 47000 42400 5 10 0 0 180 0 1
 value=N/A
+T 47000 42400 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 49000 42400 1 90 0 cap.sym
 {
@@ -493,6 +497,8 @@ T 49500 49900 5 10 0 0 0 0 1
 model=N/A
 T 49500 49900 5 10 0 0 0 0 1
 value=N/A
+T 49500 49900 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 46000 42200 1 270 0 resistor.sym
 {
@@ -662,6 +668,8 @@ T 52900 49900 5 10 0 0 0 0 1
 model=N/A
 T 52900 49900 5 10 0 0 0 0 1
 value=N/A
+T 52900 49900 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 C 51000 43500 1 270 0 testpt.sym
 {
@@ -673,6 +681,8 @@ T 51000 43500 5 10 0 0 270 0 1
 model=N/A
 T 51000 43500 5 10 0 0 270 0 1
 value=N/A
+T 51000 43500 5 10 0 0 0 0 1
+documentation=Do not populate
 }
 N 41500 47300 41500 46800 4
 N 41500 46400 51000 46400 4
