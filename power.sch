@@ -148,7 +148,7 @@ device=RESISTOR
 T 46625 41400 5 10 1 1 90 0 1
 refdes=R9
 T 46625 41700 5 10 1 1 90 0 1
-value=10k 1%
+value=10K
 T 46300 42200 5 10 0 0 90 0 1
 footprint=0805_ext
 T 46300 42200 5 10 0 0 0 0 1
