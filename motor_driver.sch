@@ -511,9 +511,11 @@ footprint=DualSuperSO8
 T 52245 48950 5 10 1 1 0 0 1
 refdes=Q1
 T 51100 47800 5 10 0 0 0 0 1
-model=STL50DN6F7 or IPG20N06S4L26ATMA1
+model=IPG20N06S4L26ATMA1
 T 51100 47800 5 10 0 0 0 0 1
 description=MOSFET 2N-CH 60V 20A TDSON-8
+T 51100 47800 5 10 0 0 0 0 1
+documentation=Preferred part is STL50DN6F7, but not currently available.
 }
 C 51100 46400 1 0 0 stl40dn3llh5.sym
 {
@@ -524,9 +526,11 @@ footprint=DualSuperSO8
 T 52245 47550 5 10 1 1 0 0 1
 refdes=Q2
 T 51100 46400 5 10 0 0 0 0 1
-model=STL50DN6F7 or IPG20N06S4L26ATMA1
+model=IPG20N06S4L26ATMA1
 T 51100 46400 5 10 0 0 0 0 1
 description=MOSFET 2N-CH 60V 20A TDSON-8
+T 51100 46400 5 10 0 0 0 0 1
+documentation=Preferred part is STL50DN6F7, but not currently available.
 }
 C 51100 44300 1 0 0 stl40dn3llh5.sym
 {
@@ -537,9 +541,11 @@ footprint=DualSuperSO8
 T 52245 45450 5 10 1 1 0 0 1
 refdes=Q3
 T 51100 44300 5 10 0 0 0 0 1
-model=STL50DN6F7 or IPG20N06S4L26ATMA1
+model=IPG20N06S4L26ATMA1
 T 51100 44300 5 10 0 0 0 0 1
 description=MOSFET 2N-CH 60V 20A TDSON-8
+T 51100 44300 5 10 0 0 0 0 1
+documentation=Preferred part is STL50DN6F7, but not currently available.
 }
 C 51100 42900 1 0 0 stl40dn3llh5.sym
 {
@@ -550,9 +556,11 @@ footprint=DualSuperSO8
 T 52245 44050 5 10 1 1 0 0 1
 refdes=Q4
 T 51100 42900 5 10 0 0 0 0 1
-model=STL50DN6F7 or IPG20N06S4L26ATMA1
+model=IPG20N06S4L26ATMA1
 T 51100 42900 5 10 0 0 0 0 1
 description=MOSFET 2N-CH 60V 20A TDSON-8
+T 51100 42900 5 10 0 0 0 0 1
+documentation=Preferred part is STL50DN6F7, but not currently available.
 }
 N 44100 42200 44100 42400 4
 C 43100 42100 1 0 0 resistor.sym
