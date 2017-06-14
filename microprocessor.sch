@@ -519,8 +519,8 @@ C 43200 47900 1 0 0 input.sym
 {
 T 43200 48200 5 10 0 0 0 0 1
 device=INPUT
-T 42725 47950 5 10 1 1 0 0 1
-net=analog:1
+T 42525 47950 5 10 1 1 0 0 1
+net=analog_1:1
 }
 C 43200 44200 1 0 0 input.sym
 {
@@ -578,10 +578,10 @@ device=INPUT
 T 49500 42550 5 10 1 1 180 0 1
 net=probe:1
 }
-C 43700 47600 1 0 0 nc.sym
+C 43200 47600 1 0 0 input.sym
 {
-T 43700 48000 5 10 0 0 0 0 1
-value=NoConnection
-T 43700 48400 5 10 0 0 0 0 1
-device=DRC_Directive
+T 43200 47900 5 10 0 0 0 0 1
+device=INPUT
+T 42525 47650 5 10 1 1 0 0 1
+net=analog_2:1
 }
