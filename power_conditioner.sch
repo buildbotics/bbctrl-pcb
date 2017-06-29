@@ -284,13 +284,6 @@ net=pwr_mosi:1
 C 40800 44100 1 0 0 gnd.sym
 C 40700 45800 1 0 0 vcc-1.sym
 C 48300 44500 1 0 0 gnd.sym
-C 44200 42700 1 270 0 nc.sym
-{
-T 44600 42700 5 10 0 0 270 0 1
-value=NoConnection
-T 45000 42700 5 10 0 0 270 0 1
-device=DRC_Directive
-}
 C 54700 42200 1 0 0 io.sym
 {
 T 54700 42800 5 10 0 0 0 0 1
@@ -994,13 +987,6 @@ device=INPUT
 T 44625 42925 5 10 1 1 90 0 1
 net=vin_ref:1
 }
-C 45800 43200 1 270 0 input.sym
-{
-T 46050 43200 5 10 0 0 270 0 1
-device=INPUT
-T 45925 42925 5 10 1 1 90 0 1
-net=vout_ref:1
-}
 N 41800 43100 41800 43300 4
 C 42400 41700 1 90 0 cap.sym
 {
@@ -1219,3 +1205,17 @@ description=2 Positions Header, Cuttable Connector 0.100" (2.54mm) Through Hole 
 }
 N 41900 50300 43700 50300 4
 N 44100 50300 44400 50300 4
+C 45800 42700 1 270 0 nc.sym
+{
+T 46200 42700 5 10 0 0 270 0 1
+value=NoConnection
+T 46600 42700 5 10 0 0 270 0 1
+device=DRC_Directive
+}
+C 44200 43200 1 270 0 input.sym
+{
+T 44450 43200 5 10 0 0 270 0 1
+device=INPUT
+T 44325 42925 5 10 1 1 90 0 1
+net=vout_ref:1
+}
