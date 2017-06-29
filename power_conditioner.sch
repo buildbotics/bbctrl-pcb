@@ -778,9 +778,9 @@ value=1k
 T 41000 44400 5 10 0 0 0 0 1
 footprint=0805_ext
 T 41000 44400 5 10 0 0 0 0 1
-model=RC0805JR-071KL
+model=RC0805FR-071KL
 T 41000 44400 5 10 0 0 0 0 1
-description=RES SMD 1K OHM 5% 1/8W 0805
+description=RES SMD 1K OHM 1% 1/8W 0805
 }
 C 41900 43100 1 90 0 resistor.sym
 {
@@ -793,9 +793,9 @@ value=1k
 T 41900 43100 5 10 0 0 0 0 1
 footprint=0805_ext
 T 41900 43100 5 10 0 0 0 0 1
-model=RC0805JR-071KL
+model=RC0805FR-071KL
 T 41900 43100 5 10 0 0 0 0 1
-description=RES SMD 1K OHM 5% 1/8W 0805
+description=RES SMD 1K OHM 1% 1/8W 0805
 }
 C 42700 47900 1 0 0 zener.sym
 {
@@ -857,9 +857,9 @@ value=1k
 T 46300 48800 5 10 0 0 90 0 1
 footprint=0805_ext
 T 46300 48800 5 10 0 0 90 0 1
-model=RC0805JR-071KL
+model=RC0805FR-071KL
 T 46300 48800 5 10 0 0 90 0 1
-description=RES SMD 1K OHM 5% 1/8W 0805
+description=RES SMD 1K OHM 1% 1/8W 0805
 }
 C 46300 47300 1 180 0 resistor.sym
 {
@@ -872,9 +872,9 @@ value=1k
 T 46300 47300 5 10 0 0 90 0 1
 footprint=0805_ext
 T 46300 47300 5 10 0 0 90 0 1
-model=RC0805JR-071KL
+model=RC0805FJR-071KL
 T 46300 47300 5 10 0 0 90 0 1
-description=RES SMD 1K OHM 5% 1/8W 0805
+description=RES SMD 1K OHM 1% 1/8W 0805
 }
 C 46300 45700 1 180 0 resistor.sym
 {
@@ -887,9 +887,9 @@ value=1k
 T 46300 45700 5 10 0 0 90 0 1
 footprint=0805_ext
 T 46300 45700 5 10 0 0 90 0 1
-model=RC0805JR-071KL
+model=RC0805FR-071KL
 T 46300 45700 5 10 0 0 90 0 1
-description=RES SMD 1K OHM 5% 1/8W 0805
+description=RES SMD 1K OHM 1% 1/8W 0805
 }
 C 53900 42000 1 180 1 resistor.sym
 {
