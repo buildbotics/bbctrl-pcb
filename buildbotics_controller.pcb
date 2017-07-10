@@ -1903,7 +1903,6 @@ Via[129.5000mm 43.0000mm 2.0000mm 20.00mil 86.00mil 1.5000mm "" ""]
 Via[1.7500mm 46.0000mm 2.0000mm 20.00mil 94.00mil 1.5000mm "" "thermal(1S,4S)"]
 Via[7.0000mm 70.2500mm 36.00mil 20.00mil 48.00mil 20.00mil "" "thermal(1S)"]
 Via[32.7500mm 12.2500mm 36.00mil 20.00mil 46.00mil 20.00mil "" ""]
-Via[22.7500mm 8.2500mm 36.00mil 20.00mil 46.00mil 20.00mil "" ""]
 Via[32.7500mm 11.0000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[110.7500mm 28.2500mm 36.00mil 20.00mil 46.00mil 20.00mil "" "thermal(2S)"]
 Via[32.7500mm 50.2500mm 36.00mil 20.00mil 50.00mil 20.00mil "" ""]
@@ -9229,8 +9228,6 @@ Layer(2 "power")
 	Line[24.2500mm 11.7500mm 29.5000mm 17.0000mm 10.00mil 20.00mil "clearline"]
 	Line[29.5000mm 17.0000mm 31.5000mm 17.0000mm 10.00mil 20.00mil "clearline"]
 	Line[37.7500mm 23.2500mm 31.5000mm 17.0000mm 10.00mil 20.00mil "clearline"]
-	Line[32.7500mm 12.2500mm 26.7500mm 12.2500mm 10.00mil 20.00mil "clearline"]
-	Line[26.7500mm 12.2500mm 22.7500mm 8.2500mm 10.00mil 20.00mil "clearline"]
 	Line[32.7500mm 11.0000mm 36.5000mm 11.0000mm 10.00mil 20.00mil "clearline"]
 	Line[36.5000mm 11.0000mm 36.7500mm 11.2500mm 10.00mil 20.00mil "clearline"]
 	Line[32.7500mm 50.2500mm 26.0000mm 43.5000mm 10.00mil 20.00mil "clearline"]
@@ -9242,6 +9239,8 @@ Layer(2 "power")
 	Line[44.2500mm 16.2500mm 45.0000mm 15.5000mm 10.00mil 20.00mil "clearline"]
 	Line[45.0000mm 15.5000mm 64.0000mm 15.5000mm 10.00mil 20.00mil "clearline"]
 	Line[64.0000mm 15.5000mm 64.5000mm 16.0000mm 10.00mil 20.00mil "clearline"]
+	Line[32.7500mm 12.2500mm 32.7500mm 15.7500mm 10.00mil 20.00mil "clearline"]
+	Line[32.7500mm 15.7500mm 31.5000mm 17.0000mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[71.5000mm 0.2500mm] [71.5000mm 12.5000mm] [120.2500mm 12.5000mm] [120.2500mm 49.5000mm] [142.0000mm 49.5000mm] 
@@ -9745,7 +9744,6 @@ Layer(4 "bottom")
 	Line[49.7500mm 56.7500mm 47.5000mm 54.5000mm 10.00mil 20.00mil "clearline"]
 	Line[47.5000mm 54.5000mm 47.5000mm 47.0000mm 10.00mil 20.00mil "clearline"]
 	Line[47.5000mm 47.0000mm 41.0000mm 40.5000mm 10.00mil 20.00mil "clearline"]
-	Line[22.7500mm 8.2500mm 22.7500mm 2.0000mm 10.00mil 20.00mil "clearline"]
 	Line[28.2500mm 14.2500mm 29.5000mm 13.0000mm 10.00mil 20.00mil "clearline"]
 	Line[29.5000mm 13.0000mm 30.7500mm 13.0000mm 10.00mil 20.00mil "clearline"]
 	Line[30.7500mm 13.0000mm 32.7500mm 11.0000mm 10.00mil 20.00mil "clearline"]
@@ -10087,8 +10085,10 @@ NetList()
 		Connect("P/C11-2")
 		Connect("P/C12-2")
 		Connect("P/L1-2")
+		Connect("P/PC/C6-1")
 		Connect("P/PC/ISP-2")
 		Connect("P/PC/R17-1")
+		Connect("P/PC/U1-9")
 		Connect("P/R10-1")
 		Connect("P/TP5-1")
 		Connect("R/C26-2")
@@ -12090,11 +12090,9 @@ NetList()
 		Connect("P/C4-2")
 		Connect("P/C5-2")
 		Connect("P/C6-2")
-		Connect("P/PC/C6-1")
 		Connect("P/PC/Q2-19")
 		Connect("P/PC/Q2-20")
 		Connect("P/PC/Q2-21")
-		Connect("P/PC/U1-9")
 		Connect("P/R1-2")
 		Connect("P/R3-2")
 		Connect("P/R15-1")
