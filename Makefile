@@ -1,9 +1,25 @@
 NAME = buildbotics_controller
+VERSION=8.1
+
 SCHEMATICS = $(wildcard *.sch)
 SYMBOLS = $(wildcard symbols/*.sym)
 FOOTPRINTS = $(wildcard footprints/*.fp)
+PDFS = $(patsubst %.sch,%.pdf,$(SCHEMATICS))
+PDF=doc/$(NAME)-v$(VERSION).pdf
 
 all: drc
+
+%.pdf: %.sch
+	gschem -o $@ -s gschem-print.scm $<
+
+pdf: $(PDF)
+
+$(PDF): $(PDFS)
+	gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$@ $(PDFS)
+	rm $(PDFS)
+
+view: $(PDF)
+	evince $(PDF)
 
 schematics:
 	gschem -q -- $(NAME).sch&
@@ -37,4 +53,6 @@ tidy:
 	  *.bak *.log *.backup
 
 clean: tidy
-	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net $(NAME).bom
+	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net $(NAME).bom $(PDFS)
+
+.SECONDARY: $(PDFS)
