@@ -77,7 +77,7 @@ refdes=U4
 T 50500 43000 5 10 0 1 0 0 1
 device=MAX14850
 T 49800 43200 5 10 0 1 0 0 1
-model=MAX14850ASE+
+model=MAX14850AEE+
 T 49800 43200 5 10 0 0 0 0 1
 value=6-Channel Digital Isolator
 }
