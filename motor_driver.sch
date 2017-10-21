@@ -831,3 +831,8 @@ refdes=C2
 T 45900 48000 5 10 0 0 90 0 1
 model=C0805C104M5RACTU
 }
+C 46100 48700 1 0 0 5V_motor.sym
+{
+T 46200 49400 5 10 0 0 0 0 1
+device=none
+}
