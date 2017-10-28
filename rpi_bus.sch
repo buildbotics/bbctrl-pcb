@@ -68,8 +68,6 @@ device=OUTPUT
 T 44500 43000 5 10 1 1 180 0 1
 net=serial_cts:1
 }
-C 41600 46300 1 90 0 3.3V-plus-1.sym
-C 41600 49500 1 90 0 3.3V-plus-1.sym
 C 41600 47200 1 0 1 output.sym
 {
 T 41500 47500 5 10 0 0 0 6 1
@@ -184,7 +182,6 @@ T 47195 46700 5 10 1 1 0 0 1
 refdes=LV0
 }
 C 47500 46800 1 0 0 5V-plus.sym
-C 46800 46800 1 0 0 3.3V-plus-1.sym
 C 41600 49400 1 180 0 io.sym
 {
 T 41400 48800 5 10 0 0 180 0 1
@@ -212,7 +209,6 @@ T 47195 45500 5 10 1 1 0 0 1
 refdes=LV1
 }
 C 47500 45600 1 0 0 5V-plus.sym
-C 46800 45600 1 0 0 3.3V-plus-1.sym
 C 45600 44900 1 0 0 input.sym
 {
 T 45600 45200 5 10 0 0 0 0 1
@@ -358,4 +354,28 @@ C 55200 45100 1 90 0 3.3V_motor.sym
 {
 T 54500 45200 5 10 0 0 90 0 1
 device=none
+}
+C 46700 46800 1 0 0 3.3V_motor.sym
+{
+T 46800 47500 5 10 0 0 0 0 1
+device=none
+}
+C 46700 45600 1 0 0 3.3V_motor.sym
+{
+T 46800 46300 5 10 0 0 0 0 1
+device=none
+}
+C 41300 46400 1 0 0 nc.sym
+{
+T 41300 46800 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 47200 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 41300 49600 1 0 0 nc.sym
+{
+T 41300 50000 5 10 0 0 0 0 1
+value=NoConnection
+T 41300 50400 5 10 0 0 0 0 1
+device=DRC_Directive
 }
