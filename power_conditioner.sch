@@ -221,6 +221,8 @@ T 50700 42200 5 10 0 0 0 0 1
 description=2 Positions Header, Cuttable Connector 0.100" (2.54mm) Through Hole Tin
 T 50700 42200 5 10 0 0 0 0 1
 model=M20-9980346
+T 50700 42200 5 10 0 0 0 0 1
+value=6-Pin Header
 }
 C 51700 44100 1 0 0 gnd.sym
 C 52400 42300 1 90 0 gnd.sym
@@ -505,7 +507,7 @@ value=1k
 T 55500 43000 5 10 0 0 270 2 1
 footprint=0805_ext
 T 55500 43000 5 10 0 0 180 6 1
-model=RC0805JR-071KL
+model=RC0805FR-071KL
 }
 N 54700 43500 54900 43500 4
 C 55500 43600 1 180 0 resistor.sym
@@ -519,7 +521,7 @@ value=1k
 T 55500 43600 5 10 0 0 90 0 1
 footprint=0805_ext
 T 55500 43600 5 10 0 0 0 0 1
-model=RC0805JR-071KL
+model=RC0805FR-071KL
 }
 N 55300 43500 55500 43500 4
 C 54700 42800 1 180 1 resistor.sym
@@ -849,7 +851,7 @@ value=1k
 T 48200 46400 5 10 0 0 90 0 1
 footprint=0805_ext
 T 48200 46400 5 10 0 0 90 0 1
-model=RC0805FJR-071KL
+model=RC0805FR-071KL
 T 48200 46400 5 10 0 0 90 0 1
 description=RES SMD 1K OHM 1% 1/8W 0805
 }

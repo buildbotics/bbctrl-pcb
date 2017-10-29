@@ -323,7 +323,7 @@ model=C0805C104M5RACTU
 T 49300 43000 5 10 0 0 0 0 1
 description=Murata 0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0805
 T 49450 43000 5 10 1 1 90 0 1
-value=.1uF
+value=0.1uF
 T 49050 43100 5 10 1 1 90 0 1
 refdes=C14
 }
@@ -348,7 +348,7 @@ description=Murata 0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surfa
 T 47250 43100 5 10 1 1 90 0 1
 refdes=C13
 T 47650 43000 5 10 1 1 90 0 1
-value=.1uF
+value=0.1uF
 }
 C 47500 43400 1 0 0 ap2114.sym
 {
