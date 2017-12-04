@@ -1,5 +1,5 @@
 NAME = buildbotics_controller
-VERSION=8.1
+VERSION=10.0
 
 SCHEMATICS = $(wildcard *.sch)
 SYMBOLS = $(wildcard symbols/*.sym)
