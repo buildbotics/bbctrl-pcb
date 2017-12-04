@@ -216,7 +216,7 @@ device=CONNECTOR_6
 T 51300 43500 5 10 1 1 0 0 1
 refdes=ISP
 T 50800 44200 5 10 0 0 0 0 1
-footprint=HEADER6_2
+footprint=ISP
 T 50700 42200 5 10 0 0 0 0 1
 description=2 Positions Header, Cuttable Connector 0.100" (2.54mm) Through Hole Tin
 T 50700 42200 5 10 0 0 0 0 1
@@ -722,11 +722,11 @@ refdes=R27
 T 47600 41800 5 10 0 0 0 0 1
 footprint=0805_ext
 T 47600 42000 5 10 1 1 0 0 1
-value=34.8K
+value=37.4K
 T 47600 41800 5 10 0 1 0 0 1
-model=RC0805FR-0734K8L
+model=RC0805FR-0737K4L
 T 47600 41800 5 10 0 1 0 0 1
-description=RES SMD 34.8K OHM 1% 1/8W 0805
+description=RES SMD 37.4K OHM 1% 1/8W 0805
 }
 C 47400 40700 1 0 0 gnd.sym
 N 47700 41800 47500 41800 4
@@ -740,11 +740,11 @@ refdes=R20
 T 45900 41800 5 10 0 0 0 0 1
 footprint=0805_ext
 T 45900 42100 5 10 1 1 0 0 1
-value=34.8K
+value=37.4K
 T 45900 41800 5 10 0 1 0 0 1
-model=RC0805FR-0734K8L
+model=RC0805FR-0737K4L
 T 45900 41800 5 10 0 1 0 0 1
-description=RES SMD 34.8K OHM 1% 1/8W 0805
+description=RES SMD 37.4K OHM 1% 1/8W 0805
 }
 C 45900 41000 1 90 0 resistor.sym
 {

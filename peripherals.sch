@@ -82,7 +82,7 @@ Copyright (c) 2016-2017, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-9.0
+10.0
 T 44400 48300 9 10 1 0 0 0 1
 RS485 interface
 C 44900 45000 1 0 0 gnd.sym

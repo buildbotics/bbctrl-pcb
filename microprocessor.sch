@@ -63,7 +63,7 @@ C 41000 40400 1 0 0 pdi.sym
 T 41300 42300 5 10 1 1 0 0 1
 refdes=ISP
 T 41000 40400 5 10 0 0 0 0 1
-footprint=HEADER6_2
+footprint=ISP
 T 41000 40400 5 10 0 0 0 0 1
 description=Harwin M20-9950345, DIL VERTICAL PC TAIL PIN HEADER , .1" pitch, male connector
 T 41000 40400 5 10 0 1 0 0 1
@@ -322,18 +322,18 @@ device=OUTPUT
 T 48850 48850 5 10 1 1 0 0 1
 net=cs_z:1
 }
-C 44000 43800 1 180 0 output.sym
+C 44000 44100 1 180 0 output.sym
 {
-T 43900 43500 5 10 0 0 180 0 1
+T 43900 43800 5 10 0 0 180 0 1
 device=INPUT
-T 42600 43650 5 10 1 1 0 0 1
+T 42600 43950 5 10 1 1 0 0 1
 net=serial_tx:1
 }
-C 43200 43900 1 0 0 input.sym
+C 43200 43600 1 0 0 input.sym
 {
-T 43200 44200 5 10 0 0 0 0 1
+T 43200 43900 5 10 0 0 0 0 1
 device=OUTPUT
-T 42600 43950 5 10 1 1 0 0 1
+T 42600 43650 5 10 1 1 0 0 1
 net=serial_rx:1
 }
 C 44000 43200 1 180 0 output.sym
