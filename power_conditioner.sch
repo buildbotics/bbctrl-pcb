@@ -304,14 +304,14 @@ C 55500 43400 1 0 0 output.sym
 T 55600 43700 5 10 0 0 0 0 1
 device=OUTPUT
 T 56875 43600 5 10 1 1 180 0 1
-net=switch_1:1
+net=load_2:1
 }
 C 55500 43000 1 0 0 output.sym
 {
 T 55600 43300 5 10 0 0 0 0 1
 device=OUTPUT
 T 56025 43050 5 10 1 1 0 0 1
-net=switch_2:1
+net=load_1:1
 }
 C 48200 48900 1 0 0 input.sym
 {

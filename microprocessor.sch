@@ -425,7 +425,7 @@ C 48300 45600 1 0 0 output.sym
 T 48400 45900 5 10 0 0 0 0 1
 device=OUTPUT
 T 49700 45800 5 10 1 1 180 0 1
-net=switch_2:1
+net=load_1:1
 }
 C 49100 47900 1 0 1 input.sym
 {
@@ -439,7 +439,7 @@ C 48300 48200 1 0 0 output.sym
 T 48400 48500 5 10 0 0 0 0 1
 device=OUTPUT
 T 49725 48400 5 10 1 1 180 0 1
-net=switch_1:1
+net=load_2:1
 }
 C 46400 50400 1 0 0 3.3V_motor.sym
 {

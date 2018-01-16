@@ -402,14 +402,14 @@ C 52600 49800 1 0 0 input.sym
 T 52600 50100 5 10 0 0 0 0 1
 device=INPUT
 T 52025 49850 5 10 1 1 0 0 1
-net=switch_1:1
+net=load_2:1
 }
 C 52600 49200 1 0 0 input.sym
 {
 T 52600 49500 5 10 0 0 0 0 1
 device=INPUT
 T 52025 49250 5 10 1 1 0 0 1
-net=switch_2:1
+net=load_1:1
 }
 C 56200 48700 1 180 0 cap.sym
 {
