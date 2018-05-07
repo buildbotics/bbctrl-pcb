@@ -9,7 +9,7 @@ Grid[0.2500mm 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
-Flags("showdrc,rubberband,nameonpcb,alldirection,clearnew,newfullpoly,thindrawpoly")
+Flags("showdrc,nameonpcb,alldirection,clearnew,newfullpoly,thindrawpoly")
 Groups("1,c:2:3:4,s")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,80.00mil,2.0000mm,1.5000mm,10.00mil:Skinny,6.00mil,21.00mil,9.00mil,6.00mil"]
 
@@ -6409,7 +6409,7 @@ Element["" "0805_ext" "P/C9" "33nF" 27.5000mm 67.5000mm -4.7682mm -0.6687mm 0 75
 
 	)
 
-Element["" "0805_ext" "P/C7" "100pF" 29.7500mm 65.7500mm -5.2087mm -34.40mil 0 75 ""]
+Element["" "0805_ext" "P/C7" "100pF" 29.7500mm 65.2500mm -5.2500mm -0.5000mm 0 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -7977,9 +7977,9 @@ Layer(1 "top" "copper")
 	Line[26.7500mm 62.5000mm 23.2500mm 62.5000mm 10.00mil 20.00mil "clearline"]
 	Line[22.5000mm 63.2500mm 20.7500mm 63.2500mm 10.00mil 20.00mil "clearline"]
 	Line[20.7500mm 65.5000mm 19.0000mm 65.5000mm 10.00mil 20.00mil "clearline"]
-	Line[32.2500mm 64.0000mm 31.0000mm 65.2500mm 20.00mil 20.00mil "clearline"]
+	Line[32.2500mm 64.0000mm 31.2500mm 65.0000mm 20.00mil 20.00mil "clearline"]
 	Line[31.5000mm 65.7500mm 33.2500mm 67.5000mm 10.00mil 20.00mil "clearline"]
-	Line[26.7500mm 64.0000mm 28.0000mm 65.2500mm 20.00mil 20.00mil "clearline"]
+	Line[27.2500mm 64.0000mm 28.2500mm 65.0000mm 20.00mil 20.00mil "clearline"]
 	Line[28.0000mm 65.7500mm 26.7500mm 67.0000mm 20.00mil 20.00mil "clearline"]
 	Line[30.2500mm 67.5000mm 29.2500mm 67.5000mm 40.00mil 20.00mil "clearline"]
 	Line[33.2500mm 67.5000mm 35.2500mm 67.5000mm 30.00mil 20.00mil "clearline"]
