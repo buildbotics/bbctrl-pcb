@@ -584,7 +584,7 @@ model=STPS3L40UF
 T 55100 48300 5 10 0 0 0 0 1
 description=DIODE SCHOTTKY 40V 3A SMBFLAT
 T 55100 48300 5 10 0 0 0 0 1
-footprint=SMBFlat.fp
+footprint=SMBFlat
 T 55100 48300 5 10 0 0 0 0 1
 documentation=Replaces MURS340HE3_A/H
 }
@@ -659,7 +659,7 @@ C 40800 50300 1 0 0 testpt.sym
 T 40768 50758 5 8 1 1 0 0 1
 refdes=TP1
 T 40800 50259 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 40800 50300 5 10 0 0 0 0 1
 documentation=Do not populate
 }
@@ -668,7 +668,7 @@ C 42000 50300 1 0 0 testpt.sym
 T 41968 50758 5 8 1 1 0 0 1
 refdes=TP2
 T 42000 50259 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 42000 50300 5 10 0 0 0 0 1
 documentation=Do not populate
 }
@@ -677,7 +677,7 @@ C 42000 46800 1 0 0 testpt.sym
 T 41968 47258 5 8 1 1 0 0 1
 refdes=TP3
 T 42000 46759 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 42000 46800 5 10 0 0 0 0 1
 documentation=Do not populate
 }
@@ -1323,7 +1323,7 @@ C 42700 45600 1 0 0 testpt.sym
 T 42668 46058 5 8 1 1 0 0 1
 refdes=TP4
 T 42700 45559 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 42700 45600 5 10 0 0 0 0 1
 documentation=Do not populate
 }
@@ -1352,7 +1352,7 @@ C 54800 49100 1 0 0 testpt.sym
 T 54768 49558 5 8 1 1 0 0 1
 refdes=TP5
 T 54800 49059 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 54800 49100 5 10 0 0 0 0 1
 documentation=Do not populate
 }
@@ -1368,7 +1368,7 @@ model=STPS3L40UF
 T 55100 46100 5 10 0 0 0 0 1
 description=DIODE SCHOTTKY 40V 3A SMBFLAT
 T 55100 46100 5 10 0 0 0 0 1
-footprint=SMBFlat.fp
+footprint=SMBFlat
 T 55100 46100 5 10 0 0 0 0 1
 documentation=Replaces MURS340HE3_A/H
 }
@@ -1381,7 +1381,7 @@ model=STPS3L40UF
 T 55100 45000 5 10 0 0 0 0 1
 description=DIODE SCHOTTKY 40V 3A SMBFLAT
 T 55100 45000 5 10 0 0 0 0 1
-footprint=SMBFlat.fp
+footprint=SMBFlat
 T 55100 45000 5 10 0 0 0 0 1
 documentation=Replaces MURS340HE3_A/H
 }

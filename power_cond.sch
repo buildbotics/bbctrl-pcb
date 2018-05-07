@@ -5,7 +5,7 @@ C 40900 50400 1 90 1 testpt.sym
 T 40268 50342 5 8 1 1 0 2 1
 refdes=J1
 T 40941 50400 5 8 0 1 270 2 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 40900 50400 5 10 0 0 270 2 1
 model=KEYSTONE_1212
 }
@@ -14,7 +14,7 @@ C 40900 46900 1 90 1 testpt.sym
 T 40268 46842 5 8 1 1 0 2 1
 refdes=J2
 T 40941 46900 5 8 0 1 270 2 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 40900 46900 5 10 0 0 270 2 1
 model=KEYSTONE_1212
 }
@@ -238,7 +238,7 @@ C 42000 50300 1 0 0 testpt.sym
 T 41718 50633 5 8 1 1 0 0 1
 refdes=TP1
 T 42000 50259 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 }
 C 43500 44600 1 0 0 zener.sym
 {
@@ -342,42 +342,42 @@ C 47900 49000 1 0 0 testpt.sym
 T 48118 49333 5 8 1 1 0 0 1
 refdes=TP4
 T 47900 48959 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 }
 C 46000 50400 1 0 0 testpt.sym
 {
 T 45618 50633 5 8 1 1 0 0 1
 refdes=TP2
 T 46000 50359 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 }
 C 47900 48100 1 0 0 testpt.sym
 {
 T 48118 48433 5 8 1 1 0 0 1
 refdes=TP7
 T 47900 48059 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 }
 C 47900 47200 1 0 0 testpt.sym
 {
 T 48118 47533 5 8 1 1 0 0 1
 refdes=TP10
 T 47900 47159 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 }
 C 47900 46300 1 0 0 testpt.sym
 {
 T 48118 46633 5 8 1 1 0 0 1
 refdes=TP11
 T 47900 46259 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 }
 C 56400 44900 1 270 0 testpt.sym
 {
 T 57032 44842 5 8 1 1 0 8 1
 refdes=J13
 T 56359 44900 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56400 44900 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -386,7 +386,7 @@ C 56400 47200 1 270 0 testpt.sym
 T 57032 47142 5 8 1 1 0 8 1
 refdes=J9
 T 56359 47200 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56400 47200 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -395,7 +395,7 @@ C 56400 46100 1 270 0 testpt.sym
 T 57032 46042 5 8 1 1 0 8 1
 refdes=J11
 T 56359 46100 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56400 46100 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -404,7 +404,7 @@ C 56400 48200 1 270 0 testpt.sym
 T 57032 48142 5 8 1 1 0 8 1
 refdes=J7
 T 56359 48200 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56400 48200 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -413,7 +413,7 @@ C 56400 49000 1 270 0 testpt.sym
 T 57032 48942 5 8 1 1 0 8 1
 refdes=J4
 T 56359 49000 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56400 49000 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -422,7 +422,7 @@ C 56400 47900 1 270 0 testpt.sym
 T 57032 47842 5 8 1 1 0 8 1
 refdes=J8
 T 56359 47900 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56400 47900 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -431,7 +431,7 @@ C 56300 46800 1 270 0 testpt.sym
 T 56932 46742 5 8 1 1 0 8 1
 refdes=J10
 T 56259 46800 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56300 46800 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -440,7 +440,7 @@ C 56200 45700 1 270 0 testpt.sym
 T 56832 45642 5 8 1 1 0 8 1
 refdes=J12
 T 56159 45700 5 8 0 1 270 0 1
-footprint=KEYSTONE_1212.fp
+footprint=KEYSTONE_1212
 T 56200 45700 5 10 0 0 270 0 1
 model=KEYSTONE_1212
 }
@@ -809,7 +809,7 @@ N 45300 48600 45300 48800 4
 C 46000 48800 1 0 0 testpt.sym
 {
 T 46000 48759 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 45618 49033 5 8 1 1 0 0 1
 refdes=TP5
 }
@@ -893,7 +893,7 @@ N 45300 45400 45300 45600 4
 C 46000 45600 1 0 0 testpt.sym
 {
 T 46000 45559 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 45618 45833 5 8 1 1 0 0 1
 refdes=TP8
 }
@@ -962,7 +962,7 @@ N 45300 47000 45300 47200 4
 C 46000 47200 1 0 0 testpt.sym
 {
 T 46000 47159 5 8 0 1 0 0 1
-footprint=testpt.fp
+footprint=testpt
 T 45618 47433 5 8 1 1 0 0 1
 refdes=TP6
 }
