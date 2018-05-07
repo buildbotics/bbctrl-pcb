@@ -1,11 +1,11 @@
-# release: pcb 20140316
+# release: pcb 4.0.2
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
 PCB["" 142.3000mm 155.0000mm]
 
-Grid[984.251969 0.0000 0.0000 0]
+Grid[0.2500mm 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
@@ -6491,7 +6491,7 @@ Element["" "0805_ext" "P/R8" "1.5k" 32.0000mm 67.5000mm -45.83mil 0.7863mm 0 75 
 
 	)
 
-Element["" "0805_ext" "P/R6" "180k" 36.2500mm 62.7500mm 0.2500mm 1.0000mm 0 75 ""]
+Element["" "0805_ext" "P/R6" "180k" 36.2500mm 63.2500mm 0.2500mm 1.0000mm 0 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -7182,7 +7182,7 @@ Element["" "ISP" "M/ISP" "6-Pin Header" 4.2500mm 103.2500mm -1.7500mm -2.7500mm 
 	ElementLine [-70.00mil 50.00mil -70.00mil 150.00mil 10.00mil]
 
 	)
-Layer(1 "top")
+Layer(1 "top" "copper")
 (
 	Line[74.7500mm 124.2500mm 73.2500mm 124.2500mm 10.00mil 0.6000mm ""]
 	Line[74.7500mm 126.7500mm 73.0000mm 126.7500mm 10.00mil 0.6000mm ""]
@@ -7974,7 +7974,7 @@ Layer(1 "top")
 	Line[43.7500mm 76.0000mm 43.7500mm 77.5000mm 10.00mil 20.00mil "clearline"]
 	Line[32.2500mm 60.0000mm 33.0000mm 60.0000mm 25.00mil 20.00mil "clearline"]
 	Line[34.7500mm 58.2500mm 36.5000mm 58.2500mm 25.00mil 20.00mil "clearline"]
-	Line[32.2500mm 62.7500mm 34.5000mm 62.7500mm 20.00mil 20.00mil "clearline"]
+	Line[32.2500mm 62.7500mm 34.7500mm 62.7500mm 20.00mil 20.00mil "clearline"]
 	Line[26.7500mm 62.5000mm 23.2500mm 62.5000mm 10.00mil 20.00mil "clearline"]
 	Line[22.5000mm 63.2500mm 20.7500mm 63.2500mm 10.00mil 20.00mil "clearline"]
 	Line[20.7500mm 65.5000mm 19.0000mm 65.5000mm 10.00mil 20.00mil "clearline"]
@@ -8771,7 +8771,7 @@ Layer(1 "top")
 		[142.0000mm 49.7500mm] 
 	)
 )
-Layer(2 "power")
+Layer(2 "power" "copper")
 (
 	Line[42.0000mm 107.0000mm 41.0000mm 108.0000mm 10.00mil 20.00mil "clearline"]
 	Line[121.5000mm 121.0000mm 129.2500mm 121.0000mm 10.00mil 20.00mil "clearline"]
@@ -8826,7 +8826,7 @@ Layer(2 "power")
 		[0.2500mm 0.2500mm] [39.5000mm 0.2500mm] [39.5000mm 154.7500mm] [0.2500mm 154.7500mm] 
 	)
 )
-Layer(3 "ground")
+Layer(3 "ground" "copper")
 (
 	Line[53.7500mm 152.0000mm 63.2500mm 142.5000mm 25.00mil 0.6000mm "clearline"]
 	Line[37.0000mm 150.7500mm 38.2500mm 152.0000mm 25.00mil 20.00mil "clearline"]
@@ -8838,7 +8838,7 @@ Layer(3 "ground")
 		[0.2500mm 0.2500mm] [142.0000mm 0.2500mm] [142.0000mm 154.7500mm] [0.2500mm 154.7500mm] 
 	)
 )
-Layer(4 "bottom")
+Layer(4 "bottom" "copper")
 (
 	Line[74.5000mm 136.7500mm 77.0000mm 134.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[77.0000mm 137.2500mm 75.7500mm 138.5000mm 10.00mil 0.6000mm "clearline"]
@@ -9595,10 +9595,10 @@ Layer(4 "bottom")
 		[124.5000mm 49.5000mm] [142.0000mm 49.5000mm] [142.0000mm 24.7500mm] [124.5000mm 24.7500mm] 
 	)
 )
-Layer(5 "silk")
+Layer(5 "bottom silk" "silk")
 (
 )
-Layer(6 "silk")
+Layer(6 "top silk" "silk")
 (
 	Text[0.7500mm 102.5000mm 0 75 "PDI" "clearline"]
 	Text[8.6552mm 102.4304mm 0 75 "3.3Vm" "clearline"]
@@ -10984,6 +10984,18 @@ NetList()
 		Connect("PC/R25-2")
 		Connect("PC/U1-10")
 	)
+	Net("load_1" "(unknown)")
+	(
+		Connect("H/J4-2")
+		Connect("M/U5-41")
+		Connect("PC/R18-1")
+	)
+	Net("load_2" "(unknown)")
+	(
+		Connect("H/J4-1")
+		Connect("M/U5-31")
+		Connect("PC/R16-1")
+	)
 	Net("M/unnamed_net209" "(unknown)")
 	(
 		Connect("M/C33-2")
@@ -11542,18 +11554,6 @@ NetList()
 	(
 		Connect("D/Z/R8-1")
 		Connect("M/U5-46")
-	)
-	Net("load_2" "(unknown)")
-	(
-		Connect("H/J4-1")
-		Connect("M/U5-31")
-		Connect("PC/R16-1")
-	)
-	Net("load_1" "(unknown)")
-	(
-		Connect("H/J4-2")
-		Connect("M/U5-41")
-		Connect("PC/R18-1")
 	)
 	Net("Vcc" "(unknown)")
 	(
