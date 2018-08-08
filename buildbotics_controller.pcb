@@ -1978,7 +1978,7 @@ Via[45.7500mm 27.5000mm 36.00mil 20.00mil 42.00mil 20.00mil "" "thermal(0S,1S)"]
 Via[53.7500mm 5.0000mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 Via[47.5000mm 33.7500mm 36.00mil 20.00mil 42.00mil 20.00mil "" ""]
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -6.2800mm 3.0000mm 0 75 ""]
+Element["lock" "AMPHENOL_10127720-041LF" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -6.2800mm 3.0000mm 0 75 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -2000,7 +2000,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/A/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Z/J1" "4-Pin Male Connector" 133.1800mm 66.3000mm -4.6800mm -4.3000mm 0 75 ""]
+Element["lock" "AMPHENOL_10127720-041LF" "D/Z/J1" "4-Pin Male Connector" 133.1800mm 66.3000mm -4.6800mm -4.3000mm 0 75 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -2022,7 +2022,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Z/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Y/J1" "4-Pin Male Connector" 133.1800mm 76.3000mm -4.8864mm -4.2366mm 0 75 ""]
+Element["lock" "AMPHENOL_10127720-041LF" "D/Y/J1" "4-Pin Male Connector" 133.1800mm 76.3000mm -4.8864mm -4.2366mm 0 75 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -2044,7 +2044,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/Y/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["lock" "AMPHENOL_10127720-041LF.fp" "D/X/J1" "4-Pin Male Connector" 133.1800mm 86.3000mm -5.0421mm -4.2415mm 0 75 ""]
+Element["lock" "AMPHENOL_10127720-041LF" "D/X/J1" "4-Pin Male Connector" 133.1800mm 86.3000mm -5.0421mm -4.2415mm 0 75 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -2066,7 +2066,7 @@ Element["lock" "AMPHENOL_10127720-041LF.fp" "D/X/J1" "4-Pin Male Connector" 133.
 
 	)
 
-Element["" "NORCOMP_182-025-113R161_DB25M.fp" "H/J4" "25-Pin DSUB" 132.2500mm 119.7500mm -2.9721mm -28.1119mm 0 75 ""]
+Element["" "NORCOMP_182-025-113R161_DB25M" "H/J4" "25-Pin DSUB" 132.2500mm 119.7500mm -2.9721mm -28.1119mm 0 75 ""]
 (
 	Attribute("device" "DB25")
 	Attribute("manufacturer" "unknown")
@@ -3205,7 +3205,7 @@ Element["" "0805_ext" "D/X/C7" "10n" 99.0000mm 117.0000mm -2.5000mm -3.2500mm 0 
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/X/C15" "22u" 105.2500mm 131.7500mm 112.00mil 56.00mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/X/C15" "22u" 105.2500mm 131.7500mm 112.00mil 56.00mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3220,7 +3220,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/X/C15" "22u" 105.2500mm 131.7500mm 112.00
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/X/C12" "22u" 64.7500mm 139.2500mm -391.00mil -63.00mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/X/C12" "22u" 64.7500mm 139.2500mm -391.00mil -63.00mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3235,7 +3235,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/X/C12" "22u" 64.7500mm 139.2500mm -391.00
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/A/C15" "22u" 105.0000mm 39.0000mm -1.7762mm 2.9764mm 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/A/C15" "22u" 105.0000mm 39.0000mm -1.7762mm 2.9764mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3250,7 +3250,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/A/C15" "22u" 105.0000mm 39.0000mm -1.7762
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/A/C12" "22u" 72.5000mm 27.2500mm -59.00mil -156.00mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/A/C12" "22u" 72.5000mm 27.2500mm -59.00mil -156.00mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3265,7 +3265,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/A/C12" "22u" 72.5000mm 27.2500mm -59.00mi
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C15" "22u" 105.0000mm 70.2500mm 108.00mil 44.00mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Z/C15" "22u" 105.0000mm 70.2500mm 108.00mil 44.00mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3280,7 +3280,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C15" "22u" 105.0000mm 70.2500mm 108.00m
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C12" "22u" 60.0000mm 72.0000mm -2.2500mm -3.7500mm 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Z/C12" "22u" 60.0000mm 72.0000mm -2.2500mm -3.7500mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3295,7 +3295,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C12" "22u" 60.0000mm 72.0000mm -2.2500m
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C15" "22u" 105.5000mm 101.0000mm 99.96mil 50.22mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Y/C15" "22u" 105.5000mm 101.0000mm 99.96mil 50.22mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3310,7 +3310,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C15" "22u" 105.5000mm 101.0000mm 99.96m
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C12" "22u" 64.7500mm 111.0000mm -93.00mil -162.00mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Y/C12" "22u" 64.7500mm 111.0000mm -93.00mil -162.00mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3340,7 +3340,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/X/C6" "180u" 104.0000mm 117.7500mm 
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/X/C16" "22u" 64.7500mm 119.2500mm -2.5000mm -3.7500mm 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/X/C16" "22u" 64.7500mm 119.2500mm -2.5000mm -3.7500mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3384,7 +3384,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/X/C5" "180u" 104.2500mm 140.5000mm 
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/A/C16" "22u" 60.2500mm 41.7500mm -3.0000mm -3.7500mm 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/A/C16" "22u" 60.2500mm 41.7500mm -3.0000mm -3.7500mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3399,7 +3399,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/A/C16" "22u" 60.2500mm 41.7500mm -3.0000m
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/A/C13" "22u" 105.0000mm 33.7500mm -3.1082mm -3.9022mm 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/A/C13" "22u" 105.0000mm 33.7500mm -3.1082mm -3.9022mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3429,7 +3429,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Z/C6" "180u" 104.0000mm 56.2500mm 1
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C16" "22u" 64.0000mm 57.5000mm -2.7500mm -4.0000mm 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Z/C16" "22u" 64.0000mm 57.5000mm -2.7500mm -4.0000mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3444,7 +3444,7 @@ Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C16" "22u" 64.0000mm 57.5000mm -2.7500m
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Z/C13" "22u" 105.2500mm 65.0000mm 92.00mil -119.00mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Z/C13" "22u" 105.2500mm 65.0000mm 92.00mil -119.00mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3473,7 +3473,7 @@ Element["" "0805_ext" "D/Z/C17" "10n" 99.0000mm 79.5000mm -93.37mil 79.32mil 0 7
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C13" "22u" 105.2500mm 95.7500mm 90.94mil -115.22mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Y/C13" "22u" 105.2500mm 95.7500mm 90.94mil -115.22mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3517,7 +3517,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Y/C5" "180u" 104.2500mm 109.5000mm 
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/X/C13" "22u" 105.2500mm 126.5000mm 108.00mil -102.00mil 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/X/C13" "22u" 105.2500mm 126.5000mm 108.00mil -102.00mil 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -3622,7 +3622,7 @@ Element["" "0805_ext" "M/C27" "0.1uF" 14.0000mm 93.5000mm -1.2500mm -3.2500mm 0 
 
 	)
 
-Element["" "226CKS063M_22uF_CAP.fp" "D/Y/C16" "22u" 64.7500mm 88.5000mm -2.5000mm -3.7500mm 0 75 ""]
+Element["" "226CKS063M_22uF_CAP" "D/Y/C16" "22u" 64.7500mm 88.5000mm -2.5000mm -3.7500mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5659,7 +5659,7 @@ Element["" "0805_ext" "H/R26" "180" 123.7500mm 150.5000mm -1.5000mm -2.0000mm 0 
 
 	)
 
-Element["" "testpt.fp" "PC/TP5" "unknown" 32.2500mm 21.2500mm -1.0000mm -3.0000mm 0 75 ""]
+Element["" "testpt" "PC/TP5" "unknown" 32.2500mm 21.2500mm -1.0000mm -3.0000mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5671,7 +5671,7 @@ Element["" "testpt.fp" "PC/TP5" "unknown" 32.2500mm 21.2500mm -1.0000mm -3.0000m
 
 	)
 
-Element["" "testpt.fp" "PC/TP4" "unknown" 30.7500mm 29.2500mm 2.0000mm 0.7500mm 0 75 ""]
+Element["" "testpt" "PC/TP4" "unknown" 30.7500mm 29.2500mm 2.0000mm 0.7500mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5816,7 +5816,7 @@ Element["" "DO214AB" "PC/Z2" "36V/40V/58.1V" 77.5000mm 7.7500mm 251.94mil -86.30
 
 	)
 
-Element["" "testpt.fp" "PC/TP3" "unknown" 16.0000mm 137.0000mm 2.2500mm -2.0000mm 0 75 ""]
+Element["" "testpt" "PC/TP3" "unknown" 16.0000mm 137.0000mm 2.2500mm -2.0000mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5828,7 +5828,7 @@ Element["" "testpt.fp" "PC/TP3" "unknown" 16.0000mm 137.0000mm 2.2500mm -2.0000m
 
 	)
 
-Element["" "testpt.fp" "PC/TP2" "unknown" 44.5000mm 50.7500mm -0.7500mm 6.0000mm 1 75 ""]
+Element["" "testpt" "PC/TP2" "unknown" 44.5000mm 50.7500mm -0.7500mm 6.0000mm 1 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5840,7 +5840,7 @@ Element["" "testpt.fp" "PC/TP2" "unknown" 44.5000mm 50.7500mm -0.7500mm 6.0000mm
 
 	)
 
-Element["" "testpt.fp" "PC/TP1" "unknown" 121.0000mm 12.0000mm 1.7348mm -2.1963mm 0 75 ""]
+Element["" "testpt" "PC/TP1" "unknown" 121.0000mm 12.0000mm 1.7348mm -2.1963mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -7129,7 +7129,7 @@ Element["" "ISP" "M/ISP" "6-Pin Header" 4.2500mm 103.2500mm -1.7500mm -2.7500mm 
 
 	)
 
-Element["" "SMBFlat.fp" "PC/D5" "unknown" 123.0000mm 55.0000mm -2.2500mm -3.5000mm 0 75 ""]
+Element["" "SMBFlat" "PC/D5" "unknown" 123.0000mm 55.0000mm -2.2500mm -3.5000mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -7147,7 +7147,7 @@ Element["" "SMBFlat.fp" "PC/D5" "unknown" 123.0000mm 55.0000mm -2.2500mm -3.5000
 
 	)
 
-Element["" "SMBFlat.fp" "PC/D3" "unknown" 126.2500mm 30.5000mm -1.7500mm 4.0000mm 0 75 ""]
+Element["" "SMBFlat" "PC/D3" "unknown" 126.2500mm 30.5000mm -1.7500mm 4.0000mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -7165,7 +7165,7 @@ Element["" "SMBFlat.fp" "PC/D3" "unknown" 126.2500mm 30.5000mm -1.7500mm 4.0000m
 
 	)
 
-Element["" "SMBFlat.fp" "PC/D1" "unknown" 40.0000mm 23.7500mm -1.7500mm -3.5000mm 0 75 ""]
+Element["" "SMBFlat" "PC/D1" "unknown" 40.0000mm 23.7500mm -1.7500mm -3.5000mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
