@@ -6,13 +6,20 @@ SYMBOLS = $(wildcard symbols/*.sym)
 FOOTPRINTS = $(wildcard footprints/*.fp)
 PDFS = $(patsubst %.sch,%.pdf,$(SCHEMATICS))
 PDF=doc/$(NAME)-v$(VERSION).pdf
+PCB_PDF=doc/$(NAME)-pcb-v$(VERSION).pdf
 
 all: drc
 
 %.pdf: %.sch
 	gschem -o $@ -s gschem-print.scm $<
 
-pdf: $(PDF)
+%.ps: %.pcb
+	pcb -x ps --psfile $@ $<
+
+pdf: $(PDF) $(PCB_PDF)
+
+$(PCB_PDF): $(NAME).ps
+	ps2pdf $< $@
 
 $(PDF): $(PDFS)
 	gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$@ $(PDFS)
@@ -55,4 +62,4 @@ tidy:
 clean: tidy
 	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net $(NAME).bom $(PDFS)
 
-.SECONDARY: $(PDFS)
+.SECONDARY: $(PDFS) $(NAME).ps
