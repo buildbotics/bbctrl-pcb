@@ -4,11 +4,11 @@ C 43000 49900 1 270 0 5V-plus.sym
 C 43000 49500 1 270 0 5V-plus.sym
 T 50000 40700 9 10 1 0 0 0 2
 RPI Bus
-Copyright (c) 2016-2017, Buildbotics LLC
+Copyright (c) 2016-2018, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-9.0
+11.0
 C 43000 48400 1 0 0 output.sym
 {
 T 43100 48700 5 10 0 0 0 0 1

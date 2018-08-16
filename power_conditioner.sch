@@ -571,8 +571,9 @@ net=pwr_sck:1
 }
 N 54700 42300 54900 42300 4
 N 54700 42700 54900 42700 4
-T 49900 40700 9 10 1 0 0 0 1
+T 50000 40700 9 10 1 0 0 0 2
 Power Conditioning
+Copyright (c) 2016-2018, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 C 55100 48300 1 90 0 diode_K1A2.sym
@@ -1385,3 +1386,5 @@ footprint=SMBFlat
 T 55100 45000 5 10 0 0 0 0 1
 documentation=Replaces MURS340HE3_A/H
 }
+T 53800 40400 9 10 1 0 0 0 1
+11.0
