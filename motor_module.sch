@@ -1072,6 +1072,8 @@ T 46500 47300 5 10 0 0 0 0 1
 model=M20-9980846 
 T 46500 47300 5 10 0 0 0 0 1
 footprint=HEADER16_2
+T 46500 47300 5 10 0 0 0 0 1
+documentation=do not populate
 }
 C 46200 49600 1 270 0 gnd.sym
 C 46200 48800 1 270 0 gnd.sym
