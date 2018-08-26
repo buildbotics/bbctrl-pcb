@@ -340,70 +340,6 @@ refdes=X
 T 51095 45100 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
-C 48700 50000 1 180 0 input.sym
-{
-T 48700 49700 5 10 0 0 180 0 1
-device=OUTPUT
-T 49325 50000 5 10 1 1 180 0 1
-net=drv_dir_x:1
-}
-C 45700 49800 1 0 0 input.sym
-{
-T 45700 50100 5 10 0 0 0 0 1
-device=OUTPUT
-T 44950 49825 5 10 1 1 0 0 1
-net=drv_step_x:1
-}
-C 48700 50400 1 180 0 input.sym
-{
-T 48700 50100 5 10 0 0 180 0 1
-device=OUTPUT
-T 49475 50400 5 10 1 1 180 0 1
-net=drv_enable:1
-}
-C 48700 49200 1 180 0 input.sym
-{
-T 48700 48900 5 10 0 0 180 0 1
-device=OUTPUT
-T 49325 49200 5 10 1 1 180 0 1
-net=drv_dir_y:1
-}
-C 45700 49000 1 0 0 input.sym
-{
-T 45700 49300 5 10 0 0 0 0 1
-device=OUTPUT
-T 44950 49025 5 10 1 1 0 0 1
-net=drv_step_y:1
-}
-C 48700 48400 1 180 0 input.sym
-{
-T 48700 48100 5 10 0 0 180 0 1
-device=OUTPUT
-T 49350 48400 5 10 1 1 180 0 1
-net=drv_dir_z:1
-}
-C 45700 48200 1 0 0 input.sym
-{
-T 45700 48500 5 10 0 0 0 0 1
-device=OUTPUT
-T 44925 48225 5 10 1 1 0 0 1
-net=drv_step_z:1
-}
-C 48700 47600 1 180 0 input.sym
-{
-T 48700 47300 5 10 0 0 180 0 1
-device=OUTPUT
-T 49350 47600 5 10 1 1 180 0 1
-net=drv_dir_a:1
-}
-C 45700 47400 1 0 0 input.sym
-{
-T 45700 47700 5 10 0 0 0 0 1
-device=OUTPUT
-T 44925 47425 5 10 1 1 0 0 1
-net=drv_step_a:1
-}
-C 46200 50400 1 270 0 gnd.sym
 C 42000 49900 1 0 0 resistor.sym
 {
 T 42300 50300 5 10 0 0 0 0 1
@@ -1062,22 +998,92 @@ device=OUTPUT
 T 44425 45600 5 10 1 1 180 0 1
 net=drv_dir_a:1
 }
-C 46500 47300 1 0 0 header16-1.sym
+C 46700 46900 1 0 0 header16-1.sym
 {
-T 46500 49300 5 10 0 1 0 0 1
+T 46700 48900 5 10 0 1 0 0 1
 device=HEADER16
-T 47100 50600 5 10 1 1 0 0 1
+T 47300 50200 5 10 1 1 0 0 1
 refdes=J2
-T 46500 47300 5 10 0 0 0 0 1
+T 46700 46900 5 10 0 0 0 0 1
 model=M20-9980846 
-T 46500 47300 5 10 0 0 0 0 1
+T 46700 46900 5 10 0 0 0 0 1
 footprint=HEADER16_2
-T 46500 47300 5 10 0 0 0 0 1
+T 46700 46900 5 10 0 0 0 0 1
 documentation=do not populate
 }
-C 46200 49600 1 270 0 gnd.sym
-C 46200 48800 1 270 0 gnd.sym
-C 46200 48000 1 270 0 gnd.sym
-C 48200 49400 1 90 0 gnd.sym
-C 48200 48600 1 90 0 gnd.sym
-C 48200 47800 1 90 0 gnd.sym
+C 46400 47600 1 270 0 gnd.sym
+C 48400 47400 1 90 0 gnd.sym
+C 45900 47000 1 0 0 input.sym
+{
+T 45900 47300 5 10 0 0 0 0 1
+device=INPUT
+T 45100 47050 5 10 1 1 0 0 1
+net=spin_0to10:1
+}
+C 48400 47800 1 90 0 gnd.sym
+C 46400 50000 1 270 0 gnd.sym
+C 48900 50000 1 180 0 input.sym
+{
+T 48900 49700 5 10 0 0 180 0 1
+device=OUTPUT
+T 49675 50000 5 10 1 1 180 0 1
+net=drv_enable:1
+}
+C 46400 48000 1 270 0 gnd.sym
+C 48400 47000 1 90 0 gnd.sym
+C 45900 49600 1 180 1 input.sym
+{
+T 45900 49300 5 10 0 0 0 2 1
+device=OUTPUT
+T 45150 49575 5 10 1 1 0 2 1
+net=drv_step_x:1
+}
+C 45900 48400 1 180 1 input.sym
+{
+T 45900 48100 5 10 0 0 0 2 1
+device=OUTPUT
+T 45125 48375 5 10 1 1 0 2 1
+net=drv_step_a:1
+}
+C 45900 49200 1 180 1 input.sym
+{
+T 45900 48900 5 10 0 0 0 2 1
+device=OUTPUT
+T 45150 49175 5 10 1 1 0 2 1
+net=drv_step_y:1
+}
+C 45900 48800 1 180 1 input.sym
+{
+T 45900 48500 5 10 0 0 0 2 1
+device=OUTPUT
+T 45125 48775 5 10 1 1 0 2 1
+net=drv_step_z:1
+}
+C 48900 48200 1 0 1 input.sym
+{
+T 48900 48500 5 10 0 0 180 2 1
+device=OUTPUT
+T 49550 48200 5 10 1 1 180 2 1
+net=drv_dir_a:1
+}
+C 48900 48600 1 0 1 input.sym
+{
+T 48900 48900 5 10 0 0 180 2 1
+device=OUTPUT
+T 49550 48600 5 10 1 1 180 2 1
+net=drv_dir_z:1
+}
+C 48900 49000 1 0 1 input.sym
+{
+T 48900 49300 5 10 0 0 180 2 1
+device=OUTPUT
+T 49525 49000 5 10 1 1 180 2 1
+net=drv_dir_y:1
+}
+C 48900 49400 1 0 1 input.sym
+{
+T 48900 49700 5 10 0 0 180 2 1
+device=OUTPUT
+T 49525 49400 5 10 1 1 180 2 1
+net=drv_dir_x:1
+}
