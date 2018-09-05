@@ -1,11 +1,11 @@
-# release: pcb 20140316
+# release: pcb 4.0.2
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
 PCB["" 142.3000mm 155.0000mm]
 
-Grid[984.251969 0.0000 0.0000 0]
+Grid[0.2500mm 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
@@ -5044,7 +5044,7 @@ Element["" "testpt" "PC/TP4" "unknown" 30.7500mm 29.2500mm 2.0000mm 0.7500mm 0 7
 
 	)
 
-Element["" "0805_ext" "PC/C7" "10n" 54.5000mm 7.7500mm -0.2500mm -2.5000mm 1 75 ""]
+Element["" "0805_ext" "PC/C7" "0.1uF" 54.5000mm 7.7500mm -0.2500mm -2.5000mm 1 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5269,7 +5269,7 @@ Element["" "0805_ext" "PC/R18" "1k" 30.2500mm 14.5000mm 0.9586mm 2.9266mm 1 75 "
 
 	)
 
-Element["" "0805_ext" "PC/C3" "10n" 44.0000mm 7.7500mm -20.50mil -2.2151mm 1 75 ""]
+Element["" "0805_ext" "PC/C3" "0.1uF" 44.0000mm 7.7500mm -20.50mil -2.2151mm 1 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5283,7 +5283,7 @@ Element["" "0805_ext" "PC/C3" "10n" 44.0000mm 7.7500mm -20.50mil -2.2151mm 1 75 
 
 	)
 
-Element["" "0805_ext" "PC/C4" "10n" 33.5000mm 7.7500mm -0.7500mm -3.2500mm 1 75 ""]
+Element["" "0805_ext" "PC/C4" "0.1uF" 33.5000mm 7.7500mm -0.7500mm -3.2500mm 1 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5297,7 +5297,7 @@ Element["" "0805_ext" "PC/C4" "10n" 33.5000mm 7.7500mm -0.7500mm -3.2500mm 1 75 
 
 	)
 
-Element["" "0805_ext" "PC/C1" "10n" 61.5000mm 7.7500mm -0.4710mm -2.4106mm 1 75 ""]
+Element["" "0805_ext" "PC/C1" "0.1uF" 61.5000mm 7.7500mm -0.4710mm -2.4106mm 1 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -5361,7 +5361,7 @@ Element["" "QFN21_4" "PC/U1" "unknown" 25.7500mm 11.0000mm 0.6802mm -4.2120mm 0 
 
 	)
 
-Element["" "0805_ext" "PC/R2" "10K" 63.2500mm 7.7500mm -0.5000mm -2.2500mm 1 75 ""]
+Element["" "0805_ext" "PC/R2" "100k" 63.2500mm 7.7500mm -0.5000mm -2.2500mm 1 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -6023,7 +6023,7 @@ Element["" "0805_ext" "PC/R33" "137" 58.0000mm 7.7500mm -0.6216mm -2.2726mm 1 75
 
 	)
 
-Element["" "0805_ext" "PC/R30" "10K" 56.2500mm 7.7500mm -24.50mil -93.50mil 1 75 ""]
+Element["" "0805_ext" "PC/R30" "100k" 56.2500mm 7.7500mm -24.50mil -93.50mil 1 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -6093,7 +6093,7 @@ Element["" "0805_ext" "PC/R10" "137" 47.5000mm 7.7500mm -0.6364mm -2.2593mm 1 75
 
 	)
 
-Element["" "0805_ext" "PC/R8" "10K" 45.7500mm 7.7500mm -20.35mil -2.2720mm 1 75 ""]
+Element["" "0805_ext" "PC/R8" "100k" 45.7500mm 7.7500mm -20.35mil -2.2720mm 1 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -6163,7 +6163,7 @@ Element["" "0805_ext" "PC/R15" "137" 37.0000mm 7.7500mm -0.5000mm -2.2500mm 1 75
 
 	)
 
-Element["" "0805_ext" "PC/R11" "10K" 35.2500mm 7.7500mm -0.2500mm -2.2500mm 1 75 ""]
+Element["" "0805_ext" "PC/R11" "100k" 35.2500mm 7.7500mm -0.2500mm -2.2500mm 1 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -7275,7 +7275,7 @@ Element["" "0805_ext" "H/R18" "68" 125.5000mm 113.2500mm -5.5000mm -0.5000mm 0 7
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
 
 	)
-Layer(1 "top")
+Layer(1 "top" "copper")
 (
 	Line[74.2500mm 124.2500mm 73.2500mm 124.2500mm 10.00mil 0.6000mm ""]
 	Line[74.2500mm 126.7500mm 73.0000mm 126.7500mm 10.00mil 0.6000mm ""]
@@ -8919,7 +8919,7 @@ Layer(1 "top")
 		[142.0000mm 49.7500mm] 
 	)
 )
-Layer(2 "power")
+Layer(2 "power" "copper")
 (
 	Line[32.0000mm 5.2500mm 32.0000mm 8.5000mm 10.00mil 20.00mil "clearline"]
 	Line[32.0000mm 8.5000mm 27.5000mm 13.0000mm 10.00mil 20.00mil "clearline"]
@@ -8970,7 +8970,7 @@ Layer(2 "power")
 		[0.2500mm 0.2500mm] [39.5000mm 0.2500mm] [39.5000mm 154.7500mm] [0.2500mm 154.7500mm] 
 	)
 )
-Layer(3 "ground")
+Layer(3 "ground" "copper")
 (
 	Line[53.7500mm 152.0000mm 63.2500mm 142.5000mm 25.00mil 0.6000mm "clearline"]
 	Line[37.0000mm 150.7500mm 38.2500mm 152.0000mm 25.00mil 20.00mil "clearline"]
@@ -8981,7 +8981,7 @@ Layer(3 "ground")
 		[0.2500mm 0.2500mm] [142.0000mm 0.2500mm] [142.0000mm 154.7500mm] [0.2500mm 154.7500mm] 
 	)
 )
-Layer(4 "bottom")
+Layer(4 "bottom" "copper")
 (
 	Line[99.0000mm 136.7500mm 121.5000mm 136.7500mm 80.00mil 0.6000mm ""]
 	Line[121.5000mm 136.7500mm 127.2500mm 131.0000mm 80.00mil 0.6000mm "clearline"]
@@ -9769,10 +9769,10 @@ Layer(4 "bottom")
 		[124.5000mm 49.5000mm] [142.0000mm 49.5000mm] [142.0000mm 24.7500mm] [124.5000mm 24.7500mm] 
 	)
 )
-Layer(5 "bottom silk")
+Layer(5 "bottom silk" "silk")
 (
 )
-Layer(6 "top silk")
+Layer(6 "top silk" "silk")
 (
 	Text[0.7500mm 102.5000mm 0 75 "PDI" "clearline"]
 	Text[8.6552mm 102.4304mm 0 75 "3.3Vm" "clearline"]
