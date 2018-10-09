@@ -560,13 +560,6 @@ device=INPUT
 T 42750 48825 5 10 1 1 0 0 1
 net=stall_a:1
 }
-C 48600 42900 1 180 0 nc.sym
-{
-T 48600 42500 5 10 0 0 180 0 1
-value=NoConnection
-T 48600 42100 5 10 0 0 180 0 1
-device=DRC_Directive
-}
 C 49100 42600 1 180 0 input.sym
 {
 T 49100 42300 5 10 0 0 180 0 1
@@ -580,4 +573,13 @@ T 43200 47900 5 10 0 0 0 0 1
 device=INPUT
 T 42525 47650 5 10 1 1 0 0 1
 net=analog_2:1
+}
+C 48300 42900 1 270 0 testpt.sym
+{
+T 48758 42932 5 8 1 1 270 0 1
+refdes=TP1
+T 48259 42900 5 8 0 1 270 0 1
+footprint=testpt
+T 48300 42900 5 10 0 0 270 0 1
+documentation=Do not populate
 }

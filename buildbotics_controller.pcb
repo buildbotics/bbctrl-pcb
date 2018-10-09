@@ -1,4 +1,4 @@
-# release: pcb 4.0.2
+# release: pcb 4.1.2
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
@@ -9,7 +9,7 @@ Grid[0.2500mm 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
-Flags("showdrc,rubberband,nameonpcb,clearnew,newfullpoly,showmask,thindrawpoly")
+Flags("showdrc,nameonpcb,clearnew,newfullpoly,showmask,thindrawpoly")
 Groups("1,c:2:3:4,s")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,80.00mil,2.0000mm,1.5000mm,10.00mil:Skinny,6.00mil,21.00mil,9.00mil,6.00mil"]
 
@@ -1993,7 +1993,7 @@ Element["lock" "AMPHENOL_10127720-041LF" "D/A/J1" "4-Pin Male Connector" 133.180
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2015,7 +2015,7 @@ Element["lock" "AMPHENOL_10127720-041LF" "D/Z/J1" "4-Pin Male Connector" 133.180
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2037,7 +2037,7 @@ Element["lock" "AMPHENOL_10127720-041LF" "D/Y/J1" "4-Pin Male Connector" 133.180
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2059,7 +2059,7 @@ Element["lock" "AMPHENOL_10127720-041LF" "D/X/J1" "4-Pin Male Connector" 133.180
 	ElementLine [9.9000mm -3.8000mm 9.9000mm 3.8000mm 0.2500mm]
 	ElementLine [9.9000mm 3.8000mm 8.9000mm 4.8000mm 0.2500mm]
 	ElementLine [0.0000 4.8000mm 8.9000mm 4.8000mm 0.2500mm]
-	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [-1.5000mm 3.5000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2104,9 +2104,9 @@ Element["lock" "NORCOMP_182-025-113R161_DB25M" "H/J4" "25-Pin DSUB" 132.2500mm 1
 	ElementLine [9.5000mm 19.4800mm 14.5900mm 19.4800mm 0.2500mm]
 	ElementLine [15.5900mm -18.4800mm 15.5900mm 18.4800mm 0.2500mm]
 	ElementLine [9.5000mm -19.4800mm 14.5900mm -19.4800mm 0.2500mm]
-	ElementArc [14.5900mm 18.4800mm 1.0000mm 1.0000mm 90 90 0.2500mm]
-	ElementArc [14.5900mm -18.4800mm 1.0000mm 1.0000mm 180 90 0.2500mm]
-	ElementArc [-1.4200mm 18.5000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [14.5900mm 18.4800mm 1.0000mm 1.0000mm 90.000000 90.000000 0.2500mm]
+	ElementArc [14.5900mm -18.4800mm 1.0000mm 1.0000mm 180.000000 90.000000 0.2500mm]
+	ElementArc [-1.4200mm 18.5000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2641,7 +2641,7 @@ Element["" "SO8" "H/U6" "RS-485 Transceiver" 61.0000mm 147.2500mm 1.0000mm 2.750
 	ElementLine [155.00mil 95.00mil 155.00mil -95.00mil 0.2500mm]
 	ElementLine [-155.00mil -95.00mil -25.00mil -95.00mil 0.2500mm]
 	ElementLine [155.00mil -95.00mil 25.00mil -95.00mil 0.2500mm]
-	ElementArc [0.0000 -95.00mil 25.00mil 25.00mil 0 180 0.2500mm]
+	ElementArc [0.0000 -95.00mil 25.00mil 25.00mil 0.000000 180.000000 0.2500mm]
 
 	)
 
@@ -2707,7 +2707,7 @@ Element["" "226CKS063M_22uF_CAP" "D/X/C15" "22u" 105.2500mm 131.7500mm 112.00mil
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2722,7 +2722,7 @@ Element["" "226CKS063M_22uF_CAP" "D/X/C12" "22u" 64.7500mm 139.2500mm -391.00mil
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2737,7 +2737,7 @@ Element["" "226CKS063M_22uF_CAP" "D/A/C15" "22u" 105.0000mm 39.0000mm -1.7762mm 
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2752,7 +2752,7 @@ Element["" "226CKS063M_22uF_CAP" "D/A/C12" "22u" 72.5000mm 27.2500mm -59.00mil -
 	Pin[0.0000 1.0000mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [-3.0000mm -4.0000mm -3.0000mm -2.0000mm 0.2500mm]
 	ElementLine [-4.0000mm -3.0000mm -2.0000mm -3.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2767,7 +2767,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Z/C15" "22u" 105.0000mm 70.2500mm 108.00mil 
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2782,7 +2782,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Z/C12" "22u" 60.0000mm 72.0000mm -2.2500mm -
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2797,7 +2797,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Y/C15" "22u" 105.5000mm 101.0000mm 99.96mil 
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2812,7 +2812,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Y/C12" "22u" 64.7500mm 111.0000mm -93.00mil 
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2827,7 +2827,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/X/C6" "180u" 104.0000mm 117.7500mm 
 	Pin[0.0000 -1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [4.0000mm 3.0000mm 4.0000mm 5.0000mm 0.2500mm]
 	ElementLine [3.0000mm 4.0000mm 5.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2842,7 +2842,7 @@ Element["" "226CKS063M_22uF_CAP" "D/X/C16" "22u" 64.7500mm 119.2500mm -2.5000mm 
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2871,7 +2871,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/X/C5" "180u" 104.2500mm 140.5000mm 
 	Pin[0.0000 1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
 	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2886,7 +2886,7 @@ Element["" "226CKS063M_22uF_CAP" "D/A/C16" "22u" 60.2500mm 41.7500mm -1.5000mm 4
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2901,7 +2901,7 @@ Element["" "226CKS063M_22uF_CAP" "D/A/C13" "22u" 105.0000mm 33.7500mm -3.1082mm 
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2916,7 +2916,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Z/C6" "180u" 104.0000mm 56.2500mm 1
 	Pin[0.0000 -1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [4.0000mm 3.0000mm 4.0000mm 5.0000mm 0.2500mm]
 	ElementLine [3.0000mm 4.0000mm 5.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2931,7 +2931,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Z/C16" "22u" 64.0000mm 57.5000mm -2.7500mm -
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2946,7 +2946,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Z/C13" "22u" 105.2500mm 65.0000mm 92.00mil -
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -2975,7 +2975,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Y/C13" "22u" 105.2500mm 95.7500mm 90.94mil -
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3004,7 +3004,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Y/C5" "180u" 104.2500mm 109.5000mm 
 	Pin[0.0000 1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
 	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3019,7 +3019,7 @@ Element["" "226CKS063M_22uF_CAP" "D/X/C13" "22u" 105.2500mm 126.5000mm 108.00mil
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3090,7 +3090,7 @@ Element["" "226CKS063M_22uF_CAP" "D/Y/C16" "22u" 64.7500mm 88.5000mm -2.5000mm -
 	Pin[1.0000mm 0.0000 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "edge2,thermal(0X,2X)"]
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90 360 0.2500mm]
+	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3671,7 +3671,7 @@ Element["" "38HTSSOP" "D/X/U1" "unknown" 72.0000mm 128.7500mm -1.5000mm -6.2500m
 	Pad[2.1500mm 4.5000mm 3.4500mm 4.5000mm 0.2700mm 0.3500mm 0.4300mm "BEMF" "20" "square,edge2"]
 	ElementLine [-2.2500mm 4.9000mm 2.2500mm 4.9000mm 0.2500mm]
 	ElementLine [-2.2500mm -4.9000mm 2.2500mm -4.9000mm 0.2500mm]
-	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270 360 0.2500mm]
+	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3723,7 +3723,7 @@ Element["" "38HTSSOP" "D/A/U1" "unknown" 71.5000mm 36.2500mm -1.7500mm -6.2500mm
 	Pad[2.1500mm 4.5000mm 3.4500mm 4.5000mm 0.2700mm 0.3500mm 0.4300mm "BEMF" "20" "square,edge2"]
 	ElementLine [-2.2500mm 4.9000mm 2.2500mm 4.9000mm 0.2500mm]
 	ElementLine [-2.2500mm -4.9000mm 2.2500mm -4.9000mm 0.2500mm]
-	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270 360 0.2500mm]
+	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3775,7 +3775,7 @@ Element["" "38HTSSOP" "D/Z/U1" "unknown" 71.5000mm 67.2500mm -1.7500mm -6.2500mm
 	Pad[2.1500mm 4.5000mm 3.4500mm 4.5000mm 0.2700mm 0.3500mm 0.4300mm "BEMF" "20" "square,edge2"]
 	ElementLine [-2.2500mm 4.9000mm 2.2500mm 4.9000mm 0.2500mm]
 	ElementLine [-2.2500mm -4.9000mm 2.2500mm -4.9000mm 0.2500mm]
-	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270 360 0.2500mm]
+	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3827,7 +3827,7 @@ Element["" "38HTSSOP" "D/Y/U1" "unknown" 71.7500mm 98.0000mm -1.7500mm -6.2500mm
 	Pad[2.1500mm 4.5000mm 3.4500mm 4.5000mm 0.2700mm 0.3500mm 0.4300mm "BEMF" "20" "square,edge2"]
 	ElementLine [-2.2500mm 4.9000mm 2.2500mm 4.9000mm 0.2500mm]
 	ElementLine [-2.2500mm -4.9000mm 2.2500mm -4.9000mm 0.2500mm]
-	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270 360 0.2500mm]
+	ElementArc [-2.2500mm -5.5000mm 0.1000mm 0.1000mm 270.000000 360.000000 0.2500mm]
 
 	)
 
@@ -3842,7 +3842,7 @@ Element["" "SRF2012A" "H/L1" "120uH" 73.7500mm 147.2500mm -0.7500mm 4.2500mm 1 7
 	Pad[0.8250mm -0.6250mm 0.9000mm -0.6250mm 0.7500mm 0.4500mm 1.0000mm "2" "2" "square,edge2"]
 	Pad[0.8250mm 0.6250mm 0.9000mm 0.6250mm 0.7500mm 0.4500mm 1.0000mm "3" "3" "square,edge2"]
 	Pad[-0.9000mm 0.6250mm -0.8250mm 0.6250mm 0.7500mm 0.4500mm 1.0000mm "4" "4" "square"]
-	ElementArc [-0.9000mm -1.5000mm 0.1500mm 0.1500mm 0 360 0.2500mm]
+	ElementArc [-0.9000mm -1.5000mm 0.1500mm 0.1500mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -4543,7 +4543,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Y/C6" "180u" 104.0000mm 87.0000mm 1
 	Pin[0.0000 -1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [4.0000mm 3.0000mm 4.0000mm 5.0000mm 0.2500mm]
 	ElementLine [3.0000mm 4.0000mm 5.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180.000000 360.000000 0.2500mm]
 
 	)
 
@@ -4558,7 +4558,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/Z/C5" "180u" 104.0000mm 78.7500mm 1
 	Pin[0.0000 1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
 	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -4684,7 +4684,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/A/C5" "180u" 104.0000mm 47.7500mm 1
 	Pin[0.0000 1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [-4.0000mm -5.0000mm -4.0000mm -3.0000mm 0.2500mm]
 	ElementLine [-5.0000mm -4.0000mm -3.0000mm -4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -4833,7 +4833,7 @@ Element["" "EKZN500ELL181MH20D_180uF_CAP" "D/A/C6" "180u" 104.0000mm 25.0000mm 4
 	Pin[0.0000 -1.7500mm 1.2000mm 0.6000mm 1.4000mm 0.7000mm "-" "2" "thermal(0X,2X)"]
 	ElementLine [4.0000mm 3.0000mm 4.0000mm 5.0000mm 0.2500mm]
 	ElementLine [3.0000mm 4.0000mm 5.0000mm 4.0000mm 0.2500mm]
-	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180 360 0.2500mm]
+	ElementArc [0.0000 0.0000 4.0000mm 4.0000mm 180.000000 360.000000 0.2500mm]
 
 	)
 
@@ -4946,7 +4946,7 @@ Element["" "TQFP64_14_ATXMEGA" "M/U5" "ATXMEGA192A3U-AUR" 24.7500mm 99.2500mm 11
 	ElementLine [9.7558mm 0.0000 0.0000 9.7558mm 0.2500mm]
 	ElementLine [0.0000 9.7558mm -363.58mil 0.5209mm 0.2500mm]
 	ElementLine [-363.58mil -0.5209mm -363.58mil 0.5209mm 0.2500mm]
-	ElementArc [-8.7141mm 0.0000 10.00mil 10.00mil 45 360 0.2500mm]
+	ElementArc [-8.7141mm 0.0000 10.00mil 10.00mil 45.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5028,7 +5028,7 @@ Element["" "testpt" "PC/TP5" "unknown" 32.2500mm 21.2500mm -1.0000mm -3.0000mm 0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 34.00mil 100.00mil 40.00mil "TP" "1" "thermal(0X)"]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5040,7 +5040,7 @@ Element["" "testpt" "PC/TP4" "unknown" 30.7500mm 29.2500mm 2.0000mm 0.7500mm 0 7
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 34.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5185,7 +5185,7 @@ Element["" "testpt" "PC/TP3" "unknown" 16.0000mm 137.0000mm 2.2500mm -2.0000mm 0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" "thermal(2X)"]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5197,7 +5197,7 @@ Element["" "testpt" "PC/TP2" "unknown" 44.5000mm 50.7500mm -0.7500mm 6.0000mm 1 
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 36.00mil 100.00mil 40.00mil "TP" "1" "thermal(0X)"]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5209,7 +5209,7 @@ Element["" "testpt" "PC/TP1" "unknown" 121.0000mm 12.0000mm 1.7348mm -2.1963mm 0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 60.00mil 100.00mil 40.00mil "TP" "1" "thermal(0X)"]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5413,7 +5413,7 @@ Element["" "PowerSSO24" "PC/Q2" "unknown" 122.5000mm 45.0000mm -2.2104mm -257.83
 	ElementLine [4.5000mm 4.8000mm 4.5000mm 5.2000mm 0.2500mm]
 	ElementLine [-4.5000mm 5.2000mm 4.5000mm 5.2000mm 0.2500mm]
 	ElementLine [-4.5000mm 4.8000mm -4.5000mm 5.2000mm 0.2500mm]
-	ElementArc [-5.0000mm -5.2000mm 0.1000mm 0.1000mm 270 360 0.2500mm]
+	ElementArc [-5.0000mm -5.2000mm 0.1000mm 0.1000mm 270.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5510,7 +5510,7 @@ Element["" "testpt" "P/TP3" "N/A" 25.5000mm 49.7500mm -5.1403mm -2.0976mm 0 75 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 38.00mil 100.00mil 40.00mil "TP" "1" "thermal(0X)"]
-	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5592,7 +5592,7 @@ Element["" "HSOP8" "P/U2" "unknown" 29.5000mm 62.0000mm -3.3615mm -4.5325mm 0 75
 	Pad[2.2000mm 25.00mil 3.3000mm 25.00mil 0.4000mm 12.00mil 0.5000mm "6" "6" "square,edge2"]
 	Pad[2.2000mm 75.00mil 3.3000mm 75.00mil 0.4000mm 12.00mil 0.5000mm "5" "5" "square,edge2"]
 	Pad[0.0000 -0.2500mm 0.0000 0.2500mm 3.0000mm 0.0000 3.5000mm "9" "9" "square,edge2"]
-	ElementArc [-3.0000mm -2.7000mm 0.3000mm 0.3000mm 0 360 0.2500mm]
+	ElementArc [-3.0000mm -2.7000mm 0.3000mm 0.3000mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5638,7 +5638,7 @@ Element["lock" "AMPHENOL_10127720-061LF" "PC/J4" "6-Pin Male Connector" 133.2500
 	ElementLine [9.9000mm -5.3000mm 9.9000mm 5.3000mm 0.2500mm]
 	ElementLine [9.9000mm 5.3000mm 8.9000mm 6.3000mm 0.2500mm]
 	ElementLine [0.0000 6.3000mm 8.9000mm 6.3000mm 0.2500mm]
-	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5662,7 +5662,7 @@ Element["lock" "AMPHENOL_10127720-061LF" "PC/J5" "6-Pin Male Connector" 133.2500
 	ElementLine [9.9000mm -5.3000mm 9.9000mm 5.3000mm 0.2500mm]
 	ElementLine [9.9000mm 5.3000mm 8.9000mm 6.3000mm 0.2500mm]
 	ElementLine [0.0000 6.3000mm 8.9000mm 6.3000mm 0.2500mm]
-	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [-1.5000mm 5.0000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -5917,7 +5917,7 @@ Element["" "T0-252-3" "PC/Q3" "unknown" 18.2500mm 32.2500mm -5.6544mm -4.9075mm 
 	ElementLine [6.3000mm 1.2500mm 6.3000mm 3.3000mm 0.2500mm]
 	ElementLine [-6.3000mm 3.3000mm 6.3000mm 3.3000mm 0.2500mm]
 	ElementLine [1.3000mm -3.3000mm 1.3000mm 3.3000mm 0.2500mm]
-	ElementArc [5.0000mm 4.0000mm 0.2500mm 0.2500mm 90 360 0.2500mm]
+	ElementArc [5.0000mm 4.0000mm 0.2500mm 0.2500mm 90.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6552,7 +6552,7 @@ Element["" "testpt" "D/X/TP_STALL" "unknown" 60.2500mm 133.5000mm -4.5000mm -2.2
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6564,7 +6564,7 @@ Element["" "testpt" "D/X/TP_BEMF" "unknown" 76.5000mm 136.2500mm -2.0000mm 1.500
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6576,7 +6576,7 @@ Element["" "testpt" "D/X/TP_CS" "unknown" 56.7500mm 134.7500mm 1.2500mm 0.5000mm
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6588,7 +6588,7 @@ Element["" "testpt" "D/A/TP_STALL" "unknown" 60.7500mm 50.2500mm -1.7500mm 1.250
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6600,7 +6600,7 @@ Element["" "testpt" "D/A/TP_BEMF" "unknown" 76.7500mm 43.2500mm -5.2500mm 1.5000
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6612,7 +6612,7 @@ Element["" "testpt" "D/A/TP_CS" "unknown" 53.2500mm 40.2500mm -1.7500mm -2.2500m
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6624,7 +6624,7 @@ Element["" "testpt" "D/Z/TP_STALL" "unknown" 53.0000mm 78.2500mm -3.7500mm 1.500
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6636,7 +6636,7 @@ Element["" "testpt" "D/Z/TP_BEMF" "unknown" 75.0000mm 75.5000mm -4.2500mm 1.2500
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6648,7 +6648,7 @@ Element["" "testpt" "D/Z/TP_CS" "unknown" 53.0000mm 73.0000mm -2.7500mm -2.7500m
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6660,7 +6660,7 @@ Element["" "testpt" "D/Y/TP_STALL" "unknown" 52.0000mm 92.5000mm -4.2500mm -2.75
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6672,7 +6672,7 @@ Element["" "testpt" "D/Y/TP_BEMF" "unknown" 73.2500mm 106.2500mm -5.2500mm 1.250
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6684,7 +6684,7 @@ Element["" "testpt" "D/Y/TP_CS" "unknown" 55.5000mm 106.5000mm -1.5000mm 1.2500m
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 28.00mil 100.00mil 40.00mil "TP" "1" ""]
-	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0 360 0.2500mm]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -6824,7 +6824,7 @@ Element["" "SO8" "H/U1" "unknown" 21.2500mm 148.5000mm -7.2500mm -2.7500mm 0 75 
 	ElementLine [155.00mil 95.00mil 155.00mil -95.00mil 0.2500mm]
 	ElementLine [-155.00mil -95.00mil -25.00mil -95.00mil 0.2500mm]
 	ElementLine [155.00mil -95.00mil 25.00mil -95.00mil 0.2500mm]
-	ElementArc [0.0000 -95.00mil 25.00mil 25.00mil 0 180 0.2500mm]
+	ElementArc [0.0000 -95.00mil 25.00mil 25.00mil 0.000000 180.000000 0.2500mm]
 
 	)
 
@@ -7273,6 +7273,18 @@ Element["" "0805_ext" "H/R18" "68" 125.5000mm 113.2500mm -5.5000mm -0.5000mm 0 7
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.6000mm 1.4000mm "2" "2" "square"]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+
+	)
+
+Element["" "testpt" "M/TP1" "unknown" 12.7500mm 86.2500mm -0.5000mm -1.7500mm 1 75 ""]
+(
+	Attribute("device" "unknown")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 28.00mil 1.9400mm 40.00mil "TP" "1" ""]
+	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 10.00mil]
 
 	)
 Layer(1 "top" "copper")
@@ -8509,6 +8521,8 @@ Layer(1 "top" "copper")
 	Line[1250.00mil 123.5000mm 1250.00mil 140.2500mm 10.00mil 20.00mil "clearline"]
 	Line[1250.00mil 149.0000mm 29.2500mm 149.0000mm 10.00mil 20.00mil "clearline"]
 	Line[48.2500mm 122.2500mm 50.0000mm 120.5000mm 10.00mil 20.00mil "clearline"]
+	Line[19.7500mm 91.5000mm 18.7500mm 91.5000mm 10.00mil 20.00mil "clearline"]
+	Line[18.7500mm 91.5000mm 13.2500mm 86.0000mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -11163,6 +11177,7 @@ NetList()
 	)
 	Net("M/unnamed_net206" "(unknown)")
 	(
+		Connect("M/TP1-1")
 		Connect("M/U5-54")
 	)
 	Net("max_a" "(unknown)")
