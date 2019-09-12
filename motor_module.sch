@@ -23,11 +23,11 @@ source=motor_driver.sch
 }
 T 50000 40700 9 10 1 0 0 0 2
 Motor Modules
-Copyright (c) 2016-2018, Buildbotics LLC
+Copyright (c) 2016-2019, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-11.0
+12.0
 C 53800 44300 1 0 0 input.sym
 {
 T 53800 44600 5 10 0 0 0 0 1

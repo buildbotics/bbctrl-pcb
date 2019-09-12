@@ -1,4 +1,4 @@
-# release: pcb 4.1.2
+# release: pcb 4.2.0
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
@@ -12,7 +12,6 @@ DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
 Flags("showdrc,nameonpcb,clearnew,newfullpoly,showmask,thindrawpoly")
 Groups("1,c:2:3:4,s")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,80.00mil,2.0000mm,1.5000mm,10.00mil:Skinny,6.00mil,21.00mil,9.00mil,6.00mil"]
-
 Symbol[' ' 18.00mil]
 (
 )
@@ -788,6 +787,8 @@ Symbol['~' 12.00mil]
 Attribute("import::src0" "./buildbotics_controller.sch")
 Attribute("PCB::grid::unit" "mm")
 Attribute("PCB::grid::size" "0.2500mm")
+Attribute("import::newX" "117.5000 mm")
+Attribute("import::newY" "107.5000 mm")
 Via[68.0000mm 141.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[70.0000mm 141.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[71.2500mm 141.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
@@ -7287,6 +7288,20 @@ Element["" "testpt" "M/TP1" "unknown" 12.7500mm 86.2500mm -0.5000mm -1.7500mm 1 
 	ElementArc [0.0000 0.0000 42.50mil 42.50mil 0.000000 360.000000 10.00mil]
 
 	)
+
+Element["" "0805_ext" "PC/R36" "10K" 18.7022mm 37.0121mm -2.0666mm 1.0453mm 0 80 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
+	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
 Layer(1 "top" "copper")
 (
 	Line[74.2500mm 124.2500mm 73.2500mm 124.2500mm 10.00mil 0.6000mm ""]
@@ -8067,7 +8082,7 @@ Layer(1 "top" "copper")
 	Line[24.5000mm 19.5000mm 26.2500mm 21.2500mm 10.00mil 20.00mil "clearline"]
 	Line[16.0000mm 23.5000mm 21.5000mm 23.5000mm 10.00mil 20.00mil "clearline"]
 	Line[21.5000mm 23.5000mm 23.7500mm 21.2500mm 10.00mil 20.00mil "clearline"]
-	Line[22.5000mm 34.5000mm 26.7500mm 34.5000mm 10.00mil 20.00mil "clearline"]
+	Line[23.7500mm 34.5000mm 26.7500mm 34.5000mm 10.00mil 20.00mil "clearline"]
 	Line[26.7500mm 34.5000mm 26.7500mm 29.0000mm 10.00mil 20.00mil "clearline"]
 	Line[26.7500mm 29.0000mm 30.5000mm 29.0000mm 10.00mil 20.00mil "clearline"]
 	Line[16.0000mm 21.2500mm 17.5000mm 21.2500mm 10.00mil 20.00mil "clearline"]
@@ -8523,6 +8538,8 @@ Layer(1 "top" "copper")
 	Line[48.2500mm 122.2500mm 50.0000mm 120.5000mm 10.00mil 20.00mil "clearline"]
 	Line[19.7500mm 91.5000mm 18.7500mm 91.5000mm 10.00mil 20.00mil "clearline"]
 	Line[18.7500mm 91.5000mm 13.2500mm 86.0000mm 10.00mil 20.00mil "clearline"]
+	Line[17.5000mm 36.5000mm 17.5000mm 35.0000mm 10.00mil 20.00mil "clearline"]
+	Line[20.5000mm 36.5000mm 21.7500mm 35.2500mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -11428,6 +11445,7 @@ NetList()
 	(
 		Connect("PC/Q3-3")
 		Connect("PC/R31-1")
+		Connect("PC/R36-1")
 	)
 	Net("PC/unnamed_net253" "(unknown)")
 	(
@@ -11440,6 +11458,7 @@ NetList()
 		Connect("PC/Q3-1")
 		Connect("PC/Q4-3")
 		Connect("PC/R35-2")
+		Connect("PC/R36-2")
 		Connect("PC/TP4-1")
 	)
 	Net("PC/Vin" "(unknown)")

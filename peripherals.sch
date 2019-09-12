@@ -78,11 +78,11 @@ N 45700 48200 47900 48200 4
 N 45700 47800 47900 47800 4
 T 50000 40700 9 10 1 0 0 0 2
 Peripherals
-Copyright (c) 2016-2018, Buildbotics LLC
+Copyright (c) 2016-2019, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-11.0
+12.0
 T 44400 50100 9 10 1 0 0 0 1
 RS485 interface
 C 44900 46800 1 0 0 gnd.sym
