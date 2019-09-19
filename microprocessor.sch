@@ -99,7 +99,7 @@ Copyright (c) 2016-2019, Buildbotics LLC
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-12.0
+Micro rev 1.0
 C 43800 41700 1 0 0 ATXmegaA3.sym
 {
 T 47200 50200 5 8 0 0 0 0 1

@@ -1,4 +1,4 @@
-NAME = buildbotics_controller
+NAME = buildbotics_micro
 VERSION=12.0
 
 SCHEMATICS = $(wildcard *.sch)
