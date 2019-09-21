@@ -40,13 +40,6 @@ value=NoConnection
 T 43300 46400 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 43300 46000 1 0 1 nc.sym
-{
-T 43300 46400 5 10 0 0 0 6 1
-value=NoConnection
-T 43300 46800 5 10 0 0 0 6 1
-device=DRC_Directive
-}
 C 43300 46400 1 0 1 nc.sym
 {
 T 43300 46800 5 10 0 0 0 6 1
@@ -335,55 +328,15 @@ C 46500 48700 1 0 0 3.3V_motor.sym
 T 46600 49400 5 10 0 0 0 0 1
 device=none
 }
-C 41300 46400 1 0 0 nc.sym
-{
-T 41300 46800 5 10 0 0 0 0 1
-value=NoConnection
-T 41300 47200 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 41300 49600 1 0 0 nc.sym
-{
-T 41300 50000 5 10 0 0 0 0 1
-value=NoConnection
-T 41300 50400 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 47100 43300 1 0 0 connector3-2.sym
-{
-T 47400 44950 5 10 0 0 0 0 1
-device=CONNECTOR_3
-T 47400 45150 5 10 0 0 0 0 1
-footprint=JUMPER3
-T 47100 43300 5 10 0 0 0 0 1
-description=Unpopulated test points, label on board
-T 47100 43300 5 10 0 0 0 0 1
-documentation=Do not populate
-T 47800 45000 5 10 1 1 0 6 1
-refdes=POWER
-}
-C 47100 43900 1 90 0 5V-plus.sym
-C 46800 43800 1 270 0 gnd.sym
-C 47100 44200 1 90 0 3.3V_motor.sym
-{
-T 46400 44300 5 10 0 0 90 0 1
-device=none
-}
 C 52800 42700 1 0 0 header16-1.sym
 {
 T 52800 44700 5 10 0 1 0 0 1
 device=HEADER16
 T 52800 42700 5 10 0 0 0 0 1
-model=M20-9980846 
-T 52800 42700 5 10 0 0 0 0 1
 footprint=HEADER16_2
-T 52800 42700 5 10 0 0 0 0 1
-documentation=do not populate
-T 53400 46000 5 10 1 1 0 0 1
-refdes=J2
+T 53100 46000 5 10 1 1 0 0 1
+refdes=MOTOR
 }
-C 52500 43400 1 270 0 gnd.sym
-C 54500 43200 1 90 0 gnd.sym
 C 52000 42800 1 0 0 input.sym
 {
 T 52000 43100 5 10 0 0 0 0 1
@@ -391,16 +344,7 @@ device=INPUT
 T 51200 42850 5 10 1 1 0 0 1
 net=spin_0to10:1
 }
-C 54500 43600 1 90 0 gnd.sym
 C 52500 45800 1 270 0 gnd.sym
-C 55000 45800 1 180 0 input.sym
-{
-T 55000 45500 5 10 0 0 180 0 1
-device=OUTPUT
-T 56075 45800 5 10 1 1 180 0 1
-net=motor_enable:1
-}
-C 52500 43800 1 270 0 gnd.sym
 C 54500 42800 1 90 0 gnd.sym
 C 52000 45400 1 180 1 input.sym
 {
@@ -471,3 +415,80 @@ documentation=Do not populate
 T 52700 47800 5 10 0 0 0 0 1
 footprint=HEADER8_1
 }
+C 48900 43300 1 0 0 connector3-2.sym
+{
+T 49200 44950 5 10 0 0 0 0 1
+device=CONNECTOR_3
+T 49200 45150 5 10 0 0 0 0 1
+footprint=kldx-0202-a
+T 49800 45000 5 10 1 1 0 6 1
+refdes=DC_JACK
+T 48900 43300 5 10 0 0 0 0 1
+description=2mm barrel connector
+}
+C 48600 43800 1 270 0 gnd.sym
+C 48600 44200 1 270 0 gnd.sym
+C 48900 45400 1 0 0 connector2-2.sym
+{
+T 49700 46700 5 10 1 1 0 6 1
+refdes=ENABLE
+T 49200 46650 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 49200 46850 5 10 0 0 0 0 1
+footprint=JUMPER2
+}
+C 48900 46000 1 90 0 5V-plus.sym
+N 48500 45800 48900 45800 4
+N 48500 45800 48500 44500 4
+N 48500 44500 48900 44500 4
+N 47900 45100 48500 45100 4
+C 47900 44300 1 0 1 connector2-2.sym
+{
+T 47100 45600 5 10 1 1 0 0 1
+refdes=POWER
+T 47600 45550 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 47600 45750 5 10 0 0 0 6 1
+footprint=JUMPER2
+}
+C 48200 44800 1 90 1 gnd.sym
+C 41600 46200 1 90 0 3.3V_motor.sym
+{
+T 40900 46300 5 10 0 0 90 0 1
+device=none
+}
+C 41600 49400 1 90 0 3.3V_motor.sym
+{
+T 40900 49500 5 10 0 0 90 0 1
+device=none
+}
+C 43300 46000 1 90 0 gnd.sym
+C 52000 43600 1 0 0 input.sym
+{
+T 52000 43900 5 10 0 0 0 0 1
+device=OUTPUT
+T 51325 43600 5 10 1 1 0 0 1
+net=enable_x:1
+}
+C 52000 43200 1 0 0 input.sym
+{
+T 52000 43500 5 10 0 0 0 0 1
+device=OUTPUT
+T 51325 43200 5 10 1 1 0 0 1
+net=enable_z:1
+}
+C 55000 43800 1 180 0 input.sym
+{
+T 55000 43500 5 10 0 0 180 0 1
+device=OUTPUT
+T 55675 43800 5 10 1 1 180 0 1
+net=enable_y:1
+}
+C 55000 43400 1 180 0 input.sym
+{
+T 55000 43100 5 10 0 0 180 0 1
+device=OUTPUT
+T 55675 43400 5 10 1 1 180 0 1
+net=enable_a:1
+}
+C 54500 45600 1 90 0 gnd.sym
