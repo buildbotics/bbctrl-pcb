@@ -7289,7 +7289,7 @@ Element["" "testpt" "M/TP1" "unknown" 12.7500mm 86.2500mm -0.5000mm -1.7500mm 1 
 
 	)
 
-Element["" "0805_ext" "PC/R36" "37.4K" 19.0000mm 36.7500mm -2.2500mm 1.0000mm 0 100 ""]
+Element["" "0805_ext" "PC/R36" "37.4K" 19.0000mm 36.7500mm -2.2500mm 1.0000mm 0 80 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -9025,10 +9025,6 @@ Layer(4 "bottom" "copper")
 	Line[130.2500mm 82.5000mm 133.5000mm 82.5000mm 80.00mil 0.6000mm "clearline"]
 	Line[133.5000mm 82.5000mm 134.7500mm 83.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[134.7500mm 83.7500mm 134.7500mm 84.7500mm 80.00mil 0.6000mm "clearline"]
-	Line[112.0000mm 105.7500mm 116.0000mm 101.7500mm 80.00mil 0.6000mm "clearline"]
-	Line[116.0000mm 101.7500mm 116.0000mm 93.5000mm 80.00mil 0.6000mm "clearline"]
-	Line[110.7500mm 103.2500mm 113.5000mm 100.5000mm 80.00mil 0.6000mm "clearline"]
-	Line[113.5000mm 100.5000mm 113.5000mm 92.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[113.5000mm 92.7500mm 128.5000mm 77.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[128.5000mm 77.7500mm 131.7500mm 77.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[118.2500mm 72.2500mm 133.2500mm 72.2500mm 80.00mil 0.6000mm "clearline"]
@@ -9094,7 +9090,6 @@ Layer(4 "bottom" "copper")
 	Line[63.0000mm 37.7500mm 61.5000mm 37.7500mm 10.00mil 0.6000mm "clearline"]
 	Line[61.5000mm 37.7500mm 58.0000mm 41.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[62.2500mm 66.2500mm 57.2500mm 61.2500mm 10.00mil 0.6000mm "clearline"]
-	Line[118.5000mm 94.2500mm 118.5000mm 109.5000mm 80.00mil 0.6000mm "clearline"]
 	Line[106.5000mm 121.5000mm 101.5000mm 121.5000mm 80.00mil 0.6000mm ""]
 	Line[121.0000mm 95.0000mm 121.0000mm 110.5000mm 80.00mil 0.6000mm "clearline"]
 	Line[107.2500mm 124.2500mm 101.5000mm 124.2500mm 80.00mil 0.6000mm ""]
@@ -9594,12 +9589,8 @@ Layer(4 "bottom" "copper")
 	Line[107.5000mm 150.5000mm 114.5000mm 143.5000mm 10.00mil 20.00mil "clearline"]
 	Line[114.5000mm 143.5000mm 115.5000mm 143.5000mm 10.00mil 20.00mil "clearline"]
 	Line[109.7500mm 150.0000mm 113.5000mm 150.0000mm 10.00mil 20.00mil "clearline"]
-	Line[100.7500mm 103.2500mm 110.7500mm 103.2500mm 80.00mil 0.6000mm ""]
-	Line[100.0000mm 105.7500mm 112.0000mm 105.7500mm 80.00mil 0.6000mm ""]
 	Line[122.5000mm 27.7500mm 122.5000mm 37.0000mm 25.00mil 20.00mil "clearline"]
 	Line[120.2500mm 25.5000mm 122.5000mm 27.7500mm 25.00mil 20.00mil "clearline"]
-	Line[118.5000mm 109.5000mm 106.5000mm 121.5000mm 80.00mil 0.6000mm "clearline"]
-	Line[121.0000mm 110.5000mm 107.2500mm 124.2500mm 80.00mil 0.6000mm "clearline"]
 	Line[74.2500mm 110.7500mm 74.2500mm 114.7500mm 10.00mil 20.00mil "clearline"]
 	Line[74.2500mm 114.7500mm 76.5000mm 117.0000mm 10.00mil 20.00mil "clearline"]
 	Line[78.2500mm 116.0000mm 79.0000mm 116.7500mm 10.00mil 20.00mil "clearline"]
@@ -9620,6 +9611,15 @@ Layer(4 "bottom" "copper")
 	Line[1250.00mil 140.2500mm 1250.00mil 149.0000mm 10.00mil 20.00mil "clearline"]
 	Line[47.0000mm 120.2500mm 48.2500mm 121.5000mm 10.00mil 20.00mil "clearline"]
 	Line[48.2500mm 121.5000mm 51.2500mm 121.5000mm 10.00mil 20.00mil "clearline"]
+	Line[121.0000mm 110.5000mm 107.2500mm 124.2500mm 80.00mil 0.6000mm "clearline"]
+	Line[118.5000mm 109.5000mm 106.5000mm 121.5000mm 80.00mil 0.6000mm "clearline"]
+	Line[118.5000mm 94.2500mm 118.5000mm 109.5000mm 80.00mil 0.6000mm "clearline"]
+	Line[113.5000mm 100.5000mm 113.5000mm 92.7500mm 80.00mil 0.6000mm "clearline"]
+	Line[116.0000mm 101.7500mm 116.0000mm 93.5000mm 80.00mil 0.6000mm "clearline"]
+	Line[112.0000mm 105.7500mm 116.0000mm 101.7500mm 80.00mil 0.6000mm "clearline"]
+	Line[110.7500mm 103.2500mm 113.5000mm 100.5000mm 80.00mil 0.6000mm "clearline"]
+	Line[100.7500mm 103.2500mm 110.7500mm 103.2500mm 80.00mil 0.6000mm ""]
+	Line[102.0000mm 105.7500mm 112.0000mm 105.7500mm 80.00mil 0.6000mm ""]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -9647,12 +9647,12 @@ Layer(4 "bottom" "copper")
 	)
 	Polygon("clearpoly")
 	(
-		[96.0000mm 95.5000mm] [103.7500mm 95.5000mm] [103.7500mm 3750.00mil] [109.2500mm 3750.00mil] [113.2500mm 91.2500mm] 
-		[113.2500mm 101.2500mm] [103.0000mm 101.2500mm] [103.0000mm 101.0000mm] [96.0000mm 101.0000mm] 
+		[96.0000mm 95.5000mm] [103.7500mm 95.5000mm] [103.7500mm 3750.00mil] [112.2500mm 3750.00mil] [112.2500mm 101.0000mm] 
+		[96.0000mm 101.0000mm] 
 	)
 	Polygon("clearpoly")
 	(
-		[101.7500mm 126.2500mm] [108.7500mm 126.2500mm] [108.7500mm 105.2500mm] [122.7500mm 105.2500mm] [122.7500mm 132.0000mm] 
+		[101.7500mm 126.2500mm] [108.7500mm 126.2500mm] [108.7500mm 110.2500mm] [123.2500mm 110.2500mm] [122.7500mm 132.0000mm] 
 		[101.7500mm 132.0000mm] 
 	)
 	Polygon("clearpoly")
