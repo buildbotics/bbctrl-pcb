@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 142.3000mm 155.0000mm]
 
-Grid[0.2500mm 0.0000 0.0000 0]
+Grid[0.0100mm 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 )
 Attribute("import::src0" "./buildbotics_controller.sch")
 Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.2500mm")
+Attribute("PCB::grid::size" "0.0100mm")
 Attribute("import::newX" "117.5000 mm")
 Attribute("import::newY" "107.5000 mm")
 Via[68.0000mm 141.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
@@ -7271,7 +7271,23 @@ Element["" "0805_ext" "PC/R36" "37.4K" 19.0000mm 36.7500mm -2.2500mm 1.0000mm 0 
 
 	)
 
-Element["" "SQP500JB" "PC/R31" "5.1?" 254.69mil 64.7449mm -1.2191mm -38.9949mm 0 100 ""]
+Element["" "SRN1060" "P/L1" "10uH" 18.9246mm 55.9170mm -1.4246mm -6.4170mm 0 100 ""]
+(
+	Attribute("device" "INDUCTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[2.8000mm -2.8000mm 2.8000mm 2.8000mm 2.6000mm 0.0000 3.5000mm "1" "1" "square"]
+	Pad[-2.8000mm -2.8000mm -2.8000mm 2.8000mm 2.6000mm 0.0000 3.5000mm "2" "2" "square"]
+	ElementLine [-4.5000mm 4.5000mm 4.5000mm 4.5000mm 0.2500mm]
+	ElementLine [-4.5000mm -4.5000mm -4.5000mm 4.5000mm 0.2500mm]
+	ElementLine [-4.5000mm -4.5000mm 4.5000mm -4.5000mm 0.2500mm]
+	ElementLine [4.5000mm -4.5000mm 4.5000mm 4.5000mm 0.2500mm]
+
+	)
+
+Element["" "SQP500JB" "PC/R31" "5.1?" 6.5043mm 64.6630mm -0.2443mm -35.8930mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -7280,26 +7296,10 @@ Element["" "SQP500JB" "PC/R31" "5.1?" 254.69mil 64.7449mm -1.2191mm -38.9949mm 0
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 2.0000mm 0.5000mm 1.3600mm 1.0000mm "1" "1" ""]
 	Pin[0.0000 -32.0000mm 2.0000mm 0.5000mm 1.3600mm 1.0000mm "2" "2" ""]
-	ElementLine [5.0000mm -37.0000mm 5.0000mm 5.0000mm 0.2500mm]
-	ElementLine [-5.0000mm -37.0000mm 5.0000mm -37.0000mm 0.2500mm]
-	ElementLine [-5.0000mm -37.0000mm -5.0000mm 5.0000mm 0.2500mm]
-	ElementLine [-5.0000mm 5.0000mm 5.0000mm 5.0000mm 0.2500mm]
-
-	)
-
-Element["" "SRN1060" "P/L1" "10uH" 17.8884mm 56.1431mm -1.1116mm -7.3569mm 0 100 ""]
-(
-	Attribute("device" "INDUCTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[2.8000mm -2.8000mm 2.8000mm 2.8000mm 2.6000mm 0.0000 3.6000mm "1" "1" "square"]
-	Pad[-2.8000mm -2.8000mm -2.8000mm 2.8000mm 2.6000mm 0.0000 3.5000mm "2" "2" "square"]
-	ElementLine [-5.5000mm 5.5000mm 5.5000mm 5.5000mm 0.2500mm]
-	ElementLine [-5.5000mm -5.5000mm -5.5000mm 5.5000mm 0.2500mm]
-	ElementLine [-5.5000mm -5.5000mm 5.5000mm -5.5000mm 0.2500mm]
-	ElementLine [5.5000mm -5.5000mm 5.5000mm 5.5000mm 0.2500mm]
+	ElementLine [5.0000mm -34.0000mm 5.0000mm 2.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -34.0000mm 5.0000mm -34.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -34.0000mm -5.0000mm 2.0000mm 0.2500mm]
+	ElementLine [-5.0000mm 2.0000mm 5.0000mm 2.0000mm 0.2500mm]
 
 	)
 Layer(1 "top" "copper")
@@ -9214,7 +9214,6 @@ Layer(4 "bottom" "copper")
 	Line[128.2500mm 74.7500mm 131.7500mm 74.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[127.2500mm 3750.00mil 132.0000mm 90.5000mm 80.00mil 0.6000mm "clearline"]
 	Line[132.0000mm 90.5000mm 133.5000mm 90.5000mm 80.00mil 0.6000mm "clearline"]
-	Line[116.0000mm 93.5000mm 129.2500mm 80.2500mm 80.00mil 0.6000mm "clearline"]
 	Line[129.2500mm 80.2500mm 133.7500mm 80.2500mm 80.00mil 0.6000mm "clearline"]
 	Line[133.7500mm 80.2500mm 134.7500mm 79.2500mm 80.00mil 0.6000mm "clearline"]
 	Line[134.7500mm 79.2500mm 134.7500mm 77.7500mm 80.00mil 0.6000mm "clearline"]
@@ -9622,6 +9621,7 @@ Layer(4 "bottom" "copper")
 	Line[4.7500mm 29.2500mm 4.7500mm 36.0000mm 10.00mil 20.00mil "clearline"]
 	Line[4.7500mm 36.0000mm 10.0000mm 41.2500mm 10.00mil 20.00mil "clearline"]
 	Line[10.0000mm 41.2500mm 17.5000mm 41.2500mm 10.00mil 20.00mil "clearline"]
+	Line[116.0000mm 93.5000mm 129.2500mm 80.2500mm 80.00mil 0.6000mm "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
