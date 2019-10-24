@@ -1,0 +1,84 @@
+# PcbBOM Version 1.0
+# Date: Fri Sep 20 02:48:59 2019 UTC
+# Author: Doug Coffland
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+4,"AMPHENOL_10127720-041LF","4-Pin Male Connector",D/A/J1 D/Z/J1 D/Y/J1 D/X/J1 
+1,"NORCOMP_182-025-113R161_DB25M","25-Pin DSUB",H/J4 
+1,"Raspberry PI mount","(unknown)",(unknown) 
+2,"Right-angle M3 Mounting Block","(unknown)",(unknown) (unknown) 
+2,"Guide Hole","(unknown)",(unknown) (unknown) 
+1,"JUMPER6","N/A",D/J1 
+12,"0805_ext","1nF",D/A/C8 D/X/C8 D/Y/C8 D/Z/C8 D/X/C9 D/X/C10 D/Z/C9 D/Z/C10 D/A/C10 D/A/C9 D/Y/C9 D/Y/C10 
+8,"0805_ext","1uF",D/A/C1 D/X/C1 D/Y/C1 D/A/C4 D/Z/C4 D/Z/C1 D/Y/C4 D/X/C4 
+4,"0805_ext",".22uF",D/A/C3 D/X/C3 D/Y/C3 D/Z/C3 
+23,"0805_ext","0.1uF",H/C35 M/C31 M/C30 M/C28 M/C27 H/C1 H/C2 H/C3 D/Z/C2 D/Y/C2 D/A/C2 PC/C7 PC/C2 PC/C3 PC/C4 PC/C1 PC/C6 P/C13 P/C14 M/C32 D/X/C2 H/C23 M/C29 
+2,"0805_ext","750",H/R2 H/R3 
+7,"0805_ext","2.4k",H/R1 D/X/R7 D/A/R7 D/Z/R7 D/R6 D/R2 D/Y/R7 
+24,"0805_ext","180",H/R6 H/R7 H/R8 D/R1 D/R7 D/X/R8 D/X/R9 D/X/R10 D/X/R11 D/Z/R10 D/Z/R8 D/A/R10 D/A/R9 D/A/R8 D/Y/R8 D/Y/R9 D/Y/R10 D/Z/R11 D/A/R11 D/R3 D/R4 D/Y/R11 D/R5 D/Z/R9 
+10,"0805_ext","130pF",H/C15 H/C16 H/C17 D/X/C11 D/C5 D/Z/C11 D/A/C11 D/Y/C11 D/C4 D/C3 
+1,"SO8","RS-485 Transceiver",H/U6 
+16,"DualSuperSO8","unknown",D/Z/Q4 D/X/Q2 D/X/Q1 D/X/Q3 D/X/Q4 D/Y/Q3 D/Y/Q2 D/Y/Q1 D/Y/Q4 D/Z/Q3 D/Z/Q2 D/Z/Q1 D/A/Q4 D/A/Q3 D/A/Q2 D/A/Q1 
+8,"0805_ext","10n",D/X/C7 D/X/C17 D/Z/C17 D/Y/C17 D/Y/C7 D/Z/C7 D/A/C17 D/A/C7 
+16,"226CKS063M_22uF_CAP","22u",D/X/C15 D/X/C12 D/A/C15 D/A/C12 D/Z/C15 D/Z/C12 D/Y/C15 D/Y/C12 D/X/C16 D/A/C16 D/A/C13 D/Z/C16 D/Z/C13 D/Y/C13 D/X/C13 D/Y/C16 
+8,"EKZN500ELL181MH20D_180uF_CAP","180u",D/X/C6 D/X/C5 D/Z/C6 D/Y/C5 D/Y/C6 D/Z/C5 D/A/C5 D/A/C6 
+1,"JUMPER5","N/A",R/SERIAL 
+2,"0805_ext","10pF",M/C34 M/C33 
+1,"Crystal_HC49","16MHz",M/X1 
+4,"38HTSSOP","unknown",D/X/U1 D/A/U1 D/Z/U1 D/Y/U1 
+1,"SRF2012A","120uH",H/L1 
+1,"0805_ext","130",H/R19 
+2,"0805_ext","10",H/R4 H/R5 
+1,"JUMPER4","unknown",R/LCD 
+13,"0805_ext","10K",R/LV0/R2 R/LV0/R1 R/LV1/R1 R/LV1/R2 PC/R14 PC/R1 PC/R13 P/R1 PC/R34 PC/R35 PC/R19 PC/R22 PC/R17 
+3,"SOT23_2","unknown",R/LV0/Q1 R/LV1/Q1 PC/Q4 
+16,"0805_ext","75",D/X/R6 D/X/R1 D/A/R6 D/A/R4 D/A/R3 D/A/R1 D/Z/R4 D/Z/R3 D/Z/R1 D/Y/R6 D/Y/R4 D/Y/R1 D/X/R4 D/X/R3 D/Y/R3 D/Z/R6 
+8,"2512",".05",D/X/R2 D/X/R5 D/Y/R2 D/Y/R5 D/Z/R5 D/Z/R2 D/A/R5 D/A/R2 
+2,"JUMPER3","unknown",R/I2C P/POWER 
+1,"TQFP64_14_ATXMEGA","ATXMEGA192A3U-AUR",M/U5 
+11,"0805_ext","0",D/X/R12 D/A/R12 D/Z/R12 D/Y/R12 PC/R23 PC/R24 P/R15 D/X/R13 D/A/R13 D/Z/R13 D/Y/R13 
+18,"testpt","unknown",PC/TP5 PC/TP4 PC/TP3 PC/TP2 PC/TP1 D/X/TP_STALL D/X/TP_BEMF D/X/TP_CS D/A/TP_STALL D/A/TP_BEMF D/A/TP_CS D/Z/TP_STALL D/Z/TP_BEMF D/Z/TP_CS D/Y/TP_STALL D/Y/TP_BEMF D/Y/TP_CS M/TP1 
+2,"0805_ext","200k",PC/R29 PC/R26 
+1,"0805_ext","470n",PC/C5 
+1,"SOT23","6.2V",PC/D2 
+8,"0805_ext","100k",PC/R6 PC/R2 PC/R30 PC/R7 PC/R8 PC/R25 PC/R11 H/R13 
+10,"0805_ext","1k",PC/R3 PC/R16 PC/R18 PC/R32 PC/R9 PC/R12 PC/R28 PC/R21 H/R27 H/R25 
+1,"DO214AB","36V/40V/58.1V",PC/Z2 
+1,"QFN21_4","unknown",PC/U1 
+1,"PowerSSO24","unknown",PC/Q2 
+1,"SOT23","12V",PC/Z1 
+1,"TO252","unknown",PC/Q1 
+1,"1210_ext","22uF 16V",P/C12 
+1,"testpt","N/A",P/TP3 
+1,"SRN1060","10uH",P/L1 
+1,"0805_ext","8.25k 1%",P/R10 
+1,"DO221","unknown",P/D3 
+1,"1210_ext","10uF 50v",P/C4 
+1,"HSOP8","unknown",P/U2 
+1,"Molex_39-30-0060","6-Pin",PC/J6 
+2,"AMPHENOL_10127720-061LF","6-Pin Male Connector",PC/J4 PC/J5 
+1,"JUMPER2","unknown",PC/ENABLE 
+1,"0805_ext","20k",PC/R5 
+1,"SQP500JB","5.1?",PC/R31 
+1,"0805_ext","470nF 50v",P/C6 
+1,"0805_ext","33nF",P/C9 
+1,"0805_ext","100pF",P/C7 
+1,"0805_ext","1.5k",P/R8 
+1,"0805_ext","180k",P/R6 
+1,"0805_ext","1.37K",P/R2 
+1,"0805_ext","3.3nF",P/C11 
+1,"0805_ext","330",P/R11 
+1,"0805_ext","1.1k 1%",P/R12 
+1,"T0-252-3","unknown",PC/Q3 
+1,"SOT223","unknown",P/U3 
+4,"0805_ext","137",PC/R33 PC/R10 PC/R15 PC/R4 
+3,"0805_ext","37.4K",PC/R20 PC/R27 PC/R36 
+1,"raspberry_pi_connector","40-pin Connector",R/RPI 
+2,"ISP","6-Pin Header",PC/ISP M/ISP 
+3,"SMBFlat","unknown",PC/D5 PC/D3 PC/D1 
+1,"HEADER16_2","unknown",D/J2 
+1,"0805_ext","2.1k",H/R28 
+16,"0805_ext","0.22uF",H/C20 H/C18 H/C19 H/C4 H/C5 H/C6 H/C22 H/C7 H/C21 H/C10 H/C14 H/C12 H/C13 H/C11 H/C8 H/C9 
+1,"SO8","unknown",H/U1 
+15,"0805_ext","68",H/R9 H/R14 H/R12 H/R11 H/R10 H/R26 H/R15 H/R16 H/R20 H/R21 H/R22 H/R23 H/R24 H/R17 H/R18 

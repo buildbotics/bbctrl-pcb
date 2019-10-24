@@ -9,7 +9,7 @@ Grid[0.2500mm 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[6.00mil 8.00mil 6.00mil 8.00mil 9.00mil 6.00mil]
-Flags("showdrc,nameonpcb,clearnew,newfullpoly,showmask,thindrawpoly")
+Flags("showdrc,nameonpcb,clearnew,newfullpoly,thindrawpoly")
 Groups("1,c:2:3:4,s")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,80.00mil,2.0000mm,1.5000mm,10.00mil:Skinny,6.00mil,21.00mil,9.00mil,6.00mil"]
 Symbol[' ' 18.00mil]
@@ -5503,7 +5503,7 @@ Element["" "1210_ext" "P/C12" "22uF 16V" 14.5000mm 47.7500mm -1.3957mm -3.5313mm
 
 	)
 
-Element["" "testpt" "P/TP3" "N/A" 25.5000mm 49.7500mm -5.1403mm -2.0976mm 0 75 ""]
+Element["" "testpt" "P/TP3" "N/A" 25.5000mm 49.7500mm -4.0000mm -2.7500mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5512,22 +5512,6 @@ Element["" "testpt" "P/TP3" "N/A" 25.5000mm 49.7500mm -5.1403mm -2.0976mm 0 75 "
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 38.00mil 100.00mil 40.00mil "TP" "1" "thermal(0X)"]
 	ElementArc [0.0000 0.0000 62.50mil 62.50mil 0.000000 360.000000 0.2500mm]
-
-	)
-
-Element["" "SRN1060" "P/L1" "10uH" 18.0000mm 56.2500mm -0.5572mm -7.0272mm 0 75 ""]
-(
-	Attribute("device" "INDUCTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[3.3000mm -3.3500mm 3.3000mm 3.3500mm 3.5000mm 0.0000 4.0000mm "1" "1" "square"]
-	Pad[-3.3000mm -3.3500mm -3.3000mm 3.3500mm 3.5000mm 0.0000 4.0000mm "2" "2" "square"]
-	ElementLine [-5.5000mm 5.5000mm 5.5000mm 5.5000mm 0.2500mm]
-	ElementLine [-5.5000mm -5.5000mm -5.5000mm 5.5000mm 0.2500mm]
-	ElementLine [-5.5000mm -5.5000mm 5.5000mm -5.5000mm 0.2500mm]
-	ElementLine [5.5000mm -5.5000mm 5.5000mm 5.5000mm 0.2500mm]
 
 	)
 
@@ -5724,22 +5708,6 @@ Element["" "0805_ext" "PC/R13" "10K" 68.5000mm 7.7500mm -0.7059mm -2.2299mm 1 75
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
 	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
-
-	)
-
-Element["" "SQP500JB" "PC/R31" "5.1?" 6.5000mm 64.7500mm -2.5744mm -1525.60mil 0 75 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 1.2000mm 0.5000mm 1.3600mm 0.7000mm "1" "1" ""]
-	Pin[0.0000 -32.0000mm 1.2000mm 0.5000mm 1.3600mm 0.7000mm "2" "2" "thermal(3X)"]
-	ElementLine [5.0000mm -37.0000mm 5.0000mm 5.0000mm 0.2500mm]
-	ElementLine [-5.0000mm -37.0000mm 5.0000mm -37.0000mm 0.2500mm]
-	ElementLine [-5.0000mm -37.0000mm -5.0000mm 5.0000mm 0.2500mm]
-	ElementLine [-5.0000mm 5.0000mm 5.0000mm 5.0000mm 0.2500mm]
 
 	)
 
@@ -7300,6 +7268,38 @@ Element["" "0805_ext" "PC/R36" "37.4K" 19.0000mm 36.7500mm -2.2500mm 1.0000mm 0 
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+
+	)
+
+Element["" "SQP500JB" "PC/R31" "5.1?" 254.69mil 64.7449mm -1.2191mm -38.9949mm 0 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 2.0000mm 0.5000mm 1.3600mm 1.0000mm "1" "1" ""]
+	Pin[0.0000 -32.0000mm 2.0000mm 0.5000mm 1.3600mm 1.0000mm "2" "2" ""]
+	ElementLine [5.0000mm -37.0000mm 5.0000mm 5.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -37.0000mm 5.0000mm -37.0000mm 0.2500mm]
+	ElementLine [-5.0000mm -37.0000mm -5.0000mm 5.0000mm 0.2500mm]
+	ElementLine [-5.0000mm 5.0000mm 5.0000mm 5.0000mm 0.2500mm]
+
+	)
+
+Element["" "SRN1060" "P/L1" "10uH" 17.8884mm 56.1431mm -1.1116mm -7.3569mm 0 100 ""]
+(
+	Attribute("device" "INDUCTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[2.8000mm -2.8000mm 2.8000mm 2.8000mm 2.6000mm 0.0000 3.6000mm "1" "1" "square"]
+	Pad[-2.8000mm -2.8000mm -2.8000mm 2.8000mm 2.6000mm 0.0000 3.5000mm "2" "2" "square"]
+	ElementLine [-5.5000mm 5.5000mm 5.5000mm 5.5000mm 0.2500mm]
+	ElementLine [-5.5000mm -5.5000mm -5.5000mm 5.5000mm 0.2500mm]
+	ElementLine [-5.5000mm -5.5000mm 5.5000mm -5.5000mm 0.2500mm]
+	ElementLine [5.5000mm -5.5000mm 5.5000mm 5.5000mm 0.2500mm]
 
 	)
 Layer(1 "top" "copper")
@@ -8907,7 +8907,7 @@ Layer(1 "top" "copper")
 	Polygon("clearpoly,fullpoly")
 	(
 		[19.2500mm 47.7500mm] [19.2500mm 62.0000mm] [25.5000mm 62.0000mm] [25.5000mm 60.5000mm] [27.5000mm 60.5000mm] 
-		[27.5000mm 47.5000mm] 
+		[27.5000mm 47.7500mm] 
 	)
 	Polygon("clearpoly,fullpoly")
 	(
@@ -9404,7 +9404,6 @@ Layer(4 "bottom" "copper")
 	Line[50.0000mm 9.2500mm 47.5000mm 11.7500mm 10.00mil 20.00mil "clearline"]
 	Line[34.5000mm 35.0000mm 30.2500mm 39.2500mm 10.00mil 20.00mil "clearline"]
 	Line[30.2500mm 39.2500mm 30.2500mm 43.5000mm 10.00mil 20.00mil "clearline"]
-	Line[4.5000mm 29.5000mm 16.2500mm 41.2500mm 10.00mil 20.00mil "clearline"]
 	Line[16.2500mm 41.2500mm 28.0000mm 41.2500mm 10.00mil 20.00mil "clearline"]
 	Line[28.0000mm 41.2500mm 30.2500mm 43.5000mm 10.00mil 20.00mil "clearline"]
 	Line[39.2500mm 32.0000mm 41.5000mm 34.2500mm 10.00mil 20.00mil "clearline"]
@@ -9620,6 +9619,9 @@ Layer(4 "bottom" "copper")
 	Line[110.7500mm 103.2500mm 113.5000mm 100.5000mm 80.00mil 0.6000mm "clearline"]
 	Line[100.7500mm 103.2500mm 110.7500mm 103.2500mm 80.00mil 0.6000mm ""]
 	Line[102.0000mm 105.7500mm 112.0000mm 105.7500mm 80.00mil 0.6000mm ""]
+	Line[4.7500mm 29.2500mm 4.7500mm 36.0000mm 10.00mil 20.00mil "clearline"]
+	Line[4.7500mm 36.0000mm 10.0000mm 41.2500mm 10.00mil 20.00mil "clearline"]
+	Line[10.0000mm 41.2500mm 17.5000mm 41.2500mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -9825,7 +9827,7 @@ Layer(6 "top silk" "silk")
 	Text[32.7500mm 41.7500mm 1 75 "SDA" "clearline"]
 	Text[30.0000mm 41.7500mm 1 75 "SCL" "clearline"]
 	Text[27.0000mm 41.7500mm 1 75 "GND" "clearline"]
-	Text[88.5000mm 147.5000mm 0 155 "Revision 12" "clearline,lock"]
+	Text[88.5000mm 147.5000mm 0 155 "Revision 13" "clearline,lock"]
 	Text[4.0000mm 17.7500mm 0 75 "SDA" "clearline"]
 	Text[4.2500mm 15.0000mm 0 75 "SCL" "clearline"]
 	Text[4.2500mm 20.0000mm 0 75 "+5V" "clearline"]
