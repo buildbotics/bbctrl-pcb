@@ -8,13 +8,17 @@ PDFS = $(patsubst %.sch,%.pdf,$(SCHEMATICS))
 PDF=doc/$(NAME)-v$(VERSION).pdf
 PCB_PDF=doc/$(NAME)-pcb-v$(VERSION).pdf
 
+ifeq ($(PCB),)
+PCB=pcb
+endif
+
 all: drc
 
 %.pdf: %.sch
 	gschem -o $@ -s gschem-print.scm $<
 
 %.ps: %.pcb
-	pcb -x ps --psfile $@ $<
+	$(PCB) -x ps --psfile $@ $<
 
 pdf: $(PDF) $(PCB_PDF)
 
@@ -32,7 +36,7 @@ schematics:
 	gschem -q -- $(NAME).sch&
 
 pcb:
-	pcb $(NAME).pcb&
+	$(PCB) $(NAME).pcb&
 
 net: $(SCHEMATICS)
 	gnetlist -g geda -o $(NAME).net $(NAME).sch
