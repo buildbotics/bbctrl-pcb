@@ -21,9 +21,10 @@ refdes=A
 T 55095 42300 5 10 1 1 0 0 1
 source=motor_driver.sch
 }
-T 50000 40700 9 10 1 0 0 0 2
+T 50000 40700 9 10 1 0 0 0 3
 Motor Modules
-Copyright (c) 2016-2019, Buildbotics LLC
+Copyright (c) 2016-2020, Buildbotics LLC
+Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
@@ -1005,7 +1006,7 @@ device=HEADER16
 T 47300 50200 5 10 1 1 0 0 1
 refdes=J2
 T 46700 46900 5 10 0 0 0 0 1
-model=M20-9980846 
+model=M20-9980846
 T 46700 46900 5 10 0 0 0 0 1
 footprint=HEADER16_2
 T 46700 46900 5 10 0 0 0 0 1

@@ -1,4 +1,4 @@
-# Buildbotics Machine Controller Schematics & PCB Layout
+# Buildbotics Controller Schematics & PCB Layout
 The top-level schematic is in the file ``buildbotics_controller.sch``.  To view
 and edit the schematics run:
 
@@ -43,3 +43,22 @@ with out having them all connected together.
 
 Set the library path in PCB to point to the local footprints folder.  Use
 ``File->Preferences->Library`` in PCB to do this.
+
+# License
+Copyright Buildbotics LLC 2016-2020.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-S v2
+
+You may redistribute and modify this documentation and make products
+using it under the terms of the CERN-OHL-S v2 (https:/cern.ch/cern-ohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2
+for applicable conditions.
+
+Source location: https://github.com/buildbotics
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on
+these sources, You must maintain the Source Location clearly visible on
+the external case of the CNC Controller or other product you make using
+this documentation.

@@ -1,8 +1,9 @@
 v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
-T 50000 40700 9 10 1 0 0 0 2
+T 50000 40700 9 10 1 0 0 0 3
 Level Converter
-Copyright (c) 2016-2019, Buildbotics LLC
+Copyright (c) 2016-2020, Buildbotics LLC
+Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
@@ -14,7 +15,7 @@ device=NPN_E_MOSFET
 T 48300 44900 5 10 1 1 0 0 1
 refdes=Q1
 T 48000 46000 5 10 0 0 270 0 1
-model=2N7002K-T1-E3 
+model=2N7002K-T1-E3
 T 48000 46000 5 10 0 0 270 0 1
 footprint=SOT23_2
 T 48000 46000 5 10 0 0 270 0 1

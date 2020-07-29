@@ -24,14 +24,14 @@ value=16MHz
 T 47450 41100 5 10 0 0 0 0 1
 model=ABLS-16.000MHZ-B4-T
 T 47450 41100 5 10 0 0 0 0 1
-description=Crystal 16.0000MHz 30ppm 18pF 40 Ohm -20°C - 70°C Surface Mount HC49/US 
+description=Crystal 16.0000MHz 30ppm 18pF 40 Ohm -20°C - 70°C Surface Mount HC49/US
 T 47450 41100 5 10 0 0 0 0 1
 footprint=Crystal_HC49
 }
 C 47400 40500 1 90 0 cap.sym
 {
 T 46700 40700 5 10 0 0 90 0 1
-device=CAPACITOR 
+device=CAPACITOR
 T 46900 40900 5 10 1 1 0 0 1
 refdes=C33
 T 47250 40700 5 10 1 1 180 0 1
@@ -44,7 +44,7 @@ model=C0805C100J5GACTU
 C 48100 40500 1 90 0 cap.sym
 {
 T 47400 40700 5 10 0 0 90 0 1
-device=CAPACITOR 
+device=CAPACITOR
 T 48150 40800 5 10 1 1 0 0 1
 refdes=C34
 T 48600 40700 5 10 1 1 180 0 1
@@ -93,9 +93,10 @@ value=NoConnection
 T 42400 40500 5 10 0 0 180 0 1
 device=DRC_Directive
 }
-T 50000 40700 9 10 1 0 0 0 2
+T 50000 40700 9 10 1 0 0 0 3
 Microprocessor
-Copyright (c) 2016-2019, Buildbotics LLC
+Copyright (c) 2016-2020, Buildbotics LLC
+Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1

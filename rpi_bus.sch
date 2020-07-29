@@ -2,9 +2,10 @@ v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
 C 43000 49900 1 270 0 5V-plus.sym
 C 43000 49500 1 270 0 5V-plus.sym
-T 50000 40700 9 10 1 0 0 0 2
+T 50000 40700 9 10 1 0 0 0 3
 RPI Bus
-Copyright (c) 2016-2019, Buildbotics LLC
+Copyright (c) 2016-2020, Buildbotics LLC
+Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1

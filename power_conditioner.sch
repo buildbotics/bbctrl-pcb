@@ -565,9 +565,10 @@ net=pwr_sck:1
 }
 N 54700 42300 54900 42300 4
 N 54700 42700 54900 42700 4
-T 50000 40700 9 10 1 0 0 0 2
+T 50000 40700 9 10 1 0 0 0 3
 Power Conditioning
-Copyright (c) 2016-2019, Buildbotics LLC
+Copyright (c) 2016-2020, Buildbotics LLC
+Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 C 55100 48300 1 90 0 diode_K1A2.sym
@@ -1270,7 +1271,7 @@ C 41700 44300 1 0 0 2n7002k.sym
 T 42600 44800 5 10 0 0 0 0 1
 device=NPN_E_MOSFET
 T 41700 44300 5 10 0 0 0 0 1
-model=2N7002K-T1-E3 
+model=2N7002K-T1-E3
 T 41700 44300 5 10 0 0 0 0 1
 footprint=SOT23_2
 T 41700 44300 5 10 0 0 0 0 1

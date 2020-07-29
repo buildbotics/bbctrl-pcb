@@ -1,8 +1,9 @@
 v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
-T 50000 40700 9 10 1 0 0 0 2
+T 50000 40700 9 10 1 0 0 0 3
 Power
-Copyright (c) 2016-2019, Buildbotics LLC
+Copyright (c) 2016-2020, Buildbotics LLC
+Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
@@ -51,7 +52,7 @@ value=180k
 T 45500 47500 5 10 0 0 90 0 1
 footprint=0805_ext
 T 45500 47500 5 10 0 0 0 0 1
-model=RC0805JR-07180KL 
+model=RC0805JR-07180KL
 T 45500 47500 5 10 0 0 0 0 1
 description=Yageo RES SMD 180K OHM 5% 1/8W 0805
 }
@@ -75,7 +76,7 @@ footprint=0805_ext
 T 46700 46200 5 10 0 0 0 0 1
 model=RC0805JR-071K5L
 T 46700 46200 5 10 0 0 0 0 1
-description=Yageo RES SMD 1.5K OHM 5% 1/8W 0805 
+description=Yageo RES SMD 1.5K OHM 5% 1/8W 0805
 }
 N 46100 46100 45800 46100 4
 C 46600 46600 1 180 0 cap.sym
@@ -212,7 +213,7 @@ value=330
 T 51900 47600 5 10 0 0 90 0 1
 footprint=0805_ext
 T 51900 47600 5 10 0 0 0 0 1
-model=RMCF0805JT330R 
+model=RMCF0805JT330R
 }
 C 52100 47500 1 90 0 cap.sym
 {
@@ -223,7 +224,7 @@ refdes=C11
 T 52275 47575 5 10 1 1 90 0 1
 value=3.3nF
 T 52100 47500 5 10 0 0 0 0 1
-model=C0805C332K5RACTU 
+model=C0805C332K5RACTU
 T 52100 47500 5 10 0 0 0 0 1
 footprint=0805_ext
 }
@@ -257,7 +258,7 @@ symversion=0.1
 T 52950 46550 5 10 1 1 90 0 1
 value=22uF 16V
 T 52800 47100 5 10 0 0 0 0 1
-model=C3225X7R1C226K250AC 
+model=C3225X7R1C226K250AC
 T 52800 47100 5 10 0 0 0 0 1
 description=22µF ±10% 16V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 1210
 T 52800 47100 5 10 0 0 0 0 1

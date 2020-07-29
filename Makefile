@@ -1,5 +1,5 @@
 NAME = buildbotics_controller
-VERSION=12.0
+VERSION=13.0
 
 SCHEMATICS = $(wildcard *.sch)
 SYMBOLS = $(wildcard symbols/*.sym)
@@ -61,7 +61,7 @@ clean-layout:
 
 tidy:
 	rm -f $(shell find . -name \*~ -o -name \#\* -o -name \*-) \
-	  *.bak *.log *.backup
+	  *.bak *.log *.backup $(NAME).ps
 
 clean: tidy
 	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net $(NAME).bom $(PDFS)
