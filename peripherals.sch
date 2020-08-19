@@ -604,8 +604,6 @@ T 44400 49200 5 10 1 1 0 0 1
 refdes=U1
 T 44300 48200 5 10 0 0 0 0 1
 footprint=SO8
-T 44300 48200 5 10 0 0 0 0 1
-documentation=Do not populate
 }
 N 45700 48600 45300 48600 4
 C 46300 48500 1 0 0 output.sym
