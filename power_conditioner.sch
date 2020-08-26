@@ -647,7 +647,7 @@ refdes=U2
 T 48400 46900 5 10 0 0 0 0 1
 footprint=VSSOP10.fp
 T 48400 46900 5 10 0 0 0 0 1
-model=LM5060
+model=LM5060MM/NOPB
 T 48400 46900 5 10 0 0 0 0 1
 description=LM5060 High-Side Protection Controller With Low Quiescent Current
 }
@@ -820,7 +820,7 @@ refdes=R5
 T 48825 49500 5 10 1 1 90 0 1
 value=5.11kΩ
 T 48500 50300 5 10 0 0 0 0 1
-model=RC0805FR-0710KL
+model=RC0805FR-075K11L
 T 48500 50300 5 10 0 0 0 0 1
 footprint=0805_ext
 }
