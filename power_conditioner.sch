@@ -922,4 +922,6 @@ T 50200 49800 5 10 0 0 0 0 1
 device=nmos transistor
 T 50200 49800 5 10 0 0 0 0 1
 description=nmos transistor in to263 case
+T 50200 49800 5 10 0 0 0 0 1
+footprint=T0-263
 }
