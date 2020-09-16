@@ -28,7 +28,7 @@ Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-12.0
+13.0
 C 53800 44300 1 0 0 input.sym
 {
 T 53800 44600 5 10 0 0 0 0 1
