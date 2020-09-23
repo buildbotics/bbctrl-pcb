@@ -1851,6 +1851,9 @@ Via[77.5000mm 141.3000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" "thermal(2X)"]
 Via[79.3000mm 144.3000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
 Via[77.1000mm 144.1000mm 36.00mil 20.00mil 1.0500mm 20.00mil "" ""]
 Via[82.4000mm 110.4000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
+Via[110.8000mm 141.5000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
+Via[48.0000mm 122.5000mm 36.00mil 20.00mil 1.0500mm 20.00mil "" ""]
+Via[58.1000mm 144.1000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
 
 Element["lock" "AMPHENOL_10127720-041LF" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -6.2800mm 3.0000mm 0 75 ""]
 (
@@ -6660,7 +6663,7 @@ Element["" "NORCOMP_182-025-113R161_DB25M" "H/J4" "25-Pin DSUB" 132.2500mm 119.7
 	Pin[-1.4200mm 11.0800mm 2.0000mm 0.5000mm 2.1600mm 1.0900mm "3" "3" ""]
 	Pin[-1.4200mm 8.3100mm 2.0000mm 0.5000mm 2.1600mm 1.0900mm "4" "4" ""]
 	Pin[-1.4200mm 5.5400mm 2.0000mm 0.5000mm 2.1600mm 1.0900mm "5" "5" ""]
-	Pin[-1.4200mm 2.7700mm 2.0000mm 0.5000mm 2.1600mm 1.0900mm "6" "6" "thermal(1X)"]
+	Pin[-1.4200mm 2.7700mm 2.0000mm 0.5000mm 2.1600mm 1.0900mm "6" "6" ""]
 	Pin[-1.4200mm 0.0000 2.0000mm 0.5000mm 2.1600mm 1.0900mm "7" "7" ""]
 	Pin[-1.4200mm -2.7700mm 2.0000mm 0.5000mm 2.1600mm 1.0900mm "8" "8" ""]
 	Pin[-1.4200mm -5.5400mm 2.0000mm 0.5000mm 2.1600mm 1.0900mm "9" "9" ""]
@@ -8536,6 +8539,12 @@ Layer(1 "top" "copper")
 	Line[75.2000mm 109.2000mm 76.1000mm 108.3000mm 10.00mil 20.00mil "clearline"]
 	Line[76.1000mm 108.3000mm 78.2100mm 108.3000mm 10.00mil 20.00mil "clearline"]
 	Line[78.2100mm 108.3000mm 79.5000mm 107.0100mm 10.00mil 20.00mil "clearline"]
+	Line[110.8000mm 141.5000mm 110.8000mm 145.6000mm 10.00mil 20.00mil "clearline"]
+	Line[110.8000mm 145.6000mm 108.0000mm 148.4000mm 10.00mil 20.00mil "clearline"]
+	Line[108.0000mm 148.4000mm 60.3000mm 148.4000mm 10.00mil 20.00mil "clearline"]
+	Line[60.3000mm 148.4000mm 59.6000mm 147.7000mm 10.00mil 20.00mil "clearline"]
+	Line[59.6000mm 147.7000mm 59.6000mm 145.6000mm 10.00mil 20.00mil "clearline"]
+	Line[59.6000mm 145.6000mm 58.1000mm 144.1000mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -9872,6 +9881,17 @@ Layer(4 "bottom" "copper")
 	Line[81.5000mm 133.1000mm 81.5000mm 111.6000mm 10.00mil 20.00mil "clearline"]
 	Line[82.4000mm 110.4000mm 82.4000mm 110.7000mm 10.00mil 20.00mil "clearline"]
 	Line[82.4000mm 110.7000mm 81.5000mm 111.6000mm 10.00mil 20.00mil "clearline"]
+	Line[130.6800mm 122.5200mm 137.7200mm 122.5200mm 10.00mil 20.00mil "clearline"]
+	Line[137.7200mm 122.5200mm 140.0000mm 124.8000mm 10.00mil 20.00mil "clearline"]
+	Line[140.0000mm 124.8000mm 140.0000mm 138.5000mm 10.00mil 20.00mil "clearline"]
+	Line[140.0000mm 138.5000mm 138.5000mm 140.0000mm 10.00mil 20.00mil "clearline"]
+	Line[138.5000mm 140.0000mm 112.3000mm 140.0000mm 10.00mil 20.00mil "clearline"]
+	Line[112.3000mm 140.0000mm 110.8000mm 141.5000mm 10.00mil 20.00mil "clearline"]
+	Line[48.0000mm 122.5000mm 48.0000mm 131.2000mm 10.00mil 20.00mil "clearline"]
+	Line[48.0000mm 131.2000mm 49.2000mm 132.4000mm 10.00mil 20.00mil "clearline"]
+	Line[49.2000mm 132.4000mm 49.2000mm 137.8000mm 10.00mil 20.00mil "clearline"]
+	Line[58.1000mm 144.1000mm 55.5000mm 144.1000mm 10.00mil 20.00mil "clearline"]
+	Line[55.5000mm 144.1000mm 49.2000mm 137.8000mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -10077,7 +10097,7 @@ Layer(6 "top silk" "silk")
 	Text[47.7500mm 114.0000mm 0 75 "MISO" "clearline"]
 	Text[47.7500mm 116.0000mm 0 75 "MOSI" "clearline"]
 	Text[48.2500mm 119.0000mm 0 75 "CLK" "clearline"]
-	Text[47.2500mm 121.7500mm 0 75 "FAULT" "clearline"]
+	Text[46.1500mm 4750.00mil 0 75 "FAULT" "clearline"]
 	Text[46.2500mm 124.0000mm 0 75 "ENABLE" "clearline"]
 	Text[31.5000mm 47.0000mm 1 75 "SDA" "clearline"]
 	Text[28.7500mm 46.7500mm 1 75 "SCL" "clearline"]
@@ -10156,7 +10176,6 @@ NetList()
 		Connect("D/LV8/X1-5")
 		Connect("D/LV9/C1-2")
 		Connect("D/LV9/X1-5")
-		Connect("H/J4-6")
 		Connect("H/J4-20")
 		Connect("H/LV1/C1-2")
 		Connect("H/LV1/X1-5")
@@ -11881,6 +11900,7 @@ NetList()
 	Net("spin_0to10" "(unknown)")
 	(
 		Connect("D/J2-15")
+		Connect("H/J4-6")
 		Connect("H/R3-2")
 	)
 	Net("spin_dir" "(unknown)")

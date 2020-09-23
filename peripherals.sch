@@ -756,7 +756,6 @@ T 49100 47750 5 10 1 1 0 0 1
 net=spin_pwm:1
 }
 N 50600 47800 50800 47800 4
-C 53200 46700 1 90 0 5V-plus.sym
 C 53200 45800 1 90 0 5V-plus.sym
 N 51600 49600 52300 49600 4
 N 52300 49600 52300 49300 4
@@ -965,3 +964,10 @@ T 50000 40700 9 10 1 0 0 0 3
 Peripherals
 Copyright (c) 2016-2020, Buildbotics LLC
 Licensed under CERN-OHL-S v2
+C 52400 46800 1 0 0 input.sym
+{
+T 52400 47100 5 10 0 0 0 0 1
+device=INPUT
+T 51500 46850 5 10 1 1 0 0 1
+net=spin_0to10:1
+}
