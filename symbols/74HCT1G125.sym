@@ -4,7 +4,7 @@ P 0 800 200 800 1 0 0
 T 0 800 5 10 0 0 0 6 1
 pintype=in
 T 255 795 5 8 1 1 0 0 1
-pinlabel=A
+pinlabel=OE~
 T 105 845 5 8 1 1 0 6 1
 pinnumber=1
 T 0 800 5 10 0 0 0 6 1
@@ -13,9 +13,9 @@ pinseq=1
 P 0 500 200 500 1 0 0
 {
 T 0 500 5 10 0 0 0 6 1
-pintype=pas
+pintype=input
 T 255 495 5 8 1 1 0 0 1
-pinlabel=GND
+pinlabel=A
 T 105 545 5 8 1 1 0 6 1
 pinnumber=2
 T 0 500 5 10 0 0 0 6 1
@@ -24,9 +24,9 @@ pinseq=2
 P 0 200 200 200 1 0 0
 {
 T 0 200 5 10 0 0 0 6 1
-pintype=in
+pintype=pas
 T 255 195 5 8 1 1 0 0 1
-pinlabel=OE~
+pinlabel=GND
 T 105 245 5 8 1 1 0 6 1
 pinnumber=3
 T 0 200 5 10 0 0 0 6 1
@@ -59,7 +59,7 @@ L 200 0 900 0 3 0 0 0 -1 -1
 L 900 0 900 1000 3 0 0 0 -1 -1
 L 900 1000 200 1000 3 0 0 0 -1 -1
 T 200 1300 8 10 0 1 0 0 1
-device=MC74VHC1GT12
+device=74HCT1G125GV
 T 200 1100 8 10 1 1 0 0 1
 refdes=X?
 T 1000 1100 8 10 0 0 0 0 1
