@@ -12,6 +12,10 @@ ifeq ($(PCB),)
 PCB=pcb
 endif
 
+ifeq ($(GSCHEM),)
+GSCHEM=gschem
+endif
+
 all: drc
 
 %.pdf: %.sch
@@ -33,7 +37,7 @@ view: $(PDF)
 	evince $(PDF)
 
 schematics:
-	gschem -q -- $(NAME).sch&
+	$(GSCHEM) -q -- $(NAME).sch&
 
 pcb:
 	$(PCB) $(NAME).pcb&
