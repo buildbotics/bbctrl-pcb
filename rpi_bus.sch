@@ -34,25 +34,11 @@ value=40-pin Connector
 T 41600 41900 5 10 0 0 0 0 1
 documentation=Mates with SFH210-PPPC-D20-ID-BK for connection to 40 conductor flat cable
 }
-C 43300 45600 1 0 1 nc.sym
-{
-T 43300 46000 5 10 0 0 0 6 1
-value=NoConnection
-T 43300 46400 5 10 0 0 0 6 1
-device=DRC_Directive
-}
 C 43300 46000 1 0 1 nc.sym
 {
 T 43300 46400 5 10 0 0 0 6 1
 value=NoConnection
 T 43300 46800 5 10 0 0 0 6 1
-device=DRC_Directive
-}
-C 43300 46400 1 0 1 nc.sym
-{
-T 43300 46800 5 10 0 0 0 6 1
-value=NoConnection
-T 43300 47200 5 10 0 0 0 6 1
 device=DRC_Directive
 }
 C 43800 48200 1 180 0 input.sym
@@ -235,13 +221,6 @@ value=NoConnection
 T 41300 47600 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 43300 46800 1 0 1 nc.sym
-{
-T 43300 47200 5 10 0 0 0 6 1
-value=NoConnection
-T 43300 47600 5 10 0 0 0 6 1
-device=DRC_Directive
-}
 C 43300 47600 1 0 1 nc.sym
 {
 T 43300 48000 5 10 0 0 0 6 1
@@ -261,27 +240,6 @@ C 43300 44800 1 0 1 nc.sym
 T 43300 45200 5 10 0 0 0 6 1
 value=NoConnection
 T 43300 45600 5 10 0 0 0 6 1
-device=DRC_Directive
-}
-C 41300 46000 1 0 0 nc.sym
-{
-T 41300 46400 5 10 0 0 0 0 1
-value=NoConnection
-T 41300 46800 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 41300 45600 1 0 0 nc.sym
-{
-T 41300 46000 5 10 0 0 0 0 1
-value=NoConnection
-T 41300 46400 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 41300 45200 1 0 0 nc.sym
-{
-T 41300 45600 5 10 0 0 0 0 1
-value=NoConnection
-T 41300 46000 5 10 0 0 0 0 1
 device=DRC_Directive
 }
 C 43300 44400 1 0 1 nc.sym
@@ -368,3 +326,45 @@ N 46800 45800 47100 45800 4
 N 47900 45000 48100 45000 4
 N 48100 45000 48100 45400 4
 N 46800 45000 47100 45000 4
+C 43000 45800 1 180 1 output.sym
+{
+T 43100 45500 5 10 0 0 180 6 1
+device=OUTPUT
+T 44500 45700 5 10 1 1 0 6 1
+net=pwr_reset:1
+}
+C 41600 45400 1 180 0 output.sym
+{
+T 41500 45100 5 10 0 0 180 0 1
+device=OUTPUT
+T 40300 45200 5 10 1 1 0 0 1
+net=pwr_sck:1
+}
+C 40800 45600 1 0 0 input.sym
+{
+T 40800 45850 5 10 0 0 0 0 1
+device=INPUT
+T 40100 45600 5 10 1 1 0 0 1
+net=pwr_miso:1
+}
+C 41600 46000 1 0 1 output.sym
+{
+T 41500 46300 5 10 0 0 0 6 1
+device=OUTPUT
+T 41100 46000 5 10 1 1 0 6 1
+net=pwr_mosi:1
+}
+C 43000 46400 1 0 0 output.sym
+{
+T 43100 46700 5 10 0 0 0 0 1
+device=OUTPUT
+T 43600 46400 5 10 1 1 0 0 1
+netname=reset:1
+}
+C 43000 46800 1 0 0 output.sym
+{
+T 43100 47100 5 10 0 0 0 0 1
+device=OUTPUT
+T 43600 46800 5 10 1 1 0 0 1
+netname=PDI:1
+}
