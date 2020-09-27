@@ -354,17 +354,17 @@ device=OUTPUT
 T 41100 46000 5 10 1 1 0 6 1
 net=pwr_mosi:1
 }
-C 43000 46400 1 0 0 output.sym
-{
-T 43100 46700 5 10 0 0 0 0 1
-device=OUTPUT
-T 43600 46400 5 10 1 1 0 0 1
-netname=reset:1
-}
 C 43000 46800 1 0 0 output.sym
 {
 T 43100 47100 5 10 0 0 0 0 1
 device=OUTPUT
 T 43600 46800 5 10 1 1 0 0 1
 netname=PDI:1
+}
+C 43300 46400 1 0 1 nc.sym
+{
+T 43300 46800 5 10 0 0 0 6 1
+value=NoConnection
+T 43300 47200 5 10 0 0 0 6 1
+device=DRC_Directive
 }

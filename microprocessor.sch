@@ -404,8 +404,8 @@ C 45700 40900 1 180 0 input.sym
 {
 T 45700 40600 5 10 0 0 180 0 1
 device=OUTPUT
-T 46000 40900 5 10 1 1 180 0 1
-net=reset:1
+T 45500 40700 5 10 1 1 0 0 1
+netname=reset:1
 }
 C 48300 47000 1 180 1 output.sym
 {
