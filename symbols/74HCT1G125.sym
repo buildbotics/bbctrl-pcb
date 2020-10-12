@@ -13,7 +13,7 @@ pinseq=1
 P 0 500 200 500 1 0 0
 {
 T 0 500 5 10 0 0 0 6 1
-pintype=input
+pintype=in
 T 255 495 5 8 1 1 0 0 1
 pinlabel=A
 T 105 545 5 8 1 1 0 6 1

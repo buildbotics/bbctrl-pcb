@@ -1,6 +1,8 @@
-v 20130925 2
+v 20200604 2
 B 0 0 1500 1500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 50 1050 9 8 1 0 0 0 1
-Stepper Motor Drivers
 T 95 2600 8 8 0 1 0 0 1
 source=motor_module.sch
+T 100 1000 9 10 1 0 0 0 1
+Stepper Motor
+T 400 750 9 10 1 0 0 0 1
+Drivers

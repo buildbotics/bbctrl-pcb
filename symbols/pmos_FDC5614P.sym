@@ -15,7 +15,7 @@ L 300 500 300 800 3 0 0 0 -1 -1
 P 600 1200 600 1100 1 0 0
 {
 T 600 1200 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 455 1200 5 10 1 1 180 6 1
 pinlabel=D
 T 550 1195 5 10 0 1 90 0 1
@@ -26,7 +26,7 @@ pinseq=3
 P 600 100 600 200 1 0 0
 {
 T 600 100 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 545 200 5 10 1 1 180 0 1
 pinlabel=S
 T 550 105 5 10 0 1 90 6 1
@@ -37,7 +37,7 @@ pinseq=2
 P 0 500 100 500 1 0 0
 {
 T 0 500 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 55 495 5 10 1 1 0 0 1
 pinlabel=G
 T 5 545 5 10 0 1 0 6 1

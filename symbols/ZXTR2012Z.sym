@@ -2,7 +2,7 @@ v 20130925 2
 P 0 600 200 600 1 0 0
 {
 T 0 600 5 10 0 0 0 0 1
-pintype=input
+pintype=in
 T 255 495 5 10 1 1 0 0 1
 pinlabel=Vin
 T 105 645 5 10 0 1 0 6 1
@@ -13,7 +13,7 @@ pinseq=2
 P 1400 600 1200 600 1 0 0
 {
 T 1400 600 5 10 0 0 0 0 1
-pintype=output
+pintype=out
 T 1145 495 5 10 1 1 0 6 1
 pinlabel=Vout
 T 1295 645 5 10 0 1 0 0 1

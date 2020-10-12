@@ -25,6 +25,6 @@ T 1400 200 5 10 0 0 0 6 1
 pinseq=2
 }
 T 0 800 8 10 0 1 0 0 1
-source=3.3V_to_5V_level_shifter.sch
+source=level_shifter.sch
 T 800 500 8 10 1 1 0 0 1
 refdes=LV?

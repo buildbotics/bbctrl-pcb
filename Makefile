@@ -12,14 +12,25 @@ ifeq ($(PCB),)
 PCB=pcb
 endif
 
-ifeq ($(GSCHEM),)
-GSCHEM=gschem
+ifeq ($(SCHEM),)
+ifeq ($(shell which lepton-schematic),)
+SCHEM=gschem
+SCH2PCB=gsch2pcb
+NETLIST=gnetlist
+ATTRIB=gattrib
+
+else
+SCHEM=lepton-schematic
+SCH2PCB=lepton-sch2pcb
+NETLIST=lepton-netlist
+ATTRIB=lepton-attrib
+endif
 endif
 
 all: drc
 
 %.pdf: %.sch
-	gschem -o $@ -s gschem-print.scm $<
+	$(SCHEM) -o $@ -s print.scm $<
 
 %.ps: %.pcb
 	$(PCB) -x ps --psfile $@ $<
@@ -37,25 +48,25 @@ view: $(PDF)
 	evince $(PDF)
 
 schematics:
-	$(GSCHEM) -q -- $(NAME).sch&
+	$(SCHEM) -q -- $(NAME).sch&
 
 pcb:
 	$(PCB) $(NAME).pcb&
 
 net: $(SCHEMATICS)
-	gnetlist -g geda -o $(NAME).net $(NAME).sch
+	$(NETLIST) -g geda -o $(NAME).net $(NAME).sch
 
 bom: $(SCHEMATICS)
-	gnetlist -g partslist3 -o $(NAME).bom $(NAME).sch
+	$(NETLIST) -g partslist3 -o $(NAME).bom $(NAME).sch
 
 drc:
-	gnetlist -g drc2 -o - $(NAME).sch
+	$(NETLIST) -g drc2 -o - $(NAME).sch
 
 attrib:
-	gattrib $(SCHEMATICS)
+	$(ATTRIB) $(SCHEMATICS)
 
 layout: $(SCHEMATICS) $(FOOTPRINTS) $(SYMBOLS)
-	gsch2pcb --elements-dir footprints/ $(NAME).sch -o $(NAME)
+	$(SCH2PCB) -v --elements-dir footprints/ $(NAME).sch -o $(NAME)
 
 zip:
 	zip $(NAME).zip *.gbr *.cnc
@@ -65,7 +76,7 @@ clean-layout:
 
 tidy:
 	rm -f $(shell find . -name \*~ -o -name \#\* -o -name \*-) \
-	  *.bak *.log *.backup $(NAME).ps
+	  *.bak *.log *.backup $(NAME).ps PCB*.save
 
 clean: tidy
 	rm -f *.cnc *.gbr $(NAME).zip $(NAME).net $(NAME).bom $(PDFS)

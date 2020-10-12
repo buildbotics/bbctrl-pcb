@@ -1,6 +1,6 @@
-v 20130925 2
+v 20200604 2
 C 40000 40000 0 0 0 title-B.sym
-C 48700 45000 1 0 0 power_supply.sym
+C 48700 45000 1 0 0 power.sym
 {
 T 49300 45500 5 10 1 1 0 0 1
 refdes=P
