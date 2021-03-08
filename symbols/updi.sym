@@ -4,7 +4,7 @@ P 0 1000 300 1000 1 0 0
 T 100 1050 5 8 1 1 0 0 1
 pinnumber=1
 T 300 950 9 8 1 1 0 0 1
-pinlabel=MISO
+pinlabel=RX
 T 100 1050 5 8 0 0 0 0 1
 pinseq=1
 T 100 1050 5 8 0 0 0 0 1
@@ -25,8 +25,6 @@ P 0 600 300 600 1 0 0
 {
 T 100 650 5 8 1 1 0 0 1
 pinnumber=3
-T 300 550 9 8 1 1 0 0 1
-pinlabel=SCK
 T 100 650 5 8 0 0 0 0 1
 pinseq=3
 T 100 650 5 8 0 0 0 0 1
@@ -36,8 +34,6 @@ P 1400 600 1100 600 1 0 0
 {
 T 1195 645 5 8 1 1 0 0 1
 pinnumber=4
-T 1095 545 9 8 1 1 0 6 1
-pinlabel=MOSI
 T 1300 550 5 8 0 0 180 0 1
 pinseq=4
 T 1300 550 5 8 0 0 180 0 1
@@ -47,8 +43,6 @@ P 300 200 0 200 1 0 1
 {
 T 205 245 5 8 1 1 0 6 1
 pinnumber=5
-T 305 145 9 8 1 1 0 0 1
-pinlabel=RESET
 T 150 250 5 8 0 0 0 6 1
 pinseq=5
 T 150 250 5 8 0 0 0 6 1
@@ -73,7 +67,7 @@ T 100 1600 5 10 0 0 0 0 1
 device=CONNECTOR_6
 T 100 1800 5 10 0 0 0 0 1
 description=Header 6 pins
-T 600 1300 8 10 1 1 0 0 1
-refdes=ISP
+T 500 1300 8 10 1 1 0 0 1
+refdes=UPDI
 T 100 2000 8 10 0 0 0 0 1
 footprint=HEADER6

@@ -23,39 +23,37 @@ V 500 500 400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 500 1000 500 900 1 0 0
 {
 T 500 1000 5 10 0 0 0 0 1
-pintype=in
+pintype=input
 T 555 1000 5 10 1 1 180 6 1
 pinlabel=D
 T 450 995 5 10 0 1 90 0 1
-pinnumber=2
+pinnumber=3
 T 500 1000 5 10 0 0 0 0 1
-pinseq=2
+pinseq=3
 }
 P 500 0 500 100 1 0 0
 {
 T 500 0 5 10 0 0 0 0 1
-pintype=out
+pintype=output
 T 645 100 5 10 1 1 180 0 1
 pinlabel=S
 T 450 5 5 10 0 1 90 6 1
-pinnumber=3
+pinnumber=1
 T 500 0 5 10 0 0 0 0 1
-pinseq=3
+pinseq=1
 }
 P 0 500 100 500 1 0 0
 {
 T 0 500 5 10 0 0 0 0 1
-pintype=in
+pintype=input
 T -45 595 5 10 1 1 0 0 1
 pinlabel=G
 T 5 545 5 10 0 1 0 6 1
-pinnumber=1
+pinnumber=2
 T 0 500 5 10 0 0 0 0 1
-pinseq=1
+pinseq=2
 }
 L 100 500 200 500 3 0 0 0 -1 -1
-T 0 1100 8 10 1 1 0 0 1
-value=CSD18542KTT
 T 100 900 8 10 1 1 0 0 1
 refdes=Q?
 L 400 500 500 500 3 0 0 0 -1 -1

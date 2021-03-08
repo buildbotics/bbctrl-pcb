@@ -1,4 +1,4 @@
-v 20200604 2
+v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
 C 43400 49600 1 270 0 5V-plus.sym
 C 43400 49200 1 270 0 5V-plus.sym
@@ -125,43 +125,26 @@ value=NoConnection
 T 41700 48900 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 52900 46200 1 0 0 input.sym
+C 52600 46200 1 0 0 input.sym
 {
-T 53150 46200 5 10 0 0 0 6 1
+T 52850 46200 5 10 0 0 0 6 1
 device=INPUT
-T 53150 46200 5 10 1 1 0 6 1
+T 52850 46200 5 10 1 1 0 6 1
 net=serial_tx:1
 }
-C 53700 45400 1 0 1 output.sym
+C 53400 45800 1 0 1 output.sym
 {
-T 53150 45400 5 10 0 0 0 6 1
+T 52850 45800 5 10 0 0 0 6 1
 device=OUTPUT
-T 53150 45400 5 10 1 1 0 6 1
+T 52850 45800 5 10 1 1 0 6 1
 net=serial_rx:1
 }
-C 53700 47000 1 0 1 output.sym
+C 53400 46600 1 0 1 output.sym
 {
-T 53150 47000 5 10 0 0 0 6 1
+T 52850 46600 5 10 0 0 0 6 1
 device=OUTPUT
-T 53150 47000 5 10 1 1 0 6 1
+T 52850 46600 5 10 1 1 0 6 1
 net=serial_cts:1
-}
-C 53700 45100 1 0 0 connector5-2.sym
-{
-T 54500 47600 5 10 1 1 0 6 1
-refdes=SERIAL
-T 54000 47950 5 10 0 0 0 0 1
-device=CONNECTOR_5
-T 54000 48150 5 10 0 0 0 0 1
-footprint=JUMPER5
-T 53700 45100 5 10 0 0 0 0 1
-documentation=Do not popluate
-T 53700 45100 5 10 0 0 0 0 1
-description=Unpopulated test point, label on board
-T 53700 45100 5 10 0 0 0 0 1
-value=N/A
-T 53700 45100 5 10 0 0 0 0 1
-model=N/A
 }
 C 42000 48900 1 0 1 io.sym
 {
@@ -291,13 +274,7 @@ C 43700 42900 1 90 0 gnd.sym
 C 41700 41900 1 270 0 gnd.sym
 C 41700 47900 1 270 0 gnd.sym
 C 41700 44700 1 270 0 gnd.sym
-C 53400 46800 1 270 0 gnd.sym
 C 49500 45600 1 270 0 gnd.sym
-C 53700 45600 1 90 0 3.3V_motor.sym
-{
-T 53000 45700 5 10 0 0 90 0 1
-device=none
-}
 C 41700 46100 1 0 0 nc.sym
 {
 T 41700 46500 5 10 0 0 0 0 1
@@ -367,4 +344,17 @@ T 43950 46500 5 10 0 0 0 0 1
 device=IO
 T 43950 46500 5 10 1 1 0 0 1
 net=pdi:1
+}
+C 53400 45500 1 0 0 connector3-2.sym
+{
+T 53700 47150 5 10 0 0 0 0 1
+device=CONNECTOR_3
+T 53700 47350 5 10 0 0 0 0 1
+footprint=JUMPER3
+T 53400 45500 5 10 0 0 0 0 1
+description=Unpopulated test points, label on board
+T 54100 47200 5 10 1 1 0 6 1
+refdes=SERIAL
+T 53400 45500 5 10 0 0 0 0 1
+documentation=Do not populate
 }
