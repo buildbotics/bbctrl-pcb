@@ -774,13 +774,6 @@ refdes=TP10
 }
 C 52900 43100 1 0 0 5V-plus.sym
 C 45100 49400 1 0 0 vdd-1.sym
-C 43200 46700 1 180 0 output.sym
-{
-T 43100 46400 5 10 0 0 180 0 1
-device=OUTPUT
-T 42000 46700 5 10 1 1 0 0 1
-net=vin_protected:1
-}
 C 40800 44300 1 0 0 testpt.sym
 {
 T 40968 44258 5 8 1 1 0 0 1
