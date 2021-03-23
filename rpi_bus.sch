@@ -1,4 +1,4 @@
-v 20130925 2
+v 20111231 2
 C 40000 40000 0 0 0 title-B.sym
 C 43400 49600 1 270 0 5V-plus.sym
 C 43400 49200 1 270 0 5V-plus.sym
@@ -83,13 +83,6 @@ value=NoConnection
 T 43700 42500 5 10 0 0 0 6 1
 device=DRC_Directive
 }
-C 41700 43700 1 0 0 nc.sym
-{
-T 41700 44100 5 10 0 0 0 0 1
-value=NoConnection
-T 41700 44500 5 10 0 0 0 0 1
-device=DRC_Directive
-}
 C 41700 43300 1 0 0 nc.sym
 {
 T 41700 43700 5 10 0 0 0 0 1
@@ -116,13 +109,6 @@ C 41700 42100 1 0 0 nc.sym
 T 41700 42500 5 10 0 0 0 0 1
 value=NoConnection
 T 41700 42900 5 10 0 0 0 0 1
-device=DRC_Directive
-}
-C 41700 48100 1 0 0 nc.sym
-{
-T 41700 48500 5 10 0 0 0 0 1
-value=NoConnection
-T 41700 48900 5 10 0 0 0 0 1
 device=DRC_Directive
 }
 C 52600 46200 1 0 0 input.sym
@@ -303,34 +289,6 @@ N 48200 44700 48400 44700 4
 N 49200 44100 49400 44100 4
 N 49400 44100 49400 44300 4
 N 48200 44100 48400 44100 4
-C 43400 45300 1 0 0 output.sym
-{
-T 43950 45300 5 10 0 0 0 0 1
-device=OUTPUT
-T 43950 45300 5 10 1 1 0 0 1
-net=pwr_reset:1
-}
-C 42000 44900 1 0 1 output.sym
-{
-T 41450 44900 5 10 0 0 0 6 1
-device=OUTPUT
-T 41450 44900 5 10 1 1 0 6 1
-net=pwr_sck:1
-}
-C 41200 45300 1 0 0 input.sym
-{
-T 41450 45300 5 10 0 0 0 6 1
-device=INPUT
-T 41450 45300 5 10 1 1 0 6 1
-net=pwr_miso:1
-}
-C 42000 45700 1 0 1 output.sym
-{
-T 41450 45700 5 10 0 0 0 6 1
-device=OUTPUT
-T 41450 45700 5 10 1 1 0 6 1
-net=pwr_mosi:1
-}
 C 43700 46100 1 0 1 nc.sym
 {
 T 43700 46500 5 10 0 0 0 6 1
@@ -357,4 +315,46 @@ T 54100 47200 5 10 1 1 0 6 1
 refdes=SERIAL
 T 53400 45500 5 10 0 0 0 0 1
 documentation=Do not populate
+}
+C 42000 48100 1 0 1 output.sym
+{
+T 41450 48100 5 10 0 0 0 6 1
+device=OUTPUT
+T 41450 48100 5 10 1 1 0 6 1
+net=pwr_tx:1
+}
+C 41200 43700 1 0 0 input.sym
+{
+T 41450 43700 5 10 0 0 0 6 1
+device=INPUT
+T 41450 43700 5 10 1 1 0 6 1
+net=pwr_rx:1
+}
+C 41700 45700 1 0 0 nc.sym
+{
+T 41700 46100 5 10 0 0 0 0 1
+value=NoConnection
+T 41700 46500 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 41700 45300 1 0 0 nc.sym
+{
+T 41700 45700 5 10 0 0 0 0 1
+value=NoConnection
+T 41700 46100 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 41700 44900 1 0 0 nc.sym
+{
+T 41700 45300 5 10 0 0 0 0 1
+value=NoConnection
+T 41700 45700 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43700 45300 1 0 1 nc.sym
+{
+T 43700 45700 5 10 0 0 0 6 1
+value=NoConnection
+T 43700 46100 5 10 0 0 0 6 1
+device=DRC_Directive
 }
