@@ -17,7 +17,7 @@ refdes=J6
 }
 T 50000 40700 9 10 1 0 0 0 3
 Power Conditioning
-Copyright (c) 2016-2020, Buildbotics LLC
+Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
@@ -124,7 +124,7 @@ T 56000 43000 5 10 1 1 180 0 1
 refdes=Q3
 }
 T 53800 40400 9 10 1 0 0 0 1
-13.0
+14.0
 N 55400 42500 55400 42700 4
 N 56200 43300 55400 43300 4
 N 55400 43300 55400 43100 4

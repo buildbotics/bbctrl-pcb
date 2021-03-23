@@ -23,12 +23,12 @@ source=motor_driver.sch
 }
 T 50000 40700 9 10 1 0 0 0 3
 Motor Modules
-Copyright (c) 2016-2020, Buildbotics LLC
+Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-13.0
+14.0
 C 53800 43700 1 0 0 input.sym
 {
 T 54050 43700 5 10 0 0 0 6 1

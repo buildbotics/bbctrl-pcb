@@ -78,12 +78,12 @@ N 45100 42900 47300 42900 4
 N 45100 42500 47300 42500 4
 T 50000 40700 9 10 1 0 0 0 3
 Peripherals
-Copyright (c) 2016-2020, Buildbotics LLC
+Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-13.0
+14.0
 T 43800 44800 9 10 1 0 0 0 1
 RS485 interface
 C 44300 41500 1 0 0 gnd.sym
@@ -923,11 +923,11 @@ footprint=SO8
 }
 T 50000 40700 9 10 1 0 0 0 3
 Peripherals
-Copyright (c) 2016-2020, Buildbotics LLC
+Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 T 50000 40700 9 10 1 0 0 0 3
 Peripherals
-Copyright (c) 2016-2020, Buildbotics LLC
+Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 C 53500 46800 1 0 0 input.sym
 {

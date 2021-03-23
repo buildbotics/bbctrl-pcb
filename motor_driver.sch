@@ -2,7 +2,7 @@ v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
 T 50000 40700 9 10 1 0 0 0 3
 Motor Driver
-Copyright (c) 2016-2020, Buildbotics LLC
+Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 C 45900 45700 1 0 0 nc.sym
 {
@@ -14,7 +14,7 @@ device=DRC_Directive
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-13.0
+14.0
 C 51100 50100 1 0 0 Vs.sym
 {
 T 51200 50800 5 10 0 0 0 0 1

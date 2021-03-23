@@ -20,10 +20,10 @@ N 49400 46500 49200 46500 4
 N 49200 45900 49400 45900 4
 T 50200 40700 9 10 1 0 0 0 3
 Peripherals
-Copyright (c) 2016-2020, Buildbotics LLC
+Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 T 53900 40400 9 10 1 0 0 0 1
-13.0
+14.0
 T 53900 40100 9 10 1 0 0 0 1
 Doug and Joe Coffland
 N 47900 46200 48100 46200 4
