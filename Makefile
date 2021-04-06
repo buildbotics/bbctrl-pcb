@@ -13,17 +13,16 @@ PCB=pcb
 endif
 
 ifeq ($(SCHEM),)
-ifeq ($(shell which lepton-schematic),)
-SCHEM=gschem
-SCH2PCB=gsch2pcb
-NETLIST=gnetlist
-ATTRIB=gattrib
-
-else
+ifeq ($(shell which gschem),)
 SCHEM=lepton-schematic
 SCH2PCB=lepton-sch2pcb
 NETLIST=lepton-netlist
 ATTRIB=lepton-attrib
+else
+SCHEM=gschem
+SCH2PCB=gsch2pcb
+NETLIST=gnetlist
+ATTRIB=gattrib
 endif
 endif
 
