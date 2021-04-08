@@ -1,4 +1,4 @@
-# release: pcb v4.2.0-g4a221c52
+# release: pcb 4.2.0
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
@@ -5906,17 +5906,17 @@ Element["" "SuperSOT_FDC5614P" "P/Q1" "unknown" 26.7500mm 41.5000mm -1.5330mm -3
 
 	)
 
-Element["" "0805_ext" "P/C2" "220n" 40.5000mm 55.5000mm 1.0479mm 1.6559mm 0 75 ""]
+Element["" "0805_ext" "P/C2" "0.22uF" 40.2500mm 55.2500mm -3.7500mm -1.7500mm 0 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
-	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
+	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
 	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -10973,7 +10973,7 @@ NetList()
 		Connect("M/U5-44")
 		Connect("M/U5-52")
 		Connect("M/U5-60")
-		Connect("P/C2-1")
+		Connect("P/C2-2")
 		Connect("P/C4-1")
 		Connect("P/C5-1")
 		Connect("P/C6-1")
@@ -11383,7 +11383,7 @@ NetList()
 	)
 	Net("P/unnamed_net14" "(unknown)")
 	(
-		Connect("P/C2-2")
+		Connect("P/C2-1")
 		Connect("P/D1-2")
 		Connect("P/Q2-1")
 		Connect("P/R3-2")
