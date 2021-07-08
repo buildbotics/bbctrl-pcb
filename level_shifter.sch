@@ -1,4 +1,4 @@
-v 20200604 2
+v 20111231 2
 C 40000 40000 0 0 0 title-B.sym
 C 47100 46100 1 0 0 input.sym
 {
@@ -23,7 +23,7 @@ Peripherals
 Copyright (c) 2016-2021, Buildbotics LLC
 Licensed under CERN-OHL-S v2
 T 53900 40400 9 10 1 0 0 0 1
-14.0
+15.0
 T 53900 40100 9 10 1 0 0 0 1
 Doug and Joe Coffland
 N 47900 46200 48100 46200 4

@@ -1,4 +1,4 @@
-# release: pcb 4.2.0
+# release: pcb v4.2.0-g4a221c52
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
@@ -9,7 +9,7 @@ Grid[0.2500mm 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.750000]
 DRC[0.1500mm 8.00mil 0.1500mm 0.2000mm 9.00mil 6.00mil]
-Flags("rubberband,nameonpcb,clearnew,newfullpoly,snappin,thindrawpoly")
+Flags("rubberband,nameonpcb,clearnew,newfullpoly,thindrawpoly")
 Groups("1,c:2:3:4,s")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,80.00mil,2.0000mm,1.5000mm,10.00mil:Skinny,6.00mil,21.00mil,9.00mil,6.00mil"]
 Symbol[' ' 18.00mil]
@@ -823,16 +823,16 @@ Via[71.5000mm 120.7500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[66.0000mm 121.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[73.0000mm 120.7500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[103.5000mm 128.2500mm 27.00mil 0.6000mm 42.00mil 9.00mil "" "thermal(0S,1S,3S)"]
-Via[104.7500mm 128.2500mm 27.00mil 0.6000mm 42.00mil 9.00mil "" "thermal(0S,1S,3S)"]
+Via[103.5000mm 130.2500mm 27.00mil 0.6000mm 42.00mil 9.00mil "" "thermal(0S,1S,3S)"]
 Via[108.5000mm 126.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[110.2500mm 126.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[108.5000mm 128.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
-Via[110.2500mm 128.5000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
+Via[110.2500mm 128.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[110.2500mm 130.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
-Via[108.5000mm 130.5000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
-Via[108.7500mm 132.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
-Via[110.2500mm 132.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
-Via[107.5000mm 129.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
+Via[108.5000mm 130.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
+Via[106.7500mm 130.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
+Via[106.7500mm 132.0000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
+Via[106.7500mm 128.2500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[71.5000mm 87.5000mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[68.7500mm 86.7500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
 Via[70.2500mm 86.7500mm 27.00mil 0.6000mm 0.8858mm 9.00mil "" "thermal(0S,2S)"]
@@ -1508,7 +1508,6 @@ Via[38.5000mm 108.0000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" "thermal(1S)"]
 Via[12.7500mm 76.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(1S)"]
 Via[19.7500mm 95.7500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
 Via[37.0000mm 90.0000mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" "thermal(1S)"]
-Via[28.5000mm 27.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(1S)"]
 Via[23.7500mm 101.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
 Via[21.7500mm 75.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
 Via[10.2500mm 34.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
@@ -1779,7 +1778,7 @@ Via[103.7500mm 5.7500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[116.0000mm 3.7500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[43.5000mm 9.7500mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(2S)"]
 Via[25.5000mm 5.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(2S)"]
-Via[33.2500mm 3.5000mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
+Via[33.2500mm 3.2500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[35.5000mm 4.2500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[31.0000mm 12.2500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[101.7500mm 4.5000mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
@@ -1791,7 +1790,7 @@ Via[42.0000mm 28.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(0S,1S)"]
 Via[42.0000mm 26.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(0S,1S)"]
 Via[42.0000mm 24.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(0S,1S)"]
 Via[26.0000mm 22.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(2S)"]
-Via[32.5000mm 22.2500mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(1S)"]
+Via[32.5000mm 22.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(1S)"]
 Via[39.0000mm 40.5000mm 60.00mil 20.00mil 1.6840mm 35.00mil "" "thermal(1S)"]
 Via[49.5000mm 33.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[30.5000mm 17.7500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
@@ -1819,7 +1818,6 @@ Via[102.5000mm 12.2500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[88.7500mm 12.2500mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(0S)"]
 Via[97.2500mm 10.7500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[89.2500mm 10.7500mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
-Via[116.5000mm 106.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(2S)"]
 Via[11.0000mm 124.2500mm 60.00mil 20.00mil 1.7500mm 35.00mil "" "thermal(2S)"]
 Via[4.0000mm 119.5000mm 36.00mil 20.00mil 1.2000mm 20.00mil "" "thermal(2S)"]
 Via[99.0000mm 3.7500mm 60.00mil 20.00mil 1.6840mm 35.00mil "" "thermal(0S,3S)"]
@@ -1870,19 +1868,15 @@ Via[40.0000mm 10.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
 Via[53.2500mm 43.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
 Via[11.7500mm 16.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
 Via[21.0000mm 79.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" ""]
-Via[27.5000mm 14.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
+Via[26.2500mm 15.7500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
 Via[2.2500mm 75.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(1S)"]
 Via[67.7500mm 22.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
-Via[29.7500mm 14.5000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
-Via[35.7500mm 20.2500mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(1S)"]
+Via[28.2500mm 14.5000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
 Via[122.0000mm 127.5000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" "thermal(2S)"]
 Via[26.5000mm 74.2500mm 36.00mil 0.6000mm 1.1144mm 20.00mil "" ""]
 Via[45.2500mm 40.5000mm 60.00mil 20.00mil 1.6840mm 35.00mil "" ""]
 Via[104.0000mm 3.7500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
-Via[16.5000mm 7.7500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(1S)"]
-Via[10.2500mm 5.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
-Via[20.0000mm 4.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(2S)"]
-Via[39.2500mm 20.2500mm 36.00mil 20.00mil 1.2000mm 20.00mil "" ""]
+Via[27.2500mm 12.0000mm 36.00mil 20.00mil 1.2000mm 20.00mil "" ""]
 Via[39.2500mm 11.5000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
 Via[57.5000mm 11.5000mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
 Via[33.0000mm 5.5000mm 36.00mil 20.00mil 1.1500mm 20.00mil "" "thermal(2S)"]
@@ -1922,9 +1916,13 @@ Via[48.0000mm 20.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(0S,1S)"]
 Via[50.0000mm 20.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(0S,1S)"]
 Via[52.0000mm 20.0000mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(0S,1S)"]
 Via[53.5000mm 9.7500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(2S)"]
-Via[3.5000mm 24.2500mm 36.00mil 20.00mil 1.1500mm 20.00mil "" "thermal(1X)"]
-Via[2.2500mm 27.2500mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
+Via[3.5000mm 24.2500mm 36.00mil 20.00mil 1.1500mm 20.00mil "" "thermal(1S)"]
 Via[15.7500mm 20.2500mm 36.00mil 20.00mil 1.1000mm 20.00mil "" ""]
+Via[2.2500mm 27.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
+Via[16.7500mm 4.7500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(2S)"]
+Via[15.7500mm 6.7500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" "thermal(1S)"]
+Via[95.5000mm 3.2500mm 36.00mil 20.00mil 1.0744mm 20.00mil "" ""]
+Via[116.7500mm 106.0000mm 36.00mil 20.00mil 44.00mil 20.00mil "" "thermal(2S)"]
 
 Element["lock" "AMPHENOL_10127720-041LF" "D/A/J1" "4-Pin Male Connector" 133.1800mm 56.3000mm -6.2800mm 3.0000mm 0 75 ""]
 (
@@ -3335,20 +3333,6 @@ Element["" "0805_ext" "PC/R34" "10K" 31.0000mm 34.5000mm 2.1201mm -3.2431mm 3 75
 
 	)
 
-Element["" "0805_ext" "PC/R35" "10K" 26.5000mm 28.0000mm -1.3604mm 2.0201mm 0 75 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
-
-	)
-
 Element["" "0805_ext" "M/C32" "0.1uF" 31.2500mm 87.7500mm 2.0000mm -2.5000mm 0 75 ""]
 (
 	Attribute("device" "CAPACITOR C0805C104M5RACTU")
@@ -3616,17 +3600,17 @@ Element["" "testpt" "M/TP1" "unknown" 12.7500mm 86.2500mm -0.5000mm -1.7500mm 1 
 
 	)
 
-Element["" "0805_ext" "PC/R36" "37.4K" 19.0000mm 36.7500mm -2.2500mm 1.0000mm 0 75 ""]
+Element["" "0805_ext" "PC/R36" "37.4K" 26.7500mm 27.0000mm 0.7500mm 1.7500mm 1 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
-	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
+	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -3648,7 +3632,7 @@ Element["" "SOD123.fp" "H/D10" "unknown" 125.5000mm 106.0000mm -1.1620mm -1.9353
 
 	)
 
-Element["" "SOD123.fp" "H/D9" "unknown" 125.5000mm 108.7500mm -4.7817mm -1.6923mm 0 75 ""]
+Element["" "SOD123.fp" "H/D9" "unknown" 125.5000mm 108.7500mm -5.2500mm -1.5000mm 0 75 ""]
 (
 	Attribute("device" "SCHOTTKY")
 	Attribute("manufacturer" "unknown")
@@ -3794,7 +3778,7 @@ Element["" "0805_ext" "H/C6" "130pF" 16.0000mm 150.2500mm 1.0000mm 2.7500mm 1 75
 
 	)
 
-Element["" "0805_ext" "H/C11" "0.22uF" 120.0000mm 106.0000mm -2.2758mm -2.2544mm 0 75 ""]
+Element["" "0805_ext" "H/C11" "0.22uF" 120.0000mm 106.0000mm -7.0000mm -0.5000mm 0 75 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4094,7 +4078,7 @@ Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/X/C5" "100u" 104.0000mm 141.2500mm 
 
 	)
 
-Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/Z/C5" "100u" 110.0000mm 79.7500mm 3.0000mm 4.5000mm 0 75 ""]
+Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/Z/C5" "100u" 110.0000mm 79.7500mm -0.2500mm -6.5000mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4139,7 +4123,7 @@ Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/Z/C6" "100u" 101.2500mm 54.2500mm 4
 
 	)
 
-Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/Y/C6" "100u" 101.2500mm 85.5000mm 5.0000mm 2.2500mm 0 75 ""]
+Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/Y/C6" "100u" 101.2500mm 85.5000mm -2.2500mm -6.5000mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4344,7 +4328,7 @@ Element["" "0805_ext" "D/X/C2" "0.1uF" 60.7500mm 126.0000mm -2.2500mm -2.0000mm 
 
 	)
 
-Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/Y/C5" "100u" 110.0000mm 110.7500mm 0.7000mm -6.4000mm 0 75 ""]
+Element["" "EKYB101ELL101MJ20S_100uF_CAP" "D/Y/C5" "100u" 110.0000mm 110.7500mm -2.0000mm -6.5000mm 0 75 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -4371,20 +4355,6 @@ Element["" "226CKS063M_22uF_CAP" "D/Z/C12" "22u" 60.0000mm 71.7500mm 3.1399mm 0.
 	ElementLine [-4.0000mm 3.0000mm -2.0000mm 3.0000mm 0.2500mm]
 	ElementLine [-3.0000mm 2.0000mm -3.0000mm 4.0000mm 0.2500mm]
 	ElementArc [0.0000 0.0000 2.5000mm 2.5000mm 90.000000 360.000000 0.2500mm]
-
-	)
-
-Element["" "0805_ext" "H/R3" "10K" 39.7500mm 131.5000mm -0.5501mm -2.4499mm 1 75 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
-	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
 
 	)
 
@@ -5354,7 +5324,7 @@ Element["" "0805_ext" "PC/R10" "4.53K" 45.5000mm 6.7500mm -0.5501mm -2.2539mm 1 
 
 	)
 
-Element["" "testpt.fp" "PC/TP9" "unknown" 96.0000mm 3.7500mm -0.5000mm 1.5000mm 0 75 ""]
+Element["" "testpt.fp" "PC/TP9" "unknown" 49.0000mm 2.7500mm 1.7500mm 0.7500mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5380,7 +5350,7 @@ Element["" "0805_ext" "PC/R6" "10K" 29.0000mm 5.5000mm -1.5440mm -2.1380mm 0 75 
 
 	)
 
-Element["" "testpt.fp" "PC/TP7" "unknown" 74.7500mm 9.5000mm -5.5000mm -0.7500mm 0 75 ""]
+Element["" "testpt.fp" "PC/TP7" "unknown" 49.0000mm 7.5000mm 1.7500mm -0.7500mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5619,7 +5589,7 @@ Element["" "LM748xx" "PC/U1" "unknown" 102.5000mm 8.5000mm -5.0000mm -0.5000mm 0
 
 	)
 
-Element["" "TDSON-8" "PC/Q1" "unknown" 114.5000mm 7.2500mm -80.00mil -150.00mil 0 75 ""]
+Element["" "TDSON-8" "PC/Q1" "unknown" 114.5000mm 7.2500mm -2.5000mm -4.0000mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -5659,7 +5629,7 @@ Element["" "TDSON-8" "PC/Q2" "unknown" 91.2500mm 7.2500mm -2.2500mm -3.7500mm 0 
 
 	)
 
-Element["" "NORCOMP_182-025-113R161_DB25M" "H/J4" "25-Pin DSUB" 132.2500mm 119.7500mm -5.9500mm -26.5000mm 0 75 ""]
+Element["" "NORCOMP_182-025-113R161_DB25M" "H/J4" "25-Pin DSUB" 132.2500mm 119.7500mm -2.7500mm -28.0000mm 0 75 ""]
 (
 	Attribute("device" "DB25")
 	Attribute("manufacturer" "unknown")
@@ -6386,40 +6356,7 @@ Element["" "SOD123FL" "P/D3" "unknown" 53.2500mm 46.2500mm 1.4558mm -0.1137mm 0 
 
 	)
 
-Element["" "0805_ext" "PC/R15" "2.4k" 16.0000mm 11.0000mm -2.0000mm 1.2500mm 1 75 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
-
-	)
-
-Element["" "JUMPER3" "PC/UPDI" "unknown" 18.2500mm 25.5000mm 1.5000mm 0.2500mm 1 75 ""]
-(
-	Attribute("device" "CONNECTOR_3")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 30.00mil 1.6840mm 38.00mil "1" "1" "square,thermal(2X)"]
-	Pin[0.0000 -100.00mil 60.00mil 30.00mil 1.6840mm 38.00mil "2" "2" ""]
-	Pin[0.0000 -200.00mil 60.00mil 30.00mil 1.6840mm 38.00mil "3" "3" "thermal(1X)"]
-	ElementLine [50.00mil -250.00mil 50.00mil 50.00mil 0.2500mm]
-	ElementLine [-50.00mil -250.00mil 50.00mil -250.00mil 0.2500mm]
-	ElementLine [-50.00mil -250.00mil -50.00mil 50.00mil 0.2500mm]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 0.2500mm]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 0.2500mm]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 0.2500mm]
-
-	)
-
-Element["" "JUMPER4" "PC/J1" "unknown" 18.2500mm 18.0000mm 1.5000mm 0.0000 1 75 ""]
+Element["" "JUMPER4" "PC/J1" "unknown" 18.2500mm 18.0000mm 1.3700mm -4.4700mm 1 75 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -6439,21 +6376,7 @@ Element["" "JUMPER4" "PC/J1" "unknown" 18.2500mm 18.0000mm 1.5000mm 0.0000 1 75 
 
 	)
 
-Element["" "0805_ext" "PC/R13" "2.4k" 9.2500mm 11.0000mm -6.2500mm -0.5000mm 0 75 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
-
-	)
-
-Element["" "SOD123FL" "PC/D2" "unknown" 107.7500mm 3.7500mm -2.0000mm -2.2500mm 0 75 ""]
+Element["" "SOD123FL" "PC/D2" "unknown" 107.7500mm 3.7500mm -1.7500mm 1.2500mm 0 75 ""]
 (
 	Attribute("device" "SCHOTTKY")
 	Attribute("manufacturer" "unknown")
@@ -6468,57 +6391,7 @@ Element["" "SOD123FL" "PC/D2" "unknown" 107.7500mm 3.7500mm -2.0000mm -2.2500mm 
 
 	)
 
-Element["" "0805_ext" "PC/C4" "0.1uF" 12.0000mm 5.0000mm 0.7500mm 2.2500mm 3 75 ""]
-(
-	Attribute("device" "CAPACITOR C0805C104M5RACTU")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
-
-	)
-
-Element["" "SC-74A.fp" "PC/LV1/X1" "unknown" 14.7500mm 5.2500mm -2.5000mm -3.2500mm 0 75 ""]
-(
-	Attribute("device" "74HCT1G125GV")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.9500mm -1.3500mm 0.9500mm -1.0500mm 0.7000mm 0.2000mm 0.8600mm "OE~" "1" "square"]
-	Pad[0.0000 -1.3500mm 0.0000 -1.0500mm 0.7000mm 0.2000mm 0.8600mm "A" "2" "square"]
-	Pad[-0.9500mm -1.3500mm -0.9500mm -1.0500mm 0.7000mm 0.2000mm 0.8600mm "GND" "3" "square"]
-	Pad[-0.9500mm 1.0500mm -0.9500mm 1.3500mm 0.7000mm 0.2000mm 0.8600mm "Y" "4" "square,edge2"]
-	Pad[0.9500mm 1.0500mm 0.9500mm 1.3500mm 0.7000mm 0.2000mm 0.8600mm "Vcc" "5" "square,edge2"]
-	ElementLine [-1.5000mm -1.0500mm -1.7000mm -1.0500mm 0.2500mm]
-	ElementLine [-1.7000mm -1.0500mm -1.7000mm 1.0500mm 0.2500mm]
-	ElementLine [-1.7000mm 1.0500mm -1.5000mm 1.0500mm 0.2500mm]
-	ElementLine [1.5000mm 1.0500mm 1.7000mm 1.0500mm 0.2500mm]
-	ElementLine [1.7000mm 1.0500mm 1.7000mm -1.0500mm 0.2500mm]
-	ElementLine [1.7000mm -1.0500mm 1.5000mm -1.0500mm 0.2500mm]
-	ElementArc [1.7000mm -1.5000mm 0.1000mm 0.1000mm 0.000000 360.000000 0.2500mm]
-
-	)
-
-Element["" "0805_ext" "PC/LV1/C1" "0.1uF" 17.5000mm 5.2500mm 2.0000mm -2.7500mm 3 75 ""]
-(
-	Attribute("device" "CAPACITOR C0805C104M5RACTU")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
-	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
-
-	)
-
-Element["" "0805_ext" "PC/R14" "10K" 9.2500mm 8.5000mm -2.2500mm 1.0000mm 0 75 ""]
+Element["" "0805_ext" "PC/R14" "4.99K" 12.5000mm 3.2500mm -6.0000mm -0.7500mm 0 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -6546,7 +6419,7 @@ Element["" "testpt.fp" "PC/TP13" "unknown" 37.2500mm 24.5000mm -1.5000mm 1.7500m
 
 Element["" "0805_ext" "PC/C5" "0.1uF" 57.5000mm 15.0000mm 1.0000mm 1.5000mm 1 75 ""]
 (
-	Attribute("device" "CAPACITOR C0805C104M5RACTU")
+	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
@@ -6689,28 +6562,6 @@ Element["" "raspberry_pi_connector" "R/RPI" "40-pin Connector" 89.5000mm 16.0000
 	ElementLine [-73.00mil 100.00mil -73.00mil 139.00mil 0.2500mm]
 	ElementLine [-73.00mil 139.00mil 73.00mil 139.00mil 0.2500mm]
 	ElementLine [73.00mil 100.00mil 73.00mil 139.00mil 0.2500mm]
-
-	)
-
-Element["" "SC-74A.fp" "PC/U4" "unknown" 9.2500mm 5.2500mm -2.2500mm -3.2500mm 0 75 ""]
-(
-	Attribute("device" "74HCT1G125GV")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.9500mm -1.3500mm 0.9500mm -1.0500mm 0.7000mm 0.2000mm 0.8600mm "OE~" "1" "square"]
-	Pad[0.0000 -1.3500mm 0.0000 -1.0500mm 0.7000mm 0.2000mm 0.8600mm "A" "2" "square"]
-	Pad[-0.9500mm -1.3500mm -0.9500mm -1.0500mm 0.7000mm 0.2000mm 0.8600mm "GND" "3" "square"]
-	Pad[-0.9500mm 1.0500mm -0.9500mm 1.3500mm 0.7000mm 0.2000mm 0.8600mm "Y" "4" "square,edge2"]
-	Pad[0.9500mm 1.0500mm 0.9500mm 1.3500mm 0.7000mm 0.2000mm 0.8600mm "Vcc" "5" "square,edge2"]
-	ElementLine [-1.5000mm -1.0500mm -1.7000mm -1.0500mm 0.2500mm]
-	ElementLine [-1.7000mm -1.0500mm -1.7000mm 1.0500mm 0.2500mm]
-	ElementLine [-1.7000mm 1.0500mm -1.5000mm 1.0500mm 0.2500mm]
-	ElementLine [1.5000mm 1.0500mm 1.7000mm 1.0500mm 0.2500mm]
-	ElementLine [1.7000mm 1.0500mm 1.7000mm -1.0500mm 0.2500mm]
-	ElementLine [1.7000mm -1.0500mm 1.5000mm -1.0500mm 0.2500mm]
-	ElementArc [1.7000mm -1.5000mm 0.1000mm 0.1000mm 0.000000 360.000000 0.2500mm]
 
 	)
 
@@ -7110,7 +6961,7 @@ Element["" "0805_ext" "P/R12" "10K" 19.2500mm 60.0000mm -3.2981mm 2.4479mm 0 75 
 
 	)
 
-Element["" "SO8" "PC/U2" "unknown" 54.0000mm 14.2500mm -0.7500mm -5.2500mm 0 75 ""]
+Element["" "SO8" "PC/U2" "unknown" 54.0000mm 14.2500mm 0.5000mm -5.2500mm 0 75 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -7148,7 +6999,7 @@ Element["" "0805_ext" "D/Y/C4" "1uF" 66.0000mm 92.7500mm 0.2500mm 6.0000mm 1 75 
 
 	)
 
-Element["" "0805_ext" "R/R2" "10K" 4.7500mm 25.7500mm -1.0000mm 1.0000mm 0 82 ""]
+Element["" "0805_ext" "R/R2" "10K" 4.7500mm 25.7500mm -1.0000mm 1.0000mm 0 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -7157,29 +7008,29 @@ Element["" "0805_ext" "R/R2" "10K" 4.7500mm 25.7500mm -1.0000mm 1.0000mm 0 82 ""
 	Attribute("vendor_part_number" "unknown")
 	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
 	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
 
 	)
 
-Element["" "SOT23_2" "R/Q1" "unknown" 13.2500mm 23.5000mm -3.5000mm 1.2500mm 0 82 ""]
+Element["" "SOT23_2" "R/Q1" "unknown" 13.2500mm 23.5000mm -3.5000mm 1.2500mm 0 75 ""]
 (
 	Attribute("device" "NPN_E_MOSFET")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-85.00mil -39.00mil -79.00mil -39.00mil 45.00mil 30.00mil 51.00mil "D" "3" "square"]
-	Pad[-3.00mil 0.0000 3.00mil 0.0000 45.00mil 30.00mil 51.00mil "G" "1" "square,edge2"]
-	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 45.00mil 30.00mil 51.00mil "S" "2" "square,edge2"]
-	ElementLine [-120.00mil 35.00mil 39.00mil 35.00mil 10.00mil]
-	ElementLine [39.00mil -113.00mil 39.00mil 35.00mil 10.00mil]
-	ElementLine [-120.00mil -113.00mil 39.00mil -113.00mil 10.00mil]
-	ElementLine [-120.00mil -113.00mil -120.00mil 35.00mil 10.00mil]
+	Pad[-85.00mil -39.00mil -79.00mil -39.00mil 45.00mil 30.00mil 1.3030mm "D" "3" "square"]
+	Pad[-3.00mil 0.0000 3.00mil 0.0000 45.00mil 30.00mil 1.3030mm "G" "1" "square,edge2"]
+	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 45.00mil 30.00mil 1.3030mm "S" "2" "square,edge2"]
+	ElementLine [-120.00mil 35.00mil 39.00mil 35.00mil 0.2500mm]
+	ElementLine [39.00mil -113.00mil 39.00mil 35.00mil 0.2500mm]
+	ElementLine [-120.00mil -113.00mil 39.00mil -113.00mil 0.2500mm]
+	ElementLine [-120.00mil -113.00mil -120.00mil 35.00mil 0.2500mm]
 
 	)
 
-Element["" "0805_ext" "R/R1" "10K" 15.7500mm 23.0000mm -2.0000mm 2.0000mm 0 82 ""]
+Element["" "0805_ext" "R/R1" "10K" 15.7500mm 23.0000mm -2.0000mm 2.0000mm 0 75 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -7188,8 +7039,102 @@ Element["" "0805_ext" "R/R1" "10K" 15.7500mm 23.0000mm -2.0000mm 2.0000mm 0 82 "
 	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 0.9820mm 0.0000 1.3220mm 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
 	Pad[0.0000 -1.3220mm 0.0000 -0.9820mm 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 0.2500mm]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 0.2500mm]
+
+	)
+
+Element["" "0805_ext" "PC/R7" "24.9K" 12.5000mm 6.7500mm -5.7500mm -0.5000mm 0 75 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
+	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+
+	)
+
+Element["" "0805_ext" "PC/R9" "10K" 12.5000mm 5.0000mm -5.5000mm -0.7500mm 0 75 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square"]
+	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square,edge2"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+
+	)
+
+Element["" "SC-74A.fp" "PC/LV1/X1" "unknown" 17.0000mm 4.7500mm -2.2500mm -3.2500mm 0 75 ""]
+(
+	Attribute("device" "74HCT1G125GV")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[1.0500mm 0.9500mm 1.3500mm 0.9500mm 0.7000mm 0.2000mm 0.8600mm "OE~" "1" "square,edge2"]
+	Pad[1.0500mm 0.0000 1.3500mm 0.0000 0.7000mm 0.2000mm 0.8600mm "A" "2" "square,edge2"]
+	Pad[1.0500mm -0.9500mm 1.3500mm -0.9500mm 0.7000mm 0.2000mm 0.8600mm "GND" "3" "square,edge2"]
+	Pad[-1.3500mm -0.9500mm -1.0500mm -0.9500mm 0.7000mm 0.2000mm 0.8600mm "Y" "4" "square"]
+	Pad[-1.3500mm 0.9500mm -1.0500mm 0.9500mm 0.7000mm 0.2000mm 0.8600mm "Vcc" "5" "square"]
+	ElementLine [1.0500mm -1.7000mm 1.0500mm -1.5000mm 0.2500mm]
+	ElementLine [-1.0500mm -1.7000mm 1.0500mm -1.7000mm 0.2500mm]
+	ElementLine [-1.0500mm -1.7000mm -1.0500mm -1.5000mm 0.2500mm]
+	ElementLine [-1.0500mm 1.5000mm -1.0500mm 1.7000mm 0.2500mm]
+	ElementLine [-1.0500mm 1.7000mm 1.0500mm 1.7000mm 0.2500mm]
+	ElementLine [1.0500mm 1.5000mm 1.0500mm 1.7000mm 0.2500mm]
+	ElementArc [1.5000mm 1.7000mm 0.1000mm 0.1000mm 270.000000 360.000000 0.2500mm]
+
+	)
+
+Element["" "0805_ext" "PC/LV1/C1" "0.1uF" 17.0000mm 8.0000mm -8.2500mm -0.2500mm 0 75 ""]
+(
+	Attribute("device" "CAPACITOR C0805C104M5RACTU")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[0.9820mm 0.0000 1.3220mm 0.0000 1.2000mm 0.5000mm 1.4000mm "1" "1" "square,edge2"]
+	Pad[-1.3220mm 0.0000 -0.9820mm 0.0000 1.2000mm 0.5000mm 1.4000mm "2" "2" "square"]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 0.2500mm]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 0.2500mm]
+
+	)
+
+Element["" "SOD123FL" "PC/Z1" "6.2V" 18.7500mm 37.5000mm 2.7500mm -0.7500mm 0 75 ""]
+(
+	Attribute("device" "ZENER")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[1.6350mm -0.1550mm 1.6350mm 0.1550mm 0.9100mm 0.5000mm 1.2000mm "1" "1" "square,edge2"]
+	Pad[-1.6350mm -0.1550mm -1.6350mm 0.1550mm 0.9100mm 0.5000mm 1.2000mm "2" "2" "square,edge2"]
+	ElementLine [-0.7500mm 0.7500mm 0.7500mm 0.7500mm 0.2500mm]
+	ElementLine [-0.7500mm -0.7500mm 0.7500mm -0.7500mm 0.2500mm]
+	ElementArc [1.6000mm -1.0000mm 0.0000 0.1000mm 180.000000 350.000000 0.2500mm]
+
+	)
+
+Element["" "Electrolytic18mm" "PC/C4" "2200uF" 119.2500mm 94.2500mm -2.0000mm -10.5000mm 0 75 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[-3.7500mm 0.0000 1.4000mm 0.5000mm 1.5600mm 1.0000mm "+" "1" "thermal(1X)"]
+	Pin[3.7500mm 0.0000 1.4000mm 0.5000mm 1.5600mm 1.0000mm "-" "2" "thermal(2X)"]
+	ElementLine [-4.7500mm 3.0000mm -2.7500mm 3.0000mm 0.2500mm]
+	ElementLine [-3.7500mm 2.0000mm -3.7500mm 4.0000mm 0.2500mm]
+	ElementArc [0.0000 0.0000 9.0000mm 9.0000mm 90.000000 360.000000 0.2500mm]
 
 	)
 Layer(1 "top" "copper")
@@ -7517,8 +7462,8 @@ Layer(1 "top" "copper")
 	Line[6.5000mm 41.0000mm 13.5000mm 34.0000mm 80.00mil 20.00mil "clearline"]
 	Line[11.5000mm 27.7500mm 20.0000mm 27.7500mm 80.00mil 20.00mil "clearline"]
 	Line[23.7500mm 34.5000mm 26.7500mm 34.5000mm 10.00mil 20.00mil "clearline"]
-	Line[26.7500mm 34.5000mm 26.7500mm 29.0000mm 10.00mil 20.00mil "clearline"]
-	Line[26.7500mm 29.0000mm 30.5000mm 29.0000mm 10.00mil 20.00mil "clearline"]
+	Line[26.7500mm 34.5000mm 26.7500mm 28.5000mm 10.00mil 20.00mil "clearline"]
+	Line[26.7500mm 29.2500mm 30.5000mm 29.2500mm 10.00mil 20.00mil "clearline"]
 	Line[24.2500mm 27.7500mm 22.7500mm 29.2500mm 80.00mil 20.00mil "clearline"]
 	Line[22.0000mm 109.2500mm 22.0000mm 110.5000mm 10.00mil 20.00mil "clearline"]
 	Line[22.0000mm 110.5000mm 22.5000mm 111.0000mm 10.00mil 20.00mil "clearline"]
@@ -7537,7 +7482,6 @@ Layer(1 "top" "copper")
 	Line[41.0000mm 110.5000mm 38.5000mm 108.0000mm 10.00mil 20.00mil "clearline"]
 	Line[11.2500mm 76.2500mm 12.7500mm 76.2500mm 10.00mil 20.00mil "clearline"]
 	Line[19.7500mm 95.7500mm 19.7500mm 94.7500mm 10.00mil 20.00mil "clearline"]
-	Line[28.5000mm 27.0000mm 26.7500mm 27.0000mm 10.00mil 20.00mil "clearline"]
 	Line[23.2500mm 109.2500mm 23.7500mm 108.7500mm 10.00mil 20.00mil "clearline"]
 	Line[23.7500mm 108.7500mm 23.7500mm 101.5000mm 10.00mil 20.00mil "clearline"]
 	Line[21.7500mm 75.0000mm 8.5000mm 75.0000mm 10.00mil 20.00mil "clearline"]
@@ -7664,8 +7608,6 @@ Layer(1 "top" "copper")
 	Line[48.0000mm 122.5000mm 50.0000mm 120.5000mm 10.00mil 20.00mil "clearline"]
 	Line[19.7500mm 91.5000mm 18.2500mm 91.5000mm 10.00mil 20.00mil "clearline"]
 	Line[18.2500mm 91.5000mm 12.7500mm 86.0000mm 10.00mil 20.00mil "clearline"]
-	Line[17.5000mm 36.5000mm 17.5000mm 35.0000mm 10.00mil 20.00mil "clearline"]
-	Line[20.5000mm 36.5000mm 21.7500mm 35.2500mm 10.00mil 20.00mil "clearline"]
 	Line[49.0000mm 134.7500mm 41.0000mm 126.7500mm 10.00mil 20.00mil "clearline"]
 	Line[53.2500mm 108.7500mm 55.5000mm 106.5000mm 10.00mil 20.00mil "clearline"]
 	Line[53.0000mm 73.0000mm 50.2500mm 73.0000mm 10.00mil 20.00mil "clearline"]
@@ -7936,12 +7878,10 @@ Layer(1 "top" "copper")
 	Line[38.2500mm 140.5000mm 35.0000mm 137.2500mm 10.00mil 20.00mil "clearline"]
 	Line[37.5000mm 137.2500mm 35.0000mm 137.2500mm 10.00mil 20.00mil "clearline"]
 	Line[37.5000mm 135.7500mm 33.0000mm 135.7500mm 10.00mil 20.00mil "clearline"]
-	Line[39.7500mm 133.2500mm 38.5000mm 134.5000mm 10.00mil 20.00mil "clearline"]
-	Line[38.5000mm 134.5000mm 37.2500mm 134.5000mm 10.00mil 20.00mil "clearline"]
-	Line[37.2500mm 134.5000mm 35.7500mm 133.0000mm 10.00mil 20.00mil "clearline"]
+	Line[37.5000mm 134.5000mm 35.7500mm 132.7500mm 10.00mil 20.00mil "clearline"]
 	Line[33.2500mm 137.7500mm 33.2500mm 139.7500mm 10.00mil 20.00mil "clearline"]
 	Line[35.0000mm 139.7500mm 33.2500mm 139.7500mm 10.00mil 20.00mil "clearline"]
-	Line[38.5000mm 128.5000mm 40.0000mm 130.0000mm 10.00mil 20.00mil "clearline"]
+	Line[38.5000mm 128.5000mm 38.5000mm 134.5000mm 10.00mil 20.00mil "clearline"]
 	Line[10.5000mm 17.0000mm 10.5000mm 19.2500mm 10.00mil 20.00mil "clearline"]
 	Line[10.5000mm 19.2500mm 9.2500mm 19.2500mm 10.00mil 20.00mil "clearline"]
 	Line[9.2500mm 19.2500mm 7.7500mm 20.7500mm 10.00mil 20.00mil "clearline"]
@@ -7959,8 +7899,7 @@ Layer(1 "top" "copper")
 	Line[125.0000mm 120.2500mm 123.5000mm 120.2500mm 10.00mil 20.00mil "clearline"]
 	Line[123.5000mm 120.2500mm 123.2500mm 120.0000mm 10.00mil 20.00mil "clearline"]
 	Line[123.2500mm 120.0000mm 117.2500mm 120.0000mm 10.00mil 20.00mil "clearline"]
-	Line[127.5000mm 121.5000mm 128.5000mm 120.5000mm 10.00mil 20.00mil "clearline"]
-	Line[128.5000mm 120.5000mm 128.5000mm 119.2500mm 10.00mil 20.00mil "clearline"]
+	Line[127.5000mm 121.5000mm 127.5000mm 120.2500mm 10.00mil 20.00mil "clearline"]
 	Line[133.7500mm 126.7500mm 129.7500mm 126.7500mm 10.00mil 20.00mil "clearline"]
 	Line[129.7500mm 126.7500mm 127.7500mm 128.7500mm 10.00mil 20.00mil "clearline"]
 	Line[127.7500mm 128.7500mm 127.2500mm 128.7500mm 10.00mil 20.00mil "clearline"]
@@ -8210,7 +8149,6 @@ Layer(1 "top" "copper")
 	Line[104.5000mm 11.2500mm 105.5000mm 10.2500mm 10.00mil 20.00mil "clearline"]
 	Line[105.2500mm 6.7500mm 103.7500mm 6.7500mm 10.00mil 20.00mil "clearline"]
 	Line[117.5000mm 5.2500mm 120.7500mm 5.2500mm 10.00mil 20.00mil "clearline"]
-	Line[102.2500mm 6.7500mm 103.2500mm 6.7500mm 10.00mil 20.00mil "clearline"]
 	Line[103.2500mm 6.7500mm 103.2500mm 6.2500mm 10.00mil 20.00mil "clearline"]
 	Line[116.0000mm 3.7500mm 116.0000mm 6.0000mm 10.00mil 20.00mil "clearline"]
 	Line[116.0000mm 6.0000mm 116.5000mm 6.5000mm 10.00mil 20.00mil "clearline"]
@@ -8223,7 +8161,7 @@ Layer(1 "top" "copper")
 	Line[24.0000mm 14.0000mm 21.7500mm 14.0000mm 10.00mil 20.00mil "clearline"]
 	Line[43.5000mm 8.5000mm 43.5000mm 9.7500mm 10.00mil 20.00mil "clearline"]
 	Line[101.2500mm 6.7500mm 99.0000mm 6.7500mm 10.00mil 20.00mil "clearline"]
-	Line[99.0000mm 6.7500mm 96.0000mm 3.7500mm 10.00mil 20.00mil "clearline"]
+	Line[99.0000mm 6.7500mm 95.5000mm 3.2500mm 10.00mil 20.00mil "clearline"]
 	Line[41.0000mm 5.5000mm 40.0000mm 5.5000mm 10.00mil 20.00mil "clearline"]
 	Line[39.7500mm 5.0000mm 39.0000mm 4.2500mm 10.00mil 20.00mil "clearline"]
 	Line[39.0000mm 4.2500mm 35.5000mm 4.2500mm 10.00mil 20.00mil "clearline"]
@@ -8276,8 +8214,8 @@ Layer(1 "top" "copper")
 	Line[130.2500mm 113.7500mm 130.7500mm 114.2500mm 10.00mil 20.00mil "clearline"]
 	Line[133.7500mm 115.5000mm 130.0000mm 115.5000mm 10.00mil 20.00mil "clearline"]
 	Line[130.0000mm 115.5000mm 128.7500mm 116.7500mm 10.00mil 20.00mil "clearline"]
-	Line[130.7500mm 117.0000mm 128.5000mm 119.2500mm 10.00mil 20.00mil "clearline"]
-	Line[118.7500mm 106.0000mm 116.5000mm 106.0000mm 10.00mil 20.00mil "clearline"]
+	Line[130.7500mm 117.0000mm 127.5000mm 120.2500mm 10.00mil 20.00mil "clearline"]
+	Line[118.2500mm 106.0000mm 117.0000mm 106.0000mm 10.00mil 20.00mil "clearline"]
 	Line[123.0000mm 105.0000mm 116.2500mm 105.0000mm 10.00mil 20.00mil "clearline"]
 	Line[116.2500mm 105.0000mm 111.7500mm 109.5000mm 10.00mil 20.00mil "clearline"]
 	Line[6.5000mm 121.0000mm 2.2500mm 121.0000mm 25.00mil 20.00mil "clearline"]
@@ -8355,25 +8293,14 @@ Layer(1 "top" "copper")
 	Line[113.7500mm 142.7500mm 113.7500mm 115.7500mm 10.00mil 20.00mil "clearline"]
 	Line[113.7500mm 115.7500mm 118.0000mm 111.5000mm 10.00mil 20.00mil "clearline"]
 	Line[53.2500mm 44.7500mm 53.2500mm 43.2500mm 10.00mil 20.00mil "clearline"]
-	Line[32.7500mm 8.7500mm 27.5000mm 14.0000mm 10.00mil 20.00mil "clearline"]
+	Line[32.7500mm 8.7500mm 26.2500mm 15.2500mm 10.00mil 20.00mil "clearline"]
 	Line[27.7500mm 22.0000mm 26.0000mm 22.0000mm 10.00mil 20.00mil "clearline"]
 	Line[26.0000mm 22.0000mm 24.2500mm 20.2500mm 10.00mil 20.00mil "clearline"]
 	Line[24.5000mm 8.7500mm 25.7500mm 8.7500mm 10.00mil 20.00mil "clearline"]
 	Line[25.7500mm 8.7500mm 26.5000mm 9.5000mm 10.00mil 20.00mil "clearline"]
 	Line[18.2500mm 18.0000mm 13.2500mm 18.0000mm 10.00mil 20.00mil "clearline"]
-	Line[21.0000mm 20.2500mm 21.0000mm 17.7500mm 10.00mil 20.00mil "clearline"]
-	Line[21.0000mm 17.7500mm 23.5000mm 15.2500mm 10.00mil 20.00mil "clearline"]
-	Line[21.0000mm 17.7500mm 20.0000mm 16.7500mm 10.00mil 20.00mil "clearline"]
-	Line[20.0000mm 16.7500mm 17.0000mm 16.7500mm 10.00mil 20.00mil "clearline"]
-	Line[17.0000mm 16.7500mm 11.0000mm 10.7500mm 10.00mil 20.00mil "clearline"]
-	Line[15.0000mm 4.2500mm 15.0000mm 8.7500mm 10.00mil 20.00mil "clearline"]
-	Line[15.0000mm 8.7500mm 15.7500mm 9.5000mm 10.00mil 20.00mil "clearline"]
-	Line[18.2500mm 13.0000mm 16.7500mm 13.0000mm 10.00mil 20.00mil "clearline"]
-	Line[16.7500mm 13.0000mm 16.2500mm 12.5000mm 10.00mil 20.00mil "clearline"]
-	Line[18.2500mm 10.2500mm 16.2500mm 10.2500mm 10.00mil 20.00mil "clearline"]
-	Line[16.5000mm 15.2500mm 18.0000mm 15.2500mm 10.00mil 20.00mil "clearline"]
-	Line[14.5000mm 5.7500mm 14.5000mm 10.5000mm 10.00mil 20.00mil "clearline"]
-	Line[14.5000mm 10.5000mm 15.7500mm 11.7500mm 10.00mil 20.00mil "clearline"]
+	Line[22.0000mm 16.7500mm 23.5000mm 15.2500mm 10.00mil 20.00mil "clearline"]
+	Line[22.0000mm 16.7500mm 17.5000mm 16.7500mm 10.00mil 20.00mil "clearline"]
 	Line[25.5000mm 5.0000mm 24.2500mm 5.0000mm 10.00mil 20.00mil "clearline"]
 	Line[75.5000mm 14.7500mm 76.7500mm 16.0000mm 10.00mil 20.00mil "clearline"]
 	Line[76.7500mm 16.0000mm 76.7500mm 18.2500mm 10.00mil 20.00mil "clearline"]
@@ -8383,15 +8310,10 @@ Layer(1 "top" "copper")
 	Line[45.0000mm 54.7500mm 46.2500mm 54.7500mm 10.00mil 20.00mil "clearline"]
 	Line[40.5000mm 56.7500mm 42.2500mm 56.7500mm 10.00mil 20.00mil "clearline"]
 	Line[42.2500mm 56.7500mm 44.2500mm 54.7500mm 10.00mil 20.00mil "clearline"]
-	Line[32.5000mm 22.2500mm 30.7500mm 22.2500mm 10.00mil 20.00mil "clearline"]
-	Line[26.5000mm 15.0000mm 26.5000mm 13.0000mm 10.00mil 20.00mil "clearline"]
-	Line[26.5000mm 13.0000mm 25.5000mm 12.0000mm 10.00mil 20.00mil "clearline"]
-	Line[25.5000mm 12.0000mm 19.7500mm 12.0000mm 10.00mil 20.00mil "clearline"]
+	Line[32.5000mm 22.0000mm 30.7500mm 22.0000mm 10.00mil 20.00mil "clearline"]
+	Line[27.2500mm 12.0000mm 19.7500mm 12.0000mm 10.00mil 20.00mil "clearline"]
 	Line[19.7500mm 12.0000mm 18.2500mm 10.5000mm 10.00mil 20.00mil "clearline"]
-	Line[36.2500mm 14.5000mm 29.7500mm 14.5000mm 10.00mil 20.00mil "clearline"]
-	Line[38.2500mm 21.2500mm 32.7500mm 21.2500mm 10.00mil 20.00mil "clearline"]
-	Line[26.5000mm 15.0000mm 32.7500mm 21.2500mm 10.00mil 20.00mil "clearline"]
-	Line[35.7500mm 20.2500mm 34.5000mm 20.2500mm 10.00mil 20.00mil "clearline"]
+	Line[36.2500mm 14.5000mm 28.2500mm 14.5000mm 10.00mil 20.00mil "clearline"]
 	Line[103.2500mm 6.2500mm 103.7500mm 5.7500mm 10.00mil 20.00mil "clearline"]
 	Line[81.7500mm 9.5000mm 80.0000mm 7.7500mm 10.00mil 20.00mil "clearline"]
 	Line[40.7500mm 47.5000mm 41.5000mm 47.5000mm 10.00mil 20.00mil "clearline"]
@@ -8423,32 +8345,7 @@ Layer(1 "top" "copper")
 	Line[23.7500mm 40.5000mm 22.5000mm 41.7500mm 10.00mil 20.00mil "clearline"]
 	Line[116.0000mm 3.7500mm 109.5000mm 3.7500mm 10.00mil 20.00mil "clearline"]
 	Line[104.2500mm 3.7500mm 106.0000mm 3.7500mm 10.00mil 20.00mil "clearline"]
-	Line[15.7500mm 6.5000mm 17.5000mm 6.5000mm 10.00mil 20.00mil "clearline"]
-	Line[16.5000mm 6.5000mm 16.5000mm 7.7500mm 10.00mil 20.00mil "clearline"]
-	Line[8.2500mm 3.7500mm 9.0000mm 3.0000mm 10.00mil 20.00mil "clearline"]
-	Line[9.0000mm 3.0000mm 17.0000mm 3.0000mm 10.00mil 20.00mil "clearline"]
-	Line[17.0000mm 3.0000mm 17.5000mm 3.5000mm 10.00mil 20.00mil "clearline"]
-	Line[10.2500mm 3.7500mm 10.2500mm 3.0000mm 10.00mil 20.00mil "clearline"]
-	Line[12.0000mm 3.0000mm 12.0000mm 3.5000mm 10.00mil 20.00mil "clearline"]
-	Line[13.7500mm 3.7500mm 13.7500mm 3.0000mm 10.00mil 20.00mil "clearline"]
-	Line[15.7500mm 3.7500mm 15.7500mm 3.0000mm 10.00mil 20.00mil "clearline"]
-	Line[10.2500mm 6.5000mm 11.7500mm 6.5000mm 10.00mil 20.00mil "clearline"]
-	Line[11.0000mm 8.2500mm 12.2500mm 8.2500mm 10.00mil 20.00mil "clearline"]
-	Line[12.2500mm 8.2500mm 13.7500mm 6.7500mm 10.00mil 20.00mil "clearline"]
-	Line[9.2500mm 4.5000mm 8.5000mm 5.2500mm 10.00mil 20.00mil "clearline"]
-	Line[8.5000mm 5.2500mm 7.5000mm 5.2500mm 10.00mil 20.00mil "clearline"]
-	Line[7.5000mm 5.2500mm 7.5000mm 8.2500mm 10.00mil 20.00mil "clearline"]
-	Line[16.5000mm 15.2500mm 11.0000mm 9.7500mm 10.00mil 20.00mil "clearline"]
-	Line[9.2500mm 7.5000mm 9.2500mm 9.2500mm 10.00mil 20.00mil "clearline"]
-	Line[12.5000mm 5.5000mm 14.2500mm 5.5000mm 10.00mil 20.00mil "clearline"]
-	Line[14.2500mm 5.5000mm 14.5000mm 5.7500mm 10.00mil 20.00mil "clearline"]
-	Line[10.2500mm 5.2500mm 10.2500mm 6.0000mm 10.00mil 20.00mil "clearline"]
-	Line[8.2500mm 10.7500mm 8.2500mm 9.0000mm 10.00mil 20.00mil "clearline"]
-	Line[11.0000mm 9.7500mm 9.7500mm 9.7500mm 10.00mil 20.00mil "clearline"]
-	Line[9.7500mm 9.7500mm 9.2500mm 9.2500mm 10.00mil 20.00mil "clearline"]
-	Line[9.2500mm 7.5000mm 8.2500mm 6.5000mm 10.00mil 20.00mil "clearline"]
 	Line[39.2500mm 11.5000mm 36.2500mm 14.5000mm 10.00mil 20.00mil "clearline"]
-	Line[39.2500mm 20.2500mm 38.2500mm 21.2500mm 10.00mil 20.00mil "clearline"]
 	Line[40.7500mm 15.7500mm 40.7500mm 11.5000mm 10.00mil 20.00mil "clearline"]
 	Line[53.5000mm 16.0000mm 53.5000mm 9.7500mm 10.00mil 20.00mil "clearline"]
 	Line[57.7500mm 16.0000mm 53.5000mm 16.0000mm 10.00mil 20.00mil "clearline"]
@@ -8459,8 +8356,8 @@ Layer(1 "top" "copper")
 	Line[24.2500mm 11.2500mm 26.5000mm 11.2500mm 10.00mil 20.00mil "clearline"]
 	Line[26.5000mm 11.2500mm 27.7500mm 10.0000mm 10.00mil 20.00mil "clearline"]
 	Line[27.7500mm 10.0000mm 27.7500mm 5.5000mm 10.00mil 20.00mil "clearline"]
-	Line[33.2500mm 3.5000mm 29.7500mm 3.5000mm 10.00mil 20.00mil "clearline"]
-	Line[27.7500mm 5.5000mm 29.7500mm 3.5000mm 10.00mil 20.00mil "clearline"]
+	Line[33.2500mm 3.2500mm 30.0000mm 3.2500mm 10.00mil 20.00mil "clearline"]
+	Line[27.7500mm 5.5000mm 30.0000mm 3.2500mm 10.00mil 20.00mil "clearline"]
 	Line[33.7500mm 12.5000mm 31.2500mm 12.5000mm 10.00mil 20.00mil "clearline"]
 	Line[31.2500mm 12.5000mm 31.0000mm 12.2500mm 10.00mil 20.00mil "clearline"]
 	Line[39.5000mm 8.0000mm 36.5000mm 8.0000mm 10.00mil 20.00mil "clearline"]
@@ -8470,7 +8367,6 @@ Layer(1 "top" "copper")
 	Line[23.2500mm 24.5000mm 20.0000mm 27.7500mm 80.00mil 20.00mil "clearline"]
 	Line[23.2500mm 24.5000mm 44.5000mm 24.5000mm 80.00mil 20.00mil ""]
 	Line[68.7500mm 33.2500mm 65.2500mm 33.2500mm 10.00mil 20.00mil ""]
-	Line[17.5000mm 4.0000mm 20.0000mm 4.0000mm 10.00mil 20.00mil "clearline"]
 	Line[45.5000mm 8.5000mm 45.5000mm 13.5000mm 10.00mil 20.00mil "clearline"]
 	Line[84.2500mm 44.5000mm 89.5000mm 44.5000mm 10.00mil 20.00mil "clearline"]
 	Line[89.5000mm 44.5000mm 90.0000mm 45.0000mm 10.00mil 20.00mil "clearline"]
@@ -8566,23 +8462,47 @@ Layer(1 "top" "copper")
 	Line[67.0000mm 95.0000mm 66.0000mm 94.0000mm 10.00mil 20.00mil "clearline"]
 	Line[63.7500mm 92.2500mm 64.2500mm 92.2500mm 25.00mil 20.00mil ""]
 	Line[58.7500mm 64.7500mm 58.7500mm 63.2500mm 10.00mil 20.00mil "clearline"]
-	Line[11.0000mm 22.5000mm 9.7500mm 22.5000mm 10.00mil 20.00mil "clearline"]
-	Line[9.7500mm 22.5000mm 9.2500mm 22.0000mm 10.00mil 20.00mil "clearline"]
-	Line[9.2500mm 22.0000mm 6.2500mm 22.0000mm 10.00mil 20.00mil "clearline"]
+	Line[11.0000mm 22.5000mm 10.5000mm 22.0000mm 10.00mil 20.00mil "clearline"]
+	Line[10.5000mm 22.0000mm 5.7500mm 22.0000mm 10.00mil 20.00mil "clearline"]
 	Line[3.5000mm 25.7500mm 3.5000mm 24.2500mm 10.00mil 20.00mil "clearline"]
 	Line[5.7500mm 25.7500mm 5.7500mm 20.0000mm 10.00mil 20.00mil "clearline"]
 	Line[5.7500mm 20.0000mm 7.7500mm 18.0000mm 10.00mil 20.00mil "clearline"]
-	Line[6.5000mm 22.0000mm 5.7500mm 22.0000mm 10.00mil 20.00mil "clearline"]
-	Line[13.2500mm 23.5000mm 15.0000mm 23.5000mm 10.00mil 20.00mil "clearline"]
-	Line[15.0000mm 23.5000mm 15.7500mm 24.2500mm 10.00mil 20.00mil "clearline"]
-	Line[13.2500mm 19.2500mm 13.2500mm 17.2500mm 10.00mil 20.00mil "clearline"]
-	Line[13.2500mm 17.2500mm 13.0000mm 17.0000mm 10.00mil 20.00mil "clearline"]
-	Line[2.2500mm 27.2500mm 9.5000mm 27.2500mm 10.00mil 20.00mil "clearline"]
-	Line[9.5000mm 27.2500mm 13.2500mm 23.5000mm 10.00mil 20.00mil "clearline"]
-	Line[18.2500mm 23.0000mm 21.0000mm 20.2500mm 10.00mil 20.00mil "clearline"]
-	Line[15.7500mm 21.8480mm 15.7500mm 20.2500mm 10.00mil 20.00mil "clearline"]
-	Line[15.7500mm 21.8480mm 13.5792mm 21.8480mm 10.00mil 20.00mil "clearline"]
-	Line[13.5792mm 21.8480mm 13.2500mm 21.5188mm 10.00mil 20.00mil "clearline"]
+	Line[13.0000mm 23.7500mm 15.5000mm 23.7500mm 10.00mil 20.00mil "clearline"]
+	Line[13.2500mm 19.0000mm 13.2500mm 17.2500mm 10.00mil 20.00mil "clearline"]
+	Line[15.7500mm 21.5000mm 15.7500mm 20.2500mm 10.00mil 20.00mil "clearline"]
+	Line[2.2500mm 75.0000mm 2.2500mm 27.2500mm 10.00mil 20.00mil "clearline"]
+	Line[11.2500mm 5.2500mm 11.2500mm 6.5000mm 10.00mil 20.00mil "clearline"]
+	Line[12.0000mm 3.7500mm 13.0000mm 4.7500mm 10.00mil 20.00mil "clearline"]
+	Line[15.5000mm 3.7500mm 14.2500mm 3.7500mm 10.00mil 20.00mil "clearline"]
+	Line[11.7500mm 7.2500mm 11.7500mm 9.0000mm 10.00mil 20.00mil "clearline"]
+	Line[11.7500mm 9.0000mm 18.2500mm 15.5000mm 10.00mil 20.00mil "clearline"]
+	Line[10.7500mm 3.7500mm 10.2500mm 4.2500mm 10.00mil 20.00mil "clearline"]
+	Line[10.2500mm 4.2500mm 10.2500mm 9.5000mm 10.00mil 20.00mil "clearline"]
+	Line[10.2500mm 9.5000mm 17.5000mm 16.7500mm 10.00mil 20.00mil "clearline"]
+	Line[13.0000mm 23.7500mm 9.5000mm 27.2500mm 10.00mil 20.00mil "clearline"]
+	Line[9.5000mm 27.2500mm 2.2500mm 27.2500mm 10.00mil 20.00mil "clearline"]
+	Line[18.5000mm 4.7500mm 19.2500mm 5.5000mm 10.00mil 20.00mil "clearline"]
+	Line[19.2500mm 5.5000mm 19.2500mm 9.5000mm 10.00mil 20.00mil "clearline"]
+	Line[19.2500mm 9.5000mm 18.5000mm 10.2500mm 10.00mil 20.00mil "clearline"]
+	Line[16.7500mm 4.7500mm 17.7500mm 3.7500mm 10.00mil 20.00mil "clearline"]
+	Line[16.7500mm 4.7500mm 17.7500mm 5.7500mm 10.00mil 20.00mil "clearline"]
+	Line[18.2500mm 5.7500mm 18.2500mm 7.7500mm 10.00mil 20.00mil "clearline"]
+	Line[15.7500mm 5.7500mm 15.7500mm 7.7500mm 10.00mil 20.00mil "clearline"]
+	Line[14.2500mm 6.2500mm 15.0000mm 5.5000mm 10.00mil 20.00mil "clearline"]
+	Line[15.0000mm 5.5000mm 15.0000mm 4.7500mm 10.00mil 20.00mil "clearline"]
+	Line[15.0000mm 4.7500mm 16.7500mm 4.7500mm 10.00mil 20.00mil "clearline"]
+	Line[32.5000mm 22.0000mm 32.5000mm 20.7500mm 10.00mil 20.00mil "clearline"]
+	Line[32.5000mm 20.7500mm 33.0000mm 20.2500mm 10.00mil 20.00mil "clearline"]
+	Line[26.2500mm 15.2500mm 26.2500mm 15.7500mm 10.00mil 20.00mil "clearline"]
+	Line[15.7500mm 21.5000mm 13.5000mm 21.5000mm 10.00mil 20.00mil "clearline"]
+	Line[102.2500mm 6.7500mm 102.7500mm 6.7500mm 10.00mil 20.00mil "clearline"]
+	Line[20.5000mm 37.0000mm 20.5000mm 36.0000mm 10.00mil 20.00mil "clearline"]
+	Line[20.5000mm 36.0000mm 21.5000mm 35.0000mm 10.00mil 20.00mil "clearline"]
+	Line[17.2500mm 37.7500mm 17.2500mm 39.7500mm 10.00mil 20.00mil "clearline"]
+	Line[17.2500mm 39.7500mm 14.5000mm 42.5000mm 10.00mil 20.00mil "clearline"]
+	Line[102.7500mm 6.5000mm 102.7500mm 3.7500mm 10.00mil 20.00mil "clearline"]
+	Line[102.7500mm 3.7500mm 102.5000mm 3.5000mm 10.00mil 20.00mil "clearline"]
+	Line[102.5000mm 3.5000mm 99.0000mm 3.5000mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -9017,7 +8937,7 @@ Layer(2 "power" "copper")
 	Line[54.7500mm 132.2500mm 55.0000mm 132.5000mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
-		[0.5000mm 74.5000mm] [40.2500mm 74.5000mm] [40.2500mm 153.7500mm] [0.5000mm 153.7500mm] 
+		[0.5000mm 74.5000mm] [40.2500mm 74.5000mm] [40.2500mm 154.5000mm] [0.5000mm 154.5000mm] 
 	)
 	Polygon("clearpoly,fullpoly")
 	(
@@ -9042,11 +8962,11 @@ Layer(2 "power" "copper")
 	(
 		[40.7500mm 0.5000mm] [120.5000mm 0.5000mm] [120.5000mm 25.5000mm] [115.5000mm 25.5000mm] [115.5000mm 41.2500mm] 
 		[105.2500mm 41.2500mm] [105.2500mm 60.7500mm] [110.7500mm 60.7500mm] [110.7500mm 74.2500mm] [141.7500mm 74.2500mm] 
-		[141.7500mm 108.0000mm] [119.0000mm 108.0000mm] [119.0000mm 153.7500mm] [41.0000mm 153.7500mm] [41.0000mm 0.5000mm] 
+		[141.7500mm 108.0000mm] [119.0000mm 108.0000mm] [119.0000mm 154.5000mm] [41.0000mm 154.5000mm] [41.0000mm 0.5000mm] 
 	)
 	Polygon("clearpoly,fullpoly")
 	(
-		[119.2500mm 153.7500mm] [141.7500mm 153.7500mm] [141.7500mm 108.2500mm] [119.2500mm 108.2500mm] 
+		[119.2500mm 154.5000mm] [141.7500mm 154.5000mm] [141.7500mm 108.2500mm] [119.2500mm 108.2500mm] 
 	)
 	Polygon("clearpoly,fullpoly")
 	(
@@ -9065,13 +8985,13 @@ Layer(3 "ground" "copper")
 	Line[133.5000mm 104.5000mm 133.7500mm 104.7500mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
-		[0.5000mm 0.7500mm] [141.7500mm 0.7500mm] [141.7500mm 154.5000mm] [0.5000mm 154.5000mm] 
+		[0.5000mm 0.5000mm] [141.7500mm 0.5000mm] [141.7500mm 154.5000mm] [0.5000mm 154.5000mm] 
 	)
 )
 Layer(4 "bottom" "copper")
 (
-	Line[124.0000mm 3750.00mil 131.5000mm 87.7500mm 80.00mil 0.6000mm "clearline"]
-	Line[121.0000mm 95.0000mm 131.2500mm 84.7500mm 1.8320mm 0.6000mm "clearline"]
+	Line[128.0000mm 91.2500mm 131.5000mm 87.7500mm 80.00mil 0.6000mm "clearline"]
+	Line[125.5000mm 90.5000mm 131.2500mm 84.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[130.2500mm 82.5000mm 133.5000mm 82.5000mm 80.00mil 0.6000mm "clearline"]
 	Line[133.5000mm 82.5000mm 134.7500mm 83.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[134.7500mm 83.7500mm 134.7500mm 84.7500mm 80.00mil 0.6000mm "clearline"]
@@ -9125,9 +9045,9 @@ Layer(4 "bottom" "copper")
 	Line[63.0000mm 35.2500mm 57.2500mm 41.0000mm 10.00mil 0.6000mm "clearline"]
 	Line[63.0000mm 37.7500mm 61.5000mm 37.7500mm 10.00mil 0.6000mm "clearline"]
 	Line[61.5000mm 37.7500mm 58.0000mm 41.2500mm 10.00mil 0.6000mm "clearline"]
-	Line[106.5000mm 121.5000mm 101.5000mm 121.5000mm 80.00mil 0.6000mm ""]
-	Line[121.0000mm 95.0000mm 121.0000mm 110.5000mm 80.00mil 0.6000mm "clearline"]
-	Line[107.2500mm 124.2500mm 101.5000mm 124.2500mm 80.00mil 0.6000mm ""]
+	Line[106.2500mm 121.5000mm 101.5000mm 121.5000mm 80.00mil 0.6000mm ""]
+	Line[123.2500mm 98.5000mm 123.2500mm 107.5000mm 80.00mil 0.6000mm "clearline"]
+	Line[106.7500mm 124.2500mm 101.5000mm 124.2500mm 80.00mil 0.6000mm ""]
 	Line[45.0000mm 101.7500mm 33.5000mm 90.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[37.2500mm 108.7500mm 38.7500mm 110.2500mm 10.00mil 0.6000mm "clearline"]
 	Line[38.7500mm 110.2500mm 38.7500mm 126.5000mm 10.00mil 0.6000mm "clearline"]
@@ -9153,17 +9073,16 @@ Layer(4 "bottom" "copper")
 	Line[6.7500mm 101.2500mm 13.5000mm 94.5000mm 10.00mil 0.6000mm "clearline"]
 	Line[13.5000mm 94.5000mm 20.5000mm 94.5000mm 10.00mil 0.6000mm "clearline"]
 	Line[36.0000mm 105.5000mm 36.0000mm 98.7500mm 10.00mil 0.6000mm "clearline"]
-	Line[133.5000mm 90.5000mm 134.7500mm 89.2500mm 80.00mil 0.6000mm "clearline"]
+	Line[134.0000mm 100.0000mm 135.7500mm 98.2500mm 80.00mil 0.6000mm "clearline"]
 	Line[134.7500mm 67.7500mm 134.7500mm 68.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[133.5000mm 70.0000mm 117.0000mm 70.0000mm 80.00mil 0.6000mm "clearline"]
 	Line[133.5000mm 70.0000mm 134.7500mm 68.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[128.2500mm 74.7500mm 131.7500mm 74.7500mm 80.00mil 0.6000mm "clearline"]
-	Line[126.7500mm 96.0000mm 132.2500mm 90.5000mm 80.00mil 0.6000mm "clearline"]
-	Line[132.2500mm 90.5000mm 133.5000mm 90.5000mm 80.00mil 0.6000mm "clearline"]
+	Line[128.2500mm 102.0000mm 130.2500mm 100.0000mm 80.00mil 0.6000mm "clearline"]
+	Line[130.2500mm 100.0000mm 134.0000mm 100.0000mm 80.00mil 0.6000mm "clearline"]
 	Line[129.2500mm 80.2500mm 133.7500mm 80.2500mm 80.00mil 0.6000mm "clearline"]
 	Line[133.7500mm 80.2500mm 134.7500mm 79.2500mm 80.00mil 0.6000mm "clearline"]
 	Line[134.7500mm 79.2500mm 134.7500mm 77.7500mm 80.00mil 0.6000mm "clearline"]
-	Line[134.7500mm 89.2500mm 134.7500mm 87.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[40.2500mm 99.5000mm 37.7500mm 97.0000mm 10.00mil 0.6000mm "clearline"]
 	Line[37.7500mm 97.0000mm 32.0000mm 97.0000mm 10.00mil 0.6000mm "clearline"]
 	Line[41.7500mm 85.5000mm 43.7500mm 85.5000mm 10.00mil 20.00mil "clearline"]
@@ -9288,8 +9207,8 @@ Layer(4 "bottom" "copper")
 	Line[50.0000mm 111.5000mm 50.0000mm 120.5000mm 10.00mil 20.00mil "clearline"]
 	Line[47.0000mm 120.2500mm 48.5000mm 121.7500mm 10.00mil 20.00mil "clearline"]
 	Line[48.5000mm 121.7500mm 51.5000mm 121.7500mm 10.00mil 20.00mil "clearline"]
-	Line[118.5000mm 109.5000mm 106.5000mm 121.5000mm 80.00mil 0.6000mm "clearline"]
-	Line[112.0000mm 105.7500mm 116.0000mm 101.7500mm 80.00mil 0.6000mm "clearline"]
+	Line[120.5000mm 107.2500mm 106.2500mm 121.5000mm 80.00mil 0.6000mm "clearline"]
+	Line[112.0000mm 105.7500mm 118.0000mm 99.7500mm 80.00mil 0.6000mm "clearline"]
 	Line[102.0000mm 105.7500mm 112.0000mm 105.7500mm 80.00mil 0.6000mm ""]
 	Line[40.0000mm 85.5000mm 48.0000mm 93.5000mm 10.00mil 20.00mil "clearline"]
 	Line[48.0000mm 93.5000mm 48.0000mm 103.2500mm 10.00mil 20.00mil "clearline"]
@@ -9422,7 +9341,7 @@ Layer(4 "bottom" "copper")
 	Line[23.7500mm 114.5000mm 23.7500mm 117.5000mm 10.00mil 20.00mil "clearline"]
 	Line[23.7500mm 117.5000mm 39.2500mm 133.0000mm 10.00mil 20.00mil "clearline"]
 	Line[114.2500mm 148.7500mm 53.7500mm 148.7500mm 10.00mil 20.00mil "clearline"]
-	Line[100.5000mm 133.7500mm 119.2500mm 133.7500mm 80.00mil 0.6000mm ""]
+	Line[100.5000mm 133.7500mm 110.0000mm 133.7500mm 80.00mil 0.6000mm ""]
 	Line[31.2500mm 80.7500mm 47.0000mm 96.5000mm 10.00mil 20.00mil "clearline"]
 	Line[46.2500mm 73.5000mm 43.7500mm 76.0000mm 10.00mil 20.00mil "clearline"]
 	Line[43.5000mm 73.7500mm 42.0000mm 75.2500mm 10.00mil 20.00mil "clearline"]
@@ -9461,7 +9380,7 @@ Layer(4 "bottom" "copper")
 	Line[66.0000mm 102.0000mm 66.0000mm 102.7500mm 10.00mil 20.00mil "clearline"]
 	Line[41.5000mm 122.5000mm 41.5000mm 125.5000mm 10.00mil 20.00mil "clearline"]
 	Line[41.5000mm 125.5000mm 38.5000mm 128.5000mm 10.00mil 20.00mil "clearline"]
-	Line[119.7500mm 136.7500mm 101.7500mm 136.7500mm 80.00mil 20.00mil ""]
+	Line[110.5000mm 136.7500mm 101.7500mm 136.7500mm 80.00mil 20.00mil ""]
 	Line[124.2500mm 148.7500mm 120.0000mm 153.0000mm 10.00mil 20.00mil "clearline"]
 	Line[125.0000mm 145.2500mm 125.0000mm 150.7500mm 10.00mil 20.00mil "clearline"]
 	Line[124.0000mm 144.2500mm 125.0000mm 145.2500mm 10.00mil 20.00mil "clearline"]
@@ -9475,10 +9394,10 @@ Layer(4 "bottom" "copper")
 	Line[51.7500mm 84.5000mm 51.7500mm 72.0000mm 10.00mil 20.00mil "clearline"]
 	Line[51.7500mm 72.0000mm 53.7500mm 70.0000mm 10.00mil 20.00mil "clearline"]
 	Line[63.2500mm 68.7500mm 58.0000mm 2500.00mil 10.00mil 20.00mil "clearline"]
-	Line[120.0000mm 136.7500mm 126.7500mm 130.0000mm 80.00mil 20.00mil "clearline"]
-	Line[126.7500mm 130.0000mm 126.7500mm 96.0000mm 80.00mil 20.00mil "clearline"]
-	Line[124.2500mm 128.7500mm 119.2500mm 133.7500mm 80.00mil 20.00mil "clearline"]
-	Line[124.2500mm 117.2500mm 124.2500mm 128.7500mm 80.00mil 20.00mil "clearline"]
+	Line[114.7500mm 122.7500mm 128.2500mm 109.2500mm 80.00mil 20.00mil "clearline"]
+	Line[128.2500mm 109.2500mm 128.2500mm 102.0000mm 80.00mil 20.00mil "clearline"]
+	Line[125.7500mm 108.5000mm 112.2500mm 122.0000mm 80.00mil 20.00mil "clearline"]
+	Line[125.7500mm 99.5000mm 125.7500mm 108.5000mm 80.00mil 20.00mil "clearline"]
 	Line[53.2500mm 122.0000mm 53.2500mm 138.2500mm 10.00mil 20.00mil "clearline"]
 	Line[53.2500mm 138.2500mm 57.0000mm 142.0000mm 10.00mil 20.00mil "clearline"]
 	Line[57.0000mm 142.0000mm 74.2500mm 142.0000mm 10.00mil 20.00mil "clearline"]
@@ -9515,10 +9434,8 @@ Layer(4 "bottom" "copper")
 	Line[122.7500mm 57.7500mm 106.5000mm 41.5000mm 80.00mil 20.00mil "clearline"]
 	Line[132.7500mm 52.0000mm 124.0000mm 52.0000mm 80.00mil 20.00mil "clearline"]
 	Line[124.0000mm 52.0000mm 110.7500mm 38.7500mm 80.00mil 20.00mil "clearline"]
-	Line[118.5000mm 109.5000mm 118.5000mm 94.2500mm 80.00mil 20.00mil "clearline"]
-	Line[118.5000mm 94.2500mm 130.2500mm 82.5000mm 80.00mil 20.00mil "clearline"]
-	Line[124.0000mm 3750.00mil 124.0000mm 117.0000mm 80.00mil 20.00mil "clearline"]
-	Line[124.0000mm 117.0000mm 124.2500mm 117.2500mm 80.00mil 20.00mil "clearline"]
+	Line[120.5000mm 107.2500mm 120.5000mm 92.2500mm 80.00mil 20.00mil "clearline"]
+	Line[120.5000mm 92.2500mm 130.2500mm 82.5000mm 80.00mil 20.00mil "clearline"]
 	Line[105.2500mm 6.7500mm 119.5000mm 6.7500mm 10.00mil 20.00mil "clearline"]
 	Line[119.5000mm 6.7500mm 120.7500mm 5.5000mm 10.00mil 20.00mil "clearline"]
 	Line[103.7500mm 5.7500mm 105.7500mm 3.7500mm 10.00mil 20.00mil "clearline"]
@@ -9528,10 +9445,10 @@ Layer(4 "bottom" "copper")
 	Line[30.5000mm 17.7500mm 29.5000mm 18.7500mm 10.00mil 20.00mil "clearline"]
 	Line[29.5000mm 18.7500mm 29.5000mm 30.7500mm 10.00mil 20.00mil "clearline"]
 	Line[29.5000mm 30.7500mm 30.5000mm 1250.00mil 10.00mil 20.00mil "clearline"]
-	Line[38.0000mm 21.0000mm 26.5000mm 9.5000mm 10.00mil 20.00mil "clearline"]
+	Line[36.0000mm 19.0000mm 26.5000mm 9.5000mm 10.00mil 20.00mil "clearline"]
 	Line[40.2500mm 14.7500mm 39.0000mm 13.5000mm 25.00mil 20.00mil "clearline"]
 	Line[36.5000mm 10.5000mm 36.5000mm 13.2500mm 10.00mil 20.00mil "clearline"]
-	Line[33.2500mm 3.2500mm 96.0000mm 3.2500mm 10.00mil 20.00mil "clearline"]
+	Line[33.2500mm 3.2500mm 95.5000mm 3.2500mm 10.00mil 20.00mil "clearline"]
 	Line[38.7500mm 72.2500mm 37.7500mm 72.2500mm 10.00mil 20.00mil "clearline"]
 	Line[25.7500mm 100.2500mm 25.7500mm 76.0000mm 10.00mil 20.00mil "clearline"]
 	Line[24.7500mm 99.2500mm 24.7500mm 93.5000mm 10.00mil 20.00mil "clearline"]
@@ -9579,16 +9496,16 @@ Layer(4 "bottom" "copper")
 	Line[82.0000mm 23.5000mm 86.2500mm 19.2500mm 10.00mil 20.00mil "clearline"]
 	Line[107.2500mm 18.5000mm 107.2500mm 16.0000mm 10.00mil 20.00mil "clearline"]
 	Line[107.2500mm 16.0000mm 108.5000mm 14.7500mm 10.00mil 20.00mil "clearline"]
-	Line[107.5000mm 124.2500mm 121.0000mm 110.7500mm 80.00mil 20.00mil "clearline"]
-	Line[129.2500mm 80.2500mm 116.0000mm 93.5000mm 80.00mil 20.00mil "clearline"]
-	Line[116.0000mm 93.5000mm 116.0000mm 101.7500mm 80.00mil 20.00mil "clearline"]
+	Line[106.7500mm 124.2500mm 123.2500mm 107.7500mm 80.00mil 20.00mil "clearline"]
+	Line[129.2500mm 80.2500mm 118.0000mm 91.5000mm 80.00mil 20.00mil "clearline"]
+	Line[118.0000mm 91.5000mm 118.0000mm 99.7500mm 80.00mil 20.00mil "clearline"]
 	Line[109.0000mm 94.0000mm 101.2500mm 94.0000mm 80.00mil 20.00mil ""]
 	Line[2.5000mm 140.2500mm 2.5000mm 121.2500mm 25.00mil 20.00mil "clearline"]
 	Line[2.5000mm 121.2500mm 2.2500mm 121.0000mm 25.00mil 20.00mil "clearline"]
 	Line[14.5000mm 37.5000mm 13.7500mm 37.5000mm 10.00mil 20.00mil "clearline"]
 	Line[13.7500mm 37.5000mm 10.2500mm 34.0000mm 10.00mil 20.00mil "clearline"]
 	Line[14.5000mm 40.0000mm 9.0000mm 34.5000mm 10.00mil 20.00mil "clearline"]
-	Line[9.0000mm 34.5000mm 9.0000mm 27.5000mm 10.00mil 20.00mil "clearline"]
+	Line[9.0000mm 34.5000mm 9.0000mm 27.7500mm 10.00mil 20.00mil "clearline"]
 	Line[38.7500mm 48.5000mm 37.5000mm 47.2500mm 10.00mil 20.00mil "clearline"]
 	Line[37.5000mm 47.2500mm 37.5000mm 39.0000mm 10.00mil 20.00mil "clearline"]
 	Line[37.5000mm 39.0000mm 38.7500mm 37.7500mm 10.00mil 20.00mil "clearline"]
@@ -9606,14 +9523,12 @@ Layer(4 "bottom" "copper")
 	Line[109.7500mm 19.2500mm 109.7500mm 13.2500mm 10.00mil 20.00mil "clearline"]
 	Line[103.7500mm 7.2500mm 103.7500mm 5.7500mm 10.00mil 20.00mil "clearline"]
 	Line[109.7500mm 13.2500mm 103.7500mm 7.2500mm 10.00mil 20.00mil "clearline"]
-	Line[9.0000mm 27.5000mm 11.7500mm 24.7500mm 10.00mil 20.00mil "clearline"]
-	Line[11.7500mm 24.7500mm 11.7500mm 16.0000mm 10.00mil 20.00mil "clearline"]
+	Line[9.0000mm 27.7500mm 11.7500mm 25.0000mm 10.00mil 20.00mil "clearline"]
+	Line[11.7500mm 25.0000mm 11.7500mm 16.0000mm 10.00mil 20.00mil "clearline"]
 	Line[11.7500mm 16.0000mm 13.5000mm 14.2500mm 10.00mil 20.00mil "clearline"]
 	Line[13.5000mm 14.2500mm 19.0000mm 14.2500mm 10.00mil 20.00mil "clearline"]
 	Line[19.0000mm 14.2500mm 23.7500mm 9.5000mm 10.00mil 20.00mil "clearline"]
 	Line[23.7500mm 9.5000mm 26.5000mm 9.5000mm 10.00mil 20.00mil "clearline"]
-	Line[2.2500mm 75.0000mm 2.2500mm 13.2500mm 10.00mil 20.00mil "clearline"]
-	Line[2.2500mm 13.2500mm 10.2500mm 5.2500mm 10.00mil 20.00mil "clearline"]
 	Line[108.2500mm 39.7500mm 123.2500mm 54.7500mm 80.00mil 20.00mil "clearline"]
 	Line[73.0000mm 14.7500mm 74.2500mm 16.0000mm 10.00mil 20.00mil "clearline"]
 	Line[74.2500mm 16.0000mm 74.2500mm 18.7500mm 10.00mil 20.00mil "clearline"]
@@ -9626,9 +9541,8 @@ Layer(4 "bottom" "copper")
 	Line[43.0000mm 36.7500mm 43.0000mm 72.7500mm 10.00mil 20.00mil "clearline"]
 	Line[43.0000mm 72.7500mm 40.5000mm 75.2500mm 10.00mil 20.00mil "clearline"]
 	Line[40.5000mm 75.2500mm 40.5000mm 78.5000mm 10.00mil 20.00mil "clearline"]
-	Line[29.7500mm 14.5000mm 28.2500mm 13.0000mm 10.00mil 20.00mil "clearline"]
-	Line[28.2500mm 13.0000mm 27.0000mm 13.0000mm 10.00mil 20.00mil "clearline"]
-	Line[27.0000mm 13.0000mm 24.5000mm 15.5000mm 10.00mil 20.00mil "clearline"]
+	Line[28.2500mm 14.5000mm 25.5000mm 14.5000mm 10.00mil 20.00mil "clearline"]
+	Line[25.5000mm 14.5000mm 24.5000mm 15.5000mm 10.00mil 20.00mil "clearline"]
 	Line[24.5000mm 15.5000mm 18.2500mm 15.5000mm 10.00mil 20.00mil "clearline"]
 	Line[51.7500mm 32.7500mm 59.0000mm 25.5000mm 10.00mil 20.00mil "clearline"]
 	Line[51.2500mm 30.7500mm 57.0000mm 25.0000mm 10.00mil 20.00mil "clearline"]
@@ -9649,34 +9563,38 @@ Layer(4 "bottom" "copper")
 	Line[87.7500mm 10.7500mm 92.7500mm 5.7500mm 10.00mil 20.00mil "clearline"]
 	Line[40.7500mm 11.5000mm 57.5000mm 11.5000mm 10.00mil 20.00mil "clearline"]
 	Line[41.0000mm 13.2500mm 39.2500mm 11.5000mm 10.00mil 20.00mil "clearline"]
-	Line[68.0000mm 14.7500mm 61.5000mm 14.7500mm 25.00mil 20.00mil "clearline"]
-	Line[61.7500mm 14.7500mm 40.2500mm 14.7500mm 25.00mil 20.00mil "clearline"]
+	Line[68.0000mm 14.7500mm 40.2500mm 14.7500mm 25.00mil 20.00mil "clearline"]
 	Line[36.5000mm 13.2500mm 39.2500mm 16.0000mm 10.00mil 20.00mil "clearline"]
-	Line[39.2500mm 16.0000mm 2500.00mil 16.0000mm 10.00mil 20.00mil "clearline"]
-	Line[63.0000mm 16.0000mm 66.5000mm 16.0000mm 10.00mil 20.00mil "clearline"]
-	Line[57.5000mm 11.5000mm 53.5000mm 11.5000mm 10.00mil 20.00mil "clearline"]
+	Line[39.2500mm 16.0000mm 66.5000mm 16.0000mm 10.00mil 20.00mil "clearline"]
 	Line[38.5000mm 9.5000mm 39.5000mm 8.5000mm 10.00mil 20.00mil "clearline"]
 	Line[39.5000mm 8.5000mm 47.2500mm 8.5000mm 10.00mil 20.00mil "clearline"]
 	Line[31.0000mm 12.2500mm 31.0000mm 8.7500mm 10.00mil 20.00mil "clearline"]
 	Line[31.0000mm 8.7500mm 35.5000mm 4.2500mm 10.00mil 20.00mil "clearline"]
 	Line[35.5000mm 7.0000mm 38.2500mm 4.2500mm 10.00mil 20.00mil "clearline"]
-	Line[39.2500mm 20.2500mm 40.7500mm 18.7500mm 10.00mil 20.00mil "clearline"]
-	Line[71.7500mm 16.0000mm 73.0000mm 17.2500mm 10.00mil 20.00mil "clearline"]
-	Line[70.5000mm 17.2500mm 70.5000mm 18.2500mm 10.00mil 20.00mil "clearline"]
-	Line[70.5000mm 18.2500mm 67.7500mm 21.0000mm 10.00mil 20.00mil "clearline"]
-	Line[67.7500mm 21.0000mm 38.0000mm 21.0000mm 10.00mil 20.00mil "clearline"]
-	Line[71.7500mm 16.0000mm 69.7500mm 16.0000mm 10.00mil 20.00mil "clearline"]
-	Line[69.7500mm 16.0000mm 69.2500mm 16.5000mm 10.00mil 20.00mil "clearline"]
-	Line[69.2500mm 16.5000mm 69.2500mm 18.0000mm 10.00mil 20.00mil "clearline"]
-	Line[69.2500mm 18.0000mm 68.5000mm 18.7500mm 10.00mil 20.00mil "clearline"]
-	Line[68.5000mm 18.7500mm 40.7500mm 18.7500mm 10.00mil 20.00mil "clearline"]
-	Line[27.5000mm 14.0000mm 27.5000mm 14.5000mm 10.00mil 20.00mil "clearline"]
-	Line[27.5000mm 14.5000mm 25.2500mm 16.7500mm 10.00mil 20.00mil "clearline"]
+	Line[70.2500mm 17.5000mm 68.7500mm 19.0000mm 10.00mil 20.00mil "clearline"]
+	Line[68.7500mm 19.0000mm 36.0000mm 19.0000mm 10.00mil 20.00mil "clearline"]
+	Line[69.2500mm 21.0000mm 36.2500mm 21.0000mm 10.00mil 20.00mil "clearline"]
+	Line[26.2500mm 15.7500mm 25.2500mm 16.7500mm 10.00mil 20.00mil "clearline"]
 	Line[25.2500mm 16.7500mm 16.7500mm 16.7500mm 10.00mil 20.00mil "clearline"]
 	Line[16.7500mm 16.7500mm 15.7500mm 17.7500mm 10.00mil 20.00mil "clearline"]
 	Line[10.2500mm 34.0000mm 10.2500mm 28.5000mm 10.00mil 20.00mil "clearline"]
 	Line[10.2500mm 28.5000mm 15.7500mm 23.0000mm 10.00mil 20.00mil "clearline"]
 	Line[15.7500mm 17.7500mm 15.7500mm 23.0000mm 10.00mil 20.00mil "clearline"]
+	Line[2.2500mm 27.5000mm 2.2500mm 18.2500mm 10.00mil 20.00mil "clearline"]
+	Line[2.2500mm 18.2500mm 7.5000mm 13.0000mm 10.00mil 20.00mil "clearline"]
+	Line[7.5000mm 13.0000mm 18.2500mm 13.0000mm 10.00mil 20.00mil "clearline"]
+	Line[73.0000mm 17.2500mm 69.2500mm 21.0000mm 10.00mil 20.00mil "clearline"]
+	Line[27.2500mm 12.0000mm 36.2500mm 21.0000mm 10.00mil 20.00mil "clearline"]
+	Line[112.2500mm 122.0000mm 112.2500mm 131.5000mm 80.00mil 20.00mil "clearline"]
+	Line[112.2500mm 131.5000mm 110.0000mm 133.7500mm 80.00mil 20.00mil "clearline"]
+	Line[114.7500mm 122.7500mm 114.7500mm 132.5000mm 80.00mil 20.00mil "clearline"]
+	Line[114.7500mm 132.5000mm 110.5000mm 136.7500mm 80.00mil 20.00mil "clearline"]
+	Line[135.7500mm 98.2500mm 135.7500mm 88.7500mm 80.00mil 20.00mil "clearline"]
+	Line[135.7500mm 88.7500mm 134.7500mm 87.7500mm 80.00mil 20.00mil "clearline"]
+	Line[125.7500mm 99.5000mm 128.0000mm 97.2500mm 80.00mil 20.00mil "clearline"]
+	Line[128.0000mm 97.2500mm 128.0000mm 91.2500mm 80.00mil 20.00mil "clearline"]
+	Line[123.2500mm 98.5000mm 125.5000mm 96.2500mm 80.00mil 20.00mil "clearline"]
+	Line[125.5000mm 96.2500mm 125.5000mm 90.5000mm 80.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[70.2500mm 123.7500mm] [73.7500mm 123.7500mm] [73.7500mm 133.7500mm] [70.2500mm 133.7500mm] 
@@ -9886,12 +9804,12 @@ Layer(6 "top silk" "silk")
 	Text[33.0000mm 28.5000mm 0 75 "Gate" "clearline"]
 	Text[4670.00mil 100.00mil 0 75 "DGate" "clearline"]
 	Text[3260.00mil 110.00mil 0 75 "HGate" "clearline"]
-	Text[74.0000mm 7.0000mm 0 75 "Out" "clearline"]
+	Text[48.0000mm 5.0000mm 0 75 "Out" "clearline"]
 	Text[48.7500mm 25.7500mm 0 75 "RX" "clearline"]
 	Text[48.7500mm 28.2500mm 0 75 "TX" "clearline"]
 	Text[49.0000mm 30.7500mm 0 75 "CTS" "clearline"]
 	Text[21.0000mm 39.2500mm 0 75 "Vdd" "clearline"]
-	Text[93.5000mm 1.5000mm 0 75 "EN" "clearline"]
+	Text[50.5000mm 1.5000mm 0 75 "EN" "clearline"]
 	Text[16.2500mm 135.2500mm 0 75 "GND" "clearline"]
 	Text[13.7500mm 116.5000mm 0 75 "3.3Vm" "clearline"]
 	Text[14.7500mm 64.7500mm 0 75 "+5V" "clearline"]
@@ -9931,10 +9849,7 @@ NetList()
 		Connect("P/TP7-1")
 		Connect("P/U1-2")
 		Connect("P/U1-4")
-		Connect("PC/C4-2")
 		Connect("PC/J1-3")
-		Connect("PC/R15-2")
-		Connect("PC/U4-5")
 		Connect("R/Q1-1")
 		Connect("R/R1-1")
 	)
@@ -9984,10 +9899,8 @@ NetList()
 		Connect("PC/LV1/C1-2")
 		Connect("PC/LV1/X1-5")
 		Connect("PC/R34-1")
-		Connect("PC/R35-1")
 		Connect("PC/U2-6")
 		Connect("PC/U3-1")
-		Connect("PC/UPDI-3")
 		Connect("R/LCD-2")
 		Connect("R/LV2/C1-2")
 		Connect("R/LV2/X1-5")
@@ -11003,7 +10916,7 @@ NetList()
 		Connect("P/Z2-2")
 		Connect("PC/C2-2")
 		Connect("PC/C3-2")
-		Connect("PC/C4-1")
+		Connect("PC/C4-2")
 		Connect("PC/C5-2")
 		Connect("PC/D1-2")
 		Connect("PC/J1-1")
@@ -11017,6 +10930,7 @@ NetList()
 		Connect("PC/Q4-2")
 		Connect("PC/R3-1")
 		Connect("PC/R6-2")
+		Connect("PC/R7-2")
 		Connect("PC/R11-1")
 		Connect("PC/R12-2")
 		Connect("PC/TP12-1")
@@ -11026,9 +10940,7 @@ NetList()
 		Connect("PC/U2-4")
 		Connect("PC/U2-7")
 		Connect("PC/U3-20")
-		Connect("PC/U4-1")
-		Connect("PC/U4-3")
-		Connect("PC/UPDI-1")
+		Connect("PC/Z1-2")
 		Connect("R/I2C-3")
 		Connect("R/LCD-1")
 		Connect("R/LV2/C1-1")
@@ -11183,12 +11095,6 @@ NetList()
 		Connect("H/U2-2")
 	)
 	Net("H/unnamed_net240" "(unknown)")
-	(
-		Connect("H/R3-1")
-		Connect("H/R4-1")
-		Connect("H/U2-1")
-	)
-	Net("H/unnamed_net241" "(unknown)")
 	(
 		Connect("H/C2-1")
 		Connect("H/C13-2")
@@ -11415,60 +11321,59 @@ NetList()
 		Connect("P/Q2-3")
 		Connect("P/R5-2")
 	)
-	Net("PC/unnamed_net254" "(unknown)")
+	Net("PC/unnamed_net253" "(unknown)")
 	(
 		Connect("PC/Q3-3")
 		Connect("PC/R31-1")
-		Connect("PC/R36-2")
 	)
-	Net("PC/unnamed_net255" "(unknown)")
+	Net("PC/unnamed_net254" "(unknown)")
 	(
 		Connect("PC/Q3-1")
 		Connect("PC/Q4-3")
-		Connect("PC/R35-2")
 		Connect("PC/R36-1")
 		Connect("PC/TP4-1")
+		Connect("PC/Z1-1")
+	)
+	Net("PC/unnamed_net255" "(unknown)")
+	(
+		Connect("PC/R9-2")
+		Connect("PC/R14-1")
+		Connect("PC/U3-16")
 	)
 	Net("PC/unnamed_net256" "(unknown)")
 	(
-		Connect("PC/R13-2")
-		Connect("PC/U3-16")
-		Connect("PC/UPDI-2")
+		Connect("PC/U3-17")
 	)
 	Net("PC/unnamed_net257" "(unknown)")
 	(
-		Connect("PC/U3-17")
+		Connect("PC/U3-18")
 	)
 	Net("PC/unnamed_net258" "(unknown)")
 	(
-		Connect("PC/U3-18")
-	)
-	Net("PC/unnamed_net259" "(unknown)")
-	(
 		Connect("PC/U3-19")
 	)
-	Net("PC/unnamed_net260" "(unknown)")
+	Net("PC/unnamed_net259" "(unknown)")
 	(
 		Connect("PC/TP8-1")
 		Connect("PC/U3-4")
 	)
-	Net("PC/unnamed_net261" "(unknown)")
+	Net("PC/unnamed_net260" "(unknown)")
 	(
 		Connect("PC/U3-5")
 	)
-	Net("PC/unnamed_net262" "(unknown)")
+	Net("PC/unnamed_net261" "(unknown)")
 	(
 		Connect("PC/U3-9")
 	)
-	Net("PC/unnamed_net263" "(unknown)")
+	Net("PC/unnamed_net262" "(unknown)")
 	(
 		Connect("PC/U3-8")
 	)
-	Net("PC/unnamed_net264" "(unknown)")
+	Net("PC/unnamed_net263" "(unknown)")
 	(
 		Connect("PC/U3-14")
 	)
-	Net("PC/unnamed_net265" "(unknown)")
+	Net("PC/unnamed_net264" "(unknown)")
 	(
 		Connect("PC/Q2-1")
 		Connect("PC/R5-1")
@@ -11476,56 +11381,50 @@ NetList()
 		Connect("PC/U1-9")
 		Connect("PC/U2-8")
 	)
-	Net("PC/unnamed_net266" "(unknown)")
+	Net("PC/unnamed_net265" "(unknown)")
 	(
 		Connect("PC/Q2-2")
 		Connect("PC/R4-1")
 		Connect("PC/TP6-1")
 		Connect("PC/U1-8")
 	)
-	Net("PC/unnamed_net267" "(unknown)")
+	Net("PC/unnamed_net266" "(unknown)")
 	(
 		Connect("PC/Q1-2")
 		Connect("PC/TP2-1")
 		Connect("PC/U1-1")
 	)
-	Net("PC/unnamed_net268" "(unknown)")
+	Net("PC/unnamed_net267" "(unknown)")
 	(
 		Connect("PC/C1-1")
 		Connect("PC/U1-11")
 	)
-	Net("PC/unnamed_net269" "(unknown)")
+	Net("PC/unnamed_net268" "(unknown)")
 	(
 		Connect("PC/R2-1")
 		Connect("PC/R3-2")
 		Connect("PC/TP5-1")
 		Connect("PC/U1-5")
 	)
-	Net("PC/unnamed_net270" "(unknown)")
+	Net("PC/unnamed_net269" "(unknown)")
 	(
 		Connect("PC/D2-1")
 		Connect("PC/R1-2")
 	)
-	Net("PC/unnamed_net271" "(unknown)")
+	Net("PC/unnamed_net270" "(unknown)")
 	(
 		Connect("PC/C2-1")
 		Connect("PC/R4-2")
 	)
-	Net("PC/unnamed_net272" "(unknown)")
+	Net("PC/unnamed_net271" "(unknown)")
 	(
 		Connect("PC/R10-1")
 		Connect("PC/R11-2")
 	)
-	Net("PC/unnamed_net273" "(unknown)")
+	Net("PC/unnamed_net272" "(unknown)")
 	(
 		Connect("PC/LV1/X1-4")
 		Connect("PC/R14-2")
-	)
-	Net("PC/unnamed_net276" "(unknown)")
-	(
-		Connect("PC/R13-1")
-		Connect("PC/R14-1")
-		Connect("PC/U4-2")
 	)
 	Net("pdi" "(unknown)")
 	(
@@ -11547,14 +11446,14 @@ NetList()
 	Net("pwr_rx" "(unknown)")
 	(
 		Connect("PC/J1-2")
-		Connect("PC/U4-4")
+		Connect("PC/R7-1")
+		Connect("PC/R9-1")
 		Connect("R/RPI-29")
 	)
 	Net("pwr_tx" "(unknown)")
 	(
 		Connect("PC/J1-4")
 		Connect("PC/LV1/X1-2")
-		Connect("PC/R15-1")
 		Connect("R/RPI-7")
 	)
 	Net("R/unnamed_net184" "(unknown)")
@@ -11732,7 +11631,8 @@ NetList()
 	(
 		Connect("D/J2-15")
 		Connect("H/J4-6")
-		Connect("H/R3-2")
+		Connect("H/R4-1")
+		Connect("H/U2-1")
 	)
 	Net("spin_dir" "(unknown)")
 	(
@@ -11801,8 +11701,6 @@ NetList()
 		Connect("PC/Q1-1")
 		Connect("PC/TP1-1")
 		Connect("PC/U1-2")
-		Connect("PC/U1-3")
-		Connect("PC/U1-4")
 	)
 	Net("Vdd" "(unknown)")
 	(
@@ -11814,6 +11712,8 @@ NetList()
 		Connect("PC/Q1-3")
 		Connect("PC/Q2-3")
 		Connect("PC/TP3-1")
+		Connect("PC/U1-3")
+		Connect("PC/U1-4")
 		Connect("PC/U1-10")
 		Connect("PC/U1-12")
 	)
@@ -11893,9 +11793,11 @@ NetList()
 		Connect("D/Z/U1-4")
 		Connect("H/C12-1")
 		Connect("H/U1-2")
+		Connect("PC/C4-1")
 		Connect("PC/R5-2")
 		Connect("PC/R8-2")
 		Connect("PC/R31-2")
+		Connect("PC/R36-2")
 		Connect("PC/TP13-1")
 		Connect("PC/U2-1")
 	)

@@ -1,4 +1,4 @@
-v 20130925 2
+v 20111231 2
 C 40000 40000 0 0 0 title-B.sym
 C 48700 45000 1 0 0 power.sym
 {
@@ -27,7 +27,7 @@ Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-14.0
+15.0
 C 52300 45000 1 0 0 peripherals.sym
 {
 T 52900 45500 5 10 1 1 0 0 1

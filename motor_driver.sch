@@ -14,7 +14,7 @@ device=DRC_Directive
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-14.0
+15.0
 C 51100 50100 1 0 0 Vs.sym
 {
 T 51200 50800 5 10 0 0 0 0 1

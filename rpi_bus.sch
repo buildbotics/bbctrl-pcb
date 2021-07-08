@@ -1,4 +1,4 @@
-v 20130925 2
+v 20111231 2
 C 40000 40000 0 0 0 title-B.sym
 C 43400 49600 1 270 0 5V-plus.sym
 C 43400 49200 1 270 0 5V-plus.sym
@@ -9,7 +9,7 @@ Licensed under CERN-OHL-S v2
 T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
-14.0
+15.0
 C 43400 48100 1 0 0 output.sym
 {
 T 43950 48100 5 10 0 0 0 0 1
