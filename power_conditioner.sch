@@ -1,4 +1,4 @@
-v 20111231 2
+v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
 C 42200 47400 1 0 1 connector6-2.sym
 {
@@ -678,8 +678,6 @@ T 41200 40300 5 10 0 0 0 6 1
 model=M20-9990446
 T 41200 40300 5 10 0 0 0 6 1
 description=HARWIN  4POS SIL VERTICAL PIN HEADER
-T 41200 40300 5 10 0 1 0 0 1
-documentation=Do not populate.
 }
 C 41500 41800 1 90 0 gnd.sym
 C 42000 40600 1 0 1 input.sym
