@@ -28,13 +28,13 @@ T 53900 40100 9 10 1 0 0 0 1
 Doug & Joe Coffland
 T 53800 40400 9 10 1 0 0 0 1
 15.0
-C 52300 45000 1 0 0 peripherals.sym
+C 52600 45000 1 0 0 peripherals.sym
 {
-T 52900 45500 5 10 1 1 0 0 1
+T 53200 45500 5 10 1 1 0 0 1
 refdes=H
 }
-C 50500 45000 1 0 0 power_conditioner.sym
+C 50700 45000 1 0 0 power_conditioner.sym
 {
-T 51100 45500 5 10 1 1 0 0 1
+T 51300 45500 5 10 1 1 0 0 1
 refdes=PC
 }
