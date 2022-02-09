@@ -846,13 +846,13 @@ refdes=C2
 T 49700 48800 5 10 0 2 90 6 1
 symversion=0.1
 T 50800 49125 5 10 1 1 90 6 1
-value=2.2uF
+value=1uF
 T 50600 49000 5 10 0 0 90 6 1
 footprint=1210_ext
 T 50600 49000 5 10 0 0 90 6 1
-model=HMK325B7225MM-P
+model=12101C105KAT4A
 T 50600 49000 5 10 0 0 90 6 1
-description=2.2 µF ±20% 100V Ceramic Capacitor X7R 1210 (3225 Metric)
+description=1 µF ±10% 100V Ceramic Capacitor X7R 1210 (3225 Metric)
 }
 C 51000 43900 1 0 0 output.sym
 {
