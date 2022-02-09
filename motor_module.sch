@@ -111,7 +111,7 @@ C 49800 45700 1 0 0 input.sym
 T 50050 45700 5 10 0 0 0 6 1
 device=OUTPUT
 T 50050 45700 5 10 1 1 0 6 1
-net=drv_enable:1
+net=drv_enable_5V:1
 }
 C 49800 45300 1 0 0 input.sym
 {
@@ -223,21 +223,21 @@ C 49800 42900 1 0 0 input.sym
 T 50050 42900 5 10 0 0 0 6 1
 device=OUTPUT
 T 50050 42900 5 10 1 1 0 6 1
-net=drv_enable:1
+net=drv_enable_5V:1
 }
 C 53800 42900 1 0 0 input.sym
 {
 T 54050 42900 5 10 0 0 0 6 1
 device=OUTPUT
 T 54050 42900 5 10 1 1 0 6 1
-net=drv_enable:1
+net=drv_enable_5V:1
 }
 C 53800 45700 1 0 0 input.sym
 {
 T 54050 45700 5 10 0 0 0 6 1
 device=OUTPUT
 T 54050 45700 5 10 1 1 0 6 1
-net=drv_enable:1
+net=drv_enable_5V:1
 }
 C 50600 42100 1 0 1 output.sym
 {
@@ -281,57 +281,57 @@ device=INPUT
 T 54050 42300 5 10 1 1 0 6 1
 net=stall_a:1
 }
-C 47300 41100 1 0 0 connector6-2.sym
+C 47300 43100 1 0 0 connector6-2.sym
 {
-T 47600 43150 5 10 0 0 0 0 1
+T 47600 45150 5 10 0 0 0 0 1
 device=CONNECTOR_6
-T 47600 43350 5 10 0 0 0 0 1
+T 47600 45350 5 10 0 0 0 0 1
 footprint=JUMPER6
-T 47300 41100 5 10 0 0 0 0 1
+T 47300 43100 5 10 0 0 0 0 1
 description=Unpopulated test point, label on board
-T 47300 41100 5 10 0 0 0 0 1
+T 47300 43100 5 10 0 0 0 0 1
 documentation=Do not popluate
-T 47300 41100 5 10 0 0 0 0 1
+T 47300 43100 5 10 0 0 0 0 1
 value=N/A
-T 47300 41100 5 10 0 0 0 0 1
+T 47300 43100 5 10 0 0 0 0 1
 model=N/A
-T 47900 44000 5 10 1 1 0 6 1
+T 47900 46000 5 10 1 1 0 6 1
 refdes=J1
 }
-C 46500 42600 1 0 0 input.sym
+C 46500 44600 1 0 0 input.sym
 {
-T 46750 42600 5 10 0 0 0 6 1
+T 46750 44600 5 10 0 0 0 6 1
 device=INPUT
-T 46750 42600 5 10 1 1 0 6 1
+T 46750 44600 5 10 1 1 0 6 1
 net=motor_clk:1
 }
-C 47300 41800 1 0 1 output.sym
+C 47300 43800 1 0 1 output.sym
 {
-T 46750 41800 5 10 0 0 0 6 1
+T 46750 43800 5 10 0 0 0 6 1
 device=OUTPUT
-T 46750 41800 5 10 1 1 0 6 1
+T 46750 43800 5 10 1 1 0 6 1
 net=motor_miso:1
 }
-C 46500 42200 1 0 0 input.sym
+C 46500 44200 1 0 0 input.sym
 {
-T 46750 42200 5 10 0 0 0 6 1
+T 46750 44200 5 10 0 0 0 6 1
 device=INPUT
-T 46750 42200 5 10 1 1 0 6 1
+T 46750 44200 5 10 1 1 0 6 1
 net=motor_mosi:1
 }
-C 47000 41600 1 270 0 gnd.sym
-C 46500 43000 1 0 0 input.sym
+C 47000 43600 1 270 0 gnd.sym
+C 46500 45000 1 0 0 input.sym
 {
-T 46750 43000 5 10 0 0 0 6 1
+T 46750 45000 5 10 0 0 0 6 1
 device=INPUT
-T 46750 43000 5 10 1 1 0 6 1
+T 46750 45000 5 10 1 1 0 6 1
 net=motor_fault:1
 }
-C 46500 43400 1 0 0 input.sym
+C 46500 45400 1 0 0 input.sym
 {
-T 46750 43400 5 10 0 0 0 6 1
+T 46750 45400 5 10 0 0 0 6 1
 device=INPUT
-T 46750 43400 5 10 1 1 0 6 1
+T 46750 45400 5 10 1 1 0 6 1
 net=motor_enable:1
 }
 C 50600 44400 1 0 0 motor_driver.sym
@@ -369,12 +369,6 @@ device=OUTPUT
 T 43150 49300 5 10 1 1 0 0 1
 net=drv_dir_x:1
 }
-N 42200 40600 42000 40600 4
-N 42600 40600 43000 40600 4
-N 42800 40600 42800 40300 4
-C 41700 40400 1 270 0 gnd.sym
-N 42200 40300 42000 40300 4
-N 42600 40300 42800 40300 4
 N 42200 41300 42000 41300 4
 N 42600 41300 43000 41300 4
 N 42800 41300 42800 41000 4
@@ -406,20 +400,6 @@ C 42000 43300 1 90 0 3.3V_motor.sym
 {
 T 41300 43400 5 10 0 0 90 0 1
 device=none
-}
-C 41200 40500 1 0 0 input.sym
-{
-T 41450 40500 5 10 0 0 0 6 1
-device=INPUT
-T 41450 40500 5 10 1 1 0 6 1
-net=motor_enable:1
-}
-C 43000 40500 1 0 0 output.sym
-{
-T 43550 40500 5 10 0 0 0 0 1
-device=OUTPUT
-T 43550 40500 5 10 1 1 0 0 1
-net=drv_enable:1
 }
 C 41200 41200 1 0 0 input.sym
 {
@@ -477,21 +457,6 @@ device=INPUT
 T 43550 43200 5 10 1 1 0 0 1
 net=drv_fault:1
 }
-C 42100 40200 1 0 0 cap.sym
-{
-T 42100 40800 5 10 0 0 0 0 1
-device=CAPACITOR
-T 42725 40500 5 10 1 1 180 0 1
-refdes=C5
-T 42375 40500 5 10 1 1 180 0 1
-value=130pF
-T 42100 40200 5 10 0 0 270 0 1
-footprint=0805_ext
-T 42100 40200 5 10 0 0 270 0 1
-model=CL21C131JBANNNC
-T 42100 40200 5 10 0 0 270 0 1
-description=130pF 50V Ceramic Capacitor C0G, NP0 0805
-}
 C 42100 40900 1 0 0 cap.sym
 {
 T 42100 41500 5 10 0 0 0 0 1
@@ -521,21 +486,6 @@ T 42100 41500 5 10 0 0 270 0 1
 model=CL21C131JBANNNC
 T 42100 41500 5 10 0 0 270 0 1
 description=130pF 50V Ceramic Capacitor C0G, NP0 0805
-}
-C 42000 40500 1 0 0 resistor.sym
-{
-T 42300 40900 5 10 0 0 0 0 1
-device=RESISTOR
-T 42000 40500 5 10 0 0 0 0 1
-footprint=0805_ext
-T 42025 40650 5 10 1 1 0 0 1
-refdes=R7
-T 42500 40650 5 10 1 1 0 0 1
-value=180
-T 42000 40500 5 10 0 0 0 0 1
-model=RMCF0805JT180R
-T 42000 40500 5 10 0 0 0 0 1
-description=RES SMD 180 OHM 5% 1/8W 0805
 }
 C 42000 41200 1 0 0 resistor.sym
 {
@@ -736,7 +686,7 @@ C 51700 50300 1 0 1 input.sym
 T 51450 50300 5 10 0 0 0 0 1
 device=OUTPUT
 T 51450 50300 5 10 1 1 0 0 1
-net=drv_enable:1
+net=drv_enable_5V:1
 }
 C 51200 47500 1 90 0 gnd.sym
 C 48700 49900 1 0 0 input.sym
